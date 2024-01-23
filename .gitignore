@@ -4,3 +4,7 @@
 .Ruserdata
 
 /.quarto/
+
+.DS_Store
+
+.quarto
