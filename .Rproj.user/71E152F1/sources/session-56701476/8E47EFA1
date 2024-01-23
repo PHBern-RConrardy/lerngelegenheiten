@@ -1,0 +1,31 @@
+{
+    "id": "8E47EFA1",
+    "path": "~/Nextcloud/Quarto/Quarto_Kurse/index.qmd",
+    "project_path": "index.qmd",
+    "type": "quarto_markdown",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1705957164693.0,
+    "source_on_save": true,
+    "relative_order": 2,
+    "properties": {
+        "source_window_id": "",
+        "Source": "Source",
+        "cursorPosition": "4,3",
+        "scrollLine": "0",
+        "rmdVisualMode": "false",
+        "rmdVisualWrapConfigured": "true",
+        "docOutlineVisible": "1",
+        "rmdVisualCollapsedChunks": "",
+        "rmdVisualModeLocation": "303:287.7272644042969"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1706023326,
+    "encoding": "UTF-8",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1706023326247,
+    "read_only": false,
+    "read_only_alternatives": []
+}

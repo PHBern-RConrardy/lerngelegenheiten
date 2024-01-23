@@ -1,0 +1,106 @@
+---
+title: "Python"
+subtitle: "Variablen, Datentypen und Type Casting"
+format: revealjs
+---
+
+## Lernziele
+
+> Sie verstehen das Prinzip von Conditionals (If-Elif-Else) und können dieses Wissen in einem Programm umsetzen.
+
+> Sie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen.
+
+## Was sind Conditionals?
+
+Conditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man "if Bedingung: dann". Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).
+
+```python
+note = 4.5
+
+if note >= 4:
+  print("Prüfung bestanden")
+  print("...")  # Alles in einer If-Bedingung muss eingerückt sein
+else:
+  print("Mehr Code")  # Ohne Einrücken ist es wieder normaler Code
+```  
+  
+
+## If-Elif-Else
+
+Mit elif (Abkürzung für "else-if") und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.
+
+```Python
+x = 1
+
+if x > 1:
+  print("x ist größer als 1")
+elif x < 1:
+  print("x ist kleiner als 1")
+else:
+  print("x ist gleich 1")
+```
+
+Achtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =.
+
+## Logische Operatoren (Optional) 
+
+* `and` (Deutsch: und)
+* `or` (Deutsch: oder)
+* `not` (Deutsch: nicht)
+
+```Python
+x = 5
+y = 6
+
+if x == 5 and y == 6:
+  print("Beide Aussagen sind Wahr")
+
+if x == 5 or y == 6:
+  print("Eine oder beide Aussagen sind Wahr")
+
+if not x == 5:  # Gleich wie x != 5
+  print("Die Aussage ist nicht Wahr")
+````
+
+## Was ihr vermeiden solltet!
+
+Vergleichen von Booleans mit `==`
+
+```Python
+winter = True
+
+if winter == True:  # Schlechter Programmierstil
+  print("Es ist Winter")
+
+if winter:  # Viel besser
+  print("Es ist Winter")
+```
+
+Vergleichen von Floats mit `==`
+```Python
+meter = 1.8324
+
+if meter == 1.8324:  # Nicht gut, da Floats nur "ungefähr" sind
+  print("Sie sind 1.83 Meter groß")
+
+if 1.83 < meter < 1.84:  # Viel besser
+  print("Sie sind 1.83 Meter groß")
+````
+
+## Das Flussdiagramm als visuelle Darstellung
+```Python
+n = int(input("Note eingeben: "))
+
+if n >= 4:
+  print("Note: " + str(n))
+else:
+  print("Prüfung nicht bestanden!")
+```
+
+## Auftrag: Login mit Passwort
+1. Programmieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”.
+2. Erstellen sie das Flussdiagramm dazu.
+
+## Auftrag: Login mit Benutzer und Passwort
+1. Ergänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.
+2. Erstellen sie ein Flussdiagramm dazu.

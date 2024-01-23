@@ -1,0 +1,100 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1007/s11251-013-9282-5",
+            "URL": "https://doi.org/10.1007/s11251-013-9282-5",
+            "author": [
+                {
+                    "family": "Loibl",
+                    "given": "Katharina"
+                },
+                {
+                    "family": "Rummel",
+                    "given": "Nikol"
+                }
+            ],
+            "container-title": "Instructional Science",
+            "id": "loibl2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "305-326",
+            "title": "The impact of guidance during problem-solving prior to instruction on students’ inventions and learning outcomes",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "DOI": "10.1080/10508406.2011.591717",
+            "URL": "https://doi.org/10.1080/10508406.2011.591717",
+            "author": [
+                {
+                    "family": "Kapur",
+                    "given": "Manu"
+                },
+                {
+                    "family": "Bielaczyc",
+                    "given": "Katerine"
+                }
+            ],
+            "container-title": "Journal of the Learning Sciences",
+            "id": "kapur2012",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "note": "Publisher: Routledge _eprint: https://doi.org/10.1080/10508406.2011.591717",
+            "page": "45-83",
+            "title": "Designing for productive failure",
+            "type": "article-journal",
+            "volume": "21"
+        },
+        {
+            "DOI": "10.3102/00346543211019105",
+            "URL": "http://journals.sagepub.com/doi/10.3102/00346543211019105",
+            "author": [
+                {
+                    "family": "Sinha",
+                    "given": "Tanmay"
+                },
+                {
+                    "family": "Kapur",
+                    "given": "Manu"
+                }
+            ],
+            "container-title": "Review of Educational Research",
+            "id": "sinha2021",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        10
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "761-798",
+            "title": "When Problem Solving Followed by Instruction Works: Evidence for Productive Failure",
+            "title-short": "When Problem Solving Followed by Instruction Works",
+            "type": "article-journal",
+            "volume": "91"
+        }
+    ],
+    "project_biblios": [
+        "bibliographie_richard.bib"
+    ]
+}

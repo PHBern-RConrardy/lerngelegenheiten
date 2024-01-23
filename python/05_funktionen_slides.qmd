@@ -1,0 +1,103 @@
+---
+title: "Python"
+subtitle: "Funktionen"
+format: revealjs
+---
+
+# Lernziele :dart:
+
+> Sie verstehen das Prinzip von Funktionen und können dieses Wissen in einem Programm umsetzen
+
+## Was sind Funktionen? :calculator:
+
+Funktionen kennen sie bereits aus der Mathematik, z. B. `f(x) = 2x`.
+
+In Python werden Funktionen mit `def`/`return` definiert und meistens verwendet, um Code besser zu strukturieren:
+
+```python
+# Definition einer Funktion
+def meine_funktion(x):
+  return 2*x
+
+# Funktionen können mehrmals aufgerufen werden
+print(meine_funktion(2))
+print(meine_funktion(4))
+# Output: 4 8
+```
+
+(Im Gegensatz zu einer Variable sollte ein langer Funktionsname mit einem Bodenstrich getrennt werden, z.B., bmi_berechnen() und nicht bmiBerechnen())
+
+## Parameter bzw. Argumente
+
+Funktionen können (müssen aber nicht) Argumente haben:
+
+```Python
+def funktion_ohne_argument():
+  print("hello")
+
+def funktion_mit_argument(x):
+  print(x)
+
+# Funktionen haben immer Klammern (mit oder ohne Argumente)
+funktion_ohne_argument()
+funktion_mit_argument("world")
+# Output: hello world
+```
+
+Die Argumente sind nur innerhalb der Funktion erreichbar:
+
+```Python
+def meine_funktion(x):
+  print(x) # x ist das Argument/Parameter
+
+print(x) # x wird nicht gefunden
+````
+
+## Rückgabewert
+
+Funktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:
+
+```Python
+def funktion_ohne_rückgabewert(x):
+  y = 2*x
+
+def funktion_mit_rückgabewert(x):
+  y = 2*x
+  return y
+
+v1 = funktion_ohne_rückgabewert(5)
+v2 = funktion_mit_rückgabewert(5)
+
+print(v1) # Output: None
+print(v2) # Output: 10
+```
+
+## Reine vs. Modifizierte Funktionen 
+
+In der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!
+
+## 
+
+```Python
+globaleVariable = 0 # Das ist eine globale Variable
+
+def reine_funktion(x):
+  return 2*x
+
+def modifizierte_funktion(x):
+  global globaleVariable # auf globale Variable zugreifen
+  globaleVariable = globaleVariable + 1
+  return 2*x*globaleVariable
+
+reine_funktion(4) # Output: 8
+reine_funktion(4) # Output: 8
+modifizierte_funktion(4) # Output: 8
+modifizierte_funktion(4) # Output: 16 --> anderer Output
+
+````
+
+## Auftrag: Brief Adressieren
+
+Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:
+
+Vorname, Name, Strasse, Strassennr, Plz, Ort

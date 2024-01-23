@@ -1,0 +1,480 @@
+{
+    "sources": [
+        {
+            "DOI": "10.1007/s11251-013-9282-5",
+            "URL": "https://doi.org/10.1007/s11251-013-9282-5",
+            "author": [
+                {
+                    "family": "Loibl",
+                    "given": "Katharina"
+                },
+                {
+                    "family": "Rummel",
+                    "given": "Nikol"
+                }
+            ],
+            "container-title": "Instructional Science",
+            "id": "loibl2014",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "305-326",
+            "title": "The impact of guidance during problem-solving prior to instruction on students’ inventions and learning outcomes",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "DOI": "10.1080/0969594X.2017.1390439",
+            "URL": "https://www.tandfonline.com/doi/full/10.1080/0969594X.2017.1390439",
+            "author": [
+                {
+                    "family": "Imlig",
+                    "given": "Flavian"
+                },
+                {
+                    "family": "Ender",
+                    "given": "Susanne"
+                }
+            ],
+            "container-title": "Assessment in Education: Principles, Policy & Practice",
+            "id": "imlig2018",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        5,
+                        4
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "272-290",
+            "title": "Towards a national assessment policy in Switzerland: areas of conflict in the use of assessment instruments",
+            "title-short": "Towards a national assessment policy in Switzerland",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "DOI": "10.1080/10508406.2011.591717",
+            "URL": "https://doi.org/10.1080/10508406.2011.591717",
+            "author": [
+                {
+                    "family": "Kapur",
+                    "given": "Manu"
+                },
+                {
+                    "family": "Bielaczyc",
+                    "given": "Katerine"
+                }
+            ],
+            "container-title": "Journal of the Learning Sciences",
+            "id": "kapur2012",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "note": "Publisher: Routledge _eprint: https://doi.org/10.1080/10508406.2011.591717",
+            "page": "45-83",
+            "title": "Designing for productive failure",
+            "type": "article-journal",
+            "volume": "21"
+        },
+        {
+            "DOI": "10.3102/00346543211019105",
+            "URL": "http://journals.sagepub.com/doi/10.3102/00346543211019105",
+            "author": [
+                {
+                    "family": "Sinha",
+                    "given": "Tanmay"
+                },
+                {
+                    "family": "Kapur",
+                    "given": "Manu"
+                }
+            ],
+            "container-title": "Review of Educational Research",
+            "id": "sinha2021",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        10
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "761-798",
+            "title": "When Problem Solving Followed by Instruction Works: Evidence for Productive Failure",
+            "title-short": "When Problem Solving Followed by Instruction Works",
+            "type": "article-journal",
+            "volume": "91"
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/uebergeordnete-themen/medien-und-informatik/unterricht/medien-informatik-factsheet.pdf",
+            "author": [
+                {
+                    "family": "Regez",
+                    "given": "Adrian"
+                },
+                {
+                    "family": "Lutz",
+                    "given": "Elia"
+                }
+            ],
+            "id": "regez2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "title": "Medien informatik factsheet",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF",
+            "author": [
+                {
+                    "family": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektiondeskantonsbern2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "title": "Lehrplan 21 - 5. unterrichtsentwicklung",
+            "type": ""
+        },
+        {
+            "URL": "https://openai.com/policies/terms-of-use",
+            "author": [
+                {
+                    "family": "OpenAI"
+                }
+            ],
+            "id": "openai",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "Terms of use",
+            "type": ""
+        },
+        {
+            "URL": "https://www.heise.de/hintergrund/Missing-Link-Von-der-Logik-des-Ueberflusses-und-einer-gekauften-Zukunft-9330937.html",
+            "author": [
+                {
+                    "family": "Ermert",
+                    "given": "Geoff"
+                }
+            ],
+            "id": "ermert2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        15
+                    ]
+                ]
+            },
+            "language": "de",
+            "title": "Missing Link: Von der Logik des Überflusses und einer gekauften Zukunft",
+            "title-short": "Missing Link",
+            "type": ""
+        },
+        {
+            "URL": "https://stellwerk.ch/stellwerk/#produkt",
+            "author": [
+                {
+                    "family": "Lehrmittelverlag St.Gallen"
+                }
+            ],
+            "id": "lehrmittelverlagst.gallen",
+            "language": "de-DE",
+            "title": "Stellwerk",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Eckhart",
+                    "given": "Michael"
+                }
+            ],
+            "edition": "1. Auflage",
+            "editor": [
+                {
+                    "family": "Ammann-Tinguely",
+                    "given": "Christiane"
+                },
+                {
+                    "family": "Caroline Sahli Lozano"
+                }
+            ],
+            "id": "eckhart2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "hep Verlag AG",
+            "publisher-place": "Bern",
+            "title": "3.1 reichhaltige aufgaben",
+            "type": "chapter"
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/umsetzungshilfe/umsetzungshilfen-zyklus-1-bis-3.pdf",
+            "author": [
+                {
+                    "family": "Hirt",
+                    "given": "Ueli"
+                },
+                {
+                    "family": "Marti",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Sasdi",
+                    "given": "Philippe"
+                },
+                {
+                    "family": "Schärer",
+                    "given": "Andy"
+                },
+                {
+                    "family": "Seiler",
+                    "given": "Isabelle"
+                },
+                {
+                    "family": "Wehrlin",
+                    "given": "Johanna"
+                }
+            ],
+            "id": "hirt2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "publisher": "Erziehungsdirektion des Kantons Bern Lehrplan- und Lehrmittelkommission (LPLMK)",
+            "title": "Umsetzung des lehrplans 21 im fachbereich mathematik handreichung für die zyklen 1 bis 3",
+            "type": ""
+        },
+        {
+            "URL": "https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html",
+            "author": [
+                {
+                    "family": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektiondeskantonsbern",
+            "language": "de",
+            "title": "Dokumentation der summativen Beurteilung Mathematik",
+            "type": "article-journal"
+        },
+        {
+            "URL": "ds",
+            "author": [
+                {
+                    "family": "Nydegger",
+                    "given": "Renfer"
+                }
+            ],
+            "id": "nydegger2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        6
+                    ]
+                ]
+            },
+            "language": "de",
+            "title": "Reichhaltige Aufgaben",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Hirt",
+                    "given": "Ueli"
+                },
+                {
+                    "family": "Marti",
+                    "given": "Maria"
+                },
+                {
+                    "family": "Sasdi",
+                    "given": "Philippe"
+                },
+                {
+                    "family": "Schärer",
+                    "given": "Andy"
+                },
+                {
+                    "family": "Seiler",
+                    "given": "Isabelle"
+                },
+                {
+                    "family": "Wehrlin",
+                    "given": "Johanna"
+                }
+            ],
+            "id": "hirt2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "language": "de",
+            "title": "Checkliste zur Einschätzung der Reichhaltigkeit einer Aufgabe",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/BF00138871",
+            "URL": "http://link.springer.com/10.1007/BF00138871",
+            "author": [
+                {
+                    "family": "Biggs",
+                    "given": "John"
+                }
+            ],
+            "container-title": "Higher Education",
+            "id": "biggs1996",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1996,
+                        10
+                    ]
+                ]
+            },
+            "language": "en",
+            "page": "347-364",
+            "title": "Enhancing teaching through constructive alignment",
+            "type": "article-journal",
+            "volume": "32"
+        },
+        {
+            "DOI": "10.1007/978-3-322-84149-0",
+            "URL": "http://link.springer.com/10.1007/978-3-322-84149-0",
+            "author": [
+                {
+                    "family": "Van Dormolen",
+                    "given": "Johan"
+                }
+            ],
+            "id": "vandormolen1978",
+            "issued": {
+                "date-parts": [
+                    [
+                        1978
+                    ]
+                ]
+            },
+            "language": "de",
+            "note": "DOI: 10.1007/978-3-322-84149-0",
+            "publisher": "Vieweg+Teubner Verlag",
+            "publisher-place": "Wiesbaden",
+            "title": "Didaktik der Mathematik",
+            "type": "book"
+        },
+        {
+            "URL": "https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm",
+            "author": [
+                {
+                    "family": "Bildungs- und Kulturdirektion des Kantons Bern"
+                }
+            ],
+            "id": "bildungs-undkulturdirektiondeskantonsbern2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        6,
+                        23
+                    ]
+                ]
+            },
+            "language": "de",
+            "title": "Lehrplan 21 - Allgemeine Hinweise und Bestimmungen (AHB) - 5.2 Beurteilung",
+            "type": ""
+        },
+        {
+            "URL": "https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11",
+            "author": [
+                {
+                    "family": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektiondeskantonsbern2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        8
+                    ]
+                ]
+            },
+            "title": "BSG 432.213.11 - direktionsverordnung über die beurteilung und schullaufbahnentscheide in der volksschule - kanton bern - erlass-sammlung",
+            "type": ""
+        },
+        {
+            "URL": "https://www.bkd.be.ch/content/dam/bkd/dokumente/de/themen/bildung/kindergarten-und-volksschule/die-volksschule/media-center/deutsch/beurteilung-lp21-elterninformation-deutsch-d.pdf",
+            "author": [
+                {
+                    "family": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektiondeskantonsbern2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        2
+                    ]
+                ]
+            },
+            "language": "de",
+            "title": "Beurteilung in der Primarstufe und in der Sekundarstufe I der Volksschule",
+            "type": "article-journal"
+        }
+    ],
+    "project_biblios": [
+        "bibliographie_richard.bib"
+    ]
+}

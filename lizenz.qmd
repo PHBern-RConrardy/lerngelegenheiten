@@ -1,0 +1,13 @@
+---
+title: "Lizenz"
+format: html
+---
+Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:
+
+[University of Teacher Education Bern](https://phbern.ch), [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
+
+Die Inhalte des *Python*-Kurses basieren auf dem [Online Kurs](https://pgigeruzh.github.io/informatik/) von *Peter Giger*, welcher unter einer [CC BY 4.0](CC BY-SA 4.0) steht.
+
+Folgende Autoren möchten hier aufgeführt werden, verzichten jedoch auf Namensnennung bei Wiederverwendung:
+
+* Richard François Conrardy

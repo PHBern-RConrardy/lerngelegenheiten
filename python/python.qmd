@@ -1,0 +1,491 @@
+---
+title: "Programmieren in Python"
+format: html
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+abstract: test
+---
+
+| Thema                                          |                                      Slides                                      |                           Übungen                            |
+|----------------------------------------------|:-----------:|:-----------:|
+| Variablen, Datentypen und Type Casting         |  [<i class="bi bi-easel3-fill"></i>](01_variablen_slides.qmd){target="_blank"}   |  [<i class="bi bi-folder-fill"></i>](#prüfungsvorbereitung)  |
+| Conditionals (if-elif-else) und Flussdiagramme | [<i class="bi bi-easel3-fill"></i>](02_conditionals_slides.qmd){target="_blank"} | [<i class="bi bi-folder-fill"></i>](#prüfungsvorbereitung-1) |
+| Loops (while, for) und Flussdiagramme          |    [<i class="bi bi-easel3-fill"></i>](03_loops_slides.qmd){target="_blank"}     | [<i class="bi bi-folder-fill"></i>](#prüfungsvorbereitung-2) |
+| Listen                                         |    [<i class="bi bi-easel3-fill"></i>](04_listen_slides.qmd){target="_blank"}    | [<i class="bi bi-folder-fill"></i>](#prüfungsvorbereitung-3) |
+| Funktionen                                     |  [<i class="bi bi-easel3-fill"></i>](05_funktionen_slides.qmd){target="_blank"}  | [<i class="bi bi-folder-fill"></i>](#prüfungsvorbereitung-4) |
+
+: Tabellarische Übersicht
+
+---
+
+# Variablen, Datentypen und Type Casting
+
+
+## Hilfreiche Links
+
+**Wichtig:** Verbringen Sie nicht zu viel Zeit mit der Theorie.
+Stundenlang Videos schauen oder Texte lesen wird Sie nicht
+weiterbringen. Beim Programmieren geht es um das "Können" und nicht um
+das "Wissen". Deshalb empfehle ich Ihnen, selbst zu experimentieren und
+viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf **Youtube** finden Sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[Variablen](https://www.youtube.com/watch?v=jfOLXKPGXJ0),
+[Datentypen](https://www.youtube.com/watch?v=1WqFJ5wsA4o), [Input
+Funktion](https://www.youtube.com/watch?v=I9h1c-121Uk) und [Type
+Casting](https://www.youtube.com/watch?v=u_ECGvn1Z2c).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier sind die Links zu den Themen
+[Variablen](https://www.w3schools.com/python/python_variables.asp),
+[Datentypen](https://www.w3schools.com/python/python_datatypes.asp) und
+[Type Casting](https://www.w3schools.com/python/python_casting.asp).
+
+Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (2, 3,
+4, 6, 12) und die Lösungen
+[2](https://sylvialange.de/python/python3/linear/NettoBrutto.py),
+[3](https://sylvialange.de/python/python3/linear/Zins.py),
+[4](https://sylvialange.de/python/python3/linear/Rabatt.py),
+[6](https://sylvialange.de/python/python3/linear/Quader.py),
+[12](https://sylvialange.de/python/python3/linear/Mittelwert.py) zum
+Thema Variablen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung}
+
+### Übung 1
+
+Lösungsvorschlag Aufträge
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+cm = input("Gib deine Grösse in cm ein: ")
+feet = float(cm) * 0.0328084
+print("Deine Grösse in Fuss: " + str(feet))
+```
+
+</details>
+
+------------------------------------------------------------------------
+
+### Übung 2
+
+Nennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel
+dazu.
+
+------------------------------------------------------------------------
+
+### Übung 3
+
+Was ist der Output von diesem Programm?
+
+``` python
+x = int(2.6)
+y = 2
+print(x * 2)
+```
+
+------------------------------------------------------------------------
+
+### Übung 4
+
+Was ist der Output von diesem Programm?
+
+``` python
+x = "Hello "
+y = "World"
+print(x + y)
+```
+
+------------------------------------------------------------------------
+
+### Übung 5
+
+Was ist der Output von diesem Programm?
+
+``` python
+a = 6
+b = 1.5
+c = a + b + (a / b)
+print("Output: " + str(c))
+```
+
+------------------------------------------------------------------------
+
+### Übung 6
+
+Was macht dieses Programm?
+
+``` python
+x = float(input("Geben sie eine Zahl ein: "))
+print(x * x)
+```
+
+------------------------------------------------------------------------
+
+### Übung 7
+
+Erstellen sie ein Programm, welches ihren BMI (Body-Mass-Index)
+berechnet. Der BMI ist denifiert als: $BMI=Gewicht(kg)/Grösse(m)^2$
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+gewicht = input("Gib dein Gewicht in kg ein: ")
+groesse = input("Gib deine Grösse in m ein: ")
+
+bmi = int(gewicht) / (float(groesse) * float(groesse)) # or float(height) ** 2
+print("Dein BMI ist: " + str(bmi))
+```
+
+</details>
+
+# Conditionals (if-elif-else) und Flussdiagramme
+
+## Wichtig
+
+Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos
+schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim
+Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb
+empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B.
+mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema
+[Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
+hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal
+ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon
+halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich
+Ihnen [draw.io](https://app.diagrams.net) (siehe “Flowchart”).
+
+Auf **Youtube** finden Sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[If-Anweisung](https://www.youtube.com/watch?v=b6KzYbM-Hvg) und
+[If-Elif-Else](https://www.youtube.com/watch?v=f3YdEdYSNdk).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Conditionals](https://www.w3schools.com/python/python_conditions.asp).
+
+Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (7, 8,
+9, 10, 11) und die Lösungen
+[7](https://sylvialange.de/python/python3/verzweigung/Quader.py),
+[8](https://sylvialange.de/python/python3/verzweigung/Rabatt.py),
+[9](https://sylvialange.de/python/python3/verzweigung/Rueckgeld.py),
+[10](https://sylvialange.de/python/python3/verzweigung/pqFormel.py),
+[11](https://sylvialange.de/python/python3/verzweigung/BMI.py) zum Thema
+Conditionals/Verzweigungen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-1}
+
+Lösungsvorschlag Aufträge
+
+-   [Lösungsvorschlag Login I](files/login_without_username.py)
+-   [Lösungsvorschlag Login II](files/login_with_username.py)
+-   [Lösungsvorschlag Login II
+    Flussdiagramm](files/login_with_username.drawio.png)
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = "Hello"
+y = "Tom"
+
+if x != "Hello":
+  y = "Tim"
+else:
+  y = "Tina"
+
+print(y)
+```
+
+[Lösungsvorschlag](files/prüfungsvorbereitung_1.drawio.png)
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = 5
+
+if x < 0:
+  print("a")
+elif x > 0:
+  if x == 5:
+    print("b")
+  print("c")
+else:
+  print("d")
+```
+
+[Lösungsvorschlag](files/prüfungsvorbereitung_2.drawio.png)
+
+------------------------------------------------------------------------
+
+Erstellen Sie ein Programm, welches Schweizer Noten in das
+[amerikanische
+Notensystem](https://gpacalculator.net/grade-conversion/switzerland/)
+umrechnet.
+
+| Schweiz | US  |
+|:-------:|:---:|
+|  5.5-6  |  A  |
+| 4.5-5.4 |  B  |
+| 4.0-4.4 |  C  |
+|   \<4   |  F  |
+
+![GPA Calculator](images/gpa_calculator.png)
+
+[Lösungsvorschlag](files/gpa_calculator.py)
+
+# Loops (while, for) und Flussdiagramme
+
+## Hilfreiche Links
+
+**Wichtig:** Verbringen sie nicht zu viel Zeit mit der Theorie.
+Stundenlang Videos schauen oder Texte lesen, wird sie nicht
+weiterbringen. Beim Programmieren geht es um das “Können” und nicht um
+das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und
+viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf Wikipedia finden sie eine gute Zusammenfassung zum Thema
+[Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
+hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal
+ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon
+halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich
+Ihnen [draw.io](https://app.diagrams.net) (siehe “Flowchart”).
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[While-Schleife](https://www.youtube.com/watch?v=sXLicTuJzB4&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=13)
+und
+[For-Schleife](https://www.youtube.com/watch?v=pQh5Idw2sKM&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=17).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[While-Loop](https://www.w3schools.com/python/python_while_loops.asp)
+und [For-Loop](https://www.w3schools.com/python/python_for_loops.asp).
+
+Auf der Website von **Sylvia Lange** finden sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (17,
+18, 19, 20) und die Lösungen
+[17](https://sylvialange.de/python/python3/schleifen/Potenz.py)
+[18](https://sylvialange.de/python/python3/schleifen/Fakultaet.py)
+[19](https://sylvialange.de/python/python3/schleifen/Zweierpotenz.py)
+[20](https://sylvialange.de/python/python3/schleifen/SterneRechteck.py)
+zum Thema Loops/Schleifen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-2}
+
+### Lösungsvorschlag Aufträge
+
+-   [Lösungsvorschlag Primarschule](files/primarschule.py)
+-   [Lösungsvorschlag Fahrplan](files/fahrplan.py)
+-   [Lösungsvorschlag Prüfungssoftware](files/prüfungssoftware.py)
+-   [Lösungsvorschlag Prüfungssoftware
+    Flussdiagramm](files/prüfungssoftware.drawio.png)
+
+### Auftrag 1
+
+Was ist der Output von diesem Programm? Übersetzen sie es in eine
+For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.
+
+``` python
+i = 2
+while i < 5:
+  print(i)
+  i = i + 1
+  print(i)
+```
+
+Lösungsvorschlag Flussdiagramm
+
+### Auftrag 2
+
+Was ist der Output von diesem Programm? Übersetzen sie es in eine
+For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.
+
+``` python
+i = 5
+while i < 10:
+  i += 1  # Kurzform von i = i + 1
+  if i == 8:
+    print("Katze")
+  else:
+    print(i)
+```
+
+Lösungsvorschlag Code Lösungsvorschlag Flussdiagramm
+
+### Auftrag 3
+
+Erstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das
+Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.
+
+Lösungsvorschlag
+
+### Auftrag 4
+
+Erweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto
+nach 3 Fehlversuchen gesperrt wird.
+
+Lösungsvorschlag
+
+### Auftrag 5
+
+Erstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus
+die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein
+Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken
+(SimpleClub)
+
+Lösungsvorschlag Code Lösungsvorschlag Flussdiagramm
+
+# Listen
+
+## Hilfreiche Links
+
+**Wichtig:** Verbringen sie nicht zu viel Zeit mit der Theorie.
+Stundenlang Videos schauen oder Texte lesen, wird sie nicht
+weiterbringen. Beim Programmieren geht es um das “Können” und nicht um
+das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und
+viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen [Listen
+I](https://www.youtube.com/watch?v=ihF8bZoauBs&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=14),
+[Listen
+II](https://www.youtube.com/watch?v=_XzWPXvya2w&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=15)
+und [Listen
+iterieren](https://www.youtube.com/watch?v=ISo1uqLcVw8&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=16).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Listen](https://www.w3schools.com/python/python_lists.asp).
+
+Auf der Website von **Sylvia Lange** finden sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (13)
+und die Lösungen
+[13](https://sylvialange.de/python/python3/listen/WahlprogrammListen.py)
+zum Thema Conditionals/Verzweigungen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-3}
+
+Lösungsvorschlag Aufträge - [Lösungsvorschlag
+Einkaufsliste](files/einkaufsliste.py) - [Lösungsvorschlag
+Notendurchschnittsrechner](files/notendurchschnitt.py)
+
+Was macht diese Programm und was ist der Output?
+
+``` python
+x = [6, 3, 8, 5, 7, 2, 4, 0, 5]
+z = 0
+for y in x:
+    if y > z:
+        z = y
+print(z)
+```
+
+Eine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm,
+welches die folgende Liste ausgibt:
+
+``` python
+x = [[1, 2],[3, 4],[5, 6]]
+```
+
+Lösungsvorschlag
+
+Wievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor?
+Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und
+Kleinschreibung) im folgenden Text zählt:
+
+``` python
+text = ["Lorem", "ipsum", "dolor", "sit", "amet", 
+        "consetetur", "sadipscing", "elitr", "lorem",
+        "sed", "lorem", "diam", "nonumy", "eirmod", "tempor",
+        "invidunt", "Lorem", "ut", "labore", "et", "dolore",
+        "magna", "aliquyam", "erat", "sed", "diam", "voluptuz",
+        "At", "lorem", "vero", "eos", "et", "accusam", "et",
+        "justo", "duo", "lorem", "dolores", "et", "ea"]
+```
+
+Quelle Lösungsvorschlag
+
+# Funktionen
+
+## Hilfreiche Links
+
+**Wichtig:** Verbringen sie nicht zu viel Zeit mit der Theorie.
+Stundenlang Videos schauen oder Texte lesen, wird sie nicht
+weiterbringen. Beim Programmieren geht es um das “Können” und nicht um
+das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und
+viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen [Funktionen
+I](https://www.youtube.com/watch?v=LQCfN5HS9xI&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=18),
+[Funktionen
+II](https://www.youtube.com/watch?v=af9ORp1Pty0&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=19)
+und [Funktionen
+III](https://www.youtube.com/watch?v=ehSP-sYoKCY&list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&index=20).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Funktionen](https://www.w3schools.com/python/python_functions.asp).
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-4}
+
+**Lösungsvorschlag Aufträge** - [Lösungsvorschlag
+Brief](files/brief_adresse.py) - [Lösungsvorschlag
+Uhrzeit](files/uhrzeit_rechner.py)
+
+**Was ist der Output von diesem Programm?**
+
+``` python
+def meine_funktion(x, y, z):
+    if x > y:
+        return z
+    else:
+        return z - 1
+
+x = meine_funktion(1, 2, 3)
+print(x)
+
+Was macht diese Funktion (in Worte gefasst)?
+
+```Python
+def meine_funktion(x, y):
+    if x > y:
+        return x
+    else:
+        return y
+```
+
+Programmieren sie einen Würfel und würfeln sie 1000-mal. Um eine
+Zufallszahl zu generieren, können sie die Funktion “random()” verwenden.
+Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen
+sie jedoch die Funktion zuerst importieren:
+
+``` python
+from random import random # Import der Funktion random()
+
+def wuerfle():
+    zufallszahl = random() # Zufallszahl generieren
+    # Ihr Code kommt hier..
+```
+
+(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)
+
+Lösungsvorschlag

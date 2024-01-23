@@ -1,0 +1,11 @@
+{
+  "hash": "f1c6a3658b5b494398e6e8dc26c184fe",
+  "result": {
+    "markdown": "---\ntitle: \"Verstehensorientiert prüfen in Zeiten von KI\"\n\nauthor: \"Richard Conrardy\"\ninstitute: \"PHBern, Institut Sekundarstufe 1\"\n\nformat:\n  revealjs: \n    theme: [../styles.scss]\n\ntoc: true\nslide-number: false\nchalkboard: true\nfooter: <strong>PHBern, Institut Sekundarstufe 1,</strong>    Richard Conrardy\n\ntitle-slide-attributes: \n  data-background-image: ../images/logo.svg\n  data-background-size: 8%\n  data-background-position: 98% 95%\n\nbibliography: ../bibliographie_richard.bib\nlang: de\n---\n\n# Überschrift 1\n\n[MI.2.2.g](https://phbern365.sharepoint.com/:x:/s/IS1_Z_FachteamMathematik/ETSa_gnhzWZHusM0ySUYd2ABJGNu7A09l-P-rqaODcyrsA?e=C7An4E){class=\"knopf indikator \" target=\"_blank\"}\n\n\n[MI.2.2.g](https://phbern365.sharepoint.com/:x:/s/IS1_Z_FachteamMathematik/ETSa_gnhzWZHusM0ySUYd2ABJGNu7A09l-P-rqaODcyrsA?e=C7An4E){class=\"knopf indikator zyklus2\" target=\"_blank\"}\n\nFor a **demonstration** of a line plot on a polar axis, see @fig-polar.\n\nQuelle says blah.\n\n## Überschrift 2\n\nJust some text\n\n::: {.card .text-white .bg-primary .mb-3 style=\"max-width: 20rem;\"}\n::: card-header\nHeader\n:::\n\n::: card-body\n<h4 class=\"card-title\">\n\nPrimary card title\n\n</h4>\n\n<p class=\"card-text\">\n\nSome quick example text to build on the card title and make up the bulk of the card's content.\n\n</p>\n:::\n:::\n\n## test\n\n::: {.cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![A line plot on a polar axis](woche_01_files/figure-revealjs/fig-polar-output-1.png){#fig-polar width=450 height=439}\n:::\n:::\n\n\n## Letzter Teil\n\n@loibl2014 @kapur2012\n\n![](images/abacus_Bing.jpg)Note that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.\n\n## Bibliographie\n\n",
+    "supporting": [
+      "woche_01_files"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

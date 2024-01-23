@@ -1,0 +1,11 @@
+{
+  "hash": "495833391e2aa49551cd407f7b4117bc",
+  "result": {
+    "markdown": "---\ntitle: \"test subfolder\"\nauthor: \"Richard Conrardy\"\ninstitute: \"PHBern, Institut Sekundarstufe I\"\nformat:\n  revealjs: \n    theme: [../styles.scss]\ntoc: true\nslide-number: false\nlogo: \"https://www.phbern.ch/themes/custom/phbern/logo.svg\"\nchalkboard: true\nfooter: <strong>PHBern, Institut Sekundarstufe 1,</strong> Richard Conrardy\ntitle-slide-attributes: \n  data-footer: \"CC BY-SA   \"\ninclude-after-body: ../add-custom-footer.html\n\nbibliography: ../bibliographie_richard.bib\nlang: de\n---\n\n# Überschrift 1\n\nFor a **demonstration** of a line plot on a polar axis, see @fig-polar.\n\nQuelle @kim_effects_2015 says blah.\n\n## Überschrift 2 {background-iframe=\"https://lern-e.ch\"}\n\nJust some text\n\n::: {.card .text-white .bg-primary .mb-3 style=\"max-width: 20rem;\"}\n::: card-header\nHeader\n:::\n\n::: card-body\n<h4 class=\"card-title\">\n\nPrimary card title\n\n</h4>\n\n<p class=\"card-text\">\n\nSome quick example text to build on the card title and make up the bulk of the card's content.\n\n</p>\n:::\n:::\n\n## test\n\n::: {.cell execution_count=1}\n\n::: {.cell-output .cell-output-display}\n![A line plot on a polar axis](slide_files/figure-revealjs/fig-polar-output-1.png){#fig-polar width=450 height=439}\n:::\n:::\n\n\n## Letzter Teil\n\n::: callout-note\nNote that there are five types of callouts, including: `note`, `warning`, `important`, `tip`, and `caution`.\n:::\n\n## Bibliographie\n\n",
+    "supporting": [
+      "slide_files/figure-revealjs"
+    ],
+    "filters": [],
+    "includes": {}
+  }
+}

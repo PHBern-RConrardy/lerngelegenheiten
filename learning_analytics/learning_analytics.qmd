@@ -1,0 +1,23 @@
+---
+title: "Learning Analytics"
+format: html
+---
+
+# Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+# Workload
+
+| Woche | Thema                      |                               Slides                               |            Unterlagen             |
+|:----------------:|:-----------------|:----------------:|:----------------:|
+|   8   | Constructive Alignment     | [<i class="bi bi-easel3-fill"></i>](woche_08.qmd){target="_blank"} | <i class="bi bi-folder-fill"></i> |
+|   9   | Lehrplan21                 |                                                                    | <i class="bi bi-folder-fill"></i> |
+|  10   | Teilgebiete der Mathematik |                                                                    | <i class="bi bi-folder-fill"></i> |
+|  11   |                            |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          | <i class="bi bi-folder-fill"></i> |
+
+: {.striped .hover .table-sm}

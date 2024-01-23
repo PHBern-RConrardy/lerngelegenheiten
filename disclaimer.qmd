@@ -1,0 +1,6 @@
+---
+title: "Disclaimer"
+format: html
+---
+
+Es handelt sich um statische Dateien. Personenbezogene Daten werden nicht gespeichert.
