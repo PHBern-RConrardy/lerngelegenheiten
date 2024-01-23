@@ -90,8 +90,6 @@ format:
     logo: images/penguin.png
     hide-inactive-cursor: true
 
-execute:
-  freeze: auto
 
   
   pdf:

@@ -3,7 +3,7 @@ title: "Lerngelegenheiten"
 subtitle: "Webseite für die Lerngelegenheiten von Richard Conrardy"
 format: html
 ---
-
+test
 
 | Kürzel | Voller Name                                                                  |
 |:--------------------:|:-------------------------------------------------|
