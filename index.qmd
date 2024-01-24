@@ -12,6 +12,6 @@ listing:
   filter-ui: [title, subtitle, author]
   exclude:
     - filename: "woche*"
-    - categories: "unlisted"
+    - filename: "excl*"
   page-size: 13
 ---

@@ -17,7 +17,7 @@ categories:
 # Wochenüberblick
 
 | Woche | Thema                         |                               Slides                               |                  Unterlagen                   |                 Vorbereitung                  | Nachbereitung |
-|:----------:|:-----------|:----------:|:----------:|:----------:|:----------:|
+|:-----:|:------------------------------|:------------------------------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|:-------------:|
 |   1   | Variablen und Conditionals    | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |
 |   2   | Loops und Listen              | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |                                               |               |
 |   3   | Funktionen und Projektauftrag | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |

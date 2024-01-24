@@ -1,0 +1,18 @@
+---
+title: "How to flip the right way? Fail, flip, fix and feed in practice."
+format: revealjs
+subtitle: "Literature Club Besprechung"
+date: 30 01 2024
+
+title-slide-attributes: 
+      data-background-image: images/logo.svg
+      data-background-size: 0%
+      data-background-position: 99.5% 98%
+categories:
+  - unlisted
+---
+
+# Theoretischer Background
+
+
+

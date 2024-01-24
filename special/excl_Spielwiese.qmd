@@ -1,0 +1,102 @@
+---
+title: "Spielwiese"
+format: html
+categories:
+  - unlisted
+---
+Hier sind tolle Sachen, aber aufwändiger für Ungeübte Nutzer:
+
+::: {class="alert alert-dismissible alert-warning"}
+Note that there are five types of callouts, including:
+`note`, `warning`, `important`, `tip`, and `caution`.
+:::
+
+
+## Test Accordion
+
+::: {#accordionFlushExample .accordion .accordion-flush}
+::: accordion-item
+::: {#flush-headingOne .accordion-header}
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+
+Accordion Item #1
+
+</button>
+:::
+
+::: {#flush-collapseOne .accordion-collapse .collapse aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample"}
+::: accordion-body
+text1
+:::
+:::
+:::
+
+::: accordion-item
+::: {#flush-headingTwo .accordion-header}
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+
+text2
+
+</button>
+:::
+
+::: {#flush-collapseTwo .accordion-collapse .collapse aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample"}
+::: accordion-body
+
+
+:::
+:::
+:::
+
+::: accordion-item
+::: {#flush-headingThree .accordion-header}
+<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+
+Accordion Item #3
+
+</button>
+:::
+
+::: {#flush-collapseThree .accordion-collapse .collapse aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample"}
+::: accordion-body
+text
+:::
+:::
+:::
+:::
+
+## Test - LP21 Indikatoren
+
+[MI.2.2.g](https://www.youtube.com/watch?v=No_uEZAlpTU){class="knopf indikator " target="_blank"}
+
+
+[MI.2.2.g](https://phbern365.sharepoint.com/:x:/s/IS1_Z_FachteamMathematik/ETSa_gnhzWZHusM0ySUYd2ABJGNu7A09l-P-rqaODcyrsA?e=C7An4E){class="knopf indikator zyklus2" target="_blank"}
+
+## Test Dataframes
+
+```{r}
+#| echo: false
+options(repos = c(CRAN = "https://cran.rstudio.com"))
+# Check if the 'DT' package is already installed
+if (!requireNamespace("DT", quietly = TRUE)) {
+  # If not installed, install the 'DT' package
+  install.packages("DT")
+}
+library(DT)
+
+
+## Create some random table 
+
+a <- c("Penguin","Penguin","Penguin","Flöp","Penguin","Flöp")
+b <- c(10, 8, 2, 10, 22, 11)
+c <- c("Flöffy","not Flöffy","not Flöffy","Flöffy","not Flöffy","Flöffy")
+
+dataframe <- list(a = a, b = b, c = c)
+dataframe <- as.data.frame(dataframe)
+
+DT::datatable(dataframe,
+              class = 'cell-border stripe', # macht es gestreift
+              #filter = "top", # fügt die "all" Textfelder ein
+              )
+
+```

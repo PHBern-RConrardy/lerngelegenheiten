@@ -599,7 +599,7 @@ Richard François Conrardy
 <p><strong>Probiert eigene Ideen aus.</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_afee3ec8" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_22ff6d97" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -637,7 +637,7 @@ Richard François Conrardy
 <p>https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13</p>
 <div id="qrcode" class="qrcode"></div>
 <script type="text/javascript">
-var qrcode = new QRCode("qrcode", {"width":"300","colorLight":"#ffffff","colorDark":"#000000","text":"https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13","height":"300"});
+var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","height":"300","colorDark":"#000000","text":"https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13","width":"300"});
 </script>
     
 </section>
@@ -920,44 +920,6 @@ Regez, Adrian, und Elia Lutz. 2022. <span>„Medien Informatik Factsheet“</spa
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
