@@ -5,13 +5,17 @@ format: html
 listing:
   categories: true
   type: table
-  contents:
-    - "*.qmd"
-    - "*/*.qmd"
+  contents: 
+    - "learning_analytics/*.qmd"
+    - "math_summative_praes/*qmd"
+    - "stand_testverfahren/*.qmd"
+    - "verstehensorientier_pruefen/*qmd"
+    - "special/gdm_tagung.qmd"
   fields: [title, subtitle, author]
   filter-ui: [title, subtitle, author]
   exclude:
     - filename: "woche*"
     - filename: "excl*"
+    - author: "Richard Conrardy"
   page-size: 13
 ---

@@ -13,7 +13,7 @@ format: revealjs
     
 footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch)  Joel Adler, Richard Conrardy"
 categories:
-  - Tagunsfolien
+  - Tagungsfolien
 ---
 
 ## Was wir heute erreichen möchten: {.unnumbered .unlisted}

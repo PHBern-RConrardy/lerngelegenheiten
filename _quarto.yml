@@ -113,8 +113,6 @@ author:
           department: Institut Sekundarstufe I
           ror: https://ror.org/05jf1ma54
 
-execute: 
-  freeze: true
           
 link-external-newwindow: true
 fig-align: center
