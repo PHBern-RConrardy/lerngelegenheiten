@@ -26,13 +26,13 @@ website:
         icon: arrows-angle-contract
         menu: 
           - text: Präsenzkurs
-            href: test
+            href: mikroplanung_math/praesenzkurs.qmd
             icon: building-fill
           - text: Blockkurs
-            href: test
+            href: mikroplanung_math/blockkurs.qmd
             icon: file-earmark-zip-fill
           - text: Selbstorganisiertes Lernen
-            href: test
+            href: mikroplanung_math/mikro_sol.qmd
             icon: mouse2-fill
       - text: Math. summ. Beurt.
         icon: file-earmark-check-fill
@@ -74,7 +74,7 @@ format:
     license: "CC BY-SA"
     page-layout: article
     title-block-banner: true
-    
+      
   revealjs:
     toc: true
     slide-number: false
@@ -89,6 +89,8 @@ format:
     scrollable: true
     logo: images/penguin.png
     hide-inactive-cursor: true
+    categories:
+      - Präsentationsfolien
 
 
   
@@ -109,6 +111,9 @@ author:
           url: https://www.phbern.ch
           department: Institut Sekundarstufe I
           ror: https://ror.org/05jf1ma54
+
+execute: 
+  freeze: true
           
 link-external-newwindow: true
 fig-align: center

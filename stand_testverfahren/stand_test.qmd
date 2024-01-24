@@ -2,6 +2,8 @@
 title: "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung"
 subtitle: "Teil Mathematik"
 format: html
+categories:
+  - Summative und prognostische Beurteilung
 ---
 
 # Organisatorisches

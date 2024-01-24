@@ -1,0 +1,5 @@
+---
+title: "Mikroplanung Mathematik"
+subtitle: "SOL"
+format: html
+---

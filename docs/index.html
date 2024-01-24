@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/penguin.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -61,7 +63,39 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      page: 13,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-subtitle","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -105,17 +139,17 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-math.-mikropl.">    
         <li>
-    <a class="dropdown-item" href="./test" rel="" target=""><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="./mikroplanung_math/praesenzkurs.html" rel="" target=""><i class="bi bi-building-fill" role="img">
 </i> 
  <span class="dropdown-text">Präsenzkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./test" rel="" target=""><i class="bi bi-file-earmark-zip-fill" role="img">
+    <a class="dropdown-item" href="./mikroplanung_math/blockkurs.html" rel="" target=""><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
  <span class="dropdown-text">Blockkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./test" rel="" target=""><i class="bi bi-mouse2-fill" role="img">
+    <a class="dropdown-item" href="./mikroplanung_math/mikro_sol.html" rel="" target=""><i class="bi bi-mouse2-fill" role="img">
 </i> 
  <span class="dropdown-text">Selbstorganisiertes Lernen</span></a>
   </li>  
@@ -192,45 +226,437 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(34)</span></div><div class="category" data-category="Digitalität">Digitalität <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Formative Beurteilung">Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Summative und prognostische Beurteilung">Summative und prognostische Beurteilung <span class="quarto-category-count">(4)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<p>test</p>
-<table class="table-striped table-hover table-sm small table">
-<caption></caption>
-<colgroup>
-<col style="width: 30%">
-<col style="width: 69%">
-</colgroup>
+
+
+
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Autor:in
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
 <thead>
-<tr class="header">
-<th style="text-align: center;">Kürzel</th>
-<th style="text-align: left;">Voller Name</th>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor:in</a>
+</th>
 </tr>
 </thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">MA-KI</td>
-<td style="text-align: left;">Beurteilung Mathematik: Verstehensorientiert prüfen in Zeiten von KI</td>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="3" data-listing-title-sort="<small>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</small>" data-listing-filename-sort="slides.qmd">
+<td>
+<a href="./stand_testverfahren/slides.html" class="title listing-title"><small>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Teil Mathematik</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
 </tr>
-<tr class="even">
-<td style="text-align: center;">MI-Did</td>
-<td style="text-align: left;">Mediendidaktik</td>
+<tr data-index="1" data-listing-file-modified-sort="1706030783276" data-listing-reading-time-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_01.qmd">
+<td>
+<a href="./math_summative_praes/woche_01.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 1</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
 </tr>
-<tr class="odd">
-<td style="text-align: center;">MA-Sum</td>
-<td style="text-align: left;">Summative Beurteilung im Mathematikunterricht: Grundlagen für den Unterricht</td>
+<tr data-index="2" data-listing-file-modified-sort="1706030783276" data-listing-reading-time-sort="2" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_02.qmd">
+<td>
+<a href="./math_summative_praes/woche_02.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 2</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1706030783276" data-listing-reading-time-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_03.qmd">
+<td>
+<a href="./math_summative_praes/woche_03.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 3</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1706030783276" data-listing-reading-time-sort="2" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_07.qmd">
+<td>
+<a href="./math_summative_praes/woche_07.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 7</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1706030783276" data-listing-reading-time-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_08.qmd">
+<td>
+<a href="./math_summative_praes/woche_08.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 8</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="6" data-listing-file-modified-sort="1706030783277" data-listing-reading-time-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_09.qmd">
+<td>
+<a href="./math_summative_praes/woche_09.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht <br> Woche 9</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1706084283281" data-listing-reading-time-sort="2" data-listing-title-sort="Chancen und Risiken standardisierter Testverfahren und Leistungsmessung" data-listing-filename-sort="stand_test.qmd">
+<td>
+<a href="./stand_testverfahren/stand_test.html" class="title listing-title">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</a>
+</td>
+<td>
+<span class="listing-subtitle">Teil Mathematik</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-file-modified-sort="1706030783200" data-listing-reading-time-sort="1" data-listing-title-sort="Disclaimer" data-listing-filename-sort="disclaimer.qmd">
+<td>
+<a href="./disclaimer.html" class="title listing-title">Disclaimer</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1706030783280" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="literature_club.qmd">
+<td>
+<a href="./one_off_slides/literature_club.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
+</td>
+<td>
+<span class="listing-subtitle">Literature Club Besprechung</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-file-modified-sort="1706030783274" data-listing-reading-time-sort="1" data-listing-title-sort="Impressum" data-listing-filename-sort="impressum.qmd">
+<td>
+<a href="./impressum.html" class="title listing-title">Impressum</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="11" data-listing-file-modified-sort="1706030783274" data-listing-reading-time-sort="1" data-listing-title-sort="Kontakt" data-listing-filename-sort="kontakt.qmd">
+<td>
+<a href="./kontakt.html" class="title listing-title">Kontakt</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Formative Beurteilung,Digitalität" data-listing-file-modified-sort="1706084850384" data-listing-reading-time-sort="2" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="learning_analytics.qmd">
+<td>
+<a href="./learning_analytics/learning_analytics.html" class="title listing-title">Learning Analytics</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="13" data-listing-file-modified-sort="1706030783274" data-listing-reading-time-sort="1" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="woche_08.qmd">
+<td>
+<a href="./learning_analytics/woche_08.html" class="title listing-title">Learning Analytics</a>
+</td>
+<td>
+<span class="listing-subtitle">Woche 8</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-file-modified-sort="1706030783274" data-listing-reading-time-sort="1" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="woche_11.qmd">
+<td>
+<a href="./learning_analytics/woche_11.html" class="title listing-title">Learning Analytics</a>
+</td>
+<td>
+<span class="listing-subtitle">Woche 11</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="15" data-listing-file-modified-sort="1706030783274" data-listing-reading-time-sort="1" data-listing-title-sort="Lizenz" data-listing-filename-sort="lizenz.qmd">
+<td>
+<a href="./lizenz.html" class="title listing-title">Lizenz</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="16" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1706030783277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="gdm_tagung.qmd">
+<td>
+<a href="./one_off_slides/gdm_tagung.html" class="title listing-title">Mathematikverständnis stärken in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">Workshop</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-file-modified-sort="1706038473538" data-listing-reading-time-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="blockkurs.qmd">
+<td>
+<a href="./mikroplanung_math/blockkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-subtitle">Blockkurs</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="18" data-listing-file-modified-sort="1706038459278" data-listing-reading-time-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="mikro_sol.qmd">
+<td>
+<a href="./mikroplanung_math/mikro_sol.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-subtitle">SOL</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="19" data-listing-file-modified-sort="1706030783277" data-listing-reading-time-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="praesenzkurs.qmd">
+<td>
+<a href="./mikroplanung_math/praesenzkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-subtitle">Erstellen einer Mikroplanung für den Mathematikunterricht</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="20" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="9" data-listing-title-sort="Programmieren in Python" data-listing-filename-sort="python.qmd">
+<td>
+<a href="./python/python.html" class="title listing-title">Programmieren in Python</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="21" data-listing-file-modified-sort="1706030783281" data-listing-reading-time-sort="2" data-listing-title-sort="Python" data-listing-filename-sort="01_variablen_slides.qmd">
+<td>
+<a href="./python/01_variablen_slides.html" class="title listing-title">Python</a>
+</td>
+<td>
+<span class="listing-subtitle">Variablen, Datentypen und Type Casting</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="22" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="2" data-listing-title-sort="Python" data-listing-filename-sort="02_conditionals_slides.qmd">
+<td>
+<a href="./python/02_conditionals_slides.html" class="title listing-title">Python</a>
+</td>
+<td>
+<span class="listing-subtitle">Variablen, Datentypen und Type Casting</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="23" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="3" data-listing-title-sort="Python" data-listing-filename-sort="03_loops_slides.qmd">
+<td>
+<a href="./python/03_loops_slides.html" class="title listing-title">Python</a>
+</td>
+<td>
+<span class="listing-subtitle">Loops (while, for) und Flussdiagramme</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="24" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="2" data-listing-title-sort="Python" data-listing-filename-sort="04_listen_slides.qmd">
+<td>
+<a href="./python/04_listen_slides.html" class="title listing-title">Python</a>
+</td>
+<td>
+<span class="listing-subtitle">Listen</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="25" data-listing-file-modified-sort="1706030783282" data-listing-reading-time-sort="2" data-listing-title-sort="Python" data-listing-filename-sort="05_funktionen_slides.qmd">
+<td>
+<a href="./python/05_funktionen_slides.html" class="title listing-title">Python</a>
+</td>
+<td>
+<span class="listing-subtitle">Funktionen</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="26" data-listing-file-modified-sort="1706030783283" data-listing-reading-time-sort="2" data-listing-title-sort="Spielwiese" data-listing-filename-sort="tryouts.qmd">
+<td>
+<a href="./tryouts.html" class="title listing-title">Spielwiese</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="27" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1706084233789" data-listing-reading-time-sort="3" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_praes.qmd">
+<td>
+<a href="./math_summative_praes/math_summ_praes.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht, Präsenzveranstaltung</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="28" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1706084343106" data-listing-reading-time-sort="5" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_sol.qmd">
+<td>
+<a href="./math_summative_sol/math_summ_sol.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-subtitle">Grundlagen für den Unterricht, selbst organisiertes Lernen (SOL)</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="29" data-categories="Formative Beurteilung,Summative und prognostische Beurteilung,Digitalität" data-listing-file-modified-sort="1706084367497" data-listing-reading-time-sort="10" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="math_ki.qmd">
+<td>
+<a href="./verstehensorientiert_pruefen/math_ki.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">Beurteilung Mathematik</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
+</tr>
+<tr data-index="30" data-listing-file-modified-sort="1706030783289" data-listing-reading-time-sort="3" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_01.qmd">
+<td>
+<a href="./verstehensorientiert_pruefen/woche_01.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="31" data-listing-file-modified-sort="1706030783289" data-listing-reading-time-sort="4" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_02.qmd">
+<td>
+<a href="./verstehensorientiert_pruefen/woche_02.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="32" data-listing-file-modified-sort="1706030783289" data-listing-reading-time-sort="2" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_03.qmd">
+<td>
+<a href="./verstehensorientiert_pruefen/woche_03.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-subtitle">Woche 3</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="33" data-listing-file-modified-sort="1706084676031" data-listing-reading-time-sort="1" data-listing-title-sort="random zeugs" data-listing-filename-sort="woche_01.qmd">
+<td>
+<a href="./random_zeugs/woche_01.html" class="title listing-title">random zeugs</a>
+</td>
+<td>
+<span class="listing-subtitle">undefined</span>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Dozent</span>
+</td>
 </tr>
 </tbody>
+
 </table>
-
-
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section></div></main> <!-- /main -->
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

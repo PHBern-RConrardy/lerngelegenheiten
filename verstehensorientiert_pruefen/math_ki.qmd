@@ -2,6 +2,10 @@
 title: "Verstehensorientiert prüfen in Zeiten von KI"
 subtitle: "Beurteilung Mathematik"
 format: html
+categories:
+  - Formative Beurteilung
+  - Summative und prognostische Beurteilung
+  - Digitalität
 ---
 
 ::: {style="text-align: center;"}
