@@ -1,6 +1,6 @@
 ---
 title: "Lerngelegenheiten"
-subtitle: "Webseite für die Lerngelegenheiten von Richard Conrardy"
+subtitle: "Webseite für Lerngelegenheiten"
 format: html
 listing:
   categories: true
@@ -12,5 +12,6 @@ listing:
   filter-ui: [title, subtitle, author]
   exclude:
     - filename: "woche*"
+    - categories: "unlisted"
   page-size: 13
 ---

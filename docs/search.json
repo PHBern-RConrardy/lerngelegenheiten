@@ -56,158 +56,137 @@
     "text": "Constructive Alignment\nLesen Sie Van Dormolen (1978) Kapitel 2.4, es zeigt wie der Satz des Pythagoras auf 5 verschiedene Arten gelehrt (und beurteilt) werden kann.\nLesen Sie Van Dormolen (1978) Kapitel 4.2, es beschreibt nach welchen Kriterien Sie in der Mikro-, Makroplanung Unterrichtsstoff untersuchen sollen.\nBiggs (1996) beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.\nDiese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht die ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.\n\nVan Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0\nBiggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes",
-    "href": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#was-sind-funktionen",
+    "href": "verstehensorientiert_pruefen/woche_03.html#was-sind-funktionen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren.\n\n\n\n\n\nSie benennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln."
+    "section": "Was sind Funktionen?",
+    "text": "Was sind Funktionen?\nFunktionen kennen sie bereits aus der Mathematik, z. B. f(x) = 2x.\nIn Python werden Funktionen mit def und return definiert und meistens verwendet, um Code besser zu strukturieren:\n# Definition einer Funktion\ndef meine_funktion(x):\n  return 2*x\n\n# Funktionen können mehrmals aufgerufen werden\nprint(meine_funktion(2))\nprint(meine_funktion(4))\n# Output: 4 8"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-variablen",
-    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-variablen",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#parameter-bzw.-argumente",
+    "href": "verstehensorientiert_pruefen/woche_03.html#parameter-bzw.-argumente",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Variablen?",
-    "text": "Was sind Variablen?\nEine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).\nname = \"Christian\" # Variable erstellen und Wert zuweisen\nprint(name) # Output: Christian\n\nname = 3 # Variable überschreiben\nprint(name) # Output: 3 \n\nname = input(\"Gib deinen Namen ein: \") # Benutzereingabe\nprint(\"Dein Name ist: \" + name) # Output: ?\n(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)"
+    "section": "Parameter bzw. Argumente",
+    "text": "Parameter bzw. Argumente\nFunktionen können (müssen aber nicht) Argumente haben:\ndef funktion_ohne_argument():\n  print(\"hello\")\n\ndef funktion_mit_argument(x):\n  print(x)\n\n# Funktionen haben immer Klammern (mit oder ohne Argumente)\nfunktion_ohne_argument()\nfunktion_mit_argument(\"world\")\n# Output: hello world\nDie Argumente sind nur innerhalb der Funktion erreichbar:\ndef meine_funktion(x):\n  print(x) # x ist das Argument/Parameter\n\nprint(x) # x wird nicht gefunden"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-datentypen",
-    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-datentypen",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#rückgabewert",
+    "href": "verstehensorientiert_pruefen/woche_03.html#rückgabewert",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Datentypen?",
-    "text": "Was sind Datentypen?\nJede Variable hat einen Datentyp. Die vier wichtigsten:\nx = 5\nprint(type(x)) # Output: int (Integer/Ganzzahl)\n\nx = 5.0\nprint(type(x)) # Output: float (Floating-Point/Kommazahl)\n\nx = True\nprint(type(x)) # Output: bool (Boolean/Wahrheitswert)\n\nx = \"hello\"\nprint(type(x)) # Output: string (String/Zeichenkette)"
+    "section": "Rückgabewert",
+    "text": "Rückgabewert\nFunktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:\ndef funktion_ohne_rückgabewert(x):\n  y = 2*x\n\ndef funktion_mit_rückgabewert(x):\n  y = 2*x\n  return y\n\nv1 = funktion_ohne_rückgabewert(5)\nv2 = funktion_mit_rückgabewert(5)\n\nprint(v1) # Output: None\nprint(v2) # Output: 10"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#konvertierung-von-datentypen-type-casting",
-    "href": "verstehensorientiert_pruefen/woche_01.html#konvertierung-von-datentypen-type-casting",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#reine-vs.-modifizierte-funktionen",
+    "href": "verstehensorientiert_pruefen/woche_03.html#reine-vs.-modifizierte-funktionen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Konvertierung von Datentypen (Type Casting)",
-    "text": "Konvertierung von Datentypen (Type Casting)\nManchmal muss man Datentypen umwandeln\nx = \"Monat \"\ny = 12\nprint(x + y) # funktioniert nicht und macht keinen Sinn\n\nx = \"Monat \"\ny = 12\nprint(x + str(y)) # Output: Monat 12\nDie Umwandlungsfunktionen sind analog zu den Datentypen:\nx = 5\nint(x) # x ist bereits ein Integer\nfloat(x) # 5.0\nbool(x) # True\nstr(x) # \"5\""
+    "section": "Reine vs. Modifizierte Funktionen",
+    "text": "Reine vs. Modifizierte Funktionen\nIn der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-mein-erstes-programm",
-    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-mein-erstes-programm",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#beispiel",
+    "href": "verstehensorientiert_pruefen/woche_03.html#beispiel",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Mein erstes Programm",
-    "text": "Auftrag: Mein erstes Programm\n\n\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?"
+    "section": "Beispiel",
+    "text": "Beispiel\nglobaleVariable = 0 # Das ist eine globale Variable\n\ndef reine_funktion(x):\n  return 2*x\n\ndef modifizierte_funktion(x):\n  global globaleVariable # auf globale Variable zugreifen\n  globaleVariable = globaleVariable + 1\n  return 2*x*globaleVariable\n\nreine_funktion(4) # Output: 8\nreine_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 16 --&gt; anderer Output"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes-1",
-    "href": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes-1",
+    "objectID": "verstehensorientiert_pruefen/woche_03.html#auftrag-brief-adressieren",
+    "href": "verstehensorientiert_pruefen/woche_03.html#auftrag-brief-adressieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen."
+    "section": "Auftrag: Brief Adressieren",
+    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-conditionals",
-    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-conditionals",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#was-sind-loops-schleifen",
+    "href": "verstehensorientiert_pruefen/woche_02.html#was-sind-loops-schleifen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Conditionals?",
-    "text": "Was sind Conditionals?\nConditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man “if Bedingung: dann”. Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).\nnote = 4.5\n\nif note &gt;= 4:\n  print(\"Prüfung bestanden\")\n  print(\"...\")  # Alles in einer If-Bedingung muss eingerückt sein\nelse:\n  print(\"Mehr Code\")  # Ohne Einrücken ist es wieder normaler Code"
+    "section": "Was sind Loops? (Schleifen)",
+    "text": "Was sind Loops? (Schleifen)\nMit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:\nWhile-Loop\ni = 0  # Braucht eine Zähler-Variable\nwhile i &lt; 5:  # Solange i &lt; 5\n  print(i)\n  i = i + 1  # i um eins erhöhen\n# Output: 0 1 2 3 4\nFor-Loop\nfor i in range(0, 5):  # Für jedes i von 0 bis 5\n  print(i)\n# Output: 0 1 2 3 4\nWhile-Loops vs. For-Loops\nWhile-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.\nWarum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.\nfor i in range(5, 10):  # range(von, bis)\n  print(i)\n# Output: 5 6 7 8 9\nVgl. Misra-C + Leserlichkeit\nDemo"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#if-elif-else",
-    "href": "verstehensorientiert_pruefen/woche_01.html#if-elif-else",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
+    "href": "verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "If-Elif-Else",
-    "text": "If-Elif-Else\nMit elif (Abkürzung für “else-if”) und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.\nx = 1\n\nif x &gt; 1:\n  print(\"x ist größer als 1\")\nelif x &lt; 1:\n  print(\"x ist kleiner als 1\")\nelse:\n  print(\"x ist gleich 1\")\nAchtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =."
+    "section": "Unendliche Loops & Loops verlassen",
+    "text": "Unendliche Loops & Loops verlassen\nMit “while True:” erzeugt man einen unendlichen Loop:\nwhile True:  # Unendliche Schleife\n  print(\"hallo\")\n# Output: hallo hallo hallo hallo hallo hallo hallo hallo ...\n(Tipp: Mit “ctrl-c” brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)\nMit “break” kann man einen Loop wieder verlassen\ni = 0\nwhile True:\n  print(i)\n  if i == 100:\n    break  # Loop verlassen\n  i = i + 1\n# Output: 0 1 2 4 5 ... 98 99 100\nDas Flussdiagramm als visuelle Darstellung\ni = 2\nwhile i &lt; 10:\n  print(i)\n  i = i + 2\nprint(\"fertig\")\n# Output: 2 4 6 8 fertig\n(Da For-Loops nur “Syntactic Sugar” für While-Loops sind, werden diese als While-Loop dargestellt.)"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#logische-operatoren",
-    "href": "verstehensorientiert_pruefen/woche_01.html#logische-operatoren",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule",
+    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Logische Operatoren",
-    "text": "Logische Operatoren\n\nand (Deutsch: und)\nor (Deutsch: oder)\nnot (Deutsch: nicht)\n\nx = 5\ny = 6\n\nif x == 5 and y == 6:\n  print(\"Beide Aussagen sind Wahr\")\n\nif x == 5 or y == 6:\n  print(\"Eine oder beide Aussagen sind Wahr\")\n\nif not x == 5:  # Gleich wie x != 5\n  print(\"Die Aussage ist nicht Wahr\")"
+    "section": "Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule",
+    "text": "Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule\n\nDie Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.\nDie Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.\nNun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-ihr-vermeiden-solltet",
-    "href": "verstehensorientiert_pruefen/woche_01.html#was-ihr-vermeiden-solltet",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-fahrplan-luzern---engelberg",
+    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-fahrplan-luzern---engelberg",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was ihr vermeiden solltet!",
-    "text": "Was ihr vermeiden solltet!\nVergleichen von Booleans mit ==\nwinter = True\n\nif winter == True:  # Schlechter Programmierstil\n  print(\"Es ist Winter\")\n\nif winter:  # Viel besser\n  print(\"Es ist Winter\")\nVergleichen von Floats mit ==\nmeter = 1.8324\n\nif meter == 1.8324:  # Nicht gut, da Floats nur \"ungefähr\" sind\n  print(\"Sie sind 1.83 Meter groß\")\n\nif 1.83 &lt; meter &lt; 1.84:  # Viel besser\n  print(\"Sie sind 1.83 Meter groß\")"
+    "section": "Auftrag: Fahrplan Luzern - Engelberg",
+    "text": "Auftrag: Fahrplan Luzern - Engelberg\nDer IR (Interregio) von Luzern nach Engelberg fährt nur 1x pro Stunde. Der erste Zug fährt um 6:12 und der letzte Zug um 20:12.\nErstellen sie ein Programm, welches den Fahrplan ausgibt (ohne jeden Zug einzeln aufzuschreiben). Erstellen sie das Flussdiagramm dazu."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-passwort",
-    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-passwort",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
+    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Login mit Passwort",
-    "text": "Auftrag: Login mit Passwort\n\n\nProgrammieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”."
+    "section": "Auftrag: Prüfungssoftware Programmieren",
+    "text": "Auftrag: Prüfungssoftware Programmieren\n\nProgrammieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\nErstellen sie das Flussdiagramm dazu."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-benutzer-und-passwort",
-    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-benutzer-und-passwort",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
+    "href": "verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Login mit Benutzer und Passwort",
-    "text": "Auftrag: Login mit Benutzer und Passwort\n\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\n\n\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+    "section": "Was sind Listen? ",
+    "text": "Was sind Listen? \nEine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:\n\nBrot\nNutella\nMilch\n…\n\nIn Python werden Listen mit eckigen Klammern [] geschrieben:\nx = [\"Brot\", \"Nutella\", \"Milch\"]  # Definition einer Liste\nprint(x)  # Output: \"['Brot', 'Nutella', 'Milch']\""
   },
   {
-    "objectID": "verstehensorientiert_pruefen/math_ki.html",
-    "href": "verstehensorientiert_pruefen/math_ki.html",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#zugriff-auf-listenelemente",
+    "href": "verstehensorientiert_pruefen/woche_02.html#zugriff-auf-listenelemente",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum Porta-QT-Digitalität"
+    "section": "Zugriff auf Listenelemente",
+    "text": "Zugriff auf Listenelemente\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
-    "href": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#listen-loops",
+    "href": "verstehensorientiert_pruefen/woche_02.html#listen-loops",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Vorbereitungsauftrag - Woche 1",
-    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.\nInstallieren Sie vor der ersten Woche:\n\nPython\nEntweder RStudio oder VSCode\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden."
+    "section": "Listen & Loops",
+    "text": "Listen & Loops\nListen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:\nfor element in einkaufsliste:\n  print(element)\nWenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der len()-Funktion verwendet werden:\nfor i in range(len(einkaufsliste)):  # len() ist die Listenlänge\n  print(einkaufsliste[i])\n  print(i)  # Vorteil: Man hat Zugriff auf den Index i"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
-    "href": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#listenelemente-bearbeiten",
+    "href": "verstehensorientiert_pruefen/woche_02.html#listenelemente-bearbeiten",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Vorbereitungsauftrag - Woche 3",
-    "text": "Vorbereitungsauftrag - Woche 3"
+    "section": "Listenelemente bearbeiten",
+    "text": "Listenelemente bearbeiten\nEin Element ändern\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste[1] = \"Bananen\"\n# Resultat: ['Brot', 'Bananen', 'Milch']\nEin Element hinzufügen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.append(\"Bananen\")\n# Resultat: ['Brot', 'Bananen', 'Milch', \"Bananen\"]\nEin Element löschen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.pop()\n# Resultat: [\"Brot\", \"Nutella\"]"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/math_ki.html#woche-8",
-    "href": "verstehensorientiert_pruefen/math_ki.html#woche-8",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
+    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Woche 8",
-    "text": "Woche 8\n\n Inhalte\n\n Präsentationsfolien\ndsa\n\n\n\n️ Auftrag\n\nBla"
+    "section": "Auftrag: Einkaufsliste",
+    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren"
   },
   {
-    "objectID": "mikroplanung_math/mikro_sol.html",
-    "href": "mikroplanung_math/mikro_sol.html",
+    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
+    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Auftrag: Notendurchschnittsrechner",
+    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+  },
+  {
+    "objectID": "mikroplanung_math/blockkurs.html",
+    "href": "mikroplanung_math/blockkurs.html",
     "title": "Mikroplanung Mathematik",
     "section": "",
     "text": "Wiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
-    "objectID": "mikroplanung_math/praesenzkurs.html",
-    "href": "mikroplanung_math/praesenzkurs.html",
-    "title": "Mikroplanung Mathematik",
+    "objectID": "lizenz.html",
+    "href": "lizenz.html",
+    "title": "Lizenz",
     "section": "",
-    "text": "Organisation\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
-  },
-  {
-    "objectID": "tryouts.html",
-    "href": "tryouts.html",
-    "title": "Spielwiese",
-    "section": "",
-    "text": "Hier sind tolle Sachen, aber aufwändiger für Ungeübte Nutzer:"
-  },
-  {
-    "objectID": "tryouts.html#test-accordion",
-    "href": "tryouts.html#test-accordion",
-    "title": "Spielwiese",
-    "section": "Test Accordion",
-    "text": "Test Accordion\n\n\n\n\nAccordion Item #1\n\n\n\n\ntext1\n\n\n\n\n\n\ntext2\n\n\n\n\n\n\n\n\n\n\n\nAccordion Item #3\n\n\n\n\ntext"
-  },
-  {
-    "objectID": "tryouts.html#test---lp21-indikatoren",
-    "href": "tryouts.html#test---lp21-indikatoren",
-    "title": "Spielwiese",
-    "section": "Test - LP21 Indikatoren",
-    "text": "Test - LP21 Indikatoren\nMI.2.2.g\nMI.2.2.g"
-  },
-  {
-    "objectID": "tryouts.html#test-dataframes",
-    "href": "tryouts.html#test-dataframes",
-    "title": "Spielwiese",
-    "section": "Test Dataframes",
-    "text": "Test Dataframes"
+    "text": "Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nDie Inhalte des Python-Kurses basieren auf dem Online Kurs von Peter Giger, welcher unter einer CC BY 4.0 steht.\nFolgende Autoren möchten hier aufgeführt werden, verzichten jedoch auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
     "objectID": "disclaimer.html",
@@ -215,6 +194,27 @@
     "title": "Disclaimer",
     "section": "",
     "text": "Es handelt sich um statische Dateien. Personenbezogene Daten werden nicht gespeichert.\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/woche_01.html#pf-fidelity-criteria",
+    "href": "unlisted_zeug/random_zeugs/woche_01.html#pf-fidelity-criteria",
+    "title": "random zeugs",
+    "section": "PF fidelity criteria",
+    "text": "PF fidelity criteria\n\nProblems affording multiple RSMs\nEvidence for multiple RSM generation\nAffective draw on the problem\nGroupwork as the participation structure (p&lt;0.05)\nInstruction building on the student solutions (p&lt;0.05)\nSocial surround facilitation (Problem-solving phase)\nsocial surround facilitation (Instruction Phase)\n\n\naus Sinha und Kapur (2021) lizensiert unter CC-BY 4.0"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/woche_01.html#bild",
+    "href": "unlisted_zeug/random_zeugs/woche_01.html#bild",
+    "title": "random zeugs",
+    "section": "Bild",
+    "text": "Bild"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/woche_01.html#bibliographie",
+    "href": "unlisted_zeug/random_zeugs/woche_01.html#bibliographie",
+    "title": "random zeugs",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nSinha, Tanmay, und Manu Kapur. 2021. „When Problem Solving Followed by Instruction Works: Evidence for Productive Failure“. Review of Educational Research 91 (5): 761–98. https://doi.org/10.3102/00346543211019105."
   },
   {
     "objectID": "stand_testverfahren/stand_test.html",
@@ -284,7 +284,7 @@
     "href": "python/04_listen_slides.html#auftrag-notendurchschnittsrechner",
     "title": "Python",
     "section": "Auftrag: Notendurchschnittsrechner",
-    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy"
+    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "python/01_variablen_slides.html#learning-outcomes",
@@ -319,7 +319,7 @@
     "href": "python/01_variablen_slides.html#auftrag-mein-erstes-programm",
     "title": "Python",
     "section": "Auftrag: Mein erstes Programm",
-    "text": "Auftrag: Mein erstes Programm\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy"
+    "text": "Auftrag: Mein erstes Programm\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "python/02_conditionals_slides.html#lernziele",
@@ -375,112 +375,7 @@
     "href": "python/02_conditionals_slides.html#auftrag-login-mit-benutzer-und-passwort",
     "title": "Python",
     "section": "Auftrag: Login mit Benutzer und Passwort",
-    "text": "Auftrag: Login mit Benutzer und Passwort\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\nErstellen sie ein Flussdiagramm dazu.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#was-wir-heute-erreichen-möchten",
-    "href": "one_off_slides/gdm_tagung.html#was-wir-heute-erreichen-möchten",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Was wir heute erreichen möchten:",
-    "text": "Was wir heute erreichen möchten:\n\nshow and tell\nIdeen für die LP-Ausbildung\nIdeen und Wünsche für Unterrichtsmaterial\neinen angenehmen Austausch"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#sneak-peak",
-    "href": "one_off_slides/gdm_tagung.html#sneak-peak",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Sneak Peak",
-    "text": "Sneak Peak\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#lehrplan-21-mi",
-    "href": "one_off_slides/gdm_tagung.html#lehrplan-21-mi",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Lehrplan 21 M&I",
-    "text": "Lehrplan 21 M&I\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen.\n\n\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren."
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#lehrplan-21-mi-1",
-    "href": "one_off_slides/gdm_tagung.html#lehrplan-21-mi-1",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Lehrplan 21 M&I",
-    "text": "Lehrplan 21 M&I\n\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#unterstützung-durch-mathematik",
-    "href": "one_off_slides/gdm_tagung.html#unterstützung-durch-mathematik",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Unterstützung durch Mathematik",
-    "text": "Unterstützung durch Mathematik\n\n\n\n\nKlasse\nLektionen1\n\n\n\n\n7. Klasse\n5\n\n\n8. Klasse\n5\n\n\n9. Klasse\n4\n\n\n\nLektionen für M&I nach Regez und Lutz (2022)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#der-elephant-im-raum",
-    "href": "one_off_slides/gdm_tagung.html#der-elephant-im-raum",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Der Elephant im Raum 🐘",
-    "text": "Der Elephant im Raum 🐘\n\n\n\n\n\nRegistration and Access Minimum Age. You must be at least 13 years old or the minimum age required in your country to consent to use the Services. If you are under 18 you must have your parent or legal guardian’s permission to use the Services.\n\n\nOpenAI (2024)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#tools",
-    "href": "one_off_slides/gdm_tagung.html#tools",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Tools",
-    "text": "Tools\nWir benutzen heute folgende Webseiten:\n\nhttps://www.online-python.com/\nhttps://chat.openai.com/ (benötigt Account)\n\n(Hinweis: Im Kurs werden Rstudio oder VSCode benutzt)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#selbst-ausprobieren",
-    "href": "one_off_slides/gdm_tagung.html#selbst-ausprobieren",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Selbst ausprobieren",
-    "text": "Selbst ausprobieren\n\nPrimzahlen finden mit Sieb des Erathostenes\nPrimzahlzerlegung\nGgt, kgV\nBrüche addieren\n…\n\nProbiert eigene Ideen aus.\n\n\n\n−+\n10:00"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#was-denken-andere",
-    "href": "one_off_slides/gdm_tagung.html#was-denken-andere",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Was denken andere?",
-    "text": "Was denken andere?\n\n\nIch empfand Mathematik als anstrengend, weil sie einen ungeheuer kreativen Umgang mit lose definierten formalen Systemen erfordert, während einem die Informatik Kreativität mit streng definierten formalen Systemen abverlangt.\n\nGeoff Huston, in Ermert (2023)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#interessante-diskussionen",
-    "href": "one_off_slides/gdm_tagung.html#interessante-diskussionen",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Interessante Diskussionen",
-    "text": "Interessante Diskussionen\n\nWie unterscheidet sich der Begriff “Funktion” und “Variable” in Mathematik und Informatik?\nWas ist besser:\n\nDifferenz als Summe mit negativen Zahlen?\nDifferenz als Umkehroperation der Addition?"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#weitere-ideen-sammeln",
-    "href": "one_off_slides/gdm_tagung.html#weitere-ideen-sammeln",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Weitere Ideen sammeln",
-    "text": "Weitere Ideen sammeln\nhttps://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#aufgaben-erstellen",
-    "href": "one_off_slides/gdm_tagung.html#aufgaben-erstellen",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Aufgaben erstellen?",
-    "text": "Aufgaben erstellen?\nEs folgt ein Python-Programm, welches mit Ihnen das Überschlagen von Summen und Differenzen von Dezimalzahlen übt.\nEine “sehr gute” Lösung liegt +/- 3% von der richtigen Lösung weg, eine “gute” Lösung liegt +/- 6% von der richtigen Lösung weg.\nÜben Sie, bis Sie regelmässig gute Lösungen erreichen.\nHerausforderung: Schreiben Sie das Programm selbst! Benutzen Sie dazu die random library mit import random und generieren Sie eine zufällige Zahl zwischen 0 und 1 mit random.random() und mit random.choice(+,-) eine zufällige Operation.\nHerausforderung: Bauen Sie eine Stoppuhr in den Code ein, welche die Zeit bis zur Antwort zählt und ausgibt. (Tipp: import time und time.time() gibt die Zeit in Unixzeit aus.)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#code-von-studentin",
-    "href": "one_off_slides/gdm_tagung.html#code-von-studentin",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Code von Studentin",
-    "text": "Code von Studentin\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#wie-weiter",
-    "href": "one_off_slides/gdm_tagung.html#wie-weiter",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Wie weiter?",
-    "text": "Wie weiter?"
-  },
-  {
-    "objectID": "one_off_slides/gdm_tagung.html#bibliographie",
-    "href": "one_off_slides/gdm_tagung.html#bibliographie",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy\n\n\n\nErmert, Geoff. 2023. „Missing Link: Von der Logik des Überflusses und einer gekauften Zukunft“. https://www.heise.de/hintergrund/Missing-Link-Von-der-Logik-des-Ueberflusses-und-einer-gekauften-Zukunft-9330937.html.\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\nOpenAI. 2024. „Terms of Use“. https://openai.com/policies/terms-of-use.\n\n\nRegez, Adrian, und Elia Lutz. 2022. „Medien Informatik Factsheet“. https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/uebergeordnete-themen/medien-und-informatik/unterricht/medien-informatik-factsheet.pdf."
+    "text": "Auftrag: Login mit Benutzer und Passwort\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\nErstellen sie ein Flussdiagramm dazu.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "math_summative_praes/woche_01.html#organisationsblatt",
@@ -529,7 +424,7 @@
     "href": "math_summative_praes/woche_01.html#bibliographie",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy\n\n\n\nBiggs, John. 1996. „Enhancing Teaching Through Constructive Alignment“. Higher Education 32 (3): 347–64. https://doi.org/10.1007/BF00138871.\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\n———. 2022. „BSG 432.213.11 - Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule - Kanton Bern - Erlass-Sammlung“. https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11.\n\n\nVan Dormolen, Johan. 1978. Didaktik der Mathematik. Wiesbaden: Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0."
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nBiggs, John. 1996. „Enhancing Teaching Through Constructive Alignment“. Higher Education 32 (3): 347–64. https://doi.org/10.1007/BF00138871.\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\n———. 2022. „BSG 432.213.11 - Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule - Kanton Bern - Erlass-Sammlung“. https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11.\n\n\nVan Dormolen, Johan. 1978. Didaktik der Mathematik. Wiesbaden: Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0."
   },
   {
     "objectID": "math_summative_praes/woche_02.html#qualitätsmerkmal-umfassend",
@@ -585,7 +480,7 @@
     "href": "math_summative_praes/woche_02.html#bibliographie",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy\n\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\n———. o. J. „Dokumentation der summativen Beurteilung Mathematik“. https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html.\n\n\nVan Dormolen, Johan. 1978. Didaktik der Mathematik. Wiesbaden: Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0."
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\n———. o. J. „Dokumentation der summativen Beurteilung Mathematik“. https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html.\n\n\nVan Dormolen, Johan. 1978. Didaktik der Mathematik. Wiesbaden: Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0."
   },
   {
     "objectID": "learning_analytics/learning_analytics.html",
@@ -690,7 +585,7 @@
     "href": "math_summative_praes/woche_07.html#bibliographie",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. 2016. „Lehrplan 21 - Allgemeine Hinweise und Bestimmungen (AHB) - 5.2 Beurteilung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm."
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. 2016. „Lehrplan 21 - Allgemeine Hinweise und Bestimmungen (AHB) - 5.2 Beurteilung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm."
   },
   {
     "objectID": "python/03_loops_slides.html#was-sind-loops-schleifen",
@@ -725,7 +620,7 @@
     "href": "python/03_loops_slides.html#auftrag-prüfungssoftware-programmieren",
     "title": "Python",
     "section": "Auftrag: Prüfungssoftware Programmieren",
-    "text": "Auftrag: Prüfungssoftware Programmieren\n\nProgrammieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\nErstellen sie das Flussdiagramm dazu.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy"
+    "text": "Auftrag: Prüfungssoftware Programmieren\n\nProgrammieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\nErstellen sie das Flussdiagramm dazu.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "python/python.html",
@@ -844,7 +739,7 @@
     "href": "python/05_funktionen_slides.html#auftrag-brief-adressieren",
     "title": "Python",
     "section": "Auftrag: Brief Adressieren",
-    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy"
+    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "stand_testverfahren/slides.html#areas-of-conflict",
@@ -935,174 +830,279 @@
     "href": "stand_testverfahren/slides.html#bibliographie",
     "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy\n\n\n\nImlig, Flavian, und Susanne Ender. 2018. „Towards a National Assessment Policy in Switzerland: Areas of Conflict in the Use of Assessment Instruments“. Assessment in Education: Principles, Policy & Practice 25 (3): 272–90. https://doi.org/10.1080/0969594X.2017.1390439.\n\n\nLehrmittelverlag St.Gallen. o. J. „Stellwerk“. https://stellwerk.ch/stellwerk/#produkt."
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nImlig, Flavian, und Susanne Ender. 2018. „Towards a National Assessment Policy in Switzerland: Areas of Conflict in the Use of Assessment Instruments“. Assessment in Education: Principles, Policy & Practice 25 (3): 272–90. https://doi.org/10.1080/0969594X.2017.1390439.\n\n\nLehrmittelverlag St.Gallen. o. J. „Stellwerk“. https://stellwerk.ch/stellwerk/#produkt."
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#was-wir-heute-erreichen-möchten",
+    "href": "unlisted_zeug/gdm_tagung.html#was-wir-heute-erreichen-möchten",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Was wir heute erreichen möchten:",
+    "text": "Was wir heute erreichen möchten:\n\nshow and tell\nIdeen für die LP-Ausbildung\nIdeen und Wünsche für Unterrichtsmaterial\neinen angenehmen Austausch"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#sneak-peak",
+    "href": "unlisted_zeug/gdm_tagung.html#sneak-peak",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Sneak Peak",
+    "text": "Sneak Peak\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#lehrplan-21-mi",
+    "href": "unlisted_zeug/gdm_tagung.html#lehrplan-21-mi",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Lehrplan 21 M&I",
+    "text": "Lehrplan 21 M&I\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen.\n\n\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren."
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#lehrplan-21-mi-1",
+    "href": "unlisted_zeug/gdm_tagung.html#lehrplan-21-mi-1",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Lehrplan 21 M&I",
+    "text": "Lehrplan 21 M&I\n\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#unterstützung-durch-mathematik",
+    "href": "unlisted_zeug/gdm_tagung.html#unterstützung-durch-mathematik",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Unterstützung durch Mathematik",
+    "text": "Unterstützung durch Mathematik\n\n\n\n\nKlasse\nLektionen1\n\n\n\n\n7. Klasse\n5\n\n\n8. Klasse\n5\n\n\n9. Klasse\n4\n\n\n\nLektionen für M&I nach Regez und Lutz (2022)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#der-elephant-im-raum",
+    "href": "unlisted_zeug/gdm_tagung.html#der-elephant-im-raum",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Der Elephant im Raum 🐘",
+    "text": "Der Elephant im Raum 🐘\n\n\n\n\n\nRegistration and Access Minimum Age. You must be at least 13 years old or the minimum age required in your country to consent to use the Services. If you are under 18 you must have your parent or legal guardian’s permission to use the Services.\n\n\nOpenAI (2024)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#tools",
+    "href": "unlisted_zeug/gdm_tagung.html#tools",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Tools",
+    "text": "Tools\nWir benutzen heute folgende Webseiten:\n\nhttps://www.online-python.com/\nhttps://chat.openai.com/ (benötigt Account)\n\n(Hinweis: Im Kurs werden Rstudio oder VSCode benutzt)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#selbst-ausprobieren",
+    "href": "unlisted_zeug/gdm_tagung.html#selbst-ausprobieren",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Selbst ausprobieren",
+    "text": "Selbst ausprobieren\n\nPrimzahlen finden mit Sieb des Erathostenes\nPrimzahlzerlegung\nGgt, kgV\nBrüche addieren\n…\n\nProbiert eigene Ideen aus.\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#was-denken-andere",
+    "href": "unlisted_zeug/gdm_tagung.html#was-denken-andere",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Was denken andere?",
+    "text": "Was denken andere?\n\n\nIch empfand Mathematik als anstrengend, weil sie einen ungeheuer kreativen Umgang mit lose definierten formalen Systemen erfordert, während einem die Informatik Kreativität mit streng definierten formalen Systemen abverlangt.\n\nGeoff Huston, in Ermert (2023)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#interessante-diskussionen",
+    "href": "unlisted_zeug/gdm_tagung.html#interessante-diskussionen",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Interessante Diskussionen",
+    "text": "Interessante Diskussionen\n\nWie unterscheidet sich der Begriff “Funktion” und “Variable” in Mathematik und Informatik?\nWas ist besser:\n\nDifferenz als Summe mit negativen Zahlen?\nDifferenz als Umkehroperation der Addition?"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#weitere-ideen-sammeln",
+    "href": "unlisted_zeug/gdm_tagung.html#weitere-ideen-sammeln",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Weitere Ideen sammeln",
+    "text": "Weitere Ideen sammeln\nhttps://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#aufgaben-erstellen",
+    "href": "unlisted_zeug/gdm_tagung.html#aufgaben-erstellen",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Aufgaben erstellen?",
+    "text": "Aufgaben erstellen?\nEs folgt ein Python-Programm, welches mit Ihnen das Überschlagen von Summen und Differenzen von Dezimalzahlen übt.\nEine “sehr gute” Lösung liegt +/- 3% von der richtigen Lösung weg, eine “gute” Lösung liegt +/- 6% von der richtigen Lösung weg.\nÜben Sie, bis Sie regelmässig gute Lösungen erreichen.\nHerausforderung: Schreiben Sie das Programm selbst! Benutzen Sie dazu die random library mit import random und generieren Sie eine zufällige Zahl zwischen 0 und 1 mit random.random() und mit random.choice(+,-) eine zufällige Operation.\nHerausforderung: Bauen Sie eine Stoppuhr in den Code ein, welche die Zeit bis zur Antwort zählt und ausgibt. (Tipp: import time und time.time() gibt die Zeit in Unixzeit aus.)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#code-von-studentin",
+    "href": "unlisted_zeug/gdm_tagung.html#code-von-studentin",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Code von Studentin",
+    "text": "Code von Studentin\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#wie-weiter",
+    "href": "unlisted_zeug/gdm_tagung.html#wie-weiter",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Wie weiter?",
+    "text": "Wie weiter?"
+  },
+  {
+    "objectID": "unlisted_zeug/gdm_tagung.html#bibliographie",
+    "href": "unlisted_zeug/gdm_tagung.html#bibliographie",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy\n\n\n\nErmert, Geoff. 2023. „Missing Link: Von der Logik des Überflusses und einer gekauften Zukunft“. https://www.heise.de/hintergrund/Missing-Link-Von-der-Logik-des-Ueberflusses-und-einer-gekauften-Zukunft-9330937.html.\n\n\nErziehungsdirektion des Kantons Bern. 2016. „Lehrplan 21 - 5. Unterrichtsentwicklung“. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF.\n\n\nOpenAI. 2024. „Terms of Use“. https://openai.com/policies/terms-of-use.\n\n\nRegez, Adrian, und Elia Lutz. 2022. „Medien Informatik Factsheet“. https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/uebergeordnete-themen/medien-und-informatik/unterricht/medien-informatik-factsheet.pdf."
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/tryouts.html",
+    "href": "unlisted_zeug/random_zeugs/tryouts.html",
+    "title": "Spielwiese",
+    "section": "",
+    "text": "Hier sind tolle Sachen, aber aufwändiger für Ungeübte Nutzer:"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/tryouts.html#test-accordion",
+    "href": "unlisted_zeug/random_zeugs/tryouts.html#test-accordion",
+    "title": "Spielwiese",
+    "section": "Test Accordion",
+    "text": "Test Accordion\n\n\n\n\nAccordion Item #1\n\n\n\n\ntext1\n\n\n\n\n\n\ntext2\n\n\n\n\n\n\n\n\n\n\n\nAccordion Item #3\n\n\n\n\ntext"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/tryouts.html#test---lp21-indikatoren",
+    "href": "unlisted_zeug/random_zeugs/tryouts.html#test---lp21-indikatoren",
+    "title": "Spielwiese",
+    "section": "Test - LP21 Indikatoren",
+    "text": "Test - LP21 Indikatoren\nMI.2.2.g\nMI.2.2.g"
+  },
+  {
+    "objectID": "unlisted_zeug/random_zeugs/tryouts.html#test-dataframes",
+    "href": "unlisted_zeug/random_zeugs/tryouts.html#test-dataframes",
+    "title": "Spielwiese",
+    "section": "Test Dataframes",
+    "text": "Test Dataframes"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Lerngelegenheiten",
     "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\nAutor:in\n\n\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 1\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 2\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 3\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 7\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 8\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 9\n\n\nRichard Conrardy, Dozent\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\nRichard Conrardy, Dozent\n\n\n\n\nDisclaimer\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nLiterature Club Besprechung\n\n\nRichard Conrardy, Dozent\n\n\n\n\nImpressum\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nKontakt\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nLearning Analytics\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nLearning Analytics\n\n\nWoche 8\n\n\nRichard Conrardy, Dozent\n\n\n\n\nLearning Analytics\n\n\nWoche 11\n\n\nRichard Conrardy, Dozent\n\n\n\n\nLizenz\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nWorkshop\n\n\nRichard Conrardy, Dozent\n\n\n\n\nMikroplanung Mathematik\n\n\nBlockkurs\n\n\nRichard Conrardy, Dozent\n\n\n\n\nMikroplanung Mathematik\n\n\nSOL\n\n\nRichard Conrardy, Dozent\n\n\n\n\nMikroplanung Mathematik\n\n\nErstellen einer Mikroplanung für den Mathematikunterricht\n\n\nRichard Conrardy, Dozent\n\n\n\n\nProgrammieren in Python\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nPython\n\n\nVariablen, Datentypen und Type Casting\n\n\nRichard Conrardy, Dozent\n\n\n\n\nPython\n\n\nVariablen, Datentypen und Type Casting\n\n\nRichard Conrardy, Dozent\n\n\n\n\nPython\n\n\nLoops (while, for) und Flussdiagramme\n\n\nRichard Conrardy, Dozent\n\n\n\n\nPython\n\n\nListen\n\n\nRichard Conrardy, Dozent\n\n\n\n\nPython\n\n\nFunktionen\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSpielwiese\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, Präsenzveranstaltung\n\n\nRichard Conrardy, Dozent\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, selbst organisiertes Lernen (SOL)\n\n\nRichard Conrardy, Dozent\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nBeurteilung Mathematik\n\n\nRichard Conrardy, Dozent\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nundefined\n\n\nRichard Conrardy, Dozent, Joel Adler  Richard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nundefined\n\n\nRichard Conrardy, Dozent, Joel Adler  Richard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nWoche 3\n\n\nRichard Conrardy, Dozent, Joel Adler  Richard Conrardy\n\n\n\n\nrandom zeugs\n\n\nundefined\n\n\nRichard Conrardy, Dozent\n\n\n\n\n\n\nKeine Treffer\n\n\n  \n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\nAutor:in\n\n\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 1\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 2\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 3\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 7\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 8\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht  Woche 9\n\n\nRichard Conrardy\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\nRichard Conrardy\n\n\n\n\nDisclaimer\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nLiterature Club Besprechung\n\n\nRichard Conrardy\n\n\n\n\nImpressum\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nKontakt\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nLearning Analytics\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nLearning Analytics\n\n\nWoche 8\n\n\nRichard Conrardy\n\n\n\n\nLearning Analytics\n\n\nWoche 11\n\n\nRichard Conrardy\n\n\n\n\nLizenz\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nWorkshop\n\n\nRichard Conrardy\n\n\n\n\nMikroplanung Mathematik\n\n\nBlockkurs\n\n\nRichard Conrardy\n\n\n\n\nMikroplanung Mathematik\n\n\nSOL\n\n\nRichard Conrardy\n\n\n\n\nMikroplanung Mathematik\n\n\nErstellen einer Mikroplanung für den Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\nProgrammieren in Python\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nPython\n\n\nVariablen, Datentypen und Type Casting\n\n\nRichard Conrardy\n\n\n\n\nPython\n\n\nVariablen, Datentypen und Type Casting\n\n\nRichard Conrardy\n\n\n\n\nPython\n\n\nLoops (while, for) und Flussdiagramme\n\n\nRichard Conrardy\n\n\n\n\nPython\n\n\nListen\n\n\nRichard Conrardy\n\n\n\n\nPython\n\n\nFunktionen\n\n\nRichard Conrardy\n\n\n\n\nSpielwiese\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, Präsenzveranstaltung\n\n\nRichard Conrardy\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, selbst organisiertes Lernen (SOL)\n\n\nRichard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nBeurteilung Mathematik\n\n\nRichard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nundefined\n\n\nRichard Conrardy, Joel Adler  Richard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nundefined\n\n\nRichard Conrardy, Joel Adler  Richard Conrardy\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nWoche 3\n\n\nRichard Conrardy, Joel Adler  Richard Conrardy\n\n\n\n\nrandom zeugs\n\n\nundefined\n\n\nRichard Conrardy\n\n\n\n\n\n\nKeine Treffer\n\n\n  \n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
     "objectID": "impressum.html",
     "href": "impressum.html",
     "title": "Impressum",
     "section": "",
-    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nAlle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nDie Inhalte des Python-Kurses basieren auf dem Online Kurs von Peter Giger, welcher unter einer CC BY 4.0 steht.\nFolgende Autoren möchten hier aufgeführt werden, verzichten jedoch auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nAlle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
-    "objectID": "lizenz.html",
-    "href": "lizenz.html",
-    "title": "Lizenz",
+    "objectID": "mikroplanung_math/praesenzkurs.html",
+    "href": "mikroplanung_math/praesenzkurs.html",
+    "title": "Mikroplanung Mathematik",
     "section": "",
-    "text": "Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nDie Inhalte des Python-Kurses basieren auf dem Online Kurs von Peter Giger, welcher unter einer CC BY 4.0 steht.\nFolgende Autoren möchten hier aufgeführt werden, verzichten jedoch auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    "text": "Organisation\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
-    "objectID": "mikroplanung_math/blockkurs.html",
-    "href": "mikroplanung_math/blockkurs.html",
+    "objectID": "mikroplanung_math/mikro_sol.html",
+    "href": "mikroplanung_math/mikro_sol.html",
     "title": "Mikroplanung Mathematik",
     "section": "",
     "text": "Wiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#was-sind-loops-schleifen",
-    "href": "verstehensorientiert_pruefen/woche_02.html#was-sind-loops-schleifen",
+    "objectID": "verstehensorientiert_pruefen/math_ki.html",
+    "href": "verstehensorientiert_pruefen/math_ki.html",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Loops? (Schleifen)",
-    "text": "Was sind Loops? (Schleifen)\nMit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:\nWhile-Loop\ni = 0  # Braucht eine Zähler-Variable\nwhile i &lt; 5:  # Solange i &lt; 5\n  print(i)\n  i = i + 1  # i um eins erhöhen\n# Output: 0 1 2 3 4\nFor-Loop\nfor i in range(0, 5):  # Für jedes i von 0 bis 5\n  print(i)\n# Output: 0 1 2 3 4\nWhile-Loops vs. For-Loops\nWhile-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.\nWarum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.\nfor i in range(5, 10):  # range(von, bis)\n  print(i)\n# Output: 5 6 7 8 9\nVgl. Misra-C + Leserlichkeit\nDemo"
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum Porta-QT-Digitalität"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
-    "href": "verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
+    "objectID": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
+    "href": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Unendliche Loops & Loops verlassen",
-    "text": "Unendliche Loops & Loops verlassen\nMit “while True:” erzeugt man einen unendlichen Loop:\nwhile True:  # Unendliche Schleife\n  print(\"hallo\")\n# Output: hallo hallo hallo hallo hallo hallo hallo hallo ...\n(Tipp: Mit “ctrl-c” brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)\nMit “break” kann man einen Loop wieder verlassen\ni = 0\nwhile True:\n  print(i)\n  if i == 100:\n    break  # Loop verlassen\n  i = i + 1\n# Output: 0 1 2 4 5 ... 98 99 100\nDas Flussdiagramm als visuelle Darstellung\ni = 2\nwhile i &lt; 10:\n  print(i)\n  i = i + 2\nprint(\"fertig\")\n# Output: 2 4 6 8 fertig\n(Da For-Loops nur “Syntactic Sugar” für While-Loops sind, werden diese als While-Loop dargestellt.)"
+    "section": "Vorbereitungsauftrag - Woche 1",
+    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.\nInstallieren Sie vor der ersten Woche:\n\nPython\nEntweder RStudio oder VSCode\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule",
-    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule",
+    "objectID": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
+    "href": "verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule",
-    "text": "Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule\n\nDie Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.\nDie Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.\nNun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm."
+    "section": "Vorbereitungsauftrag - Woche 3",
+    "text": "Vorbereitungsauftrag - Woche 3"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-fahrplan-luzern---engelberg",
-    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-fahrplan-luzern---engelberg",
+    "objectID": "verstehensorientiert_pruefen/math_ki.html#woche-8",
+    "href": "verstehensorientiert_pruefen/math_ki.html#woche-8",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Fahrplan Luzern - Engelberg",
-    "text": "Auftrag: Fahrplan Luzern - Engelberg\nDer IR (Interregio) von Luzern nach Engelberg fährt nur 1x pro Stunde. Der erste Zug fährt um 6:12 und der letzte Zug um 20:12.\nErstellen sie ein Programm, welches den Fahrplan ausgibt (ohne jeden Zug einzeln aufzuschreiben). Erstellen sie das Flussdiagramm dazu."
+    "section": "Woche 8",
+    "text": "Woche 8\n\n Inhalte\n\n Präsentationsfolien\ndsa\n\n\n\n️ Auftrag\n\nBla"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
-    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes",
+    "href": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Prüfungssoftware Programmieren",
-    "text": "Auftrag: Prüfungssoftware Programmieren\n\nProgrammieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\nErstellen sie das Flussdiagramm dazu."
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren.\n\n\n\n\n\nSie benennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
-    "href": "verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-variablen",
+    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-variablen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Listen? ",
-    "text": "Was sind Listen? \nEine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:\n\nBrot\nNutella\nMilch\n…\n\nIn Python werden Listen mit eckigen Klammern [] geschrieben:\nx = [\"Brot\", \"Nutella\", \"Milch\"]  # Definition einer Liste\nprint(x)  # Output: \"['Brot', 'Nutella', 'Milch']\""
+    "section": "Was sind Variablen?",
+    "text": "Was sind Variablen?\nEine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).\nname = \"Christian\" # Variable erstellen und Wert zuweisen\nprint(name) # Output: Christian\n\nname = 3 # Variable überschreiben\nprint(name) # Output: 3 \n\nname = input(\"Gib deinen Namen ein: \") # Benutzereingabe\nprint(\"Dein Name ist: \" + name) # Output: ?\n(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#zugriff-auf-listenelemente",
-    "href": "verstehensorientiert_pruefen/woche_02.html#zugriff-auf-listenelemente",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-datentypen",
+    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-datentypen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Zugriff auf Listenelemente",
-    "text": "Zugriff auf Listenelemente\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
+    "section": "Was sind Datentypen?",
+    "text": "Was sind Datentypen?\nJede Variable hat einen Datentyp. Die vier wichtigsten:\nx = 5\nprint(type(x)) # Output: int (Integer/Ganzzahl)\n\nx = 5.0\nprint(type(x)) # Output: float (Floating-Point/Kommazahl)\n\nx = True\nprint(type(x)) # Output: bool (Boolean/Wahrheitswert)\n\nx = \"hello\"\nprint(type(x)) # Output: string (String/Zeichenkette)"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#listen-loops",
-    "href": "verstehensorientiert_pruefen/woche_02.html#listen-loops",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#konvertierung-von-datentypen-type-casting",
+    "href": "verstehensorientiert_pruefen/woche_01.html#konvertierung-von-datentypen-type-casting",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Listen & Loops",
-    "text": "Listen & Loops\nListen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:\nfor element in einkaufsliste:\n  print(element)\nWenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der len()-Funktion verwendet werden:\nfor i in range(len(einkaufsliste)):  # len() ist die Listenlänge\n  print(einkaufsliste[i])\n  print(i)  # Vorteil: Man hat Zugriff auf den Index i"
+    "section": "Konvertierung von Datentypen (Type Casting)",
+    "text": "Konvertierung von Datentypen (Type Casting)\nManchmal muss man Datentypen umwandeln\nx = \"Monat \"\ny = 12\nprint(x + y) # funktioniert nicht und macht keinen Sinn\n\nx = \"Monat \"\ny = 12\nprint(x + str(y)) # Output: Monat 12\nDie Umwandlungsfunktionen sind analog zu den Datentypen:\nx = 5\nint(x) # x ist bereits ein Integer\nfloat(x) # 5.0\nbool(x) # True\nstr(x) # \"5\""
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#listenelemente-bearbeiten",
-    "href": "verstehensorientiert_pruefen/woche_02.html#listenelemente-bearbeiten",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-mein-erstes-programm",
+    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-mein-erstes-programm",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Listenelemente bearbeiten",
-    "text": "Listenelemente bearbeiten\nEin Element ändern\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste[1] = \"Bananen\"\n# Resultat: ['Brot', 'Bananen', 'Milch']\nEin Element hinzufügen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.append(\"Bananen\")\n# Resultat: ['Brot', 'Bananen', 'Milch', \"Bananen\"]\nEin Element löschen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.pop()\n# Resultat: [\"Brot\", \"Nutella\"]"
+    "section": "Auftrag: Mein erstes Programm",
+    "text": "Auftrag: Mein erstes Programm\n\n\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
-    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes-1",
+    "href": "verstehensorientiert_pruefen/woche_01.html#learning-outcomes-1",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Einkaufsliste",
-    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren"
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
-    "href": "verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-sind-conditionals",
+    "href": "verstehensorientiert_pruefen/woche_01.html#was-sind-conditionals",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Notendurchschnittsrechner",
-    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+    "section": "Was sind Conditionals?",
+    "text": "Was sind Conditionals?\nConditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man “if Bedingung: dann”. Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).\nnote = 4.5\n\nif note &gt;= 4:\n  print(\"Prüfung bestanden\")\n  print(\"...\")  # Alles in einer If-Bedingung muss eingerückt sein\nelse:\n  print(\"Mehr Code\")  # Ohne Einrücken ist es wieder normaler Code"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#was-sind-funktionen",
-    "href": "verstehensorientiert_pruefen/woche_03.html#was-sind-funktionen",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#if-elif-else",
+    "href": "verstehensorientiert_pruefen/woche_01.html#if-elif-else",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Was sind Funktionen?",
-    "text": "Was sind Funktionen?\nFunktionen kennen sie bereits aus der Mathematik, z. B. f(x) = 2x.\nIn Python werden Funktionen mit def und return definiert und meistens verwendet, um Code besser zu strukturieren:\n# Definition einer Funktion\ndef meine_funktion(x):\n  return 2*x\n\n# Funktionen können mehrmals aufgerufen werden\nprint(meine_funktion(2))\nprint(meine_funktion(4))\n# Output: 4 8"
+    "section": "If-Elif-Else",
+    "text": "If-Elif-Else\nMit elif (Abkürzung für “else-if”) und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.\nx = 1\n\nif x &gt; 1:\n  print(\"x ist größer als 1\")\nelif x &lt; 1:\n  print(\"x ist kleiner als 1\")\nelse:\n  print(\"x ist gleich 1\")\nAchtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#parameter-bzw.-argumente",
-    "href": "verstehensorientiert_pruefen/woche_03.html#parameter-bzw.-argumente",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#logische-operatoren",
+    "href": "verstehensorientiert_pruefen/woche_01.html#logische-operatoren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Parameter bzw. Argumente",
-    "text": "Parameter bzw. Argumente\nFunktionen können (müssen aber nicht) Argumente haben:\ndef funktion_ohne_argument():\n  print(\"hello\")\n\ndef funktion_mit_argument(x):\n  print(x)\n\n# Funktionen haben immer Klammern (mit oder ohne Argumente)\nfunktion_ohne_argument()\nfunktion_mit_argument(\"world\")\n# Output: hello world\nDie Argumente sind nur innerhalb der Funktion erreichbar:\ndef meine_funktion(x):\n  print(x) # x ist das Argument/Parameter\n\nprint(x) # x wird nicht gefunden"
+    "section": "Logische Operatoren",
+    "text": "Logische Operatoren\n\nand (Deutsch: und)\nor (Deutsch: oder)\nnot (Deutsch: nicht)\n\nx = 5\ny = 6\n\nif x == 5 and y == 6:\n  print(\"Beide Aussagen sind Wahr\")\n\nif x == 5 or y == 6:\n  print(\"Eine oder beide Aussagen sind Wahr\")\n\nif not x == 5:  # Gleich wie x != 5\n  print(\"Die Aussage ist nicht Wahr\")"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#rückgabewert",
-    "href": "verstehensorientiert_pruefen/woche_03.html#rückgabewert",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#was-ihr-vermeiden-solltet",
+    "href": "verstehensorientiert_pruefen/woche_01.html#was-ihr-vermeiden-solltet",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Rückgabewert",
-    "text": "Rückgabewert\nFunktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:\ndef funktion_ohne_rückgabewert(x):\n  y = 2*x\n\ndef funktion_mit_rückgabewert(x):\n  y = 2*x\n  return y\n\nv1 = funktion_ohne_rückgabewert(5)\nv2 = funktion_mit_rückgabewert(5)\n\nprint(v1) # Output: None\nprint(v2) # Output: 10"
+    "section": "Was ihr vermeiden solltet!",
+    "text": "Was ihr vermeiden solltet!\nVergleichen von Booleans mit ==\nwinter = True\n\nif winter == True:  # Schlechter Programmierstil\n  print(\"Es ist Winter\")\n\nif winter:  # Viel besser\n  print(\"Es ist Winter\")\nVergleichen von Floats mit ==\nmeter = 1.8324\n\nif meter == 1.8324:  # Nicht gut, da Floats nur \"ungefähr\" sind\n  print(\"Sie sind 1.83 Meter groß\")\n\nif 1.83 &lt; meter &lt; 1.84:  # Viel besser\n  print(\"Sie sind 1.83 Meter groß\")"
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#reine-vs.-modifizierte-funktionen",
-    "href": "verstehensorientiert_pruefen/woche_03.html#reine-vs.-modifizierte-funktionen",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-passwort",
+    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-passwort",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Reine vs. Modifizierte Funktionen",
-    "text": "Reine vs. Modifizierte Funktionen\nIn der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!"
+    "section": "Auftrag: Login mit Passwort",
+    "text": "Auftrag: Login mit Passwort\n\n\nProgrammieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”."
   },
   {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#beispiel",
-    "href": "verstehensorientiert_pruefen/woche_03.html#beispiel",
+    "objectID": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-benutzer-und-passwort",
+    "href": "verstehensorientiert_pruefen/woche_01.html#auftrag-login-mit-benutzer-und-passwort",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Beispiel",
-    "text": "Beispiel\nglobaleVariable = 0 # Das ist eine globale Variable\n\ndef reine_funktion(x):\n  return 2*x\n\ndef modifizierte_funktion(x):\n  global globaleVariable # auf globale Variable zugreifen\n  globaleVariable = globaleVariable + 1\n  return 2*x*globaleVariable\n\nreine_funktion(4) # Output: 8\nreine_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 16 --&gt; anderer Output"
-  },
-  {
-    "objectID": "verstehensorientiert_pruefen/woche_03.html#auftrag-brief-adressieren",
-    "href": "verstehensorientiert_pruefen/woche_03.html#auftrag-brief-adressieren",
-    "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Auftrag: Brief Adressieren",
-    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort"
-  },
-  {
-    "objectID": "random_zeugs/woche_01.html#pf-fidelity-criteria",
-    "href": "random_zeugs/woche_01.html#pf-fidelity-criteria",
-    "title": "random zeugs",
-    "section": "PF fidelity criteria",
-    "text": "PF fidelity criteria\n\nProblems affording multiple RSMs\nEvidence for multiple RSM generation\nAffective draw on the problem\nGroupwork as the participation structure (p&lt;0.05)\nInstruction building on the student solutions (p&lt;0.05)\nSocial surround facilitation (Problem-solving phase)\nsocial surround facilitation (Instruction Phase)\n\n\naus Sinha und Kapur (2021) lizensiert unter CC-BY 4.0"
-  },
-  {
-    "objectID": "random_zeugs/woche_01.html#bild",
-    "href": "random_zeugs/woche_01.html#bild",
-    "title": "random zeugs",
-    "section": "Bild",
-    "text": "Bild"
-  },
-  {
-    "objectID": "random_zeugs/woche_01.html#bibliographie",
-    "href": "random_zeugs/woche_01.html#bibliographie",
-    "title": "random zeugs",
-    "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy\n\n\n\nSinha, Tanmay, und Manu Kapur. 2021. „When Problem Solving Followed by Instruction Works: Evidence for Productive Failure“. Review of Educational Research 91 (5): 761–98. https://doi.org/10.3102/00346543211019105."
+    "section": "Auftrag: Login mit Benutzer und Passwort",
+    "text": "Auftrag: Login mit Benutzer und Passwort\n\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\n\n\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
   }
 ]
