@@ -14,15 +14,14 @@ categories:
 [Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
 :::
 
-
-| Woche | Thema                      |                               Slides                               |                  Unterlagen                   |
+| Woche | Thema                                 |                               Slides                               |                  Unterlagen                   |
 |:----------------:|:-----------------|:----------------:|:----------------:|
-|   1   | Constructive Alignment     | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   2   | Lehrplan21                 | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   3   | Teilgebiete der Mathematik | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   7   |                            |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |       <i class="bi bi-folder-fill"></i>       |
-|   8   |                            |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                               |
-|   9   | Algorithmen                |         [<i class="bi bi-easel3-fill"></i>](woche_09.qmd)          | [<i class="bi bi-folder-fill"></i>](#woche-8) |
+|   1   | Constructive Alignment                | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
+|   2   | Lehrplan21                            | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
+|   3   | Mathematische Inhalte und Tätigkeiten | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
+|   7   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |       <i class="bi bi-folder-fill"></i>       |
+|   8   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                               |
+|   9   | Algorithmen                           |         [<i class="bi bi-easel3-fill"></i>](woche_09.qmd)          | [<i class="bi bi-folder-fill"></i>](#woche-8) |
 
 : {.striped .hover .table-sm}
 
@@ -33,7 +32,6 @@ categories:
 Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **9. Klasse** im deutschsprachigen Teil des Kantons Bern.
 
 Die Lernkontrollen sind unter einer freien Lizenz([CC BY](https://creativecommons.org/licenses/by/4.0/) oder [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
-
 
 Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
 

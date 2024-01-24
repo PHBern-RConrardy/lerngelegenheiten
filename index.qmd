@@ -9,7 +9,7 @@ listing:
     - "learning_analytics/*.qmd"
     - "math_summative_praes/*qmd"
     - "stand_testverfahren/*.qmd"
-    - "verstehensorientier_pruefen/*qmd"
+    - "verstehensorientiert_pruefen/*qmd"
     - "special/gdm_tagung.qmd"
   fields: [title, subtitle, author]
   filter-ui: [title, subtitle, author]

@@ -179,7 +179,7 @@ $body-color: $titelfarbe;
     color:$flieder1!important;
 }
 
-main a:not(.knopf):not(.nav-link):not(header a),
+main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-link),
 .reveal a:not(.knopf) {
   color: $link-color;
   text-decoration: none;
@@ -192,22 +192,11 @@ main a:not(.knopf):not(.nav-link):not(header a),
   }
 }
 
-
-
-
-//summary {
-//  font-size: 1rem; /* Set font size to twice the default size */
-//}
-
-/*--
-[role="doc-toc"] ul {
-  list-style-type: decimal;
+.page-item.active .page-link{
+  background-color: $bordeaux;
+  border-color: $bordeaux;
 }
 
-[role="doc-toc"] ul ul {
-  list-style-type: lower-alpha;
-  padding-left: 1em;
-}--*/
 
 
 
@@ -303,6 +292,14 @@ td {
   font-size: 0.6em;
   font-style: normal; 
   color: $schwarz3;
+}
+
+.quelle {
+  text-align: right;
+  font-size: 0.6em;
+  font-style: normal; 
+  color: $schwarz3;
+  display: block;
 }
 
 

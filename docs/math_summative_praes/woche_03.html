@@ -30,7 +30,26 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -323,6 +342,10 @@
       margin-right: 0; 
     }
   </style>
+  <meta name="mermaid-theme" content="neutral">
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -352,18 +375,225 @@
 <nav role="doc-toc"> 
 <h2 id="toc-title">Inhalt</h2>
 <ul>
-<li></li>
+<li><a href="#/lehr--lerninhalte" id="/toc-lehr--lerninhalte">Lehr- Lerninhalte</a>
+<ul>
+<li><a href="#/bereiche-der-mathematik" id="/toc-bereiche-der-mathematik">Bereiche der Mathematik</a></li>
+<li><a href="#/leitideen" id="/toc-leitideen">Leitideen</a></li>
+<li><a href="#/kompetenzbereiche-inhalte" id="/toc-kompetenzbereiche-inhalte">Kompetenzbereiche (Inhalte)</a></li>
+<li><a href="#/überblick" id="/toc-überblick">Überblick</a></li>
+</ul></li>
+<li><a href="#/tätigkeiten" id="/toc-tätigkeiten">Tätigkeiten</a>
+<ul>
+<li><a href="#/denkprozesse" id="/toc-denkprozesse">Denkprozesse</a></li>
+<li><a href="#/handlungsaspekte" id="/toc-handlungsaspekte">Handlungsaspekte</a></li>
+<li><a href="#/überblick-1" id="/toc-überblick-1">Überblick</a></li>
+</ul></li>
+<li><a href="#/lehrplan-21" id="/toc-lehrplan-21">Lehrplan 21</a>
+<ul>
+<li><a href="#/überblick-2" id="/toc-überblick-2">Überblick</a></li>
+</ul></li>
 </ul>
 </nav>
 </section>
-<section class="slide level2">
+<section>
+<section id="lehr--lerninhalte" class="title-slide slide level1 center">
+<h1>Lehr- Lerninhalte</h1>
 
+</section>
+<section id="bereiche-der-mathematik" class="slide level2">
+<h2>Bereiche der Mathematik</h2>
+<ul>
+<li>Arithmetik</li>
+<li>Algebra</li>
+<li>Analysis</li>
+<li>Geometrie</li>
+<li>Stochastik</li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bruder2014">Bruder u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</div>
+</section>
+<section id="leitideen" class="slide level2">
+<h2>Leitideen</h2>
+<ul>
+<li><strong>Zahl</strong> <span class="math inline">\(\longrightarrow\)</span> Arithmetik</li>
+<li><strong>Symbol und Formalisierung</strong> <span class="math inline">\(\longrightarrow\)</span> Algebra</li>
+<li><strong>Zuordnung und Veränderung</strong> <span class="math inline">\(\longrightarrow\)</span> Analysis</li>
+<li><strong>Raum und Form</strong> <span class="math inline">\(\longrightarrow\)</span> Geometrie</li>
+<li><strong>Daten und Zufall</strong> <span class="math inline">\(\longrightarrow\)</span> Stochastik</li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bruder2014">Bruder u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</div>
+</section>
+<section id="kompetenzbereiche-inhalte" class="slide level2">
+<h2>Kompetenzbereiche (Inhalte)</h2>
+<ul>
+<li>Zahl und Variable</li>
+<li>Form und Raum</li>
+<li>Grössen, Funktionen, Daten und Zufall</li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
+</div>
+</section>
+<section id="überblick" class="slide level2">
+<h2>Überblick</h2>
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">graph TD;
+  b1[Arithmetik];
+  b2[Stochastik];
+  b3[Geometrie];
+  i5[Zahl];
+  k1[Zahl und Variable];
+  b4[Algebra];
+  i1[Symbol und Formalisierung];
+  b5[Analysis];
+  i2[Zuordnung_und_Veränderung];
+  i3[Daten und Zufall];
+  i4[Form und Raum];
+  k2[Grössen, Funktionen, Daten und Zufall];
+  k3[Form und Raum];
+  b1--&gt;i5--&gt;k1;
+  b4--&gt;i1--&gt;k1;
+  b5--&gt;i2--&gt;k2;
+  b2--&gt;i3--&gt;k2;
+  b3--&gt;i4--&gt;k3;
+  subgraph Bereiche
+    b1;
+    b2;
+    b3;
+    b4;
+    b5;
+  end
+  subgraph Leitideen_________________
+    i1;
+    i2;
+    i3;
+    i4;
+    i5;
+  end
+  subgraph K[Kompetenzbereiche___________________]
+    k1;
+    k2;
+    k3;
+  end
+  
+classDef title font-size:14px
+classDef padding stroke:none,fill:none
+
+class main title
+class padding padding
+  
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="tätigkeiten" class="title-slide slide level1 center">
+<h1>Tätigkeiten</h1>
+
+</section>
+<section id="denkprozesse" class="slide level2">
+<h2>Denkprozesse</h2>
+<ul>
+<li>Begriffsbildung</li>
+<li>Problemlösen lernen</li>
+<li>Algorithmik</li>
+<li>Argumentieren und Beweisen</li>
+<li>Anwendungen und Modellieren</li>
+<li>Darstellen und Kommunizieren</li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bruder2014">Bruder u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span></p>
+</div>
+</section>
+<section id="handlungsaspekte" class="slide level2">
+<h2>Handlungsaspekte</h2>
+<ul>
+<li>Operieren und Benennen</li>
+<li>Erforschen und Argumentieren</li>
+<li>Mathematisieren und Darstellen</li>
+</ul>
+<div class="quelle">
+<p><span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
+</div>
+</section>
+<section id="überblick-1" class="slide level2">
+<h2>Überblick</h2>
+<div class="cell" data-reveal="true">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">graph TD;
+b1[Begriffsbildung];
+b2[Problemlösen lernen];
+b3[Algorithmik];
+b4[Argumentieren und Beweisen];
+b5[Anwendungen und Modellieren];
+b6[Darstellen und Kommunizieren];
+
+h1[Operieren und Benennen];
+h2[Erforschen und Argumentieren];
+h3[Mathematisieren und Darstellen];
+
+b1--&gt;h1;
+b6--&gt;h3;
+b4--&gt;h2;
+b3--&gt;h1;
+b2--&gt;h2;
+b5--&gt;h3;
+
+subgraph Denkprozesse
+  b1;
+  b2;
+  b3;
+  b4;
+  b5;
+  b6;
+end
+subgraph Handlungsaspekte
+  h1;
+  h2;
+  h3;
+end
+
+</pre>
+</div>
+</div>
+</div>
+</div>
+</section></section>
+<section>
+<section id="lehrplan-21" class="title-slide slide level1 center">
+<h1>Lehrplan 21</h1>
+
+</section>
+<section id="überblick-2" class="slide level2">
+<h2>Überblick</h2>
+<p><img data-src="https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/5/mathe_1.jpg"> :::quelle <span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span> :::</p>
+</section>
+<section id="bibliographie" class="slide level2 unlisted smaller scrollable">
+<h2>Bibliographie</h2>
 
 
 <img src="../images/penguin.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
 </div>
-</section>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016" class="csl-entry" role="listitem">
+Bildungs- und Kulturdirektion des Kantons Bern. 2016. <span>„Strukturelle und inhaltliche Hinweise - Lehrplan21. Lehrplan 21 für die Volksschule des Kantons Bern“</span>. 23. Juni 2016. <a href="https://be.lehrplan.ch/index.php?code=e|5|3">https://be.lehrplan.ch/index.php?code=e|5|3</a>.
+</div>
+<div id="ref-bruder2014" class="csl-entry" role="listitem">
+Bruder, Regina, Lisa Hefendehl-Hebeker, Barbara Schmidt-Thieme, und Hans-Georg Weigand. 2014. <em>Handbuch der Mathematikdidaktik</em>. 1., 2014. Aufl. Berlin: Springer Berlin.
+</div>
+</div>
+</section></section>
     </div>
   </div>
 

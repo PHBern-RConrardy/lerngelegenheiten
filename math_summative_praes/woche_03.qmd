@@ -3,3 +3,167 @@ title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
 subtitle: Grundlagen für den Unterricht <br> Woche 3
 format: revealjs
 ---
+
+# Lehr- Lerninhalte
+
+## Bereiche der Mathematik
+
+-   Arithmetik
+-   Algebra
+-   Analysis
+-   Geometrie
+-   Stochastik
+
+:::quelle
+@bruder2014
+:::
+
+## Leitideen
+
+-   **Zahl** $\longrightarrow$ Arithmetik
+-   **Symbol und Formalisierung** $\longrightarrow$ Algebra
+-   **Zuordnung und Veränderung** $\longrightarrow$ Analysis
+-   **Raum und Form** $\longrightarrow$ Geometrie
+-   **Daten und Zufall** $\longrightarrow$ Stochastik
+
+:::quelle
+@bruder2014
+:::
+
+## Kompetenzbereiche (Inhalte)
+
+
+-   Zahl und Variable
+-   Form und Raum
+-   Grössen, Funktionen, Daten und Zufall
+
+::: quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+
+## Überblick
+
+
+```{mermaid}
+graph TD;
+  b1[Arithmetik];
+  b2[Stochastik];
+  b3[Geometrie];
+  i5[Zahl];
+  k1[Zahl und Variable];
+  b4[Algebra];
+  i1[Symbol und Formalisierung];
+  b5[Analysis];
+  i2[Zuordnung_und_Veränderung];
+  i3[Daten und Zufall];
+  i4[Form und Raum];
+  k2[Grössen, Funktionen, Daten und Zufall];
+  k3[Form und Raum];
+  b1-->i5-->k1;
+  b4-->i1-->k1;
+  b5-->i2-->k2;
+  b2-->i3-->k2;
+  b3-->i4-->k3;
+  subgraph Bereiche
+    b1;
+    b2;
+    b3;
+    b4;
+    b5;
+  end
+  subgraph Leitideen_________________
+    i1;
+    i2;
+    i3;
+    i4;
+    i5;
+  end
+  subgraph K[Kompetenzbereiche___________________]
+    k1;
+    k2;
+    k3;
+  end
+  
+classDef title font-size:14px
+classDef padding stroke:none,fill:none
+
+class main title
+class padding padding
+  
+```
+
+
+# Tätigkeiten
+
+## Denkprozesse
+
+* Begriffsbildung
+* Problemlösen lernen
+* Algorithmik
+* Argumentieren und Beweisen
+* Anwendungen und Modellieren
+* Darstellen und Kommunizieren
+
+:::quelle
+@bruder2014
+:::
+
+## Handlungsaspekte
+
+* Operieren und Benennen
+* Erforschen und Argumentieren
+* Mathematisieren und Darstellen
+
+:::quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+## Überblick
+
+```{mermaid}
+graph TD;
+b1[Begriffsbildung];
+b2[Problemlösen lernen];
+b3[Algorithmik];
+b4[Argumentieren und Beweisen];
+b5[Anwendungen und Modellieren];
+b6[Darstellen und Kommunizieren];
+
+h1[Operieren und Benennen];
+h2[Erforschen und Argumentieren];
+h3[Mathematisieren und Darstellen];
+
+b1-->h1;
+b6-->h3;
+b4-->h2;
+b3-->h1;
+b2-->h2;
+b5-->h3;
+
+subgraph Denkprozesse
+  b1;
+  b2;
+  b3;
+  b4;
+  b5;
+  b6;
+end
+subgraph Handlungsaspekte
+  h1;
+  h2;
+  h3;
+end
+
+```
+
+# Lehrplan 21
+
+## Überblick
+
+![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/5/mathe_1.jpg)
+:::quelle
+@bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
+## Bibliographie {.unlisted}

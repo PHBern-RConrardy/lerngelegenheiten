@@ -74,6 +74,7 @@ format:
     license: "CC BY-SA"
     page-layout: article
     title-block-banner: true
+    
       
   revealjs:
     toc: true
@@ -89,6 +90,9 @@ format:
     scrollable: true
     logo: images/penguin.png
     hide-inactive-cursor: true
+    mermaid:
+      theme: neutral
+
     categories:
       - Präsentationsfolien
 

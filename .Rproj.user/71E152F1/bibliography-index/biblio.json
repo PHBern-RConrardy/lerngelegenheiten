@@ -472,6 +472,71 @@
             "language": "de",
             "title": "Beurteilung in der Primarstufe und in der Sekundarstufe I der Volksschule",
             "type": "article-journal"
+        },
+        {
+            "URL": "https://be.lehrplan.ch/index.php?code=e|5|3",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        24
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Bildungs- und Kulturdirektion des Kantons Bern"
+                }
+            ],
+            "id": "bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        6,
+                        23
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "title": "Strukturelle und inhaltliche Hinweise - Lehrplan21. Lehrplan 21 für die Volksschule des Kantons Bern",
+            "title-short": "Strukturelle und inhaltliche Hinweise - Lehrplan21",
+            "type": "webpage"
+        },
+        {
+            "author": [
+                {
+                    "family": "Bruder",
+                    "given": "Regina"
+                },
+                {
+                    "family": "Hefendehl-Hebeker",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Schmidt-Thieme",
+                    "given": "Barbara"
+                },
+                {
+                    "family": "Weigand",
+                    "given": "Hans-Georg"
+                }
+            ],
+            "edition": "1., 2014",
+            "id": "bruder2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "language": "ger",
+            "publisher": "Springer Berlin",
+            "publisher-place": "Berlin",
+            "title": "Handbuch der Mathematikdidaktik",
+            "type": "book"
         }
     ],
     "project_biblios": [
