@@ -6,7 +6,7 @@ format: revealjs
 
 # Lehr- Lerninhalte
 
-## Bereiche der Mathematik
+## Teilgebiete der Mathematik
 
 -   Arithmetik
 -   Algebra
@@ -42,11 +42,11 @@ format: revealjs
 :::
 
 
-## Überblick
+## {.unlisted}
 
 
 ```{mermaid}
-graph TD;
+graph LR;
   b1[Arithmetik];
   b2[Stochastik];
   b3[Geometrie];
@@ -65,21 +65,21 @@ graph TD;
   b5-->i2-->k2;
   b2-->i3-->k2;
   b3-->i4-->k3;
-  subgraph Bereiche
+  subgraph Teilgebiete
     b1;
     b2;
     b3;
     b4;
     b5;
   end
-  subgraph Leitideen_________________
+  subgraph Leitideen
     i1;
     i2;
     i3;
     i4;
     i5;
   end
-  subgraph K[Kompetenzbereiche___________________]
+  subgraph K[Kompetenzbereiche]
     k1;
     k2;
     k3;
@@ -92,6 +92,10 @@ class main title
 class padding padding
   
 ```
+
+:::quelle
+@bruder2014, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
 
 
 # Tätigkeiten
@@ -119,10 +123,10 @@ class padding padding
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
-## Überblick
+## {.unlisted}
 
 ```{mermaid}
-graph TD;
+graph LR;
 b1[Begriffsbildung];
 b2[Problemlösen lernen];
 b3[Algorithmik];
@@ -157,12 +161,18 @@ end
 
 ```
 
+:::quelle
+@bruder2014, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+:::
+
 # Lehrplan 21
 
-## Überblick
+## {.unlisted}
 
 ![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/5/mathe_1.jpg)
+
 :::quelle
+
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 

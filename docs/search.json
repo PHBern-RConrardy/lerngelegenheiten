@@ -1124,7 +1124,7 @@
     "href": "math_summative_praes/woche_03.html#überblick",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Überblick",
-    "text": "Überblick\n\n\n\n\ngraph TD;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung_und_Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  b1--&gt;i5--&gt;k1;\n  b4--&gt;i1--&gt;k1;\n  b5--&gt;i2--&gt;k2;\n  b2--&gt;i3--&gt;k2;\n  b3--&gt;i4--&gt;k3;\n  subgraph Bereiche\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph Leitideen_________________\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche___________________]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding"
+    "text": "Überblick\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung_und_Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  b1--&gt;i5--&gt;k1;\n  b4--&gt;i1--&gt;k1;\n  b5--&gt;i2--&gt;k2;\n  b2--&gt;i3--&gt;k2;\n  b3--&gt;i4--&gt;k3;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n  \n\n\n\n\n\n\nBruder u. a. (2014), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "math_summative_praes/woche_03.html#denkprozesse",
@@ -1145,7 +1145,7 @@
     "href": "math_summative_praes/woche_03.html#überblick-1",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Überblick",
-    "text": "Überblick\n\n\n\n\ngraph TD;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nb1--&gt;h1;\nb6--&gt;h3;\nb4--&gt;h2;\nb3--&gt;h1;\nb2--&gt;h2;\nb5--&gt;h3;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte\n  h1;\n  h2;\n  h3;\nend"
+    "text": "Überblick\n\n\n\n\ngraph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nb1--&gt;h1;\nb6--&gt;h3;\nb4--&gt;h2;\nb3--&gt;h1;\nb2--&gt;h2;\nb5--&gt;h3;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\nBruder u. a. (2014), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "math_summative_praes/woche_03.html#überblick-2",
@@ -1160,5 +1160,33 @@
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Handlungsaspekte",
     "text": "Handlungsaspekte\n\nOperieren und Benennen\nErforschen und Argumentieren\nMathematisieren und Darstellen\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
+    "href": "math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Teilgebiete der Mathematik",
+    "text": "Teilgebiete der Mathematik\n\nArithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder u. a. (2014)"
+  },
+  {
+    "objectID": "math_summative_praes/woche_03.html#section",
+    "href": "math_summative_praes/woche_03.html#section",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "graph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung_und_Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  b1--&gt;i5--&gt;k1;\n  b4--&gt;i1--&gt;k1;\n  b5--&gt;i2--&gt;k2;\n  b2--&gt;i3--&gt;k2;\n  b3--&gt;i4--&gt;k3;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n  \n\n\n\n\n\n\nBruder u. a. (2014), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "math_summative_praes/woche_03.html#section-1",
+    "href": "math_summative_praes/woche_03.html#section-1",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "graph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nb1--&gt;h1;\nb6--&gt;h3;\nb4--&gt;h2;\nb3--&gt;h1;\nb2--&gt;h2;\nb5--&gt;h3;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\nBruder u. a. (2014), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "math_summative_praes/woche_03.html#section-2",
+    "href": "math_summative_praes/woche_03.html#section-2",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   }
 ]
