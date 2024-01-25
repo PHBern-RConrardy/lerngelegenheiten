@@ -963,7 +963,7 @@
     "href": "mikroplanung_math/praesenzkurs.html",
     "title": "Mikroplanung Mathematik",
     "section": "",
-    "text": "Organisation\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    "text": "Organisation\nAVIVA-Modell LUKAS-Modell PADUA-Modell\n\n\n\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
     "objectID": "mikroplanung_math/mikro_sol.html",
@@ -1180,7 +1180,7 @@
     "href": "math_summative_praes/woche_03.html#section-1",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "",
-    "text": "graph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nb1--&gt;h1;\nb6--&gt;h3;\nb4--&gt;h2;\nb3--&gt;h1;\nb2--&gt;h2;\nb5--&gt;h3;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\nBruder u. a. (2014), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+    "text": "graph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nedk1[Wissen, Erkennen und Beschreiben];\nedk2[Operieren und Berechnen];\nedk3[Verwenden von Instrumenten und Werkzeugen];\nedk4[Darstellen und Kommunizieren];\nedk5[Mathematisieren und Modellieren];\nedk6[Argumentieren und Begründen];\nedk7[Interpretieren und Reflektieren der Resultate];\nedk8[Erforschen und Explorieren];\n\nb1--&gt;edk1--&gt;h1;\nb6--&gt;edk4--&gt;h3;\nb4--&gt;edk6--&gt;h2;\nb3--&gt;edk2--&gt;h1;\nb2--&gt;edk7--&gt;h2;\nb5--&gt;edk5--&gt;h3;\nedk8--&gt;h2;\nedk3--&gt;h1;\nb2--&gt;edk8;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte EDK\n  edk1;\n  edk2;\n  edk3;\n  edk4;\n  edk5;\n  edk6;\n  edk7;\n  edk8;\nend\nsubgraph Handlungsaspekte LP21\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\nBruder u. a. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "math_summative_praes/woche_03.html#section-2",
@@ -1188,5 +1188,110 @@
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "",
     "text": "Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#rstudio-installieren",
+    "href": "special/barcamp_phbern_2024.html#rstudio-installieren",
+    "title": "Inhalte onlinebringen",
+    "section": "RStudio installieren",
+    "text": "RStudio installieren\n🍺 für homebrew:\nbrew install --cask rstudio"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#quartopub",
+    "href": "special/barcamp_phbern_2024.html#quartopub",
+    "title": "Inhalte onlinebringen",
+    "section": "Quartopub",
+    "text": "Quartopub\nhttps://quartopub.org/"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#show-and-tell",
+    "href": "special/barcamp_phbern_2024.html#show-and-tell",
+    "title": "Inhalte onlinebringen",
+    "section": "Show and tell",
+    "text": "Show and tell"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#mark-und-mark",
+    "href": "special/barcamp_phbern_2024.html#mark-und-mark",
+    "title": "Inhalte onlinebringen",
+    "section": "Mark ⬆️ und Mark ⬇️",
+    "text": "Mark ⬆️ und Mark ⬇️"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#free-and-open-source",
+    "href": "special/barcamp_phbern_2024.html#free-and-open-source",
+    "title": "Inhalte onlinebringen",
+    "section": "Free and Open Source",
+    "text": "Free and Open Source"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#datenschutzrecht",
+    "href": "special/barcamp_phbern_2024.html#datenschutzrecht",
+    "title": "Inhalte onlinebringen",
+    "section": "Datenschutzrecht",
+    "text": "Datenschutzrecht"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#urheberrecht",
+    "href": "special/barcamp_phbern_2024.html#urheberrecht",
+    "title": "Inhalte onlinebringen",
+    "section": "Urheberrecht",
+    "text": "Urheberrecht"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#phrecht",
+    "href": "special/barcamp_phbern_2024.html#phrecht",
+    "title": "Inhalte onlinebringen",
+    "section": "PHRecht",
+    "text": "PHRecht\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#style",
+    "href": "special/barcamp_phbern_2024.html#style",
+    "title": "Inhalte onlinebringen",
+    "section": "Style",
+    "text": "Style"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#all-together-now",
+    "href": "special/barcamp_phbern_2024.html#all-together-now",
+    "title": "Inhalte onlinebringen",
+    "section": "All together now",
+    "text": "All together now"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section",
+    "href": "special/barcamp_phbern_2024.html#section",
+    "title": "Inhalte onlinebringen",
+    "section": "",
+    "text": "a fool with a tool is still a fool\n\nGrady Booch?\n\n\n\n\nlet’s fool around\n\nGeneral Johnson"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-1",
+    "href": "special/barcamp_phbern_2024.html#section-1",
+    "title": "Inhalte onlinebringen",
+    "section": "👩‍💻 🧑‍💻 👨‍💻",
+    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\nPrompt: “people working together looking super smart” 🤣"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-2",
+    "href": "special/barcamp_phbern_2024.html#section-2",
+    "title": "Inhalte onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#rstudio",
+    "href": "special/barcamp_phbern_2024.html#rstudio",
+    "title": "Inhalte onlinebringen",
+    "section": "RStudio 🍺",
+    "text": "RStudio 🍺\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-3",
+    "href": "special/barcamp_phbern_2024.html#section-3",
+    "title": "Inhalte onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back, 👶!"
   }
 ]

@@ -1,0 +1,141 @@
+---
+format: revealjs
+title: Inhalte onlinebringen
+subtitle: Barcamp PHBern
+date: 12 02 2024
+---
+
+## {.unlisted}
+
+> a fool with a tool is still a fool
+> 
+::: quelle
+Grady Booch?
+:::
+
+<br>
+
+> let's fool around
+> 
+:::quelle
+General Johnson
+:::
+
+
+# Praxis
+
+## RStudio 🍺{.smaller}
+
+::::columns
+
+:::column
+
+#### Homebrew:
+
+ `brew install --cask r`
+ 
+ `brew install --cask rstudio`
+
+:::
+:::column
+
+#### Old fashioned:
+
+[https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
+
+
+:::center
+{{< qrcode https://posit.co/download/rstudio-desktop/ width=300 height=300 >}}
+:::
+:::
+::::
+
+## Quartopub
+
+[https://quartopub.org/](https://quartopub.org/)
+
+<iframe src="https://quartopub.com/" width="100%" height="400" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+## 👩‍💻 🧑‍💻 👨‍💻 
+
+![](images/groupwork_adobe.jpg){fig-align="center"}
+
+:::quelle
+Prompt: "people working together looking super smart" 🤣
+:::
+# ☕️ ?
+
+# Theorie
+
+## Mark ⬆️ und Mark ⬇️
+
+
+## 🧠 + 🤖 = 🦾{.incremental}
+
+<p style="background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
+             -webkit-background-clip: text;
+             color: transparent;
+             display: inline-block;
+             font-size: 2em;">
+    Hello, Rainbow Text!
+  </p>
+
+. . .
+  
+<p style="animation: sparkle 1s infinite; color: #fff; font-size:2em">
+
+This text will sparkle!
+<style>
+@keyframes sparkle {
+0% { color: #fff; }
+50% { color: #ffcc00; }
+100% { color: #fff; }}
+</style>
+</p>
+
+. . .
+
+<p style="animation: jiggle 0.5s ease-in-out infinite; font-size:2em">
+This text will jiggle!
+<style>
+            @keyframes jiggle {
+                0%, 100% { transform: translateX(0); }
+                25% { transform: translateX(-5px); }
+                50% { transform: translateX(5px); }
+                75% { transform: translateX(-5px); }
+}
+        </style>
+</p>  
+
+. . .
+
+<div style="font-family: 'Arial Black', sans-serif;
+                font-size: 36px;
+                color: #3498db;
+                text-align: center;
+                margin: 50px;
+                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+                animation: pulse 2s infinite;font-size:2em">
+
+WordArt is back, 👶!
+
+<style>
+            @keyframes pulse {
+                0%, 100% { transform: scale(1); }
+                50% { transform: scale(1.1); }
+            }
+        </style>
+</div>
+
+## Free and Open Source
+
+# ☕  ?
+
+# Recht 👨‍⚖️ 
+
+## Datenschutzrecht {.unlisted}
+
+## Urheberrecht {.unlisted}
+
+## PHRecht {.unlisted}
