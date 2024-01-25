@@ -447,22 +447,35 @@
   b4[Algebra];
   i1[Symbol und Formalisierung];
   b5[Analysis];
-  i2[Zuordnung_und_Veränderung];
+  i2[Zuordnung und Veränderung];
   i3[Daten und Zufall];
   i4[Form und Raum];
   k2[Grössen, Funktionen, Daten und Zufall];
   k3[Form und Raum];
-  b1--&gt;i5--&gt;k1;
-  b4--&gt;i1--&gt;k1;
-  b5--&gt;i2--&gt;k2;
-  b2--&gt;i3--&gt;k2;
-  b3--&gt;i4--&gt;k3;
+  edk1[Zahl und Variable];
+  edk2[Form und Raum];
+  edk3[Grösse und Masse];
+  edk4[Funktionale Zusammenhänge];
+  edk5[Daten und Zufall];
+  b1--&gt;i5--&gt;edk1--&gt;k1;
+  b4--&gt;i1--&gt;edk1;
+  b5--&gt;i2--&gt;edk4--&gt;k2;
+  b2--&gt;i3--&gt;edk5--&gt;k2;
+  b3--&gt;i4--&gt;edk2--&gt;k3;
+  edk3--&gt;k2;
   subgraph Teilgebiete
     b1;
     b2;
     b3;
     b4;
     b5;
+  end
+  subgraph B[Kompetenzbereiche EDK]
+    edk1;
+    edk2;
+    edk3;
+    edk4;
+    edk5;
   end
   subgraph Leitideen
     i1;
@@ -471,7 +484,7 @@
     i4;
     i5;
   end
-  subgraph K[Kompetenzbereiche]
+  subgraph K[Kompetenzbereiche LP21]
     k1;
     k2;
     k3;
@@ -489,7 +502,7 @@ class padding padding
 </div>
 </div>
 <div class="quelle">
-<p><span class="citation" data-cites="bruder2014">Bruder u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span>, <span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
+<p><span class="citation" data-cites="bruder2014">Bruder u.&nbsp;a. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span>, <span class="citation" data-cites="edk2011">EDK (<a href="#/bibliographie" role="doc-biblioref" onclick="">2011</a>)</span>, <span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
 </div>
 </section></section>
 <section>
@@ -595,6 +608,9 @@ Bildungs- und Kulturdirektion des Kantons Bern. 2016. <span>„Strukturelle und 
 </div>
 <div id="ref-bruder2014" class="csl-entry" role="listitem">
 Bruder, Regina, Lisa Hefendehl-Hebeker, Barbara Schmidt-Thieme, und Hans-Georg Weigand. 2014. <em>Handbuch der Mathematikdidaktik</em>. 1., 2014. Aufl. Berlin: Springer Berlin.
+</div>
+<div id="ref-edk2011" class="csl-entry" role="listitem">
+EDK. 2011. <span>„Grundkompetenzen für dIe Mathematik“</span>, Juni.
 </div>
 </div>
 </section></section>

@@ -537,6 +537,25 @@
             "publisher-place": "Berlin",
             "title": "Handbuch der Mathematikdidaktik",
             "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "EDK"
+                }
+            ],
+            "id": "edk2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        6,
+                        16
+                    ]
+                ]
+            },
+            "title": "Grundkompetenzen für dIe mathematik",
+            "type": "article-journal"
         }
     ],
     "project_biblios": [

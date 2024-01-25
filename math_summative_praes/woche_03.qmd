@@ -14,7 +14,7 @@ format: revealjs
 -   Geometrie
 -   Stochastik
 
-:::quelle
+::: quelle
 @bruder2014
 :::
 
@@ -26,12 +26,11 @@ format: revealjs
 -   **Raum und Form** $\longrightarrow$ Geometrie
 -   **Daten und Zufall** $\longrightarrow$ Stochastik
 
-:::quelle
+::: quelle
 @bruder2014
 :::
 
 ## Kompetenzbereiche (Inhalte)
-
 
 -   Zahl und Variable
 -   Form und Raum
@@ -41,9 +40,7 @@ format: revealjs
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
-
-## {.unlisted}
-
+##  {.unlisted}
 
 ```{mermaid}
 graph LR;
@@ -55,22 +52,35 @@ graph LR;
   b4[Algebra];
   i1[Symbol und Formalisierung];
   b5[Analysis];
-  i2[Zuordnung_und_Veränderung];
+  i2[Zuordnung und Veränderung];
   i3[Daten und Zufall];
   i4[Form und Raum];
   k2[Grössen, Funktionen, Daten und Zufall];
   k3[Form und Raum];
-  b1-->i5-->k1;
-  b4-->i1-->k1;
-  b5-->i2-->k2;
-  b2-->i3-->k2;
-  b3-->i4-->k3;
+  edk1[Zahl und Variable];
+  edk2[Form und Raum];
+  edk3[Grösse und Masse];
+  edk4[Funktionale Zusammenhänge];
+  edk5[Daten und Zufall];
+  b1-->i5-->edk1-->k1;
+  b4-->i1-->edk1;
+  b5-->i2-->edk4-->k2;
+  b2-->i3-->edk5-->k2;
+  b3-->i4-->edk2-->k3;
+  edk3-->k2;
   subgraph Teilgebiete
     b1;
     b2;
     b3;
     b4;
     b5;
+  end
+  subgraph B[Kompetenzbereiche EDK]
+    edk1;
+    edk2;
+    edk3;
+    edk4;
+    edk5;
   end
   subgraph Leitideen
     i1;
@@ -79,7 +89,7 @@ graph LR;
     i4;
     i5;
   end
-  subgraph K[Kompetenzbereiche]
+  subgraph K[Kompetenzbereiche LP21]
     k1;
     k2;
     k3;
@@ -93,37 +103,36 @@ class padding padding
   
 ```
 
-:::quelle
-@bruder2014, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+::: quelle
+@bruder2014, @edk2011, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
-
 
 # Tätigkeiten
 
 ## Denkprozesse
 
-* Begriffsbildung
-* Problemlösen lernen
-* Algorithmik
-* Argumentieren und Beweisen
-* Anwendungen und Modellieren
-* Darstellen und Kommunizieren
+-   Begriffsbildung
+-   Problemlösen lernen
+-   Algorithmik
+-   Argumentieren und Beweisen
+-   Anwendungen und Modellieren
+-   Darstellen und Kommunizieren
 
-:::quelle
+::: quelle
 @bruder2014
 :::
 
 ## Handlungsaspekte
 
-* Operieren und Benennen
-* Erforschen und Argumentieren
-* Mathematisieren und Darstellen
+-   Operieren und Benennen
+-   Erforschen und Argumentieren
+-   Mathematisieren und Darstellen
 
-:::quelle
+::: quelle
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
-## {.unlisted}
+##  {.unlisted}
 
 ```{mermaid}
 graph LR;
@@ -161,18 +170,17 @@ end
 
 ```
 
-:::quelle
+::: quelle
 @bruder2014, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
 # Lehrplan 21
 
-## {.unlisted}
+##  {.unlisted}
 
 ![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/5/mathe_1.jpg)
 
-:::quelle
-
+::: quelle
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 

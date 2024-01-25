@@ -20,6 +20,12 @@ categories:
 
 
 # Workload
+::: {.callout-warning collapse="true"}
+## Creative Commons
+
+Sie werden in dieser Lerngelegenheit Materialien unter eine CC BY-SA Lizenz stellen. Sie können mir von erwarten, dass ich *gute* Inhalte 
+
+:::
 
 ## Fünf Lernkontrollen
 
