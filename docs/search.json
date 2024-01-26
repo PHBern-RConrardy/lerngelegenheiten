@@ -1229,21 +1229,21 @@
     "href": "special/barcamp_phbern_2024.html#datenschutzrecht",
     "title": "Inhalte onlinebringen",
     "section": "Datenschutzrecht",
-    "text": "Datenschutzrecht"
+    "text": "Datenschutzrecht\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs.1 KDSG\n\n\n\nPersonendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.\n\nArt.2 Abs.1 KDSG"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#urheberrecht",
     "href": "special/barcamp_phbern_2024.html#urheberrecht",
     "title": "Inhalte onlinebringen",
     "section": "Urheberrecht",
-    "text": "Urheberrecht"
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#phrecht",
     "href": "special/barcamp_phbern_2024.html#phrecht",
     "title": "Inhalte onlinebringen",
     "section": "PHRecht",
-    "text": "PHRecht\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+    "text": "PHRecht\n\nDie Webseite wird innert kürzester Zeit komplett geladen (Pagespeed testen)\n\nQualitätskriterien Web-Plattformen\n\n\n😆😅"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#style",
@@ -1271,7 +1271,7 @@
     "href": "special/barcamp_phbern_2024.html#section-1",
     "title": "Inhalte onlinebringen",
     "section": "👩‍💻 🧑‍💻 👨‍💻",
-    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\n\n\n\n\n\n\nAdobe Firefly: “people working together looking super smart”\n\n\n\n\n\n\n\n\nAdobe Firefly: “people not working together looking super dumb”\n\n\n\n\n🤔"
+    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00\n\n\n\n\n\n\n\n\n\n\n\nAdobe Firefly: “people working together looking super smart”\n\n\n\n\n\n\n\n\nAdobe Firefly: “people not working together looking super dumb”\n\n\n\n\n🤔"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#section-2",
@@ -1299,7 +1299,7 @@
     "href": "special/barcamp_phbern_2024.html#test",
     "title": "Inhalte onlinebringen",
     "section": "test",
-    "text": "test\n// Additional non-interactive code\n// Set up the canvas and draw initial content\nlet sizeX;\nlet sizeY;\n\nfunction setup() {\n  sizeX = windowWidth;\n  sizeY = windowHeight;\n  createCanvas(sizeX, sizeY);\n  background(0);\n  drawInitialContent();\n}\n\nfunction drawInitialContent() {\n  // Draw initial content here\n  fill(255);\n  ellipse(width / 2, height / 2, 50, 50);\n}"
+    "text": "test\n\n\n\nCode\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX, s.mouseY, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#urheberrecht-background-iframe",
@@ -1335,5 +1335,75 @@
     "title": "Inhalte onlinebringen",
     "section": "🧠 + 🤖 = 🦾",
     "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back, 👶!"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#ein-codebeispiel",
+    "href": "special/barcamp_phbern_2024.html#ein-codebeispiel",
+    "title": "Inhalte onlinebringen",
+    "section": "Ein Codebeispiel",
+    "text": "Ein Codebeispiel\n\n\n\nCode\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX, s.mouseY, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#creative-coding---sonja-schär",
+    "href": "special/barcamp_phbern_2024.html#creative-coding---sonja-schär",
+    "title": "Inhalte onlinebringen",
+    "section": "Creative Coding - Sonja Schär",
+    "text": "Creative Coding - Sonja Schär\n\n\n\nCode\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX, s.mouseY, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#mermaid-js---richard-conrardy",
+    "href": "special/barcamp_phbern_2024.html#mermaid-js---richard-conrardy",
+    "title": "Inhalte onlinebringen",
+    "section": "Mermaid JS - Richard Conrardy",
+    "text": "Mermaid JS - Richard Conrardy\n\n\nCode\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#about",
+    "href": "special/barcamp_phbern_2024.html#about",
+    "title": "Inhalte onlinebringen",
+    "section": "About",
+    "text": "About\n\nPosit\n\nQuarto\nRStudio\nQuartopub"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#bibliographie",
+    "href": "special/barcamp_phbern_2024.html#bibliographie",
+    "title": "Inhalte onlinebringen",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. o. J. „Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum“. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken."
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-6",
+    "href": "special/barcamp_phbern_2024.html#section-6",
+    "title": "Inhalte onlinebringen",
+    "section": "",
+    "text": "GRUNDSÄTZE CI/CD FÜR WEBAUFTRITTE UND APPLIKATIONEN 😘"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-7",
+    "href": "special/barcamp_phbern_2024.html#section-7",
+    "title": "Inhalte onlinebringen",
+    "section": "",
+    "text": "An der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#phbern",
+    "href": "special/barcamp_phbern_2024.html#phbern",
+    "title": "Inhalte onlinebringen",
+    "section": "PHBern",
+    "text": "PHBern\n\nDie Webseite wird innert kürzester Zeit komplett geladen (Pagespeed testen)\n\nQualitätskriterien Web-Plattformen\n\n\n😆😅"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#phbern-1",
+    "href": "special/barcamp_phbern_2024.html#phbern-1",
+    "title": "Inhalte onlinebringen",
+    "section": "PHBern",
+    "text": "PHBern\nGRUNDSÄTZE CI/CD FÜR WEBAUFTRITTE UND APPLIKATIONEN\n😘"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#phbern-2",
+    "href": "special/barcamp_phbern_2024.html#phbern-2",
+    "title": "Inhalte onlinebringen",
+    "section": "PHBern",
+    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
   }
 ]

@@ -5,93 +5,201 @@ subtitle: Barcamp PHBern
 date: 12 02 2024
 ---
 
-## {.unlisted}
+##  {.unlisted}
 
 > a fool with a tool is still a fool
-> 
-::: quelle
-Grady Booch?
-:::
+>
+> ::: quelle
+> Grady Booch?
+> :::
 
 <br>
 
 > let's fool around
-> 
-:::quelle
-General Johnson
-:::
-
+>
+> ::: quelle
+> General Johnson
+> :::
 
 # Praxis
 
-## RStudio 🍺{.smaller}
+## RStudio 🍺 {.smaller}
 
-::::columns
-
-:::column
-
+::: columns
+::: column
 #### Homebrew:
 
- `brew install --cask r`
- 
- `brew install --cask rstudio`
+`brew install --cask r`
 
+`brew install --cask rstudio`
 :::
-:::column
 
+::: column
 #### Old fashioned:
 
-[https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/)
+<https://posit.co/download/rstudio-desktop/>
 
-
-:::center
+::: center
 {{< qrcode https://posit.co/download/rstudio-desktop/ width=300 height=300 >}}
 :::
 :::
-::::
+:::
 
 ## Quartopub
 
-[https://quartopub.org/](https://quartopub.org/)
+<https://quartopub.org/>
 
-<iframe src="https://quartopub.com/" width="100%" height="400" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://quartopub.com/" width="100%" height="400" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 
+</iframe>
 
-## 👩‍💻 🧑‍💻 👨‍💻 
+## 👩‍💻 🧑‍💻 👨‍💻
 
-::::columns
+```{r}
+#| echo: true
+#| code-fold: true
+#| code-summary: "Quellcode für den Countdown"
+library (countdown)
+countdown(
+  right = 0,
+  top = 0,
+  font_size = "1.5em",
+  margin = "0%",
+  minutes = 20, 
+  seconds = 0
+)
+```
 
-:::column
-
+::: columns
+::: column
 ![](images/groupwork_adobe.jpg){fig-align="center"}
 
-:::quelle
+::: quelle
 Adobe Firefly: "people working together looking super smart"
 :::
-
 :::
-:::column
 
+::: column
 ![](images/not_groupwork_adobe.jpg){fig-align="center"}
 
-:::quelle
-
+::: quelle
 Adobe Firefly: "people not working together looking super dumb"
 :::
-
 :::
-::::
+:::
 
-:::{style="text-align: center;font-size:2em"}
+::: {style="text-align: center;font-size:2em"}
 🤔
 :::
 
-## {background-iframe="sonja-test-js.html"   background-interactive=true}
+## Creative Coding - Sonja Schär
 
+::: center
+```{ojs}
+//| echo: true
+//| code-fold: true
+//| code-summary: "Quellcode von Sonja Schär"
+P5 = require("p5")
 
-:::{style="color: white!important;"}
-JS-Beispiel von Sonja Schär
+function* createSketch(sketch) {
+  const element = DOM.element('div');
+  yield element;
+  const instance = new P5(sketch, element, true);
+  try {
+    while (true) {
+      yield element;
+    }
+  } finally {
+    instance.remove();
+  }
+}
+
+createSketch((s) => {
+    s.setup = () => {
+    s.sizeX = 960;
+    s.sizeY = 400;
+    s.createCanvas(s.sizeX, s.sizeY);
+    s.background(0);
+  };
+
+  s.draw = () => {
+    meinKreisePinsel();
+  };
+
+  function meinKreisePinsel() {
+    s.strokeWeight(1);
+    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));
+    s.circle(s.mouseX, s.mouseY, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));
+  }
+})
+
+```
 :::
+
+## Mermaid JS - Richard Conrardy
+
+```{mermaid}
+%%| echo: true
+%%| code-fold: true
+graph LR;
+  b1[Arithmetik];
+  b2[Stochastik];
+  b3[Geometrie];
+  i5[Zahl];
+  k1[Zahl und Variable];
+  b4[Algebra];
+  i1[Symbol und Formalisierung];
+  b5[Analysis];
+  i2[Zuordnung und Veränderung];
+  i3[Daten und Zufall];
+  i4[Form und Raum];
+  k2[Grössen, Funktionen, Daten und Zufall];
+  k3[Form und Raum];
+  edk1[Zahl und Variable];
+  edk2[Form und Raum];
+  edk3[Grösse und Masse];
+  edk4[Funktionale Zusammenhänge];
+  edk5[Daten und Zufall];
+  b1-->i5---edk1-->k1;
+  b4-->i1---edk1;
+  b5-->i2---edk4-->k2;
+  b2-->i3---edk5-->k2;
+  b3-->i4---edk2-->k3;
+  edk3-->k2;
+  subgraph Teilgebiete
+    b1;
+    b2;
+    b3;
+    b4;
+    b5;
+  end
+  subgraph B[Kompetenzbereiche EDK]
+    edk1;
+    edk2;
+    edk3;
+    edk4;
+    edk5;
+  end
+  subgraph Leitideen
+    i1;
+    i2;
+    i3;
+    i4;
+    i5;
+  end
+  subgraph K[Kompetenzbereiche LP21]
+    k1;
+    k2;
+    k3;
+  end
+  
+classDef title font-size:14px
+classDef padding stroke:none,fill:none
+
+class main title
+class padding padding
+  
+```
 
 # ☕️ ?
 
@@ -99,54 +207,54 @@ JS-Beispiel von Sonja Schär
 
 ## Mark ⬆️ und Mark ⬇️
 
-
-## 🧠 + 🤖 = 🦾{.incremental}
+## 🧠 + 🤖 = 🦾 {.incremental}
 
 <p style="background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
              -webkit-background-clip: text;
              color: transparent;
              display: inline-block;
              font-size: 2em;">
-    Hello, Rainbow Text!
-  </p>
+
+Hello, Rainbow Text!
+</p>
 
 . . .
-  
+
 <p style="animation: sparkle 1s infinite; color: #fff; font-size:2em">
 
 This text will sparkle!
+</p>
+
+
+
 <style>
 @keyframes sparkle {
 0% { color: #fff; }
 50% { color: #ffcc00; }
 100% { color: #fff; }}
 </style>
+
+
+
+. . .
+
+<p style="animation: jiggle 0.5s ease-in-out infinite; font-size: 2em;">
+   This text will jiggle!
 </p>
 
-. . .
-
-<p style="animation: jiggle 0.5s ease-in-out infinite; font-size:2em">
-This text will jiggle!
 <style>
-            @keyframes jiggle {
-                0%, 100% { transform: translateX(0); }
-                25% { transform: translateX(-5px); }
-                50% { transform: translateX(5px); }
-                75% { transform: translateX(-5px); }
-}
-        </style>
-</p>  
+   @keyframes jiggle {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+   }
+</style>
+
 
 . . .
 
-<div style="font-family: 'Arial Black', sans-serif;
-                font-size: 36px;
-                color: #3498db;
-                text-align: center;
-                margin: 50px;
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-                animation: pulse 2s infinite;font-size:2em">
-
+::: {style="font-family: 'Arial Black', sans-serif;                 font-size: 36px;                 color: #3498db;                 text-align: center;                 margin: 50px;                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);                 animation: pulse 2s infinite;font-size:2em"}
 WordArt is back, 👶!
 
 <style>
@@ -155,18 +263,73 @@ WordArt is back, 👶!
                 50% { transform: scale(1.1); }
             }
         </style>
-</div>
 
-## Free and Open Source
+:::
 
-# ☕  ?
+## About
 
-# Recht 👨‍⚖️ 
+-   Posit
+    -   Quarto
+    -   RStudio
+    -   Quartopub
+
+# ☕ ?
+
+# Recht 👨‍⚖️
 
 ## Datenschutzrecht {.unlisted}
 
+> Dieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.
+>
+> ::: quelle
+> [Art. 4 Abs.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
+> :::
 
-  
-## Urheberrecht 
+> Personendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.
+>
+> ::: quelle
+> [Art.2 Abs.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
+> :::
 
-## PHRecht {.unlisted}
+## Urheberrecht
+
+> Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.
+>
+> ::: quelle
+> [Art.321e Abs.1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e)
+> :::
+
+> Das Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.
+>
+> ::: quelle
+> @eidgenössischesinstitutfürgeistigeseigentum
+> :::
+
+## PHBern {.unlisted}
+
+> Die Webseite wird innert kürzester Zeit komplett geladen (Pagespeed testen) 
+>
+:::quelle
+Qualitätskriterien Web-Plattformen
+:::
+
+### 😆😅
+
+## PHBern {.unlisted}
+
+[GRUNDSÄTZE CI/CD FÜR
+WEBAUFTRITTE UND APPLIKATIONEN](https://qmp.phbern.ch/File/CoreDownload?id=5682&filename=20230619_Grunds%C3%A4tze%20CI-CD_Webauftritte_Applikationen.pdf&langId=1) 
+
+### 😘
+
+## PHBern {.unlisted}
+
+>An der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter
+www.phbern.ch/rechtssammlung > Ziff. 1.0) grundsätzlich die **Institutsleiterinnen und Institutsleiter**
+über die Nutzung immaterieller Arbeitsergebnisse [...]
+>
+:::quelle
+Geistiges Eigentum Merkblatt
+:::
+
+## Bibliographie {.unlisted}

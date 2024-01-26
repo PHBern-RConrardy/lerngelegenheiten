@@ -31,7 +31,91 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -324,6 +408,14 @@
       margin-right: 0; 
     }
   </style>
+  <script type="module" src="../site_libs/quarto-ojs/quarto-ojs-runtime.js"></script>
+  <link href="../site_libs/quarto-ojs/quarto-ojs.css" rel="stylesheet">
+  <meta name="mermaid-theme" content="neutral">
+  <script src="../site_libs/quarto-diagram/mermaid.min.js"></script>
+  <script src="../site_libs/quarto-diagram/mermaid-init.js"></script>
+  <link href="../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
+  <link href="../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+  <script src="../site_libs/countdown-0.4.0/countdown.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -359,16 +451,17 @@
 <li><a href="#/rstudio" id="/toc-rstudio">RStudio 🍺</a></li>
 <li><a href="#/quartopub" id="/toc-quartopub">Quartopub</a></li>
 <li><a href="#/section-1" id="/toc-section-1">👩‍💻 🧑‍💻 👨‍💻</a></li>
-<li><a href="#/section-2" id="/toc-section-2"></a></li>
+<li><a href="#/creative-coding---sonja-schär" id="/toc-creative-coding---sonja-schär">Creative Coding - Sonja Schär</a></li>
+<li><a href="#/mermaid-js---richard-conrardy" id="/toc-mermaid-js---richard-conrardy">Mermaid JS - Richard Conrardy</a></li>
 </ul></li>
-<li><a href="#/section-3" id="/toc-section-3">☕️ ?</a></li>
+<li><a href="#/section-2" id="/toc-section-2">☕️ ?</a></li>
 <li><a href="#/theorie" id="/toc-theorie">Theorie</a>
 <ul>
 <li><a href="#/mark-und-mark" id="/toc-mark-und-mark">Mark ⬆️ und Mark ⬇️</a></li>
-<li><a href="#/section-4" id="/toc-section-4">🧠 + 🤖 = 🦾</a></li>
-<li><a href="#/free-and-open-source" id="/toc-free-and-open-source">Free and Open Source</a></li>
+<li><a href="#/section-3" id="/toc-section-3">🧠 + 🤖 = 🦾</a></li>
+<li><a href="#/about" id="/toc-about">About</a></li>
 </ul></li>
-<li><a href="#/section-5" id="/toc-section-5">☕ ?</a></li>
+<li><a href="#/section-4" id="/toc-section-4">☕ ?</a></li>
 <li><a href="#/recht" id="/toc-recht">Recht 👨‍⚖️</a>
 <ul>
 <li><a href="#/urheberrecht" id="/toc-urheberrecht">Urheberrecht</a></li>
@@ -406,11 +499,11 @@
 <p><code>brew install --cask rstudio</code></p>
 </div><div class="column">
 <h4 id="old-fashioned">Old fashioned:</h4>
-<p><a href="https://posit.co/download/rstudio-desktop/">https://posit.co/download/rstudio-desktop/</a></p>
+<p><a href="https://posit.co/download/rstudio-desktop/" class="uri">https://posit.co/download/rstudio-desktop/</a></p>
 <div class="center">
 <div id="qrcode" class="qrcode"></div>
 <script type="text/javascript">
-var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","text":"https://posit.co/download/rstudio-desktop/","colorDark":"#000000","height":"300","width":"300"});
+var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","text":"https://posit.co/download/rstudio-desktop/","width":"300","colorDark":"#000000","height":"300"});
 </script>
     
 </div>
@@ -419,12 +512,32 @@ var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","text":"https://posit.
 </section>
 <section id="quartopub" class="slide level2">
 <h2>Quartopub</h2>
-<p><a href="https://quartopub.org/">https://quartopub.org/</a></p>
+<p><a href="https://quartopub.org/" class="uri">https://quartopub.org/</a></p>
 <iframe src="https://quartopub.com/" width="100%" height="400" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true">
 </iframe>
 </section>
 <section id="section-1" class="slide level2">
 <h2>👩‍💻 🧑‍💻 👨‍💻</h2>
+<div class="cell">
+<details>
+<summary>Quellcode für den Countdown</summary>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">library</span> (countdown)</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="fu">countdown</span>(</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  <span class="at">right =</span> <span class="dv">0</span>,</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  <span class="at">top =</span> <span class="dv">0</span>,</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  <span class="at">font_size =</span> <span class="st">"1.5em"</span>,</span>
+<span id="cb1-6"><a href="#cb1-6"></a>  <span class="at">margin =</span> <span class="st">"0%"</span>,</span>
+<span id="cb1-7"><a href="#cb1-7"></a>  <span class="at">minutes =</span> <span class="dv">20</span>, </span>
+<span id="cb1-8"><a href="#cb1-8"></a>  <span class="at">seconds =</span> <span class="dv">0</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div class="countdown" id="timer_e6dfa916" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">20</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
 <div class="columns">
 <div class="column">
 <div class="quarto-figure quarto-figure-center">
@@ -450,13 +563,201 @@ var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","text":"https://posit.
 <p>🤔</p>
 </div>
 </section>
-<section id="section-2" class="slide level2" data-background-iframe="sonja-test-js.html" data-background-interactive="true">
-<h2></h2>
-<div style="color: white!important;">
-<p>JS-Beispiel von Sonja Schär</p>
+<section id="creative-coding---sonja-schär" class="slide level2">
+<h2>Creative Coding - Sonja Schär</h2>
+<div class="center">
+<div class="cell">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb2" data-startfrom="102" data-source-offset="-0"><pre class="sourceCode numberSource js number-lines code-with-copy"><code class="sourceCode javascript" style="counter-reset: source-line 101;"><span id="cb2-102"><a href="#cb2-102"></a>P5 <span class="op">=</span> <span class="pp">require</span>(<span class="st">"p5"</span>)</span>
+<span id="cb2-103"><a href="#cb2-103"></a></span>
+<span id="cb2-104"><a href="#cb2-104"></a><span class="kw">function</span><span class="op">*</span> <span class="fu">createSketch</span>(sketch) {</span>
+<span id="cb2-105"><a href="#cb2-105"></a>  <span class="kw">const</span> element <span class="op">=</span> DOM<span class="op">.</span><span class="fu">element</span>(<span class="st">'div'</span>)<span class="op">;</span></span>
+<span id="cb2-106"><a href="#cb2-106"></a>  <span class="kw">yield</span> element<span class="op">;</span></span>
+<span id="cb2-107"><a href="#cb2-107"></a>  <span class="kw">const</span> instance <span class="op">=</span> <span class="kw">new</span> <span class="fu">P5</span>(sketch<span class="op">,</span> element<span class="op">,</span> <span class="kw">true</span>)<span class="op">;</span></span>
+<span id="cb2-108"><a href="#cb2-108"></a>  <span class="cf">try</span> {</span>
+<span id="cb2-109"><a href="#cb2-109"></a>    <span class="cf">while</span> (<span class="kw">true</span>) {</span>
+<span id="cb2-110"><a href="#cb2-110"></a>      <span class="kw">yield</span> element<span class="op">;</span></span>
+<span id="cb2-111"><a href="#cb2-111"></a>    }</span>
+<span id="cb2-112"><a href="#cb2-112"></a>  } <span class="cf">finally</span> {</span>
+<span id="cb2-113"><a href="#cb2-113"></a>    instance<span class="op">.</span><span class="fu">remove</span>()<span class="op">;</span></span>
+<span id="cb2-114"><a href="#cb2-114"></a>  }</span>
+<span id="cb2-115"><a href="#cb2-115"></a>}</span>
+<span id="cb2-116"><a href="#cb2-116"></a></span>
+<span id="cb2-117"><a href="#cb2-117"></a><span class="fu">createSketch</span>((s) <span class="kw">=&gt;</span> {</span>
+<span id="cb2-118"><a href="#cb2-118"></a>    s<span class="op">.</span><span class="at">setup</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-119"><a href="#cb2-119"></a>    s<span class="op">.</span><span class="at">sizeX</span> <span class="op">=</span> <span class="dv">960</span><span class="op">;</span></span>
+<span id="cb2-120"><a href="#cb2-120"></a>    s<span class="op">.</span><span class="at">sizeY</span> <span class="op">=</span> <span class="dv">400</span><span class="op">;</span></span>
+<span id="cb2-121"><a href="#cb2-121"></a>    s<span class="op">.</span><span class="fu">createCanvas</span>(s<span class="op">.</span><span class="at">sizeX</span><span class="op">,</span> s<span class="op">.</span><span class="at">sizeY</span>)<span class="op">;</span></span>
+<span id="cb2-122"><a href="#cb2-122"></a>    s<span class="op">.</span><span class="fu">background</span>(<span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb2-123"><a href="#cb2-123"></a>  }<span class="op">;</span></span>
+<span id="cb2-124"><a href="#cb2-124"></a></span>
+<span id="cb2-125"><a href="#cb2-125"></a>  s<span class="op">.</span><span class="at">draw</span> <span class="op">=</span> () <span class="kw">=&gt;</span> {</span>
+<span id="cb2-126"><a href="#cb2-126"></a>    <span class="fu">meinKreisePinsel</span>()<span class="op">;</span></span>
+<span id="cb2-127"><a href="#cb2-127"></a>  }<span class="op">;</span></span>
+<span id="cb2-128"><a href="#cb2-128"></a></span>
+<span id="cb2-129"><a href="#cb2-129"></a>  <span class="kw">function</span> <span class="fu">meinKreisePinsel</span>() {</span>
+<span id="cb2-130"><a href="#cb2-130"></a>    s<span class="op">.</span><span class="fu">strokeWeight</span>(<span class="dv">1</span>)<span class="op">;</span></span>
+<span id="cb2-131"><a href="#cb2-131"></a>    s<span class="op">.</span><span class="fu">fill</span>(<span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeX</span> <span class="op">*</span> s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">255</span> <span class="op">/</span> s<span class="op">.</span><span class="at">sizeY</span> <span class="op">*</span> (s<span class="op">.</span><span class="at">sizeY</span> <span class="op">-</span> s<span class="op">.</span><span class="at">mouseX</span>))<span class="op">;</span></span>
+<span id="cb2-132"><a href="#cb2-132"></a>    s<span class="op">.</span><span class="fu">circle</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">,</span> s<span class="op">.</span><span class="fu">dist</span>(s<span class="op">.</span><span class="at">mouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">mouseY</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseX</span><span class="op">,</span> s<span class="op">.</span><span class="at">pmouseY</span>))<span class="op">;</span></span>
+<span id="cb2-133"><a href="#cb2-133"></a>  }</span>
+<span id="cb2-134"><a href="#cb2-134"></a>})</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-1" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-2" data-nodetype="declaration">
+
+</div>
+</div>
+</div>
+<div class="cell-output cell-output-display">
+<div>
+<div id="ojs-cell-1-3" data-nodetype="expression">
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="mermaid-js---richard-conrardy" class="slide level2">
+<h2>Mermaid JS - Richard Conrardy</h2>
+<div class="cell" data-reveal="true">
+<details>
+<summary>Code</summary>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource default number-lines code-with-copy"><code class="sourceCode default"><span id="cb3-1"><a href="#cb3-1"></a>graph LR;</span>
+<span id="cb3-2"><a href="#cb3-2"></a>  b1[Arithmetik];</span>
+<span id="cb3-3"><a href="#cb3-3"></a>  b2[Stochastik];</span>
+<span id="cb3-4"><a href="#cb3-4"></a>  b3[Geometrie];</span>
+<span id="cb3-5"><a href="#cb3-5"></a>  i5[Zahl];</span>
+<span id="cb3-6"><a href="#cb3-6"></a>  k1[Zahl und Variable];</span>
+<span id="cb3-7"><a href="#cb3-7"></a>  b4[Algebra];</span>
+<span id="cb3-8"><a href="#cb3-8"></a>  i1[Symbol und Formalisierung];</span>
+<span id="cb3-9"><a href="#cb3-9"></a>  b5[Analysis];</span>
+<span id="cb3-10"><a href="#cb3-10"></a>  i2[Zuordnung und Veränderung];</span>
+<span id="cb3-11"><a href="#cb3-11"></a>  i3[Daten und Zufall];</span>
+<span id="cb3-12"><a href="#cb3-12"></a>  i4[Form und Raum];</span>
+<span id="cb3-13"><a href="#cb3-13"></a>  k2[Grössen, Funktionen, Daten und Zufall];</span>
+<span id="cb3-14"><a href="#cb3-14"></a>  k3[Form und Raum];</span>
+<span id="cb3-15"><a href="#cb3-15"></a>  edk1[Zahl und Variable];</span>
+<span id="cb3-16"><a href="#cb3-16"></a>  edk2[Form und Raum];</span>
+<span id="cb3-17"><a href="#cb3-17"></a>  edk3[Grösse und Masse];</span>
+<span id="cb3-18"><a href="#cb3-18"></a>  edk4[Funktionale Zusammenhänge];</span>
+<span id="cb3-19"><a href="#cb3-19"></a>  edk5[Daten und Zufall];</span>
+<span id="cb3-20"><a href="#cb3-20"></a>  b1--&gt;i5---edk1--&gt;k1;</span>
+<span id="cb3-21"><a href="#cb3-21"></a>  b4--&gt;i1---edk1;</span>
+<span id="cb3-22"><a href="#cb3-22"></a>  b5--&gt;i2---edk4--&gt;k2;</span>
+<span id="cb3-23"><a href="#cb3-23"></a>  b2--&gt;i3---edk5--&gt;k2;</span>
+<span id="cb3-24"><a href="#cb3-24"></a>  b3--&gt;i4---edk2--&gt;k3;</span>
+<span id="cb3-25"><a href="#cb3-25"></a>  edk3--&gt;k2;</span>
+<span id="cb3-26"><a href="#cb3-26"></a>  subgraph Teilgebiete</span>
+<span id="cb3-27"><a href="#cb3-27"></a>    b1;</span>
+<span id="cb3-28"><a href="#cb3-28"></a>    b2;</span>
+<span id="cb3-29"><a href="#cb3-29"></a>    b3;</span>
+<span id="cb3-30"><a href="#cb3-30"></a>    b4;</span>
+<span id="cb3-31"><a href="#cb3-31"></a>    b5;</span>
+<span id="cb3-32"><a href="#cb3-32"></a>  end</span>
+<span id="cb3-33"><a href="#cb3-33"></a>  subgraph B[Kompetenzbereiche EDK]</span>
+<span id="cb3-34"><a href="#cb3-34"></a>    edk1;</span>
+<span id="cb3-35"><a href="#cb3-35"></a>    edk2;</span>
+<span id="cb3-36"><a href="#cb3-36"></a>    edk3;</span>
+<span id="cb3-37"><a href="#cb3-37"></a>    edk4;</span>
+<span id="cb3-38"><a href="#cb3-38"></a>    edk5;</span>
+<span id="cb3-39"><a href="#cb3-39"></a>  end</span>
+<span id="cb3-40"><a href="#cb3-40"></a>  subgraph Leitideen</span>
+<span id="cb3-41"><a href="#cb3-41"></a>    i1;</span>
+<span id="cb3-42"><a href="#cb3-42"></a>    i2;</span>
+<span id="cb3-43"><a href="#cb3-43"></a>    i3;</span>
+<span id="cb3-44"><a href="#cb3-44"></a>    i4;</span>
+<span id="cb3-45"><a href="#cb3-45"></a>    i5;</span>
+<span id="cb3-46"><a href="#cb3-46"></a>  end</span>
+<span id="cb3-47"><a href="#cb3-47"></a>  subgraph K[Kompetenzbereiche LP21]</span>
+<span id="cb3-48"><a href="#cb3-48"></a>    k1;</span>
+<span id="cb3-49"><a href="#cb3-49"></a>    k2;</span>
+<span id="cb3-50"><a href="#cb3-50"></a>    k3;</span>
+<span id="cb3-51"><a href="#cb3-51"></a>  end</span>
+<span id="cb3-52"><a href="#cb3-52"></a>  </span>
+<span id="cb3-53"><a href="#cb3-53"></a>classDef title font-size:14px</span>
+<span id="cb3-54"><a href="#cb3-54"></a>classDef padding stroke:none,fill:none</span>
+<span id="cb3-55"><a href="#cb3-55"></a></span>
+<span id="cb3-56"><a href="#cb3-56"></a>class main title</span>
+<span id="cb3-57"><a href="#cb3-57"></a>class padding padding</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">graph LR;
+  b1[Arithmetik];
+  b2[Stochastik];
+  b3[Geometrie];
+  i5[Zahl];
+  k1[Zahl und Variable];
+  b4[Algebra];
+  i1[Symbol und Formalisierung];
+  b5[Analysis];
+  i2[Zuordnung und Veränderung];
+  i3[Daten und Zufall];
+  i4[Form und Raum];
+  k2[Grössen, Funktionen, Daten und Zufall];
+  k3[Form und Raum];
+  edk1[Zahl und Variable];
+  edk2[Form und Raum];
+  edk3[Grösse und Masse];
+  edk4[Funktionale Zusammenhänge];
+  edk5[Daten und Zufall];
+  b1--&gt;i5---edk1--&gt;k1;
+  b4--&gt;i1---edk1;
+  b5--&gt;i2---edk4--&gt;k2;
+  b2--&gt;i3---edk5--&gt;k2;
+  b3--&gt;i4---edk2--&gt;k3;
+  edk3--&gt;k2;
+  subgraph Teilgebiete
+    b1;
+    b2;
+    b3;
+    b4;
+    b5;
+  end
+  subgraph B[Kompetenzbereiche EDK]
+    edk1;
+    edk2;
+    edk3;
+    edk4;
+    edk5;
+  end
+  subgraph Leitideen
+    i1;
+    i2;
+    i3;
+    i4;
+    i5;
+  end
+  subgraph K[Kompetenzbereiche LP21]
+    k1;
+    k2;
+    k3;
+  end
+  
+classDef title font-size:14px
+classDef padding stroke:none,fill:none
+
+class main title
+class padding padding
+  
+</pre>
+</div>
+</div>
+</div>
 </div>
 </section></section>
-<section id="section-3" class="title-slide slide level1 center">
+<section id="section-2" class="title-slide slide level1 center">
 <h1>☕️ ?</h1>
 
 </section>
@@ -469,7 +770,7 @@ var qrcode = new QRCode("qrcode", {"colorLight":"#ffffff","text":"https://posit.
 <section id="mark-und-mark" class="slide level2">
 <h2>Mark ⬆️ und Mark ⬇️</h2>
 </section>
-<section id="section-4" class="slide level2 incremental">
+<section id="section-3" class="slide level2 incremental">
 <h2>🧠 + 🤖 = 🦾</h2>
 <p style="background: linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red);
              -webkit-background-clip: text;
@@ -481,35 +782,29 @@ Hello, Rainbow Text!
 <div class="fragment">
 <p style="animation: sparkle 1s infinite; color: #fff; font-size:2em">
 This text will sparkle!
+</p>
 <style>
 @keyframes sparkle {
 0% { color: #fff; }
 50% { color: #ffcc00; }
 100% { color: #fff; }}
 </style>
-</p>
 </div>
 <div class="fragment">
-<p style="animation: jiggle 0.5s ease-in-out infinite; font-size:2em">
+<p style="animation: jiggle 0.5s ease-in-out infinite; font-size: 2em;">
 This text will jiggle!
-<style>
-            @keyframes jiggle {
-                0%, 100% { transform: translateX(0); }
-                25% { transform: translateX(-5px); }
-                50% { transform: translateX(5px); }
-                75% { transform: translateX(-5px); }
-}
-        </style>
 </p>
+<style>
+   @keyframes jiggle {
+      0%, 100% { transform: translateX(0); }
+      25% { transform: translateX(-5px); }
+      50% { transform: translateX(5px); }
+      75% { transform: translateX(-5px); }
+   }
+</style>
 </div>
 <div class="fragment">
-<div style="font-family: 'Arial Black', sans-serif;
-                font-size: 36px;
-                color: #3498db;
-                text-align: center;
-                margin: 50px;
-                text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
-                animation: pulse 2s infinite;font-size:2em">
+<div style="font-family: 'Arial Black', sans-serif;                 font-size: 36px;                 color: #3498db;                 text-align: center;                 margin: 50px;                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);                 animation: pulse 2s infinite;font-size:2em">
 <p>WordArt is back, 👶!</p>
 <style>
             @keyframes pulse {
@@ -520,10 +815,18 @@ This text will jiggle!
 </div>
 </div>
 </section>
-<section id="free-and-open-source" class="slide level2">
-<h2>Free and Open Source</h2>
+<section id="about" class="slide level2">
+<h2>About</h2>
+<ul>
+<li>Posit
+<ul>
+<li>Quarto</li>
+<li>RStudio</li>
+<li>Quartopub</li>
+</ul></li>
+</ul>
 </section></section>
-<section id="section-5" class="title-slide slide level1 center">
+<section id="section-4" class="title-slide slide level1 center">
 <h1>☕ ?</h1>
 
 </section>
@@ -535,16 +838,69 @@ This text will jiggle!
 </section>
 <section id="datenschutzrecht" class="slide level2 unlisted">
 <h2>Datenschutzrecht</h2>
+<blockquote>
+<p>Dieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.</p>
+<div class="quelle">
+<p><a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7">Art. 4 Abs.1 KDSG</a></p>
+</div>
+</blockquote>
+<blockquote>
+<p>Personendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.</p>
+<div class="quelle">
+<p><a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7">Art.2 Abs.1 KDSG</a></p>
+</div>
+</blockquote>
 </section>
 <section id="urheberrecht" class="slide level2">
 <h2>Urheberrecht</h2>
+<blockquote>
+<p>Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.</p>
+<div class="quelle">
+<p><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e">Art.321e Abs.1 OR</a></p>
+</div>
+</blockquote>
+<blockquote>
+<p>Das Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.</p>
+<div class="quelle">
+<p><span class="citation" data-cites="eidgenössischesinstitutfürgeistigeseigentum">Eidgenössisches Institut für Geistiges Eigentum (<a href="#/bibliographie" role="doc-biblioref" onclick="">o.&nbsp;J.</a>)</span></p>
+</div>
+</blockquote>
 </section>
-<section id="phrecht" class="slide level2 unlisted">
-<h2>PHRecht</h2>
+<section id="phbern" class="slide level2 unlisted">
+<h2>PHBern</h2>
+<blockquote>
+<p>Die Webseite wird innert kürzester Zeit komplett geladen (Pagespeed testen)</p>
+<div class="quelle">
+<p>Qualitätskriterien Web-Plattformen</p>
+</div>
+</blockquote>
+<h3 id="section-5">😆😅</h3>
+</section>
+<section id="phbern-1" class="slide level2 unlisted">
+<h2>PHBern</h2>
+<p><a href="https://qmp.phbern.ch/File/CoreDownload?id=5682&amp;filename=20230619_Grunds%C3%A4tze%20CI-CD_Webauftritte_Applikationen.pdf&amp;langId=1">GRUNDSÄTZE CI/CD FÜR WEBAUFTRITTE UND APPLIKATIONEN</a></p>
+<h3 id="section-6">😘</h3>
+</section>
+<section id="phbern-2" class="slide level2 unlisted">
+<h2>PHBern</h2>
+<blockquote>
+<p>An der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die <strong>Institutsleiterinnen und Institutsleiter</strong> über die Nutzung immaterieller Arbeitsergebnisse […]</p>
+<div class="quelle">
+<p>Geistiges Eigentum Merkblatt</p>
+</div>
+</blockquote>
+</section>
+<section id="bibliographie" class="slide level2 unlisted smaller scrollable">
+<h2>Bibliographie</h2>
 
 
 <img src="../images/penguin.png" class="slide-logo r-stretch"><div class="footer footer-default">
 <p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-eidgenössischesinstitutfürgeistigeseigentum" class="csl-entry" role="listitem">
+Eidgenössisches Institut für Geistiges Eigentum. o.&nbsp;J. <span>„Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum“</span>. <a href="https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken">https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken</a>.
+</div>
 </div>
 </section></section>
     </div>
@@ -760,6 +1116,55 @@ This text will jiggle!
         ]
       });
     </script>
+    <script type="ojs-module-contents">
+    {"contents":[{"methodName":"interpret","cellName":"ojs-cell-1","inline":false,"source":"P5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) => {\n    s.setup = () => {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () => {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX, s.mouseY, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})\n\n"}]}
+    </script>
+    <script type="module">
+    if (window.location.protocol === "file:") { alert("The OJS runtime does not work with file:// URLs. Please use a web server to view this document."); }
+    window._ojs.paths.runtimeToDoc = "../../special";
+    window._ojs.paths.runtimeToRoot = "../..";
+    window._ojs.paths.docToRoot = "..";
+    window._ojs.selfContained = false;
+    window._ojs.runtime.interpretFromScriptTags();
+    </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
