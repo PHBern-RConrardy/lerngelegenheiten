@@ -1271,7 +1271,7 @@
     "href": "special/barcamp_phbern_2024.html#section-1",
     "title": "Inhalte onlinebringen",
     "section": "👩‍💻 🧑‍💻 👨‍💻",
-    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\nPrompt: “people working together looking super smart” 🤣"
+    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\n\n\n\n\n\n\nAdobe Firefly: “people working together looking super smart”\n\n\n\n\n\n\n\n\nAdobe Firefly: “people not working together looking super dumb”\n\n\n\n\n🤔"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#section-2",
@@ -1290,6 +1290,48 @@
   {
     "objectID": "special/barcamp_phbern_2024.html#section-3",
     "href": "special/barcamp_phbern_2024.html#section-3",
+    "title": "Inhalte onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back, 👶!"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#test",
+    "href": "special/barcamp_phbern_2024.html#test",
+    "title": "Inhalte onlinebringen",
+    "section": "test",
+    "text": "test\n// Additional non-interactive code\n// Set up the canvas and draw initial content\nlet sizeX;\nlet sizeY;\n\nfunction setup() {\n  sizeX = windowWidth;\n  sizeY = windowHeight;\n  createCanvas(sizeX, sizeY);\n  background(0);\n  drawInitialContent();\n}\n\nfunction drawInitialContent() {\n  // Draw initial content here\n  fill(255);\n  ellipse(width / 2, height / 2, 50, 50);\n}"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#urheberrecht-background-iframe",
+    "href": "special/barcamp_phbern_2024.html#urheberrecht-background-iframe",
+    "title": "Inhalte onlinebringen",
+    "section": "Urheberrecht {background-iframe}",
+    "text": "Urheberrecht {background-iframe}"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#urheberrecht-.background-iframesonja-test-js.html",
+    "href": "special/barcamp_phbern_2024.html#urheberrecht-.background-iframesonja-test-js.html",
+    "title": "Inhalte onlinebringen",
+    "section": "Urheberrecht {.background-iframe=“sonja-test-js.html”}",
+    "text": "Urheberrecht {.background-iframe=“sonja-test-js.html”}"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#urheberrecht-background-iframesonja-test-js.html-background-interactive-true",
+    "href": "special/barcamp_phbern_2024.html#urheberrecht-background-iframesonja-test-js.html-background-interactive-true",
+    "title": "Inhalte onlinebringen",
+    "section": "Urheberrecht {background-iframe=“sonja-test-js.html” ; background-interactive: true}",
+    "text": "Urheberrecht {background-iframe=“sonja-test-js.html” ; background-interactive: true}"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#urheberrecht-background-iframesonja-test-js.html-background-interactivetrue",
+    "href": "special/barcamp_phbern_2024.html#urheberrecht-background-iframesonja-test-js.html-background-interactivetrue",
+    "title": "Inhalte onlinebringen",
+    "section": "Urheberrecht {background-iframe=“sonja-test-js.html” ; background-interactive=true}",
+    "text": "Urheberrecht {background-iframe=“sonja-test-js.html” ; background-interactive=true}"
+  },
+  {
+    "objectID": "special/barcamp_phbern_2024.html#section-4",
+    "href": "special/barcamp_phbern_2024.html#section-4",
     "title": "Inhalte onlinebringen",
     "section": "🧠 + 🤖 = 🦾",
     "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back, 👶!"

@@ -59,11 +59,35 @@ General Johnson
 
 ## 👩‍💻 🧑‍💻 👨‍💻 
 
+::::columns
+
+:::column
+
 ![](images/groupwork_adobe.jpg){fig-align="center"}
 
 :::quelle
-Prompt: "people working together looking super smart" 🤣
+Adobe Firefly: "people working together looking super smart"
 :::
+
+:::
+:::column
+
+![](images/not_groupwork_adobe.jpg){fig-align="center"}
+
+:::quelle
+
+Adobe Firefly: "people not working together looking super dumb"
+:::
+
+:::
+::::
+
+:::{style="text-align: center;font-size:2em"}
+🤔
+:::
+
+## {background-iframe="sonja-test-js.html"   background-interactive=true}
+
 # ☕️ ?
 
 # Theorie
@@ -136,6 +160,8 @@ WordArt is back, 👶!
 
 ## Datenschutzrecht {.unlisted}
 
-## Urheberrecht {.unlisted}
+
+  
+## Urheberrecht 
 
 ## PHRecht {.unlisted}

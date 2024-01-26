@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.js"></script>
+</head>
+
+<body>
+  <script>
+    let sizeX;
+    let sizeY;
+
+    function setup() {
+      sizeX = window.innerWidth;
+      sizeY = window.innerHeight;
+      createCanvas(sizeX, sizeY);
+      background(0);
+    }
+
+    function draw() {
+      meinKreisePinsel();
+    }
+
+    function meinKreisePinsel() {
+      strokeWeight(1);
+      fill(255 / sizeX * mouseX, 0, 255 / sizeY * (sizeY - mouseX));
+      circle(mouseX, mouseY, dist(mouseX, mouseY, pmouseX, pmouseY));
+    }
+
+    // Helper function to calculate distance between two points
+    function dist(x1, y1, x2, y2) {
+      return Math.sqrt((x2 - x1) ** 2 + (y2 - y1) ** 2);
+    }
+  </script>
+</body>
+
+</html>
