@@ -88,6 +88,11 @@ Adobe Firefly: "people not working together looking super dumb"
 
 ## {background-iframe="sonja-test-js.html"   background-interactive=true}
 
+
+:::{style="color: white!important;"}
+JS-Beispiel von Sonja Schär
+:::
+
 # ☕️ ?
 
 # Theorie
