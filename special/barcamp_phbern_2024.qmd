@@ -92,7 +92,7 @@ Adobe Firefly: "people not working together looking super dumb"
 🤔
 :::
 
-## Creative Coding - Sonja Schär
+## Creative Coding - Sonja Schär{.unlisted}
 
 ::: center
 ```{ojs}
@@ -136,7 +136,7 @@ createSketch((s) => {
 ```
 :::
 
-## Mermaid JS - Richard Conrardy
+## Mermaid JS - Richard Conrardy{.unlisted}
 
 ```{mermaid}
 %%| echo: true
@@ -201,7 +201,7 @@ class padding padding
   
 ```
 
-# ☕️ ?
+# ☕️ ?{.unlisted}
 
 # Theorie
 
@@ -273,7 +273,7 @@ WordArt is back, 👶!
     -   RStudio
     -   Quartopub
 
-# ☕ ?
+# ☕ ?{.unlisted}
 
 # Recht 👨‍⚖️
 
@@ -291,7 +291,7 @@ WordArt is back, 👶!
 > [Art.2 Abs.1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7)
 > :::
 
-## Urheberrecht
+## Urheberrecht{.unlisted}
 
 > Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.
 >
