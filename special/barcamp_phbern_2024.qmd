@@ -70,27 +70,6 @@ countdown(
 )
 ```
 
-::: columns
-::: column
-![](images/groupwork_adobe.jpg){fig-align="center"}
-
-::: quelle
-Adobe Firefly: "people working together looking super smart"
-:::
-:::
-
-::: column
-![](images/not_groupwork_adobe.jpg){fig-align="center"}
-
-::: quelle
-Adobe Firefly: "people not working together looking super dumb"
-:::
-:::
-:::
-
-::: {style="text-align: center;font-size:2em"}
-🤔
-:::
 
 ## Creative Coding - Sonja Schär{.unlisted}
 

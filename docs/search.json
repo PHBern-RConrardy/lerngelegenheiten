@@ -1271,7 +1271,7 @@
     "href": "special/barcamp_phbern_2024.html#section-1",
     "title": "Inhalte onlinebringen",
     "section": "👩‍💻 🧑‍💻 👨‍💻",
-    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00\n\n\n\n\n\n\n\n\n\n\n\nAdobe Firefly: “people working together looking super smart”\n\n\n\n\n\n\n\n\nAdobe Firefly: “people not working together looking super dumb”\n\n\n\n\n🤔"
+    "text": "👩‍💻 🧑‍💻 👨‍💻\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00"
   },
   {
     "objectID": "special/barcamp_phbern_2024.html#section-2",
