@@ -3,6 +3,7 @@ format: revealjs
 title: Inhalte onlinebringen
 subtitle: Barcamp PHBern
 date: 12 02 2024
+draft: true
 ---
 
 ##  {.unlisted}
@@ -23,7 +24,7 @@ date: 12 02 2024
 
 # Praxis
 
-## RStudio 🍺 {.smaller}
+## RStudio {.smaller}
 
 ::: columns
 ::: column
@@ -53,7 +54,7 @@ date: 12 02 2024
 
 </iframe>
 
-## 👩‍💻 🧑‍💻 👨‍💻
+## Workshop
 
 ```{r}
 #| echo: true
@@ -184,7 +185,7 @@ class padding padding
 
 # Theorie
 
-## Mark ⬆️ und Mark ⬇️
+## Mark️up
 
 ## 🧠 + 🤖 = 🦾 {.incremental}
 
@@ -234,7 +235,7 @@ This text will sparkle!
 . . .
 
 ::: {style="font-family: 'Arial Black', sans-serif;                 font-size: 36px;                 color: #3498db;                 text-align: center;                 margin: 50px;                 text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);                 animation: pulse 2s infinite;font-size:2em"}
-WordArt is back, 👶!
+WordArt is back!
 
 <style>
             @keyframes pulse {
@@ -254,7 +255,7 @@ WordArt is back, 👶!
 
 # ☕ ?{.unlisted}
 
-# Recht 👨‍⚖️
+# Recht
 
 ## Datenschutzrecht {.unlisted}
 
@@ -284,22 +285,6 @@ WordArt is back, 👶!
 > @eidgenössischesinstitutfürgeistigeseigentum
 > :::
 
-## PHBern {.unlisted}
-
-> Die Webseite wird innert kürzester Zeit komplett geladen (Pagespeed testen) 
->
-:::quelle
-Qualitätskriterien Web-Plattformen
-:::
-
-### 😆😅
-
-## PHBern {.unlisted}
-
-[GRUNDSÄTZE CI/CD FÜR
-WEBAUFTRITTE UND APPLIKATIONEN](https://qmp.phbern.ch/File/CoreDownload?id=5682&filename=20230619_Grunds%C3%A4tze%20CI-CD_Webauftritte_Applikationen.pdf&langId=1) 
-
-### 😘
 
 ## PHBern {.unlisted}
 

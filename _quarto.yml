@@ -81,7 +81,7 @@ format:
     slide-number: false
     chalkboard: true
     toc-title: "Inhalt"
-    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent"
+    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent {{< include footer-test.qmd >}}"
     title-slide-attributes: 
       data-background-image: "images/logo cc-by-sa.svg"
       data-background-size: 12%
@@ -92,6 +92,8 @@ format:
     hide-inactive-cursor: true
     mermaid:
       theme: neutral
+    draft: true
+    background-iframe: clock-test.html
 
     categories:
       - Präsentationsfolien

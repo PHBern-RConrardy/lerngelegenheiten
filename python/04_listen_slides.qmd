@@ -2,6 +2,7 @@
 title: "Python"
 subtitle: "Listen"
 format: revealjs
+draft: true
 ---
 
 # Lernziele <i class="fas fa-bullseye"></i>

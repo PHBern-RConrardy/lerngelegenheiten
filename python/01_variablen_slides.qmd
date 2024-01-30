@@ -2,6 +2,7 @@
 title: "Python"
 subtitle: "Variablen, Datentypen und Type Casting"
 format: revealjs
+draft: true
 ---
 
 ## Learning Outcomes

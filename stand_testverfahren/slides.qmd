@@ -2,6 +2,7 @@
 title: "<small>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</small>"
 subtitle: "Teil Mathematik"
 format: revealjs
+draft: true
 ---
 
 ## Areas of Conflict {.unnumbered .unlisted}

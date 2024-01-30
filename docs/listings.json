@@ -2,23 +2,15 @@
   {
     "listing": "/index.html",
     "items": [
-      "/stand_testverfahren/slides.html",
-      "/math_summative_praes/woche_01.html",
-      "/math_summative_praes/woche_02.html",
-      "/math_summative_praes/woche_03.html",
-      "/math_summative_praes/woche_07.html",
-      "/math_summative_praes/woche_08.html",
-      "/math_summative_praes/woche_09.html",
       "/stand_testverfahren/stand_test.html",
       "/learning_analytics/learning_analytics.html",
-      "/learning_analytics/woche_08.html",
-      "/learning_analytics/woche_11.html",
-      "/special/gdm_tagung.html",
+      "/mikroplanung_math/blockkurs.html",
+      "/mikroplanung_math/mikro_sol.html",
+      "/mikroplanung_math/praesenzkurs.html",
+      "/python/python.html",
       "/math_summative_praes/math_summ_praes.html",
-      "/verstehensorientiert_pruefen/math_ki.html",
-      "/verstehensorientiert_pruefen/woche_01.html",
-      "/verstehensorientiert_pruefen/woche_02.html",
-      "/verstehensorientiert_pruefen/woche_03.html"
+      "/math_summative_sol/math_summ_sol.html",
+      "/verstehensorientiert_pruefen/math_ki.html"
     ]
   }
 ]

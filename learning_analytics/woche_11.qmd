@@ -2,4 +2,5 @@
 title: "Learning Analytics"
 subtitle: "Woche 11"
 format: revealjs
+draft: true
 ---

@@ -2,6 +2,7 @@
 title: "Python"
 subtitle: "Funktionen"
 format: revealjs
+draft: true
 ---
 
 # Lernziele :dart:

@@ -2,6 +2,7 @@
 title: "Python"
 subtitle: "Loops (while, for) und Flussdiagramme"
 format: revealjs
+draft: true
 ---
 
 # Lernziele

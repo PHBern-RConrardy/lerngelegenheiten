@@ -3,6 +3,7 @@ title: "Spielwiese"
 format: html
 categories:
   - unlisted
+draft: true
 ---
 Hier sind tolle Sachen, aber aufwändiger für Ungeübte Nutzer:
 

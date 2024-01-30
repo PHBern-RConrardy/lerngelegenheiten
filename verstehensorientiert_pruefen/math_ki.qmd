@@ -6,6 +6,30 @@ categories:
   - Formative Beurteilung
   - Summative und prognostische Beurteilung
   - Digitalität
+authors:
+    - name: Richard Conrardy
+      orcid: 0009-0004-2063-6898
+      id: 00383195
+      email: richard.conrardy@phbern.ch
+      url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+      affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+    - name: Joel Adler
+      url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
+      affiliations:
+          - name: University of Teacher Education Bern
+            address: Länggassstrasse 35
+            city: Bern
+            postal-code: 3012
+            url: https://www.phbern.ch
+            department: Institut Sekundarstufe I
+            ror: https://ror.org/05jf1ma54
 ---
 
 ::: {style="text-align: center;"}
@@ -17,7 +41,7 @@ categories:
 # Wochenüberblick
 
 | Woche | Thema                         |                               Slides                               |                  Unterlagen                   |                 Vorbereitung                  | Nachbereitung |
-|:-----:|:------------------------------|:------------------------------------------------------------------:|:---------------------------------------------:|:---------------------------------------------:|:-------------:|
+|:----------:|:-----------|:--------------:|:----------:|:----------:|:----------:|
 |   1   | Variablen und Conditionals    | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |
 |   2   | Loops und Listen              | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |                                               |               |
 |   3   | Funktionen und Projektauftrag | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |

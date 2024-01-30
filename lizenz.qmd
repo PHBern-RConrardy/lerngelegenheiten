@@ -1,6 +1,7 @@
 ---
 title: "Lizenz"
 format: html
+draft: true
 ---
 Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:
 
