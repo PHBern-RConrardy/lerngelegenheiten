@@ -2,7 +2,6 @@
 title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
 subtitle: Grundlagen für den Unterricht <br> Woche 3
 format: revealjs
-draft: true
 ---
 
 # Lehr- Lerninhalte

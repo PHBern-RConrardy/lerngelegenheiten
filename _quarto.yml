@@ -1,13 +1,37 @@
 project:
   type: website
   output-dir: docs
+lang: de
+theme: 
+  - styles.scss
+  
+date-format: "DD.MM.YYYY"
 
   
-bibliography: bibliographie_richard.bib
-lang: de
+bibliography: bibliographien/bibliographie_richard.bib
+csl: bibliographien/apa7.csl          
+
+link-external-newwindow: true
+fig-align: center
+
+author:   
+      - name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        id: 00383195
+        email: richard.conrardy@phbern.ch
+        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
 
 website:
   favicon: images/penguin.png
+  search: true
   navbar:
     logo: "images/penguin.png"
     background: white
@@ -15,7 +39,6 @@ website:
       - href: verstehensorientiert_pruefen/math_ki.qmd
         text: MA-KI
         icon: calculator-fill
-      
       - href: stand_testverfahren/stand_test.qmd
         text: ESW-Testv.
         icon: file-bar-graph-fill
@@ -43,18 +66,16 @@ website:
         - href: math_summative_sol/math_summ_sol.qmd
           text: Selbstorganisiertes Lernen
           icon: mouse2-fill
-        
     right:  
       - text: "Python"
         href: python/python.qmd
         icon: terminal-fill
-  search: true
   page-footer: 
     center: 
       - text: "Impressum"
-        href: impressum.qmd
+        href: footer/impressum.qmd
       - text: "Disclaimer"
-        href: disclaimer.qmd 
+        href: footer/disclaimer.qmd 
       - text: "Kontakt"
         href: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy  
     left: 
@@ -92,35 +113,3 @@ format:
     hide-inactive-cursor: true
     mermaid:
       theme: neutral
-
-
-    categories:
-      - Präsentationsfolien
-
-
-  
-  pdf:
-    subtitle: test
-
-    
-author:   
-      - name: Richard Conrardy
-        orcid: 0009-0004-2063-6898
-        id: 00383195
-        email: richard.conrardy@phbern.ch
-        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
-        affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
-
-          
-link-external-newwindow: true
-fig-align: center
-theme: 
-  - styles.scss
-date-format: "DD.MM.YYYY"

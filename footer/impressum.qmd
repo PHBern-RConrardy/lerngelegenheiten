@@ -1,7 +1,6 @@
 ---
 title: "Impressum"
 format: html
-draft: true
 ---
 
 Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss [Art. 322 StGB](https://www.fedlex.admin.ch/eli/cc/54/757_781_799/de#art_322).
@@ -15,3 +14,4 @@ Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, ste
 Folgende Autoren verzichten auf Namensnennung bei Wiederverwendung:
 
 * Richard François Conrardy
+* Joel Adler

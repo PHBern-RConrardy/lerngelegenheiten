@@ -2,16 +2,5 @@
 title: "Lerngelegenheiten"
 subtitle: "Webseite für Lerngelegenheiten"
 format: html
-listing:
-  categories: true
-  type: table
-  contents: 
-    - "**.qmd"
-  fields: [title, subtitle, author]
-  filter-ui: [title, subtitle, author]
-  exclude:
-    - filename: "woche*"
-    - filename: "excl*"
-    - author: "Richard Conrardy"
-  page-size: 13
 ---
+Webseite für diverse Lerngelegenheiten von diversen Personen.
