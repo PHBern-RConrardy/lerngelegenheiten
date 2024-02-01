@@ -91,35 +91,15 @@ $LPGrundanspruch: #DDDDD7;
 $titelfarbe: #1a1a1a;
 $linkhover: $bordeauxhover;
 
-
-
-// Base document colors
-
-
-
-
-
 $link-color: $linkfarbe;
 
 $font-family-sans-serif: sans-serif;
 
 
-//$font-size-root: 21px;
-// $h3-font-size: 33px;
-//$h3-font-size: 1.5rem;
-// $h2-font-size: 42px;
-//$h2-font-size: 2rem;
-// $h1-font-size: 72px;
-//$h1-font-size: 3.42rem;
-$code-block-bg: #FAFAFA;
-$body-color: $titelfarbe;
-
 /*-- scss:rules --*/
 
 //////////////////// For big screen
 @media screen and (min-width: 768px){
-  
-  
   h3 {
     font-size: 1.5rem; /* Equivalent to $h3-font-size: 1.5rem; */
   }
@@ -131,7 +111,6 @@ $body-color: $titelfarbe;
   h1 {
     font-size: 3.42rem; /* Equivalent to $h1-font-size: 3.42rem; */
   }
-  
   main{
       line-height: 1.57rem; /* Equivalent to 33px / 21px */
       font-size: 21px;
@@ -145,7 +124,6 @@ $body-color: $titelfarbe;
     font-weight: 400;
     letter-spacing: 0.3px;
   }
-  
   h2 {
     line-height: 46px;
     font-weight: 400;
@@ -166,12 +144,7 @@ $body-color: $titelfarbe;
   margin-bottom: 0rem;
 }
 
-
-
-
-
 .nav-footer a {
-    color: $schwarz4 !important;
     font-weight:700;
 }
 .nav-footer a:hover {
@@ -196,12 +169,6 @@ main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-li
   background-color: $bordeaux;
   border-color: $bordeaux;
 }
-
-
-
-
-
-
 
 h2{
   border-bottom: 0px solid #dee2e6;
@@ -263,8 +230,6 @@ border-left: 1rem solid $phorange1;
   background-color: $Zyklus2;
 }
 
-
-
 .accordion-button{
   padding-bottom: 0rem;
   padding-top:0rem;
@@ -280,7 +245,6 @@ border-left: 1rem solid $phorange1;
 td {
   vertical-align: middle;
 }
-
 
 .reveal blockquote{
   font-style: italic;
@@ -302,10 +266,10 @@ td {
   display: block;
 }
 
-#title-block-header {
+/*#title-block-header {
             background-color: inherit;
         }
-        
+*/        
 .quarto-title-banner{
   padding-bottom: 0em;
   background:inherit;
@@ -317,6 +281,10 @@ td {
   margin-left: 4%;
   color:$titelfarbe;
   grid-column: body-content-start/body-content-end;
+}
+
+.dropdown-item{
+  color:$titelfarbe;
 }
 
 .header-section-number{
@@ -335,5 +303,4 @@ td {
 h1.title small  {
       text-decoration: underline ;
       text-decoration-color: $bordeaux ;
-      
 }

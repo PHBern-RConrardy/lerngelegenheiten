@@ -16,11 +16,22 @@ categories:
 
 # Workload
 
-| Woche | Thema                      |                               Slides                               |            Unterlagen             |
+| Woche | Thema                      |                               Slides                               |            Aufträge             |
 |:----------------:|:-----------------|:----------------:|:----------------:|
-|   8   | Constructive Alignment     | [<i class="bi bi-easel3-fill"></i>](woche_08.qmd){target="_blank"} | <i class="bi bi-folder-fill"></i> |
+|   8   | Constructive Alignment     | [<i class="bi bi-easel3-fill"></i>](woche_08.qmd){target="_blank"} |  |
 |   9   | Lehrplan21                 |                                                                    | <i class="bi bi-folder-fill"></i> |
 |  10   | Teilgebiete der Mathematik |                                                                    | <i class="bi bi-folder-fill"></i> |
 |  11   |                            |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          | <i class="bi bi-folder-fill"></i> |
 
 : {.striped .hover .table-sm}
+
+
+
+
+## Aufträge Woche 9
+
+`xlookup`
+
+## Aufträge Woche 10
+
+## Auftrag Woche 11
