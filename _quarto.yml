@@ -92,8 +92,7 @@ format:
     hide-inactive-cursor: true
     mermaid:
       theme: neutral
-    draft: true
-    background-iframe: clock-test.html
+
 
     categories:
       - Präsentationsfolien
@@ -109,7 +108,6 @@ author:
         orcid: 0009-0004-2063-6898
         id: 00383195
         email: richard.conrardy@phbern.ch
-
         url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
         affiliations:
         - name: University of Teacher Education Bern
