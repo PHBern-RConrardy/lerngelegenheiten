@@ -40,7 +40,7 @@ else:
   print("x ist gleich 1")
 ```
 
-Achtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =.
+Achtung: Ein Vergleich in Python ist `==`, eine Zuweisung ist `=`.
 
 ## Logische Operatoren (Optional) 
 
@@ -48,7 +48,7 @@ Achtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =.
 * `or` (Deutsch: oder)
 * `not` (Deutsch: nicht)
 
-```Python
+```python
 x = 5
 y = 6
 
@@ -77,6 +77,7 @@ if winter:  # Viel besser
 ```
 
 Vergleichen von Floats mit `==`
+
 ```Python
 meter = 1.8324
 

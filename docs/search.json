@@ -1,948 +1,17 @@
 [
   {
-    "objectID": "tagungsunterlagen/tagungsunterlagen.html",
-    "href": "tagungsunterlagen/tagungsunterlagen.html",
-    "title": "Übersicht Tagungsunterlagen",
-    "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "",
-    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "",
-    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "RStudio",
-    "text": "RStudio\n\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\n\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Quartopub",
-    "text": "Quartopub\nhttps://quartopub.org/"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#workshop",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#workshop",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Workshop",
-    "text": "Workshop\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#creative-coding---sonja-schär",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#creative-coding---sonja-schär",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Creative Coding - Sonja Schär",
-    "text": "Creative Coding - Sonja Schär\n\n\n\nQuellcode von Sonja Schär\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX+100, s.mouseY+50, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#flowchart---richard-conrardy",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#flowchart---richard-conrardy",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Flowchart - Richard Conrardy",
-    "text": "Flowchart - Richard Conrardy\n\n\nCode\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#gantt-diagram",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#gantt-diagram",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Gantt diagram",
-    "text": "Gantt diagram\n\n\nCode\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#markup",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#markup",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Mark️up",
-    "text": "Mark️up"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "🧠 + 🤖 = 🦾",
-    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n. . .\n\nThis text will sparkle!\n\n\n. . .\n\nThis text will jiggle!\n\n\n. . .\n\nWordArt is back!"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "About",
-    "text": "About\n\nPosit\n\nQuarto\nRStudio\nQuartopub"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#datenschutzrecht",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#datenschutzrecht",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Datenschutzrecht",
-    "text": "Datenschutzrecht\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs.1 KDSG\n\n\n\nPersonendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.\n\nArt.2 Abs.1 KDSG"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#urheberrecht",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#urheberrecht",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "Urheberrecht",
-    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#phbern",
-    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#phbern",
-    "title": "Inhalte effizient onlinebringen",
-    "section": "PHBern",
-    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Padlet\n\n\n\n\n\n\n\n\nStellen Sie sich bitte im Raum in Reihenfolge Ihrer Haarlänge auf.\nJe grösser der Längenunterschied, desto grösser die Distanz.\n\n\n\n\n\nsymmetrische Frisuren\n\n\n\n\n\n\n\nWie kann ich die Hypothese “belegen”, dass unsere Gruppe längere Haare hat als die andere Gruppe?\n\n\n\n\nHypothesen\n\nNullhypothese H_0\nAlternativhypothese H_1\n\nHypothesentest\n\nFehler 1. Art (Alphafehler)\nFehler 2. Art (Betafehler)\nSignifikanz"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#core-mathematics-vs.-mathematical-science",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#core-mathematics-vs.-mathematical-science",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Padlet"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ordnen-und-hypothesen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ordnen-und-hypothesen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Stellen Sie sich bitte im Raum in Reihenfolge Ihrer Haarlänge auf.\nJe grösser der Längenunterschied, desto grösser die Distanz.\n\n\n\n\n\nsymmetrische Frisuren"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#hypothesen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#hypothesen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Wie kann ich die Hypothese “belegen”, dass unsere Gruppe längere Haare hat als die andere Gruppe?"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#fachbegriffe",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#fachbegriffe",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Hypothesen\n\nNullhypothese H_0\nAlternativhypothese H_1\n\nHypothesentest\n\nFehler 1. Art (Alphafehler)\nFehler 2. Art (Betafehler)\nSignifikanz"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#skalenniveaus",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#skalenniveaus",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Skalenniveaus",
-    "text": "Skalenniveaus\n\n\n\nSkalenniveaus"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilungen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilungen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Verteilungen",
-    "text": "Verteilungen\n\n\n\nHistogramm"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#statistische-kennwerte",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#statistische-kennwerte",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Statistische Kennwerte",
-    "text": "Statistische Kennwerte\n\n\n\nLagemasse\n\nModus\nMedian\nMittelwert\n\nStreumasse\n\nSpannweite\nInterquartilabstand\nVarianz / Standardabweichung\n\nVerteilungsmasse\n\nGini-Koeffizient\n\n\n\n\n\n\nGini-Koeffizient"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilung",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilung",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Verteilung",
-    "text": "Verteilung\n\nGeht auf Ilias auf das verlinkte Padlet​\nZeichnet eine Notenverteilung wie ihr sie in der 8. Klasse Mathematik vermutet / kennt."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ahb",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ahb",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "AHB",
-    "text": "AHB\n\nDie Noten im Beurteilungsbericht sind ein Instrument zur Kommunikation der Beurteilung von Leistungen der Schülerinnen und Schüler und das Ergebnis eines professionellen Ermessensentscheids durch die Lehrpersonen. Sie basieren nicht auf Berechnungen von Durchschnitten.\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#dvbs",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#dvbs",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "DVBS",
-    "text": "DVBS\n\nArt. 2 Einheitliche Praxis\n1 Die Schulleitung legt unter Mitwirkung des Lehrerkollegiums eine einheitliche Praxis insbesondere in folgenden Bereichen fest: Beurteilung, Selbstbeurteilung und Information der Eltern."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#gütekriterien-für-mess--und-testverfahren",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#gütekriterien-für-mess--und-testverfahren",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Gütekriterien für Mess- und Testverfahren​",
-    "text": "Gütekriterien für Mess- und Testverfahren​\n\nObjektivität\nReliabilität\nValidität"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Arithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)\n\n\n\n\n\nZahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)\n\n\n\n\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)\n\n\n\n\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n  \n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Arithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#leitideen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#leitideen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Zahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-inhalte",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-inhalte",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Zahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "graph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n  \n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#denkprozesse",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#denkprozesse",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Denkprozesse",
-    "text": "Denkprozesse\n\nBegriffsbildung\nProblemlösen lernen\nAlgorithmik\nArgumentieren und Beweisen\nAnwendungen und Modellieren\nDarstellen und Kommunizieren\n\n\nBruder et al. (2014)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#handlungsaspekte",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#handlungsaspekte",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Handlungsaspekte",
-    "text": "Handlungsaspekte\n\nOperieren und Benennen\nErforschen und Argumentieren\nMathematisieren und Darstellen\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-1",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-1",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "graph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nedk1[Wissen, Erkennen und Beschreiben];\nedk2[Operieren und Berechnen];\nedk3[Verwenden von Instrumenten und Werkzeugen];\nedk4[Darstellen und Kommunizieren];\nedk5[Mathematisieren und Modellieren];\nedk6[Argumentieren und Begründen];\nedk7[Interpretieren und Reflektieren der Resultate];\nedk8[Erforschen und Explorieren];\n\nb1--&gt;edk1--&gt;h1;\nb6--&gt;edk4--&gt;h3;\nb4--&gt;edk6--&gt;h2;\nb3--&gt;edk2--&gt;h1;\nb2--&gt;edk7--&gt;h2;\nb5--&gt;edk5--&gt;h3;\nedk8--&gt;h2;\nedk3--&gt;h1;\nb2--&gt;edk8;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte EDK\n  edk1;\n  edk2;\n  edk3;\n  edk4;\n  edk5;\n  edk6;\n  edk7;\n  edk8;\nend\nsubgraph Handlungsaspekte LP21\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-2",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-2",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Bildungs- und Kulturdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\n\nWoche\nThema\nSlides\nUnterlagen\n\n\n\n\n1\nConstructive Alignment\n\n\n\n\n2\nLehrplan21\n\n\n\n\n3\nMathematische Inhalte und Tätigkeiten\n\n\n\n\n7\n\n\n\n\n\n8\n\n\n\n\n\n9\nAlgorithmen"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#fünf-lernkontrollen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#fünf-lernkontrollen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Fünf Lernkontrollen",
-    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 9. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter einer freien Lizenz(CC BY oder CC-BY-SA 4.0 Lizenz) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nArithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse\nAlgebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen\nAnalysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nAnalysis: Lineare Funktionen\nGeometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_08.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_08.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#fünf-lernkontrollen",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#fünf-lernkontrollen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Fünf Lernkontrollen",
-    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter der CC-BY-SA 4.0 Lizenz didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nArithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse\nAlgebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen\nAnalysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nAnalysis: Lineare Funktionen\nGeometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#vier-produkte-und-eine-prozessbeurteilung",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#vier-produkte-und-eine-prozessbeurteilung",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Vier Produkte und eine Prozessbeurteilung",
-    "text": "Vier Produkte und eine Prozessbeurteilung\nSie (alle Teilnehmende) erstellen gemeinsam alle 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Produktbeurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in maximal zwei Schulwochen effizient durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:\n\nAnalysis: Funktionen (inkl. Programmieren)\nGeometrie: Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)\nStochastik & Kombinatorik und beschreibende Statistik: Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)\nArithmetik und Algebra: Übersicht über alle Rechenregeln und Operationen (inkl. digitale Hilfsmittel)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#ausgangslage",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#ausgangslage",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Ausgangslage",
-    "text": "Ausgangslage\n\nWie viele Lernkontrollen pro Schuljahr empfielt die Bildungsdirektion des Kantons Bern in Hirt et al. (2022)?\nWelche Handlungsaspekte sollen bei Lernkontrollen im Fokus stehen gemäss Erziehungsdirektion des Kantons Bern (o. J.) ?\nWelche Qualitätsmerkmale gibt es für die Beurteilung gemäss Bildungs- und Kulturdirektion des Kantons Bern (2016) ?\nVerschaffen Sie sich einen Überblick über die Übertrittsprüfungen vor und am Ende der Sekundarstufe. Folgende Fragen können bei der Lektüre helfen:\n\nÜbertrittsprüfung PRIM-Sek1: Welche Vorkenntnisse/Kompetenzen werden die Lernenden mitbringen, wenn sie ins 7. Schuljahr eintreten?\nÜberittsprüfung Sek1-Sek2: Welche Kenntnisse/Kompetenzen müssen die Lernenden bei mir erwerben? Welche Erwartungen können die Lehrpersonen der nächsten Schule (FMS, Gym) stellen?\n\n\n\nMaterialien\n\nDokumentation der summativen Beurteilung\nÜbertritt PRIM - Sek I\nÜbertritt Sek I - Sek II (Bern)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#reichhaltige-aufgaben",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#reichhaltige-aufgaben",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Reichhaltige Aufgaben",
-    "text": "Reichhaltige Aufgaben\n\nLesen Sie Hirt et al. (2018) und überlegen Sie wie “bedeutsam” in folgendem Zitat definiert ist: “Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule DVBS vom 6.3.2018, Artikel 3 – https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung.”\nLesen Sie Nydegger (2019) und argumentieren Sie in wiefern sie vereinbar ist mit den Merkmalen.\nLesen Sie die Erziehungsdirektion des Kantons Bern (o. J.) und überlegen Sie in wiefern reichhaltige Aufgaben in die summativen Beurteilung einfliessen können.\nLesen Sie alle Teile der Hirt et al. (2022) welche sich auf die summative Beurteilung im Zyklus 3 beziehen.\nLesen Sie Eckhart (2020) (Kapitel 3.1) zu den vier Merkmalen reichhaltiger Aufgaben.\n\n\nMaterialien\n\nUmsetzung des Lehrplans 21 im Fachbereich Mathematik\nAllgemeine Hinweise zu reichhaltigen Aufgaben\nCheckliste zur Einschätzung der Reichhaltigkeit einer Aufgabe\nDokumentation der summativen Beurteilung Kanton Bern"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#core-mathematics-vs.-mathematical-science",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#core-mathematics-vs.-mathematical-science",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Core mathematics vs. mathematical science",
-    "text": "Core mathematics vs. mathematical science\nLesen Sie Quinn (2012). Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: * Inwiefern haben Sie Unterricht im Sinne von Core Mathematics, bzw. im Sinne von Mathematical Science erhalten? * An welchen konkreten Beispielen machen Sie dies fest?\n\nInhalt und Unterlagen\n\nAuftrag (Videoerklärung)\nPadlet\nQuinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. Notices of the American Mathematical Society, 59(01), 31. https://doi.org/10.1090/noti787"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#concept-map-der-mathematik",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#concept-map-der-mathematik",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Concept Map der Mathematik",
-    "text": "Concept Map der Mathematik\nArbeiten Sie kollaborativ am Miroboard, um einen gerichteten Graphen der innermathematischen Themen der Schulzeit (Fokus Sek1) zu erstellen.\n\nHaftnotizen stellen die Themen dar.\nThemen, welche eine notwendige Bedingung (Vorwissen) darstellen, sollen mit einem Pfeil verknüpft werden.\nDie Stärke des Zusammenhangs kann mit einer Gewichtung (zwischen 0 und 1) als Text auf dem Pfeil erwähnt werden.\n\nUnten ist zusätzlich das Video “Map of Mathematics” verlinkt. Es handelt sich hier um eine Empfehlung um einen Überblick über das gesamte Fachgebiet (insb. Hochschulmathematik) zu erhalten. Hinweis: Das Poster eignet sich besonders gut um einen Schulraum zu schmücken.\n\nAuftrag (Videoerklärung)\nMiroboard (Passwort: “Mathematik”)\nMap of Mathematics (Video) - Poster\nTeilgebiete der Mathematik (Wikipedia)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#constructive-alignment",
-    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#constructive-alignment",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Constructive Alignment",
-    "text": "Constructive Alignment\nLesen Sie Van Dormolen (1978) Kapitel 2.4, es zeigt wie der Satz des Pythagoras auf 5 verschiedene Arten gelehrt (und beurteilt) werden kann.\nLesen Sie Van Dormolen (1978) Kapitel 4.2, es beschreibt nach welchen Kriterien Sie in der Mikro-, Makroplanung Unterrichtsstoff untersuchen sollen.\nBiggs (1996) beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.\nDiese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht die ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.\n\nVan Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0\nBiggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
-    "href": "lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
-    "title": "Mikroplanung Mathematik",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html",
-    "href": "python/05_funktionen_slides.html",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip von Funktionen und können dieses Wissen in einem Programm umsetzen\n\n\n\nFunktionen kennen sie bereits aus der Mathematik, z. B. f(x) = 2x.\nIn Python werden Funktionen mit def/return definiert und meistens verwendet, um Code besser zu strukturieren:\n# Definition einer Funktion\ndef meine_funktion(x):\n  return 2*x\n\n# Funktionen können mehrmals aufgerufen werden\nprint(meine_funktion(2))\nprint(meine_funktion(4))\n# Output: 4 8\n(Im Gegensatz zu einer Variable sollte ein langer Funktionsname mit einem Bodenstrich getrennt werden, z.B., bmi_berechnen() und nicht bmiBerechnen())\n\n\n\nFunktionen können (müssen aber nicht) Argumente haben:\ndef funktion_ohne_argument():\n  print(\"hello\")\n\ndef funktion_mit_argument(x):\n  print(x)\n\n# Funktionen haben immer Klammern (mit oder ohne Argumente)\nfunktion_ohne_argument()\nfunktion_mit_argument(\"world\")\n# Output: hello world\nDie Argumente sind nur innerhalb der Funktion erreichbar:\ndef meine_funktion(x):\n  print(x) # x ist das Argument/Parameter\n\nprint(x) # x wird nicht gefunden\n\n\n\nFunktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:\ndef funktion_ohne_rückgabewert(x):\n  y = 2*x\n\ndef funktion_mit_rückgabewert(x):\n  y = 2*x\n  return y\n\nv1 = funktion_ohne_rückgabewert(5)\nv2 = funktion_mit_rückgabewert(5)\n\nprint(v1) # Output: None\nprint(v2) # Output: 10\n\n\n\nIn der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!\n\n\n\nglobaleVariable = 0 # Das ist eine globale Variable\n\ndef reine_funktion(x):\n  return 2*x\n\ndef modifizierte_funktion(x):\n  global globaleVariable # auf globale Variable zugreifen\n  globaleVariable = globaleVariable + 1\n  return 2*x*globaleVariable\n\nreine_funktion(4) # Output: 8\nreine_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 16 --&gt; anderer Output\n\n\n\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#was-sind-funktionen-calculator",
-    "href": "python/05_funktionen_slides.html#was-sind-funktionen-calculator",
-    "title": "Python",
-    "section": "",
-    "text": "Funktionen kennen sie bereits aus der Mathematik, z. B. f(x) = 2x.\nIn Python werden Funktionen mit def/return definiert und meistens verwendet, um Code besser zu strukturieren:\n# Definition einer Funktion\ndef meine_funktion(x):\n  return 2*x\n\n# Funktionen können mehrmals aufgerufen werden\nprint(meine_funktion(2))\nprint(meine_funktion(4))\n# Output: 4 8\n(Im Gegensatz zu einer Variable sollte ein langer Funktionsname mit einem Bodenstrich getrennt werden, z.B., bmi_berechnen() und nicht bmiBerechnen())"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#parameter-bzw.-argumente",
-    "href": "python/05_funktionen_slides.html#parameter-bzw.-argumente",
-    "title": "Python",
-    "section": "",
-    "text": "Funktionen können (müssen aber nicht) Argumente haben:\ndef funktion_ohne_argument():\n  print(\"hello\")\n\ndef funktion_mit_argument(x):\n  print(x)\n\n# Funktionen haben immer Klammern (mit oder ohne Argumente)\nfunktion_ohne_argument()\nfunktion_mit_argument(\"world\")\n# Output: hello world\nDie Argumente sind nur innerhalb der Funktion erreichbar:\ndef meine_funktion(x):\n  print(x) # x ist das Argument/Parameter\n\nprint(x) # x wird nicht gefunden"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#rückgabewert",
-    "href": "python/05_funktionen_slides.html#rückgabewert",
-    "title": "Python",
-    "section": "",
-    "text": "Funktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:\ndef funktion_ohne_rückgabewert(x):\n  y = 2*x\n\ndef funktion_mit_rückgabewert(x):\n  y = 2*x\n  return y\n\nv1 = funktion_ohne_rückgabewert(5)\nv2 = funktion_mit_rückgabewert(5)\n\nprint(v1) # Output: None\nprint(v2) # Output: 10"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#reine-vs.-modifizierte-funktionen",
-    "href": "python/05_funktionen_slides.html#reine-vs.-modifizierte-funktionen",
-    "title": "Python",
-    "section": "",
-    "text": "In der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#section",
-    "href": "python/05_funktionen_slides.html#section",
-    "title": "Python",
-    "section": "",
-    "text": "globaleVariable = 0 # Das ist eine globale Variable\n\ndef reine_funktion(x):\n  return 2*x\n\ndef modifizierte_funktion(x):\n  global globaleVariable # auf globale Variable zugreifen\n  globaleVariable = globaleVariable + 1\n  return 2*x*globaleVariable\n\nreine_funktion(4) # Output: 8\nreine_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 16 --&gt; anderer Output"
-  },
-  {
-    "objectID": "python/05_funktionen_slides.html#auftrag-brief-adressieren",
-    "href": "python/05_funktionen_slides.html#auftrag-brief-adressieren",
-    "title": "Python",
-    "section": "",
-    "text": "Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort"
-  },
-  {
-    "objectID": "python/python.html",
-    "href": "python/python.html",
-    "title": "Programmieren in Python",
-    "section": "",
-    "text": "Tabellarische Übersicht\n\n\nThema\nSlides\nÜbungen\n\n\n\n\nVariablen, Datentypen und Type Casting\n\n\n\n\nConditionals (if-elif-else) und Flussdiagramme\n\n\n\n\nLoops (while, for) und Flussdiagramme\n\n\n\n\nListen\n\n\n\n\nFunktionen"
-  },
-  {
-    "objectID": "python/python.html#hilfreiche-links",
-    "href": "python/python.html#hilfreiche-links",
-    "title": "Programmieren in Python",
-    "section": "Hilfreiche Links",
-    "text": "Hilfreiche Links\nWichtig: Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Variablen, Datentypen, Input Funktion und Type Casting.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier sind die Links zu den Themen Variablen, Datentypen und Type Casting.\nAuf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (2, 3, 4, 6, 12) und die Lösungen 2, 3, 4, 6, 12 zum Thema Variablen."
-  },
-  {
-    "objectID": "python/python.html#prüfungsvorbereitung",
-    "href": "python/python.html#prüfungsvorbereitung",
-    "title": "Programmieren in Python",
-    "section": "Prüfungsvorbereitung",
-    "text": "Prüfungsvorbereitung\n\nÜbung 1\nLösungsvorschlag Aufträge\n\n\nLösungsvorschlag\n\ncm = input(\"Gib deine Grösse in cm ein: \")\nfeet = float(cm) * 0.0328084\nprint(\"Deine Grösse in Fuss: \" + str(feet))\n\n\n\n\nÜbung 2\nNennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel dazu.\n\n\n\nÜbung 3\nWas ist der Output von diesem Programm?\nx = int(2.6)\ny = 2\nprint(x * 2)\n\n\n\nÜbung 4\nWas ist der Output von diesem Programm?\nx = \"Hello \"\ny = \"World\"\nprint(x + y)\n\n\n\nÜbung 5\nWas ist der Output von diesem Programm?\na = 6\nb = 1.5\nc = a + b + (a / b)\nprint(\"Output: \" + str(c))\n\n\n\nÜbung 6\nWas macht dieses Programm?\nx = float(input(\"Geben sie eine Zahl ein: \"))\nprint(x * x)\n\n\n\nÜbung 7\nErstellen sie ein Programm, welches ihren BMI (Body-Mass-Index) berechnet. Der BMI ist denifiert als: \\(BMI=Gewicht(kg)/Grösse(m)^2\\)\n\n\nLösungsvorschlag\n\ngewicht = input(\"Gib dein Gewicht in kg ein: \")\ngroesse = input(\"Gib deine Grösse in m ein: \")\n\nbmi = int(gewicht) / (float(groesse) * float(groesse)) # or float(height) ** 2\nprint(\"Dein BMI ist: \" + str(bmi))"
-  },
-  {
-    "objectID": "python/python.html#wichtig",
-    "href": "python/python.html#wichtig",
-    "title": "Programmieren in Python",
-    "section": "Wichtig",
-    "text": "Wichtig\nVerbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden Sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen If-Anweisung und If-Elif-Else.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Conditionals.\nAuf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (7, 8, 9, 10, 11) und die Lösungen 7, 8, 9, 10, 11 zum Thema Conditionals/Verzweigungen."
-  },
-  {
-    "objectID": "python/python.html#prüfungsvorbereitung-1",
-    "href": "python/python.html#prüfungsvorbereitung-1",
-    "title": "Programmieren in Python",
-    "section": "Prüfungsvorbereitung",
-    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge\n\nLösungsvorschlag Login I\nLösungsvorschlag Login II\nLösungsvorschlag Login II Flussdiagramm\n\n\nWas ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.\nx = \"Hello\"\ny = \"Tom\"\n\nif x != \"Hello\":\n  y = \"Tim\"\nelse:\n  y = \"Tina\"\n\nprint(y)\nLösungsvorschlag\n\nWas ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.\nx = 5\n\nif x &lt; 0:\n  print(\"a\")\nelif x &gt; 0:\n  if x == 5:\n    print(\"b\")\n  print(\"c\")\nelse:\n  print(\"d\")\nLösungsvorschlag\n\nErstellen Sie ein Programm, welches Schweizer Noten in das amerikanische Notensystem umrechnet.\n\n\n\nSchweiz\nUS\n\n\n\n\n5.5-6\nA\n\n\n4.5-5.4\nB\n\n\n4.0-4.4\nC\n\n\n&lt;4\nF\n\n\n\n\n\n\nGPA Calculator\n\n\nLösungsvorschlag"
-  },
-  {
-    "objectID": "python/python.html#hilfreiche-links-1",
-    "href": "python/python.html#hilfreiche-links-1",
-    "title": "Programmieren in Python",
-    "section": "Hilfreiche Links",
-    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen While-Schleife und For-Schleife.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema While-Loop und For-Loop.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (17, 18, 19, 20) und die Lösungen 17 18 19 20 zum Thema Loops/Schleifen."
-  },
-  {
-    "objectID": "python/python.html#prüfungsvorbereitung-2",
-    "href": "python/python.html#prüfungsvorbereitung-2",
-    "title": "Programmieren in Python",
-    "section": "Prüfungsvorbereitung",
-    "text": "Prüfungsvorbereitung\n\nLösungsvorschlag Aufträge\n\nLösungsvorschlag Primarschule\nLösungsvorschlag Fahrplan\nLösungsvorschlag Prüfungssoftware\nLösungsvorschlag Prüfungssoftware Flussdiagramm\n\n\n\nAuftrag 1\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 2\nwhile i &lt; 5:\n  print(i)\n  i = i + 1\n  print(i)\nLösungsvorschlag Flussdiagramm\n\n\nAuftrag 2\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 5\nwhile i &lt; 10:\n  i += 1  # Kurzform von i = i + 1\n  if i == 8:\n    print(\"Katze\")\n  else:\n    print(i)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm\n\n\nAuftrag 3\nErstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.\nLösungsvorschlag\n\n\nAuftrag 4\nErweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.\nLösungsvorschlag\n\n\nAuftrag 5\nErstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm"
-  },
-  {
-    "objectID": "python/python.html#hilfreiche-links-2",
-    "href": "python/python.html#hilfreiche-links-2",
-    "title": "Programmieren in Python",
-    "section": "Hilfreiche Links",
-    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Listen I, Listen II und Listen iterieren.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Listen.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (13) und die Lösungen 13 zum Thema Conditionals/Verzweigungen."
-  },
-  {
-    "objectID": "python/python.html#prüfungsvorbereitung-3",
-    "href": "python/python.html#prüfungsvorbereitung-3",
-    "title": "Programmieren in Python",
-    "section": "Prüfungsvorbereitung",
-    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge - Lösungsvorschlag Einkaufsliste - Lösungsvorschlag Notendurchschnittsrechner\nWas macht diese Programm und was ist der Output?\nx = [6, 3, 8, 5, 7, 2, 4, 0, 5]\nz = 0\nfor y in x:\n    if y &gt; z:\n        z = y\nprint(z)\nEine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm, welches die folgende Liste ausgibt:\nx = [[1, 2],[3, 4],[5, 6]]\nLösungsvorschlag\nWievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor? Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und Kleinschreibung) im folgenden Text zählt:\ntext = [\"Lorem\", \"ipsum\", \"dolor\", \"sit\", \"amet\", \n        \"consetetur\", \"sadipscing\", \"elitr\", \"lorem\",\n        \"sed\", \"lorem\", \"diam\", \"nonumy\", \"eirmod\", \"tempor\",\n        \"invidunt\", \"Lorem\", \"ut\", \"labore\", \"et\", \"dolore\",\n        \"magna\", \"aliquyam\", \"erat\", \"sed\", \"diam\", \"voluptuz\",\n        \"At\", \"lorem\", \"vero\", \"eos\", \"et\", \"accusam\", \"et\",\n        \"justo\", \"duo\", \"lorem\", \"dolores\", \"et\", \"ea\"]\nQuelle Lösungsvorschlag"
-  },
-  {
-    "objectID": "python/python.html#hilfreiche-links-3",
-    "href": "python/python.html#hilfreiche-links-3",
-    "title": "Programmieren in Python",
-    "section": "Hilfreiche Links",
-    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Funktionen I, Funktionen II und Funktionen III.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Funktionen."
-  },
-  {
-    "objectID": "python/python.html#prüfungsvorbereitung-4",
-    "href": "python/python.html#prüfungsvorbereitung-4",
-    "title": "Programmieren in Python",
-    "section": "Prüfungsvorbereitung",
-    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge - Lösungsvorschlag Brief - Lösungsvorschlag Uhrzeit\nWas ist der Output von diesem Programm?\ndef meine_funktion(x, y, z):\n    if x &gt; y:\n        return z\n    else:\n        return z - 1\n\nx = meine_funktion(1, 2, 3)\nprint(x)\n\nWas macht diese Funktion (in Worte gefasst)?\n\n```Python\ndef meine_funktion(x, y):\n    if x &gt; y:\n        return x\n    else:\n        return y\nProgrammieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:\nfrom random import random # Import der Funktion random()\n\ndef wuerfle():\n    zufallszahl = random() # Zufallszahl generieren\n    # Ihr Code kommt hier..\n(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)\nLösungsvorschlag"
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html",
-    "href": "python/02_conditionals_slides.html",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip von Conditionals (If-Elif-Else) und können dieses Wissen in einem Programm umsetzen.\n\n\nSie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen."
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#lernziele",
-    "href": "python/02_conditionals_slides.html#lernziele",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip von Conditionals (If-Elif-Else) und können dieses Wissen in einem Programm umsetzen.\n\n\nSie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen."
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#was-sind-conditionals",
-    "href": "python/02_conditionals_slides.html#was-sind-conditionals",
-    "title": "Python",
-    "section": "Was sind Conditionals?",
-    "text": "Was sind Conditionals?\nConditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man “if Bedingung: dann”. Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).\nnote = 4.5\n\nif note &gt;= 4:\n  print(\"Prüfung bestanden\")\n  print(\"...\")  # Alles in einer If-Bedingung muss eingerückt sein\nelse:\n  print(\"Mehr Code\")  # Ohne Einrücken ist es wieder normaler Code"
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#if-elif-else",
-    "href": "python/02_conditionals_slides.html#if-elif-else",
-    "title": "Python",
-    "section": "If-Elif-Else",
-    "text": "If-Elif-Else\nMit elif (Abkürzung für “else-if”) und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.\nx = 1\n\nif x &gt; 1:\n  print(\"x ist größer als 1\")\nelif x &lt; 1:\n  print(\"x ist kleiner als 1\")\nelse:\n  print(\"x ist gleich 1\")\nAchtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =."
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#logische-operatoren-optional",
-    "href": "python/02_conditionals_slides.html#logische-operatoren-optional",
-    "title": "Python",
-    "section": "Logische Operatoren (Optional)",
-    "text": "Logische Operatoren (Optional)\n\nand (Deutsch: und)\nor (Deutsch: oder)\nnot (Deutsch: nicht)\n\nx = 5\ny = 6\n\nif x == 5 and y == 6:\n  print(\"Beide Aussagen sind Wahr\")\n\nif x == 5 or y == 6:\n  print(\"Eine oder beide Aussagen sind Wahr\")\n\nif not x == 5:  # Gleich wie x != 5\n  print(\"Die Aussage ist nicht Wahr\")"
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#was-ihr-vermeiden-solltet",
-    "href": "python/02_conditionals_slides.html#was-ihr-vermeiden-solltet",
-    "title": "Python",
-    "section": "Was ihr vermeiden solltet!",
-    "text": "Was ihr vermeiden solltet!\nVergleichen von Booleans mit ==\nwinter = True\n\nif winter == True:  # Schlechter Programmierstil\n  print(\"Es ist Winter\")\n\nif winter:  # Viel besser\n  print(\"Es ist Winter\")\nVergleichen von Floats mit ==\nmeter = 1.8324\n\nif meter == 1.8324:  # Nicht gut, da Floats nur \"ungefähr\" sind\n  print(\"Sie sind 1.83 Meter groß\")\n\nif 1.83 &lt; meter &lt; 1.84:  # Viel besser\n  print(\"Sie sind 1.83 Meter groß\")"
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#das-flussdiagramm-als-visuelle-darstellung",
-    "href": "python/02_conditionals_slides.html#das-flussdiagramm-als-visuelle-darstellung",
-    "title": "Python",
-    "section": "Das Flussdiagramm als visuelle Darstellung",
-    "text": "Das Flussdiagramm als visuelle Darstellung\nn = int(input(\"Note eingeben: \"))\n\nif n &gt;= 4:\n  print(\"Note: \" + str(n))\nelse:\n  print(\"Prüfung nicht bestanden!\")"
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#auftrag-login-mit-passwort",
-    "href": "python/02_conditionals_slides.html#auftrag-login-mit-passwort",
-    "title": "Python",
-    "section": "Auftrag: Login mit Passwort",
-    "text": "Auftrag: Login mit Passwort\n\nProgrammieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”.\nErstellen sie das Flussdiagramm dazu."
-  },
-  {
-    "objectID": "python/02_conditionals_slides.html#auftrag-login-mit-benutzer-und-passwort",
-    "href": "python/02_conditionals_slides.html#auftrag-login-mit-benutzer-und-passwort",
-    "title": "Python",
-    "section": "Auftrag: Login mit Benutzer und Passwort",
-    "text": "Auftrag: Login mit Benutzer und Passwort\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\nErstellen sie ein Flussdiagramm dazu."
-  },
-  {
-    "objectID": "python/01_variablen_slides.html",
-    "href": "python/01_variablen_slides.html",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip einer Variable und können dieses Wissen in einem Programm umsetzen\nSie kennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln"
-  },
-  {
-    "objectID": "python/01_variablen_slides.html#learning-outcomes",
-    "href": "python/01_variablen_slides.html#learning-outcomes",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip einer Variable und können dieses Wissen in einem Programm umsetzen\nSie kennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln"
-  },
-  {
-    "objectID": "python/01_variablen_slides.html#was-sind-variablen",
-    "href": "python/01_variablen_slides.html#was-sind-variablen",
-    "title": "Python",
-    "section": "Was sind Variablen?",
-    "text": "Was sind Variablen?\nEine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).\nname = \"Christian\" # Variable erstellen und Wert zuweisen\nprint(name) # Output: Christian\n\nname = 3 # Variable überschreiben\nprint(name) # Output: 3 \n\nname = input(\"Gib deinen Namen ein: \") # Benutzereingabe\nprint(\"Dein Name ist: \" + name) # Output: ?\n(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)"
-  },
-  {
-    "objectID": "python/01_variablen_slides.html#was-sind-datentypen",
-    "href": "python/01_variablen_slides.html#was-sind-datentypen",
-    "title": "Python",
-    "section": "Was sind Datentypen?",
-    "text": "Was sind Datentypen?\nJede Variable hat einen Datentyp. Die vier wichtigsten:\nx = 5\nprint(type(x)) # Output: int (Integer/Ganzzahl)\n\nx = 5.0\nprint(type(x)) # Output: float (Floating-Point/Kommazahl)\n\nx = True\nprint(type(x)) # Output: bool (Boolean/Wahrheitswert)\n\nx = \"hello\"\nprint(type(x)) # Output: string (String/Zeichenkette)"
-  },
-  {
-    "objectID": "python/01_variablen_slides.html#konvertierung-von-datentypen-type-casting",
-    "href": "python/01_variablen_slides.html#konvertierung-von-datentypen-type-casting",
-    "title": "Python",
-    "section": "Konvertierung von Datentypen (Type Casting)",
-    "text": "Konvertierung von Datentypen (Type Casting)\nManchmal muss man Datentypen umwandeln\nx = \"Monat \"\ny = 12\nprint(x + y) # funktioniert nicht und macht keinen Sinn\n\nx = \"Monat \"\ny = 12\nprint(x + str(y)) # Output: Monat 12\nDie Umwandlungsfunktionen sind analog zu den Datentypen:\nx = 5\nint(x) # x ist bereits ein Integer\nfloat(x) # 5.0\nbool(x) # True\nstr(x) # \"5\""
-  },
-  {
-    "objectID": "python/01_variablen_slides.html#auftrag-mein-erstes-programm",
-    "href": "python/01_variablen_slides.html#auftrag-mein-erstes-programm",
-    "title": "Python",
-    "section": "Auftrag: Mein erstes Programm",
-    "text": "Auftrag: Mein erstes Programm\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?"
-  },
-  {
-    "objectID": "python/04_listen_slides.html",
-    "href": "python/04_listen_slides.html",
-    "title": "Python",
-    "section": "",
-    "text": "Sie verstehen das Prinzip von Listen und können dieses Wissen in einem Programm umsetzen\n\n\n\nEine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:\n\nBrot\nNutella\nMilch\n…\n\nIn Python werden Listen mit eckigen Klammern [] geschrieben:\nx = [\"Brot\", \"Nutella\", \"Milch\"]  # Definition einer Liste\nprint(x)  # Output: \"['Brot', 'Nutella', 'Milch']\"\n\n\n\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3\n\n\n\nListen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:\nfor element in einkaufsliste:\n  print(element)\nWenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der len()-Funktion verwendet werden:\nfor i in range(len(einkaufsliste)):  # len() ist die Listenlänge\n  print(einkaufsliste[i])\n  print(i)  # Vorteil: Man hat Zugriff auf den Index i\n\n\n\nEin Element ändern\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste[1] = \"Bananen\"\n# Resultat: ['Brot', 'Bananen', 'Milch']\nEin Element hinzufügen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.append(\"Bananen\")\n# Resultat: ['Brot', 'Bananen', 'Milch', \"Bananen\"]\nEin Element löschen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.pop()\n# Resultat: [\"Brot\", \"Nutella\"]\n\n\n\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren\n\n\n\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück."
-  },
-  {
-    "objectID": "python/04_listen_slides.html#was-sind-listen",
-    "href": "python/04_listen_slides.html#was-sind-listen",
-    "title": "Python",
-    "section": "",
-    "text": "Eine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:\n\nBrot\nNutella\nMilch\n…\n\nIn Python werden Listen mit eckigen Klammern [] geschrieben:\nx = [\"Brot\", \"Nutella\", \"Milch\"]  # Definition einer Liste\nprint(x)  # Output: \"['Brot', 'Nutella', 'Milch']\""
-  },
-  {
-    "objectID": "python/04_listen_slides.html#zugriff-auf-listenelemente",
-    "href": "python/04_listen_slides.html#zugriff-auf-listenelemente",
-    "title": "Python",
-    "section": "",
-    "text": "Der Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
-  },
-  {
-    "objectID": "python/04_listen_slides.html#listen-loops",
-    "href": "python/04_listen_slides.html#listen-loops",
-    "title": "Python",
-    "section": "",
-    "text": "Listen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:\nfor element in einkaufsliste:\n  print(element)\nWenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der len()-Funktion verwendet werden:\nfor i in range(len(einkaufsliste)):  # len() ist die Listenlänge\n  print(einkaufsliste[i])\n  print(i)  # Vorteil: Man hat Zugriff auf den Index i"
-  },
-  {
-    "objectID": "python/04_listen_slides.html#listenelemente-bearbeiten",
-    "href": "python/04_listen_slides.html#listenelemente-bearbeiten",
-    "title": "Python",
-    "section": "",
-    "text": "Ein Element ändern\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste[1] = \"Bananen\"\n# Resultat: ['Brot', 'Bananen', 'Milch']\nEin Element hinzufügen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.append(\"Bananen\")\n# Resultat: ['Brot', 'Bananen', 'Milch', \"Bananen\"]\nEin Element löschen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.pop()\n# Resultat: [\"Brot\", \"Nutella\"]"
-  },
-  {
-    "objectID": "python/04_listen_slides.html#auftrag-einkaufsliste",
-    "href": "python/04_listen_slides.html#auftrag-einkaufsliste",
-    "title": "Python",
-    "section": "",
-    "text": "Programmieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren"
-  },
-  {
-    "objectID": "python/04_listen_slides.html#auftrag-notendurchschnittsrechner",
-    "href": "python/04_listen_slides.html#auftrag-notendurchschnittsrechner",
-    "title": "Python",
-    "section": "",
-    "text": "Programmieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html",
-    "href": "lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html",
-    "title": "Mikroplanung Mathematik",
-    "section": "",
-    "text": "Organisation\nAVIVA-Modell LUKAS-Modell PADUA-Modell\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html",
-    "href": "lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html",
-    "title": "Mikroplanung Mathematik",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
-    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
-    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\nAls zusätzliche Leseempfehlung werden folgende drei Medien in absteigender Reihenfolge der Wissenschaftlichkeit genannt:\n\nImlig, F., & Ender, S. (2018). Towards a national assessment policy in Switzerland: Areas of conflict in the use of assessment instruments. Assessment in Education: Principles, Policy & Practice, 25(3), 272–290.\nPrüfungen abschaffen, Video (Jörn Loviscach)\nStandardized Testing, Video (John Oliver)\n\nFalls Sie eine oder mehre Quellen als Vorbereitung für den Kurs nutzen, können wir am Anfang der Doppellektion offene Fragen klären oder eine kurze Diskussion lancieren.\n\n\n\n\nPräsentationsfolien\n\nÜGK Schweiz\n\nÜGK 2016Schlussbericht\n\nÜbertritt PRIM - Sek I Kontrollprüfungen\n\nMonitoring Kontrollprüfungen 2023\nReferenzrahmen Mathematik\nBFS - Selektion auf der Sekundarstufe I\n\nPISA\n\nCountry Note - Switzerland\nPISA 2012: Veröffentlichte Beispielaufgaben - Mathematik\n\nÜbertritt Sek I - Sek II\n\nBFS - Maturitätsquote\nBFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung\nArtikel: der Bund\n\n\nAblageordner\n\nWeitere Dokumente:\n\nDas Monitoring der Grundkompetenzen in neuer Gestalt\nEvaluationen Kanton Bern"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#medienempfehlung",
-    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#medienempfehlung",
-    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
-    "section": "",
-    "text": "Als zusätzliche Leseempfehlung werden folgende drei Medien in absteigender Reihenfolge der Wissenschaftlichkeit genannt:\n\nImlig, F., & Ender, S. (2018). Towards a national assessment policy in Switzerland: Areas of conflict in the use of assessment instruments. Assessment in Education: Principles, Policy & Practice, 25(3), 272–290.\nPrüfungen abschaffen, Video (Jörn Loviscach)\nStandardized Testing, Video (John Oliver)\n\nFalls Sie eine oder mehre Quellen als Vorbereitung für den Kurs nutzen, können wir am Anfang der Doppellektion offene Fragen klären oder eine kurze Diskussion lancieren."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#dokumente-und-quellen",
-    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#dokumente-und-quellen",
-    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
-    "section": "",
-    "text": "Präsentationsfolien\n\nÜGK Schweiz\n\nÜGK 2016Schlussbericht\n\nÜbertritt PRIM - Sek I Kontrollprüfungen\n\nMonitoring Kontrollprüfungen 2023\nReferenzrahmen Mathematik\nBFS - Selektion auf der Sekundarstufe I\n\nPISA\n\nCountry Note - Switzerland\nPISA 2012: Veröffentlichte Beispielaufgaben - Mathematik\n\nÜbertritt Sek I - Sek II\n\nBFS - Maturitätsquote\nBFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung\nArtikel: der Bund\n\n\nAblageordner\n\nWeitere Dokumente:\n\nDas Monitoring der Grundkompetenzen in neuer Gestalt\nEvaluationen Kanton Bern"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html",
-    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html",
-    "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum Porta-QT-Digitalität"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
-    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
-    "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Vorbereitungsauftrag - Woche 1",
-    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.\nInstallieren Sie vor der ersten Woche:\n\nPython\nEntweder RStudio oder VSCode\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
-    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
-    "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Vorbereitungsauftrag - Woche 3",
-    "text": "Vorbereitungsauftrag - Woche 3"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#woche-8",
-    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#woche-8",
-    "title": "Verstehensorientiert prüfen in Zeiten von KI",
-    "section": "Woche 8",
-    "text": "Woche 8\n\n Inhalte\n\n Präsentationsfolien\ndsa\n\n\n\n️ Auftrag\n\nBla"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html",
-    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html",
-    "title": "Learning Analytics",
-    "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-9",
-    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-9",
-    "title": "Learning Analytics",
-    "section": "Aufträge Woche 9",
-    "text": "Aufträge Woche 9\naverage stdevp median\nconditional formatting\nxlookup textbefore textafter\nIst die letzte Reihe schlechter als die anderen?\nSetze Sie so um, dass die letzte Reihe nicht mehr schlechter ist als die anderen."
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-10",
-    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-10",
-    "title": "Learning Analytics",
-    "section": "Aufträge Woche 10",
-    "text": "Aufträge Woche 10\nSitzpositionen Setzen nach Note Randomisierung\nKorrelation\nKorrelieren 2 Fächer?\nSetz beide Fächer so um, dass …"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#auftrag-woche-11",
-    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#auftrag-woche-11",
-    "title": "Learning Analytics",
-    "section": "Auftrag Woche 11",
-    "text": "Auftrag Woche 11\ngo wild"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_09.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_09.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Umfassende Beurteilung: Alle Kompetenzbereiche bzw. Handlungsaspekte und die überfachlichen Kompetenzen werden innerhalb eines Schuljahres in die Beurteilung miteinbezogen.\n\n\nErziehungsdirektion des Kantons Bern (2016)\n\n\n\n\nhttps://be.lehrplan.ch\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)\n\n\nDie Beschreibungen der vorangehenden Kompetenzstufen werden im Text der Grundansprüche nicht wiederholt. Sie gehören zu den Grundansprüchen.\n\n\nErziehungsdirektion des Kantons Bern (2016)\n\n\n\n\n\nBei der Bewertung von Lernkontrollen stehen Kompetenzen zum Erforschen & Argumentieren meistens nicht im Fokus. Ergebnisse von Trainingsphasen zu Fertigkeiten (z. B. Blitzrechnen, Kopfrechentraining) werden nicht bewertet\n\n\nErziehungsdirektion des Kantons Bern (o. J.)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#qualitätsmerkmal-umfassend",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#qualitätsmerkmal-umfassend",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Umfassende Beurteilung: Alle Kompetenzbereiche bzw. Handlungsaspekte und die überfachlichen Kompetenzen werden innerhalb eines Schuljahres in die Beurteilung miteinbezogen.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---webseite",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---webseite",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "https://be.lehrplan.ch"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#grundansprüche",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#grundansprüche",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Grundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)\n\n\nDie Beschreibungen der vorangehenden Kompetenzstufen werden im Text der Grundansprüche nicht wiederholt. Sie gehören zu den Grundansprüchen.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#handlungsaspekte",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#handlungsaspekte",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Bei der Bewertung von Lernkontrollen stehen Kompetenzen zum Erforschen & Argumentieren meistens nicht im Fokus. Ergebnisse von Trainingsphasen zu Fertigkeiten (z. B. Blitzrechnen, Kopfrechentraining) werden nicht bewertet\n\n\nErziehungsdirektion des Kantons Bern (o. J.)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#anforderungen-an-die-lehrperson",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#anforderungen-an-die-lehrperson",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Anforderungen an die Lehrperson",
-    "text": "Anforderungen an die Lehrperson\n\nSie müssen erkennen können, welcher Lehrstoff im Buch fehlt.\nSie müssen feststellen können, welcher Lehrstoff im Buch schlecht angeordnet ist.\nSie müssen gut angeordneten Lehrstoff des Buchs erkennen können.\nSie müssen in der Lage sein, zusammen mit Kollegen ein fUr Ihre Schule geeignetes Lehrbuch auszusuchen.\n\n\nVan Dormolen (1978)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#aufnahmeprüfungen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#aufnahmeprüfungen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Aufnahmeprüfungen",
-    "text": "Aufnahmeprüfungen\n\nAuftrag\n\n\n\n−+\n10:00\n\n\n\nVerschaffen Sie sich einen Überblick über die Anforderungen der Aufnahmeprüfungen Sek I - Sek II.\nWebseite"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Organisationsblatt"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "",
-    "text": "Organisationsblatt"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Grundlagen",
-    "text": "Grundlagen\n\n\n\nArt.3 DVBS\nDie Beurteilung ist\n\nförderorientiert,\nlernzielorientiert,\numfassend, […]\ntransparent und nachvollziehbar.\n\n\nErziehungsdirektion des Kantons Bern (2022)\n\n\n\n\nQualitätsmerkmale einer kompetenzorientierten Beurteilung\n\nFörderorientierung: […]\nPassung zum Unterricht: […]\nTransparenz / Nachvollziehbarkeit: […]\nUmfassende Beurteilung: […]\n\n\nErziehungsdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#constructive-alignment",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#constructive-alignment",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Constructive Alignment",
-    "text": "Constructive Alignment\nThe model of instruction that emerges is simple, and it makes intuitive sense:\n\nteachers need to be clear about what they want their students to learn, and how they would manifest that learning […]\nstudents need to be placed in situations that are judged likely to elicit the required learnings.\nstudents are then required to provide evidence, either by self-set or teacher-set tasks, […]\n\n\n(Biggs, 1996, S. 30–31)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Förderkreislauf",
-    "text": "Förderkreislauf"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Kriterien zur Auswahl von Schulstoff",
-    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spatere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
-  },
-  {
-    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",
-    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",
-    "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Auftrag auf Woche 8",
-    "text": "Auftrag auf Woche 8"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "",
-    "text": "show and tell\nIdeen für die LP-Ausbildung\nIdeen und Wünsche für Unterrichtsmaterial\neinen angenehmen Austausch"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-wir-heute-erreichen-möchten",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-wir-heute-erreichen-möchten",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "",
-    "text": "show and tell\nIdeen für die LP-Ausbildung\nIdeen und Wünsche für Unterrichtsmaterial\neinen angenehmen Austausch"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#sneak-peak",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#sneak-peak",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Sneak Peak",
-    "text": "Sneak Peak\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Lehrplan 21 M&I",
-    "text": "Lehrplan 21 M&I\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen.\n\n\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren."
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi-1",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi-1",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Lehrplan 21 M&I",
-    "text": "Lehrplan 21 M&I\n\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#unterstützung-durch-mathematik",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#unterstützung-durch-mathematik",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Unterstützung durch Mathematik",
-    "text": "Unterstützung durch Mathematik\n\n\n\n\nKlasse\nLektionen1\n\n\n\n\n7. Klasse\n5\n\n\n8. Klasse\n5\n\n\n9. Klasse\n4"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#der-elephant-im-raum",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#der-elephant-im-raum",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Der Elephant im Raum 🐘",
-    "text": "Der Elephant im Raum 🐘\n\n\n\n\n\nRegistration and Access Minimum Age. You must be at least 13 years old or the minimum age required in your country to consent to use the Services. If you are under 18 you must have your parent or legal guardian’s permission to use the Services.\n\n\nOpenAI (2024)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#tools",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#tools",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Tools",
-    "text": "Tools\nWir benutzen heute folgende Webseiten:\n\nhttps://www.online-python.com/\nhttps://chat.openai.com/ (benötigt Account)\n\n(Hinweis: Im Kurs werden Rstudio oder VSCode benutzt)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#selbst-ausprobieren",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#selbst-ausprobieren",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Selbst ausprobieren",
-    "text": "Selbst ausprobieren\n\nPrimzahlen finden mit Sieb des Erathostenes\nPrimzahlzerlegung\nGgt, kgV\nBrüche addieren\n…\n\nProbiert eigene Ideen aus.\n\n\n\n−+\n10:00"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-denken-andere",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-denken-andere",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Was denken andere?",
-    "text": "Was denken andere?\n\n\nIch empfand Mathematik als anstrengend, weil sie einen ungeheuer kreativen Umgang mit lose definierten formalen Systemen erfordert, während einem die Informatik Kreativität mit streng definierten formalen Systemen abverlangt.\n\nGeoff Huston, in Ermert (2023)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#interessante-diskussionen",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#interessante-diskussionen",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Interessante Diskussionen",
-    "text": "Interessante Diskussionen\n\nWie unterscheidet sich der Begriff “Funktion” und “Variable” in Mathematik und Informatik?\nWas ist besser:\n\nDifferenz als Summe mit negativen Zahlen?\nDifferenz als Umkehroperation der Addition?"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#weitere-ideen-sammeln",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#weitere-ideen-sammeln",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Weitere Ideen sammeln",
-    "text": "Weitere Ideen sammeln\nhttps://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#aufgaben-erstellen",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#aufgaben-erstellen",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Aufgaben erstellen?",
-    "text": "Aufgaben erstellen?\nEs folgt ein Python-Programm, welches mit Ihnen das Überschlagen von Summen und Differenzen von Dezimalzahlen übt.\nEine “sehr gute” Lösung liegt +/- 3% von der richtigen Lösung weg, eine “gute” Lösung liegt +/- 6% von der richtigen Lösung weg.\nÜben Sie, bis Sie regelmässig gute Lösungen erreichen.\nHerausforderung: Schreiben Sie das Programm selbst! Benutzen Sie dazu die random library mit import random und generieren Sie eine zufällige Zahl zwischen 0 und 1 mit random.random() und mit random.choice(+,-) eine zufällige Operation.\nHerausforderung: Bauen Sie eine Stoppuhr in den Code ein, welche die Zeit bis zur Antwort zählt und ausgibt. (Tipp: import time und time.time() gibt die Zeit in Unixzeit aus.)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#code-von-studentin",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#code-von-studentin",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Code von Studentin",
-    "text": "Code von Studentin\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#wie-weiter",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#wie-weiter",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Wie weiter?",
-    "text": "Wie weiter?"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#footnotes",
-    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#footnotes",
-    "title": "Mathematikverständnis stärken in Zeiten von KI",
-    "section": "Fußnoten",
-    "text": "Fußnoten\n\n\nLektionen für M&I nach Regez & Lutz (2022)↩︎"
-  },
-  {
-    "objectID": "tagungsunterlagen/2024_01_30_literature_club.html",
-    "href": "tagungsunterlagen/2024_01_30_literature_club.html",
-    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
-    "section": "",
-    "text": "Promotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel\n\n\n\n\n\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
-  },
-  {
     "objectID": "tagungsunterlagen/2024_01_30_literature_club.html#umriss",
     "href": "tagungsunterlagen/2024_01_30_literature_club.html#umriss",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
-    "section": "",
-    "text": "Promotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel"
+    "section": "Umriss",
+    "text": "Umriss\n\nPromotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel"
   },
   {
     "objectID": "tagungsunterlagen/2024_01_30_literature_club.html#geplanter-ablauf",
     "href": "tagungsunterlagen/2024_01_30_literature_club.html#geplanter-ablauf",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
-    "section": "",
-    "text": "gantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
+    "section": "Geplanter Ablauf",
+    "text": "Geplanter Ablauf\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
   },
   {
     "objectID": "tagungsunterlagen/2024_01_30_literature_club.html#einordnung-productive-failure",
@@ -984,7 +53,7 @@
     "href": "tagungsunterlagen/2024_01_30_literature_club.html#collaboration",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Collaboration",
-    "text": "Collaboration\n\nUnterschied kollaborativ - individuell\nPrimar (quasi-experimentell): \\(p=0.28\\), \\(\\eta^2_p=0.005\\)\n\nMazziotti et al. (2019), p.2\n\nSekundarklassen (quasi-experimentell): \\(p = 0.437\\)\n\nBrand et al. (2023)"
+    "text": "Collaboration\nUnterschied kollaborativ - individuell\nPrimar (quasi-experimentell): \\(p=0.28\\), \\(\\eta^2_p=0.005\\)\n\nMazziotti et al. (2019), p.2\n\nSekundarklassen (quasi-experimentell): \\(p = 0.437\\)\n\nBrand et al. (2023)"
   },
   {
     "objectID": "tagungsunterlagen/2024_01_30_literature_club.html#boundary-conditions",
@@ -1110,6 +179,909 @@
     "href": "tagungsunterlagen/2024_01_30_literature_club.html#fragen-1",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Fragen",
-    "text": "Fragen\n\nMeinerseits:\n\nWie soll der Sprachstil angepasst werden?\nIst es sinnvoll Padua, Lukas, usw. mitzuerwähnen?\nWieviel Theorie braucht ein Paper?\nAnregungen zu zukünftigen Designs.\n\n\n\nEurerseits?"
+    "text": "Fragen\nMeinerseits:\n\nWie soll der Sprachstil angepasst werden?\nIst es sinnvoll Padua, Lukas, usw. mitzuerwähnen?\nWieviel Theorie braucht ein Paper?\nAnregungen zu zukünftigen Designs.\n\nEurerseits?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_30_literature_club.html#bibliographie",
+    "href": "tagungsunterlagen/2024_01_30_literature_club.html#bibliographie",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nAbeysekera, L., & Dawson, P. (2015). Motivation and cognitive load in the flipped classroom: definition, rationale and a call for research. Higher Education Research & Development, 34(1), 1–14. https://doi.org/10.1080/07294360.2014.934336\n\n\nAebli, H. (1983). Zwölf Grundformen des Lehrens: eine allgemeine Didaktik auf psychologischer Grundlage: Medien und Inhalte didaktischer Kommunikation, der Lernzyklus (15. Auflage). Klett-Cotta.\n\n\nAshman, G., Kalyuga, S., & Sweller, J. (2020). Problem-solving or Explicit Instruction: Which Should Go First When Element Interactivity Is High? Educational Psychology Review, 32(1), 229–247. https://doi.org/10.1007/s10648-019-09500-5\n\n\nBaker, J. W. (2000). The „Classroom Flip“: Using web course management tools to become the guide by the side. 9–17.\n\n\nBergmann, J., Overmyer, J., & Wilie, B. (2011, Juni 21). The Flipped Class: Myths vs. Reality - THE DAILY RIFF - Be Smarter. About Education. http://web.archive.org/web/20160305005240/http://www.thedailyriff.com/articles/the-flipped-class-conversation-689.php\n\n\nBrand, C., Hartmann, C., Loibl, K., & Rummel, N. (2023). Do students learn more from failing alone or in groups? Insights into the effects of collaborative versus individual problem solving in productive failure. Instructional Science, 51(6), 953–976. https://doi.org/10.1007/s11251-023-09619-7\n\n\nHartmann, C., Gog, T. van, & Rummel, N. (2020). Do examples of failure effectively prepare students for learning from subsequent instruction? Applied Cognitive Psychology, 34(4), 879–889. https://doi.org/10.1002/acp.3651\n\n\nHartmann, C., Gog, T. van, & Rummel, N. (2022). Productive versus vicarious failure: Do students need to fail themselves in order to learn? Applied Cognitive Psychology, 36(6), 1219–1233. https://doi.org/10.1002/acp.4004\n\n\nKapur, M. (2008). Productive Failure. Cognition and Instruction, 26(3), 379–424. https://doi.org/10.1080/07370000802212669\n\n\nKapur, M. (2014). Productive Failure in Learning Math. Cognitive Science, 38(5), 1008–1022. https://doi.org/10.1111/cogs.12107\n\n\nKapur, M. (2015). The preparatory effects of problem solving versus problem posing on learning from instruction. Learning and Instruction, 39, 23–31. https://doi.org/10.1016/j.learninstruc.2015.05.004\n\n\nKapur, M., & Bielaczyc, K. (2012). Designing for Productive Failure. Journal of the Learning Sciences, 21(1), 45–83. https://doi.org/10.1080/10508406.2011.591717\n\n\nKapur, M., Hattie, J., Grossman, I., & Sinha, T. (2022). Fail, flip, fix, and feed – Rethinking flipped learning: A review of meta-analyses and a subsequent meta-analysis. Frontiers in Education, 7, 956416. https://doi.org/10.3389/feduc.2022.956416\n\n\nLage, M. J., Platt, G. J., & Treglia, M. (2000). Inverting the Classroom: A Gateway to Creating an Inclusive Learning Environment. The Journal of Economic Education, 31(1), 30–43. https://www.jstor.org/stable/pdf/1183338.pdf?refreqid=excelsior%3Ab0a9d2ec82ee6a85a2c6fd0791861766&ab_segments=&origin=&initiator=&acceptTC=1\n\n\nLo, C. K., Hew, K. F., & Chen, G. (2017). Toward a set of design principles for mathematics flipped classrooms: A synthesis of research in mathematics education. Educational Research Review, 22, 50–73. https://doi.org/10.1016/j.edurev.2017.08.002\n\n\nLoibl, K., & Rummel, N. (2014). Knowing what you don’t know makes failure productive. Learning and Instruction, 34, 74–85. https://doi.org/10.1016/j.learninstruc.2014.08.004\n\n\nMazziotti, C., Rummel, N., Deiglmayr, A., & Loibl, K. (2019). Probing boundary conditions of Productive Failure and analyzing the role of young students’ collaboration. Npj Science of Learning, 4(1), 1–9. https://doi.org/10.1038/s41539-019-0041-5\n\n\nNachtigall, V., Serova, K., & Rummel, N. (2020). When failure fails to be productive: probing the effectiveness of productive failure for learning beyond STEM domains. Instructional Science, 48(6), 651–697. https://doi.org/10.1007/s11251-020-09525-2\n\n\nSinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. Review of Educational Research, 91(5), 761–798. https://doi.org/10.3102/00346543211019105\n\n\nStädeli, C., & Maurer, M. (2020). The AVIVA model A competence-oriented approach to teaching and learning. https://www.hep-verlag.ch/the-aviva-model\n\n\nTucker, B. (2012). The flipped classroom. Education next, 1, 82–83. https://www.msuedtechsandbox.com/MAETELy2-2015/wp-content/uploads/2015/07/the_flipped_classroom_article_2.pdf"
+  },
+  {
+    "objectID": "tagungsunterlagen/tagungsunterlagen.html",
+    "href": "tagungsunterlagen/tagungsunterlagen.html",
+    "title": "Übersicht Tagungsunterlagen",
+    "section": "",
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lerngelegenheiten",
+    "section": "",
+    "text": "Webseite für diverse Lerngelegenheiten von diversen Personen.\n\n\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Organisationsblatt",
+    "text": "Organisationsblatt\n\n\nOrganisationsblatt"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Grundlagen",
+    "text": "Grundlagen\n\n\nArt.3 DVBS\nDie Beurteilung ist\n\nförderorientiert,\nlernzielorientiert,\numfassend, […]\ntransparent und nachvollziehbar.\n\n\nErziehungsdirektion des Kantons Bern (2022)\n\n\nQualitätsmerkmale einer kompetenzorientierten Beurteilung\n\nFörderorientierung: […]\nPassung zum Unterricht: […]\nTransparenz / Nachvollziehbarkeit: […]\nUmfassende Beurteilung: […]\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#constructive-alignment",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#constructive-alignment",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Constructive Alignment",
+    "text": "Constructive Alignment\nThe model of instruction that emerges is simple, and it makes intuitive sense:\n\nteachers need to be clear about what they want their students to learn, and how they would manifest that learning […]\nstudents need to be placed in situations that are judged likely to elicit the required learnings.\nstudents are then required to provide evidence, either by self-set or teacher-set tasks, […]\n\n\n(Biggs, 1996, S. 30–31)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Förderkreislauf",
+    "text": "Förderkreislauf"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Kriterien zur Auswahl von Schulstoff",
+    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spatere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Auftrag auf Woche 8",
+    "text": "Auftrag auf Woche 8"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#bibliographie",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#bibliographie",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nBiggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871\n\n\nErziehungsdirektion des Kantons Bern. (2016). Lehrplan 21 - 5. Unterrichtsentwicklung. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF\n\n\nErziehungsdirektion des Kantons Bern. (2022). BSG 432.213.11 - Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule - Kanton Bern - Erlass-Sammlung. https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11\n\n\nVan Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#qualitätsmerkmal-umfassend",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#qualitätsmerkmal-umfassend",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Qualitätsmerkmal: Umfassend",
+    "text": "Qualitätsmerkmal: Umfassend\n\nUmfassende Beurteilung: Alle Kompetenzbereiche bzw. Handlungsaspekte und die überfachlichen Kompetenzen werden innerhalb eines Schuljahres in die Beurteilung miteinbezogen.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---webseite",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---webseite",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Lehrplan21 - Webseite",
+    "text": "Lehrplan21 - Webseite\nhttps://be.lehrplan.ch"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---legende",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#lehrplan21---legende",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Lehrplan21 - Legende",
+    "text": "Lehrplan21 - Legende"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#grundansprüche",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#grundansprüche",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Grundansprüche",
+    "text": "Grundansprüche\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)\n\n\nDie Beschreibungen der vorangehenden Kompetenzstufen werden im Text der Grundansprüche nicht wiederholt. Sie gehören zu den Grundansprüchen.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#handlungsaspekte",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#handlungsaspekte",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Handlungsaspekte",
+    "text": "Handlungsaspekte\n\nBei der Bewertung von Lernkontrollen stehen Kompetenzen zum Erforschen & Argumentieren meistens nicht im Fokus. Ergebnisse von Trainingsphasen zu Fertigkeiten (z. B. Blitzrechnen, Kopfrechentraining) werden nicht bewertet\n\n\nErziehungsdirektion des Kantons Bern (o. J.)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#anforderungen-an-die-lehrperson",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#anforderungen-an-die-lehrperson",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Anforderungen an die Lehrperson",
+    "text": "Anforderungen an die Lehrperson\n\nSie müssen erkennen können, welcher Lehrstoff im Buch fehlt.\nSie müssen feststellen können, welcher Lehrstoff im Buch schlecht angeordnet ist.\nSie müssen gut angeordneten Lehrstoff des Buchs erkennen können.\nSie müssen in der Lage sein, zusammen mit Kollegen ein fUr Ihre Schule geeignetes Lehrbuch auszusuchen.\n\n\nVan Dormolen (1978)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#aufnahmeprüfungen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#aufnahmeprüfungen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Aufnahmeprüfungen",
+    "text": "Aufnahmeprüfungen\nAuftrag\n\n\n\n−+\n10:00\n\n\n\nVerschaffen Sie sich einen Überblick über die Anforderungen der Aufnahmeprüfungen Sek I - Sek II.\nWebseite"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#bibliographie",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_02.html#bibliographie",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nErziehungsdirektion des Kantons Bern. (o. J.). Dokumentation der summativen Beurteilung Mathematik. https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html\n\n\nErziehungsdirektion des Kantons Bern. (2016). Lehrplan 21 - 5. Unterrichtsentwicklung. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF\n\n\nVan Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html",
+    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html",
+    "title": "Learning Analytics",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-9",
+    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-9",
+    "title": "Learning Analytics",
+    "section": "Aufträge Woche 9",
+    "text": "Aufträge Woche 9\naverage stdevp median\nconditional formatting\nxlookup textbefore textafter\nIst die letzte Reihe schlechter als die anderen?\nSetze Sie so um, dass die letzte Reihe nicht mehr schlechter ist als die anderen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-10",
+    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#aufträge-woche-10",
+    "title": "Learning Analytics",
+    "section": "Aufträge Woche 10",
+    "text": "Aufträge Woche 10\nSitzpositionen Setzen nach Note Randomisierung\nKorrelation\nKorrelieren 2 Fächer?\nSetz beide Fächer so um, dass …"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#auftrag-woche-11",
+    "href": "lerngelegenheiten/LG_learning_analytics/learning_analytics.html#auftrag-woche-11",
+    "title": "Learning Analytics",
+    "section": "Auftrag Woche 11",
+    "text": "Auftrag Woche 11\ngo wild"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum Porta-QT-Digitalität"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Vorbereitungsauftrag - Woche 1",
+    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.\nInstallieren Sie vor der ersten Woche:\n\nPython\nEntweder RStudio oder VSCode\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-3",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Vorbereitungsauftrag - Woche 3",
+    "text": "Vorbereitungsauftrag - Woche 3"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#woche-8",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#woche-8",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Woche 8",
+    "text": "Woche 8\n\n Inhalte\n\n Präsentationsfolien\ndsa\n\n\n\n️ Auftrag\n\nBla"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
+    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
+    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\nAls zusätzliche Leseempfehlung werden folgende drei Medien in absteigender Reihenfolge der Wissenschaftlichkeit genannt:\n\nImlig, F., & Ender, S. (2018). Towards a national assessment policy in Switzerland: Areas of conflict in the use of assessment instruments. Assessment in Education: Principles, Policy & Practice, 25(3), 272–290.\nPrüfungen abschaffen, Video (Jörn Loviscach)\nStandardized Testing, Video (John Oliver)\n\nFalls Sie eine oder mehre Quellen als Vorbereitung für den Kurs nutzen, können wir am Anfang der Doppellektion offene Fragen klären oder eine kurze Diskussion lancieren.\n\n\n\n\nPräsentationsfolien\n\nÜGK Schweiz\n\nÜGK 2016Schlussbericht\n\nÜbertritt PRIM - Sek I Kontrollprüfungen\n\nMonitoring Kontrollprüfungen 2023\nReferenzrahmen Mathematik\nBFS - Selektion auf der Sekundarstufe I\n\nPISA\n\nCountry Note - Switzerland\nPISA 2012: Veröffentlichte Beispielaufgaben - Mathematik\n\nÜbertritt Sek I - Sek II\n\nBFS - Maturitätsquote\nBFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung\nArtikel: der Bund\n\n\nAblageordner\n\nWeitere Dokumente:\n\nDas Monitoring der Grundkompetenzen in neuer Gestalt\nEvaluationen Kanton Bern"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#medienempfehlung",
+    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#medienempfehlung",
+    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
+    "section": "",
+    "text": "Als zusätzliche Leseempfehlung werden folgende drei Medien in absteigender Reihenfolge der Wissenschaftlichkeit genannt:\n\nImlig, F., & Ender, S. (2018). Towards a national assessment policy in Switzerland: Areas of conflict in the use of assessment instruments. Assessment in Education: Principles, Policy & Practice, 25(3), 272–290.\nPrüfungen abschaffen, Video (Jörn Loviscach)\nStandardized Testing, Video (John Oliver)\n\nFalls Sie eine oder mehre Quellen als Vorbereitung für den Kurs nutzen, können wir am Anfang der Doppellektion offene Fragen klären oder eine kurze Diskussion lancieren."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#dokumente-und-quellen",
+    "href": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html#dokumente-und-quellen",
+    "title": "Chancen und Risiken standardisierter Testverfahren und Leistungsmessung",
+    "section": "",
+    "text": "Präsentationsfolien\n\nÜGK Schweiz\n\nÜGK 2016Schlussbericht\n\nÜbertritt PRIM - Sek I Kontrollprüfungen\n\nMonitoring Kontrollprüfungen 2023\nReferenzrahmen Mathematik\nBFS - Selektion auf der Sekundarstufe I\n\nPISA\n\nCountry Note - Switzerland\nPISA 2012: Veröffentlichte Beispielaufgaben - Mathematik\n\nÜbertritt Sek I - Sek II\n\nBFS - Maturitätsquote\nBFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung\nArtikel: der Bund\n\n\nAblageordner\n\nWeitere Dokumente:\n\nDas Monitoring der Grundkompetenzen in neuer Gestalt\nEvaluationen Kanton Bern"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html",
+    "href": "lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html",
+    "title": "Mikroplanung Mathematik",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html",
+    "href": "lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html",
+    "title": "Mikroplanung Mathematik",
+    "section": "",
+    "text": "Organisation\nAVIVA-Modell LUKAS-Modell PADUA-Modell\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "python/04_listen_slides.html#was-sind-listen",
+    "href": "python/04_listen_slides.html#was-sind-listen",
+    "title": "Python",
+    "section": "Was sind Listen? ",
+    "text": "Was sind Listen? \nEine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:\n\nBrot\nNutella\nMilch\n…\n\nIn Python werden Listen mit eckigen Klammern [] geschrieben:\nx = [\"Brot\", \"Nutella\", \"Milch\"]  # Definition einer Liste\nprint(x)  # Output: \"['Brot', 'Nutella', 'Milch']\""
+  },
+  {
+    "objectID": "python/04_listen_slides.html#zugriff-auf-listenelemente",
+    "href": "python/04_listen_slides.html#zugriff-auf-listenelemente",
+    "title": "Python",
+    "section": "Zugriff auf Listenelemente",
+    "text": "Zugriff auf Listenelemente\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
+  },
+  {
+    "objectID": "python/04_listen_slides.html#listen-loops",
+    "href": "python/04_listen_slides.html#listen-loops",
+    "title": "Python",
+    "section": "Listen & Loops",
+    "text": "Listen & Loops\nListen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:\nfor element in einkaufsliste:\n  print(element)\nWenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der len()-Funktion verwendet werden:\nfor i in range(len(einkaufsliste)):  # len() ist die Listenlänge\n  print(einkaufsliste[i])\n  print(i)  # Vorteil: Man hat Zugriff auf den Index i"
+  },
+  {
+    "objectID": "python/04_listen_slides.html#listenelemente-bearbeiten",
+    "href": "python/04_listen_slides.html#listenelemente-bearbeiten",
+    "title": "Python",
+    "section": "Listenelemente bearbeiten",
+    "text": "Listenelemente bearbeiten\nEin Element ändern\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste[1] = \"Bananen\"\n# Resultat: ['Brot', 'Bananen', 'Milch']\nEin Element hinzufügen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.append(\"Bananen\")\n# Resultat: ['Brot', 'Bananen', 'Milch', \"Bananen\"]\nEin Element löschen\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\neinkaufsliste.pop()\n# Resultat: [\"Brot\", \"Nutella\"]"
+  },
+  {
+    "objectID": "python/04_listen_slides.html#auftrag-einkaufsliste",
+    "href": "python/04_listen_slides.html#auftrag-einkaufsliste",
+    "title": "Python",
+    "section": "Auftrag: Einkaufsliste",
+    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren"
+  },
+  {
+    "objectID": "python/04_listen_slides.html#auftrag-notendurchschnittsrechner",
+    "href": "python/04_listen_slides.html#auftrag-notendurchschnittsrechner",
+    "title": "Python",
+    "section": "Auftrag: Notendurchschnittsrechner",
+    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "python/01_variablen_slides.html#learning-outcomes",
+    "href": "python/01_variablen_slides.html#learning-outcomes",
+    "title": "Python",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nSie verstehen das Prinzip einer Variable und können dieses Wissen in einem Programm umsetzen\nSie kennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln"
+  },
+  {
+    "objectID": "python/01_variablen_slides.html#was-sind-variablen",
+    "href": "python/01_variablen_slides.html#was-sind-variablen",
+    "title": "Python",
+    "section": "Was sind Variablen?",
+    "text": "Was sind Variablen?\nEine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).\nname = \"Christian\" # Variable erstellen und Wert zuweisen\nprint(name) # Output: Christian\n\nname = 3 # Variable überschreiben\nprint(name) # Output: 3 \n\nname = input(\"Gib deinen Namen ein: \") # Benutzereingabe\nprint(\"Dein Name ist: \" + name) # Output: ?\n(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)"
+  },
+  {
+    "objectID": "python/01_variablen_slides.html#was-sind-datentypen",
+    "href": "python/01_variablen_slides.html#was-sind-datentypen",
+    "title": "Python",
+    "section": "Was sind Datentypen?",
+    "text": "Was sind Datentypen?\nJede Variable hat einen Datentyp. Die vier wichtigsten:\nx = 5\nprint(type(x)) # Output: int (Integer/Ganzzahl)\n\nx = 5.0\nprint(type(x)) # Output: float (Floating-Point/Kommazahl)\n\nx = True\nprint(type(x)) # Output: bool (Boolean/Wahrheitswert)\n\nx = \"hello\"\nprint(type(x)) # Output: string (String/Zeichenkette)"
+  },
+  {
+    "objectID": "python/01_variablen_slides.html#konvertierung-von-datentypen-type-casting",
+    "href": "python/01_variablen_slides.html#konvertierung-von-datentypen-type-casting",
+    "title": "Python",
+    "section": "Konvertierung von Datentypen (Type Casting)",
+    "text": "Konvertierung von Datentypen (Type Casting)\nManchmal muss man Datentypen umwandeln\nx = \"Monat \"\ny = 12\nprint(x + y) # funktioniert nicht und macht keinen Sinn\n\nx = \"Monat \"\ny = 12\nprint(x + str(y)) # Output: Monat 12\nDie Umwandlungsfunktionen sind analog zu den Datentypen:\nx = 5\nint(x) # x ist bereits ein Integer\nfloat(x) # 5.0\nbool(x) # True\nstr(x) # \"5\""
+  },
+  {
+    "objectID": "python/01_variablen_slides.html#auftrag-mein-erstes-programm",
+    "href": "python/01_variablen_slides.html#auftrag-mein-erstes-programm",
+    "title": "Python",
+    "section": "Auftrag: Mein erstes Programm",
+    "text": "Auftrag: Mein erstes Programm\nIn Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.\nErstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#lernziele",
+    "href": "python/02_conditionals_slides.html#lernziele",
+    "title": "Python",
+    "section": "Lernziele",
+    "text": "Lernziele\n\nSie verstehen das Prinzip von Conditionals (If-Elif-Else) und können dieses Wissen in einem Programm umsetzen.\n\n\nSie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen."
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#was-sind-conditionals",
+    "href": "python/02_conditionals_slides.html#was-sind-conditionals",
+    "title": "Python",
+    "section": "Was sind Conditionals?",
+    "text": "Was sind Conditionals?\nConditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man “if Bedingung: dann”. Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).\nnote = 4.5\n\nif note &gt;= 4:\n  print(\"Prüfung bestanden\")\n  print(\"...\")  # Alles in einer If-Bedingung muss eingerückt sein\nelse:\n  print(\"Mehr Code\")  # Ohne Einrücken ist es wieder normaler Code"
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#if-elif-else",
+    "href": "python/02_conditionals_slides.html#if-elif-else",
+    "title": "Python",
+    "section": "If-Elif-Else",
+    "text": "If-Elif-Else\nMit elif (Abkürzung für “else-if”) und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.\nx = 1\n\nif x &gt; 1:\n  print(\"x ist größer als 1\")\nelif x &lt; 1:\n  print(\"x ist kleiner als 1\")\nelse:\n  print(\"x ist gleich 1\")\nAchtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =."
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#logische-operatoren-optional",
+    "href": "python/02_conditionals_slides.html#logische-operatoren-optional",
+    "title": "Python",
+    "section": "Logische Operatoren (Optional)",
+    "text": "Logische Operatoren (Optional)\n\nand (Deutsch: und)\nor (Deutsch: oder)\nnot (Deutsch: nicht)\n\nx = 5\ny = 6\n\nif x == 5 and y == 6:\n  print(\"Beide Aussagen sind Wahr\")\n\nif x == 5 or y == 6:\n  print(\"Eine oder beide Aussagen sind Wahr\")\n\nif not x == 5:  # Gleich wie x != 5\n  print(\"Die Aussage ist nicht Wahr\")"
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#was-ihr-vermeiden-solltet",
+    "href": "python/02_conditionals_slides.html#was-ihr-vermeiden-solltet",
+    "title": "Python",
+    "section": "Was ihr vermeiden solltet!",
+    "text": "Was ihr vermeiden solltet!\nVergleichen von Booleans mit ==\nwinter = True\n\nif winter == True:  # Schlechter Programmierstil\n  print(\"Es ist Winter\")\n\nif winter:  # Viel besser\n  print(\"Es ist Winter\")\nVergleichen von Floats mit ==\nmeter = 1.8324\n\nif meter == 1.8324:  # Nicht gut, da Floats nur \"ungefähr\" sind\n  print(\"Sie sind 1.83 Meter groß\")\n\nif 1.83 &lt; meter &lt; 1.84:  # Viel besser\n  print(\"Sie sind 1.83 Meter groß\")"
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#das-flussdiagramm-als-visuelle-darstellung",
+    "href": "python/02_conditionals_slides.html#das-flussdiagramm-als-visuelle-darstellung",
+    "title": "Python",
+    "section": "Das Flussdiagramm als visuelle Darstellung",
+    "text": "Das Flussdiagramm als visuelle Darstellung\nn = int(input(\"Note eingeben: \"))\n\nif n &gt;= 4:\n  print(\"Note: \" + str(n))\nelse:\n  print(\"Prüfung nicht bestanden!\")"
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#auftrag-login-mit-passwort",
+    "href": "python/02_conditionals_slides.html#auftrag-login-mit-passwort",
+    "title": "Python",
+    "section": "Auftrag: Login mit Passwort",
+    "text": "Auftrag: Login mit Passwort\n\nProgrammieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”.\nErstellen sie das Flussdiagramm dazu."
+  },
+  {
+    "objectID": "python/02_conditionals_slides.html#auftrag-login-mit-benutzer-und-passwort",
+    "href": "python/02_conditionals_slides.html#auftrag-login-mit-benutzer-und-passwort",
+    "title": "Python",
+    "section": "Auftrag: Login mit Benutzer und Passwort",
+    "text": "Auftrag: Login mit Benutzer und Passwort\n\nErgänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.\nErstellen sie ein Flussdiagramm dazu.\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "footer/impressum.html",
+    "href": "footer/impressum.html",
+    "title": "Impressum",
+    "section": "",
+    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nAlle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\nJoel Adler\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "python/python.html",
+    "href": "python/python.html",
+    "title": "Programmieren in Python",
+    "section": "",
+    "text": "Tabellarische Übersicht\n\n\nThema\nSlides\nÜbungen\n\n\n\n\nVariablen, Datentypen und Type Casting\n\n\n\n\nConditionals (if-elif-else) und Flussdiagramme\n\n\n\n\nLoops (while, for) und Flussdiagramme\n\n\n\n\nListen\n\n\n\n\nFunktionen"
+  },
+  {
+    "objectID": "python/python.html#hilfreiche-links",
+    "href": "python/python.html#hilfreiche-links",
+    "title": "Programmieren in Python",
+    "section": "Hilfreiche Links",
+    "text": "Hilfreiche Links\nWichtig: Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Variablen, Datentypen, Input Funktion und Type Casting.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier sind die Links zu den Themen Variablen, Datentypen und Type Casting.\nAuf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (2, 3, 4, 6, 12) und die Lösungen 2, 3, 4, 6, 12 zum Thema Variablen."
+  },
+  {
+    "objectID": "python/python.html#prüfungsvorbereitung",
+    "href": "python/python.html#prüfungsvorbereitung",
+    "title": "Programmieren in Python",
+    "section": "Prüfungsvorbereitung",
+    "text": "Prüfungsvorbereitung\n\nÜbung 1\nLösungsvorschlag Aufträge\n\n\nLösungsvorschlag\n\ncm = input(\"Gib deine Grösse in cm ein: \")\nfeet = float(cm) * 0.0328084\nprint(\"Deine Grösse in Fuss: \" + str(feet))\n\n\n\n\nÜbung 2\nNennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel dazu.\n\n\n\nÜbung 3\nWas ist der Output von diesem Programm?\nx = int(2.6)\ny = 2\nprint(x * 2)\n\n\n\nÜbung 4\nWas ist der Output von diesem Programm?\nx = \"Hello \"\ny = \"World\"\nprint(x + y)\n\n\n\nÜbung 5\nWas ist der Output von diesem Programm?\na = 6\nb = 1.5\nc = a + b + (a / b)\nprint(\"Output: \" + str(c))\n\n\n\nÜbung 6\nWas macht dieses Programm?\nx = float(input(\"Geben sie eine Zahl ein: \"))\nprint(x * x)\n\n\n\nÜbung 7\nErstellen sie ein Programm, welches ihren BMI (Body-Mass-Index) berechnet. Der BMI ist denifiert als: \\(BMI=Gewicht(kg)/Grösse(m)^2\\)\n\n\nLösungsvorschlag\n\ngewicht = input(\"Gib dein Gewicht in kg ein: \")\ngroesse = input(\"Gib deine Grösse in m ein: \")\n\nbmi = int(gewicht) / (float(groesse) * float(groesse)) # or float(height) ** 2\nprint(\"Dein BMI ist: \" + str(bmi))"
+  },
+  {
+    "objectID": "python/python.html#wichtig",
+    "href": "python/python.html#wichtig",
+    "title": "Programmieren in Python",
+    "section": "Wichtig",
+    "text": "Wichtig\nVerbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden Sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen If-Anweisung und If-Elif-Else.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Conditionals.\nAuf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (7, 8, 9, 10, 11) und die Lösungen 7, 8, 9, 10, 11 zum Thema Conditionals/Verzweigungen."
+  },
+  {
+    "objectID": "python/python.html#prüfungsvorbereitung-1",
+    "href": "python/python.html#prüfungsvorbereitung-1",
+    "title": "Programmieren in Python",
+    "section": "Prüfungsvorbereitung",
+    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge\n\nLösungsvorschlag Login I\nLösungsvorschlag Login II\nLösungsvorschlag Login II Flussdiagramm\n\n\nWas ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.\nx = \"Hello\"\ny = \"Tom\"\n\nif x != \"Hello\":\n  y = \"Tim\"\nelse:\n  y = \"Tina\"\n\nprint(y)\nLösungsvorschlag\n\nWas ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.\nx = 5\n\nif x &lt; 0:\n  print(\"a\")\nelif x &gt; 0:\n  if x == 5:\n    print(\"b\")\n  print(\"c\")\nelse:\n  print(\"d\")\nLösungsvorschlag\n\nErstellen Sie ein Programm, welches Schweizer Noten in das amerikanische Notensystem umrechnet.\n\n\n\nSchweiz\nUS\n\n\n\n\n5.5-6\nA\n\n\n4.5-5.4\nB\n\n\n4.0-4.4\nC\n\n\n&lt;4\nF\n\n\n\n\n\n\nGPA Calculator\n\n\nLösungsvorschlag"
+  },
+  {
+    "objectID": "python/python.html#hilfreiche-links-1",
+    "href": "python/python.html#hilfreiche-links-1",
+    "title": "Programmieren in Python",
+    "section": "Hilfreiche Links",
+    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen While-Schleife und For-Schleife.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema While-Loop und For-Loop.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (17, 18, 19, 20) und die Lösungen 17 18 19 20 zum Thema Loops/Schleifen."
+  },
+  {
+    "objectID": "python/python.html#prüfungsvorbereitung-2",
+    "href": "python/python.html#prüfungsvorbereitung-2",
+    "title": "Programmieren in Python",
+    "section": "Prüfungsvorbereitung",
+    "text": "Prüfungsvorbereitung\n\nLösungsvorschlag Aufträge\n\nLösungsvorschlag Primarschule\nLösungsvorschlag Fahrplan\nLösungsvorschlag Prüfungssoftware\nLösungsvorschlag Prüfungssoftware Flussdiagramm\n\n\n\nAuftrag 1\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 2\nwhile i &lt; 5:\n  print(i)\n  i = i + 1\n  print(i)\nLösungsvorschlag Flussdiagramm\n\n\nAuftrag 2\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 5\nwhile i &lt; 10:\n  i += 1  # Kurzform von i = i + 1\n  if i == 8:\n    print(\"Katze\")\n  else:\n    print(i)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm\n\n\nAuftrag 3\nErstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.\nLösungsvorschlag\n\n\nAuftrag 4\nErweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.\nLösungsvorschlag\n\n\nAuftrag 5\nErstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm"
+  },
+  {
+    "objectID": "python/python.html#hilfreiche-links-2",
+    "href": "python/python.html#hilfreiche-links-2",
+    "title": "Programmieren in Python",
+    "section": "Hilfreiche Links",
+    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Listen I, Listen II und Listen iterieren.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Listen.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (13) und die Lösungen 13 zum Thema Conditionals/Verzweigungen."
+  },
+  {
+    "objectID": "python/python.html#prüfungsvorbereitung-3",
+    "href": "python/python.html#prüfungsvorbereitung-3",
+    "title": "Programmieren in Python",
+    "section": "Prüfungsvorbereitung",
+    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge - Lösungsvorschlag Einkaufsliste - Lösungsvorschlag Notendurchschnittsrechner\nWas macht diese Programm und was ist der Output?\nx = [6, 3, 8, 5, 7, 2, 4, 0, 5]\nz = 0\nfor y in x:\n    if y &gt; z:\n        z = y\nprint(z)\nEine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm, welches die folgende Liste ausgibt:\nx = [[1, 2],[3, 4],[5, 6]]\nLösungsvorschlag\nWievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor? Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und Kleinschreibung) im folgenden Text zählt:\ntext = [\"Lorem\", \"ipsum\", \"dolor\", \"sit\", \"amet\", \n        \"consetetur\", \"sadipscing\", \"elitr\", \"lorem\",\n        \"sed\", \"lorem\", \"diam\", \"nonumy\", \"eirmod\", \"tempor\",\n        \"invidunt\", \"Lorem\", \"ut\", \"labore\", \"et\", \"dolore\",\n        \"magna\", \"aliquyam\", \"erat\", \"sed\", \"diam\", \"voluptuz\",\n        \"At\", \"lorem\", \"vero\", \"eos\", \"et\", \"accusam\", \"et\",\n        \"justo\", \"duo\", \"lorem\", \"dolores\", \"et\", \"ea\"]\nQuelle Lösungsvorschlag"
+  },
+  {
+    "objectID": "python/python.html#hilfreiche-links-3",
+    "href": "python/python.html#hilfreiche-links-3",
+    "title": "Programmieren in Python",
+    "section": "Hilfreiche Links",
+    "text": "Hilfreiche Links\nWichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Funktionen I, Funktionen II und Funktionen III.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Funktionen."
+  },
+  {
+    "objectID": "python/python.html#prüfungsvorbereitung-4",
+    "href": "python/python.html#prüfungsvorbereitung-4",
+    "title": "Programmieren in Python",
+    "section": "Prüfungsvorbereitung",
+    "text": "Prüfungsvorbereitung\nLösungsvorschlag Aufträge - Lösungsvorschlag Brief - Lösungsvorschlag Uhrzeit\nWas ist der Output von diesem Programm?\ndef meine_funktion(x, y, z):\n    if x &gt; y:\n        return z\n    else:\n        return z - 1\n\nx = meine_funktion(1, 2, 3)\nprint(x)\n\nWas macht diese Funktion (in Worte gefasst)?\n\n```Python\ndef meine_funktion(x, y):\n    if x &gt; y:\n        return x\n    else:\n        return y\nProgrammieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:\nfrom random import random # Import der Funktion random()\n\ndef wuerfle():\n    zufallszahl = random() # Zufallszahl generieren\n    # Ihr Code kommt hier..\n(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)\nLösungsvorschlag"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#was-sind-funktionen-calculator",
+    "href": "python/05_funktionen_slides.html#was-sind-funktionen-calculator",
+    "title": "Python",
+    "section": "Was sind Funktionen? :calculator:",
+    "text": "Was sind Funktionen? :calculator:\nFunktionen kennen sie bereits aus der Mathematik, z. B. f(x) = 2x.\nIn Python werden Funktionen mit def/return definiert und meistens verwendet, um Code besser zu strukturieren:\n# Definition einer Funktion\ndef meine_funktion(x):\n  return 2*x\n\n# Funktionen können mehrmals aufgerufen werden\nprint(meine_funktion(2))\nprint(meine_funktion(4))\n# Output: 4 8\n(Im Gegensatz zu einer Variable sollte ein langer Funktionsname mit einem Bodenstrich getrennt werden, z.B., bmi_berechnen() und nicht bmiBerechnen())"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#parameter-bzw.-argumente",
+    "href": "python/05_funktionen_slides.html#parameter-bzw.-argumente",
+    "title": "Python",
+    "section": "Parameter bzw. Argumente",
+    "text": "Parameter bzw. Argumente\nFunktionen können (müssen aber nicht) Argumente haben:\ndef funktion_ohne_argument():\n  print(\"hello\")\n\ndef funktion_mit_argument(x):\n  print(x)\n\n# Funktionen haben immer Klammern (mit oder ohne Argumente)\nfunktion_ohne_argument()\nfunktion_mit_argument(\"world\")\n# Output: hello world\nDie Argumente sind nur innerhalb der Funktion erreichbar:\ndef meine_funktion(x):\n  print(x) # x ist das Argument/Parameter\n\nprint(x) # x wird nicht gefunden"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#rückgabewert",
+    "href": "python/05_funktionen_slides.html#rückgabewert",
+    "title": "Python",
+    "section": "Rückgabewert",
+    "text": "Rückgabewert\nFunktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:\ndef funktion_ohne_rückgabewert(x):\n  y = 2*x\n\ndef funktion_mit_rückgabewert(x):\n  y = 2*x\n  return y\n\nv1 = funktion_ohne_rückgabewert(5)\nv2 = funktion_mit_rückgabewert(5)\n\nprint(v1) # Output: None\nprint(v2) # Output: 10"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#reine-vs.-modifizierte-funktionen",
+    "href": "python/05_funktionen_slides.html#reine-vs.-modifizierte-funktionen",
+    "title": "Python",
+    "section": "Reine vs. Modifizierte Funktionen",
+    "text": "Reine vs. Modifizierte Funktionen\nIn der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#section",
+    "href": "python/05_funktionen_slides.html#section",
+    "title": "Python",
+    "section": "",
+    "text": "globaleVariable = 0 # Das ist eine globale Variable\n\ndef reine_funktion(x):\n  return 2*x\n\ndef modifizierte_funktion(x):\n  global globaleVariable # auf globale Variable zugreifen\n  globaleVariable = globaleVariable + 1\n  return 2*x*globaleVariable\n\nreine_funktion(4) # Output: 8\nreine_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 8\nmodifizierte_funktion(4) # Output: 16 --&gt; anderer Output"
+  },
+  {
+    "objectID": "python/05_funktionen_slides.html#auftrag-brief-adressieren",
+    "href": "python/05_funktionen_slides.html#auftrag-brief-adressieren",
+    "title": "Python",
+    "section": "Auftrag: Brief Adressieren",
+    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
+    "href": "lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
+    "title": "Mikroplanung Mathematik",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#fünf-lernkontrollen",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#fünf-lernkontrollen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Fünf Lernkontrollen",
+    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter der CC-BY-SA 4.0 Lizenz didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nArithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse\nAlgebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen\nAnalysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nAnalysis: Lineare Funktionen\nGeometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#vier-produkte-und-eine-prozessbeurteilung",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#vier-produkte-und-eine-prozessbeurteilung",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Vier Produkte und eine Prozessbeurteilung",
+    "text": "Vier Produkte und eine Prozessbeurteilung\nSie (alle Teilnehmende) erstellen gemeinsam alle 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Produktbeurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in maximal zwei Schulwochen effizient durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:\n\nAnalysis: Funktionen (inkl. Programmieren)\nGeometrie: Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)\nStochastik & Kombinatorik und beschreibende Statistik: Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)\nArithmetik und Algebra: Übersicht über alle Rechenregeln und Operationen (inkl. digitale Hilfsmittel)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#ausgangslage",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#ausgangslage",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Ausgangslage",
+    "text": "Ausgangslage\n\nWie viele Lernkontrollen pro Schuljahr empfielt die Bildungsdirektion des Kantons Bern in Hirt et al. (2022)?\nWelche Handlungsaspekte sollen bei Lernkontrollen im Fokus stehen gemäss Erziehungsdirektion des Kantons Bern (o. J.) ?\nWelche Qualitätsmerkmale gibt es für die Beurteilung gemäss Bildungs- und Kulturdirektion des Kantons Bern (2016) ?\nVerschaffen Sie sich einen Überblick über die Übertrittsprüfungen vor und am Ende der Sekundarstufe. Folgende Fragen können bei der Lektüre helfen:\n\nÜbertrittsprüfung PRIM-Sek1: Welche Vorkenntnisse/Kompetenzen werden die Lernenden mitbringen, wenn sie ins 7. Schuljahr eintreten?\nÜberittsprüfung Sek1-Sek2: Welche Kenntnisse/Kompetenzen müssen die Lernenden bei mir erwerben? Welche Erwartungen können die Lehrpersonen der nächsten Schule (FMS, Gym) stellen?\n\n\n\nMaterialien\n\nDokumentation der summativen Beurteilung\nÜbertritt PRIM - Sek I\nÜbertritt Sek I - Sek II (Bern)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#reichhaltige-aufgaben",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#reichhaltige-aufgaben",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Reichhaltige Aufgaben",
+    "text": "Reichhaltige Aufgaben\n\nLesen Sie Hirt et al. (2018) und überlegen Sie wie “bedeutsam” in folgendem Zitat definiert ist: “Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule DVBS vom 6.3.2018, Artikel 3 – https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung.”\nLesen Sie Nydegger (2019) und argumentieren Sie in wiefern sie vereinbar ist mit den Merkmalen.\nLesen Sie die Erziehungsdirektion des Kantons Bern (o. J.) und überlegen Sie in wiefern reichhaltige Aufgaben in die summativen Beurteilung einfliessen können.\nLesen Sie alle Teile der Hirt et al. (2022) welche sich auf die summative Beurteilung im Zyklus 3 beziehen.\nLesen Sie Eckhart (2020) (Kapitel 3.1) zu den vier Merkmalen reichhaltiger Aufgaben.\n\n\nMaterialien\n\nUmsetzung des Lehrplans 21 im Fachbereich Mathematik\nAllgemeine Hinweise zu reichhaltigen Aufgaben\nCheckliste zur Einschätzung der Reichhaltigkeit einer Aufgabe\nDokumentation der summativen Beurteilung Kanton Bern"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#core-mathematics-vs.-mathematical-science",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#core-mathematics-vs.-mathematical-science",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Core mathematics vs. mathematical science",
+    "text": "Core mathematics vs. mathematical science\nLesen Sie Quinn (2012). Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: * Inwiefern haben Sie Unterricht im Sinne von Core Mathematics, bzw. im Sinne von Mathematical Science erhalten? * An welchen konkreten Beispielen machen Sie dies fest?\n\nInhalt und Unterlagen\n\nAuftrag (Videoerklärung)\nPadlet\nQuinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. Notices of the American Mathematical Society, 59(01), 31. https://doi.org/10.1090/noti787"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#concept-map-der-mathematik",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#concept-map-der-mathematik",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Concept Map der Mathematik",
+    "text": "Concept Map der Mathematik\nArbeiten Sie kollaborativ am Miroboard, um einen gerichteten Graphen der innermathematischen Themen der Schulzeit (Fokus Sek1) zu erstellen.\n\nHaftnotizen stellen die Themen dar.\nThemen, welche eine notwendige Bedingung (Vorwissen) darstellen, sollen mit einem Pfeil verknüpft werden.\nDie Stärke des Zusammenhangs kann mit einer Gewichtung (zwischen 0 und 1) als Text auf dem Pfeil erwähnt werden.\n\nUnten ist zusätzlich das Video “Map of Mathematics” verlinkt. Es handelt sich hier um eine Empfehlung um einen Überblick über das gesamte Fachgebiet (insb. Hochschulmathematik) zu erhalten. Hinweis: Das Poster eignet sich besonders gut um einen Schulraum zu schmücken.\n\nAuftrag (Videoerklärung)\nMiroboard (Passwort: “Mathematik”)\nMap of Mathematics (Video) - Poster\nTeilgebiete der Mathematik (Wikipedia)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#constructive-alignment",
+    "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#constructive-alignment",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Constructive Alignment",
+    "text": "Constructive Alignment\nLesen Sie Van Dormolen (1978) Kapitel 2.4, es zeigt wie der Satz des Pythagoras auf 5 verschiedene Arten gelehrt (und beurteilt) werden kann.\nLesen Sie Van Dormolen (1978) Kapitel 4.2, es beschreibt nach welchen Kriterien Sie in der Mikro-, Makroplanung Unterrichtsstoff untersuchen sollen.\nBiggs (1996) beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.\nDiese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht die ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.\n\nVan Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag. https://doi.org/10.1007/978-3-322-84149-0\nBiggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364. https://doi.org/10.1007/BF00138871"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
+    "href": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\n\nWoche\nThema\nSlides\nUnterlagen\n\n\n\n\n1\nConstructive Alignment\n\n\n\n\n2\nLehrplan21\n\n\n\n\n3\nMathematische Inhalte und Tätigkeiten\n\n\n\n\n7\n\n\n\n\n\n8\n\n\n\n\n\n9\nAlgorithmen"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#fünf-lernkontrollen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#fünf-lernkontrollen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Fünf Lernkontrollen",
+    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 9. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter einer freien Lizenz(CC BY oder CC-BY-SA 4.0 Lizenz) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nArithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse\nAlgebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen\nAnalysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nAnalysis: Lineare Funktionen\nGeometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Teilgebiete der Mathematik",
+    "text": "Teilgebiete der Mathematik\n\nArithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#leitideen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#leitideen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Leitideen",
+    "text": "Leitideen\n\nZahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-inhalte",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-inhalte",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Kompetenzbereiche (Inhalte)",
+    "text": "Kompetenzbereiche (Inhalte)\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "graph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n  \n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#denkprozesse",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#denkprozesse",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Denkprozesse",
+    "text": "Denkprozesse\n\nBegriffsbildung\nProblemlösen lernen\nAlgorithmik\nArgumentieren und Beweisen\nAnwendungen und Modellieren\nDarstellen und Kommunizieren\n\n\nBruder et al. (2014)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#handlungsaspekte",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#handlungsaspekte",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Handlungsaspekte",
+    "text": "Handlungsaspekte\n\nOperieren und Benennen\nErforschen und Argumentieren\nMathematisieren und Darstellen\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-1",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-1",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "graph LR;\nb1[Begriffsbildung];\nb2[Problemlösen lernen];\nb3[Algorithmik];\nb4[Argumentieren und Beweisen];\nb5[Anwendungen und Modellieren];\nb6[Darstellen und Kommunizieren];\n\nh1[Operieren und Benennen];\nh2[Erforschen und Argumentieren];\nh3[Mathematisieren und Darstellen];\n\nedk1[Wissen, Erkennen und Beschreiben];\nedk2[Operieren und Berechnen];\nedk3[Verwenden von Instrumenten und Werkzeugen];\nedk4[Darstellen und Kommunizieren];\nedk5[Mathematisieren und Modellieren];\nedk6[Argumentieren und Begründen];\nedk7[Interpretieren und Reflektieren der Resultate];\nedk8[Erforschen und Explorieren];\n\nb1--&gt;edk1--&gt;h1;\nb6--&gt;edk4--&gt;h3;\nb4--&gt;edk6--&gt;h2;\nb3--&gt;edk2--&gt;h1;\nb2--&gt;edk7--&gt;h2;\nb5--&gt;edk5--&gt;h3;\nedk8--&gt;h2;\nedk3--&gt;h1;\nb2--&gt;edk8;\n\nsubgraph Denkprozesse\n  b1;\n  b2;\n  b3;\n  b4;\n  b5;\n  b6;\nend\nsubgraph Handlungsaspekte EDK\n  edk1;\n  edk2;\n  edk3;\n  edk4;\n  edk5;\n  edk6;\n  edk7;\n  edk8;\nend\nsubgraph Handlungsaspekte LP21\n  h1;\n  h2;\n  h3;\nend\n\n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-2",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#section-2",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#bibliographie",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#bibliographie",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. (2016, Juni 23). Strukturelle und inhaltliche Hinweise - Lehrplan21. Lehrplan 21 für die Volksschule des Kantons Bern. https://be.lehrplan.ch/index.php?code=e|5|3\n\n\nBruder, R., Hefendehl-Hebeker, L., Schmidt-Thieme, B., & Weigand, H.-G. (2014). Handbuch der Mathematikdidaktik (1., 2014. Aufl.). Springer Berlin.\n\n\nEDK. (2011). Grundkompetenzen für dIe Mathematik."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#core-mathematics-vs.-mathematical-science",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#core-mathematics-vs.-mathematical-science",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Core mathematics vs. mathematical science",
+    "text": "Core mathematics vs. mathematical science\nPadlet"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ordnen-und-hypothesen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ordnen-und-hypothesen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Ordnen und Hypothesen",
+    "text": "Ordnen und Hypothesen\n\n\n\nStellen Sie sich bitte im Raum in Reihenfolge Ihrer Haarlänge auf.\nJe grösser der Längenunterschied, desto grösser die Distanz.\n\n\n\n\n\nsymmetrische Frisuren"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#hypothesen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#hypothesen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Hypothesen",
+    "text": "Hypothesen\nWie kann ich die Hypothese “belegen”, dass unsere Gruppe längere Haare hat als die andere Gruppe?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#fachbegriffe",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#fachbegriffe",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Fachbegriffe",
+    "text": "Fachbegriffe\n\nHypothesen\n\nNullhypothese H_0\nAlternativhypothese H_1\n\nHypothesentest\n\nFehler 1. Art (Alphafehler)\nFehler 2. Art (Betafehler)\nSignifikanz"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#skalenniveaus",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#skalenniveaus",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Skalenniveaus",
+    "text": "Skalenniveaus\n\nSkalenniveaus"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilungen",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilungen",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Verteilungen",
+    "text": "Verteilungen\n\nHistogramm"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#statistische-kennwerte",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#statistische-kennwerte",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Statistische Kennwerte",
+    "text": "Statistische Kennwerte\n\n\n\nLagemasse\n\nModus\nMedian\nMittelwert\n\nStreumasse\n\nSpannweite\nInterquartilabstand\nVarianz / Standardabweichung\n\nVerteilungsmasse\n\nGini-Koeffizient\n\n\n\n\n\n\nGini-Koeffizient"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilung",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#verteilung",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Verteilung",
+    "text": "Verteilung\n\nGeht auf Ilias auf das verlinkte Padlet​\nZeichnet eine Notenverteilung wie ihr sie in der 8. Klasse Mathematik vermutet / kennt."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ahb",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#ahb",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "AHB",
+    "text": "AHB\n\nDie Noten im Beurteilungsbericht sind ein Instrument zur Kommunikation der Beurteilung von Leistungen der Schülerinnen und Schüler und das Ergebnis eines professionellen Ermessensentscheids durch die Lehrpersonen. Sie basieren nicht auf Berechnungen von Durchschnitten.\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#dvbs",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#dvbs",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "DVBS",
+    "text": "DVBS\n\nArt. 2 Einheitliche Praxis\n1 Die Schulleitung legt unter Mitwirkung des Lehrerkollegiums eine einheitliche Praxis insbesondere in folgenden Bereichen fest: Beurteilung, Selbstbeurteilung und Information der Eltern."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#gütekriterien-für-mess--und-testverfahren",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#gütekriterien-für-mess--und-testverfahren",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Gütekriterien für Mess- und Testverfahren​",
+    "text": "Gütekriterien für Mess- und Testverfahren​\n\nObjektivität\nReliabilität\nValidität"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#bibliographie",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#bibliographie",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. (2016). Lehrplan 21 - Allgemeine Hinweise und Bestimmungen (AHB) - 5.2 Beurteilung. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-wir-heute-erreichen-möchten",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-wir-heute-erreichen-möchten",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Was wir heute erreichen möchten:",
+    "text": "Was wir heute erreichen möchten:\n\nshow and tell\nIdeen für die LP-Ausbildung\nIdeen und Wünsche für Unterrichtsmaterial\neinen angenehmen Austausch"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#sneak-peak",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#sneak-peak",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Sneak Peak",
+    "text": "Sneak Peak\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Lehrplan 21 M&I",
+    "text": "Lehrplan 21 M&I\n\nMI.2.2.f\nkönnen Programme mit Schleifen, bedingten Anweisungen und Parametern schreiben und testen.\n\n\n\nMI.2.2.h\nkönnen selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Computerprogrammen mit Variablen und Unterprogrammen formulieren."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi-1",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#lehrplan-21-mi-1",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Lehrplan 21 M&I",
+    "text": "Lehrplan 21 M&I\n\n\nGrundansprüche müssen erfüllt sein, damit die Basis für das Weiterlernen im Fachbereich gelegt ist.\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#unterstützung-durch-mathematik",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#unterstützung-durch-mathematik",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Unterstützung durch Mathematik",
+    "text": "Unterstützung durch Mathematik\n\n\n\n\nKlasse\nLektionen1\n\n\n\n\n7. Klasse\n5\n\n\n8. Klasse\n5\n\n\n9. Klasse\n4\n\n\n\nLektionen für M&I nach Regez & Lutz (2022)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#der-elephant-im-raum",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#der-elephant-im-raum",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Der Elephant im Raum 🐘",
+    "text": "Der Elephant im Raum 🐘\n\n\n\n\n\nRegistration and Access Minimum Age. You must be at least 13 years old or the minimum age required in your country to consent to use the Services. If you are under 18 you must have your parent or legal guardian’s permission to use the Services.\n\n\nOpenAI (2024)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#tools",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#tools",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Tools",
+    "text": "Tools\nWir benutzen heute folgende Webseiten:\n\nhttps://www.online-python.com/\nhttps://chat.openai.com/ (benötigt Account)\n\n(Hinweis: Im Kurs werden Rstudio oder VSCode benutzt)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#selbst-ausprobieren",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#selbst-ausprobieren",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Selbst ausprobieren",
+    "text": "Selbst ausprobieren\n\nPrimzahlen finden mit Sieb des Erathostenes\nPrimzahlzerlegung\nGgt, kgV\nBrüche addieren\n…\n\nProbiert eigene Ideen aus.\n\n\n\n−+\n10:00"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-denken-andere",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-denken-andere",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Was denken andere?",
+    "text": "Was denken andere?\n\n\nIch empfand Mathematik als anstrengend, weil sie einen ungeheuer kreativen Umgang mit lose definierten formalen Systemen erfordert, während einem die Informatik Kreativität mit streng definierten formalen Systemen abverlangt.\n\nGeoff Huston, in Ermert (2023)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#interessante-diskussionen",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#interessante-diskussionen",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Interessante Diskussionen",
+    "text": "Interessante Diskussionen\n\nWie unterscheidet sich der Begriff “Funktion” und “Variable” in Mathematik und Informatik?\nWas ist besser:\n\nDifferenz als Summe mit negativen Zahlen?\nDifferenz als Umkehroperation der Addition?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#weitere-ideen-sammeln",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#weitere-ideen-sammeln",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Weitere Ideen sammeln",
+    "text": "Weitere Ideen sammeln\nhttps://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#aufgaben-erstellen",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#aufgaben-erstellen",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Aufgaben erstellen?",
+    "text": "Aufgaben erstellen?\nEs folgt ein Python-Programm, welches mit Ihnen das Überschlagen von Summen und Differenzen von Dezimalzahlen übt.\nEine “sehr gute” Lösung liegt +/- 3% von der richtigen Lösung weg, eine “gute” Lösung liegt +/- 6% von der richtigen Lösung weg.\nÜben Sie, bis Sie regelmässig gute Lösungen erreichen.\nHerausforderung: Schreiben Sie das Programm selbst! Benutzen Sie dazu die random library mit import random und generieren Sie eine zufällige Zahl zwischen 0 und 1 mit random.random() und mit random.choice(+,-) eine zufällige Operation.\nHerausforderung: Bauen Sie eine Stoppuhr in den Code ein, welche die Zeit bis zur Antwort zählt und ausgibt. (Tipp: import time und time.time() gibt die Zeit in Unixzeit aus.)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#code-von-studentin",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#code-von-studentin",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Code von Studentin",
+    "text": "Code von Studentin\nimport random\nimport time\n\nanzahlRichtige = 0\nwhile anzahlRichtige &lt; 10:\n    startzeit = time.time ()\n\n    x = int (50000 * random.random())\n    y = int (50000 * random.random())\n    \n    z = x+y     # korrekte Lösung = z\n\n    Lösung = input(\"Was ergibt \" +  str (x) + \" + \" + str(y) + \"? \")\n    endzeit = time.time()\n    anzahl_sekunden = int (endzeit - startzeit)\n    if int(Lösung) &lt; z*1.03 and int (Lösung) &gt; z*0.97:\n        anzahlRichtige = anzahlRichtige + 2\n        print(\"sehr gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    elif int(Lösung) &lt; z*1.06 and int (Lösung) &gt; z*0.94:\n        anzahlRichtige = anzahlRichtige + 1\n        print(\"gut gemacht!\" + \"Du hast \" + str (anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n    else:\n        print(\"Zu ungenau, dass wäre die korrekte Lösung: \" + str (z) + \" , du hast \" + str(anzahl_sekunden) + \" Sekunden gebraucht.\")\n\n\nprint (anzahlRichtige)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#wie-weiter",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#wie-weiter",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Wie weiter?",
+    "text": "Wie weiter?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#bibliographie",
+    "href": "tagungsunterlagen/2024_01_19_gdm_tagung.html#bibliographie",
+    "title": "Mathematikverständnis stärken in Zeiten von KI",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy\n\n\n\n\nErmert, G. (2023). Missing Link: Von der Logik des Überflusses und einer gekauften Zukunft. https://www.heise.de/hintergrund/Missing-Link-Von-der-Logik-des-Ueberflusses-und-einer-gekauften-Zukunft-9330937.html\n\n\nErziehungsdirektion des Kantons Bern. (2016). Lehrplan 21 - 5. Unterrichtsentwicklung. https://be.lehrplan.ch/index.php?code=e|92|5&hilit=102m3PnWU64AWEZDAmcmgPHUF895BF#102m3PnWU64AWEZDAmcmgPHUF895BF\n\n\nOpenAI. (2024). Terms of use. https://openai.com/policies/terms-of-use\n\n\nRegez, A., & Lutz, E. (2022). Medien Informatik Factsheet. https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/uebergeordnete-themen/medien-und-informatik/unterricht/medien-informatik-factsheet.pdf"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "RStudio",
+    "text": "RStudio\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Quartopub",
+    "text": "Quartopub\nhttps://quartopub.org/"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#workshop",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#workshop",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Workshop",
+    "text": "Workshop\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#creative-coding---sonja-schär",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#creative-coding---sonja-schär",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Creative Coding - Sonja Schär",
+    "text": "Creative Coding - Sonja Schär\n\n\n\nQuellcode von Sonja Schär\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX+100, s.mouseY+50, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#flowchart---richard-conrardy",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#flowchart---richard-conrardy",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Flowchart - Richard Conrardy",
+    "text": "Flowchart - Richard Conrardy\n\n\nCode\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#gantt-diagram",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#gantt-diagram",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Gantt diagram",
+    "text": "Gantt diagram\n\n\nCode\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#markup",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#markup",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Mark️up",
+    "text": "Mark️up"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back!"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "About",
+    "text": "About\n\nPosit\n\nQuarto\nRStudio\nQuartopub"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#datenschutzrecht",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#datenschutzrecht",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Datenschutzrecht",
+    "text": "Datenschutzrecht\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs.1 KDSG\n\n\n\nPersonendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.\n\nArt.2 Abs.1 KDSG"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#urheberrecht",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#urheberrecht",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Urheberrecht",
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#phbern",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#phbern",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "PHBern",
+    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#bibliographie",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#bibliographie",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
   }
 ]

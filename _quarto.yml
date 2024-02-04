@@ -106,7 +106,7 @@ format:
     slide-number: false
     chalkboard: true
     toc-title: "Inhalt"
-    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent {{< include footer-test.qmd >}}"
+    footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent"
     title-slide-attributes: 
       data-background-image: "images/logo cc-by-sa.svg"
       data-background-size: 12%

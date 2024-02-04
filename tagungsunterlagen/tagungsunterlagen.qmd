@@ -1,7 +1,7 @@
 ---
 title: "Übersicht Tagungsunterlagen"
 format: html
-
+fields: [date, title, description]
 listing:
   contents:
     - "*.qmd"
