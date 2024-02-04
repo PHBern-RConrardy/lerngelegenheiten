@@ -1,0 +1,10 @@
+---
+title: "Übersicht Tagungsunterlagen"
+format: html
+
+listing:
+  contents:
+    - "*.qmd"
+  sort: "date desc"
+  type: table
+---

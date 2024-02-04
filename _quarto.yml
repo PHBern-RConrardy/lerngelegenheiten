@@ -1,20 +1,21 @@
 project:
   type: website
   output-dir: docs
-lang: de
+lang: de #Sprache für die Webseite
 theme: 
-  - styles/phbern_ci.scss
+  - styles/phbern_ci.scss # alle Stylesheets
   
-date-format: "DD.MM.YYYY"
+date-format: "DD.MM.YYYY" # übliche Daten in der Schweiz
 
-  
-bibliography: bibliographien/bibliographie_richard.bib
-csl: bibliographien/apa7.csl          
+bibliography: # Liste mite allen Bibliographiedatei
+  - bibliographien/bibliographie_richard.bib
+  - bibliographien/bib_conrardy_full.bib
+csl: bibliographien/apa7.csl          # Zitierstil, wird automatisch angewandt
 
-link-external-newwindow: true
-fig-align: center
+link-external-newwindow: true  # damit Präsentationen in neuem Tab geöffnet werden.
+fig-align: center # Bilder werden zentriert, funktioniert nicht immer
 
-author:   
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
       - name: Richard Conrardy
         orcid: 0009-0004-2063-6898
         id: 00383195
@@ -29,48 +30,51 @@ author:
           department: Institut Sekundarstufe I
           ror: https://ror.org/05jf1ma54
 
-website:
+website:  # Menüs für die Webseite
   favicon: images/penguin.png
   search: true
   navbar:
     logo: "images/penguin.png"
     background: white
     left:
-      - href: LG_verstehensorientiert_pruefen/math_ki.qmd
+      - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
         text: MA-KI
         icon: calculator-fill
-      - href: LG_stand_testverfahren/stand_test.qmd
+      - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
         text: ESW-Testv.
         icon: file-bar-graph-fill
-      - href: LG_learning_analytics/learning_analytics.qmd
+      - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
         text: Learning Analytics
         icon: graph-up
       - text: Math. Mikropl.
         icon: arrows-angle-contract
-        menu: 
+        menu:   # Menü für die Mathematik Mikroplanung
           - text: Präsenzkurs
-            href: LG_mikroplanung_math/praesenzkurs.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.qmd
             icon: building-fill
           - text: Blockkurs
-            href: LG_mikroplanung_math/blockkurs.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/blockkurs.qmd
             icon: file-earmark-zip-fill
           - text: Selbstorganisiertes Lernen
-            href: LG_mikroplanung_math/mikro_sol.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/mikro_sol.qmd
             icon: mouse2-fill
       - text: Math. summ. Beurt.
         icon: file-earmark-check-fill
         menu:
-        - href: LG_math_summative_praes/math_summ_praes.qmd
+        - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
           text: Präsenzveranstaltung
           icon: building-fill
-        - href: LG_math_summative_sol/math_summ_sol.qmd
+        - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
           text: Selbstorganisiertes Lernen
           icon: mouse2-fill
     right:  
       - text: "Python"
         href: python/python.qmd
         icon: terminal-fill
-  page-footer: 
+      - text: "Tagungen"
+        href: tagungsunterlagen/tagungsunterlagen.qmd
+        icon: terminal-fill
+  page-footer: # Fusszeile
     center: 
       - text: "Impressum"
         href: footer/impressum.qmd
@@ -87,7 +91,7 @@ website:
     foreground: $schwarz4
 
 format:
-  html:
+  html: # Einstellungen nur für Webseiten
     toc: true
     toc-expand: true
     toc-location: right
@@ -97,7 +101,7 @@ format:
     title-block-banner: true
     
       
-  revealjs:
+  revealjs: # Einträge nur für Präsentationen
     toc: true
     slide-number: false
     chalkboard: true
