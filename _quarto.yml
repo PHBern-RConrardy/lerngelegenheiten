@@ -36,6 +36,9 @@ website:  # Menüs für die Webseite
   navbar:
     logo: "images/penguin.png"
     background: white
+    tools:
+      - icon: github
+        href: https://github.com/PHBern-RConrardy/lerngelegenheiten
     left:
       - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
         text: MA-KI
@@ -73,7 +76,8 @@ website:  # Menüs für die Webseite
         icon: terminal-fill
       - text: "Tagungen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
-        icon: terminal-fill
+        icon: luggage-fill
+        
   page-footer: # Fusszeile
     center: 
       - text: "Impressum"

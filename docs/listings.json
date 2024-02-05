@@ -6,5 +6,33 @@
       "/tagungsunterlagen/2024_01_30_literature_club.html",
       "/tagungsunterlagen/2024_01_19_gdm_tagung.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/lerngelegenheiten/LG_math_summative_praes/woche_01.html",
+      "/lerngelegenheiten/LG_math_summative_praes/woche_02.html",
+      "/lerngelegenheiten/LG_math_summative_praes/woche_03.html",
+      "/lerngelegenheiten/LG_math_summative_praes/woche_07.html",
+      "/lerngelegenheiten/LG_math_summative_praes/woche_08.html",
+      "/lerngelegenheiten/LG_math_summative_praes/woche_09.html",
+      "/lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
+      "/lerngelegenheiten/LG_learning_analytics/learning_analytics.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html",
+      "/lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
+      "/lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_06.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_07.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_08.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_10.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html"
+    ]
   }
 ]

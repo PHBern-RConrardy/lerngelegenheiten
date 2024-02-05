@@ -2,5 +2,9 @@
 title: "Lerngelegenheiten"
 subtitle: "Webseite für Lerngelegenheiten"
 format: html
+listing:
+  contents:
+    - "lerngelegenheiten/**/**.qmd"
+  type: table
+  categories: true
 ---
-Webseite für diverse Lerngelegenheiten von diversen Personen.

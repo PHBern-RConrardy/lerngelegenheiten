@@ -32,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/penguin.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -68,7 +70,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -155,13 +215,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Python</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="./tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-luggage-fill" role="img">
 </i> 
 <span class="menu-text">Tagungen</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -204,7 +265,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(23)</span></div><div class="category" data-category="Digitalität">Digitalität <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Formative Beurteilung">Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Summative und prognostische Beurteilung">Summative und prognostische Beurteilung <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bereit für FS24">bereit für FS24 <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -212,11 +273,232 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>Webseite für diverse Lerngelegenheiten von diversen Personen.</p>
 
 
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+         <option value="listing-author" data-direction="asc">
+          Autor:in
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor:in</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1706788953805" data-listing-reading-time-sort="1" data-listing-word-count-sort="186" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_01.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_01.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-file-modified-sort="1706798934974" data-listing-reading-time-sort="2" data-listing-word-count-sort="204" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_02.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_02.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="2" data-listing-file-modified-sort="1706798941237" data-listing-reading-time-sort="2" data-listing-word-count-sort="391" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_03.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_03.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="3" data-listing-file-modified-sort="1706798945908" data-listing-reading-time-sort="2" data-listing-word-count-sort="282" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_07.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_07.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="4" data-listing-file-modified-sort="1706798949686" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_08.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_08.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="5" data-listing-file-modified-sort="1706798953516" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_09.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/woche_09.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Summative und prognostische Beurteilung,bereit für FS24" data-listing-file-modified-sort="1707119976493" data-listing-reading-time-sort="1" data-listing-word-count-sort="150" data-listing-title-sort="Chancen und Risiken standardisierter Testverfahren und Leistungsmessung" data-listing-filename-sort="stand_test.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_stand_testverfahren/stand_test.html" class="title listing-title">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Formative Beurteilung,Digitalität" data-listing-file-modified-sort="1706805166695" data-listing-reading-time-sort="3" data-listing-word-count-sort="421" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="learning_analytics.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_learning_analytics/learning_analytics.html" class="title listing-title">Learning Analytics</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="8" data-listing-file-modified-sort="1706038473538" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="blockkurs.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_mikroplanung_math/blockkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="9" data-listing-file-modified-sort="1706038459278" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="mikro_sol.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="10" data-listing-file-modified-sort="1706184368696" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="praesenzkurs.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1706161585186" data-listing-reading-time-sort="4" data-listing-word-count-sort="645" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_praes.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1706175677476" data-listing-reading-time-sort="5" data-listing-word-count-sort="890" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_sol.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="Formative Beurteilung,Summative und prognostische Beurteilung,Digitalität,bereit für FS24" data-listing-file-modified-sort="1707129451532" data-listing-reading-time-sort="12" data-listing-word-count-sort="2296" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="math_ki.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="14" data-listing-file-modified-sort="1707127403763" data-listing-reading-time-sort="3" data-listing-word-count-sort="563" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_01.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="15" data-listing-file-modified-sort="1707127407334" data-listing-reading-time-sort="4" data-listing-word-count-sort="711" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_02.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="16" data-listing-file-modified-sort="1707127412864" data-listing-reading-time-sort="2" data-listing-word-count-sort="287" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_03.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="17" data-listing-file-modified-sort="1707127427327" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_05.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="18" data-listing-file-modified-sort="1707127431897" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_06.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_06.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="19" data-listing-file-modified-sort="1707127435638" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_07.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_07.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="20" data-listing-file-modified-sort="1707127440632" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_08.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_08.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="21" data-listing-file-modified-sort="1707127470583" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_10.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_10.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+<tr data-index="22" data-listing-file-modified-sort="1707127475216" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_11.qmd">
+<td>
+<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
+</td>
+<td>
+<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

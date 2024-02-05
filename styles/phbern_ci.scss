@@ -111,6 +111,7 @@ $font-family-sans-serif: sans-serif;
   h1 {
     font-size: 3.42rem; /* Equivalent to $h1-font-size: 3.42rem; */
   }
+  
   main{
       line-height: 1.57rem; /* Equivalent to 33px / 21px */
       font-size: 21px;
@@ -303,4 +304,8 @@ td {
 h1.title small  {
       text-decoration: underline ;
       text-decoration-color: $bordeaux ;
+}
+
+.callout.callout-style-default .callout-body {
+  font-size: inherit;
 }

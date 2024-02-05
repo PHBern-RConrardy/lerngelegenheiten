@@ -7,7 +7,7 @@ Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss [Art. 3
 
 Auf ein formelles Impressum wird verzichtet.
 
-Alle Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:
+Inhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:
 
 [University of Teacher Education Bern](https://phbern.ch), [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)
 
@@ -15,3 +15,5 @@ Folgende Autoren verzichten auf Namensnennung bei Wiederverwendung:
 
 * Richard François Conrardy
 * Joel Adler
+
+Programmcode, falls nicht anders ausgewiesen, steht unter der [GNU Affero General Public License](https://www.gnu.org/licenses/agpl-3.0.html), wie sie in der Datei `LICENSE.txt` im Repository zu finden ist.

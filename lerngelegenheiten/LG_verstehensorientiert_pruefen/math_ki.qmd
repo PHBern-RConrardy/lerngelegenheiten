@@ -6,6 +6,7 @@ categories:
   - Formative Beurteilung
   - Summative und prognostische Beurteilung
   - Digitalität
+  - bereit für FS24
 authors:
     - name: Richard Conrardy
       orcid: 0009-0004-2063-6898
@@ -40,19 +41,19 @@ authors:
 
 # Wochenüberblick
 
-| Woche | Thema                         |                               Slides                               |                  Unterlagen                   |                 Vorbereitung                  | Nachbereitung |
-|:----------:|:-----------|:--------------:|:----------:|:----------:|:----------:|
-|   1   | Variablen und Conditionals    | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |
-|   2   | Loops und Listen              | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |                                               |               |
-|   3   | Funktionen und Projektauftrag | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       | <i class="bi bi-file-earmark-check-fill"></i> |               |
-|   4   | Projektarbei (asynchron)      |                 <i class="bi bi-easel3-fill"></i>                  |       <i class="bi bi-folder-fill"></i>       |                                               |               |
-|   5   | Algorithmen                   |                 <i class="bi bi-easel3-fill"></i>                  | [<i class="bi bi-folder-fill"></i>](#woche-8) |                                               |               |
-|   6   | 1                             |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
-|   7   | 1                             |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
-|   8   | 1                             |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
-|   9   | 1                             |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
-|  10   | 1                             |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
-|  11   | Quarto                        |                 <i class="bi bi-easel3-fill"></i>                  |                                               |                                               |               |
+| Woche | Thema                                        |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
+|:----------:|:-----------|:----------:|:----------:|:----------:|------------|
+|   1   | Variablen und Conditionals                   | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
+|   2   | Loops und Listen                             | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
+|   3   | Funktionen und Projektauftrag                | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
+|   4   | Projekt 1 (asynchron)                        |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-1) |                                                                                  |     |
+|   5   | Überschlagen üben                            |         [<i class="bi bi-easel3-fill"></i>](woche_05.qmd)          |                                                 |                                                                                  |     |
+|   6   | kgV und ggT                                  |         [<i class="bi bi-easel3-fill"></i>](woche_06.qmd)          |                                                 |                                                                                  |     |
+|   7   | Brüche addieren                              |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |                                                 |                                                                                  |     |
+|   8   | Brute force Gleichungen lösen & Kombinatorik |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                                 |                                                                                  |     |
+|   9   | Projekt 2 (asynchron)                        |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-2) |                                                                                  |     |
+|  10   | Algorithmen                                  |         [<i class="bi bi-easel3-fill"></i>](woche_10.qmd)          |                                                 |                                                                                  |     |
+|  11   | Quarto                                       |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          |                                                 |                                                                                  |     |
 
 : {.striped .hover .table-sm}
 
@@ -60,28 +61,31 @@ authors:
 
 # Wocheninhalte
 
-## Vorbereitungsauftrag - Woche 1
+## Vorbereitungsauftrag - Woche 1 {#vorbereitungsauftrag---woche-1}
 
-Im Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.
+Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie **vor** der ersten Woche Rstudio und Python auf Ihrem Computer.
 
-Installieren Sie **vor** der ersten Woche:
+Grobe Installationsanleitung unter Windows:
 
--   [Python](https://www.python.org/)
--   Entweder [RStudio](https://posit.co/products/open-source/rstudio/) oder [VSCode](https://code.visualstudio.com/)
+1.  Installieren Sie R, [Webseite](https://cran.rstudio.com/bin/windows/base/).
+2.  Installieren Sie RStudio, [Webseite](https://posit.co/download/rstudio-desktop/).
+3.  In der "Console" in Rstudio: `install.packages("reticulate")`.
+4.  In der "Console" in Rstudio: `reticulate::install_miniconda()`.
 
-Bei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden.
+::: callout-note
+Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.
+:::
 
-## Vorbereitungsauftrag - Woche 3
+Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.
+
+``` python
+print("Hello, World!")
+```
 
 ------------------------------------------------------------------------
 
-## Woche 8 {#woche-8}
+## Projekt 1 {#projekt-1}
 
-#### {{< bi book >}} Inhalte
+------------------------------------------------------------------------
 
--   [{{< bi projector >}} Präsentationsfolien](woche_01.qmd){target="_blank"}
--   dsa
-
-#### {{< bi journal-check >}}️ Auftrag
-
--   Bla
+## Projekt 2 {#projekt-2}

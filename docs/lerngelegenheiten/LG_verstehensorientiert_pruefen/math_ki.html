@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -41,7 +75,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -156,13 +189,14 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Python</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="../../tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-luggage-fill" role="img">
 </i> 
 <span class="menu-text">Tagungen</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -177,6 +211,7 @@ ul.task-list li input[type="checkbox"] {
                 <div class="quarto-category">Formative Beurteilung</div>
                 <div class="quarto-category">Summative und prognostische Beurteilung</div>
                 <div class="quarto-category">Digitalität</div>
+                <div class="quarto-category">bereit für FS24</div>
               </div>
                   </div>
   </div>
@@ -227,8 +262,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#wocheninhalte" id="toc-wocheninhalte" class="nav-link" data-scroll-target="#wocheninhalte">Wocheninhalte</a>
   <ul class="collapse">
   <li><a href="#vorbereitungsauftrag---woche-1" id="toc-vorbereitungsauftrag---woche-1" class="nav-link" data-scroll-target="#vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</a></li>
-  <li><a href="#vorbereitungsauftrag---woche-3" id="toc-vorbereitungsauftrag---woche-3" class="nav-link" data-scroll-target="#vorbereitungsauftrag---woche-3">Vorbereitungsauftrag - Woche 3</a></li>
-  <li><a href="#woche-8" id="toc-woche-8" class="nav-link" data-scroll-target="#woche-8">Woche 8</a></li>
+  <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
+  <li><a href="#projekt-2" id="toc-projekt-2" class="nav-link" data-scroll-target="#projekt-2">Projekt 2</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -254,7 +289,7 @@ ul.task-list li input[type="checkbox"] {
 <th style="text-align: center;">Slides</th>
 <th style="text-align: center;">Unterlagen</th>
 <th style="text-align: center;">Vorbereitung</th>
-<th style="text-align: center;">Nachbereitung</th>
+<th></th>
 </tr>
 </thead>
 <tbody>
@@ -262,89 +297,89 @@ ul.task-list li input[type="checkbox"] {
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Variablen und Conditionals</td>
 <td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
-<td style="text-align: center;"><i class="bi bi-file-earmark-check-fill"></i></td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Loops und Listen</td>
 <td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Funktionen und Projektauftrag</td>
 <td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
-<td style="text-align: center;"><i class="bi bi-file-earmark-check-fill"></i></td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">Projektarbei (asynchron)</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
+<td style="text-align: left;">Projekt 1 (asynchron)</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"><a href="#projekt-1"><i class="bi bi-folder-fill"></i></a></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">Algorithmen</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
-<td style="text-align: center;"><a href="#woche-8"><i class="bi bi-folder-fill"></i></a></td>
+<td style="text-align: left;">Überschlagen üben</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: left;">kgV und ggT</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_06.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">7</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: left;">Brüche addieren</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_07.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">8</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: left;">Brute force Gleichungen lösen &amp; Kombinatorik</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_08.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">9</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: left;">Projekt 2 (asynchron)</td>
 <td style="text-align: center;"></td>
+<td style="text-align: center;"><a href="#projekt-2"><i class="bi bi-folder-fill"></i></a></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">10</td>
-<td style="text-align: left;">1</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: left;">Algorithmen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_10.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">11</td>
 <td style="text-align: left;">Quarto</td>
-<td style="text-align: center;"><i class="bi bi-easel3-fill"></i></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -354,35 +389,39 @@ ul.task-list li input[type="checkbox"] {
 <h1>Wocheninhalte</h1>
 <section id="vorbereitungsauftrag---woche-1" class="level2">
 <h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</h2>
-<p>Im Fokus der Lerngelegenheit steht das Programmieren. Dafür müssen gewisse Programm installiert und konfiguriert sein.</p>
-<p>Installieren Sie <strong>vor</strong> der ersten Woche:</p>
-<ul>
-<li><a href="https://www.python.org/">Python</a></li>
-<li>Entweder <a href="https://posit.co/products/open-source/rstudio/">RStudio</a> oder <a href="https://code.visualstudio.com/">VSCode</a></li>
-</ul>
-<p>Bei technischen Schwierigkeiten dürfen Sie sich gerne an den Dozierenden wenden.</p>
-</section>
-<section id="vorbereitungsauftrag---woche-3" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-3">Vorbereitungsauftrag - Woche 3</h2>
+<p>Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie <strong>vor</strong> der ersten Woche Rstudio und Python auf Ihrem Computer.</p>
+<p>Grobe Installationsanleitung unter Windows:</p>
+<ol type="1">
+<li>Installieren Sie R, <a href="https://cran.rstudio.com/bin/windows/base/">Webseite</a>.</li>
+<li>Installieren Sie RStudio, <a href="https://posit.co/download/rstudio-desktop/">Webseite</a>.</li>
+<li>In der “Console” in Rstudio: <code>install.packages("reticulate")</code>.</li>
+<li>In der “Console” in Rstudio: <code>reticulate::install_miniconda()</code>.</li>
+</ol>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Hinweis
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.</p>
+</div>
+</div>
+<p>Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello, World!"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
-<section id="woche-8" class="level2">
-<h2 class="anchored" data-anchor-id="woche-8">Woche 8</h2>
-<section id="inhalte" class="level4">
-<h4 class="anchored" data-anchor-id="inhalte"><i class="bi-book " style="" role="img" aria-hidden="true"></i> Inhalte</h4>
-<ul>
-<li><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html" target="_blank"><i class="bi-projector " style="" role="img" aria-hidden="true"></i> Präsentationsfolien</a></li>
-<li>dsa</li>
-</ul>
+<section id="projekt-1" class="level2">
+<h2 class="anchored" data-anchor-id="projekt-1">Projekt 1</h2>
+<hr>
 </section>
-<section id="auftrag" class="level4">
-<h4 class="anchored" data-anchor-id="auftrag"><i class="bi-journal-check " style="" role="img" aria-hidden="true"></i>️ Auftrag</h4>
-<ul>
-<li>Bla</li>
-</ul>
+<section id="projekt-2" class="level2">
+<h2 class="anchored" data-anchor-id="projekt-2">Projekt 2</h2>
 
 
-</section>
 </section>
 </section>
 
