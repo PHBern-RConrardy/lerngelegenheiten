@@ -14,17 +14,12 @@ categories:
 [Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
 :::
 
-
-
-
-
-
 # Workload
+
 ::: {.callout-warning collapse="true"}
 ## Creative Commons
 
-Sie werden in dieser Lerngelegenheit Materialien unter eine CC BY-SA Lizenz stellen. Sie können mir von erwarten, dass ich *gute* Inhalte 
-
+Sie werden in dieser Lerngelegenheit Materialien unter eine CC BY-SA Lizenz stellen. Sie können mir von erwarten, dass ich *gute* Inhalte
 :::
 
 ## Fünf Lernkontrollen
@@ -33,14 +28,13 @@ Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine 
 
 Die Lernkontrollen sind unter der [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
 
-
 Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
 
-1.  Arithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse
-2.  Algebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen
-3.  Analysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)
-4.  Analysis: Lineare Funktionen
-5.  Geometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke
+1.  Zahl: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)
+2.  Variable: Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen
+3.  Grössen, Funktionen, Daten: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)
+4.  Grössen, Funktionen, Daten: Lineare Funktionen
+5.  Form und Raum: Flächen- und Volumenberechnungen, Dreiecke und Vierecke
 
 ------------------------------------------------------------------------
 
@@ -58,7 +52,6 @@ Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
 4.  Arithmetik und Algebra: Übersicht über alle Rechenregeln und Operationen (inkl. digitale Hilfsmittel)
 
 ------------------------------------------------------------------------
-
 
 # Theorie
 
@@ -137,6 +130,3 @@ Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht die o
 
 -   [Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr) <https://doi.org/10.1007/978-3-322-84149-0>
 -   [Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EfPsJp_cAKtOs3aFkBqVz2sBTwLukih_YaVThoKEJw7KuQ?e=6pDrx7) <https://doi.org/10.1007/BF00138871>
-
-
-

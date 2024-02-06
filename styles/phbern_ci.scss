@@ -309,3 +309,7 @@ h1.title small  {
 .callout.callout-style-default .callout-body {
   font-size: inherit;
 }
+
+h1, .quarto-title-banner {
+color: $titelfarbe!important;
+} 

@@ -42,7 +42,7 @@ authors:
 # Wochenüberblick
 
 | Woche | Thema                                        |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
-|:----------:|:-----------|:----------:|:----------:|:----------:|------------|
+|:-----:|:---------------------------------------------|:------------------------------------------------------------------:|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|-----|
 |   1   | Variablen und Conditionals                   | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
 |   2   | Loops und Listen                             | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
 |   3   | Funktionen und Projektauftrag                | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
@@ -52,8 +52,9 @@ authors:
 |   7   | Brüche addieren                              |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |                                                 |                                                                                  |     |
 |   8   | Brute force Gleichungen lösen & Kombinatorik |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                                 |                                                                                  |     |
 |   9   | Projekt 2 (asynchron)                        |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-2) |                                                                                  |     |
-|  10   | Algorithmen                                  |         [<i class="bi bi-easel3-fill"></i>](woche_10.qmd)          |                                                 |                                                                                  |     |
-|  11   | Quarto                                       |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          |                                                 |                                                                                  |     |
+|  10   | fällt im FS24 aus?                           |                                                                    |                                                 |                                                                                  |     |
+|  11   | Algorithmen                                  |         [<i class="bi bi-easel3-fill"></i>](woche_10.qmd)          |                                                 |                                                                                  |     |
+|  12   | Quarto                                       |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          |                                                 |                                                                                  |     |
 
 : {.striped .hover .table-sm}
 

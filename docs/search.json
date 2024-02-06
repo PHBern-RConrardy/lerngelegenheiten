@@ -648,7 +648,7 @@
     "href": "footer/impressum.html",
     "title": "Impressum",
     "section": "",
-    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nInhalte dieser Webseite, ausser sie werden explizit anders ausgewiesen, stehen unter folgender Lizenz:\nUniversity of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\nJoel Adler\n\nProgrammcode, falls nicht anders ausgewiesen, steht unter der GNU Affero General Public License, wie sie in der Datei LICENSE.txt im Repository zu finden ist.\n\n\n\nWiederverwendungCC BY-SA 4.0"
+    "text": "Es handelt sich weder um eine Zeitung, noch um eine Zeitschrift, gemäss Art. 322 StGB.\nAuf ein formelles Impressum wird verzichtet.\nDer Quellcode der Webseite, steht unter der GNU Affero General Public License, wie sie in der Datei LICENSE im Repository zu finden ist.\nSoweit nicht anders gekennzeichnet, stehen alle Inhalte auf dieser Website unter der Lizenz University of Teacher Education Bern, CC BY-SA 4.0\nFolgende Autoren verzichten auf Namensnennung bei Wiederverwendung:\n\nRichard François Conrardy\nJoel Adler\n\nAlle weiteren Inhalte, sowie die Marke PHBern sind von der vorliegenden Lizenz CC-BY 4.0 unberührt.\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "python/python.html",
@@ -900,7 +900,7 @@
     "href": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#fünf-lernkontrollen",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Fünf Lernkontrollen",
-    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter der CC-BY-SA 4.0 Lizenz didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nArithmetik: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse\nAlgebra: Einführung in algebraische Ausdrück, Lösen einfacher Gleichungen, Ungleichungen\nAnalysis: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nAnalysis: Lineare Funktionen\nGeometrie: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
+    "text": "Fünf Lernkontrollen\nSie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.\nDie Lernkontrollen sind unter der CC-BY-SA 4.0 Lizenz didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.\nTeilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:\n\nZahl: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)\nVariable: Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen\nGrössen, Funktionen, Daten: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)\nGrössen, Funktionen, Daten: Lineare Funktionen\nForm und Raum: Flächen- und Volumenberechnungen, Dreiecke und Vierecke"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html#vier-produkte-und-eine-prozessbeurteilung",
@@ -1307,5 +1307,12 @@
     "title": "Inhalte effizient onlinebringen",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
+  },
+  {
+    "objectID": "footer/disclaimer.html",
+    "href": "footer/disclaimer.html",
+    "title": "Disclaimer",
+    "section": "",
+    "text": "Meine Website enthält Verknüpfungen zu Webseiten Dritter (sog. „externe Links“) Da ich auf deren Inhalte keinen Einfluss habe, kann für die fremden Inhalte keine Gewähr übernommen werden.\nFür die Inhalte und Richtigkeit der Informationen ist stets der jeweilige Informationsanbieter der verlinkten Webseite verantwortlich.\nExterne Links entziehen sich, wenn nicht anderes kennzeichnet, der OER Lizenz.\n\n\n\nWiederverwendungCC BY-SA 4.0"
   }
 ]

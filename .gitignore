@@ -1,4 +1,4 @@
-.Rproj.user
+.Rproj.user/**
 .Rhistory
 .RData
 .Ruserdata
@@ -9,3 +9,4 @@
 
 .quarto
 _publish.yml
+.Rproj.user
