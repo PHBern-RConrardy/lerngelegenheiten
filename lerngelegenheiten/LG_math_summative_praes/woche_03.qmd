@@ -100,7 +100,6 @@ classDef padding stroke:none,fill:none
 
 class main title
 class padding padding
-  
 ```
 
 ::: quelle

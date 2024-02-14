@@ -16,40 +16,57 @@ categories:
 
 # Workload
 
-::: {.callout-warning collapse="true"}
-## Creative Commons
+::: {.callout-tip collapse="true"}
+## SOL $\neq$ alleingelassen
 
-Sie werden in dieser Lerngelegenheit Materialien unter eine CC BY-SA Lizenz stellen. Sie können mir von erwarten, dass ich *gute* Inhalte
+Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, reguli-e ren und beurteilen." [@hilbe_selbst_2011, S.8]
+
+Dem Dozierenden "kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für das Gelingen des Lernprozesses zu schaffen, Lernstrategien zu vermitteln und die Schülerinnen und Schüler bei Schwierigkeiten zu unterstützen." [@hilbe_selbst_2011, S.8]
+
+Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es inhaltlich, organisatorisch oder anderer Art.
+
+:::
+
+::: {.callout-warning collapse="true"}
+## Open Educational Resources (OER)
+
+Sie werden in dieser Lerngelegenheit Materialien unter eine [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) stellen. Sie entscheiden selbst wer seinen Namen in welcher Reihenfolge auf dem Material haben möchte oder welcher weggelassen wird. Die Materialien werden von mir einheitlich Layoutet und gemäss der Lizenz ins Web gestellt, damit andere davon profitieren können.
+
+Beachten Sie das [URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) und geben Sie bei selbsterstellten Graphiken (z.B. Funktionsgraphen) eine Anleitung welche ausreicht um die Graphen neu zu erstellen.
+
+Hinweis: Es ist unwahrscheinlich, dass Sie [Zitatrecht](https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken) in Anspruch nehmen können in diesem Setting.
 :::
 
 ## Fünf Lernkontrollen
 
-Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **7. Klasse** im deutschsprachigen Teil des Kantons Bern.
+Sie (alle Teilnehmende) erstellen gemeinsam (alle) fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **7. Klasse** im deutschsprachigen Teil des Kantons Bern.
 
-Die Lernkontrollen sind unter der [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+Die Lernkontrollen sind unter der [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
 
 Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
 
-1.  Zahl: Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)
-2.  Variable: Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen
-3.  Grössen, Funktionen, Daten: Funktionen (inkl. leichtem Zusammenhang mit Programmieren)
-4.  Grössen, Funktionen, Daten: Lineare Funktionen
-5.  Form und Raum: Flächen- und Volumenberechnungen, Dreiecke und Vierecke
+1.  Zahl und Variable (Arithmetik): Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)
+2.  Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen
+3.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. leichtem Zusammenhang mit Programmieren)
+4.  Grössen, Funktionen, Daten und Zufall (Analysis): Lineare Funktionen
+5.  Form und Raum (Geometrie): Flächen- und Volumenberechnungen, Dreiecke und Vierecke
 
 ------------------------------------------------------------------------
 
 ## Vier Produkte und eine Prozessbeurteilung
 
-Sie (alle Teilnehmende) erstellen gemeinsam alle 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) 7. Klasse im deutschsprachigen Teil des Kantons Bern.
+Sie (alle Teilnehmende) erstellen gemeinsam (alle) 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **7. Klasse** im deutschsprachigen Teil des Kantons Bern.
 
-Die Produktbeurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Sie müssen in maximal zwei Schulwochen effizient durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+Die Beurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+
+Die Prozessbeurteilung ist verbunden mit, und abhängig von, einer Produktbeurteilung Ihrer Wahl. Tauschen Sie sich mit dem jeweiligen Team aus. Beachten Sie die 5 Aspekte der Prozessbeurteilung und grenzen Sie sie klar ab von der Produktbeurteilung.  
 
 Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
 
-1.  Analysis: Funktionen (inkl. Programmieren)
-2.  Geometrie: Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)
-3.  Stochastik & Kombinatorik und beschreibende Statistik: Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)
-4.  Arithmetik und Algebra: Übersicht über alle Rechenregeln und Operationen (inkl. digitale Hilfsmittel)
+1.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. Programmieren)
+2.  Form und Raum (Geometrie): Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)
+3.  Grössen, Funktionen, Daten und Zufall (Stochastik & Kombinatorik und beschreibende Statistik): Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)
+4.  Zahl und Variable (Arithmetik und Algebra): Übersicht über alle bekannten Rechenregeln und Operationen (inkl. digitale Hilfsmittel)
 
 ------------------------------------------------------------------------
 
@@ -74,10 +91,10 @@ Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
 
 ## Reichhaltige Aufgaben
 
--   Lesen Sie @hirt2018 und überlegen Sie wie "bedeutsam" in folgendem Zitat definiert ist: "Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule DVBS vom 6.3.2018, Artikel 3 – https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung."
+-   Lesen Sie @hirt2018 und überlegen Sie wie "bedeutsam" in folgendem Zitat definiert ist: "Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe [DVBS](https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de)), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung."
 -   Lesen Sie @nydegger2019 und argumentieren Sie in wiefern sie vereinbar ist mit den Merkmalen.
 -   Lesen Sie die @erziehungsdirektiondeskantonsbern und überlegen Sie in wiefern reichhaltige Aufgaben in die summativen Beurteilung einfliessen können.
--   Lesen Sie alle Teile der @hirt2022 welche sich auf die summative Beurteilung im Zyklus 3 beziehen.
+-   Lesen Sie alle Teile in @hirt2022 welche sich auf die summative Beurteilung im Zyklus 3 beziehen.
 -   Lesen Sie @eckhart2020 (Kapitel 3.1) zu den vier Merkmalen reichhaltiger Aufgaben.
 
 #### Materialien
@@ -91,11 +108,10 @@ Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
 
 ## Core mathematics vs. mathematical science
 
-Lesen Sie Quinn (2012). Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: \* Inwiefern haben Sie Unterricht im Sinne von *Core Mathematics*, bzw. im Sinne von *Mathematical Science* erhalten? \* An welchen konkreten Beispielen machen Sie dies fest?
+Lesen Sie @quinn_revolution_2012. Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: \* Inwiefern haben Sie Unterricht im Sinne von *Core Mathematics*, bzw. im Sinne von *Mathematical Science* erhalten? \* An welchen konkreten Beispielen machen Sie dies fest?
 
 #### Inhalt und Unterlagen
 
--   [Auftrag (Videoerklärung)](https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/Eb3k-J6144BFkX5WH8Ddq8cBcOlSlOkSSCscrkDovcTYog?e=COFJ0j)
 -   [Padlet](https://phbern.padlet.org/richardconrardy/padlet-zu-quinn-2012-iodxajz5mvihuipp)
 -   [Quinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. Notices of the American Mathematical Society, 59(01), 31.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQtQpV3Gx8BBo2ZpG5S866ABLB2eppux-YnON8M4Y9W0bA?e=YiBnAx) <https://doi.org/10.1090/noti787>
 
@@ -126,7 +142,7 @@ Lesen Sie @vandormolen1978 Kapitel 4.2, es beschreibt nach welchen Kriterien Sie
 
 @biggs1996 beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.
 
-Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht die ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.
+Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.
 
 -   [Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr) <https://doi.org/10.1007/978-3-322-84149-0>
 -   [Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EfPsJp_cAKtOs3aFkBqVz2sBTwLukih_YaVThoKEJw7KuQ?e=6pDrx7) <https://doi.org/10.1007/BF00138871>
