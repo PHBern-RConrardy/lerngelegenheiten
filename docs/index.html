@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./images/penguin.png" rel="icon" type="image/png">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -49,13 +47,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "Keine Treffer",
     "search-matching-documents-text": "Treffer",
@@ -64,81 +56,22 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "weitere Treffer in diesem Dokument",
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Abbrechen",
     "search-submit-button-title": "Abschicken",
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./images/penguin.png" alt="" class="navbar-logo">
     </a>
@@ -150,58 +83,58 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html"> <i class="bi bi-calculator-fill" role="img">
+    <a class="nav-link" href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html" rel="" target=""><i class="bi bi-calculator-fill" role="img">
 </i> 
-<span class="menu-text">MA-KI</span></a>
+ <span class="menu-text">MA-KI</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lerngelegenheiten/LG_stand_testverfahren/stand_test.html"> <i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="nav-link" href="./lerngelegenheiten/LG_stand_testverfahren/stand_test.html" rel="" target=""><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
-<span class="menu-text">ESW-Testv.</span></a>
+ <span class="menu-text">ESW-Testv.</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./lerngelegenheiten/LG_learning_analytics/learning_analytics.html"> <i class="bi bi-graph-up" role="img">
+    <a class="nav-link" href="./lerngelegenheiten/LG_learning_analytics/learning_analytics.html" rel="" target=""><i class="bi bi-graph-up" role="img">
 </i> 
-<span class="menu-text">Learning Analytics</span></a>
+ <span class="menu-text">Learning Analytics</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-math.-mikropl." role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-math.-mikropl." role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
       <i class="bi bi-arrows-angle-contract" role="img">
 </i> 
  <span class="menu-text">Math. Mikropl.</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-math.-mikropl.">    
         <li>
-    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html" rel="" target=""><i class="bi bi-building-fill" role="img">
 </i> 
  <span class="dropdown-text">Präsenzkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
+    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/blockkurs.html" rel="" target=""><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
  <span class="dropdown-text">Blockkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
+    <a class="dropdown-item" href="./lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html" rel="" target=""><i class="bi bi-mouse2-fill" role="img">
 </i> 
  <span class="dropdown-text">Selbstorganisiertes Lernen</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-math.-summ.-beurt." role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-math.-summ.-beurt." role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
       <i class="bi bi-file-earmark-check-fill" role="img">
 </i> 
  <span class="menu-text">Math. summ. Beurt.</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-math.-summ.-beurt.">    
         <li>
-    <a class="dropdown-item" href="./lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="./lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html" rel="" target=""><i class="bi bi-building-fill" role="img">
 </i> 
  <span class="dropdown-text">Präsenzveranstaltung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html"><i class="bi bi-mouse2-fill" role="img">
+    <a class="dropdown-item" href="./lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html" rel="" target=""><i class="bi bi-mouse2-fill" role="img">
 </i> 
  <span class="dropdown-text">Selbstorganisiertes Lernen</span></a>
   </li>  
@@ -210,20 +143,20 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./python/python.html"> <i class="bi bi-terminal-fill" role="img">
+    <a class="nav-link" href="./python/python.html" rel="" target=""><i class="bi bi-terminal-fill" role="img">
 </i> 
-<span class="menu-text">Python</span></a>
+ <span class="menu-text">Python</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-luggage-fill" role="img">
+    <a class="nav-link" href="./tagungsunterlagen/tagungsunterlagen.html" rel="" target=""><i class="bi bi-luggage-fill" role="img">
 </i> 
-<span class="menu-text">Tagungen</span></a>
+ <span class="menu-text">Tagungen</span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
-    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -241,16 +174,16 @@ window.Quarto = {
     <div class="quarto-title-meta-heading">Zugehörigkeit</div>
     
       <div class="quarto-title-meta-contents">
-      <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
     </div>
-    <div class="quarto-title-meta-contents">
+      <div class="quarto-title-meta-contents">
           <p class="affiliation">
               <a href="https://www.phbern.ch">
               University of Teacher Education Bern
               </a>
             </p>
         </div>
-    </div>
+      </div>
 
   <div class="quarto-title-meta">
 
@@ -265,7 +198,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(23)</span></div><div class="category" data-category="Digitalität">Digitalität <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Formative Beurteilung">Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Summative und prognostische Beurteilung">Summative und prognostische Beurteilung <span class="quarto-category-count">(4)</span></div><div class="category" data-category="bereit für FS24">bereit für FS24 <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -275,230 +208,7 @@ window.Quarto = {
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
-       <option value="index" data-direction="asc">Voreinstellung</option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titel
-        </option>
-         <option value="listing-author" data-direction="asc">
-          Autor:in
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-author" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Autor:in</a>
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1706788953805" data-listing-reading-time-sort="1" data-listing-word-count-sort="186" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_01.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_01.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-file-modified-sort="1706798934974" data-listing-reading-time-sort="2" data-listing-word-count-sort="204" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_02.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_02.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-file-modified-sort="1707396496347" data-listing-reading-time-sort="2" data-listing-word-count-sort="389" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_03.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_03.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-file-modified-sort="1706798945908" data-listing-reading-time-sort="2" data-listing-word-count-sort="282" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_07.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_07.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-file-modified-sort="1706798949686" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_08.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_08.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-file-modified-sort="1706798953516" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="<small>Summative Beurteilung im Mathematikunterricht</small>" data-listing-filename-sort="woche_09.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/woche_09.html" class="title listing-title"><small>Summative Beurteilung im Mathematikunterricht</small></a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="6" data-categories="Summative und prognostische Beurteilung,bereit für FS24" data-listing-file-modified-sort="1707119976493" data-listing-reading-time-sort="1" data-listing-word-count-sort="150" data-listing-title-sort="Chancen und Risiken standardisierter Testverfahren und Leistungsmessung" data-listing-filename-sort="stand_test.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_stand_testverfahren/stand_test.html" class="title listing-title">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="7" data-categories="Formative Beurteilung,Digitalität" data-listing-file-modified-sort="1707214149839" data-listing-reading-time-sort="3" data-listing-word-count-sort="421" data-listing-title-sort="Learning Analytics" data-listing-filename-sort="learning_analytics.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_learning_analytics/learning_analytics.html" class="title listing-title">Learning Analytics</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-file-modified-sort="1706038473538" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="blockkurs.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_mikroplanung_math/blockkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="9" data-listing-file-modified-sort="1706038459278" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="mikro_sol.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html" class="title listing-title">Mikroplanung Mathematik</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="10" data-listing-file-modified-sort="1706184368696" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="praesenzkurs.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html" class="title listing-title">Mikroplanung Mathematik</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="11" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1707494820735" data-listing-reading-time-sort="4" data-listing-word-count-sort="645" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_praes.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="12" data-categories="Summative und prognostische Beurteilung" data-listing-file-modified-sort="1707898978011" data-listing-reading-time-sort="6" data-listing-word-count-sort="1063" data-listing-title-sort="Summative Beurteilung im Mathematikunterricht" data-listing-filename-sort="math_summ_sol.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html" class="title listing-title">Summative Beurteilung im Mathematikunterricht</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="13" data-categories="Formative Beurteilung,Summative und prognostische Beurteilung,Digitalität,bereit für FS24" data-listing-file-modified-sort="1707223501350" data-listing-reading-time-sort="13" data-listing-word-count-sort="2536" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="math_ki.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="14" data-listing-file-modified-sort="1707127403763" data-listing-reading-time-sort="3" data-listing-word-count-sort="563" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_01.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="15" data-listing-file-modified-sort="1707127407334" data-listing-reading-time-sort="4" data-listing-word-count-sort="711" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_02.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="16" data-listing-file-modified-sort="1707127412864" data-listing-reading-time-sort="2" data-listing-word-count-sort="287" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_03.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="17" data-listing-file-modified-sort="1707127427327" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_05.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="18" data-listing-file-modified-sort="1707127431897" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_06.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_06.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="19" data-listing-file-modified-sort="1707127435638" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_07.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_07.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="20" data-listing-file-modified-sort="1707127440632" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_08.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_08.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="21" data-listing-file-modified-sort="1707127470583" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_10.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_10.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-<tr data-index="22" data-listing-file-modified-sort="1707127475216" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Verstehensorientiert prüfen in Zeiten von KI" data-listing-filename-sort="woche_11.qmd">
-<td>
-<a href="./lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html" class="title listing-title">Verstehensorientiert prüfen in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-author">Richard Conrardy, Joel Adler <br> Richard Conrardy</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-Keine Treffer
-</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -578,27 +288,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
-    }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-          // target, if specified
-          link.setAttribute("target", "_blank");
-          if (link.getAttribute("rel") === null) {
-            link.setAttribute("rel", "noopener");
-          }
-      }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -608,17 +301,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -631,125 +315,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -793,7 +358,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -819,32 +383,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -902,6 +440,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 </div> <!-- /content -->
@@ -910,28 +462,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="https://www.phbern.ch/">
-<p>PHBern</p>
-</a>
+    <a class="nav-link" href="https://www.phbern.ch/">PHBern</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./footer/impressum.html">
-<p>Impressum</p>
-</a>
+    <a class="nav-link" href="./footer/impressum.html">Impressum</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./footer/disclaimer.html">
-<p>Disclaimer</p>
-</a>
+    <a class="nav-link" href="./footer/disclaimer.html">Disclaimer</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
-<p>Kontakt</p>
-</a>
+    <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Kontakt</a>
   </li>  
 </ul>
     </div>
@@ -944,7 +488,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-
 
 
 

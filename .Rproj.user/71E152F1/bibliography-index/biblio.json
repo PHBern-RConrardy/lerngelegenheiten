@@ -21974,6 +21974,454 @@
             "title": "Hat ChatGPT eine Zukunft in der Mathematik?",
             "type": "article-journal",
             "volume": "31"
+        },
+        {
+            "URL": "https://www.bernerzeitung.ch/vieles-was-wir-frueher-einueben-mussten-macht-heute-die-maschine-706462600086",
+            "author": [
+                {
+                    "family": "Jones",
+                    "given": "Naomi"
+                }
+            ],
+            "container-title": "Berner Zeitung",
+            "id": "jones_was_2022-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        12,
+                        13
+                    ]
+                ]
+            },
+            "page": "3",
+            "title": "Was wir einst einübten, macht heute die maschine",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1207/s15430421tip4002_2",
+            "ISSN": "0040-5841, 1543-0421",
+            "URL": "http://www.tandfonline.com/doi/abs/10.1207/s15430421tip4002_2",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        10
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Herrera",
+                    "given": "Terese A."
+                },
+                {
+                    "family": "Owens",
+                    "given": "Douglas T."
+                }
+            ],
+            "container-title": "Theory Into Practice",
+            "container-title-short": "Theory Into Practice",
+            "id": "herrera_new_2001",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        5
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "84-92",
+            "title": "The \"new new math\"?: Two reform movements in mathematics education",
+            "title-short": "The \"new new math\"?",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "abstract": "New competency-based examinations have recently been introduced in many federal states in Germany. In order to test the effectiveness of these new style examinations, 11th grade students (age 16 years) were asked to complete analysis tasks in maths without having been taught the topic of the exam. The tasks in the questions were examples taken from the new exam of the German Zentralabitur, which is usually written by students in Grade 13 when they are aged 18-19 years. As a comparative test, these students were also asked to complete analysis tasks taken from exams written before the introduction of this German Zentralabitur. Only two students out of a total of 18 failed the newly introduced competency-based task exam. The results from the comparative exam revealed that the students were unable to achieve a sufficient grade. Sixty three per cent of them achieved the lowest grade, “ungenügend” (6) on the typical German 6-scale grading. This was because the students were unable to answer the questions. Furthermore, the evaluation of the competency-based tasks and additional work sheet material provided showed that most of the information necessary to answer the questions correctly was provided for the students, in detailed descriptions, figures and tables. Thus, reading competence and everyday knowledge, not mathematical understanding, was entirely sufficient to fulfil most of the tasks successfully. Even basic mathematical knowledge was redundant. On the other hand, this study has demonstrated that 11th graders are not able to cope with the much more challenging mathematical tasks dating from the time before the introduction of competency based learning. Hence the study has revealed that this kind of competence orientation applied to the German Zentralabitur evidently achieves a levelling effect, even in mathematics.",
+            "author": [
+                {
+                    "family": "Klein",
+                    "given": "Hans Peter"
+                },
+                {
+                    "family": "Jahnke",
+                    "given": "Thomas"
+                }
+            ],
+            "container-title": "Journal für Didaktik der Biowissenschaften (F)",
+            "id": "klein_folgen_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "1-9",
+            "title": "Die Folgen der Kompetenzorientierung im Fach Mathematik The consequences of competence orientation in maths",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1515/dmvm-2015-0066",
+            "ISSN": "0942-5977",
+            "URL": "https://www.degruyter.com/document/doi/10.1515/dmvm-2015-0066/html",
+            "abstract": "Article Zehn unbequeme Fragen zur Kompetenzorientierung des Mathematikunterrichts was published on September 18, 2015 in the journal Mitteilungen der Deutschen Mathematiker-Vereinigung (volume 23, issue 3).",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        12
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wiechmann",
+                    "given": "Ralf"
+                },
+                {
+                    "family": "Bandelt",
+                    "given": "Hans-Jürgen"
+                }
+            ],
+            "container-title": "Mitteilungen der Deutschen Mathematiker-Vereinigung",
+            "id": "wiechmann_zehn_2015",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        9,
+                        18
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Publisher: De Gruyter",
+            "page": "176-180",
+            "title": "Zehn unbequeme fragen zur kompetenzorientierung des mathematikunterrichts",
+            "type": "article-journal",
+            "volume": "23"
+        },
+        {
+            "author": [
+                {
+                    "family": "Hussmann",
+                    "given": "Stephan"
+                }
+            ],
+            "container-title": "Beiträgen zum Mathematikunterricht",
+            "id": "hussmann_kontexte_2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "title": "Kontexte und Kernprozesse – Aspekte eines theoriegeleiteten und praxiserprobten Schulbuchkonzepts",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.25656/01:13921",
+            "ISSN": "0259-353X",
+            "URL": "https://www.pedocs.de/frontdoor.php?source_opus=13921",
+            "abstract": "The EDAMA framework model for reflection is presented on the basis of an understanding of reflection which sees reflection as the mental process of trying to structure or restructure. This model is supposed to provide a framework which demonstrates how reflection can basically manifest itself. Three structural elements form its skeleton: (1) five phases of reflection, (2) two directions of view as well as (3) two aspects of thinking activity. This structuring yields different domains of reflection (characterized by 15 categories of reflection) which are arranged in a non-hierarchical order. By means of the framework model with its structural elements and the categories of reflection, an elaborate understanding of reflection can be established, on the one hand. On the other hand, the model lays a basis for a more accurate analysis of reflections.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Aeppli",
+                    "given": "Jürg"
+                },
+                {
+                    "family": "Lötscher",
+                    "given": "Hanni"
+                }
+            ],
+            "id": "aeppli_edama_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "keyword": "370 Education, 370 Erziehung, Schul- und Bildungswesen, Lehrerbildung, Teacher education, Teachers’ training, Reflexionsvermögen",
+            "language": "de-DE",
+            "note": "Publisher: Schweizerische Gesellschaft für Lehrerinnen- und Lehrerbildung (SGL) : Langnau, Emmental",
+            "title": "EDAMA - Ein Rahmenmodell für Reflexion",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "978-0-88937-248-1",
+            "abstract": "Discusses the concept of competence, mentioning specific competencies including: economic, technological, technical, and methodological competencies; social competencies; creativity and innovation skills; and mobility and flexibility combined with persistence, reliability, and precision. The variety of meanings given to the concept of competence is seen not only in its many uses, but also in the construction of terminology to express competence, such as media competence, business competence, traffic competence, age competence, and also cognitive, social, motivational, personal, an other competencies. This chapter contains 7 different ways in which competence has been defined, described, or interpreted theoretically. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "author": [
+                {
+                    "family": "Weinert",
+                    "given": "Franz E."
+                }
+            ],
+            "container-title": "Defining and selecting key competencies",
+            "id": "weinert_concept_2001",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001
+                    ]
+                ]
+            },
+            "keyword": "Cognitive Ability, Competence, Concepts, Meaning, Theoretical Interpretation",
+            "page": "45-65",
+            "publisher": "Hogrefe & Huber Publishers",
+            "publisher-place": "Ashland, OH, US",
+            "title": "Concept of competence: A conceptual clarification",
+            "title-short": "Concept of competence",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-0-88937-248-1",
+            "abstract": "Though literacy has been measured throughout Organisation for Economic Co-operation and Development (OECD) countries, and indeed, the world, we are still far from assessing a comprehensive set of competencies, particularly key competencies. The project Definition and Selection of Competencies: Theoretical and Conceptual Foundations (DeSeCo), under the auspices of the OECD, is led by the Swiss Federal Statistical Office in collaboration with the US Department of Education, National Center for Education Statistics. Its goal is to conduct research that will help foster the development of the needed framework for defining and selecting key competencies. The contributions published in this volume represent the result of the scholarly work conducted during the 1st phase of the DeSeCo project. This book sounds out perspectives on competencies from different academic principles, as well as from various areas of policy and practice. (PsycInfo Database Record (c) 2022 APA, all rights reserved)",
+            "collection-title": "Defining and selecting key competencies",
+            "id": "rychen_defining_2001",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001
+                    ]
+                ]
+            },
+            "keyword": "Cognitive Ability, Competence, Theoretical Interpretation, Literacy, Self-Management",
+            "note": "Pages: xii, 251",
+            "number-of-pages": "xii, 251",
+            "publisher": "Hogrefe & Huber Publishers",
+            "publisher-place": "Ashland, OH, US",
+            "title": "Defining and selecting key competencies",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Linneweber-Lammerskitten",
+                    "given": "Helmut"
+                },
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                },
+                {
+                    "family": "Moser Opitz",
+                    "given": "Elisabeth"
+                }
+            ],
+            "id": "linneweber-lammerskitten_mathematik_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        12,
+                        13
+                    ]
+                ]
+            },
+            "title": "Mathematik wissenschaftlicher kurzbericht und kompetenzmodell",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-407-29318-3 978-3-407-25690-4",
+            "collection-title": "Pädagogik",
+            "edition": "3., aktualisierte Aufl",
+            "editor": [
+                {
+                    "family": "Weinert",
+                    "given": "Franz E."
+                }
+            ],
+            "id": "weinert_leistungsmessungen_2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "number-of-pages": "398",
+            "publisher": "Beltz",
+            "publisher-place": "Weinheim Basel",
+            "title": "Leistungsmessungen in schulen",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1016/j.caeai.2023.100198",
+            "ISSN": "2666920X",
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S2666920X23000772",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Essel",
+                    "given": "Harry Barton"
+                },
+                {
+                    "family": "Vlachopoulos",
+                    "given": "Dimitrios"
+                },
+                {
+                    "family": "Essuman",
+                    "given": "Albert Benjamin"
+                },
+                {
+                    "family": "Amankwa",
+                    "given": "John Opuni"
+                }
+            ],
+            "container-title": "Computers and Education: Artificial Intelligence",
+            "container-title-short": "Computers and Education: Artificial Intelligence",
+            "id": "essel_chatgpt_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        6
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "100198",
+            "title": "ChatGPT effects on cognitive skills of undergraduate students: Receiving instant responses from AI-based conversational large language models (LLMs)",
+            "title-short": "ChatGPT effects on cognitive skills of undergraduate students",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "author": [
+                {
+                    "family": "Kuratle",
+                    "given": "R."
+                },
+                {
+                    "family": "Balmer",
+                    "given": "T."
+                }
+            ],
+            "id": "kuratle_kompetenzorientierte_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        19
+                    ]
+                ]
+            },
+            "publisher": "Institut für Weiterbildung und Medienbildung",
+            "title": "Kompetenzorientierte beurteilung an der volksschule des kantons bern",
+            "type": ""
+        },
+        {
+            "URL": "https://be.lehrplan.ch/lehrplan_printout.php?e=1&k=1",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        21
+                    ]
+                ]
+            },
+            "editor": [
+                {
+                    "literal": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektion_des_kantons_bern_lehrplan_2016-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        6,
+                        23
+                    ]
+                ]
+            },
+            "title": "Lehrplan 21 gesamtausgabe",
+            "type": ""
+        },
+        {
+            "ISBN": "978-1-5108-6096-4",
+            "URL": "https://dl.acm.org/doi/pdf/10.5555/3295222.3295349",
+            "abstract": "The dominant sequence transduction models are based on complex recurrent or convolutional neural networks that include an encoder and a decoder. The best performing models also connect the encoder and decoder through an attention mechanism. We propose a new simple network architecture, the Transformer, based solely on attention mechanisms, dispensing with recurrence and convolutions entirely. Experiments on two machine translation tasks show these models to be superior in quality while being more parallelizable and requiring signiﬁcantly less time to train. Our model achieves 28.4 BLEU on the WMT 2014 Englishto-German translation task, improving over the existing best results, including ensembles, by over 2 BLEU. On the WMT 2014 English-to-French translation task, our model establishes a new single-model state-of-the-art BLEU score of 41.0 after training for 3.5 days on eight GPUs, a small fraction of the training costs of the best models from the literature.",
+            "author": [
+                {
+                    "family": "Vaswani",
+                    "given": "Ashish"
+                },
+                {
+                    "family": "Shazeer",
+                    "given": "Noam"
+                },
+                {
+                    "family": "Parmar",
+                    "given": "Niki"
+                },
+                {
+                    "family": "Uszkoreit",
+                    "given": "Jakob"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Llion"
+                },
+                {
+                    "family": "Gomez",
+                    "given": "Aidan N"
+                },
+                {
+                    "family": "Kaiser",
+                    "given": "Łukasz"
+                },
+                {
+                    "family": "Polosukhin",
+                    "given": "Illia"
+                }
+            ],
+            "container-title": "Advances in neural information processing systems 30",
+            "event": "31st conference on neural information processing systems",
+            "id": "vaswani_attention_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "5999-6010",
+            "publisher-place": "CA, USA",
+            "title": "Attention is all you need",
+            "type": "paper-conference",
+            "volume": "30"
         }
     ],
     "project_biblios": [

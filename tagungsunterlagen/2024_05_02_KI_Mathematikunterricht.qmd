@@ -1,0 +1,111 @@
+---
+format: revealjs
+title: KI im Mathematikunterricht
+date: 02 05 2024
+---
+
+# Was ist KI?
+
+## Machine Learning (ML)
+
+```{mermaid}
+%%| mermaid-format: png
+flowchart TD
+  A[Architektur];
+  TD[Training Data];
+  T[Tags];
+  F[Feedback];
+  App[Applikation];
+  P[Prompt]
+  K[Context]
+  O[Output]
+  Pa[Parameter]
+  R[Regeln]
+  I[Instruktionen]
+  SM[Sprachmodell]
+  UI[User Interface]
+    
+    
+    Training-->Pa;
+    A-->SM;
+    Pa-->SM;
+    SM-->App;
+    Anbieter-->App;
+    Userdata-->UI;
+    App-->UI;
+    UI-->O;
+    
+  subgraph Anbieter
+    R;
+    I;
+  end
+  subgraph Hersteller
+    A;
+    TD;
+    T;
+    F;
+    Pa;
+    subgraph Training
+    TD;
+    T;
+    F;
+    end
+  end
+  subgraph Userdata
+    P;
+    K;
+  end
+```
+
+## Künstliche Intelligenz 
+
+
+
+* Attention is all you need @vaswani_attention_2017
+* Transformer
+* Temperature [vgl. @wolfram_what_2023 ]
+
+* Generative KI
+* Large Language Models
+* Multimodal AI
+
+* $\Rightarrow ML \supset KI\,?$
+
+# KI Applikationen
+
+# Problematische Erklärversuche von KI 
+
+# KI in der Beurteilung
+
+## Formative Beurteilung
+
+
+"Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt."
+
+:::quelle
+ [Wälti in @jones_was_2022,S.3]
+:::
+
+"Es soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen"
+
+:::quelle
+[@kuratle_kompetenzorientierte_2021,S.10]
+:::
+
+
+https://www.fiete.ai/
+
+“[...] Schulen weder eine Generation von Fachidioten noch eine Generation geschwätziger Dilletanten [sic] ausbilden sollten.” 
+
+:::quelle
+[@weinert_leistungsmessungen_2014,S.28]
+:::
+
+*rechtliche* und **ethische** Probleme ...
+
+## Summative Beurteilung
+
+
+
+
+## Bibliographie {.unlisted}

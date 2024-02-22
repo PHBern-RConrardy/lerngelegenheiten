@@ -11,7 +11,7 @@ format: revealjs
 <br>
 
 ::: {style="text-align: center;"}
-[Organisationsblatt](){.knopf target="_blank" }
+[Organisationsblatt](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/Pr%C3%A4senzkurs_Schreibrechte_Studierende/Organisationsblatt_Summ_Praes.xlsx?d=wf606fa7c49d4435a8505a9f2c621dd67&csf=1&web=1&e=czb7Xz){.knopf target="_blank" }
 :::
 
 # Theorie
@@ -29,7 +29,7 @@ b.  lernzielorientiert,
 c.  umfassend, \[...\]
 d.  transparent und nachvollziehbar.
 
-::: blockquote-footer
+:::quelle
 @erziehungsdirektiondeskantonsbern2022
 :::
 :::
@@ -42,7 +42,7 @@ d.  transparent und nachvollziehbar.
 -   Transparenz / Nachvollziehbarkeit: \[...\]
 -   Umfassende Beurteilung: \[...\]
 
-::: blockquote-footer
+::: quelle
 @erziehungsdirektiondeskantonsbern2016
 :::
 :::
@@ -56,13 +56,18 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 -   students need to be placed in situations that are judged likely to elicit the required learnings.
 -   students are then required to provide evidence, either by self-set or teacher-set tasks, \[...\]
 
-::: blockquote-footer
+:::quelle
 [@biggs1996 S.30-31]
 :::
 
 ## Förderkreislauf
 
-![](../images/foerderkreislauf.svg){width="100%" fig-align="center"}
+
+![](images/foerderkreislauf.svg){width="100%" fig-align="center"}
+
+:::quelle
+@kuratle_kompetenzorientierte_2021
+:::
 
 ## Kriterien zur Auswahl von Schulstoff
 
@@ -71,7 +76,7 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 -   Der Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.
 -   Der Lehrstoff muss den gestellten Zielen entsprechen.
 
-::: blockquote-footer
+:::quelle
 [@vandormolen1978, S.36]
 :::
 
@@ -79,7 +84,7 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 
 ## Auftrag auf Woche 8
 
-<iframe src="https://phbern-rconrardy.quarto.pub/math_summative_praes/math_summ_praes.html" width="100%" height="50%" frameborder="0" allowfullscreen></iframe>
+<iframe src="https://phbern-rconrardy.github.io/lerngelegenheiten/lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#f%C3%BCnf-lernkontrollen" width="100%" height="50%" frameborder="0" allowfullscreen></iframe>
 
 
 ## Bibliographie {.unnumbered .unlisted}

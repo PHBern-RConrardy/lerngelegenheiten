@@ -1,7 +1,32 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
 format: revealjs
-author: Joel Adler <br> Richard Conrardy
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+      - name: Joel Adler
+        email: joel.adler@phbern.ch
+        degrees: Dr.
+        url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+      - name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        id: 00383195
+        email: richard.conrardy@phbern.ch
+        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+        affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
 
 footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
 ---
@@ -20,8 +45,6 @@ können selbstentwickelte Algorithmen in Form von **lauffähigen und korrekten C
 :::
 :::
 
-* Sie benennen die vier wichtigsten Datentypen und können diese (falls nötig) umwandeln.
-
 ## Was sind Variablen?
 
 Eine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).
@@ -35,9 +58,9 @@ print(name) # Output: 3
 
 name = input("Gib deinen Namen ein: ") # Benutzereingabe
 print("Dein Name ist: " + name) # Output: ?
-````
+```
 
-(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. nameOhneLetzerBuchstabe = “Christia”)
+(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. name_Ohne_Letzer_Buchstabe = “Christia”, vgl. [PEP 8](https://peps.python.org/pep-0008/#function-and-variable-names))
 
 ## Was sind Datentypen?
 
@@ -55,7 +78,7 @@ print(type(x)) # Output: bool (Boolean/Wahrheitswert)
 
 x = "hello"
 print(type(x)) # Output: string (String/Zeichenkette)
-````
+```
 
 ## Konvertierung von Datentypen (Type Casting){.unnumbered .unlisted}
 
@@ -141,7 +164,9 @@ else:
   print("x ist gleich 1")
 ```
 
-Achtung: Ein Vergleich in Python ist ==, eine Zuweisung ist =.
+:::{.callout-caution}
+Ein Vergleich in Python ist `==`, eine Zuweisung ist `=`.
+:::
 
 ## Logische Operatoren
 

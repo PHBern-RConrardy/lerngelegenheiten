@@ -19,7 +19,7 @@ categories:
 ::: {.callout-tip collapse="true"}
 ## SOL $\neq$ alleingelassen
 
-Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, reguli-e ren und beurteilen." [@hilbe_selbst_2011, S.8]
+Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, regulieren und beurteilen." [@hilbe_selbst_2011, S.8]
 
 Dem Dozierenden "kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für das Gelingen des Lernprozesses zu schaffen, Lernstrategien zu vermitteln und die Schülerinnen und Schüler bei Schwierigkeiten zu unterstützen." [@hilbe_selbst_2011, S.8]
 
