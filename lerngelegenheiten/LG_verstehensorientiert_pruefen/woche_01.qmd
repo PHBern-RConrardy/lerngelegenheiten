@@ -121,6 +121,21 @@ Erstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fu
 
 ::::
 
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+# Grösse wird per input gefragt und per int in einen integer gecastet.
+groesse_in_cm = int(input("Gib deine Körpergrösse in cm ein: ")) 
+
+# Grösse in cm (jetzt eine Zahl) wird zu Fuss umgerechnet, hier per Multiplikation
+groesse_in_feet = groesse_in_cm*0.032808 
+
+# Output wird geprinted, dabei muss Variable zurück zu einem String umgewandelt werden.
+print("Deine Körpergrösse in Fuss beträgt: " + str(groesse_in_feet)) 
+```
+</details>
 
 
 
@@ -228,6 +243,27 @@ Programmieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Pas
 
 ::::
 
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+# Passwort einfachheitshalber in eine Variable gespeichert
+korrektes_passwort = "Swordfish"
+
+# Passwort wird abgefragt
+eingegebenes_passwort = input("Wie lautet dein Passwort? ")
+
+# Eingabe und korrektes Passwort werden verglichen mit ==
+if eingegebenes_passwort == korrektes_passwort:
+  print("Willkommen")
+else:
+  print("Passwort falsch")
+
+```
+</details>
+
+
 ## Auftrag: Login mit Benutzer und Passwort
 :::: {.columns}
 
@@ -239,3 +275,28 @@ Ergänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benu
 ![](images/login_2.jpg)
 :::
 ::::
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+# Passwort und User einfachheitshalber in eine Variable gespeichert
+passwort = "Swordfish"
+username = "Richard"
+
+# Zuerst wird Username gefragt
+eingabe_username = input("Wie lautet dein Username?")
+
+if eingabe_username == username:
+  # Passwort wird ausschliesslich gefragt, falls es der User korrekt ist. 
+  eingabe_passwort = input("Wie lautet dein Passwort?")
+  if eingabe_passwort == paswort:
+    print("Hallo!")
+  else:
+    print("falsches Passwort")
+# Falls es den User nicht gibt, geht es hier weiter
+else:
+  print("Benutzer nicht gefunden.")
+```
+</details>

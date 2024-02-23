@@ -71,9 +71,6 @@ website:  # Menüs für die Webseite
           text: Selbstorganisiertes Lernen
           icon: mouse2-fill
     right:  
-      - text: "Python"
-        href: python/python.qmd
-        icon: terminal-fill
       - text: "Tagungen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
         icon: luggage-fill
