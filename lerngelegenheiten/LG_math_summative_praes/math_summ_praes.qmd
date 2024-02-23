@@ -31,7 +31,7 @@ categories:
 
 Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) **8. Klasse** im deutschsprachigen Teil des Kantons Bern.
 
-Die Lernkontrollen sind unter einer freien Lizenz([CC BY](https://creativecommons.org/licenses/by/4.0/) oder [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
+Die Lernkontrollen sind unter einer freien Lizenz([CC BY](https://creativecommons.org/licenses/by/4.0/) oder [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
 
 Teilen Sie sich gleichmässig auf 5 Themenblöcke auf. Vorschlag:
 
