@@ -84,7 +84,10 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 
 ## Auftrag auf Woche 8
 
-<iframe src="https://phbern-rconrardy.github.io/lerngelegenheiten/lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#f%C3%BCnf-lernkontrollen" width="100%" height="50%" frameborder="0" allowfullscreen></iframe>
+<br>
 
+::: {style="text-align: center;"}
+[Auftrag (siehe Ilias)](https://phbern-rconrardy.github.io/lerngelegenheiten/lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html){.knopf target="_blank" }
+:::
 
 ## Bibliographie {.unnumbered .unlisted}

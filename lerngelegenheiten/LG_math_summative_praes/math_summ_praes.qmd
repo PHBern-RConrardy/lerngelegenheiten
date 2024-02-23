@@ -33,10 +33,12 @@ Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine 
 
 Die Lernkontrollen sind unter einer freien Lizenz([CC BY](https://creativecommons.org/licenses/by/4.0/) oder [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1)) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Sie müssen in einer Doppellektion durchführbar sein, die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.
 
-Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
+Teilen Sie sich gleichmässig auf 5 Themenblöcke auf. Vorschlag:
 
-1.  Zahl und Variable (Arithmeatik, Algebra): Bruchrechnen, Termumformung, Prozentrechnen, SI-System
-2.  Grössen, Funktionen, Daten und Zufall (Analysis), ohne TR: Funktionen, lineare Gleichungssysteme, SI-System, Exponentialfunktionen
+1.  Zahl und Variable (Arithmetik): Bruchrechnen, Prozentrechnen, SI-System
+2.  Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen, lineare Gleichungssysteme, Exponentialfunktionen
 3.  Grössen, Funktionen, Daten und Zufall (Stochastik): Wahrscheinlichkeitsrechnen, Kombinatorik
 4.  Zahl und Variable (Algebra): Termumformung, Binome, quadratische Gleichungen
-5.  Form und Raum (Geometrie): Berechnungen am Kreis, Prisma, Zylinder, ... 
+5.  Form und Raum (Geometrie): Satz von Thales, Satzgruppe des Pythagoras, Volumen und Oberflächen von geraden Prismen, Pyramiden
+
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben.
