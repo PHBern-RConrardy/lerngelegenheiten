@@ -115,13 +115,19 @@ print("Hello, World!")
 
 ## Projekt 1 {#projekt-1}
 
-Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). 
+
+In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
+
+Sie können die Arbeit als Partnerarbeit erledigen.
 
 ------------------------------------------------------------------------
 
 ## Projekt 2 {#projekt-2}
 
-Entwickeln Sie Übungssituation im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur formativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+Entwickeln Sie Übungssituation im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). 
+
+In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. Halten Sie schriftlich fest, wie diese Übung zur formativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
 
 ::: {.callout-tip}
 ## Leistungsnachweis: Formative Beurteilung
