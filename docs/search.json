@@ -452,7 +452,7 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "",
-    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\n\n\nWoche\nThema\nSlides\nUnterlagen\n\n\n\n\n1\nConstructive Alignment\n\n\n\n\n2\nLehrplan21\n\n\n\n\n3\nMathematische Inhalte und Tätigkeiten\n\n\n\n\n7\n\n\n\n\n\n8\n\n\n\n\n\n9\nAlgorithmen"
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum\n\n\n\n\n\nWoche\nThema\nSlides\n\n\n\n\n1\nConstructive Alignment\n\n\n\n2\nLehrplan21\n\n\n\n3\nMathematische Inhalte und Tätigkeiten\n\n\n\n7\n\n\n\n\n8\n\n\n\n\n9\nAlgorithmen"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html#fünf-lernkontrollen",
@@ -613,21 +613,21 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vorbereitungsauftrag---woche-1",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Vorbereitungsauftrag - Woche 1",
-    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie vor der ersten Woche Rstudio und Python auf Ihrem Computer.\nGrobe Installationsanleitung unter Windows:\n\nInstallieren Sie R, Webseite.\nInstallieren Sie RStudio, Webseite.\nIn der “Console” in Rstudio: install.packages(\"reticulate\").\nIn der “Console” in Rstudio: reticulate::install_miniconda().\n\n\n\n\n\n\n\nHinweis\n\n\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.\n\n\nÜberprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.\nprint(\"Hello, World!\")"
+    "text": "Vorbereitungsauftrag - Woche 1\nIm Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie vor der ersten Woche Rstudio und Python auf Ihrem Computer.\n\nWindows 🪟MacOS 🍎GNU/Linux 🐧\n\n\nGrobe Installationsanleitung unter Windows:\n\nInstallieren Sie R, Webseite.\nInstallieren Sie RStudio, Webseite.\nInstallieren Sie RTools, Webseite.\nIn der Console in Rstudio: install.packages(\"reticulate\").\nIn der Console in Rstudio: reticulate::install_miniconda().\n\n\n\nGrobe Installationsanleitung unter MacOS:\nÖffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:\n\nHomebrew im Terminal installieren: /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nRStudio (+R) im Terminal installieren: brew install --cask rstudio\nIn der Console in Rstudio: install.packages(\"reticulate\").\nIn der Console in Rstudio: reticulate::install_miniconda().\n\nEmpfehlung: Installieren Sie Software grundsätzlich über Homebrew (Paketmanager für MacOS).\nAlle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: brew update && brew upgrade && brew upgrade --cask && brew cleanup\n\n\nKomm vorbei für einen gratis ☕️.\nInstallation hängt von der Distro ab.\n\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.\n\n\nÜberprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.\nprint(\"Hello, World!\")"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#projekt-1",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#projekt-1",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Projekt 1",
-    "text": "Projekt 1"
+    "text": "Projekt 1\nEntwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren MA.1.A.2.h oder MA.1.A.2.i. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein."
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#projekt-2",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#projekt-2",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Projekt 2",
-    "text": "Projekt 2"
+    "text": "Projekt 2\nEntwickeln Sie Übungssituation im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator MA.3.B.2.e. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur formativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.\n\n\n\n\n\n\nLeistungsnachweis: Formative Beurteilung\n\n\n\nDieses Projekt ist integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende Iliasseite."
   },
   {
     "objectID": "lerngelegenheiten/LG_mikroplanung_math/blockkurs.html",
@@ -1194,7 +1194,7 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Kriterien zur Auswahl von Schulstoff",
-    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spatere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
+    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spätere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",

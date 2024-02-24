@@ -21,7 +21,7 @@ authors:
           url: https://www.phbern.ch
           department: Institut Sekundarstufe I
           ror: https://ror.org/05jf1ma54
-    - name: Joel Adler
+    - name: Joël Adler
       url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
       affiliations:
           - name: University of Teacher Education Bern
@@ -42,7 +42,7 @@ authors:
 # Wochenüberblick
 
 | Woche | Thema                                        |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
-|:-----:|:---------------------------------------------|:------------------------------------------------------------------:|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|-----|
+|:---------:|:----------|:----------:|:---------:|:--------------:|-----------|
 |   1   | Variablen und Conditionals                   | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
 |   2   | Loops und Listen                             | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
 |   3   | Funktionen und Projektauftrag                | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
@@ -66,12 +66,40 @@ authors:
 
 Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie **vor** der ersten Woche Rstudio und Python auf Ihrem Computer.
 
+::: {.panel-tabset}
+
+## Windows 🪟
+
 Grobe Installationsanleitung unter Windows:
 
 1.  Installieren Sie R, [Webseite](https://cran.rstudio.com/bin/windows/base/).
 2.  Installieren Sie RStudio, [Webseite](https://posit.co/download/rstudio-desktop/).
-3.  In der "Console" in Rstudio: `install.packages("reticulate")`.
-4.  In der "Console" in Rstudio: `reticulate::install_miniconda()`.
+3. Installieren Sie RTools, [Webseite](https://cran.r-project.org/bin/windows/Rtools/).
+4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
+5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
+
+## MacOS 🍎
+
+Grobe Installationsanleitung unter MacOS:
+
+Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:
+
+1. [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2. [RStudio (+R)](https://formulae.brew.sh/cask/rstudio#default) im *Terminal* installieren: `brew install --cask rstudio`
+4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
+5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
+
+Empfehlung: Installieren Sie Software grundsätzlich über [Homebrew](https://brew.sh/) (Paketmanager für MacOS).
+
+Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: `brew update && brew upgrade && brew upgrade --cask && brew cleanup`
+
+## GNU/Linux 🐧
+
+Komm vorbei für einen gratis ☕️.
+
+Installation hängt von der Distro ab.
+
+:::
 
 ::: callout-note
 Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.
@@ -87,6 +115,16 @@ print("Hello, World!")
 
 ## Projekt 1 {#projekt-1}
 
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+
 ------------------------------------------------------------------------
 
 ## Projekt 2 {#projekt-2}
+
+Entwickeln Sie Übungssituation im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen, anpassen oder ein von Ihnen erstelltes Programm benutzen. Halten Sie schriftlich fest, wie diese Übung zur formativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+
+::: {.callout-tip}
+## Leistungsnachweis: Formative Beurteilung
+
+Dieses Projekt ist integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
+:::

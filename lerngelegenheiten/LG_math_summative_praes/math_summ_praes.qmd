@@ -14,14 +14,14 @@ categories:
 [Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
 :::
 
-| Woche | Thema                                 |                               Slides                               |                  Unterlagen                   |
-|:----------------:|:-----------------|:----------------:|:----------------:|
-|   1   | Constructive Alignment                | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   2   | Lehrplan21                            | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   3   | Mathematische Inhalte und Tätigkeiten | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |       <i class="bi bi-folder-fill"></i>       |
-|   7   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |       <i class="bi bi-folder-fill"></i>       |
-|   8   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                               |
-|   9   | Algorithmen                           |         [<i class="bi bi-easel3-fill"></i>](woche_09.qmd)          | [<i class="bi bi-folder-fill"></i>](#woche-8) |
+| Woche | Thema                                 |                               Slides                               |
+|:-----------------:|:------------------|:-----------------:|
+|   1   | Constructive Alignment                | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |
+|   2   | Lehrplan21                            | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |
+|   3   | Mathematische Inhalte und Tätigkeiten | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |
+|   7   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |
+|   8   |                                       |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |
+|   9   | Algorithmen                           |         [<i class="bi bi-easel3-fill"></i>](woche_09.qmd)          |
 
 : {.striped .hover .table-sm}
 

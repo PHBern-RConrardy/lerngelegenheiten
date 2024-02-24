@@ -75,7 +75,7 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 ## Kriterien zur Auswahl von Schulstoff
 
 -   Der Lehrstoff muss mathematisch richtig sein.
--   Der Lehrstoff muss spatere Erweiterungen vorbereiten.
+-   Der Lehrstoff muss spätere Erweiterungen vorbereiten.
 -   Der Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.
 -   Der Lehrstoff muss den gestellten Zielen entsprechen.
 
