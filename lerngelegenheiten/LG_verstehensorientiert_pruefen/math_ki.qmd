@@ -115,9 +115,9 @@ print("Hello, World!")
 
 ## Projekt 1 {#projekt-1}
 
-Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). 
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. 
 
-In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
+Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
 
 Sie können die Arbeit als Partnerarbeit erledigen.
 
@@ -127,7 +127,11 @@ Sie können die Arbeit als Partnerarbeit erledigen.
 
 Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. 
 
-Halten Sie schriftlich fest, wie diese Übung zur formativen Beurteilung beiträgt. Erklären Sie wie Sie Unterrichtsmaterial und Medien zur Rückmeldung verwenden und auf eine konkrete Unterrichtssituation angepassen. Erläutern Sie wie dieses Übungssetting die Entwicklung bildungssprachlicher Kompetenzen im Zusammenhang mit fachlichem Lernen fördert.
+Halten Sie schriftlich fest: 
+
+* wie diese Übung zur formativen Beurteilung beiträgt. 
+* wie Sie mit diesem Übungssetting Unterrichtsmaterial und Medien zur Rückmeldung verwenden und auf eine konkrete Unterrichtssituation anpassen. 
+* wie dieses Übungssetting die Entwicklung bildungssprachlicher Kompetenzen im Zusammenhang mit fachlichem Lernen fördert.
 
 ::: {.callout-tip}
 ## Leistungsnachweis: Formative Beurteilung
