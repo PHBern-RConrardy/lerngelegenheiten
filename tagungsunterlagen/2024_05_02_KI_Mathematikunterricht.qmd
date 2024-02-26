@@ -4,6 +4,8 @@ title: KI im Mathematikunterricht
 date: 02 05 2024
 ---
 
+
+
 # Was ist KI?
 
 ## Machine Learning (ML)
@@ -57,18 +59,18 @@ flowchart TD
   end
 ```
 
-## Künstliche Intelligenz 
+## Wichtige Entwicklungen der letzten Jahre
 
+1. Attention  @vaswani_attention_2017
+2. Transformer Architektur
+3. Large Language Models
+4. Multimodal Models
 
+## Wichtige Konzepte
 
-* Attention is all you need @vaswani_attention_2017
-* Transformer
 * Temperature [vgl. @wolfram_what_2023 ]
-
 * Generative KI
-* Large Language Models
-* Multimodal AI
-
+* Artificial general intelligence 
 * $\Rightarrow ML \supset KI\,?$
 
 # KI Applikationen
@@ -77,8 +79,17 @@ flowchart TD
 
 # KI in der Beurteilung
 
-## Formative Beurteilung
 
+## Summative Beurteilung
+
+
+1. Datenschutz & Nutzungsrechte
+2. Ethische Aspekte
+3. KI $\neq$ KI
+4. KI $\neq$ Taschenrechner
+
+
+## Formative Beurteilung
 
 "Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt."
 
@@ -92,20 +103,18 @@ flowchart TD
 [@kuratle_kompetenzorientierte_2021,S.10]
 :::
 
+## Bibigirl, die vollkommene Puppe {.unlisted}
 
-https://www.fiete.ai/
-
-“[...] Schulen weder eine Generation von Fachidioten noch eine Generation geschwätziger Dilletanten [sic] ausbilden sollten.” 
-
+>Ja, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben
+>
+>Aber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.
+>
+>[...]
+>
+>Ich glaub', sagte sie leise, man kann sie nicht liebhaben.
+>
 :::quelle
-[@weinert_leistungsmessungen_2014,S.28]
+@ende_momo_1973
 :::
-
-*rechtliche* und **ethische** Probleme ...
-
-## Summative Beurteilung
-
-
-
 
 ## Bibliographie {.unlisted}

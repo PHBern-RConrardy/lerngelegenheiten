@@ -88,17 +88,7 @@ können selbstentwickelte Algorithmen in Form von lauffähigen und korrekten Com
 @erziehungsdirektiondeskantonsbern2016
 :::
 
-## Unterstützung durch Mathematik
 
-<br>
-
-|     Klasse | Lektionen[^1] |
-|-----------:|:-------------:|
-| 7\. Klasse |       5       |
-| 8\. Klasse |       5       |
-| 9\. Klasse |       4       |
-
-[^1]: Lektionen für M&I nach @regez2022
 
 ## Der Elephant im Raum 🐘 {.unnumbered .unlisted}
 

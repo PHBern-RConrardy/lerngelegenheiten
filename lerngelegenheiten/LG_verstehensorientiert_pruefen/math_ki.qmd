@@ -136,5 +136,5 @@ Halten Sie schriftlich fest:
 ::: {.callout-tip}
 ## Leistungsnachweis: Formative Beurteilung
 
-Dieses Projekt ist integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
+Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung sein. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
 :::

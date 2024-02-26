@@ -22422,6 +22422,101 @@
             "title": "Attention is all you need",
             "type": "paper-conference",
             "volume": "30"
+        },
+        {
+            "ISBN": "978-1-57955-081-3 978-81-19-21664-2 978-81-19-21665-9",
+            "abstract": "\"Nobody expected this-not even its creators: ChatGPT has burst onto the scene as an AI capable of writing at a convincingly human level. But how does it really work? What’s going on inside its \"AI mind\"? In this short book, distinguished scientist and computation pioneer Stephen Wolfram provides a readable and engaging explanation that draws on his decades-long unique experience at the frontiers of science and technology. Find out how the success of ChatGPT brings together the latest neural net technology with foundational questions about language and human thought posed by Aristotle more than two thousand years ago\"–",
+            "author": [
+                {
+                    "family": "Wolfram",
+                    "given": "Stephen"
+                }
+            ],
+            "id": "wolfram_what_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "number-of-pages": "102",
+            "publisher": "Wolfram Media, Inc",
+            "publisher-place": "Champaign, Illinois",
+            "title": "What is ChatGPT doing ... And why does it work?",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1007/s10639-022-10925-9",
+            "ISSN": "1360-2357, 1573-7608",
+            "URL": "https://link.springer.com/10.1007/s10639-022-10925-9",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        24
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ouyang",
+                    "given": "Fan"
+                },
+                {
+                    "family": "Zheng",
+                    "given": "Luyi"
+                },
+                {
+                    "family": "Jiao",
+                    "given": "Pengcheng"
+                }
+            ],
+            "container-title": "Education and Information Technologies",
+            "container-title-short": "Educ Inf Technol",
+            "id": "ouyang_artificial_2022",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        7
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "7893-7925",
+            "title": "Artificial intelligence in online higher education: A systematic review of empirical research from 2011 to 2020",
+            "title-short": "Artificial intelligence in online higher education",
+            "type": "article-journal",
+            "volume": "27"
+        },
+        {
+            "ISBN": "978-3-492-25349-9",
+            "author": [
+                {
+                    "family": "Ende",
+                    "given": "Michael"
+                }
+            ],
+            "collection-number": "5349",
+            "collection-title": "Piper",
+            "edition": "Ungekürzte Taschenbuchausg",
+            "id": "ende_momo_1973",
+            "issued": {
+                "date-parts": [
+                    [
+                        1973
+                    ]
+                ]
+            },
+            "number-of-pages": "299",
+            "publisher": "Piper",
+            "publisher-place": "München Zürich",
+            "title": "Momo oder die seltsame geschichte von den zeit-dieben und von dem kind, das den menschen die gestohlene zeit zurückbrachte: Ein märchen-roman",
+            "title-short": "Momo oder die seltsame geschichte von den zeit-dieben und von dem kind, das den menschen die gestohlene zeit zurückbrachte",
+            "type": "book"
         }
     ],
     "project_biblios": [
