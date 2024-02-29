@@ -193,7 +193,7 @@
     "href": "tagungsunterlagen/tagungsunterlagen.html",
     "title": "Übersicht Tagungsunterlagen",
     "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\n\nKeine Treffer\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\n\nKeine Treffer\n\nWiederverwendunghttps://creativecommons.org/licenses/by-sa/4.0/deed.de"
   },
   {
     "objectID": "tagungsunterlagen/2024_01_19_gdm_tagung.html#was-wir-heute-erreichen-möchten",
@@ -942,14 +942,14 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#was-sind-loops-schleifen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Was sind Loops? (Schleifen)",
-    "text": "Was sind Loops? (Schleifen)\nMit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:\nWhile-Loop\ni = 0  # Braucht eine Zähler-Variable\nwhile i &lt; 5:  # Solange i &lt; 5\n  print(i)\n  i = i + 1  # i um eins erhöhen\n# Output: 0 1 2 3 4\nFor-Loop\nfor i in range(0, 5):  # Für jedes i von 0 bis 5\n  print(i)\n# Output: 0 1 2 3 4\nWhile-Loops vs. For-Loops\nWhile-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.\nWarum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.\nfor i in range(5, 10):  # range(von, bis)\n  print(i)\n# Output: 5 6 7 8 9\nVgl. Misra-C + Leserlichkeit\nDemo"
+    "text": "Was sind Loops? (Schleifen)\nMit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:\nWhile-Loop\ni = 0  # Braucht eine Zähler-Variable\nwhile i &lt; 5:  # Solange i &lt; 5\n  print(i)\n  i = i + 1  # i um eins erhöhen\n# Output: 0 1 2 3 4\nFor-Loop\nfor i in range(0, 5):  # Für jedes i von 0 bis 5\n  print(i)\n# Output: 0 1 2 3 4"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#unendliche-loops-loops-verlassen",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Unendliche Loops & Loops verlassen",
-    "text": "Unendliche Loops & Loops verlassen\nMit “while True:” erzeugt man einen unendlichen Loop:\nwhile True:  # Unendliche Schleife\n  print(\"hallo\")\n# Output: hallo hallo hallo hallo hallo hallo hallo hallo ...\n(Tipp: Mit “ctrl-c” brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)\nMit “break” kann man einen Loop wieder verlassen\ni = 0\nwhile True:\n  print(i)\n  if i == 100:\n    break  # Loop verlassen\n  i = i + 1\n# Output: 0 1 2 4 5 ... 98 99 100\nDas Flussdiagramm als visuelle Darstellung\ni = 2\nwhile i &lt; 10:\n  print(i)\n  i = i + 2\nprint(\"fertig\")\n# Output: 2 4 6 8 fertig\n(Da For-Loops nur “Syntactic Sugar” für While-Loops sind, werden diese als While-Loop dargestellt.)"
+    "text": "Unendliche Loops & Loops verlassen\nMit “while True:” erzeugt man einen unendlichen Loop:\nwhile True:  # Unendliche Schleife\n  print(\"hallo\")\n# Output: hallo hallo hallo hallo hallo hallo hallo hallo ...\n(Tipp: Mit “ctrl-c” (Mac: command-c) brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)\nMit “break” kann man einen Loop wieder verlassen\ni = 0\nwhile True:\n  print(i)\n  if i == 100:\n    break  # Loop verlassen\n  i = i + 1\n# Output: 0 1 2 4 5 ... 98 99 100"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule",
@@ -984,7 +984,7 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#zugriff-auf-listenelemente",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Zugriff auf Listenelemente",
-    "text": "Zugriff auf Listenelemente\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc. einkaufsliste = [“Brot”, “Nutella”, “Milch”]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
+    "text": "Zugriff auf Listenelemente\nDer Zugriff auf Listenelemente erfolgt mit einem Index. [0] ist dabei das erste Element, [1] das zweite, etc.\neinkaufsliste = [\"Brot\", \"Nutella\", \"Milch\"]\nprint(einkaufsliste[0])  # Output: Brot\nprint(einkaufsliste[1])  # Output: Nutella\nprint(einkaufsliste[2])  # Output: Milch\nInformatiker und moderne Mathematiker fangen bei 0 an zu zählen.\nDie Länge einer Liste erhält man mit der Funktion len():\nlaenge = len(einkaufsliste)  # Länge der Liste\nprint(laenge)  # Output: 3"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#listen-loops",
@@ -1005,14 +1005,14 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Einkaufsliste",
-    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren"
+    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Notendurchschnittsrechner",
-    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#was-sind-funktionen",
@@ -1426,5 +1426,201 @@
     "title": "KI im Mathematikunterricht",
     "section": "Wichtige Konzepte",
     "text": "Wichtige Konzepte\n\nTemperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#umriss",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#umriss",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Umriss",
+    "text": "Umriss\n\nPromotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#geplanter-ablauf",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#geplanter-ablauf",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Geplanter Ablauf",
+    "text": "Geplanter Ablauf\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#einordnung-productive-failure",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#einordnung-productive-failure",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Einordnung: Productive failure",
+    "text": "Einordnung: Productive failure\n\nFirst Paper: Kapur (2008)\nDesign: Kapur & Bielaczyc (2012)\nFidelity Criteria: Sinha & Kapur (2021)\nDeutschsprachig: Loibl & Rummel (2014)\nBeyond STEM: Nachtigall et al. (2020)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#einordnung",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#einordnung",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Einordnung",
+    "text": "Einordnung\n\n\nSinha & Kapur (2021) CC BY 4.0"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#design",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#design",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Design",
+    "text": "Design\n\n2 Phasen:\n\nPhase 1: generation and exploration phase\nPhase 2: consolidation phase\n\n\n\nKapur & Bielaczyc (2012)\n\n\nTypischer Unterrichtsinhalt:\n\nStandardabweichung, bzw. Varianz\n\n\n\nvgl. Kapur (2008), Kapur (2014), Kapur (2015), Loibl & Rummel (2014), Brand et al. (2023), Hartmann et al. (2022), Hartmann et al. (2020)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#erhobene-variablen",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#erhobene-variablen",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Erhobene Variablen",
+    "text": "Erhobene Variablen\n\n\n\nmath ability\nprior knowledge\nnumber of solutions\nmental effort\nengagement\n\n\n\nprocedural knowledge\nconceptual understanding\ntransfer\n\n\n\n\nvgl. Kapur (2015)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#effekte-individuell",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#effekte-individuell",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Effekte individuell",
+    "text": "Effekte individuell\nconceptual knowledge: \\(p&lt;0.001\\), \\(\\eta^2=0.26\\)\n\nHartmann et al. (2020)\n\nconceptual understanding: \\(p&lt;0.001\\), \\(d = 2.00\\)\ntransfer \\(p&lt;0.001\\), \\(d=1.52\\)\n\nKapur (2014)\n\ntransfer \\(p &lt; 0.005\\), \\(d = 0.67\\)\n\nKapur (2015)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#collaboration",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#collaboration",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Collaboration",
+    "text": "Collaboration\nUnterschied kollaborativ - individuell\nPrimar (quasi-experimentell): \\(p=0.28\\), \\(\\eta^2_p=0.005\\)\n\nMazziotti et al. (2019), p.2\n\nSekundarklassen (quasi-experimentell): \\(p = 0.437\\)\n\nBrand et al. (2023)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#boundary-conditions",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#boundary-conditions",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Boundary conditions?",
+    "text": "Boundary conditions?\n\nthere is evidence that element interactivity provides an explanatory variable for the presence or absence of a problem-solving first advantage.\n\nAshman et al. (2020), p.242f\n\n\n\nthe beneficial effect […] only comes to bear if the teacher compares typical student solutions and contrasts them to the canonical solution during instruction\n\nLoibl & Rummel (2014), p.84"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#flipped-classroom---a-brief-history",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#flipped-classroom---a-brief-history",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Flipped Classroom - a brief history",
+    "text": "Flipped Classroom - a brief history\n\nclassroom flip: Baker (2000)\ninverted classroom: Lage et al. (2000)\nUrsprung: Bergmann et al. (2011) und Tucker (2012)\nkein präzises Modell: Lo et al. (2017), Tucker (2012)\nMetastudie: Kapur et al. (2022)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-class",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-class",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Definition flipped class",
+    "text": "Definition flipped class\n\nThe traditional definition of a flipped class is:\n\nWhere videos take the place of direct instruction\nThis then allows students to get individual time in class to work with their teacher on key learning activities.\nIt is called the flipped class because what used to be classwork (the “lecture” is done at home via teacher-created videos and what used to be homework (assigned problems) is now done in class.\n\n\n\nBergmann et al. (2011)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-classroom",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-classroom",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Definition flipped classroom",
+    "text": "Definition flipped classroom\n\nset of pedagogical approaches that:\n\nmove most information-transmission teaching out of class\nuse class time for learning activities that are active and social and\nrequire students to complete pre- and/or post-class activities to fully benefit from in-class work.\n\n\nAbeysekera & Dawson (2015)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-learning",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#definition-flipped-learning",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Definition flipped learning",
+    "text": "Definition flipped learning\n2 Phasen\n\n\ngetting students to learn basic content online and prior to class.\nmake use of the freed-up in-class time to clarify students’ understandings of the concept and design learning strategies that will enable students to engage deeply with the targeted concept.\n\n\nKapur et al. (2022)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#effekte---flipped-classroom",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#effekte---flipped-classroom",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Effekte - Flipped Classroom",
+    "text": "Effekte - Flipped Classroom\n\n46 meta-analyses, 173 studies\nVon \\(d=0.25\\) bis \\(d=2.29\\) in meta-analysis.\nAsian: \\(g=0.75\\), Western: \\(g=0.53\\)\nMath: \\(d=0.26\\)\n\npresence of publication bias on effect size level\nThere need to be at least 6,424 unpublished studies with a mean of 0; however, to overturn the claim that flipped learning has a positive impact on student learning.\n\nKapur et al. (2022)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#key-findings",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#key-findings",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Key findings",
+    "text": "Key findings\n\nquality of implementation […] not consistent\ngreatest impact […] in-class included a lecture\neffects on learning […] due to active learning\nproblem-solving prior to a lecture […] can be effective\n\n\nKapur et al. (2022)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#f-modell",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#f-modell",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "4F-Modell",
+    "text": "4F-Modell\n\nFail - diagnose, check, and understand what was and was not understood\nFlip - pre-exposure to the ideas in the upcoming class (as simple as providing a video of the class)\nFix - misconceptions are explored and opportunity to re-engage in learning the ideas\nFeed - feedback to the students and instructor\n\n\nKapur et al. (2022)\n\n\nsynchron\nasynchron"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#leitfrage",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#leitfrage",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Leitfrage:",
+    "text": "Leitfrage:\nIs the 4F-model flipped the right way?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#non-flipped-model",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#non-flipped-model",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Non-Flipped Model",
+    "text": "Non-Flipped Model\n\nFail\nInstruct\nFix\nFeed\n\n\nsynchron\nasynchron"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#eine-woche-vor-dem-ersten-tag-der-untersuchung",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#eine-woche-vor-dem-ersten-tag-der-untersuchung",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Eine Woche vor dem ersten Tag der Untersuchung",
+    "text": "Eine Woche vor dem ersten Tag der Untersuchung\n\n\n\nMin.\nGruppe 1\nGruppe 2\n\n\n\n\n20\nPretest\nPretest\n\n\n\nEs findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#erster-tag-der-untersuchung",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#erster-tag-der-untersuchung",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Erster Tag der Untersuchung",
+    "text": "Erster Tag der Untersuchung\nKlasse wird in 2 Gruppen räumlich getrennt.\n\n\n\nMin.\nGruppe 1\nGruppe 2\n\n\n\n\n40\nFail koll.\nFail ind.\n\n\n5\nMental effort\nMental effort\n\n\n20\nFlip\nInstruct\n\n\n5\nmental effort\nmental effort\n\n\n20\nPosttest\nPosttest"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#zweiter-tag-der-untersuchung",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#zweiter-tag-der-untersuchung",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Zweiter Tag der Untersuchung",
+    "text": "Zweiter Tag der Untersuchung\nKlasse wird zusammen unterrichtet.\n\n\n\nMin.\nGruppe 1\nGruppe 2\n\n\n\n\n20\nFix\nFix\n\n\n5\nmental effort\nmental effort\n\n\n40\nFeed\nFeed\n\n\n5\nmental effort\nmental effort\n\n\n20\nPosttest\nPosttest"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#forschungsfragen-und-hypothesen",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#forschungsfragen-und-hypothesen",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Forschungsfragen und Hypothesen",
+    "text": "Forschungsfragen und Hypothesen\n\nStudents in the 4F-model score higher in engagement than the non-flipped model.\nStudents in the 4F-model score higher on (a) procedural fluency and (b) concept knowledge than the alternative model."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#padua-modell",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#padua-modell",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Padua-Modell",
+    "text": "Padua-Modell\n4-Funktionen im Lernzyklus\n\nProblemlösendes Aufbauen\nDurcharbeiten\nÜben und Wiederholen\nAnwenden\n\n\nAebli (1983)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#lukas-modell",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#lukas-modell",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "LUKAS-Modell",
+    "text": "LUKAS-Modell\n\nKonfrontationsaufgaben\nErarbeitungsaufgaben\nVertiefungs- und Übungsaufgaben\nTransfer- und Syntheseaufgaben\n\n\nPHLuzern?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#aviva-modell",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#aviva-modell",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "AVIVA-Modell",
+    "text": "AVIVA-Modell\n5-Phasen\n\nAnkommen und einstimmen\nVorwissen aktivien\nInformieren\nVerarbeiten\nAuswerten\n\n\nStädeli & Maurer (2020)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#fragen-1",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#fragen-1",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Fragen",
+    "text": "Fragen\nMeinerseits:\n\nWie soll der Sprachstil angepasst werden?\nIst es sinnvoll Padua, Lukas, usw. mitzuerwähnen?\nWieviel Theorie braucht ein Paper?\nAnregungen zu zukünftigen Designs.\n\nEurerseits?"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#bibliographie",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#bibliographie",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\nAbeysekera, L., & Dawson, P. (2015). Motivation and cognitive load in the flipped classroom: definition, rationale and a call for research. Higher Education Research & Development, 34(1), 1–14. https://doi.org/10.1080/07294360.2014.934336\n\n\nAebli, H. (1983). Zwölf Grundformen des Lehrens: eine allgemeine Didaktik auf psychologischer Grundlage: Medien und Inhalte didaktischer Kommunikation, der Lernzyklus (15. Auflage). Klett-Cotta.\n\n\nAshman, G., Kalyuga, S., & Sweller, J. (2020). Problem-solving or Explicit Instruction: Which Should Go First When Element Interactivity Is High? Educational Psychology Review, 32(1), 229–247. https://doi.org/10.1007/s10648-019-09500-5\n\n\nBaker, J. W. (2000). The „Classroom Flip“: Using web course management tools to become the guide by the side. 9–17.\n\n\nBergmann, J., Overmyer, J., & Wilie, B. (2011, Juni 21). The Flipped Class: Myths vs. Reality - THE DAILY RIFF - Be Smarter. About Education. http://web.archive.org/web/20160305005240/http://www.thedailyriff.com/articles/the-flipped-class-conversation-689.php\n\n\nBrand, C., Hartmann, C., Loibl, K., & Rummel, N. (2023). Do students learn more from failing alone or in groups? Insights into the effects of collaborative versus individual problem solving in productive failure. Instructional Science, 51(6), 953–976. https://doi.org/10.1007/s11251-023-09619-7\n\n\nHartmann, C., Gog, T. van, & Rummel, N. (2020). Do examples of failure effectively prepare students for learning from subsequent instruction? Applied Cognitive Psychology, 34(4), 879–889. https://doi.org/10.1002/acp.3651\n\n\nHartmann, C., Gog, T. van, & Rummel, N. (2022). Productive versus vicarious failure: Do students need to fail themselves in order to learn? Applied Cognitive Psychology, 36(6), 1219–1233. https://doi.org/10.1002/acp.4004\n\n\nKapur, M. (2008). Productive Failure. Cognition and Instruction, 26(3), 379–424. https://doi.org/10.1080/07370000802212669\n\n\nKapur, M. (2014). Productive Failure in Learning Math. Cognitive Science, 38(5), 1008–1022. https://doi.org/10.1111/cogs.12107\n\n\nKapur, M. (2015). The preparatory effects of problem solving versus problem posing on learning from instruction. Learning and Instruction, 39, 23–31. https://doi.org/10.1016/j.learninstruc.2015.05.004\n\n\nKapur, M., & Bielaczyc, K. (2012). Designing for Productive Failure. Journal of the Learning Sciences, 21(1), 45–83. https://doi.org/10.1080/10508406.2011.591717\n\n\nKapur, M., Hattie, J., Grossman, I., & Sinha, T. (2022). Fail, flip, fix, and feed – Rethinking flipped learning: A review of meta-analyses and a subsequent meta-analysis. Frontiers in Education, 7, 956416. https://doi.org/10.3389/feduc.2022.956416\n\n\nLage, M. J., Platt, G. J., & Treglia, M. (2000). Inverting the Classroom: A Gateway to Creating an Inclusive Learning Environment. The Journal of Economic Education, 31(1), 30–43. https://www.jstor.org/stable/pdf/1183338.pdf?refreqid=excelsior%3Ab0a9d2ec82ee6a85a2c6fd0791861766&ab_segments=&origin=&initiator=&acceptTC=1\n\n\nLo, C. K., Hew, K. F., & Chen, G. (2017). Toward a set of design principles for mathematics flipped classrooms: A synthesis of research in mathematics education. Educational Research Review, 22, 50–73. https://doi.org/10.1016/j.edurev.2017.08.002\n\n\nLoibl, K., & Rummel, N. (2014). Knowing what you don’t know makes failure productive. Learning and Instruction, 34, 74–85. https://doi.org/10.1016/j.learninstruc.2014.08.004\n\n\nMazziotti, C., Rummel, N., Deiglmayr, A., & Loibl, K. (2019). Probing boundary conditions of Productive Failure and analyzing the role of young students’ collaboration. Npj Science of Learning, 4(1), 1–9. https://doi.org/10.1038/s41539-019-0041-5\n\n\nNachtigall, V., Serova, K., & Rummel, N. (2020). When failure fails to be productive: probing the effectiveness of productive failure for learning beyond STEM domains. Instructional Science, 48(6), 651–697. https://doi.org/10.1007/s11251-020-09525-2\n\n\nSinha, T., & Kapur, M. (2021). When Problem Solving Followed by Instruction Works: Evidence for Productive Failure. Review of Educational Research, 91(5), 761–798. https://doi.org/10.3102/00346543211019105\n\n\nStädeli, C., & Maurer, M. (2020). The AVIVA model A competence-oriented approach to teaching and learning. https://www.hep-verlag.ch/the-aviva-model\n\n\nTucker, B. (2012). The flipped classroom. Education next, 1, 82–83. https://www.msuedtechsandbox.com/MAETELy2-2015/wp-content/uploads/2015/07/the_flipped_classroom_article_2.pdf"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#while-loops-vs.-for-loops",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#while-loops-vs.-for-loops",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "While-Loops vs. For-Loops",
+    "text": "While-Loops vs. For-Loops\nWhile-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.\nWarum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.\nfor i in range(5, 10):  # range(von, bis)\n  print(i)\n# Output: 5 6 7 8 9"
   }
 ]

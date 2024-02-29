@@ -6,7 +6,6 @@ categories:
   - Formative Beurteilung
   - Summative und prognostische Beurteilung
   - Digitalität
-  - bereit für FS24
 authors:
     - name: Richard Conrardy
       orcid: 0009-0004-2063-6898

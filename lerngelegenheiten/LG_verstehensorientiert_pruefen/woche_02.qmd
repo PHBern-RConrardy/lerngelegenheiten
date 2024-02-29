@@ -1,23 +1,43 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
 format: revealjs
-author: Joel Adler <br> Richard Conrardy
+authors:
+    - name: Richard Conrardy
+      orcid: 0009-0004-2063-6898
+      id: 00383195
+      email: richard.conrardy@phbern.ch
+      url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+      affiliations:
+        - name: University of Teacher Education Bern
+          address: Länggassstrasse 35
+          city: Bern
+          postal-code: 3012
+          url: https://www.phbern.ch
+          department: Institut Sekundarstufe I
+          ror: https://ror.org/05jf1ma54
+    - name: Joël Adler
+      url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
+      affiliations:
+          - name: University of Teacher Education Bern
+            address: Länggassstrasse 35
+            city: Bern
+            postal-code: 3012
+            url: https://www.phbern.ch
+            department: Institut Sekundarstufe I
+            ror: https://ror.org/05jf1ma54
 
 footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
+toc-depth: 2
 ---
 
 
-# Lernziele
-
-Sie verstehen das Prinzip von Loops (while, for) und können dieses Wissen in einem Programm umsetzen
-
-Sie können ein Flussdiagramm aufgrund von Programmcode (oder vice versa) erstellen
+# Loops
 
 ## Was sind Loops? (Schleifen)
 
 Mit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:
 
-**While-Loop**
+### While-Loop
 ```python
 i = 0  # Braucht eine Zähler-Variable
 while i < 5:  # Solange i < 5
@@ -33,7 +53,7 @@ for i in range(0, 5):  # Für jedes i von 0 bis 5
 # Output: 0 1 2 3 4
 ```
 
-### While-Loops vs. For-Loops
+## While-Loops vs. For-Loops
 
 While-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.
 
@@ -44,8 +64,6 @@ for i in range(5, 10):  # range(von, bis)
   print(i)
 # Output: 5 6 7 8 9
 ```
-    Vgl. Misra-C + Leserlichkeit
-    Demo
 
 ## Unendliche Loops & Loops verlassen 
 
@@ -57,7 +75,7 @@ while True:  # Unendliche Schleife
 # Output: hallo hallo hallo hallo hallo hallo hallo hallo ...
 ```
 
-(Tipp: Mit “ctrl-c” brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)
+(Tipp: Mit “ctrl-c” (Mac: command-c) brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)
 
 Mit “break” kann man einen Loop wieder **verlassen**
 
@@ -71,39 +89,19 @@ while True:
 # Output: 0 1 2 4 5 ... 98 99 100
 ```
 
-### Das Flussdiagramm als visuelle Darstellung
-```Python
-i = 2
-while i < 10:
-  print(i)
-  i = i + 2
-print("fertig")
-# Output: 2 4 6 8 fertig
-```
-(Da For-Loops nur “Syntactic Sugar” für While-Loops sind, werden diese als While-Loop dargestellt.)
 
-## Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule
+## Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule {.unlisted}
 
 1. Die Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.
 2. Die Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.
 3. Nun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm.
 
-## Auftrag: Fahrplan Luzern - Engelberg
-
-Der IR (Interregio) von Luzern nach Engelberg fährt nur 1x pro Stunde. Der erste Zug fährt um 6:12 und der letzte Zug um 20:12.
-
-Erstellen sie ein Programm, welches den Fahrplan ausgibt (ohne jeden Zug einzeln aufzuschreiben).
-Erstellen sie das Flussdiagramm dazu.
-
-## Auftrag: Prüfungssoftware Programmieren
+## Auftrag: Prüfungssoftware Programmieren {.unlisted}
 1. Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
 2. Erstellen sie das Flussdiagramm dazu.
 
 
-
-# Lernziele <i class="fas fa-bullseye"></i>
-
-> Sie verstehen das Prinzip von Listen und können dieses Wissen in einem Programm umsetzen
+# Listen
 
 ## Was sind Listen? <i class="fas fa-list-ul"></i>
 
@@ -124,16 +122,18 @@ print(x)  # Output: "['Brot', 'Nutella', 'Milch']"
 ## Zugriff auf Listenelemente
 
 Der Zugriff auf Listenelemente erfolgt mit einem Index. `[0]` ist dabei das erste Element, `[1]` das zweite, etc.
-einkaufsliste = ["Brot", "Nutella", "Milch"]
+
 ```Python
+einkaufsliste = ["Brot", "Nutella", "Milch"]
 print(einkaufsliste[0])  # Output: Brot
 print(einkaufsliste[1])  # Output: Nutella
 print(einkaufsliste[2])  # Output: Milch
 ```
 
-Informatiker fangen bei 0 an zu zählen.
+Informatiker und moderne Mathematiker fangen bei 0 an zu zählen.
 
 Die Länge einer Liste erhält man mit der Funktion `len()`:
+
 ```Python
 laenge = len(einkaufsliste)  # Länge der Liste
 print(laenge)  # Output: 3
@@ -177,12 +177,12 @@ einkaufsliste.pop()
 # Resultat: ["Brot", "Nutella"]
 ````
 
-## Auftrag: Einkaufsliste 
+## Auftrag: Einkaufsliste {.unlisted}
 
 Programmieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.
 
-<small>Tipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C können sie das Programm trotzdem terminieren</small>
+<small>Tipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren</small>
 
-## Auftrag: Notendurchschnittsrechner
+## Auftrag: Notendurchschnittsrechner {.unlisted}
 
 Programmieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.
