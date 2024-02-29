@@ -536,6 +536,22 @@ Lösungsvorschlag 3.
 <section id="auftrag-prüfungssoftware-programmieren" class="slide level2 unlisted">
 <h2>Auftrag: Prüfungssoftware Programmieren</h2>
 <p>git Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>anzahl_versuche <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb9-2"><a></a>antwort <span class="op">=</span> <span class="st">""</span></span>
+<span id="cb9-3"><a></a></span>
+<span id="cb9-4"><a></a><span class="cf">while</span> anzahl_versuche <span class="op">&lt;</span> <span class="dv">3</span>:</span>
+<span id="cb9-5"><a></a>    antwort <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Hauptstadt?"</span>)</span>
+<span id="cb9-6"><a></a>    <span class="cf">if</span> antwort <span class="op">==</span> <span class="st">"Bern"</span>:</span>
+<span id="cb9-7"><a></a>        <span class="bu">print</span>(<span class="st">"toll"</span>)</span>
+<span id="cb9-8"><a></a>        anzahl_versuche <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb9-9"><a></a>    <span class="cf">else</span>:</span>
+<span id="cb9-10"><a></a>        <span class="bu">print</span>(<span class="st">"leider falsch, du hast noch "</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">3</span> <span class="op">-</span> anzahl_versuche) <span class="op">+</span> <span class="st">" Versuche"</span>)</span>
+<span id="cb9-11"><a></a>        anzahl_versuche <span class="op">=</span> anzahl_versuche <span class="op">+</span> <span class="dv">1</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </section></section>
 <section>
 <section id="listen" class="title-slide slide level1 center">
@@ -552,45 +568,45 @@ Lösungsvorschlag 3.
 <li>…</li>
 </ul>
 <p>In Python werden Listen mit eckigen Klammern <code>[]</code> geschrieben:</p>
-<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a></a>x <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]  <span class="co"># Definition einer Liste</span></span>
-<span id="cb9-2"><a></a><span class="bu">print</span>(x)  <span class="co"># Output: "['Brot', 'Nutella', 'Milch']"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>x <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]  <span class="co"># Definition einer Liste</span></span>
+<span id="cb10-2"><a></a><span class="bu">print</span>(x)  <span class="co"># Output: "['Brot', 'Nutella', 'Milch']"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="zugriff-auf-listenelemente" class="slide level2">
 <h2>Zugriff auf Listenelemente</h2>
 <p>Der Zugriff auf Listenelemente erfolgt mit einem Index. <code>[0]</code> ist dabei das erste Element, <code>[1]</code> das zweite, etc.</p>
-<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
-<span id="cb10-2"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">0</span>])  <span class="co"># Output: Brot</span></span>
-<span id="cb10-3"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">1</span>])  <span class="co"># Output: Nutella</span></span>
-<span id="cb10-4"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">2</span>])  <span class="co"># Output: Milch</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb11-2"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">0</span>])  <span class="co"># Output: Brot</span></span>
+<span id="cb11-3"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">1</span>])  <span class="co"># Output: Nutella</span></span>
+<span id="cb11-4"><a></a><span class="bu">print</span>(einkaufsliste[<span class="dv">2</span>])  <span class="co"># Output: Milch</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Informatiker und moderne Mathematiker fangen bei 0 an zu zählen.</p>
 <p>Die Länge einer Liste erhält man mit der Funktion <code>len()</code>:</p>
-<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a></a>laenge <span class="op">=</span> <span class="bu">len</span>(einkaufsliste)  <span class="co"># Länge der Liste</span></span>
-<span id="cb11-2"><a></a><span class="bu">print</span>(laenge)  <span class="co"># Output: 3</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a>laenge <span class="op">=</span> <span class="bu">len</span>(einkaufsliste)  <span class="co"># Länge der Liste</span></span>
+<span id="cb12-2"><a></a><span class="bu">print</span>(laenge)  <span class="co"># Output: 3</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="listen-loops" class="slide level2">
 <h2>Listen &amp; Loops</h2>
 <p>Listen sind iterierbar, d.&nbsp;h. folgendes funktioniert und sollte bevorzugt werden:</p>
-<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a></a><span class="cf">for</span> element <span class="kw">in</span> einkaufsliste:</span>
-<span id="cb12-2"><a></a>  <span class="bu">print</span>(element)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="cf">for</span> element <span class="kw">in</span> einkaufsliste:</span>
+<span id="cb13-2"><a></a>  <span class="bu">print</span>(element)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Wenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der <code>len()</code>-Funktion verwendet werden:</p>
-<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(einkaufsliste)):  <span class="co"># len() ist die Listenlänge</span></span>
-<span id="cb13-2"><a></a>  <span class="bu">print</span>(einkaufsliste[i])</span>
-<span id="cb13-3"><a></a>  <span class="bu">print</span>(i)  <span class="co"># Vorteil: Man hat Zugriff auf den Index i</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(einkaufsliste)):  <span class="co"># len() ist die Listenlänge</span></span>
+<span id="cb14-2"><a></a>  <span class="bu">print</span>(einkaufsliste[i])</span>
+<span id="cb14-3"><a></a>  <span class="bu">print</span>(i)  <span class="co"># Vorteil: Man hat Zugriff auf den Index i</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="listenelemente-bearbeiten" class="slide level2">
 <h2>Listenelemente bearbeiten</h2>
 <p>Ein Element ändern</p>
-<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
-<span id="cb14-2"><a></a>einkaufsliste[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"Bananen"</span></span>
-<span id="cb14-3"><a></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch']</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Ein Element hinzufügen</p>
 <div class="sourceCode" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
-<span id="cb15-2"><a></a>einkaufsliste.append(<span class="st">"Bananen"</span>)</span>
-<span id="cb15-3"><a></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch', "Bananen"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Ein Element löschen</p>
+<span id="cb15-2"><a></a>einkaufsliste[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"Bananen"</span></span>
+<span id="cb15-3"><a></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch']</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ein Element hinzufügen</p>
 <div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
-<span id="cb16-2"><a></a>einkaufsliste.pop()</span>
-<span id="cb16-3"><a></a><span class="co"># Resultat: ["Brot", "Nutella"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb16-2"><a></a>einkaufsliste.append(<span class="st">"Bananen"</span>)</span>
+<span id="cb16-3"><a></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch', "Bananen"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ein Element löschen</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb17-2"><a></a>einkaufsliste.pop()</span>
+<span id="cb17-3"><a></a><span class="co"># Resultat: ["Brot", "Nutella"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-einkaufsliste" class="slide level2 unlisted">
 <h2>Auftrag: Einkaufsliste</h2>

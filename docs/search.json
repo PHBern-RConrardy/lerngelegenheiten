@@ -669,7 +669,7 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Prüfungssoftware Programmieren",
-    "text": "Auftrag: Prüfungssoftware Programmieren\ngit Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden."
+    "text": "Auftrag: Prüfungssoftware Programmieren\ngit Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\n\n\nLösungsvorschlag\n\nanzahl_versuche = 0\nantwort = \"\"\n\nwhile anzahl_versuche &lt; 3:\n    antwort = input(\"Hauptstadt?\")\n    if antwort == \"Bern\":\n        print(\"toll\")\n        anzahl_versuche = 5\n    else:\n        print(\"leider falsch, du hast noch \" + str(3 - anzahl_versuche) + \" Versuche\")\n        anzahl_versuche = anzahl_versuche + 1"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
