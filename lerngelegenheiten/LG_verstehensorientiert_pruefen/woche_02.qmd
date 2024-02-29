@@ -135,24 +135,26 @@ while 7*i<=1000:
 </details>
 
 ## Auftrag: Prüfungssoftware Programmieren {.unlisted}
-git Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
+Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
 
 <details>
 
 <summary>Lösungsvorschlag</summary>
 
 ``` python
-anzahl_versuche = 0
-antwort = ""
-
-while anzahl_versuche < 3:
-    antwort = input("Hauptstadt?")
-    if antwort == "Bern":
-        print("toll")
-        anzahl_versuche = 5
-    else:
-        print("leider falsch, du hast noch " + str(3 - anzahl_versuche) + " Versuche")
-        anzahl_versuche = anzahl_versuche + 1
+richtige_hauptstadt = "bern"
+anzahl_versuche = 1
+while anzahl_versuche<=3:
+  eingegebene_hauptstadt=input("Was ist die Hauptstadt von der Schweiz? ")
+  if eingegebene_hauptstadt==richtige_hauptstadt:
+    print("Gratulation")
+    break
+  else:
+    print("Falsche Antwort, versuche es erneut")
+    print("Du hast noch "+ str(3-anzahl_versuche) + " Versuche.", flush=True) # Flush sorgt dafür, dass das print zum richtigen Zeitpunkt ausgegeben wird.
+    anzahl_versuche=anzahl_versuche+1
+if anzahl_versuche==3:
+  print("Prüfung nicht bestanden")
 ````
 </details>
 
@@ -238,6 +240,37 @@ Programmieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. D
 
 <small>Tipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren</small>
 
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+einkaufliste=[]
+
+while True:
+    zusatz=input("Was möchtest du der Einkaufsliste hinzufügen? ")
+    einkaufliste.append(zusatz)
+    print(einkaufliste)
+```
+</details>
+
 ## Auftrag: Notendurchschnittsrechner {.unlisted}
 
 Programmieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+``` python
+notenliste=[]
+notensumme=0
+
+while True:
+    zusatz=float(input("Wie lautet deine nächste Note? "))
+    notenliste.append(zusatz)
+    notensumme=notensumme+zusatz
+    mittelwert=notensumme/len(notenliste)
+    print("Dein Mittelwert beträgt: "+str(mittelwert))
+```
+</details>

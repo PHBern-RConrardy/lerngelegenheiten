@@ -669,7 +669,7 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-prüfungssoftware-programmieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Prüfungssoftware Programmieren",
-    "text": "Auftrag: Prüfungssoftware Programmieren\ngit Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\n\n\nLösungsvorschlag\n\nanzahl_versuche = 0\nantwort = \"\"\n\nwhile anzahl_versuche &lt; 3:\n    antwort = input(\"Hauptstadt?\")\n    if antwort == \"Bern\":\n        print(\"toll\")\n        anzahl_versuche = 5\n    else:\n        print(\"leider falsch, du hast noch \" + str(3 - anzahl_versuche) + \" Versuche\")\n        anzahl_versuche = anzahl_versuche + 1"
+    "text": "Auftrag: Prüfungssoftware Programmieren\nProgrammieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.\n\n\nLösungsvorschlag\n\nrichtige_hauptstadt = \"bern\"\nanzahl_versuche = 1\nwhile anzahl_versuche&lt;=3:\n  eingegebene_hauptstadt=input(\"Was ist die Hauptstadt von der Schweiz? \")\n  if eingegebene_hauptstadt==richtige_hauptstadt:\n    print(\"Gratulation\")\n    break\n  else:\n    print(\"Falsche Antwort, versuche es erneut\")\n    print(\"Du hast noch \"+ str(3-anzahl_versuche) + \" Versuche.\", flush=True) # Flush sorgt dafür, dass das print zum richtigen Zeitpunkt ausgegeben wird.\n    anzahl_versuche=anzahl_versuche+1\nif anzahl_versuche==3:\n  print(\"Prüfung nicht bestanden\")"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#was-sind-listen",
@@ -704,14 +704,14 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-einkaufsliste",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Einkaufsliste",
-    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren"
+    "text": "Auftrag: Einkaufsliste\nProgrammieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.\nTipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren\n\n\nLösungsvorschlag\n\neinkaufliste=[]\n\nwhile True:\n    zusatz=input(\"Was möchtest du der Einkaufsliste hinzufügen? \")\n    einkaufliste.append(zusatz)\n    print(einkaufliste)"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html#auftrag-notendurchschnittsrechner",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Notendurchschnittsrechner",
-    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+    "text": "Auftrag: Notendurchschnittsrechner\nProgrammieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.\n\n\nLösungsvorschlag\n\nnotenliste=[]\nnotensumme=0\n\nwhile True:\n    zusatz=float(input(\"Wie lautet deine nächste Note? \"))\n    notenliste.append(zusatz)\n    notensumme=notensumme+zusatz\n    mittelwert=notensumme/len(notenliste)\n    print(\"Dein Mittelwert beträgt: \"+str(mittelwert))\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
   },
   {
     "objectID": "lerngelegenheiten/LG_stand_testverfahren/stand_test.html",
