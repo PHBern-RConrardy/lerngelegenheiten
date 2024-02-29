@@ -65,7 +65,7 @@ for i in range(5, 10):  # range(von, bis)
 # Output: 5 6 7 8 9
 ```
 
-## Unendliche Loops & Loops verlassen 
+## Unendliche Loops
 
 Mit “while True:” erzeugt man einen unendlichen Loop:
 
@@ -75,9 +75,15 @@ while True:  # Unendliche Schleife
 # Output: hallo hallo hallo hallo hallo hallo hallo hallo ...
 ```
 
+:::{.callout-tip}
 (Tipp: Mit “ctrl-c” (Mac: command-c) brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)
 
-Mit “break” kann man einen Loop wieder **verlassen**
+:::
+
+## Loops verlassen 
+
+Mit `break` kann man einen Loop wieder **verlassen**
+
 
 ```Python
 i = 0
@@ -96,9 +102,40 @@ while True:
 2. Die Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.
 3. Nun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm.
 
+<details>
+
+<summary>Lösungsvorschlag 1.</summary>
+
+``` python
+for i in range(1, 1001):
+    print(i)
+```
+</details>
+
+<details>
+
+<summary>Lösungsvorschlag 2.</summary>
+
+``` python
+for i in range(1, 1001):
+    print(1001-i)
+```
+</details>
+
+<details>
+
+<summary>Lösungsvorschlag 3.</summary>
+
+``` python
+i=1
+while 7*i<=1000:
+    print(7*i)
+    i=i+1
+```
+</details>
+
 ## Auftrag: Prüfungssoftware Programmieren {.unlisted}
-1. Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
-2. Erstellen sie das Flussdiagramm dazu.
+git Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
 
 
 # Listen
