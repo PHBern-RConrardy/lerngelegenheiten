@@ -41,14 +41,14 @@ authors:
 # Wochenüberblick
 
 | Woche | Thema                                        |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
-|:---------:|:----------|:----------:|:---------:|:--------------:|-----------|
+|:----------:|:-----------|:----------:|:----------:|:----------:|------------|
 |   1   | Variablen und Conditionals                   | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
 |   2   | Loops und Listen                             | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
 |   3   | Funktionen und Projektauftrag                | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
 |   4   | Projekt 1 (asynchron)                        |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-1) |                                                                                  |     |
-|   5   | Überschlagen üben                            |         [<i class="bi bi-easel3-fill"></i>](woche_05.qmd)          |                                                 |                                                                                  |     |
-|   6   | kgV und ggT                                  |         [<i class="bi bi-easel3-fill"></i>](woche_06.qmd)          |                                                 |                                                                                  |     |
-|   7   | Brüche addieren                              |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |                                                 |                                                                                  |     |
+|   5   | Überschlagen üben und Sieb des Eratosthenes  |         [<i class="bi bi-easel3-fill"></i>](woche_05.qmd)          |                                                 |                                                                                  |     |
+|   6   | Vier-Quadrate-Satz von Lagrange              |         [<i class="bi bi-easel3-fill"></i>](woche_06.qmd)          |                                                 |                                                                                  |     |
+|   7   | Stammbrüche und Vermutung von Collatz        |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |                                                 |                                                                                  |     |
 |   8   | Brute force Gleichungen lösen & Kombinatorik |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                                 |                                                                                  |     |
 |   9   | Projekt 2 (asynchron)                        |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-2) |                                                                                  |     |
 |  10   | fällt im FS24 aus?                           |                                                                    |                                                 |                                                                                  |     |
@@ -65,15 +65,14 @@ authors:
 
 Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie **vor** der ersten Woche Rstudio und Python auf Ihrem Computer.
 
-::: {.panel-tabset}
-
+::: panel-tabset
 ## Windows 🪟
 
 Grobe Installationsanleitung unter Windows:
 
 1.  Installieren Sie R, [Webseite](https://cran.rstudio.com/bin/windows/base/).
 2.  Installieren Sie RStudio, [Webseite](https://posit.co/download/rstudio-desktop/).
-3. Installieren Sie RTools, [Webseite](https://cran.r-project.org/bin/windows/Rtools/).
+3.  Installieren Sie RTools, [Webseite](https://cran.r-project.org/bin/windows/Rtools/).
 4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
 5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
 
@@ -83,10 +82,10 @@ Grobe Installationsanleitung unter MacOS:
 
 Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:
 
-1. [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2. [RStudio (+R)](https://formulae.brew.sh/cask/rstudio#default) im *Terminal* installieren: `brew install --cask rstudio`
-4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
-5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
+1.  [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
+2.  [RStudio (+R)](https://formulae.brew.sh/cask/rstudio#default) im *Terminal* installieren: `brew install --cask rstudio`
+3.  In der *Console* in Rstudio: `install.packages("reticulate")`.
+4.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
 
 Empfehlung: Installieren Sie Software grundsätzlich über [Homebrew](https://brew.sh/) (Paketmanager für MacOS).
 
@@ -97,7 +96,6 @@ Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl g
 Komm vorbei für einen gratis ☕️.
 
 Installation hängt von der Distro ab.
-
 :::
 
 ::: callout-note
@@ -114,7 +112,7 @@ print("Hello, World!")
 
 ## Projekt 1 {#projekt-1}
 
-Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. 
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
 
 Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
 
@@ -124,15 +122,15 @@ Sie können die Arbeit als Partnerarbeit erledigen.
 
 ## Projekt 2 {#projekt-2}
 
-Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen. 
+Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
 
-Halten Sie schriftlich fest: 
+Halten Sie schriftlich fest:
 
-* wie diese Übung zur formativen Beurteilung beiträgt. 
-* wie Sie mit diesem Übungssetting Unterrichtsmaterial und Medien zur Rückmeldung verwenden und auf eine konkrete Unterrichtssituation anpassen. 
-* wie dieses Übungssetting die Entwicklung bildungssprachlicher Kompetenzen im Zusammenhang mit fachlichem Lernen fördert.
+-   wie diese Übung zur formativen Beurteilung beiträgt.
+-   wie Sie mit diesem Übungssetting Unterrichtsmaterial und Medien zur Rückmeldung verwenden und auf eine konkrete Unterrichtssituation anpassen.
+-   wie dieses Übungssetting die Entwicklung bildungssprachlicher Kompetenzen im Zusammenhang mit fachlichem Lernen fördert.
 
-::: {.callout-tip}
+::: callout-tip
 ## Leistungsnachweis: Formative Beurteilung
 
 Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung sein. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
