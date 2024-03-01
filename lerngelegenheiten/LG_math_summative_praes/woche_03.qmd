@@ -43,6 +43,8 @@ format: revealjs
 ##  {.unlisted}
 
 ```{mermaid}
+%%| mermaid-format: png
+
 graph LR;
   b1[Arithmetik];
   b2[Stochastik];
@@ -134,7 +136,15 @@ class padding padding
 ##  {.unlisted}
 
 ```{mermaid}
+%%| mermaid-format: png
+
 graph LR;
+m1[Theoreme];
+m2[Definitionen];
+m3[Beweise];
+m4[Axiome];
+m5[Logik];
+
 b1[Begriffsbildung];
 b2[Problemlösen lernen];
 b3[Algorithmik];
@@ -155,15 +165,23 @@ edk6[Argumentieren und Begründen];
 edk7[Interpretieren und Reflektieren der Resultate];
 edk8[Erforschen und Explorieren];
 
-b1-->edk1-->h1;
+m2-->b1-->edk1-->h1;
 b6-->edk4-->h3;
-b4-->edk6-->h2;
+m3-->b4-->edk6-->h2;
 b3-->edk2-->h1;
-b2-->edk7-->h2;
+m1-->b2-->edk7-->h2;
 b5-->edk5-->h3;
 edk8-->h2;
 edk3-->h1;
 b2-->edk8;
+
+subgraph Fachinhalte
+  m1;
+  m2;
+  m3;
+  m4;
+  m5;
+end
 
 subgraph Denkprozesse
   b1;
@@ -192,7 +210,11 @@ end
 ```
 
 ::: quelle
-@bruder2014, @edk2011, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+Denkprozesse nach @bruder2014 
+
+Handlungsaspekte EDK nach @edk2011
+
+Hanldungsaspekte LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
 # Lehrplan 21

@@ -1,5 +1,6 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
+subtitle: "Woche 1"
 format: revealjs
 author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
       - name: Joel Adler

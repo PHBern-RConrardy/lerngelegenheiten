@@ -58,11 +58,15 @@ format: revealjs
 -   Sie müssen erkennen können, welcher Lehrstoff im Buch fehlt.
 -   Sie müssen feststellen können, welcher Lehrstoff im Buch schlecht angeordnet ist.
 -   Sie müssen gut angeordneten Lehrstoff des Buchs erkennen können.
--   Sie müssen in der Lage sein, zusammen mit Kollegen ein fUr Ihre Schule geeignetes Lehrbuch auszusuchen.
+-   Sie müssen in der Lage sein, zusammen mit Kollegen ein für Ihre Schule geeignetes Lehrbuch auszusuchen.
 
 :::blockquote-footer
 @vandormolen1978
 :::
+
+## Concept Map
+
+Erstellen wir eine Concept Map am Beispiel von "linearen Gleichungssystemen", vgl. [MA.1.A.4.m](https://be.lehrplan.ch/101Gt47XGXuJMAcvuXXX8TpzNSxJ9BUaN)
 
 ## Aufnahmeprüfungen
 
@@ -86,5 +90,11 @@ Verschaffen Sie sich einen Überblick über die Anforderungen der Aufnahmeprüfu
 [Webseite](https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html)
 
 # Projekt
+
+## Empfehlung - Inhalt
+
+* Halten Sie das wichtigste Wissen ihres Themengebiets fest.
+* Erstellen Sie eine [Concept Map](https://de.wikipedia.org/wiki/Concept-Map) zu den Inhalten des Leistungsnachweises. Halten Sie fest welches Wissen vorausgesetzt wird, welches Wissen abgefragt wird und auf welches Wissen es vorbereitet.
+
 
 ## Bibliographie {.unnumbered .unlisted}

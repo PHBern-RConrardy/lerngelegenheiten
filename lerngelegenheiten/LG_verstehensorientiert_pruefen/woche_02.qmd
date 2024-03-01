@@ -1,5 +1,6 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
+subtitle: "Woche 2"
 format: revealjs
 authors:
     - name: Richard Conrardy

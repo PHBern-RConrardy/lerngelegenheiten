@@ -51,7 +51,7 @@ Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
 4.  Grössen, Funktionen, Daten und Zufall (Analysis): Lineare Funktionen
 5.  Form und Raum (Geometrie): Flächen- und Volumenberechnungen, Dreiecke und Vierecke
 
-Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben.
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an.
 
 ------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:
 3.  Grössen, Funktionen, Daten und Zufall (Stochastik & Kombinatorik und beschreibende Statistik): Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)
 4.  Zahl und Variable (Arithmetik und Algebra): Übersicht über alle bekannten Rechenregeln und Operationen (inkl. digitale Hilfsmittel)
 
-Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben.
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an.
 
 ------------------------------------------------------------------------
 

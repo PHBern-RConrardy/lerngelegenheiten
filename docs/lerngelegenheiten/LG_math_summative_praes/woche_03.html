@@ -344,10 +344,6 @@
       margin-right: 0; 
     }
   </style>
-  <meta name="mermaid-theme" content="neutral">
-  <script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-  <script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-  <link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -436,69 +432,12 @@
 </section>
 <section id="section" class="slide level2 unlisted">
 <h2></h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph LR;
-  b1[Arithmetik];
-  b2[Stochastik];
-  b3[Geometrie];
-  i5[Zahl];
-  k1[Zahl und Variable];
-  b4[Algebra];
-  i1[Symbol und Formalisierung];
-  b5[Analysis];
-  i2[Zuordnung und Veränderung];
-  i3[Daten und Zufall];
-  i4[Form und Raum];
-  k2[Grössen, Funktionen, Daten und Zufall];
-  k3[Form und Raum];
-  edk1[Zahl und Variable];
-  edk2[Form und Raum];
-  edk3[Grösse und Masse];
-  edk4[Funktionale Zusammenhänge];
-  edk5[Daten und Zufall];
-  b1--&gt;i5--&gt;edk1--&gt;k1;
-  b4--&gt;i1--&gt;edk1;
-  b5--&gt;i2--&gt;edk4--&gt;k2;
-  b2--&gt;i3--&gt;edk5--&gt;k2;
-  b3--&gt;i4--&gt;edk2--&gt;k3;
-  edk3--&gt;k2;
-  subgraph Teilgebiete
-    b1;
-    b2;
-    b3;
-    b4;
-    b5;
-  end
-  subgraph B[Kompetenzbereiche EDK]
-    edk1;
-    edk2;
-    edk3;
-    edk4;
-    edk5;
-  end
-  subgraph Leitideen
-    i1;
-    i2;
-    i3;
-    i4;
-    i5;
-  end
-  subgraph K[Kompetenzbereiche LP21]
-    k1;
-    k2;
-    k3;
-  end
-  
-classDef title font-size:14px
-classDef padding stroke:none,fill:none
-
-class main title
-class padding padding
-</pre>
+<p><img data-src="woche_03_files/figure-revealjs/mermaid-figure-1.png" style="width:12.39in;height:5.63in"></p>
 </div>
 <p></p></figure><p></p>
 </div>
@@ -540,74 +479,21 @@ class padding padding
 </section>
 <section id="section-1" class="slide level2 unlisted">
 <h2></h2>
-<div class="cell" data-reveal="true" data-layout-align="center">
+<div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
 <p></p><figure class=""><p></p>
 <div>
-<pre class="mermaid mermaid-js">graph LR;
-b1[Begriffsbildung];
-b2[Problemlösen lernen];
-b3[Algorithmik];
-b4[Argumentieren und Beweisen];
-b5[Anwendungen und Modellieren];
-b6[Darstellen und Kommunizieren];
-
-h1[Operieren und Benennen];
-h2[Erforschen und Argumentieren];
-h3[Mathematisieren und Darstellen];
-
-edk1[Wissen, Erkennen und Beschreiben];
-edk2[Operieren und Berechnen];
-edk3[Verwenden von Instrumenten und Werkzeugen];
-edk4[Darstellen und Kommunizieren];
-edk5[Mathematisieren und Modellieren];
-edk6[Argumentieren und Begründen];
-edk7[Interpretieren und Reflektieren der Resultate];
-edk8[Erforschen und Explorieren];
-
-b1--&gt;edk1--&gt;h1;
-b6--&gt;edk4--&gt;h3;
-b4--&gt;edk6--&gt;h2;
-b3--&gt;edk2--&gt;h1;
-b2--&gt;edk7--&gt;h2;
-b5--&gt;edk5--&gt;h3;
-edk8--&gt;h2;
-edk3--&gt;h1;
-b2--&gt;edk8;
-
-subgraph Denkprozesse
-  b1;
-  b2;
-  b3;
-  b4;
-  b5;
-  b6;
-end
-subgraph Handlungsaspekte EDK
-  edk1;
-  edk2;
-  edk3;
-  edk4;
-  edk5;
-  edk6;
-  edk7;
-  edk8;
-end
-subgraph Handlungsaspekte LP21
-  h1;
-  h2;
-  h3;
-end
-
-</pre>
+<p><img data-src="woche_03_files/figure-revealjs/mermaid-figure-2.png" style="width:13.5in;height:7.38in"></p>
 </div>
 <p></p></figure><p></p>
 </div>
 </div>
 </div>
 <div class="quelle">
-<p><span class="citation" data-cites="bruder2014">Bruder et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span>, <span class="citation" data-cites="edk2011">EDK (<a href="#/bibliographie" role="doc-biblioref" onclick="">2011</a>)</span>, <span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
+<p>Denkprozesse nach <span class="citation" data-cites="bruder2014">Bruder et al. (<a href="#/bibliographie" role="doc-biblioref" onclick="">2014</a>)</span></p>
+<p>Handlungsaspekte EDK nach <span class="citation" data-cites="edk2011">EDK (<a href="#/bibliographie" role="doc-biblioref" onclick="">2011</a>)</span></p>
+<p>Hanldungsaspekte LP21 nach <span class="citation" data-cites="bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#/bibliographie" role="doc-biblioref" onclick="">2016</a>)</span></p>
 </div>
 </section></section>
 <section>

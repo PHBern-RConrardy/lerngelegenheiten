@@ -22517,6 +22517,356 @@
             "title": "Momo oder die seltsame geschichte von den zeit-dieben und von dem kind, das den menschen die gestohlene zeit zurückbrachte: Ein märchen-roman",
             "title-short": "Momo oder die seltsame geschichte von den zeit-dieben und von dem kind, das den menschen die gestohlene zeit zurückbrachte",
             "type": "book"
+        },
+        {
+            "DOI": "10.1080/00220480009596759",
+            "ISSN": "0022-0485",
+            "URL": "https://www.tandfonline.com/doi/abs/10.1080/00220480009596759",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        26
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Lage",
+                    "given": "Maureen J."
+                },
+                {
+                    "family": "Platt",
+                    "given": "Glenn J."
+                },
+                {
+                    "family": "Treglia",
+                    "given": "Michael"
+                }
+            ],
+            "container-title": "The Journal of Economic Education",
+            "id": "lage_inverting_2000-1",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "note": "Publisher: Routledge _eprint: https://www.tandfonline.com/doi/pdf/10.1080/00220480009596759",
+            "page": "30-43",
+            "title": "Inverting the classroom: A gateway to creating an inclusive learning environment",
+            "title-short": "Inverting the classroom",
+            "type": "article-journal",
+            "volume": "31"
+        },
+        {
+            "DOI": "10.1515/9783486716641",
+            "ISBN": "978-3-486-71664-1",
+            "URL": "https://www.degruyter.com/document/doi/10.1515/9783486716641/html",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        26
+                    ]
+                ]
+            },
+            "editor": [
+                {
+                    "family": "Handke",
+                    "given": "Jürgen"
+                },
+                {
+                    "family": "Sperl",
+                    "given": "Alexander"
+                }
+            ],
+            "id": "handke_inverted_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        12,
+                        31
+                    ]
+                ]
+            },
+            "publisher": "De Gruyter",
+            "title": "Das inverted classroom model: Begleitband zur ersten deutschen ICM-konferenz",
+            "title-short": "Das inverted classroom model",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1007/s11858-018-0918-4",
+            "ISSN": "1863-9704",
+            "URL": "https://doi.org/10.1007/s11858-018-0918-4",
+            "abstract": "In this paper, we argue that classroom management, student support, and cognitive activation are generic aspects of classroom teaching, forming Three Basic Dimensions of teaching quality. The conceptual framework was developed in research on mathematics instruction but it is supposed to generalize across subjects. It is based on general theories of schooling and teaching as well as established theories and research traditions from educational psychology. Although used frequently in German-speaking countries, no comprehensive overview of the theoretical foundation as well as the existing evidence regarding the framework, including its strengths and weaknesses, exists so far. The present paper therefore presents first an overview of the theoretical rationale of the framework. Second, it gives an overview of differences and commonalities in the operationalizations of the Three Basic Dimensions in different studies, including a comprehensive set of sub-dimensions. Third, evidence on the reliability and validity of the dimensions is reviewed, with good results for reliability and mixed results for predictive validity. Fourth, an analysis of three mathematics lessons using observer ratings illustrates how the framework of the Three Basic Dimensions can be used for investigating instructional quality. Finally, strengths and limitations of the framework for capturing instructional quality are discussed and we elaborate on the framework’s potential for further development.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        26
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Praetorius",
+                    "given": "Anna-Katharina"
+                },
+                {
+                    "family": "Klieme",
+                    "given": "Eckhard"
+                },
+                {
+                    "family": "Herbert",
+                    "given": "Benjamin"
+                },
+                {
+                    "family": "Pinger",
+                    "given": "Petra"
+                }
+            ],
+            "container-title": "ZDM – Mathematics Education",
+            "container-title-short": "ZDM Mathematics Education",
+            "id": "praetorius_generic_2018-1",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Classroom management, Cognitive activation, Student support, Teaching quality, Three Basic Dimensions",
+            "language": "en-US",
+            "page": "407-426",
+            "title": "Generic dimensions of teaching quality: The german framework of three basic dimensions",
+            "title-short": "Generic dimensions of teaching quality",
+            "type": "article-journal",
+            "volume": "50"
+        },
+        {
+            "ISBN": "978-3-86793-869-3 978-3-86793-790-0",
+            "edition": "3. Auflage",
+            "editor": [
+                {
+                    "family": "Werner",
+                    "given": "Julia"
+                },
+                {
+                    "family": "Ebel",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Spannagel",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Bayer",
+                    "given": "Stephan"
+                }
+            ],
+            "id": "werner_flipped_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "number-of-pages": "228",
+            "publisher": "Verlag Bertelsmann Stiftung",
+            "publisher-place": "Gütersloh",
+            "title": "Flipped classroom - zeit für deinen unterricht: Praxisbeispiele, erfahrungen und handlungsempfehlungen",
+            "title-short": "Flipped classroom - zeit für deinen unterricht",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/unterricht/planen/planungen-zum-mathbuch-1bis3-z3.pdf",
+            "abstract": "Umsetzungshilfen zum Lehrplan 21 der Lehrplan- und Lehrmittelkommission des Kantons Bern",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2023,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                }
+            ],
+            "id": "walti_jahresplanung_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "title": "Jahresplanung zu mathbuch 1, 2, und 3",
+            "type": ""
+        },
+        {
+            "URL": "https://www.mathbuch.info/_file/471/a200-01.pdf",
+            "author": [
+                {
+                    "family": "Affolter",
+                    "given": "Walter"
+                },
+                {
+                    "family": "Nydegger",
+                    "given": "Annegret"
+                },
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                },
+                {
+                    "family": "Wieland",
+                    "given": "Gregor"
+                }
+            ],
+            "id": "affolter_ubersichtsraster_2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        2,
+                        11
+                    ]
+                ]
+            },
+            "publisher": "Schulverlag plus AG / Klett und Balmer AG",
+            "title": "Übersichtsraster «mathbuch 1 - LP21» stand: 2.11.2014",
+            "title-short": "Übersichtsraster «mathbuch 1 - LP21» stand",
+            "type": ""
+        },
+        {
+            "URL": "https://www.mathbuch.info/_file/471/a200-01.pdf",
+            "author": [
+                {
+                    "family": "Affolter",
+                    "given": "Walter"
+                },
+                {
+                    "family": "Nydegger",
+                    "given": "Annegret"
+                },
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                },
+                {
+                    "family": "Wieland",
+                    "given": "Gregor"
+                }
+            ],
+            "id": "affolter_ubersichtsraster_2014-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        2,
+                        11
+                    ]
+                ]
+            },
+            "publisher": "Schulverlag plus AG / Klett und Balmer AG",
+            "title": "Übersichtsraster «mathbuch 2 - LP21» stand: 2.11.2014",
+            "title-short": "Übersichtsraster «mathbuch 2 - LP21» stand",
+            "type": ""
+        },
+        {
+            "URL": "https://www.mathbuch.info/_file/471/a200-01.pdf",
+            "author": [
+                {
+                    "family": "Affolter",
+                    "given": "Walter"
+                },
+                {
+                    "family": "Nydegger",
+                    "given": "Annegret"
+                },
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                },
+                {
+                    "family": "Wieland",
+                    "given": "Gregor"
+                }
+            ],
+            "id": "affolter_ubersichtsraster_2014-2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014,
+                        2,
+                        11
+                    ]
+                ]
+            },
+            "publisher": "Schulverlag plus AG / Klett und Balmer AG",
+            "title": "Übersichtsraster «mathbuch 3 - LP 21» stand: 1.7.2015 C200-01",
+            "title-short": "Übersichtsraster «mathbuch 3 - LP 21» stand",
+            "type": ""
+        },
+        {
+            "DOI": "10.1007/978-3-030-65429-0",
+            "ISBN": "978-3-030-65428-3 978-3-030-65429-0",
+            "URL": "https://link.springer.com/10.1007/978-3-030-65429-0",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        29
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Reiss",
+                    "given": "Kristina"
+                },
+                {
+                    "family": "Hammer",
+                    "given": "Christoph"
+                }
+            ],
+            "collection-title": "Mathematik Kompakt",
+            "id": "reiss_grundlagen_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "keyword": "Mathematikunterricht, Entwicklung, Kompetenzorientiertes Lehren und Lernen, Lehramtsstudium, Mathematikdidaktisches Basiswissen, mathematisches Denken, selbstreguliertes Lernen",
+            "language": "de-DE",
+            "publisher": "Springer International Publishing",
+            "publisher-place": "Cham",
+            "title": "Grundlagen der Mathematikdidaktik: Eine Einführung für den Unterricht in der Sekundarstufe",
+            "title-short": "Grundlagen der Mathematikdidaktik",
+            "type": "book"
         }
     ],
     "project_biblios": [
