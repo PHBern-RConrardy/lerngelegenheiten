@@ -34,18 +34,27 @@ gantt
         Exposé: e0, 2023-01-08, 240d
         Promotionsvereinbarung: pv, 2023-07-01, 30d
         Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d
-        Probedurchlauf: pdl, 2024-03-01,14d
-        Experiment 1          :  e1, 2024-04-01, 60d
+        Probedurchlauf: pdl, 2024-04-01,14d
+        Experiment 1          :  e1, 2024-05-01, 60d
         Experiment 2    : e2, 2025-02-01, 120d
         Experiment 3: e3, 2025-08-01, 110d
-        2 Artikel : art2, 2026-02-01, 365d
-        3 Artikel : art3, 2027-02-01, 365d
+        1. Artikel : art1, 2025-05-01, 365d
+        2. Artikel : art2, 2026-02-01, 365d
+        3. Artikel : art3, 2027-02-01, 365d
+        🎉🍾: cha, 2028-03-01,1d
+        Dissertationsförderung: diss, 2025-08-01, 365d
 
-    section PHBern
+    section Projekt
         Antrag Anschubfinanzierung: a0, 2023-02-01, 30d
         Anschubfinanzierung: a1, 2024-08-01, 365d
         Antrag Projekt: p0, 2025-01-01, 60d
-        Projekt: p1, 2026-08-01, 1100d  
+        Projekt: p1, 2026-08-01, 1100d
+        
+    section Innovationspool
+        Antrag Innovationspool: i0, 2023-02-01, 30d
+        Innovationspoolprojekt: i1, 2024-08-01, 365d
+        Treffpunkt Hochschuldidaktik: i2, 2024-03-01, 5d
+        Poster: i3, 2025-08-01, 5d
 ```
 
 # Productive failure
@@ -256,7 +265,7 @@ There need to be at least 6,424 unpublished studies with a mean of 0; however, t
 
 Is the 4F-model flipped the right way?
 
-## Non-Flipped Model
+## Alternative Model
 
 1.  [Fail]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}
 2.  [Instruct]{style="color: blue; font-weight: bold;"}
@@ -284,19 +293,25 @@ Es findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt.
 
 Klasse wird in 2 Gruppen räumlich getrennt.
 
-| Min. | Gruppe 1      | Gruppe 2      |
+| Min. | Gruppe 1 (4F)     | Gruppe 2 (Alt)      |
 |------|---------------|---------------|
-| 40   | Fail koll.    | Fail ind.     |
+| 40   | [Fail koll.]{style="color: blue; font-weight: bold;"}    | [Fail ind.]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}     |
 | 5    | Mental effort | Mental effort |
-| 20   | Flip          | Instruct      |
+| 20   | [Flip]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}          | [Instruct]{style="color: blue; font-weight: bold;"}      |
 | 5    | mental effort | mental effort |
 | 20   | Posttest      | Posttest      |
+
+::: quelle
+[synchron]{style="color: blue; font-weight: bold;"}
+
+[asynchron]{style="text-decoration: underline;color: magenta; font-weight: bold;"}
+:::
 
 ## Zweiter Tag der Untersuchung
 
 Klasse wird zusammen unterrichtet.
 
-| Min. | Gruppe 1      | Gruppe 2      |
+| Min. | Gruppe 1 (4F)      | Gruppe 2 (Alt)      |
 |------|---------------|---------------|
 | 20   | Fix           | Fix           |
 | 5    | mental effort | mental effort |
@@ -322,7 +337,7 @@ Klasse wird zusammen unterrichtet.
 4.  Anwenden
 
 ::: quelle
-@aebli_zwolf_1983
+@aebli_zwolf_1983 ?
 :::
 
 ## LUKAS-Modell
@@ -333,7 +348,7 @@ Klasse wird zusammen unterrichtet.
 -   Transfer- und Syntheseaufgaben
 
 ::: quelle
-PHLuzern?
+@luthiger_kompetenzforderung_2018
 :::
 
 ## AVIVA-Modell
@@ -356,7 +371,6 @@ PHLuzern?
 
 ### Meinerseits:
 
--  Wie soll der Sprachstil angepasst werden?
 -   Ist es sinnvoll Padua, Lukas, usw. mitzuerwähnen?
 -   Wieviel Theorie braucht ein Paper?
 -   Anregungen zu zukünftigen Designs.

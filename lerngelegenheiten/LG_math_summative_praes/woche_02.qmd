@@ -2,6 +2,7 @@
 title: "<small>Summative Beurteilung im Mathematikunterricht</small>"
 subtitle: Grundlagen für den Unterricht <br> Woche 2
 format: revealjs
+toc-depth: 2
 ---
 
 # Lehrplan21
@@ -22,7 +23,9 @@ format: revealjs
 
 </iframe>
 
-## Lehrplan21 - Legende
+## Lehrplan21 - Legende {.unlisted}
+
+$\sum_{0}^\infty a_n$
 
 :::{layout="[100]"}
 
@@ -68,7 +71,7 @@ format: revealjs
 
 Erstellen wir eine Concept Map am Beispiel von "linearen Gleichungssystemen", vgl. [MA.1.A.4.m](https://be.lehrplan.ch/101Gt47XGXuJMAcvuXXX8TpzNSxJ9BUaN)
 
-## Aufnahmeprüfungen
+## Aufnahmeprüfungen {.unlisted}
 
 ### Auftrag
 
