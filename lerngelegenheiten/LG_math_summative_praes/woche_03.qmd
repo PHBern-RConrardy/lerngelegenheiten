@@ -49,16 +49,21 @@ graph LR;
   b1[Arithmetik];
   b2[Stochastik];
   b3[Geometrie];
-  i5[Zahl];
-  k1[Zahl und Variable];
   b4[Algebra];
-  i1[Symbol und Formalisierung];
   b5[Analysis];
+  b6[Mengenlehre];
+  b7[Logik];
+  
+  i1[Symbol und Formalisierung];
   i2[Zuordnung und Veränderung];
   i3[Daten und Zufall];
   i4[Form und Raum];
+  i5[Zahl];
+  
+  k1[Zahl und Variable];
   k2[Grössen, Funktionen, Daten und Zufall];
   k3[Form und Raum];
+  
   edk1[Zahl und Variable];
   edk2[Form und Raum];
   edk3[Grösse und Masse];
@@ -70,12 +75,15 @@ graph LR;
   b2-->i3-->edk5-->k2;
   b3-->i4-->edk2-->k3;
   edk3-->k2;
+  b6-->i2;
   subgraph Teilgebiete
     b1;
     b2;
     b3;
     b4;
     b5;
+    b6;
+    b7;
   end
   subgraph B[Kompetenzbereiche EDK]
     edk1;
@@ -180,7 +188,6 @@ subgraph Fachinhalte
   m2;
   m3;
   m4;
-  m5;
 end
 
 subgraph Denkprozesse
@@ -214,7 +221,7 @@ Denkprozesse nach @bruder2014
 
 Handlungsaspekte EDK nach @edk2011
 
-Hanldungsaspekte LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+Handlungsaspekte LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
 # Lehrplan 21
