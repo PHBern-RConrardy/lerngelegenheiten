@@ -1,0 +1,6 @@
+---
+format: revealjs
+title: Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>
+subtitle: Praxislehrpersonen-Tagung
+date: 18 03 2024
+---

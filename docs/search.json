@@ -1453,7 +1453,7 @@
     "href": "tagungsunterlagen/tagungsunterlagen.html",
     "title": "Übersicht Tagungsunterlagen",
     "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n18.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nRichard Conrardy\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
@@ -1664,5 +1664,103 @@
     "title": "Learning Analytics",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nFelten, P. (2013). Principles of Good Practice in SoTL. Teaching & Learning Inquiry The ISSOTL Journal, 1(1), 121–125. https://doi.org/10.20343/teachlearninqu.1.1.121\n\n\nPardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson & B. White, Learning Analytics: From Research to Practice (S. 15–38). Springer New York. https://doi.org/10.1007/978-1-4614-3305-7"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#rstudio",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#rstudio",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "RStudio",
+    "text": "RStudio\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#quartopub",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#quartopub",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Quartopub",
+    "text": "Quartopub\nhttps://quartopub.org/"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#workshop",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#workshop",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Workshop",
+    "text": "Workshop\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#creative-coding---sonja-schär",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#creative-coding---sonja-schär",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Creative Coding - Sonja Schär",
+    "text": "Creative Coding - Sonja Schär\n\n\n\nQuellcode von Sonja Schär\nP5 = require(\"p5\")\n\nfunction* createSketch(sketch) {\n  const element = DOM.element('div');\n  yield element;\n  const instance = new P5(sketch, element, true);\n  try {\n    while (true) {\n      yield element;\n    }\n  } finally {\n    instance.remove();\n  }\n}\n\ncreateSketch((s) =&gt; {\n    s.setup = () =&gt; {\n    s.sizeX = 960;\n    s.sizeY = 400;\n    s.createCanvas(s.sizeX, s.sizeY);\n    s.background(0);\n  };\n\n  s.draw = () =&gt; {\n    meinKreisePinsel();\n  };\n\n  function meinKreisePinsel() {\n    s.strokeWeight(1);\n    s.fill(255 / s.sizeX * s.mouseX, 0, 255 / s.sizeY * (s.sizeY - s.mouseX));\n    s.circle(s.mouseX+100, s.mouseY+50, s.dist(s.mouseX, s.mouseY, s.pmouseX, s.pmouseY));\n  }\n})"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#flowchart---richard-conrardy",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#flowchart---richard-conrardy",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Flowchart - Richard Conrardy",
+    "text": "Flowchart - Richard Conrardy\n\n\nCode\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  i5[Zahl];\n  k1[Zahl und Variable];\n  b4[Algebra];\n  i1[Symbol und Formalisierung];\n  b5[Analysis];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5---edk1--&gt;k1;\n  b4--&gt;i1---edk1;\n  b5--&gt;i2---edk4--&gt;k2;\n  b2--&gt;i3---edk5--&gt;k2;\n  b3--&gt;i4---edk2--&gt;k3;\n  edk3--&gt;k2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#gantt-diagram",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#gantt-diagram",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Gantt diagram",
+    "text": "Gantt diagram\n\n\nCode\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-03-01,14d\n        Experiment 1          :  e1, 2024-04-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        2 Artikel : art2, 2026-02-01, 365d\n        3 Artikel : art3, 2027-02-01, 365d\n\n    section PHBern\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markup",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markup",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Mark️up",
+    "text": "Mark️up"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section-2",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section-2",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back!"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#about",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#about",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "About",
+    "text": "About\n\nPosit\n\nQuarto\nRStudio\nQuartopub"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#datenschutzrecht",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#datenschutzrecht",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Datenschutzrecht",
+    "text": "Datenschutzrecht\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs.1 KDSG\n\n\n\nPersonendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.\n\nArt.2 Abs.1 KDSG"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#urheberrecht",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#urheberrecht",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Urheberrecht",
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#phbern",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#phbern",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "PHBern",
+    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
   }
 ]
