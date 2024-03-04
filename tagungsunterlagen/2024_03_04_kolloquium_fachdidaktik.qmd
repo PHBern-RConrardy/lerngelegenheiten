@@ -221,7 +221,7 @@ Sekundarklassen (quasi-experimentell): $p = 0.437$
 -   46 meta-analyses, 173 studies
 -   Von $d=0.25$ bis $d=2.29$ in meta-analysis.
 -   Asian: $g=0.75$, Western: $g=0.53$
--   Math: $d=0.26$
+-   Math: $g=0.26$
 
 presence of publication bias on effect size level
 

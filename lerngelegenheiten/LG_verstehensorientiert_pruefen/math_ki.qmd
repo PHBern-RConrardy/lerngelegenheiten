@@ -41,7 +41,7 @@ authors:
 # Wochenüberblick
 
 | Woche | Thema                                        |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
-|:-----:|:---------------------------------------------|:------------------------------------------------------------------:|:-----------------------------------------------:|:--------------------------------------------------------------------------------:|-----|
+|:---------:|:----------|:----------:|:---------:|:--------------:|-----------|
 |   1   | Variablen und Conditionals                   | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
 |   2   | Loops und Listen                             | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
 |   3   | Funktionen und Projektauftrag                | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
@@ -134,4 +134,70 @@ Halten Sie schriftlich fest:
 ## Leistungsnachweis: Formative Beurteilung
 
 Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung sein. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
+:::
+
+# Aufgabenvorschläge
+:::{.panel-tabset}
+## Teilbarkeit
+
+Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind. 
+
+## Vierquadratesatz von Lagrange. 
+
+* Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.
+
+Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.
+
+* Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
+* Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
+* Bestimme alle nat?rlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.
+
+## Quadratzahlen
+
+Die SuS erkennen, dass jede natürliche Zahl $n$ als Summe von vier Quadratzahlen dargestellt werden kann.
+
+Nun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl $n$ für alle $s\leq n$, $s\in\mathbb{N}$, das kleinste $k$ mit  $s=\sum_{i=1}^kx_i^3$ zu bestimmen.
+
+SuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen.
+
+## Stammbrüche
+
+Jeder Bruch $0<\frac{p}{q}<1$ kann als Summe verschiedener Stammbr?che dargestellt werden, zum Beispiel $\frac{4}{17}=\frac{1}{5}+\frac{1}{30}+\frac{1}{510}$.
+
+Schreiben eines Programm, das bei Eingabe eines Bruchs $\frac{p}{q}$ eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt. 
+
+Man kann noch verlangen, dass die Eingabe $\frac{p}{q}$ auf die Bedingung $0<\frac{p}{q}<1$ getestet wird.
+
+## Satz von Collatz
+
+Nicht fehlen in dieser Liste darf die Folge bzw.~die Vermutung von Collatz: Für jede Startzahl $n$ erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv $$a_0=n,\quad a_{n+1}=\begin{cases}\frac{a_n}{2} & a_n\text{ gerade }\\3a_n+1&a_n \text{ ungerade}\end{cases}$$
+
+
+definiert. 
+
+## Sieb des Eratosthenes
+
+Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.
+
+Die Eingabe ist eine natürliche Zahl $n$, die Ausgabe die Liste aller Primzahlen kleiner gleich $n$.
+
+Bestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen $a$ und $b$ (mit $a>b$) bestimmt werden, indem für die Elemente der Liste der Teiler von $b$ beginnend mit dem gr?ssten Element getestet wird, ob sie $a$ teilen. 
+
+## Potenz-, Exponentialfunktion
+
+Vergleich des Wachstums von Potenz- und Exponentialfunktionen. 
+
+Ziel: Zur Eingabe zweier Zahlen $a$ und $b$, $a>1$, $b\in\mathbb{N}$,  die kleinste natürliche Zahl $n$ bestimmen, für die $n^b<a^n$ gilt. 
+
+Die SuS erkennen, dass jede Exponentialfunktion (auch für $a=1.0001$) schneller wächst als jede Potenzfunktion.
+
+## Nazistische Zahlen
+
+Das Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl $n$
+
+Eine Zahl heisst $k=a_{n-1}a_{n-2}\ldots a_1a_0$ *narzistisch*, wenn $k=\sum_{i=0}^{n-1}a_i^n$ gilt.
+
+Beispiele narzistischer Zahlen sind 153 und 371 ($153=1^3+5^3+3^3$, $371=3^3+7^3+1^3$)
+
+
 :::

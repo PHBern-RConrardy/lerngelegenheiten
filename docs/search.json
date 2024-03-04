@@ -284,7 +284,7 @@
     "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#effekte---flipped-classroom",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Effekte - Flipped Classroom",
-    "text": "Effekte - Flipped Classroom\n\n46 meta-analyses, 173 studies\nVon \\(d=0.25\\) bis \\(d=2.29\\) in meta-analysis.\nAsian: \\(g=0.75\\), Western: \\(g=0.53\\)\nMath: \\(d=0.26\\)\n\npresence of publication bias on effect size level\nThere need to be at least 6,424 unpublished studies with a mean of 0; however, to overturn the claim that flipped learning has a positive impact on student learning.\n\nKapur et al. (2022)"
+    "text": "Effekte - Flipped Classroom\n\n46 meta-analyses, 173 studies\nVon \\(d=0.25\\) bis \\(d=2.29\\) in meta-analysis.\nAsian: \\(g=0.75\\), Western: \\(g=0.53\\)\nMath: \\(g=0.26\\)\n\npresence of publication bias on effect size level\nThere need to be at least 6,424 unpublished studies with a mean of 0; however, to overturn the claim that flipped learning has a positive impact on student learning.\n\nKapur et al. (2022)"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#key-findings",
@@ -382,14 +382,14 @@
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "title": "KI im Mathematikunterricht",
     "section": "Machine Learning (ML)",
-    "text": "Machine Learning (ML)"
+    "text": "Machine Learning (ML)\n\n\n\n\n\n\n\n\n\nHersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "title": "KI im Mathematikunterricht",
     "section": "Wichtige Entwicklungen der letzten Jahre",
-    "text": "Wichtige Entwicklungen der letzten Jahre\n\nAttention Vaswani et al. (2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
+    "text": "Wichtige Entwicklungen der letzten Jahre\n\nAttention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-konzepte",
@@ -1573,5 +1573,96 @@
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Alternative Model",
     "text": "Alternative Model\n\nFail\nInstruct\nFix\nFeed\n\n\nsynchron\nasynchron"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#diskussion",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#diskussion",
+    "title": "Learning Analytics",
+    "section": "Diskussion",
+    "text": "Diskussion\nEigenentwicklung / von der Stange ?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#section",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#section",
+    "title": "Learning Analytics",
+    "section": "…",
+    "text": "…\n\nDownloaden Sie “Daten - Notenblatt” und bearbeiten Sie es mit einem Tabellenkalkulationsprogramm Ihrer Wahl (Empfehlung MS-Excel).\nSie sehen die Sitzordnung von Lernenden in einer 8. Klasse.\nSie sehen Beurteilungsnoten für 3 Fächer über ein Semester.\nDer “Seed” ist eine beliebige natürliche Zahl (&lt; 2^31). Für jede Zahl sind die Noten leicht unterschiedlich. Der Seed stellt den Zufall des Alltags dar.\nVerändern Sie keine gegebenen Daten, bis auf den Seed. Legen Sie beliebig neue Sheets an um die Daten umzuschreiben.\nGrundsätzlich soll jede Analyse welche Sie schreiben, automatisch für jeden möglichen Seed funktionieren."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#capture",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#capture",
+    "title": "Learning Analytics",
+    "section": "1. Capture",
+    "text": "1. Capture\n\n\nWhat data is being collected?\n\n\n(Pardo, 2014, S. 18)\n\n\nFrage:\nDatenbasiert oder zielbasiert?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#mögliche-ziele",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#mögliche-ziele",
+    "title": "Learning Analytics",
+    "section": "Mögliche Ziele",
+    "text": "Mögliche Ziele\n\nLeistungen der Studierenden\nEngagement und Verhalten\nLernverläufe\nVorhersageanalysen\nInterventionen und Unterstützung\nKursgestaltung und Curriculumverbesserung\nFeedback und Bewertung\nSoziale Interaktionen\nNutzung von Ressourcen\nInstitutionelle Effektivität\n…\n\n\nVorschläge von GPT 3.5, 2023"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#zukünftige-ziele",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#zukünftige-ziele",
+    "title": "Learning Analytics",
+    "section": "Zukünftige Ziele",
+    "text": "Zukünftige Ziele\nHalten Sie mögliche Ziele für Ihre zukünftige Tätigkeit auf dem Padlet (Ilias) fest."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#refine",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#refine",
+    "title": "Learning Analytics",
+    "section": "5. Refine",
+    "text": "5. Refine\n\nAre the produced reports useful? Are they reaching the appropriate stakeholders?\n\n(Pardo, 2014, S. 18)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#stages-1",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#stages-1",
+    "title": "Learning Analytics",
+    "section": "5 Stages",
+    "text": "5 Stages\n\n\nCapture\nReport\nPredict\nAct\nRefine\n\n\n(Pardo, 2014, S. 18)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#principles-of-good-practice-in-sotl",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#principles-of-good-practice-in-sotl",
+    "title": "Learning Analytics",
+    "section": "Principles of Good Practice in SoTL",
+    "text": "Principles of Good Practice in SoTL\n\nInquiry focused on student learning\nGrounded in context\nMethodologically sound\nConducted in partnership with students\nAppropriately public\n\n:::quelle (Felten, 2013, S. 122)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#umfrage-organisationsblatt",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#umfrage-organisationsblatt",
+    "title": "Learning Analytics",
+    "section": "Umfrage Organisationsblatt",
+    "text": "Umfrage Organisationsblatt\n\nErhebungstool (MS-Forms)\nTabellenkalkulationsprogramm (MS-Excel)\nBei welchem Kurs was es im Mittelwert am verständlichsten?\nWelcher Kurs hat am schnellsten geantwortet?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#auftrag",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#auftrag",
+    "title": "Learning Analytics",
+    "section": "Auftrag",
+    "text": "Auftrag\n\nLaden Sie die Datei mit den Daten aus Ilias herunter.\nBereiten Sie die Daten auf (z.B. Umcodierung).\nAnalysieren Sie die Daten."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#section-1",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#section-1",
+    "title": "Learning Analytics",
+    "section": "",
+    "text": "PHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nFelten, P. (2013). Principles of Good Practice in SoTL. Teaching & Learning Inquiry The ISSOTL Journal, 1(1), 121–125. https://doi.org/10.20343/teachlearninqu.1.1.121\n\n\nPardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson & B. White, Learning Analytics: From Research to Practice (S. 15–38). Springer New York. https://doi.org/10.1007/978-1-4614-3305-7"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#bibliographei",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#bibliographei",
+    "title": "Learning Analytics",
+    "section": "Bibliographei",
+    "text": "Bibliographei\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nFelten, P. (2013). Principles of Good Practice in SoTL. Teaching & Learning Inquiry The ISSOTL Journal, 1(1), 121–125. https://doi.org/10.20343/teachlearninqu.1.1.121\n\n\nPardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson & B. White, Learning Analytics: From Research to Practice (S. 15–38). Springer New York. https://doi.org/10.1007/978-1-4614-3305-7"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_learning_analytics/woche_08.html#bibliographie",
+    "href": "lerngelegenheiten/LG_learning_analytics/woche_08.html#bibliographie",
+    "title": "Learning Analytics",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nFelten, P. (2013). Principles of Good Practice in SoTL. Teaching & Learning Inquiry The ISSOTL Journal, 1(1), 121–125. https://doi.org/10.20343/teachlearninqu.1.1.121\n\n\nPardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson & B. White, Learning Analytics: From Research to Practice (S. 15–38). Springer New York. https://doi.org/10.1007/978-1-4614-3305-7"
   }
 ]

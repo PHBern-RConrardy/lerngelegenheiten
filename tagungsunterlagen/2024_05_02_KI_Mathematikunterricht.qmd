@@ -11,7 +11,7 @@ date: 02 05 2024
 ## Machine Learning (ML)
 
 ```{mermaid}
-%%| mermaid-format: png
+%%| mermaid-format: svg
 flowchart TD
   A[Architektur];
   TD[Training Data];
@@ -61,7 +61,7 @@ flowchart TD
 
 ## Wichtige Entwicklungen der letzten Jahre
 
-1. Attention  @vaswani_attention_2017
+1. Attention  [vgl. @vaswani_attention_2017]
 2. Transformer Architektur
 3. Large Language Models
 4. Multimodal Models
