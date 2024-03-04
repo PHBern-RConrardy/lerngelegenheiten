@@ -13,6 +13,8 @@ format: revealjs
 -   Analysis
 -   Geometrie
 -   Stochastik
+- Mengenlehre
+- Logik
 
 ::: quelle
 @bruder2014
@@ -40,7 +42,7 @@ format: revealjs
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
-##  {.unlisted}
+## Zusammenhänge {.unlisted}
 
 ```{mermaid}
 %%| mermaid-format: png
@@ -141,7 +143,7 @@ class padding padding
 @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
-##  {.unlisted}
+## Tätigkeiten {.unlisted}
 
 ```{mermaid}
 %%| mermaid-format: png
@@ -151,7 +153,6 @@ m1[Theoreme];
 m2[Definitionen];
 m3[Beweise];
 m4[Axiome];
-m5[Logik];
 
 b1[Begriffsbildung];
 b2[Problemlösen lernen];
@@ -182,6 +183,7 @@ b5-->edk5-->h3;
 edk8-->h2;
 edk3-->h1;
 b2-->edk8;
+m4-->m1-->m3;
 
 subgraph Fachinhalte
   m1;
