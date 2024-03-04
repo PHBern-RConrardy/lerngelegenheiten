@@ -22867,6 +22867,35 @@
             "title": "Grundlagen der Mathematikdidaktik: Eine Einführung für den Unterricht in der Sekundarstufe",
             "title-short": "Grundlagen der Mathematikdidaktik",
             "type": "book"
+        },
+        {
+            "DOI": "10.1037//0033-2909.112.1.155",
+            "ISSN": "0033-2909",
+            "PMID": "19565683",
+            "abstract": "One possible reason for the continued neglect of statistical power analysis in research in the behavioral sciences is the inaccessibility of or difficulty with the standard material. A convenient, although not comprehensive, presentation of required sample sizes is provided here. Effect-size indexes and conventional values for these are given for operationally defined small, medium, and large effects. The sample sizes necessary for .80 power to detect effects at these levels are tabled for eight standard statistical tests: (a) the difference between independent means, (b) the significance of a product-moment correlation, (c) the difference between independent rs, (d) the sign test, (e) the difference between independent proportions, (f) chi-square tests for goodness of fit and contingency tables, (g) one-way analysis of variance, and (h) the significance of a multiple or multiple partial correlation.",
+            "author": [
+                {
+                    "family": "Cohen",
+                    "given": "J."
+                }
+            ],
+            "container-title": "Psychological Bulletin",
+            "container-title-short": "Psychol Bull",
+            "id": "cohen_power_1992",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1992,
+                        7
+                    ]
+                ]
+            },
+            "keyword": "Chi-Square Distribution, Psychology, Sample Size",
+            "page": "155-159",
+            "title": "A power primer",
+            "type": "article-journal",
+            "volume": "112"
         }
     ],
     "project_biblios": [

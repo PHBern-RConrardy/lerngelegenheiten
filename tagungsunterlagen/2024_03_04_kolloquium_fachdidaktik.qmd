@@ -77,41 +77,41 @@ gantt
 
 ## Design
 
-- 2 Phasen:
-  -   Phase 1: generation and exploration phase
-  -   Phase 2: consolidation phase
+-   2 Phasen:
+    -   Phase 1: generation and exploration phase
+    -   Phase 2: consolidation phase
 
 ::: quelle
 @kapur_designing_2012
 :::
 
+-   Typischer Unterrichtsinhalt:
 
-- Typischer Unterrichtsinhalt:
+    -   Standardabweichung, bzw. Varianz
 
-  - Standardabweichung, bzw. Varianz
-
-:::quelle
+::: quelle
 vgl. @kapur_productive_2008, @kapur_productive_2014, @kapur_preparatory_2015, @loibl_knowing_2014, @brand_students_2023, @hartmann_productive_2022, @hartmann_examples_2020
 :::
 
 ## Erhobene Variablen
 
-::::columns
-:::column
-- math ability
-- prior knowledge
-- number of solutions
-- mental effort
-- engagement
+::: columns
+::: column
+-   math ability
+-   prior knowledge
+-   number of solutions
+-   mental effort
+-   engagement
 :::
-:::column
-- procedural knowledge
-- conceptual understanding
-- transfer
+
+::: column
+-   procedural knowledge
+-   conceptual understanding
+-   transfer
 :::
 :::
 
-:::quelle
+::: quelle
 vgl. @kapur_preparatory_2015
 :::
 
@@ -119,7 +119,7 @@ vgl. @kapur_preparatory_2015
 
 conceptual knowledge: $p<0.001$, $\eta^2=0.26$
 
-:::quelle
+::: quelle
 @hartmann_examples_2020
 :::
 
@@ -127,14 +127,28 @@ conceptual understanding: $p<0.001$, $d = 2.00$
 
 transfer $p<0.001$, $d=1.52$
 
-:::quelle
+::: quelle
 @kapur_productive_2014
 :::
-    
+
 transfer $p < 0.005$, $d = 0.67$
 
-:::quelle
+::: quelle
 @kapur_preparatory_2015
+:::
+
+<small>
+
+| Effektstärken | klein | mittel | gross |
+|---------------|-------|--------|-------|
+| Cohens $d$    | 0.2   | 0.5    | 0.8   |
+| Hedges $g$    |  0.05     |  0.15      |  0.25     |
+| $\eta^2$      | 0.01  | 0.06   | 0.14  |
+|               |       |        |       |
+
+</small>
+:::quelle
+[vgl. @cohen_power_1992]
 :::
 
 ## Collaboration
@@ -152,8 +166,6 @@ Sekundarklassen (quasi-experimentell): $p = 0.437$
 ::: quelle
 @brand_students_2023
 :::
-
-
 
 ## Boundary conditions?
 
@@ -173,11 +185,11 @@ Sekundarklassen (quasi-experimentell): $p = 0.437$
 
 ## Flipped Classroom - a brief history
 
-- *classroom flip*: @baker_classroom_2000
-- *inverted classroom*: @lage_inverting_2000
-- **Ursprung**: @bergmann_flipped_2011 und @tucker_flipped_2012
-- kein präzises Modell: @lo_toward_2017, @tucker_flipped_2012
-- **Metastudie**: @kapur_fail_2022
+-   *classroom flip*: @baker_classroom_2000
+-   *inverted classroom*: @lage_inverting_2000
+-   **Ursprung**: @bergmann_flipped_2011 und @tucker_flipped_2012
+-   kein präzises Modell: @lo_toward_2017, @tucker_flipped_2012
+-   **Metastudie**: @kapur_fail_2022
 
 ## Definition *flipped class*
 
@@ -278,14 +290,13 @@ Is the 4F-model flipped the right way?
 [asynchron]{style="text-decoration: underline;color: magenta; font-weight: bold;"}
 :::
 
-
 # Untersuchungs-design
 
 ## Eine Woche vor dem ersten Tag der Untersuchung
 
-| Min. | Gruppe 1      | Gruppe 2      |
-|------|---------------|---------------|
-| 20   | Pretest       | Pretest       |
+| Min. | Gruppe 1 | Gruppe 2 |
+|------|----------|----------|
+| 20   | Pretest  | Pretest  |
 
 Es findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt.
 
@@ -293,13 +304,13 @@ Es findet eine zufällige Zuteilung der Klasse in zwei Gruppen statt.
 
 Klasse wird in 2 Gruppen räumlich getrennt.
 
-| Min. | Gruppe 1 (4F)     | Gruppe 2 (Alt)      |
-|------|---------------|---------------|
-| 40   | [Fail koll.]{style="color: blue; font-weight: bold;"}    | [Fail ind.]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}     |
-| 5    | Mental effort | Mental effort |
-| 20   | [Flip]{style="text-decoration: underline;color: magenta ; font-weight: bold;"}          | [Instruct]{style="color: blue; font-weight: bold;"}      |
-| 5    | mental effort | mental effort |
-| 20   | Posttest      | Posttest      |
+| Min. | Gruppe 1 (4F)                                                                  | Gruppe 2 (Alt)                                                                      |
+|-----------------|----------------------------|----------------------------|
+| 40   | [Fail koll.]{style="color: blue; font-weight: bold;"}                          | [Fail ind.]{style="text-decoration: underline;color: magenta ; font-weight: bold;"} |
+| 5    | Mental effort                                                                  | Mental effort                                                                       |
+| 20   | [Flip]{style="text-decoration: underline;color: magenta ; font-weight: bold;"} | [Instruct]{style="color: blue; font-weight: bold;"}                                 |
+| 5    | mental effort                                                                  | mental effort                                                                       |
+| 20   | Posttest                                                                       | Posttest                                                                            |
 
 ::: quelle
 [synchron]{style="color: blue; font-weight: bold;"}
@@ -311,19 +322,18 @@ Klasse wird in 2 Gruppen räumlich getrennt.
 
 Klasse wird zusammen unterrichtet.
 
-| Min. | Gruppe 1 (4F)      | Gruppe 2 (Alt)      |
-|------|---------------|---------------|
-| 20   | Fix           | Fix           |
-| 5    | mental effort | mental effort |
-| 40   | Feed          | Feed          |
-| 5    | mental effort | mental effort |
-| 20   | Posttest      | Posttest      |
+| Min. | Gruppe 1 (4F) | Gruppe 2 (Alt) |
+|------|---------------|----------------|
+| 20   | Fix           | Fix            |
+| 5    | mental effort | mental effort  |
+| 40   | Feed          | Feed           |
+| 5    | mental effort | mental effort  |
+| 20   | Posttest      | Posttest       |
 
 ## Forschungsfragen und Hypothesen
 
 1.  Students in the 4F-model score higher in engagement than the non-flipped model.
 2.  Students in the 4F-model score higher on (a) procedural fluency and (b) concept knowledge than the alternative model.
-
 
 # Weitere 4-Phasen-Modelle
 
