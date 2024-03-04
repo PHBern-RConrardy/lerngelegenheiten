@@ -137,7 +137,7 @@ transfer $p < 0.005$, $d = 0.67$
 @kapur_preparatory_2015
 :::
 
-<small>
+:::quelle
 
 | Effektstärken | klein | mittel | gross |
 |---------------|-------|--------|-------|
@@ -146,7 +146,8 @@ transfer $p < 0.005$, $d = 0.67$
 | $\eta^2$      | 0.01  | 0.06   | 0.14  |
 |               |       |        |       |
 
-</small>
+:::
+
 :::quelle
 [vgl. @cohen_power_1992]
 :::
