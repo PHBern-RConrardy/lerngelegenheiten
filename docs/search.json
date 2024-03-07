@@ -606,14 +606,14 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#auftrag-brief-adressieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Auftrag: Brief Adressieren",
-    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort"
+    "text": "Auftrag: Brief Adressieren\nErstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:\nVorname, Name, Strasse, Strassennr, Plz, Ort\n\n\nLösungsvorschlag\n\ndef formatiere_adresse(vorname, nachname, strasse, strassen_nr, plz, ort):\n    print(\"==========================\")\n    print(vorname+\" \"+nachname)\n    print(strasse+\" \"+strassen_nr)\n    print(\"CH-\"+plz+\" \"+ort)\n    \n# Beispieladressen aufrufen\nformatiere_adresse(\"Max\", \"Mustermann\", \"Musterstraße\", \"123\", \"12345\", \"Musterstadt\")\nformatiere_adresse(\"Anna\", \"Schmidt\", \"Hauptweg\", \"456\", \"54321\", \"Stadtmitte\")"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#ausprobieren",
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#ausprobieren",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Ausprobieren",
-    "text": "Ausprobieren\nimport numpy as np\n\n# Access the value of pi from NumPy\npi_value = np.pi\n\n# Print the value of pi\nprint(\"The value of pi is:\", pi_value)"
+    "text": "Ausprobieren\nimport numpy as np\n\n# Access the value of pi from NumPy\npi_value = np.pi\n\n# Print the value of pi\nprint(\"Die Zahl Pi lautet: \", pi_value)"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#förderkreislauf",
@@ -1783,5 +1783,19 @@
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Tätigkeiten",
     "text": "Tätigkeiten\n\n\n\n\n\n\n\n\n\n\n\n\nDenkprozesse nach Bruder et al. (2014)\nHandlungsaspekte EDK nach EDK (2011)\nHandlungsaspekte LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#zufällige-zahlen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#zufällige-zahlen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Zufällige Zahlen",
+    "text": "Zufällige Zahlen\nimport random\n\nrandom_number = random.randint(1, 5)\nprint(random_number)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#projekt-1",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#projekt-1",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Projekt 1",
+    "text": "Projekt 1\n\nAuftrag auf der Webseite\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
   }
 ]

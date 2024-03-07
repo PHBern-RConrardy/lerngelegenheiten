@@ -88,6 +88,12 @@ flowchart TD
 3. KI $\neq$ KI
 4. KI $\neq$ Taschenrechner
 
+“participants were not able to detect AI-generated argumentative essays” ([Fleckenstein et al., 2024, p. 3](zotero://select/library/items/I3A9JSFN)) ([pdf](zotero://open-pdf/library/items/YEEQPDDZ?page=3&annotation=EIH6MCDW))
+
+“teachers may not be aware of their inability to identify AI-generated texts among student essays” ([Fleckenstein et al., 2024, p. 4](zotero://select/library/items/I3A9JSFN)) ([pdf](zotero://open-pdf/library/items/YEEQPDDZ?page=4&annotation=NQ9MSDZY))
+
+
+
 
 ## Formative Beurteilung
 

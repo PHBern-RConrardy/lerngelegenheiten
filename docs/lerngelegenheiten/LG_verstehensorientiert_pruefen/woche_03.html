@@ -437,18 +437,17 @@
 <li><a href="#/was-sind-funktionen" id="/toc-was-sind-funktionen">Was sind Funktionen?</a></li>
 <li><a href="#/parameter-bzw.-argumente" id="/toc-parameter-bzw.-argumente">Parameter bzw. Argumente</a></li>
 <li><a href="#/rückgabewert" id="/toc-rückgabewert">Rückgabewert</a></li>
-<li><a href="#/reine-vs.-modifizierte-funktionen" id="/toc-reine-vs.-modifizierte-funktionen">Reine vs.&nbsp;Modifizierte Funktionen</a></li>
 <li><a href="#/beispiel" id="/toc-beispiel">Beispiel</a></li>
 <li><a href="#/auftrag-brief-adressieren" id="/toc-auftrag-brief-adressieren">Auftrag: Brief Adressieren</a></li>
 </ul></li>
 <li><a href="#/packages" id="/toc-packages">Packages</a>
 <ul>
-<li><a href="#/ausprobieren" id="/toc-ausprobieren">Ausprobieren</a></li>
+<li><a href="#/zufällige-zahlen" id="/toc-zufällige-zahlen">Zufällige Zahlen</a></li>
 </ul></li>
 <li><a href="#/projekt" id="/toc-projekt">Projekt</a>
 <ul>
 <li><a href="#/förderkreislauf" id="/toc-förderkreislauf">Förderkreislauf</a></li>
-<li><a href="#/wo-können-sie-ansetzen" id="/toc-wo-können-sie-ansetzen">Wo können Sie ansetzen?</a></li>
+<li><a href="#/projekt-1" id="/toc-projekt-1">Projekt 1</a></li>
 </ul></li>
 </ul>
 </nav>
@@ -506,7 +505,7 @@
 <span id="cb4-11"><a></a><span class="bu">print</span>(v1) <span class="co"># Output: None</span></span>
 <span id="cb4-12"><a></a><span class="bu">print</span>(v2) <span class="co"># Output: 10</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="reine-vs.-modifizierte-funktionen" class="slide level2">
+<section id="reine-vs.-modifizierte-funktionen" class="slide level2 unlisted">
 <h2>Reine vs.&nbsp;Modifizierte Funktionen</h2>
 <p>In der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!</p>
 </section>
@@ -531,21 +530,42 @@
 <h2>Auftrag: Brief Adressieren</h2>
 <p>Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:</p>
 <p>Vorname, Name, Strasse, Strassennr, Plz, Ort</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="kw">def</span> formatiere_adresse(vorname, nachname, strasse, strassen_nr, plz, ort):</span>
+<span id="cb6-2"><a></a>    <span class="bu">print</span>(<span class="st">"=========================="</span>)</span>
+<span id="cb6-3"><a></a>    <span class="bu">print</span>(vorname<span class="op">+</span><span class="st">" "</span><span class="op">+</span>nachname)</span>
+<span id="cb6-4"><a></a>    <span class="bu">print</span>(strasse<span class="op">+</span><span class="st">" "</span><span class="op">+</span>strassen_nr)</span>
+<span id="cb6-5"><a></a>    <span class="bu">print</span>(<span class="st">"CH-"</span><span class="op">+</span>plz<span class="op">+</span><span class="st">" "</span><span class="op">+</span>ort)</span>
+<span id="cb6-6"><a></a>    </span>
+<span id="cb6-7"><a></a><span class="co"># Beispieladressen aufrufen</span></span>
+<span id="cb6-8"><a></a>formatiere_adresse(<span class="st">"Max"</span>, <span class="st">"Mustermann"</span>, <span class="st">"Musterstraße"</span>, <span class="st">"123"</span>, <span class="st">"12345"</span>, <span class="st">"Musterstadt"</span>)</span>
+<span id="cb6-9"><a></a>formatiere_adresse(<span class="st">"Anna"</span>, <span class="st">"Schmidt"</span>, <span class="st">"Hauptweg"</span>, <span class="st">"456"</span>, <span class="st">"54321"</span>, <span class="st">"Stadtmitte"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </section></section>
 <section>
 <section id="packages" class="title-slide slide level1 center">
 <h1>Packages</h1>
 
 </section>
-<section id="ausprobieren" class="slide level2">
+<section id="ausprobieren" class="slide level2 unlisted">
 <h2>Ausprobieren</h2>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
-<span id="cb6-2"><a></a></span>
-<span id="cb6-3"><a></a><span class="co"># Access the value of pi from NumPy</span></span>
-<span id="cb6-4"><a></a>pi_value <span class="op">=</span> np.pi</span>
-<span id="cb6-5"><a></a></span>
-<span id="cb6-6"><a></a><span class="co"># Print the value of pi</span></span>
-<span id="cb6-7"><a></a><span class="bu">print</span>(<span class="st">"The value of pi is:"</span>, pi_value)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb7-2"><a></a></span>
+<span id="cb7-3"><a></a><span class="co"># Access the value of pi from NumPy</span></span>
+<span id="cb7-4"><a></a>pi_value <span class="op">=</span> np.pi</span>
+<span id="cb7-5"><a></a></span>
+<span id="cb7-6"><a></a><span class="co"># Print the value of pi</span></span>
+<span id="cb7-7"><a></a><span class="bu">print</span>(<span class="st">"Die Zahl Pi lautet: "</span>, pi_value)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="zufällige-zahlen" class="slide level2">
+<h2>Zufällige Zahlen</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a></a><span class="im">import</span> random</span>
+<span id="cb8-2"><a></a></span>
+<span id="cb8-3"><a></a>random_number <span class="op">=</span> random.randint(<span class="dv">1</span>, <span class="dv">5</span>)</span>
+<span id="cb8-4"><a></a><span class="bu">print</span>(random_number)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
 <section id="projekt" class="title-slide slide level1 center">
@@ -556,8 +576,11 @@
 <h2>Förderkreislauf</h2>
 
 <img data-src="images/foerderkreislauf.svg" class="r-stretch"></section>
-<section id="wo-können-sie-ansetzen" class="slide level2">
-<h2>Wo können Sie ansetzen?</h2>
+<section id="projekt-1" class="slide level2">
+<h2>Projekt 1</h2>
+<div style="text-align: center;">
+<p><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html" class="knopf" target="_blank">Auftrag auf der Webseite</a></p>
+</div>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../../images/penguin.png" class="slide-logo"></p>
