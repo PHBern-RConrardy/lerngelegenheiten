@@ -30,6 +30,7 @@ authors:
             url: https://www.phbern.ch
             department: Institut Sekundarstufe I
             ror: https://ror.org/05jf1ma54
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
 ---
 
 ::: {style="text-align: center;"}
@@ -107,6 +108,18 @@ Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. Cha
 ``` python
 print("Hello, World!")
 ```
+---------------------------------
+
+## Packages installieren (numpy)
+
+Im `Terminal`folgenden Befehl eingeben: `pip install numpy`.
+Falls Fehler gemeldet werden folgendes beachten:
+
+1. Im `Terminal` folgendes eingeben: `pip --version``
+2. In der Ausgabe den *path*, insb. Versionsnummer merken, z.B. `from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)` 
+3. In Rstudio im Menü unter `Tools > Global Options` bei `Python` genau diesen Interpreter wählen und speichern.
+4. Nun Library im `Terminal`mit `pip install numpy`installieren.
+
 
 ------------------------------------------------------------------------
 

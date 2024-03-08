@@ -29,6 +29,7 @@ $\sum_{0}^\infty a_n$
 
 :::{layout="[100]"}
 
+
 ![](https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/100/abb_2.jpg)
 :::
 

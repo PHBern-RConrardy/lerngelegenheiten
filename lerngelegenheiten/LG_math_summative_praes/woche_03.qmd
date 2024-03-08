@@ -4,7 +4,7 @@ subtitle: Grundlagen für den Unterricht <br> Woche 3
 format: revealjs
 ---
 
-# Lehr- Lerninhalte
+# Von Lehr- Lerninhalten zu Kompetenzen
 
 ## Teilgebiete der Mathematik
 
@@ -13,12 +13,14 @@ format: revealjs
 -   Analysis
 -   Geometrie
 -   Stochastik
-- Mengenlehre
-- Logik
+
 
 ::: quelle
 @bruder2014
 :::
+
+- Mengenlehre
+- Logik
 
 ## Leitideen
 
@@ -32,7 +34,7 @@ format: revealjs
 @bruder2014
 :::
 
-## Kompetenzbereiche (Inhalte)
+## Kompetenzbereiche nach Lehrplan21
 
 -   Zahl und Variable
 -   Form und Raum
@@ -43,6 +45,8 @@ format: revealjs
 :::
 
 ## Zusammenhänge {.unlisted}
+
+::: {#fig-uebersicht}
 
 ```{mermaid}
 %%| mermaid-format: png
@@ -84,8 +88,6 @@ graph LR;
     b3;
     b4;
     b5;
-    b6;
-    b7;
   end
   subgraph B[Kompetenzbereiche EDK]
     edk1;
@@ -114,8 +116,16 @@ class main title
 class padding padding
 ```
 
+Übersicht Fachinhalte und Fachkompetenzbereiche
+
+:::
+
 ::: quelle
-@bruder2014, @edk2011, @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
+Teilgebiete und Leitideen nach @bruder2014
+
+Kompetenzbereiche nach @edk2011
+
+Kompetenzbereiche LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_strukturelle_2016
 :::
 
 # Tätigkeiten
@@ -145,14 +155,18 @@ class padding padding
 
 ## Tätigkeiten {.unlisted}
 
+::: {#fig-uebersicht}
+
+
 ```{mermaid}
 %%| mermaid-format: png
 
-graph LR;
-m1[Theoreme];
+flowchart LR;
+m1[logische Ableitung]
 m2[Definitionen];
-m3[Beweise];
-m4[Axiome];
+m3[Beweise und Theoreme];
+m4[Grundvoraussetzungen Axiome];
+m5[Grundbegriffe];
 
 b1[Begriffsbildung];
 b2[Problemlösen lernen];
@@ -178,18 +192,20 @@ m2-->b1-->edk1-->h1;
 b6-->edk4-->h3;
 m3-->b4-->edk6-->h2;
 b3-->edk2-->h1;
-m1-->b2-->edk7-->h2;
+b2-->edk7-->h2;
 b5-->edk5-->h3;
 edk8-->h2;
 edk3-->h1;
 b2-->edk8;
-m4-->m1-->m3;
+m4-->m3;
+m5-->m2;
 
-subgraph Fachinhalte
-  m1;
+subgraph axiomatische Theorie
   m2;
   m3;
+   m1;
   m4;
+  m5;
 end
 
 subgraph Denkprozesse
@@ -218,7 +234,14 @@ end
 
 ```
 
+Übersicht der Prozesse und Handlungsaspekte
+
+:::
+
 ::: quelle
+
+Axiomatische Theorie nach @hilbert_grundlagen_1968-1
+
 Denkprozesse nach @bruder2014 
 
 Handlungsaspekte EDK nach @edk2011

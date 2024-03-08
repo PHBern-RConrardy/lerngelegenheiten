@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Joel Adler">
   <meta name="author" content="Richard Conrardy">
@@ -96,7 +96,27 @@
     code span.va { color: #111111; } /* Variable */
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -575,17 +595,27 @@ Lösungsvorschlag
 <section id="förderkreislauf" class="slide level2">
 <h2>Förderkreislauf</h2>
 
-<img data-src="images/foerderkreislauf.svg" class="r-stretch"></section>
+<img data-src="images/foerderkreislauf.svg" class="r-stretch quarto-figure-center"><p class="caption">
+Abbildung&nbsp;1: Förderkreislauf <span class="citation" data-cites="kuratle_kompetenzorientierte_2021">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kuratle &amp; Balmer, 2021, S. 3</a>)</span>
+</p></section>
 <section id="projekt-1" class="slide level2">
 <h2>Projekt 1</h2>
 <div style="text-align: center;">
 <p><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html" class="knopf" target="_blank">Auftrag auf der Webseite</a></p>
 </div>
+</section>
+<section id="bibliographie" class="slide level2 unlisted smaller scrollable">
+<h2>Bibliographie</h2>
 
 <div class="quarto-auto-generated-content">
 <p><img src="../../images/penguin.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><strong>PHBern, Institut Sekundarstufe 1</strong>, Joel Adler, Richard Conrardy</p>
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-kuratle_kompetenzorientierte_2021" class="csl-entry" role="listitem">
+Kuratle, R., &amp; Balmer, T. (2021). <em>Kompetenzorientierte Beurteilung an der Volksschule des Kantons Bern</em>. Institut für Weiterbildung und Medienbildung.
 </div>
 </div>
 </section></section>
@@ -888,6 +918,11 @@ Lösungsvorschlag
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
               // target, if specified
               link.setAttribute("target", "_blank");
               if (link.getAttribute("rel") === null) {
@@ -931,7 +966,11 @@ Lösungsvorschlag
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

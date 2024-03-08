@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -285,6 +285,7 @@ window.Quarto = {
   <li><a href="#wocheninhalte" id="toc-wocheninhalte" class="nav-link" data-scroll-target="#wocheninhalte">Wocheninhalte</a>
   <ul class="collapse">
   <li><a href="#vorbereitungsauftrag---woche-1" id="toc-vorbereitungsauftrag---woche-1" class="nav-link" data-scroll-target="#vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</a></li>
+  <li><a href="#packages-installieren-numpy" id="toc-packages-installieren-numpy" class="nav-link" data-scroll-target="#packages-installieren-numpy">Packages installieren (numpy)</a></li>
   <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
   <li><a href="#projekt-2" id="toc-projekt-2" class="nav-link" data-scroll-target="#projekt-2">Projekt 2</a></li>
   </ul></li>
@@ -470,6 +471,17 @@ Hinweis
 <div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Hello, World!"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <hr>
 </section>
+<section id="packages-installieren-numpy" class="level2">
+<h2 class="anchored" data-anchor-id="packages-installieren-numpy">Packages installieren (numpy)</h2>
+<p>Im <code>Terminal</code>folgenden Befehl eingeben: <code>pip install numpy</code>. Falls Fehler gemeldet werden folgendes beachten:</p>
+<ol type="1">
+<li>Im <code>Terminal</code> folgendes eingeben: `pip –version``</li>
+<li>In der Ausgabe den <em>path</em>, insb. Versionsnummer merken, z.B. <code>from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)</code></li>
+<li>In Rstudio im Menü unter <code>Tools &gt; Global Options</code> bei <code>Python</code> genau diesen Interpreter wählen und speichern.</li>
+<li>Nun Library im <code>Terminal</code>mit <code>pip install numpy</code>installieren.</li>
+</ol>
+<hr>
+</section>
 <section id="projekt-1" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-1">Projekt 1</h2>
 <p>Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren <a href="https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA">MA.1.A.2.h</a> oder <a href="https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd">MA.1.A.2.i</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
@@ -555,7 +567,7 @@ Leistungsnachweis: Formative Beurteilung
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -646,6 +658,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
           // target, if specified
           link.setAttribute("target", "_blank");
           if (link.getAttribute("rel") === null) {
@@ -687,7 +704,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');

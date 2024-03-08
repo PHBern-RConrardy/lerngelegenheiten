@@ -8485,42 +8485,6 @@
             "volume": "102"
         },
         {
-            "DOI": "10.20343/teachlearninqu.1.1.121",
-            "ISSN": "21674787",
-            "URL": "https://journalhosting.ucalgary.ca/index.php/tli/article/view/57376",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        2,
-                        16
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Felten",
-                    "given": "Peter"
-                }
-            ],
-            "container-title": "Teaching & Learning Inquiry The ISSOTL Journal",
-            "container-title-short": "Teaching & Learning Inquiry",
-            "id": "felten_principles_2013",
-            "issue": "1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2013,
-                        3
-                    ]
-                ]
-            },
-            "page": "121-125",
-            "title": "Principles of good practice in SoTL",
-            "type": "article-journal",
-            "volume": "1"
-        },
-        {
             "DOI": "10.3402/rlt.v3i2.9606",
             "ISSN": "2156-7077, 2156-7069",
             "URL": "https://journal.alt.ac.uk/index.php/rlt/article/view/791",
@@ -15253,7 +15217,7 @@
                 }
             ],
             "container-title": "Teaching and Learning Inquiry",
-            "id": "felten_principles_2013-1",
+            "id": "felten_principles_2013",
             "issue": "1",
             "issued": {
                 "date-parts": [
@@ -20813,7 +20777,6 @@
             "type": ""
         },
         {
-            "URL": "ds",
             "abstract": "Umsetzungshilfen zum Lehrplan 21 der Lehrplan- und Lehrmittelkommission des Kantons Bern",
             "author": [
                 {
@@ -22869,6 +22832,129 @@
             "type": "book"
         },
         {
+            "DOI": "10.25656/01:13699",
+            "ISSN": "0259-353X",
+            "URL": "https://www.pedocs.de/frontdoor.php?source_opus=13699",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Herzog",
+                    "given": "Silvio"
+                },
+                {
+                    "family": "Tettenborn",
+                    "given": "Annette"
+                }
+            ],
+            "id": "herzog_qualifizierung_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "keyword": "370 Education, 370 Erziehung, Schul- und Bildungswesen, Lehrerbildung, Teacher education, Teachers’ training, College of education, Pädagogische Hochschule, Schweiz, Switzerland, Teacher training college, Teachers’ college, Qualification, Qualifizierung",
+            "language": "de-DE",
+            "note": "Publisher: [object Object]",
+            "title": "Qualifizierung von Dozierenden an Pädagogischen Hochschulen: Eine Einleitung mit offenen Fragen",
+            "title-short": "Qualifizierung von Dozierenden an Pädagogischen Hochschulen",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Renganathar",
+                    "given": "Keerththanan"
+                }
+            ],
+            "id": "renganathar_interdisziplinare_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        8,
+                        20
+                    ]
+                ]
+            },
+            "title": "Interdisziplinäre unterrichtsmaterialien zum klimawandel",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-8252-5029-4",
+            "author": [
+                {
+                    "family": "Tulodziecki",
+                    "given": "Gerhard"
+                },
+                {
+                    "family": "Herzig",
+                    "given": "Bardo"
+                },
+                {
+                    "family": "Grafe",
+                    "given": "Silke"
+                }
+            ],
+            "collection-number": "3414",
+            "collection-title": "UTB erziehungswissenschaft, schulpädagogik, allgemeine didaktik",
+            "edition": "2., vollständig überarbeitete und aktualisierte Auflage",
+            "id": "tulodziecki_medienbildung_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "number-of-pages": "399",
+            "publisher": "Verlag Julius Klinkhardt",
+            "publisher-place": "Bad Heilbrunn",
+            "title": "Medienbildung in schule und unterricht: Grundlagen und beispiele",
+            "title-short": "Medienbildung in schule und unterricht",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.iml.unibe.ch/attachment/7/download/mc_anleitung.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Krebs",
+                    "given": "René"
+                }
+            ],
+            "id": "krebs_anleitung_2004",
+            "issued": {
+                "date-parts": [
+                    [
+                        2004,
+                        7
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "publisher": "Abteilung für Assessment und Evaluation AAE",
+            "title": "Anleitung zur Herstellung von MC-Fragen und MC-Prüfungen für die ärztliche Ausbildung",
+            "type": ""
+        },
+        {
             "DOI": "10.1037//0033-2909.112.1.155",
             "ISSN": "0033-2909",
             "PMID": "19565683",
@@ -22896,6 +22982,548 @@
             "title": "A power primer",
             "type": "article-journal",
             "volume": "112"
+        },
+        {
+            "ISBN": "978-3-658-20911-7 978-3-658-20910-0",
+            "author": [
+                {
+                    "family": "Nydegger-Haas",
+                    "given": "Annegret"
+                },
+                {
+                    "family": "Barzel",
+                    "given": "Bärbel"
+                }
+            ],
+            "collection-title": "Essener beiträge zur mathematikdidaktik",
+            "id": "nydegger-haas_algebraisieren_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "number-of-pages": "203",
+            "publisher": "Springer Spektrum",
+            "publisher-place": "Wiesbaden [Heidelberg]",
+            "title": "Algebraisieren von sachsituationen: Wechselwirkungen zwischen relationaler und operationaler denk- und sichtweise",
+            "title-short": "Algebraisieren von sachsituationen",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-540-34484-1",
+            "author": [
+                {
+                    "family": "Hartmann",
+                    "given": "Werner"
+                },
+                {
+                    "family": "Näf",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Reichert",
+                    "given": "Raimond"
+                }
+            ],
+            "collection-title": "eXamen.press",
+            "edition": "1. korrigierter Nachdruck",
+            "id": "hartmann_informatikunterricht_2007",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "number-of-pages": "167",
+            "publisher": "Springer",
+            "publisher-place": "Berlin Heidelberg",
+            "title": "Informatikunterricht planen und durchführen",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1016/j.caeai.2024.100209",
+            "ISSN": "2666-920X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S2666920X24000109",
+            "abstract": "The potential application of generative artificial intelligence (AI) in schools and universities poses great challenges, especially for the assessment of students’ texts. Previous research has shown that people generally have difficulty distinguishing AI-generated from human-written texts; however, the ability of teachers to identify an AI-generated text among student essays has not yet been investigated. Here we show in two experimental studies that novice (N = 89) and experienced teachers (N = 200) could not identify texts generated by ChatGPT among student-written texts. However, there are some indications that more experienced teachers made more differentiated and more accurate judgments. Furthermore, both groups were overconfident in their judgments. Effects of real and assumed source on quality assessment were heterogeneous. Our findings demonstrate that with relatively little prompting, current AI can generate texts that are not detectable for teachers, which poses a challenge to schools and universities in grading student essays. Our study provides empirical evidence for the current debate regarding exam strategies in schools and universities in light of the latest technological developments.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Fleckenstein",
+                    "given": "Johanna"
+                },
+                {
+                    "family": "Meyer",
+                    "given": "Jennifer"
+                },
+                {
+                    "family": "Jansen",
+                    "given": "Thorben"
+                },
+                {
+                    "family": "Keller",
+                    "given": "Stefan D."
+                },
+                {
+                    "family": "Köller",
+                    "given": "Olaf"
+                },
+                {
+                    "family": "Möller",
+                    "given": "Jens"
+                }
+            ],
+            "container-title": "Computers and Education: Artificial Intelligence",
+            "container-title-short": "Computers and Education: Artificial Intelligence",
+            "id": "fleckenstein_teachers_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Teachers, ChatGPT, Essay writing, Generative AI, Writing assessment",
+            "page": "100209",
+            "title": "Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays",
+            "title-short": "Do teachers spot AI?",
+            "type": "article-journal",
+            "volume": "6"
+        },
+        {
+            "DOI": "10.3102/00346543231216958",
+            "ISSN": "0034-6543",
+            "URL": "https://doi.org/10.3102/00346543231216958",
+            "abstract": "Computer programming provides a framework for interdisciplinary learning in sciences, arts and languages. However, increasing integration of programming in K–12 shows that the block-based and text-based dichotomy of programming environments does not reflect the spectrum of their affordance. Hence, educators are confronted with a fundamental hurdle of matching programming environments with learners’ cognitive abilities and learning objectives. This study addresses this challenge by analyzing 111 articles evaluating the affordances of programming environments to identify both structural and theoretical models to support educators’ choice of programming environments. The following dimensions of programming environments were identified: connectivity mode, interface natural language, language inheritance, age appropriateness, cost of environment, output interface, input interface, and project types. For each of these dimensions, the synthesis of the literature ranged from examining its nature and effect on learning programming to the implications of choosing an environment and the critical gaps that future studies should address. The findings offer instructors useful parameters to compare and assess programming environments’ suitability and alignment with learning objectives.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ezeamuzie",
+                    "given": "Ndudi Okechukwu"
+                },
+                {
+                    "family": "Ezeamuzie",
+                    "given": "Mercy Noyenim"
+                }
+            ],
+            "container-title": "Review of Educational Research",
+            "id": "ezeamuzie_multidimensional_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Publisher: American Educational Research Association",
+            "page": "00346543231216958",
+            "title": "Multidimensional framing of environments beyond blocks and texts in k–12 programming",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Euler",
+                    "given": "Leonhart"
+                }
+            ],
+            "id": "euler_vollstandige_1911",
+            "issued": {
+                "date-parts": [
+                    [
+                        1911
+                    ]
+                ]
+            },
+            "publisher": "Heinrich Weber",
+            "title": "VOLLSTÄNDIGE ANLEITUNG ZUR ALGEBRA",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.sg.ch/bildung-sport/mittelschule/lehrplaene-und-stundentafeln/untergymnasium/_jcr_content/Par/sgch_downloadlist/DownloadListPar/sgch_download.ocFile/Lehrplan%20UG%202019.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        7,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Kantonsschule am Burggraben St.Gallen"
+                }
+            ],
+            "id": "kantonsschule_am_burggraben_stgallen_lehrplan_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "publisher": "Kanton St.Gallen Bildungsdepartement",
+            "title": "Lehrplan 2019 UG",
+            "type": ""
+        },
+        {
+            "DOI": "10.1016/j.edurev.2023.100583",
+            "ISSN": "1747-938X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S1747938X23000763",
+            "abstract": "This systematic review examines which domain-specific numeracy skills in the first year of formal schooling most reliably predict achievement in mathematics during primary school. Longitudinal studies that assessed domain-specific skills in the first year of formal schooling and mathematical outcomes at a later grade in primary school were included. Databases were searched in July 2020. Fifty-four studies were included, representing 13,453 participants. We investigated the strength of the associations between different types of domain-specific skills and mathematical outcomes through correlated effects models and random effects univariate meta-analyses. Results showed small to large significant positive correlations. The strength of the evidence is limited by the small number of studies and the variability found in measures. The findings are analyzed in light of theoretical models of numerical cognition. Implications for future research are discussed.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Ruiz",
+                    "given": "Carola"
+                },
+                {
+                    "family": "Kohnen",
+                    "given": "Saskia"
+                },
+                {
+                    "dropping-particle": "von",
+                    "family": "Hagen",
+                    "given": "Alexa"
+                },
+                {
+                    "family": "Kwok",
+                    "given": "Fu Yu"
+                },
+                {
+                    "family": "Bull",
+                    "given": "Rebecca"
+                }
+            ],
+            "container-title": "Educational Research Review",
+            "container-title-short": "Educational Research Review",
+            "id": "ruiz_which_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Meta-analysis, Domain-specific skills, Mathematical achievement, Numeracy, Predictors, Systematic review",
+            "page": "100583",
+            "title": "Which domain-specific skills at the beginning of formal schooling predict later mathematical achievement? A systematic review and meta-analysis",
+            "title-short": "Which domain-specific skills at the beginning of formal schooling predict later mathematical achievement?",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "DOI": "10.1016/j.tate.2024.104497",
+            "ISSN": "0742-051X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0742051X24000295",
+            "abstract": "Digital assessment (DA) is a growing scope of practice whose necessary competencies for teachers have been collectively unspecified. Analyzing 63 publications, this review explored the themes in the literature related to teachers’ assessment literacy in digital environments (TALiDE). By synthesizing the implications of these studies, multiple competencies and components were retrieved that included several elements of knowledge base, cognition, and contextual factors in association with current issues in DA. The review contributes to an integrative view of what affects teachers enacting DA by presenting a conceptual model of TALiDE and can be beneficial to the stakeholders involved in distance education.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Estaji",
+                    "given": "Masoomeh"
+                },
+                {
+                    "family": "Banitalebi",
+                    "given": "Zahra"
+                },
+                {
+                    "family": "Brown",
+                    "given": "Gavin T. L."
+                }
+            ],
+            "container-title": "Teaching and Teacher Education",
+            "container-title-short": "Teaching and Teacher Education",
+            "id": "estaji_key_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Digital assessment, Scoping review, TALiDE, Teacher competence",
+            "page": "104497",
+            "title": "The key competencies and components of teacher assessment literacy in digital environments: A scoping review",
+            "title-short": "The key competencies and components of teacher assessment literacy in digital environments",
+            "type": "article-journal",
+            "volume": "141"
+        },
+        {
+            "DOI": "10.1016/j.tate.2024.104518",
+            "ISSN": "0742-051X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0742051X24000507",
+            "abstract": "This article presents evidence of teachers’ assessment work to further understandings of the notion of teacher assessment identity. Data are drawn from transcripts of fourteen teacher meetings involving forty Australian middle-school teachers. Using discourse analysis, we examine teacher talk of their assessment practices to distil underlying influences on collective and personal decisions and actions. Results reveal three main influences on assessment identity: the policy context; teacher collaborative networks that build shared understandings and promote self-confidence in grading decisions; and inclusion of targeted resources. The findings can be used in the continuous development of assessment practices across pre- and in-service teaching.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Adie",
+                    "given": "Lenore"
+                },
+                {
+                    "family": "Wyatt-Smith",
+                    "given": "Claire"
+                },
+                {
+                    "family": "Finch",
+                    "given": "Mary"
+                },
+                {
+                    "family": "DeLuca",
+                    "given": "Christopher"
+                }
+            ],
+            "container-title": "Teaching and Teacher Education",
+            "container-title-short": "Teaching and Teacher Education",
+            "id": "adie_evidence_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Assessment identity, Assessment literacy, Extended performance, Teacher judgment, Teachers’ work",
+            "page": "104518",
+            "title": "Evidence of teacher assessment work and its relationship to their assessment identity",
+            "type": "article-journal",
+            "volume": "141"
+        },
+        {
+            "DOI": "10.1016/j.compedu.2019.103645",
+            "ISSN": "0360-1315",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0360131519301988",
+            "abstract": "Teachers’ technological pedagogical knowledge (TPK) is regarded as a critical prerequisite to effectively use technology during teaching across content domains. Previous findings on the availability of TPK, and its relation to other corresponding components of teachers’ professional knowledge, however, were relatively mixed, probably because previous research most exclusively relied on indirect measures, such as self-reports of teacher knowledge. By applying a newly developed test-based instrument to assess teachers’ conceptual and situational TPK, we investigated the cognitive conditions accounting for the availability of TPK. In Study 1 (N = 284), we demonstrated that the availability of TPK depended on the level of teacher expertise. In Study 2 (N = 120), we examined the connectedness of TPK to its corresponding knowledge components (i.e., technological knowledge, pedagogical knowledge). We showed that teachers’ TPK was only related to their pedagogical knowledge. The findings demonstrate that pedagogical expertise is a crucial prerequisite for TPK, which enables teachers to judge the potentials of technologies for varying teaching situations.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Lachner",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Backfisch",
+                    "given": "Iris"
+                },
+                {
+                    "family": "Stürmer",
+                    "given": "Kathleen"
+                }
+            ],
+            "container-title": "Computers & Education",
+            "container-title-short": "Computers & Education",
+            "id": "lachner_test-based_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Teacher education, Professional knowledge, Teacher expertise, TPK",
+            "page": "103645",
+            "title": "A test-based approach of modeling and measuring technological pedagogical knowledge",
+            "type": "article-journal",
+            "volume": "142"
+        },
+        {
+            "DOI": "10.1111/j.1467-9620.2006.00684.x",
+            "ISSN": "0161-4681",
+            "abstract": "Research in the area of educational technology has often been critiqued for a lack of theoretical grounding. In this article we propose a conceptual framework for educational technology by building on Shulman’s formulation of \"pedagogical content knowledge\" and extend it to the phenomenon of teachers integrating technology into their pedagogy. This framework is the result of 5 years of work on a program of research focused on teacher professional development and faculty development in higher education. It attempts to capture some of the essential qualities of teacher knowledge required for technology integration in teaching, while addressing the complex, multifaceted, and situated nature of this knowledge. We argue, briefly, that thoughtful pedagogical uses of technology require the development of a complex, situated form of knowledge that we call Technological Pedagogical Content Knowledge (TPCK). In doing so, we posit the complex roles of, and interplay among, three main components of learning environments: content, pedagogy, and technology. We argue that this model has much to offer to discussions of technology integration at multiple levels: theoretical, pedagogical, and methodological. In this article, we describe the theory behind our framework, provide examples of our teaching approach based upon the framework, and illustrate the methodological contributions that have resulted from this work. Copyright © by Teachers College, Columbia University.",
+            "author": [
+                {
+                    "family": "Mishra",
+                    "given": "P."
+                },
+                {
+                    "family": "Koehler",
+                    "given": "M. J."
+                }
+            ],
+            "container-title": "Teachers College Record",
+            "id": "mishra_technological_2006",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2006
+                    ]
+                ]
+            },
+            "page": "1017-1054",
+            "title": "Technological pedagogical content knowledge: A framework for teacher knowledge",
+            "title-short": "Technological pedagogical content knowledge",
+            "type": "article-journal",
+            "volume": "108"
+        },
+        {
+            "DOI": "10.1016/j.tate.2024.104523",
+            "ISSN": "0742-051X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0742051X24000556",
+            "abstract": "In support of teacher well-being, playing can offer a levity and perspective shift that seems elusive in times of stress. In this study, the researcher conducted in-depth interviews with ten secondary school teachers about the ways they play. Thematic analysis was utilized to draw up three keys that teachers use to unlock their play. 1) Spark-a playful action, 2) Space-the mindful place where actions are planned or reflected upon, and 3) Structure-the systems that support a teacher’s ability to play. Harnessing playful teaching practices can promote a school culture of sustainable and creative teaching and learning.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Dierenfeld",
+                    "given": "Celeste M."
+                }
+            ],
+            "container-title": "Teaching and Teacher Education",
+            "container-title-short": "Teaching and Teacher Education",
+            "id": "dierenfeld_unlocking_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Teacher, Fun, Play, Resilient, Well-being",
+            "page": "104523",
+            "title": "Unlocking fun: Accessing play to enhance secondary teachers’ well-being",
+            "title-short": "Unlocking fun",
+            "type": "article-journal",
+            "volume": "142"
+        },
+        {
+            "URL": "http://archive.org/details/grundlagendermat0050hilb",
+            "abstract": "2 v. 24 cm; Includes bibliographical references",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hilbert",
+                    "given": "David"
+                }
+            ],
+            "id": "hilbert_grundlagen_1968",
+            "issued": {
+                "date-parts": [
+                    [
+                        1968
+                    ]
+                ]
+            },
+            "keyword": "Mathematics – Philosophy",
+            "number-of-pages": "592",
+            "publisher": "Berlin, Heidelberg, New York, Springer",
+            "title": "Grundlagen der mathematik II",
+            "type": "book"
+        },
+        {
+            "URL": "http://archive.org/details/grundlagendermat0000hilb",
+            "abstract": "2 v. ; 24 cm; Includes bibliographical references",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hilbert",
+                    "given": "David"
+                },
+                {
+                    "literal": "P. Bernays"
+                }
+            ],
+            "id": "hilbert_grundlagen_1968-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1968
+                    ]
+                ]
+            },
+            "keyword": "Logic, Symbolic and mathematical",
+            "number-of-pages": "506",
+            "publisher": "Berlin ; New York : Springer",
+            "title": "Grundlagen der mathematik i",
+            "type": "book"
         }
     ],
     "project_biblios": [

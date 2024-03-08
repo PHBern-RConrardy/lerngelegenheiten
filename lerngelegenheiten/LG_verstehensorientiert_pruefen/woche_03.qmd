@@ -175,7 +175,12 @@ print(random_number)
 
 ## Förderkreislauf
 
+:::{#fig-kreislauf}
 ![](images/foerderkreislauf.svg)
+
+Förderkreislauf  [@kuratle_kompetenzorientierte_2021, S.3]
+
+:::
 
 ## Projekt 1
 
@@ -184,3 +189,5 @@ print(random_number)
 [Auftrag auf der Webseite](math_ki.qmd){.knopf target="_blank"}
 
 :::
+
+## Bibliographie {.unlisted}

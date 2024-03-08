@@ -65,11 +65,11 @@ The model of instruction that emerges is simple, and it makes intuitive sense:
 
 ## Förderkreislauf
 
-
+:::{#fig-kreislauf}
 ![](images/foerderkreislauf.svg){width="100%" fig-align="center"}
 
-:::quelle
-@kuratle_kompetenzorientierte_2021
+Förderkreislauf  [@kuratle_kompetenzorientierte_2021, S.3]
+
 :::
 
 ## Kriterien zur Auswahl von Schulstoff

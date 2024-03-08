@@ -381,29 +381,29 @@
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "title": "KI im Mathematikunterricht",
-    "section": "Machine Learning (ML)",
-    "text": "Machine Learning (ML)\n\n\n\n\n\n\n\n\n\nHersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface"
+    "section": "",
+    "text": "Hersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "title": "KI im Mathematikunterricht",
-    "section": "Wichtige Entwicklungen der letzten Jahre",
-    "text": "Wichtige Entwicklungen der letzten Jahre\n\nAttention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
+    "section": "",
+    "text": "Attention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-konzepte",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-konzepte",
     "title": "KI im Mathematikunterricht",
-    "section": "Wichtige Konzepte",
-    "text": "Wichtige Konzepte\n\nTemperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
+    "section": "",
+    "text": "Temperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#summative-beurteilung",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#summative-beurteilung",
     "title": "KI im Mathematikunterricht",
     "section": "Summative Beurteilung",
-    "text": "Summative Beurteilung\n\nDatenschutz & Nutzungsrechte\nEthische Aspekte\nKI \\(\\neq\\) KI\nKI \\(\\neq\\) Taschenrechner"
+    "text": "Summative Beurteilung\n\nDatenschutz & Nutzungsrechte\nEthische Aspekte\nKI \\(\\neq\\) KI\nKI \\(\\neq\\) Taschenrechner\n\n“participants were not able to detect AI-generated argumentative essays” (Fleckenstein et al., 2024, p. 3) (pdf)\n“teachers may not be aware of their inability to identify AI-generated texts among student essays” (Fleckenstein et al., 2024, p. 4) (pdf)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#formative-beurteilung",
@@ -459,7 +459,7 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Förderkreislauf",
-    "text": "Förderkreislauf\n\n\nKuratle & Balmer (2021)"
+    "text": "Förderkreislauf\n\n\nAbbildung 1: Förderkreislauf (Kuratle & Balmer, 2021, S. 3)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
@@ -620,7 +620,7 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#förderkreislauf",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Förderkreislauf",
-    "text": "Förderkreislauf"
+    "text": "Förderkreislauf\n\n\nAbbildung 1: Förderkreislauf (Kuratle & Balmer, 2021, S. 3)"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#wo-können-sie-ansetzen",
@@ -1208,7 +1208,7 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#teilgebiete-der-mathematik",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Teilgebiete der Mathematik",
-    "text": "Teilgebiete der Mathematik\n\nArithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\nMengenlehre\nLogik\n\n\nBruder et al. (2014)"
+    "text": "Teilgebiete der Mathematik\n\nArithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)\n\n\nMengenlehre\nLogik"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#leitideen",
@@ -1264,7 +1264,7 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#bibliographie",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. (2016, Juni 23). Strukturelle und inhaltliche Hinweise - Lehrplan21. Lehrplan 21 für die Volksschule des Kantons Bern. https://be.lehrplan.ch/index.php?code=e|5|3\n\n\nBruder, R., Hefendehl-Hebeker, L., Schmidt-Thieme, B., & Weigand, H.-G. (2014). Handbuch der Mathematikdidaktik (1., 2014. Aufl.). Springer Berlin.\n\n\nEDK. (2011). Grundkompetenzen für dIe Mathematik."
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nBildungs- und Kulturdirektion des Kantons Bern. (2016, Juni 23). Strukturelle und inhaltliche Hinweise - Lehrplan21. Lehrplan 21 für die Volksschule des Kantons Bern. https://be.lehrplan.ch/index.php?code=e|5|3\n\n\nBruder, R., Hefendehl-Hebeker, L., Schmidt-Thieme, B., & Weigand, H.-G. (2014). Handbuch der Mathematikdidaktik (1., 2014. Aufl.). Springer Berlin.\n\n\nEDK. (2011). Grundkompetenzen für dIe Mathematik.\n\n\nHilbert, D., & P. Bernays. (1968). Grundlagen der Mathematik I. Berlin ; New York : Springer. http://archive.org/details/grundlagendermat0000hilb"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_07.html#core-mathematics-vs.-mathematical-science",
@@ -1775,14 +1775,14 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#zusammenhänge",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Zusammenhänge",
-    "text": "Zusammenhänge\n\n\n\n\n\n\n\n\n\n\n\n\nBruder et al. (2014), EDK (2011), Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+    "text": "Zusammenhänge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht Fachinhalte und Fachkompetenzbereiche\n\n\n\n\nTeilgebiete und Leitideen nach Bruder et al. (2014)\nKompetenzbereiche nach EDK (2011)\nKompetenzbereiche LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#tätigkeiten-1",
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#tätigkeiten-1",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Tätigkeiten",
-    "text": "Tätigkeiten\n\n\n\n\n\n\n\n\n\n\n\n\nDenkprozesse nach Bruder et al. (2014)\nHandlungsaspekte EDK nach EDK (2011)\nHandlungsaspekte LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+    "text": "Tätigkeiten\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbbildung 2: Übersicht der Prozesse und Handlungsaspekte\n\n\n\n\nAxiomatische Theorie nach Hilbert & P. Bernays (1968)\nDenkprozesse nach Bruder et al. (2014)\nHandlungsaspekte EDK nach EDK (2011)\nHandlungsaspekte LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#zufällige-zahlen",
@@ -1796,6 +1796,34 @@
     "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#projekt-1",
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Projekt 1",
-    "text": "Projekt 1\n\nAuftrag auf der Webseite\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+    "text": "Projekt 1\n\nAuftrag auf der Webseite"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html",
+    "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html",
+    "title": "KI im Mathematikunterricht",
+    "section": "",
+    "text": "Hersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface\n\n\n\n\n\n\n\n\n\n\n\n\nAttention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models\n\n\n\n\n\nTemperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#packages-installieren-numpy",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#packages-installieren-numpy",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Packages installieren (numpy)",
+    "text": "Packages installieren (numpy)\nIm Terminalfolgenden Befehl eingeben: pip install numpy. Falls Fehler gemeldet werden folgendes beachten:\n\nIm Terminal folgendes eingeben: `pip –version``\nIn der Ausgabe den path, insb. Versionsnummer merken, z.B. from /opt/homebrew/lib/python3.11/site-packages/pip (python 3.11)\nIn Rstudio im Menü unter Tools &gt; Global Options bei Python genau diesen Interpreter wählen und speichern.\nNun Library im Terminalmit pip install numpyinstallieren."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#bibliographie",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html#bibliographie",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy\n\n\n\n\nKuratle, R., & Balmer, T. (2021). Kompetenzorientierte Beurteilung an der Volksschule des Kantons Bern. Institut für Weiterbildung und Medienbildung."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-nach-lehrplan21",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#kompetenzbereiche-nach-lehrplan21",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Kompetenzbereiche nach Lehrplan21",
+    "text": "Kompetenzbereiche nach Lehrplan21\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
   }
 ]
