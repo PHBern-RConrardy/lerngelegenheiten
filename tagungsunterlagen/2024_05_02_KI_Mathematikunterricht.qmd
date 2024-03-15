@@ -4,11 +4,26 @@ title: KI im Mathematikunterricht
 date: 02 05 2024
 ---
 
+# TPACK-Modell
 
+## {.unlisted}
 
+::: {#fig-uebersicht}
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png)
+
+TPACK Modell [@mishra_technological_2006]
+
+:::
+
+:::quelle
+Bild von [Matthew Koehler](https://commons.wikimedia.org/wiki/File:TPACK-new.png), CC0, via Wikimedia Commons
+:::
 # Was ist KI?
 
 ## Machine Learning (ML)
+
+::: {#fig-uebersicht}
 
 ```{mermaid}
 %%| mermaid-format: svg
@@ -59,6 +74,10 @@ flowchart TD
   end
 ```
 
+Übersicht über Machine Learning
+
+:::
+
 ## Wichtige Entwicklungen der letzten Jahre
 
 1. Attention  [vgl. @vaswani_attention_2017]
@@ -73,6 +92,7 @@ flowchart TD
 * Artificial general intelligence 
 * $\Rightarrow ML \supset KI\,?$
 
+
 # KI Applikationen
 
 # Problematische Erklärversuche von KI 
@@ -80,30 +100,36 @@ flowchart TD
 # KI in der Beurteilung
 
 
-## Summative Beurteilung
 
+## Summative Beurteilung
 
 1. Datenschutz & Nutzungsrechte
 2. Ethische Aspekte
 3. KI $\neq$ KI
 4. KI $\neq$ Taschenrechner
 
-“participants were not able to detect AI-generated argumentative essays” ([Fleckenstein et al., 2024, p. 3](zotero://select/library/items/I3A9JSFN)) ([pdf](zotero://open-pdf/library/items/YEEQPDDZ?page=3&annotation=EIH6MCDW))
+>participants were not able to detect AI-generated argumentative essays
 
-“teachers may not be aware of their inability to identify AI-generated texts among student essays” ([Fleckenstein et al., 2024, p. 4](zotero://select/library/items/I3A9JSFN)) ([pdf](zotero://open-pdf/library/items/YEEQPDDZ?page=4&annotation=NQ9MSDZY))
+:::quelle
+[@fleckenstein_teachers_2024, p. 3]
+:::
 
+>teachers may not be aware of their inability to identify AI-generated texts among student essays
 
+:::quelle
+[@fleckenstein_teachers_2024, p. 4]
+:::
 
 
 ## Formative Beurteilung
 
-"Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt."
+>Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt.
 
 :::quelle
  [Wälti in @jones_was_2022,S.3]
 :::
 
-"Es soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen"
+>Es soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen
 
 :::quelle
 [@kuratle_kompetenzorientierte_2021,S.10]
@@ -120,7 +146,7 @@ flowchart TD
 >Ich glaub', sagte sie leise, man kann sie nicht liebhaben.
 >
 :::quelle
-@ende_momo_1973
+Momo von @ende_momo_1973
 :::
 
 ## Bibliographie {.unlisted}

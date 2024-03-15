@@ -130,6 +130,14 @@ Kompetenzbereiche LP21 nach @bildungs-_und_kulturdirektion_des_kantons_bern_stru
 
 # Tätigkeiten
 
+## Axiomatische Theorie
+
+> In der weitesten Bedeutung des Wortes nennen wir die Entwicklung einer Theorie axiomatisch, wenn die Grundbegriffe und Grundvoraussetzungen als solche an die Spitze gestellt werden und aus ihnen der weitere Inhalt der Theorie mit Hilfe von Definitionen und Beweisen logisch abgeleitet wird. In diesem Sinne ist die Geometrie von Euklid, die Mechanik von Newton, die Thermodynamik von Clausius axiomatisch begründet worden.
+>
+:::quelle
+[@hilbert_grundlagen_1968-1,S.1]
+:::
+
 ## Denkprozesse
 
 -   Begriffsbildung

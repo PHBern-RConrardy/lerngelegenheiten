@@ -516,7 +516,7 @@ Leistungsnachweis: Formative Beurteilung
 <section id="aufgabenvorschläge" class="level1">
 <h1>Aufgabenvorschläge</h1>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Teilbarkeit</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Vierquadratesatz von Lagrange.</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Quadratzahlen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Stammbrüche</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Satz von Collatz</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-6" role="tab" aria-controls="tabset-2-6" aria-selected="false">Sieb des Eratosthenes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-7" role="tab" aria-controls="tabset-2-7" aria-selected="false">Potenz-, Exponentialfunktion</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-8" role="tab" aria-controls="tabset-2-8" aria-selected="false">Nazistische Zahlen</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true">Teilbarkeit</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false">Vierquadratesatz von Lagrange</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false">Quadratzahlen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false">Stammbrüche</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-5" role="tab" aria-controls="tabset-2-5" aria-selected="false">Satz von Collatz</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-6-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-6" role="tab" aria-controls="tabset-2-6" aria-selected="false">Sieb des Eratosthenes</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-7-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-7" role="tab" aria-controls="tabset-2-7" aria-selected="false">Potenz-, Exponentialfunktion</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-8-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-8" role="tab" aria-controls="tabset-2-8" aria-selected="false">Narzistische Zahlen</a></li></ul>
 <div class="tab-content">
 <div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
 <p>Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind.</p>
@@ -529,8 +529,58 @@ Leistungsnachweis: Formative Beurteilung
 <ul>
 <li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.</li>
 <li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.</li>
-<li>Bestimme alle nat?rlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.</li>
+<li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.</li>
 </ul>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<p>Dieser Lösungsvorschlag stammt von Leandro Lüthi (Studierender) unter eine <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> istSumVonQuadr(zahl, anz_quadrnr):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> anz_quadrnr <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist</span></span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> j<span class="op">**</span><span class="dv">2</span> <span class="op">==</span> zahl:</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>          <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>          <span class="co"># Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück</span></span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> istSumVonQuadr(zahl <span class="op">-</span> i<span class="op">**</span><span class="dv">2</span>, anz_quadrnr <span class="op">-</span> <span class="dv">1</span>):</span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="co">        Von der 'zahl' wird das Quadrat von i subdrahiert</span></span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="co">        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz</span></span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="co">        zwischen i**2 und zahl ergeben</span></span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="co">        """</span></span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>summe_quadraten_zahlen <span class="op">=</span> []</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>rangeOfQuadrNr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Zahl: "</span>))</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a>quadrnr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "</span>))</span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr</span></span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, rangeOfQuadrNr):</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> istSumVonQuadr(zahl, quadrnr):</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a><span class="co">    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben</span></span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb2-37"><a href="#cb2-37" aria-hidden="true" tabindex="-1"></a>    summe_quadraten_zahlen.append(zahl)</span>
+<span id="cb2-38"><a href="#cb2-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht</span></span>
+<span id="cb2-39"><a href="#cb2-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-40"><a href="#cb2-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Ausgabe der gefundenen Zahlen</span></span>
+<span id="cb2-41"><a href="#cb2-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Natürliche Zahlen kleiner als "</span><span class="op">+</span><span class="bu">str</span>(rangeOfQuadrNr)<span class="op">+</span><span class="st">", die Summe von "</span><span class="op">+</span><span class="bu">str</span>(quadrnr)<span class="op">+</span><span class="st">" Quadraten sind: "</span>)</span>
+<span id="cb2-42"><a href="#cb2-42" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> summe_quadraten_zahlen:</span>
+<span id="cb2-43"><a href="#cb2-43" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(zahl)</span>
+<span id="cb2-44"><a href="#cb2-44" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Alle Elemente unserer Liste, werden geprinted</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
 <p>Die SuS erkennen, dass jede natürliche Zahl <span class="math inline">\(n\)</span> als Summe von vier Quadratzahlen dargestellt werden kann.</p>

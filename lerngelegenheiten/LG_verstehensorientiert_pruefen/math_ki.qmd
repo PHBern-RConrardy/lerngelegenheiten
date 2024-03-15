@@ -155,7 +155,7 @@ Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der form
 
 Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind. 
 
-## Vierquadratesatz von Lagrange. 
+## Vierquadratesatz von Lagrange
 
 * Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.
 
@@ -163,7 +163,62 @@ Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind
 
 * Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
 * Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
-* Bestimme alle nat?rlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.
+* Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.
+
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+Dieser Lösungsvorschlag stammt von Leandro Lüthi (Studierender) unter eine [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+
+```python
+
+def istSumVonQuadr(zahl, anz_quadrnr):
+  # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.
+  if anz_quadrnr == 2:
+    for i in range(1, int(zahl**0.5)+1):
+    # for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe
+    # Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist
+      for j in range(i, int(zahl**0.5)+1):
+        if i**2 + j**2 == zahl:
+          return True
+          # Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück
+    return False
+  else:
+    # Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen
+    for i in range(1, int(zahl**0.5) + 1):
+      # Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe
+      if istSumVonQuadr(zahl - i**2, anz_quadrnr - 1):
+        return True
+        """
+        Von der 'zahl' wird das Quadrat von i subdrahiert
+        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz
+        zwischen i**2 und zahl ergeben
+        """
+    return False
+
+# Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können
+summe_quadraten_zahlen = []
+print("Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:",flush=True)
+rangeOfQuadrNr = int(input("Zahl: "))
+quadrnr = int(input("Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "))
+# Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr
+for zahl in range(1, rangeOfQuadrNr):
+  if istSumVonQuadr(zahl, quadrnr):
+    """
+    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben
+    """
+    summe_quadraten_zahlen.append(zahl)
+# Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht
+
+# Ausgabe der gefundenen Zahlen
+print("Natürliche Zahlen kleiner als "+str(rangeOfQuadrNr)+", die Summe von "+str(quadrnr)+" Quadraten sind: ")
+for zahl in summe_quadraten_zahlen:
+  print(zahl)
+  # Alle Elemente unserer Liste, werden geprinted
+```
+
+</details>
 
 ## Quadratzahlen
 
@@ -204,7 +259,7 @@ Ziel: Zur Eingabe zweier Zahlen $a$ und $b$, $a>1$, $b\in\mathbb{N}$,  die klein
 
 Die SuS erkennen, dass jede Exponentialfunktion (auch für $a=1.0001$) schneller wächst als jede Potenzfunktion.
 
-## Nazistische Zahlen
+## Narzistische Zahlen
 
 Das Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl $n$
 

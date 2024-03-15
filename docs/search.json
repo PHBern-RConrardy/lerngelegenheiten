@@ -381,50 +381,50 @@
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "title": "KI im Mathematikunterricht",
-    "section": "",
-    "text": "Hersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface"
+    "section": "Machine Learning (ML)",
+    "text": "Machine Learning (ML)\n\n\n\n\n\n\n\n\n\n\n\n\nHersteller\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUserdata\n\n\n\nPrompt\n\n\n\nContext\n\n\n\nArchitektur\n\n\n\nParameter\n\n\n\nTraining\n\n\n\nTraining Data\n\n\n\nTags\n\n\n\nFeedback\n\n\n\nAnbieter\n\n\n\nRegeln\n\n\n\nInstruktionen\n\n\n\nApplikation\n\n\n\nOutput\n\n\n\nSprachmodell\n\n\n\nUser Interface\n\n\n\n\n\n\n\n\n\n\nAbbildung 2: Übersicht über Machine Learning"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-entwicklungen-der-letzten-jahre",
     "title": "KI im Mathematikunterricht",
-    "section": "",
-    "text": "Attention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
+    "section": "Wichtige Entwicklungen der letzten Jahre",
+    "text": "Wichtige Entwicklungen der letzten Jahre\n\nAttention (vgl. Vaswani et al., 2017)\nTransformer Architektur\nLarge Language Models\nMultimodal Models"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-konzepte",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#wichtige-konzepte",
     "title": "KI im Mathematikunterricht",
-    "section": "",
-    "text": "Temperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
+    "section": "Wichtige Konzepte",
+    "text": "Wichtige Konzepte\n\nTemperature (vgl. Wolfram, 2023 )\nGenerative KI\nArtificial general intelligence\n\\(\\Rightarrow ML \\supset KI\\,?\\)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#summative-beurteilung",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#summative-beurteilung",
     "title": "KI im Mathematikunterricht",
     "section": "Summative Beurteilung",
-    "text": "Summative Beurteilung\n\nDatenschutz & Nutzungsrechte\nEthische Aspekte\nKI \\(\\neq\\) KI\nKI \\(\\neq\\) Taschenrechner\n\n“participants were not able to detect AI-generated argumentative essays” (Fleckenstein et al., 2024, p. 3) (pdf)\n“teachers may not be aware of their inability to identify AI-generated texts among student essays” (Fleckenstein et al., 2024, p. 4) (pdf)"
+    "text": "Summative Beurteilung\n\nDatenschutz & Nutzungsrechte\nEthische Aspekte\nKI \\(\\neq\\) KI\nKI \\(\\neq\\) Taschenrechner\n\n\nparticipants were not able to detect AI-generated argumentative essays\n\n\n(Fleckenstein et al., 2024, p. 3)\n\n\nteachers may not be aware of their inability to identify AI-generated texts among student essays\n\n\n(Fleckenstein et al., 2024, p. 4)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#formative-beurteilung",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#formative-beurteilung",
     "title": "KI im Mathematikunterricht",
     "section": "Formative Beurteilung",
-    "text": "Formative Beurteilung\n“Bildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt.”\n\n(Wälti in Jones, 2022, S. 3)\n\n“Es soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen”\n\n(Kuratle & Balmer, 2021, S. 10)"
+    "text": "Formative Beurteilung\n\nBildungsnahe Eltern halfen ihren Kindern bei den Hausaufgaben. Kinder aus bildungsfernen Haushalten waren auf sich gestellt.\n\n\n(Wälti in Jones, 2022, S. 3)\n\n\nEs soll ausdrücklich keine „ständige Beurteilungssituation“ entstehen\n\n\n(Kuratle & Balmer, 2021, S. 10)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#bibigirl-die-vollkommene-puppe",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#bibigirl-die-vollkommene-puppe",
     "title": "KI im Mathematikunterricht",
     "section": "Bibigirl, die vollkommene Puppe",
-    "text": "Bibigirl, die vollkommene Puppe\n\nJa, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben\nAber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.\n[…]\nIch glaub’, sagte sie leise, man kann sie nicht liebhaben.\n\nEnde (1973)"
+    "text": "Bibigirl, die vollkommene Puppe\n\nJa, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben\nAber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.\n[…]\nIch glaub’, sagte sie leise, man kann sie nicht liebhaben.\n\nMomo von Ende (1973)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#bibliographie",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#bibliographie",
     "title": "KI im Mathematikunterricht",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEnde, M. (1973). Momo oder die seltsame Geschichte von den Zeit-Dieben und von dem Kind, das den Menschen die gestohlene Zeit zurückbrachte: ein Märchen-Roman (Ungekürzte Taschenbuchausg). Piper.\n\n\nJones, N. (2022). «Was wir einst einübten, macht heute die Maschine». Berner Zeitung.\n\n\nKuratle, R., & Balmer, T. (2021). Kompetenzorientierte Beurteilung an der Volksschule des Kantons Bern. Institut für Weiterbildung und Medienbildung.\n\n\nVaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is All you Need. Advances in Neural Information Processing Systems 30, 30, 5999–6010. https://dl.acm.org/doi/pdf/10.5555/3295222.3295349\n\n\nWolfram, S. (2023). What is ChatGPT doing ... and why does it work? Wolfram Media, Inc."
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEnde, M. (1973). Momo oder die seltsame Geschichte von den Zeit-Dieben und von dem Kind, das den Menschen die gestohlene Zeit zurückbrachte: ein Märchen-Roman (Ungekürzte Taschenbuchausg). Piper.\n\n\nFleckenstein, J., Meyer, J., Jansen, T., Keller, S. D., Köller, O., & Möller, J. (2024). Do teachers spot AI? Evaluating the detectability of AI-generated texts among student essays. Computers and Education: Artificial Intelligence, 6, 100209. https://doi.org/10.1016/j.caeai.2024.100209\n\n\nJones, N. (2022). «Was wir einst einübten, macht heute die Maschine». Berner Zeitung.\n\n\nKuratle, R., & Balmer, T. (2021). Kompetenzorientierte Beurteilung an der Volksschule des Kantons Bern. Institut für Weiterbildung und Medienbildung.\n\n\nMishra, P., & Koehler, M. J. (2006). Technological pedagogical content knowledge: A framework for teacher knowledge. Teachers College Record, 108(6), 1017–1054. https://doi.org/10.1111/j.1467-9620.2006.00684.x\n\n\nVaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., Kaiser, Ł., & Polosukhin, I. (2017). Attention is All you Need. Advances in Neural Information Processing Systems 30, 30, 5999–6010. https://dl.acm.org/doi/pdf/10.5555/3295222.3295349\n\n\nWolfram, S. (2023). What is ChatGPT doing ... and why does it work? Wolfram Media, Inc."
   },
   {
     "objectID": "index.html",
@@ -437,15 +437,15 @@
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
     "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Organisationsblatt",
-    "text": "Organisationsblatt\n\n\nOrganisationsblatt\nPorta-Mathematik Materialraum"
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#grundlagen",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Grundlagen",
-    "text": "Grundlagen\n\n\nArt.3 DVBS\nDie Beurteilung ist\n\nförderorientiert,\nlernzielorientiert,\numfassend, […]\ntransparent und nachvollziehbar.\n\n\nErziehungsdirektion des Kantons Bern (2022)\n\n\nQualitätsmerkmale einer kompetenzorientierten Beurteilung\n\nFörderorientierung: […]\nPassung zum Unterricht: […]\nTransparenz / Nachvollziehbarkeit: […]\nUmfassende Beurteilung: […]\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+    "text": "Grundlagen\n\n\n\nArt.3 DVBS\nDie Beurteilung ist\n\nförderorientiert,\nlernzielorientiert,\numfassend, […]\ntransparent und nachvollziehbar.\n\n\nErziehungsdirektion des Kantons Bern (2022)\n\n\n\n\nQualitätsmerkmale einer kompetenzorientierten Beurteilung\n\nFörderorientierung: […]\nPassung zum Unterricht: […]\nTransparenz / Nachvollziehbarkeit: […]\nUmfassende Beurteilung: […]\n\n\nErziehungsdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#constructive-alignment",
@@ -459,14 +459,14 @@
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#förderkreislauf",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Förderkreislauf",
-    "text": "Förderkreislauf\n\n\nAbbildung 1: Förderkreislauf (Kuratle & Balmer, 2021, S. 3)"
+    "text": "Förderkreislauf\n\n\n\n\n\n\nAbbildung 1: Förderkreislauf (Kuratle & Balmer, 2021, S. 3)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
     "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#kriterien-zur-auswahl-von-schulstoff",
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Kriterien zur Auswahl von Schulstoff",
-    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spätere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der SchUler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
+    "text": "Kriterien zur Auswahl von Schulstoff\n\nDer Lehrstoff muss mathematisch richtig sein.\nDer Lehrstoff muss spätere Erweiterungen vorbereiten.\nDer Lehrstoff muss an den Anfangszustand der Schüler anknüpfen.\nDer Lehrstoff muss den gestellten Zielen entsprechen.\n\n\n(Van Dormolen, 1978, S. 36)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#auftrag-auf-woche-8",
@@ -1691,7 +1691,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#workshop",
     "title": "Inhalte effizient onlinebringen",
     "section": "Workshop",
-    "text": "Workshop\n\n\nQuellcode für den Countdown\nlibrary (countdown)\ncountdown(\n  right = 0,\n  top = 0,\n  font_size = \"1.5em\",\n  margin = \"0%\",\n  minutes = 20, \n  seconds = 0\n)\n\n\n\n−+\n20:00"
+    "text": "Workshop"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#creative-coding---sonja-schär",
@@ -1761,7 +1761,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
     "title": "Inhalte effizient onlinebringen",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#zusammenhang-zwischen-fachinhalten-und-kompetenzen-nach-lp21",
@@ -1825,5 +1825,124 @@
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "Kompetenzbereiche nach Lehrplan21",
     "text": "Kompetenzbereiche nach Lehrplan21\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#axiomatische-theorie",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#axiomatische-theorie",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "Axiomatische Theorie",
+    "text": "Axiomatische Theorie\n\nIn der weitesten Bedeutung des Wortes nennen wir die Entwicklung einer Theorie axiomatisch, wenn die Grundbegriffe und Grundvoraussetzungen als solche an die Spitze gestellt werden und aus ihnen der weitere Inhalt der Theorie mit Hilfe von Definitionen und Beweisen logisch abgeleitet wird. In diesem Sinne ist die Geometrie von Euklid, die Mechanik von Newton, die Thermodynamik von Clausius axiomatisch begründet worden.\n\n(Hilbert & P. Bernays, 1968, S. 1)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#tpack-modell",
+    "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#tpack-modell",
+    "title": "KI im Mathematikunterricht",
+    "section": "TPACK-Modell",
+    "text": "TPACK-Modell\n\n\nAbbildung 2: TPACK Modell (Mishra & Koehler, 2006)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#section",
+    "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#section",
+    "title": "KI im Mathematikunterricht",
+    "section": "",
+    "text": "Abbildung 1: TPACK Modell (Mishra & Koehler, 2006)\n\nBild von Matthew Koehler, CC0, via Wikimedia Commons"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-erstellen",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-erstellen",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Webseite erstellen",
+    "text": "Webseite erstellen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-auf-ilias-stellen",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-auf-ilias-stellen",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Webseite auf Ilias stellen",
+    "text": "Webseite auf Ilias stellen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-auf-dem-internet-publizieren",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-auf-dem-internet-publizieren",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Webseite auf dem Internet publizieren",
+    "text": "Webseite auf dem Internet publizieren"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section-1",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section-1",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "🧠 + 🤖 = 🦾",
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back!"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#do-it-yourself",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#do-it-yourself",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Do-it-yourself",
+    "text": "Do-it-yourself\n\nMarkdown\nYaml\nCSS\nHTML\n\\(\\LaTeX\\)\nPython\nJavascript(Mermaid JS)\nBibtex"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#yaml",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#yaml",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "YAML",
+    "text": "YAML"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-anpassen",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-anpassen",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Webseite anpassen",
+    "text": "Webseite anpassen\n\n_quarto.yml\nstyles.scss\nindex.qmd"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#dateien",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#dateien",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Dateien",
+    "text": "Dateien\nWebseite anpassen\n\n_quarto.yml\nstyles.scss\nindex.qmd\nneue Seite erstellen und ins Menü einfügen\n\nPräsentationsfolien erstellen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Expectation management",
+    "text": "Expectation management\n\n\nbesser als Powerpoint, Word etc.\nschlechter\nerfrischend anders!"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "3 step plan",
+    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren\n\n\n\n\n−+\n20:00"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#wo-geht-die-reise-hin",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#wo-geht-die-reise-hin",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Wo geht die Reise hin?",
+    "text": "Wo geht die Reise hin?\n\nGithub\nPDF-Vorlagen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Diskussion",
+    "text": "Diskussion\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html",
+    "href": "lerngelegenheiten/LG_math_summative_praes/woche_01.html",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
   }
 ]
