@@ -93,7 +93,7 @@ author: "Richard Conrardy"
 <summary>Lösungsvorschlag</summary>
 3x+2
 </details>
-```
+````
 <details>
 <summary>Lösungsvorschlag</summary>
 3x+2
@@ -101,8 +101,14 @@ author: "Richard Conrardy"
 
 ### Videos:
 
+```html
 <iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
 </iframe>
+```
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
+</iframe>
+
 
 
 
@@ -121,14 +127,14 @@ $$\sqrt{\frac{3}{4}}$$
 
 ## 5. Javascript (mermaid JS)
 
-$```\{mermaid\}$
 
+````mermaid
 ```mermaid
 graph LR
   Start --> Stop--> Weiter
   Start -->Weiter
 ```
-$```$
+````
 
 ```{mermaid}
 %%| mermaid-format: png
@@ -141,14 +147,28 @@ graph LR
 
 ## 6. R (oder Python, oder OJS)
 
-$```\{r\}$
-```{r}
-#| echo: true
-x <- 2
-result <- x^5
-print(result)
+`{r}` damit es ausgeführt wird
+
+````r
+```r
+# Create data
+labels <- c("40%", "60%")
+sizes <- c(40, 60)
+colors <- c("#FF9999", "#66B2FF")  # You can change colors as per your preference
+# Create pie chart
+pie(sizes, labels = labels, col = colors, main = "Pie Chart: 40% - 60% Distribution")
 ```
-$```$
+````
+
+```{r}
+# Create data
+labels <- c("40%", "60%")
+sizes <- c(40, 60)
+colors <- c("#FF9999", "#66B2FF")  # You can change colors as per your preference
+# Create pie chart
+pie(sizes, labels = labels, col = colors, main = "Pie Chart: 40% - 60% Distribution")
+```
+
 
 
 ## 7. CSS (in `styles.css`)

@@ -1978,7 +1978,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "title": "Inhalte effizient onlinebringen",
     "section": "3. HTML",
-    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:"
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
@@ -1992,14 +1992,14 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#javascript-mermaid-js",
     "title": "Inhalte effizient onlinebringen",
     "section": "5. Javascript (mermaid JS)",
-    "text": "5. Javascript (mermaid JS)\n\\(```\\{mermaid\\}\\)\ngraph LR\n  Start --&gt; Stop--&gt; Weiter\n  Start --&gt;Weiter\n\\(```\\)"
+    "text": "5. Javascript (mermaid JS)\n```mermaid\ngraph LR\n  Start --&gt; Stop--&gt; Weiter\n  Start --&gt;Weiter\n```"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
     "title": "Inhalte effizient onlinebringen",
     "section": "6. R (oder Python, oder OJS)",
-    "text": "6. R (oder Python, oder OJS)\n\\(```\\{r\\}\\)\n\nx &lt;- 2\nresult &lt;- x^5\nprint(result)\n\n[1] 32\n\n\n\\(```\\)"
+    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",

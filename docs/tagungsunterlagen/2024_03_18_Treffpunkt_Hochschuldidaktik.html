@@ -484,7 +484,7 @@
 </ol>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_a706f29e" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
+<div class="countdown" id="timer_b669a42c" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -535,24 +535,26 @@ Lösungsvorschlag
 3x+2
 </details>
 <h3 id="videos">Videos:</h3>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a></a><span class="dt">&lt;</span><span class="kw">iframe</span><span class="ot"> width</span><span class="op">=</span><span class="st">"420"</span><span class="ot"> height</span><span class="op">=</span><span class="st">"345"</span><span class="ot"> src</span><span class="op">=</span><span class="st">"https://www.youtube.com/embed/fkudzVU_Vec"</span><span class="dt">&gt;</span></span>
+<span id="cb4-2"><a></a><span class="dt">&lt;/</span><span class="kw">iframe</span><span class="dt">&gt;</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
 </iframe>
 </section>
 <section id="latex" class="slide level2">
 <h2>4. <span class="math inline">\(\LaTeX\)</span></h2>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb4-1"><a></a>$\sqrt{\frac{3}{4}}$</span>
-<span id="cb4-2"><a></a></span>
-<span id="cb4-3"><a></a>$$\sqrt{\frac{3}{4}}$$</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource html number-lines code-with-copy"><code class="sourceCode html"><span id="cb5-1"><a></a>$\sqrt{\frac{3}{4}}$</span>
+<span id="cb5-2"><a></a></span>
+<span id="cb5-3"><a></a>$$\sqrt{\frac{3}{4}}$$</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><span class="math inline">\(\sqrt{\frac{3}{4}}\)</span></p>
 <p><span class="math display">\[\sqrt{\frac{3}{4}}\]</span></p>
 </section>
 <section id="javascript-mermaid-js" class="slide level2">
 <h2>5. Javascript (mermaid JS)</h2>
-<p><span class="math inline">\(```\{mermaid\}\)</span></p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1"><a></a>graph LR</span>
-<span id="cb5-2"><a></a>  Start --&gt; Stop--&gt; Weiter</span>
-<span id="cb5-3"><a></a>  Start --&gt;Weiter</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><span class="math inline">\(```\)</span></p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource mermaid number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1"><a></a>```mermaid</span>
+<span id="cb6-2"><a></a>graph LR</span>
+<span id="cb6-3"><a></a>  Start --&gt; Stop--&gt; Weiter</span>
+<span id="cb6-4"><a></a>  Start --&gt;Weiter</span>
+<span id="cb6-5"><a></a>```</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
@@ -567,17 +569,17 @@ Lösungsvorschlag
 </section>
 <section id="r-oder-python-oder-ojs" class="slide level2">
 <h2>6. R (oder Python, oder OJS)</h2>
-<p><span class="math inline">\(```\{r\}\)</span></p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a>x <span class="ot">&lt;-</span> <span class="dv">2</span></span>
-<span id="cb6-2"><a></a>result <span class="ot">&lt;-</span> x<span class="sc">^</span><span class="dv">5</span></span>
-<span id="cb6-3"><a></a><span class="fu">print</span>(result)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 32</code></pre>
-</div>
-</div>
-<p><span class="math inline">\(```\)</span></p>
-</section>
+<p><code>{r}</code> damit es ausgeführt wird</p>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="st">```</span><span class="at">r</span></span>
+<span id="cb7-2"><a></a><span class="at"># Create data</span></span>
+<span id="cb7-3"><a></a><span class="at">labels &lt;- c("40%", "60%")</span></span>
+<span id="cb7-4"><a></a><span class="at">sizes &lt;- c(40, 60)</span></span>
+<span id="cb7-5"><a></a><span class="at">colors &lt;- c("#FF9999", "#66B2FF")  # You can change colors as per your preference</span></span>
+<span id="cb7-6"><a></a><span class="at"># Create pie chart</span></span>
+<span id="cb7-7"><a></a><span class="at">pie(sizes, labels = labels, col = colors, main = "Pie Chart: 40% - 60% Distribution")</span></span>
+<span id="cb7-8"><a></a><span class="st">```</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+<img data-src="2024_03_18_Treffpunkt_Hochschuldidaktik_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
 <section id="css-in-styles.css" class="slide level2">
 <h2>7. CSS (in <code>styles.css</code>)</h2>
 <div class="sourceCode" id="cb8"><pre class="sourceCode numberSource css number-lines code-with-copy"><code class="sourceCode css"><span id="cb8-1"><a></a>h1 {</span>
