@@ -1669,8 +1669,8 @@
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#section",
     "title": "Inhalte effizient onlinebringen",
-    "section": "",
-    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
+    "section": "```",
+    "text": "```\nauthor: Richard Conrardy subtitle: Untertitel —\n2. Markdown\n3. HTML\n4. \\(\\LaTeX\\)\n5. Javascript (mermaid JS)\n6. R (oder Python, oder OJS)\n7. CSS (und SASS)\n8. BibTex\n\nMarkdown\n\nCSS (SASS)\nHTML\n\\(\\LaTeX\\)\nPython\nJavascript(Mermaid JS)\nBibtex\n\nWebseite anpassen\n\n_quarto.yml\nstyles.scss\nindex.qmd\nneue Seite erstellen und ins Menü einfügen\n\nPräsentationsfolien erstellen"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#rstudio",
@@ -1747,21 +1747,21 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#urheberrecht",
     "title": "Inhalte effizient onlinebringen",
     "section": "Urheberrecht",
-    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nVeröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.\n\nArt.25 Abs.1 URG\n\nDas Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.\n\nArt.25 Abs.2 URG"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#phbern",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#phbern",
     "title": "Inhalte effizient onlinebringen",
     "section": "PHBern",
-    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
+    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\n(Pädagogische Hochschule Bern, 2023, S. 2)"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
     "title": "Inhalte effizient onlinebringen",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken"
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nPädagogische Hochschule Bern. (2017). ECKPFEILER FÜR DIE ANGEBOTS- ENTWICKLUNG 2025 Grundlagendokument. https://qmp.phbern.ch/File/CoreDownload?id=5150\n\n\nPädagogische Hochschule Bern. (2023). Geistiges Eigentum Merkblatt (Fassung vom November 2023). https://qmp.phbern.ch/File/CoreDownload?id=5913&filename=Merkblatt%20Geistiges%20Eigentum.pdf&langId=1\n\n\nRyan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_03.html#zusammenhang-zwischen-fachinhalten-und-kompetenzen-nach-lp21",
@@ -1880,14 +1880,14 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#do-it-yourself",
     "title": "Inhalte effizient onlinebringen",
     "section": "Do-it-yourself",
-    "text": "Do-it-yourself\n\nMarkdown\nYaml\nCSS\nHTML\n\\(\\LaTeX\\)\nPython\nJavascript(Mermaid JS)\nBibtex"
+    "text": "Do-it-yourself\n\nMarkdown\nYaml\nCSS (SASS)\nHTML\n\\(\\LaTeX\\)\nPython\nJavascript(Mermaid JS)\nBibtex"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#yaml",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#yaml",
     "title": "Inhalte effizient onlinebringen",
-    "section": "YAML",
-    "text": "YAML"
+    "section": "1. Yaml",
+    "text": "1. Yaml\n---\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-anpassen",
@@ -1908,7 +1908,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "title": "Inhalte effizient onlinebringen",
     "section": "Expectation management",
-    "text": "Expectation management\n\n\nbesser als Powerpoint, Word etc.\nschlechter\nerfrischend anders!"
+    "text": "Expectation management\n\n\nbesser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
@@ -1922,7 +1922,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
     "title": "Inhalte effizient onlinebringen",
     "section": "3 step plan",
-    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren\n\n\n\n\n−+\n20:00"
+    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren\n\n\n\n\n−+\n05:00"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#wo-geht-die-reise-hin",
@@ -1936,7 +1936,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
     "title": "Inhalte effizient onlinebringen",
     "section": "Diskussion",
-    "text": "Diskussion\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?"
+    "text": "Diskussion\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html",
@@ -1944,5 +1944,103 @@
     "title": "Summative Beurteilung im Mathematikunterricht",
     "section": "",
     "text": "Organisationsblatt\nPorta-Mathematik Materialraum"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#angebotsentwicklung-2025",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#angebotsentwicklung-2025",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Angebotsentwicklung 2025",
+    "text": "Angebotsentwicklung 2025\n\nVorgabe 24 – Technologien / Digitale Medien II: Sowohl in den Lernprozessen als auch bei Leistungsnachweisen gelten ausgehend von einem Grundverständnis des Konnektivismus als Teil des Lernkonzepts die Vorgaben Open Source und Open Internet.\n\n(Pädagogische Hochschule Bern, 2017, S. 26)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#in-der-about-datei",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#in-der-about-datei",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "In der About Datei:",
+    "text": "In der About Datei:\n1. Yaml\n2. Markdown\n3. HTML\n4. \\(\\LaTeX\\)\n5. Javascript (mermaid JS)\n6. R (oder Python, oder OJS)\n7. CSS (und SASS)\n8. BibTex\n\nMarkdown\n\nCSS (SASS)\nHTML\n\\(\\LaTeX\\)\nPython\nJavascript(Mermaid JS)\nBibtex\n\nWebseite anpassen\n\n_quarto.yml\nstyles.scss\nindex.qmd\nneue Seite erstellen und ins Menü einfügen\n\nPräsentationsfolien erstellen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#in-der-about.qmd-datei",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#in-der-about.qmd-datei",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "In der about.qmd Datei:",
+    "text": "In der about.qmd Datei:"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markdown",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markdown",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "2. Markdown",
+    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\nLogo der PHBern"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "3. HTML",
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "4. \\(\\LaTeX\\)",
+    "text": "4. \\(\\LaTeX\\)\n$\\sqrt{\\frac{3}{4}}$\n\n$$\\sqrt{\\frac{3}{4}}$$\n\\(\\sqrt{\\frac{3}{4}}\\)\n\\[\\sqrt{\\frac{3}{4}}\\]"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#javascript-mermaid-js",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#javascript-mermaid-js",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "5. Javascript (mermaid JS)",
+    "text": "5. Javascript (mermaid JS)\n\\(```\\{mermaid\\}\\)\ngraph LR\n  Start --&gt; Stop--&gt; Weiter\n  Start --&gt;Weiter\n\\(```\\)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "6. R (oder Python, oder OJS)",
+    "text": "6. R (oder Python, oder OJS)\n\\(```\\{r\\}\\)\n\nx &lt;- 2\nresult &lt;- x^5\nprint(result)\n\n[1] 32\n\n\n\\(```\\)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "7. CSS (in styles.css)",
+    "text": "7. CSS (in styles.css)\nh1 {\n    color: #800020;\n}"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibtex",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibtex",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "8. BibTeX",
+    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slidedeck",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slidedeck",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Extra: Slidedeck",
+    "text": "Extra: Slidedeck\n---\nformat: revealjs\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---\nWebseite anpassen\n\n_quarto.yml\nstyles.scss\nindex.qmd\nneue Seite erstellen und ins Menü einfügen\n\nPräsentationsfolien erstellen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slideshow",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slideshow",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Extra: Slideshow",
+    "text": "Extra: Slideshow\n---\nformat: revealjs\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---\n(wenig getestete Optionen: pdf, docx, pptx)\ninteressant:\n---\nformat: \n  html: default\n  pdf: default\n  docx: default\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-anpassen-in-_quarto.yml",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#webseite-anpassen-in-_quarto.yml",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "Webseite anpassen in _quarto.yml",
+    "text": "Webseite anpassen in _quarto.yml\nproject:\n  type: website\n\nwebsite:\n  title: \"test3\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!\n\n\n\n\n\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
   }
 ]

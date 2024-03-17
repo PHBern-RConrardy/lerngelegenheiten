@@ -4,6 +4,7 @@ format:
 title: Inhalte effizient onlinebringen
 subtitle: Treffpunkt Hochschuldidaktik
 date: 18 03 2024
+toc-depth: 1
 ---
 
 # Learning Outcomes
@@ -11,7 +12,7 @@ date: 18 03 2024
 ## Expectation management
 
 ::: {.incremental}
-* ~~besser~~ als Powerpoint, Word etc.
+* ~~besser~~ als Powerpoint, Word, Ilias, SWITCHportfolio etc.
 * ~~schlechter~~
 * erfrischend anders!
 :::
@@ -24,7 +25,7 @@ date: 18 03 2024
 
 
 
-# Webseite
+# Webseite erstellen und publizieren
 
 ## 3 step plan {.unlisted}
 
@@ -42,40 +43,192 @@ countdown(
   top = 0,
   font_size = "1.5em",
   margin = "0%",
-  minutes = 20, 
+  minutes = 5, 
   seconds = 0
 )
 ```
 
 # Inhalte erstellen
 
-## Dateien
+ In der `about.qmd` Datei:
 
-### Webseite anpassen
+## 1. Yaml
 
-1. _quarto.yml
-2. styles.scss
-3. index.qmd
-4. neue Seite erstellen und ins Menü einfügen
+```yaml
+---
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
 
-### Präsentationsfolien erstellen
+## 2. Markdown
 
-## Do-it-yourself
+```markdown
+# Überschrift 1
 
-1.  Markdown
-2.  Yaml
-3.  CSS
-4.  HTML
-5.  $\LaTeX$
-6.  `Python`
-7.  `Javascript`(Mermaid JS)
-8. Bibtex
+## Überschrift 2
 
-## YAML
+*kursiv*
 
-## Mark️up
+**fett**
 
-# Recht
+[Link zur PHBERN](https://www.phbern.ch/)
+
+![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)
+```
+*kursiv*
+
+**fett**
+
+[Link zur PHBERN](https://www.phbern.ch/)
+
+![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)
+
+
+## 3. HTML
+
+```html
+<details>
+<summary>Lösungsvorschlag</summary>
+3x+2
+</details>
+```
+<details>
+<summary>Lösungsvorschlag</summary>
+3x+2
+</details>
+
+### Videos:
+
+<iframe width="420" height="345" src="https://www.youtube.com/embed/fkudzVU_Vec">
+</iframe>
+
+
+
+## 4. $\LaTeX$
+
+```html
+$\sqrt{\frac{3}{4}}$
+
+$$\sqrt{\frac{3}{4}}$$
+```
+
+$\sqrt{\frac{3}{4}}$
+
+$$\sqrt{\frac{3}{4}}$$
+
+
+## 5. Javascript (mermaid JS)
+
+$```\{mermaid\}$
+
+```mermaid
+graph LR
+  Start --> Stop--> Weiter
+  Start -->Weiter
+```
+$```$
+
+```{mermaid}
+%%| mermaid-format: png
+
+graph LR
+  Start --> Stop--> Weiter
+  Start -->Weiter
+```
+
+
+## 6. R (oder Python, oder OJS)
+
+$```\{r\}$
+```{r}
+#| echo: true
+x <- 2
+result <- x^5
+print(result)
+```
+$```$
+
+
+## 7. CSS (in `styles.css`)
+
+```css
+h1 {
+    color: #800020;
+}
+```
+
+## 8. BibTeX
+
+```tex
+@ryan_self-determination_2000
+
+[vgl. @ryan_self-determination_2000,S.43]
+```
+
+@ryan_self-determination_2000
+
+[vgl. @ryan_self-determination_2000,S.43]
+
+::: {.callout-warning}
+Dies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!
+:::
+
+```tex
+::: {.callout-warning}
+Dies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!
+:::
+```
+
+## Extra: Slideshow
+
+```yaml
+---
+format: revealjs
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
+
+(wenig getestete Optionen: pdf, docx, pptx)
+
+interessant:
+```yaml
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: "Über mich"
+subtitle: "Untertitel"
+author: "Richard Conrardy"
+---
+```
+
+## Webseite anpassen in `_quarto.yml`
+
+```yml
+project:
+  type: website
+
+website:
+  title: "test3"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+```
+
+# Theorie
 
 ## Datenschutzrecht {.unlisted}
 
@@ -99,10 +252,15 @@ countdown(
 > [Art.321e Abs.1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e)
 > :::
 
-> Das Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.
+> Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.
 >
 > ::: quelle
-> @eidgenössischesinstitutfürgeistigeseigentum
+> [Art.25 Abs.1 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_25)
+> :::
+> Das Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.
+>
+> ::: quelle
+> [Art.25 Abs.2 URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_25)
 > :::
 
 ## PHBern {.unlisted}
@@ -110,19 +268,30 @@ countdown(
 > An der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung \> Ziff. 1.0) grundsätzlich die **Institutsleiterinnen und Institutsleiter** über die Nutzung immaterieller Arbeitsergebnisse \[...\]
 >
 > ::: quelle
-> Geistiges Eigentum Merkblatt
+> [@padagogische_hochschule_bern_geistiges_2023,S.2]
 > :::
 
-## Wo geht die Reise hin?
+## Angebotsentwicklung 2025
 
-* Github 
-* PDF-Vorlagen
-* 
+> **Vorgabe 24 – Technologien / Digitale Medien II:** Sowohl in den Lernprozessen als auch bei Leistungsnachweisen gelten ausgehend von einem Grundverständnis des Konnektivismus als Teil des
+Lernkonzepts die Vorgaben Open Source und Open Internet.
+>
+:::quelle
+[@padagogische_hochschule_bern_eckpfeiler_2017,S.26]
+:::
 
-## Diskussion
+## Diskussion {.smaller}
+
+### Ziel - Innovationspoolprojekt 24/25
+
+*Anleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht*
+
+### Offene Fragen
 
 * Potential für Studierende?
 * Potential für Dozierende?
 * Welche Features sind wichtig?
+* Potential für Mitarbeiter?
+* Welche Lizenz ist die richtige?
 
 ## Bibliographie {.unlisted}

@@ -23474,6 +23474,9 @@
                 {
                     "family": "Hilbert",
                     "given": "David"
+                },
+                {
+                    "literal": "P. Bernays"
                 }
             ],
             "id": "hilbert_grundlagen_1968",
@@ -23524,6 +23527,738 @@
             "publisher": "Berlin ; New York : Springer",
             "title": "Grundlagen der mathematik i",
             "type": "book"
+        },
+        {
+            "URL": "http://docplayer.org/docview/28/12825280/#file=/storage/28/12825280/12825280.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        8
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Klieme",
+                    "given": "Eckhard"
+                },
+                {
+                    "family": "Baumert",
+                    "given": "Jürgen"
+                },
+                {
+                    "family": "Baptist",
+                    "given": "Peter"
+                },
+                {
+                    "family": "Blum",
+                    "given": "Werner"
+                },
+                {
+                    "family": "Bos",
+                    "given": "Wilfried"
+                },
+                {
+                    "family": "Doll",
+                    "given": "Jörg"
+                },
+                {
+                    "family": "Knoll",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Köller",
+                    "given": "Olaf"
+                },
+                {
+                    "family": "Prenzel",
+                    "given": "Manfred"
+                },
+                {
+                    "family": "Schümer",
+                    "given": "Gundel"
+                }
+            ],
+            "id": "klieme_timss_2001",
+            "issued": {
+                "date-parts": [
+                    [
+                        2001,
+                        9
+                    ]
+                ]
+            },
+            "publisher": "Bundesministerium für Bildung und Forschung (BMBF)",
+            "title": "TIMSS – impulse für schule und unterricht",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-89958-064-8",
+            "URL": "http://nbn-resolving.de/urn:nbn:de:0111-opus-37144",
+            "abstract": "In der Regel und traditionell sind Aufgabenstellungen im Mathematikunterricht der Grundschule und in weiterführenden Schulen wie in kaum einem anderen Fach daraufhin konzipiert, eine Individualleistung einzufordern. Im Bereich der Grundschule sind die Aufgabenstellungen häufig zudem durch eine Standardisierung gekennzeichnet, die neben den eindeutigen Lösungen auch das Bearbeiten auf eindeutig festgelegten Wegen fordert. Eine zunehmend reformpädagogisch und konstruktivistisch orientierte Perspektive auf den Mathematikunterricht betont dagegen die Bedeutung des Entwickelns eigener Strategien und eigener Arbeitswege, vor allem in der Grundschule. Insbesondere ist das Konzept der Lernumgebung darauf angelegt, günstige Bedingungen zum Hervorbringen eigener Arbeitswege zu schaffen. Ein weiterer Schritt in diese Richtung ist der mittlerweile bestehende Konsens über die Bedeutung halbschriftlicher Rechenverfahren, deren Kennzeichen wesentlich darin besteht, dass hier das Durchformulieren eines eigenen und in allen Schritten verstandenen Rechenweges unterstützt wird. (DIPF/Orig.)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "dropping-particle": "für",
+                    "family": "Lehrerbildung {\\textless}Kassel{\\textgreater} [Hrsg.]",
+                    "given": "Zentrum"
+                },
+                {
+                    "family": "Wollring",
+                    "given": "Bernd"
+                }
+            ],
+            "id": "zentrum_fur_lehrerbildung_kassel_hrsg_kooperative_nodate",
+            "keyword": "Mathematics lessons, Mathematikunterricht, Self-instruction, Teaching of mathematics, Educational Environment, Learning environment, Lernumgebung, Primary school, Selbstständiges Lernen, Cooperation, Elementary School, Grundschule, Kooperation, Primary school lower level, Selbstgesteuertes Lernen",
+            "publisher": "pedocs",
+            "title": "Kooperative aufgabenformate und lernumgebungen im mathematikunterricht der grundschule",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-3-658-33450-5",
+            "ISBN": "978-3-658-33449-9 978-3-658-33450-5",
+            "URL": "https://link.springer.com/10.1007/978-3-658-33450-5",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "editor": [
+                {
+                    "family": "Eilerts",
+                    "given": "Katja"
+                },
+                {
+                    "family": "Möller",
+                    "given": "Regina"
+                },
+                {
+                    "family": "Huhmann",
+                    "given": "Tobias"
+                }
+            ],
+            "id": "eilerts_auf_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "keyword": "Lernumgebung",
+            "language": "de-DE",
+            "publisher": "Springer Fachmedien Wiesbaden",
+            "publisher-place": "Wiesbaden",
+            "title": "Auf dem Weg zum neuen Mathematiklehren und -lernen 2.0: Festschrift für Prof. Dr. Bernd Wollring",
+            "title-short": "Auf dem Weg zum neuen Mathematiklehren und -lernen 2.0",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.schulentwicklung.nrw.de/sinus/upload/tagung20080424/2008_Wollring_Lernumgebungen.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        9,
+                        3
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wollring",
+                    "given": "Bernd"
+                }
+            ],
+            "container-title": "Lernumgebungen auf dem prüfstand. Bericht 2 der kasseler forschergruppe empirische bildungsforschung lehren – lernen – literacy",
+            "id": "wollring_kennzeichnung_2008",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "keyword": "Lernumgebung",
+            "page": "9-26",
+            "publisher": "Kasseler Forschergruppe",
+            "title": "Kennzeichnung von lernumgebungen für den mathematikunterricht in der grundschule",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-3-658-29210-2",
+            "ISBN": "978-3-658-29209-6 978-3-658-29210-2",
+            "URL": "https://link.springer.com/10.1007/978-3-658-29210-2",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        9
+                    ]
+                ]
+            },
+            "collection-title": "Sozialraumforschung und Sozialraumarbeit",
+            "editor": [
+                {
+                    "family": "Kessl",
+                    "given": "Fabian"
+                },
+                {
+                    "family": "Reutlinger",
+                    "given": "Christian"
+                }
+            ],
+            "id": "kessl_sozialraum_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "keyword": "Lernarrangement",
+            "language": "de-DE",
+            "publisher": "Springer Fachmedien Wiesbaden",
+            "publisher-place": "Wiesbaden",
+            "title": "Sozialraum: Eine elementare Einführung",
+            "title-short": "Sozialraum",
+            "type": "book",
+            "volume": "20"
+        },
+        {
+            "id": "noauthor_iso_nodate",
+            "title": "ISO 80000-1",
+            "type": ""
+        },
+        {
+            "id": "noauthor_iso_nodate-1",
+            "title": "ISO 80000-2",
+            "type": ""
+        },
+        {
+            "DOI": "10.2139/ssrn.4573321",
+            "ISSN": "1556-5068",
+            "URL": "https://www.ssrn.com/abstract=4573321",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Dell’Acqua",
+                    "given": "Fabrizio"
+                },
+                {
+                    "family": "McFowland",
+                    "given": "Edward"
+                },
+                {
+                    "family": "Mollick",
+                    "given": "Ethan R."
+                },
+                {
+                    "family": "Lifshitz-Assaf",
+                    "given": "Hila"
+                },
+                {
+                    "family": "Kellogg",
+                    "given": "Katherine"
+                },
+                {
+                    "family": "Rajendran",
+                    "given": "Saran"
+                },
+                {
+                    "family": "Krayer",
+                    "given": "Lisa"
+                },
+                {
+                    "family": "Candelon",
+                    "given": "François"
+                },
+                {
+                    "family": "Lakhani",
+                    "given": "Karim R."
+                }
+            ],
+            "container-title": "SSRN Electronic Journal",
+            "container-title-short": "SSRN Journal",
+            "id": "dellacqua_navigating_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "title": "Navigating the jagged technological frontier: Field experimental evidence of the effects of AI on knowledge worker productivity and quality",
+            "title-short": "Navigating the jagged technological frontier",
+            "type": "article-journal"
+        },
+        {
+            "ISSN": "0025-5866",
+            "author": [
+                {
+                    "family": "Huwer",
+                    "given": "Johannes"
+                },
+                {
+                    "family": "Irion",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Kuntze",
+                    "given": "Sebastian"
+                },
+                {
+                    "family": "Schaal",
+                    "given": "Steffen"
+                },
+                {
+                    "family": "Thyssen",
+                    "given": "Christoph"
+                }
+            ],
+            "container-title": "MNU Journal",
+            "id": "huwer_von_2019",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "keyword": "Digitalisierung, Lehrer, Diskurs, Medienkompetenz, Naturwissenschaftlicher Unterricht, Professionalisierung, Unterrichtspraxis",
+            "note": "Type: gedruckt",
+            "page": "358-364",
+            "title": "Von TPaCK zu DPaCK. Digitalisierung im unterricht erfordert mehr als technisches wissen.",
+            "type": "article-journal",
+            "volume": "72"
+        },
+        {
+            "DOI": "10.1177/0165025415592514",
+            "ISSN": "0165-0254, 1464-0651",
+            "URL": "http://journals.sagepub.com/doi/10.1177/0165025415592514",
+            "abstract": "Classroom research has typically focused on the role of teaching practices and the quality of instruction in children’s academic performance, motivation and adjustment—in other words, classroom interactions initiated by the teacher. The present article presents a model of classroom interactions initiated by the child, that is, the notion that a child’s characteristics and active efforts may evoke different instructional patterns and responses among teachers. Then follows a review of previous research on the role of children’s academic performance, their motivation and their socio-emotional characteristics in their teachers’ instruction methods and teacher–child relationships. Some of the mechanisms that may be responsible for these “evocative impacts” are discussed. Classroom interactions initiated by the child, and those initiated by the teacher will then be considered from the perspective of the transactional theory of teacher–child interactions. Finally, some conclusions are drawn concerning possible future classroom research.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Nurmi",
+                    "given": "Jari-Erik"
+                },
+                {
+                    "family": "Kiuru",
+                    "given": "Noona"
+                }
+            ],
+            "container-title": "International Journal of Behavioral Development",
+            "container-title-short": "International Journal of Behavioral Development",
+            "id": "nurmi_students_2015",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        9
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "445-457",
+            "title": "Students’ evocative impact on teacher instruction and teacher–child relationships: Theoretical background and an overview of previous research",
+            "title-short": "Students’ evocative impact on teacher instruction and teacher–child relationships",
+            "type": "article-journal",
+            "volume": "39"
+        },
+        {
+            "ISBN": "978-1-119-82306-3",
+            "abstract": "\"Jo Boaler, a professor of mathematics at Stanford University, has followed thousands of students through middle and high schools studying their learning of mathematics and the most effective ways to help them become high achievers. In this book, she shows teachers and parents how to unleash the math potential in all students. Contents include The Brain and Mathematics Learning The Power of Mistakes and Struggle What Is Math Really? Creating Mathematical Mindsets Rich Mathematical Tasks–Curiosity, Creativity and Connections Strategies for Promoting Equity Assessing for a Growth Mindset in Math The revision will include approximately 25% updated and new material, including: An infusion of new research and ideas and resources from the last five years The integration of ideas around the teaching of data science K-12 A social justice perspective – with examples of social justice tasks These chapters are specifically designed to equip teachers with the most up-to-date practical research to help inspire a love of math in all of their students.\"–",
+            "author": [
+                {
+                    "family": "Boaler",
+                    "given": "Jo"
+                },
+                {
+                    "family": "Dweck",
+                    "given": "Carol S."
+                }
+            ],
+            "edition": "Second edition",
+            "id": "boaler_mathematical_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "keyword": "Mathematics, Study and teaching (Secondary), Study and teaching (Middle school)",
+            "publisher": "Jossey-Bass",
+            "publisher-place": "Hoboken, New Jersey",
+            "title": "Mathematical mindsets: Unleashing students’ potential through creative mathematics, inspiring messages and innovative teaching",
+            "title-short": "Mathematical mindsets",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Hess",
+                    "given": "Kurt"
+                },
+                {
+                    "family": "Wollring",
+                    "given": "Bernd"
+                },
+                {
+                    "family": "Bruckmaier",
+                    "given": "Georg"
+                }
+            ],
+            "id": "hess_abstracts_nodate",
+            "language": "de-DE",
+            "title": "Abstracts Ateliers I Atelier A (Raum 02.S.01)",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/s10649-014-9577-8",
+            "ISSN": "1573-0816",
+            "URL": "https://doi.org/10.1007/s10649-014-9577-8",
+            "abstract": "Teachers notice through the lens of their professional knowledge and views. This study hence focuses not solely on teachers’ noticing, but also on their knowledge and views, which allows insight into how noticing is informed and shaped by professional knowledge. As a discipline-specific perspective for noticing we chose dealing with multiple representations, since they play a double role for learning mathematics: On the one hand they are essential for mathematical understanding, but on the other hand they can also be an obstruction for learning. This comparative study takes into account pre-service as well as in-service teachers in order to explore the role of teaching experience for such professional knowledge, views and noticing. The participants answered a questionnaire addressing different components of specific knowledge and views. For eliciting the teachers’ theme-specific noticing, vignette-based questions were used. The data analysis was done mainly by quantitative methods, but was complemented by a qualitative in-depth analysis focusing on how the teachers’ theme-specific noticing was informed by different components of their professional knowledge. The results suggest that pre-service as well as in-service teachers do not fully understand the key role of multiple representations for learning mathematics in the sense of their discipline-specific significance. The participating in-service teachers distinguished themselves however from the pre-service teachers especially regarding their theme-specific noticing. Moreover, the evidence indicates that teachers’ noticing of critical instances of dealing with multiple representations draws on situated as well as on global knowledge and views.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Dreher",
+                    "given": "Anika"
+                },
+                {
+                    "family": "Kuntze",
+                    "given": "Sebastian"
+                }
+            ],
+            "container-title": "Educational Studies in Mathematics",
+            "container-title-short": "Educ Stud Math",
+            "id": "dreher_teachers_2015",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "In-service teachers, Multiple representations, Pre-service teachers, Teacher noticing, Teacher professional knowledge",
+            "language": "en-US",
+            "page": "89-114",
+            "title": "Teachers’ professional knowledge and noticing: The case of multiple representations in the mathematics classroom",
+            "title-short": "Teachers’ professional knowledge and noticing",
+            "type": "article-journal",
+            "volume": "88"
+        },
+        {
+            "URL": "https://mediatum.ub.tum.de/1552242",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Brunner",
+                    "given": "Esther"
+                }
+            ],
+            "id": "brunner_unterrichtsqualitat_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "note": "ISSN: Das Thema Unterrichtsqualität wird bislang insbesondere aus Sicht der Erziehungswissenschaften theoretisch erörtert und aus der Perspektive der Bildungsforschung empirisch untersucht. Die Bestimmung von Unterrichtsqualität lässt sich aber nicht in jedem Fall unabhängig vom jeweiligen fachlichen Lerngegenstand vornehmen, wie dies eine erziehungswissenschaftliche oder allgemein bildungswissenschaftliche Perspektive impliziert. Dennoch wird auch die Qualität von Unterricht in einem bestimmten Fach bislang vorwiegend generisch konzipiert. Es fragt sich deshalb, wie Qualität von Mathematikunterricht aus einer mathematikdidaktischen Sicht heraus konzipiert werden kann und welchen Mehrwert eine fachdidaktische Sicht aufweist. Dies wird im Rahmen der vorliegenden Arbeit theoretisch hergeleitet und begründet und an zwei Beispielen – Qualität von Unterricht zum mathematischen Argumentieren und Beweisen sowie von Mathematikunterricht in unterschiedlichen Kontexten – konkretisiert. Ein abschließendes Fazit zeigt die Komplexität des Themas auf und plädiert für eine interdisziplinäre Betrachtungsweise., The topic of teaching quality has so far been discussed theoretically, particularly from the perspective of educational science, and examined empirically from the perspective of educational research. However, it is not always possible to determine the quality of instruction independently of the subject matter in question, as is implied by an educational science or general educational science perspective. Nonetheless, the quality of instruction in a particular subject has so far been conceived primarily in generic terms. The question therefore arises as to how the quality of mathematics instruction can be conceived from a mathematics education perspective and what added value a subject specific perspective offers. This will be derived and justified theoretically in the context of the present study and substantiated with two examples - quality of instruction for mathematical argumentation and proof and of mathematics instruction in different contexts. A concluding conclusion shows the complexity of the topic and pleads for an interdisciplinary approach.",
+            "title": "Unterrichtsqualität aus mathematikdidaktischer sicht: Grundlegung, exemplarische konkretisierung und empirische überprüfung",
+            "title-short": "Unterrichtsqualität aus mathematikdidaktischer sicht",
+            "type": "book"
+        },
+        {
+            "URL": "http://arxiv.org/abs/2402.01786",
+            "abstract": "The development of Courses of Action (COAs) in military operations is traditionally a time-consuming and intricate process. Addressing this challenge, this study introduces COA-GPT, a novel algorithm employing Large Language Models (LLMs) for rapid and efficient generation of valid COAs. COA-GPT incorporates military doctrine and domain expertise to LLMs through in-context learning, allowing commanders to input mission information - in both text and image formats - and receive strategically aligned COAs for review and approval. Uniquely, COA-GPT not only accelerates COA development, producing initial COAs within seconds, but also facilitates real-time refinement based on commander feedback. This work evaluates COA-GPT in a military-relevant scenario within a militarized version of the StarCraft II game, comparing its performance against state-of-the-art reinforcement learning algorithms. Our results demonstrate COA-GPT’s superiority in generating strategically sound COAs more swiftly, with added benefits of enhanced adaptability and alignment with commander intentions. COA-GPT’s capability to rapidly adapt and update COAs during missions presents a transformative potential for military planning, particularly in addressing planning discrepancies and capitalizing on emergent windows of opportunities.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        13
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Goecks",
+                    "given": "Vinicius G."
+                },
+                {
+                    "family": "Waytowich",
+                    "given": "Nicholas"
+                }
+            ],
+            "id": "goecks_coa-gpt_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        2,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Computer Science - Computation and Language, Computer Science - Machine Learning, Computer Science - Artificial Intelligence, Computer Science - Human-Computer Interaction, I.2.6, I.2.7, J.7",
+            "number": "arXiv:2402.01786",
+            "publisher": "arXiv",
+            "title": "COA-GPT: Generative pre-trained transformers for accelerated course of action development in military operations",
+            "title-short": "COA-GPT",
+            "type": ""
+        },
+        {
+            "DOI": "10.1007/s10639-022-11166-6",
+            "ISSN": "1573-7608",
+            "URL": "https://doi.org/10.1007/s10639-022-11166-6",
+            "abstract": "Due to rapid developments, mobile technologies started to play an essential role in designing seamless learning environments. Due to the availability of mobile technologies, students can access learning materials without being bound by time and place. On the grounds that these applications allow information exchange, time and space limitations such as classrooms or school bells have been eliminated. Therefore, this study aims to assess mobile-assisted seamless learning environments’ effects on students’ success and motivation in the secondary school 7th grade mathematics class algebra unit and student opinions about the application. The research is designed using the descriptive pattern of mixed-method research. The sample of the study is 73 middle school students (30 male and 43 female) in Turkey. Augmented Reality (AR) applications developed in teaching algebra to support individual learning and to utilize mobile technologies, WhatsApp groups were created. Algebra Achievement Test (AAT), Mathematics Motivation Scale (MMS), and semi-structured interview forms were used as data collection tools in the research. The results of the study showed that there were statistically significant differences in favor of the experiment group in AAT and MMS scores. However, no significant difference was found between the groups in intrinsic goal orientation and test anxiety scores, which are motivation sub-dimensions. The findings obtained from AAT, MMS, and the students’ opinions showed that mobile technology applications used in out-of-school learning environments positively affect the learning process.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Poçan",
+                    "given": "Serdal"
+                },
+                {
+                    "family": "Altay",
+                    "given": "Bilal"
+                },
+                {
+                    "family": "Yaşaroğlu",
+                    "given": "Cihat"
+                }
+            ],
+            "container-title": "Education and Information Technologies",
+            "container-title-short": "Educ Inf Technol",
+            "id": "pocan_effects_2023",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Augmented reality, Mathematics education, Mobile technology, Seamless learning, WhatsApp",
+            "language": "en-US",
+            "page": "683-712",
+            "title": "The effects of mobile technology on learning performance and motivation in mathematics education",
+            "type": "article-journal",
+            "volume": "28"
+        },
+        {
+            "DOI": "10.1007/s11858-022-01463-2",
+            "ISSN": "1863-9704",
+            "URL": "https://doi.org/10.1007/s11858-022-01463-2",
+            "abstract": "Emotions and motivation are important for learning and achievement in mathematics. In this paper, we present an overview of research on students’ emotions and motivation in mathematics. First, we briefly review how early research has developed into the current state-of-the-art and outline the following key characteristics of emotions and motivation: objects, valence, temporal stability (vs. variability), and situational specificity (vs. generality). Second, we summarize major theories in the field (the control-value theory of achievement emotions, expectancy-value theory of achievement-related motivation, self-determination theory of human motivation, and social-cognitive theory of self-efficacy). Third, we present an overview of instructional characteristics that have been shown to foster emotions and motivation. Fourth, we provide an overview of the contributions to the special issue on “Emotions and Motivation in Mathematics Education and Educational Psychology.” Finally, we suggest directions for future research in the field with respect to advancing theory, improving measurement, and considering diversity and inclusion.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Schukajlow",
+                    "given": "S."
+                },
+                {
+                    "family": "Rakoczy",
+                    "given": "K."
+                },
+                {
+                    "family": "Pekrun",
+                    "given": "R."
+                }
+            ],
+            "container-title": "ZDM – Mathematics Education",
+            "container-title-short": "ZDM Mathematics Education",
+            "id": "schukajlow_emotions_2023",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "249-267",
+            "title": "Emotions and motivation in mathematics education: Where we are today and where we need to go",
+            "title-short": "Emotions and motivation in mathematics education",
+            "type": "article-journal",
+            "volume": "55"
+        },
+        {
+            "DOI": "10.2307/749630",
+            "ISSN": "0021-8251, 1945-2306",
+            "URL": "https://pubs.nctm.org/view/journals/jrme/30/1/article-p65.xml",
+            "abstract": "in this review we examine recent research in the area of motivation in mathematics education and discuss findings from research perspectives in this domain. We note consistencies across research perspectives that suggest a set of generalizable conclusions about the contextual factors, cognitive processes, and benefits of interventions that affect students’ and teachers’ motivational attitudes. Criticisms are leveled concerning the lack of theoretical guidance driving the conduct and interpretation of the majority of studies in the field. Few researchers have attempted to extend current theories of motivation in ways that are consistent with the current research on learning and classroom discourse. In particular, researchers interested in studying motivation in the content domain of school mathematics need to examine the relationship that exists between mathematics as a socially constructed field and students’ desire to achieve.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        15
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Middleton",
+                    "given": "James A."
+                },
+                {
+                    "family": "Spanias",
+                    "given": "Photini A."
+                }
+            ],
+            "container-title": "Journal for Research in Mathematics Education",
+            "id": "middleton_motivation_1999",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        1999,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Publisher: National Council of Teachers of Mathematics Section: Journal for Research in Mathematics Education",
+            "page": "65-88",
+            "title": "Motivation for achievement in mathematics: Findings, generalizations, and criticisms of the research",
+            "title-short": "Motivation for achievement in mathematics",
+            "type": "article-journal",
+            "volume": "30"
+        },
+        {
+            "URL": "https://qmp.phbern.ch/File/CoreDownload?id=5150",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Pädagogische Hochschule Bern"
+                }
+            ],
+            "id": "padagogische_hochschule_bern_eckpfeiler_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017,
+                        3,
+                        20
+                    ]
+                ]
+            },
+            "title": "ECKPFEILER FÜR DIE ANGEBOTS- ENTWICKLUNG 2025 grundlagendokument",
+            "type": ""
+        },
+        {
+            "URL": "https://qmp.phbern.ch/File/CoreDownload?id=5913&filename=Merkblatt%20Geistiges%20Eigentum.pdf&langId=1",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Pädagogische Hochschule Bern"
+                }
+            ],
+            "id": "padagogische_hochschule_bern_geistiges_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        11
+                    ]
+                ]
+            },
+            "title": "Geistiges eigentum merkblatt (fassung vom november 2023)",
+            "type": ""
         }
     ],
     "project_biblios": [
