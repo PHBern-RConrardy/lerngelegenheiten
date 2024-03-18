@@ -131,6 +131,33 @@ Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträ
 
 Sie können die Arbeit als Partnerarbeit erledigen.
 
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+
+```python
+# Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz
+import random
+auftrag = input("Löse die nachfolgenden Aufgaben!")
+while True:
+  random_numberone=random.randint(1,1000)
+  random_numbertwo=random.randint(1,1000)
+  print(random_numberone, "von", random_numbertwo,flush=True)
+  lösung= float(input("Schätze den prozentualen Anteil ab. Wie viel erhältst du?"))
+  richtiges_resultat = (random_numberone / random_numbertwo) * 100
+  if abs(lösung - richtiges_resultat)<10:
+    print("Gut gemacht ... weiter so!",flush=True)
+  else:
+    print("Versuch es nochmals.",flush=True)
+  weiter = input ("Möchten sie fortfahren? (ja/nein)")
+  if weiter == "ja":
+    continue
+  else:
+    break
+```
+
 ------------------------------------------------------------------------
 
 ## Projekt 2 {#projekt-2}
@@ -169,10 +196,10 @@ Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind
 
 <summary>Lösungsvorschlag</summary>
 
-Dieser Lösungsvorschlag stammt von Leandro Lüthi (Studierender) unter eine [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
+Dieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ```python
-
+# Lösung von Leandro Lützi unter CC BY-SA 4.0 Lizenz
 def istSumVonQuadr(zahl, anz_quadrnr):
   # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.
   if anz_quadrnr == 2:
