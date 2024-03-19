@@ -176,6 +176,8 @@ Halten Sie schriftlich fest:
 Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der formativen Beurteilung sein. Für offizielle Informationen zum Leistungsnachweis, lesen Sie die betreffende [Iliasseite](https://ilias.phbern.ch/goto_phbern_crs_1784163.html).
 :::
 
+---------------------------------------------
+
 # Aufgabenvorschläge
 :::{.panel-tabset}
 ## Teilbarkeit

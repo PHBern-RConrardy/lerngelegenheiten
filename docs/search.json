@@ -1453,7 +1453,7 @@
     "href": "tagungsunterlagen/tagungsunterlagen.html",
     "title": "Übersicht Tagungsunterlagen",
     "section": "",
-    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n18.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nRichard Conrardy\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
+    "text": "Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n         \n          Autor:in\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nAutor:in\n\n\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nRichard Conrardy\n\n\n\n\n20.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nRichard Conrardy\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nRichard Conrardy\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nRichard Conrardy\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nRichard Conrardy\n\n\n\n\n\nKeine Treffer\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section",
@@ -2042,5 +2042,187 @@
     "title": "Inhalte effizient onlinebringen",
     "section": "",
     "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!\n\n\n\n\n\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#expectation-management",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#expectation-management",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Expectation management",
+    "text": "Expectation management\n\n\nbesser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#learning-outcomes-1",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#learning-outcomes-1",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#step-plan",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#step-plan",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "3 step plan",
+    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren\n\n\n\n\n−+\n05:00"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#yaml",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#yaml",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "1. Yaml",
+    "text": "1. Yaml\n---\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#markdown",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#markdown",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "2. Markdown",
+    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\nLogo der PHBern"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#html",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#html",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "3. HTML",
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#latex",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#latex",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "4. \\(\\LaTeX\\)",
+    "text": "4. \\(\\LaTeX\\)\n$\\sqrt{\\frac{3}{4}}$\n\n$$\\sqrt{\\frac{3}{4}}$$\n\\(\\sqrt{\\frac{3}{4}}\\)\n\\[\\sqrt{\\frac{3}{4}}\\]"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#javascript-mermaid-js",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#javascript-mermaid-js",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "5. Javascript (mermaid JS)",
+    "text": "5. Javascript (mermaid JS)\n```mermaid\ngraph LR\n  Start --&gt; Stop--&gt; Weiter\n  Start --&gt;Weiter\n```"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#r-oder-python-oder-ojs",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#r-oder-python-oder-ojs",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "6. R (oder Python, oder OJS)",
+    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#css-in-styles.css",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#css-in-styles.css",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "7. CSS (in styles.css)",
+    "text": "7. CSS (in styles.css)\nh1 {\n    color: #800020;\n}"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#bibtex",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#bibtex",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "8. BibTeX",
+    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#extra-slideshow",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#extra-slideshow",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Extra: Slideshow",
+    "text": "Extra: Slideshow\n---\nformat: revealjs\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---\n(wenig getestete Optionen: pdf, docx, pptx)\ninteressant:\n---\nformat: \n  html: default\n  pdf: default\n  docx: default\ntitle: \"Über mich\"\nsubtitle: \"Untertitel\"\nauthor: \"Richard Conrardy\"\n---"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#webseite-anpassen-in-_quarto.yml",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#webseite-anpassen-in-_quarto.yml",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Webseite anpassen in _quarto.yml",
+    "text": "Webseite anpassen in _quarto.yml\nproject:\n  type: website\n\nwebsite:\n  title: \"test3\"\n  navbar:\n    left:\n      - href: index.qmd\n        text: Home\n      - about.qmd\n\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\n    toc: true"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#datenschutzrecht",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#datenschutzrecht",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Datenschutzrecht",
+    "text": "Datenschutzrecht\n\nDieses Gesetz gilt für jedes Bearbeiten von Personendaten durch Behörden.\n\nArt. 4 Abs.1 KDSG\n\n\n\nPersonendaten sind Angaben über eine bestimmte oder bestimmbare natürliche oder juristische Person.\n\nArt.2 Abs.1 KDSG"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#urheberrecht",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#urheberrecht",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Urheberrecht",
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nVeröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.\n\nArt.25 Abs.1 URG\n\nDas Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.\n\nArt.25 Abs.2 URG"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#phbern",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#phbern",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "PHBern",
+    "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\n(Pädagogische Hochschule Bern, 2023, S. 2)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#angebotsentwicklung-2025",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#angebotsentwicklung-2025",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Angebotsentwicklung 2025",
+    "text": "Angebotsentwicklung 2025\n\nVorgabe 24 – Technologien / Digitale Medien II: Sowohl in den Lernprozessen als auch bei Leistungsnachweisen gelten ausgehend von einem Grundverständnis des Konnektivismus als Teil des Lernkonzepts die Vorgaben Open Source und Open Internet.\n\n(Pädagogische Hochschule Bern, 2017, S. 26)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#diskussion",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#diskussion",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Diskussion",
+    "text": "Diskussion\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#bibliographie",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html#bibliographie",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy\n\n\n\n\nPädagogische Hochschule Bern. (2017). ECKPFEILER FÜR DIE ANGEBOTS- ENTWICKLUNG 2025 Grundlagendokument. https://qmp.phbern.ch/File/CoreDownload?id=5150\n\n\nPädagogische Hochschule Bern. (2023). Geistiges Eigentum Merkblatt (Fassung vom November 2023). https://qmp.phbern.ch/File/CoreDownload?id=5913&filename=Merkblatt%20Geistiges%20Eigentum.pdf&langId=1\n\n\nRyan, R. M., & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78. https://doi.org/10.1037/0003-066X.55.1.68"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#austausch-über-projekt-1",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#austausch-über-projekt-1",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Austausch über Projekt 1",
+    "text": "Austausch über Projekt 1"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#section",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#section",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "",
+    "text": "Automatisiert\nAdaptiv\nGamification\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#minuten---lesen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#minuten---lesen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "5 Minuten - Lesen",
+    "text": "5 Minuten - Lesen\n\n\n\n−+\n05:00\n\n\n\n\nTauschen Sie Ihren Code mit einem Sitznachbarn.\nLesen Sie den Code des Sitznachbarn und notieren Sie sich Fragen und Vorschläge."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#minuten---reden",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#minuten---reden",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "5 Minuten - Reden",
+    "text": "5 Minuten - Reden\n\n\n\n−+\n05:00\n\n\n\n\nWas hat Ihnen geholfen den Code zu verstehen?\nWelche tollen, überraschenden Ideen sind im Code?\nWie würden Sie den Code erweitern oder abändern?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#beispiel-online",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#beispiel-online",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Beispiel online",
+    "text": "Beispiel online\nErweiterungen:\n\nAutomatisiert\nAdaptiv\nGamification"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#problemstellung",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#problemstellung",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Problemstellung",
+    "text": "Problemstellung\n\n\n\n\n\n\n\n\n\n\n\n\nListe aller Primzahlen von \\(2\\) bis \\(n\\) generieren."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#idee",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html#idee",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Idee",
+    "text": "Idee\n\n\n\n\n\n\nAbbildung 1: Sieb des Eratosthenes\n\n\n\n\nFaultier11, CC BY-SA 4.0, via Wikimedia Commons\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Joel Adler, Richard Conrardy"
   }
 ]

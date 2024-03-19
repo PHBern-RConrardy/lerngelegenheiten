@@ -2,5 +2,5 @@
 format: revealjs
 title: Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>
 subtitle: Feedback, Motivation und Unterstützung im Mathematikunterricht <br> <br>Praxislehrpersonen-Tagung
-date: 18 03 2024
+date: 20 03 2024
 ---
