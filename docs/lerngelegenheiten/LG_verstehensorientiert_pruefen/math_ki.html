@@ -489,7 +489,7 @@ Hinweis
 <p>Sie können die Arbeit als Partnerarbeit erledigen.</p>
 <details>
 <summary>
-Lösungsvorschlag
+Lösungsvorschlag 1
 </summary>
 <p>Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz</span></span>
@@ -510,8 +510,35 @@ Lösungsvorschlag
 <span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>    <span class="cf">continue</span></span>
 <span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
 <span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">break</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<details>
+<summary>
+Lösungsvorschlag 2
+</summary>
+<p>Dieser Lösungsvorschlag von Liv Streit ist unter einer CC0 Lizenz.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> random</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> Aufgabe():</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>    random_num1 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    random_num2 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    operation <span class="op">=</span> random.choice ([<span class="st">'+'</span>, <span class="st">'-'</span>])</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>      user_answer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="ss">f"Was ist </span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">?"</span>))</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>      richtiges_resultat <span class="op">=</span> <span class="bu">eval</span>(<span class="ss">f"</span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>      abweichung <span class="op">=</span> <span class="bu">abs</span>(<span class="bu">float</span>(user_answer)<span class="op">-</span>richtiges_resultat)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>      abweichung_prozentsatz <span class="op">=</span> (abweichung <span class="op">/</span> richtiges_resultat) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>      toleranz <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> <span class="op">-</span>toleranz <span class="op">&lt;=</span> abweichung_prozentsatz <span class="op">&lt;=</span> toleranz:</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span> (<span class="st">"Juhu, deine Antwort ist richtig!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      <span class="cf">else</span>:</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span> (<span class="st">"Deine Antwort ist leider falsch, versuche es gleich noch einmal."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>      <span class="bu">print</span>(<span class="st">"gib bitte eine Zahl ein."</span>)</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>Aufgabe()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 <hr>
-</details></section>
+</section>
 <section id="projekt-2" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-2">Projekt 2</h2>
 <p>Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator <a href="https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW">MA.3.B.2.e</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
@@ -560,50 +587,50 @@ Leistungsnachweis: Formative Beurteilung
 Lösungsvorschlag
 </summary>
 <p>Dieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lösung von Leandro Lützi unter CC BY-SA 4.0 Lizenz</span></span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> istSumVonQuadr(zahl, anz_quadrnr):</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> anz_quadrnr <span class="op">==</span> <span class="dv">2</span>:</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe</span></span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist</span></span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> j<span class="op">**</span><span class="dv">2</span> <span class="op">==</span> zahl:</span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>          <span class="cf">return</span> <span class="va">True</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>          <span class="co"># Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen</span></span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>):</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe</span></span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> istSumVonQuadr(zahl <span class="op">-</span> i<span class="op">**</span><span class="dv">2</span>, anz_quadrnr <span class="op">-</span> <span class="dv">1</span>):</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">True</span></span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""</span></span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a><span class="co">        Von der 'zahl' wird das Quadrat von i subdrahiert</span></span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co">        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz</span></span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a><span class="co">        zwischen i**2 und zahl ergeben</span></span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a><span class="co">        """</span></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können</span></span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>summe_quadraten_zahlen <span class="op">=</span> []</span>
-<span id="cb3-28"><a href="#cb3-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb3-29"><a href="#cb3-29" aria-hidden="true" tabindex="-1"></a>rangeOfQuadrNr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Zahl: "</span>))</span>
-<span id="cb3-30"><a href="#cb3-30" aria-hidden="true" tabindex="-1"></a>quadrnr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "</span>))</span>
-<span id="cb3-31"><a href="#cb3-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr</span></span>
-<span id="cb3-32"><a href="#cb3-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, rangeOfQuadrNr):</span>
-<span id="cb3-33"><a href="#cb3-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> istSumVonQuadr(zahl, quadrnr):</span>
-<span id="cb3-34"><a href="#cb3-34" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
-<span id="cb3-35"><a href="#cb3-35" aria-hidden="true" tabindex="-1"></a><span class="co">    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben</span></span>
-<span id="cb3-36"><a href="#cb3-36" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
-<span id="cb3-37"><a href="#cb3-37" aria-hidden="true" tabindex="-1"></a>    summe_quadraten_zahlen.append(zahl)</span>
-<span id="cb3-38"><a href="#cb3-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht</span></span>
-<span id="cb3-39"><a href="#cb3-39" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-40"><a href="#cb3-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Ausgabe der gefundenen Zahlen</span></span>
-<span id="cb3-41"><a href="#cb3-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Natürliche Zahlen kleiner als "</span><span class="op">+</span><span class="bu">str</span>(rangeOfQuadrNr)<span class="op">+</span><span class="st">", die Summe von "</span><span class="op">+</span><span class="bu">str</span>(quadrnr)<span class="op">+</span><span class="st">" Quadraten sind: "</span>)</span>
-<span id="cb3-42"><a href="#cb3-42" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> summe_quadraten_zahlen:</span>
-<span id="cb3-43"><a href="#cb3-43" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(zahl)</span>
-<span id="cb3-44"><a href="#cb3-44" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Alle Elemente unserer Liste, werden geprinted</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Lösung von Leandro Lützi unter CC BY-SA 4.0 Lizenz</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> istSumVonQuadr(zahl, anz_quadrnr):</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.</span></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> anz_quadrnr <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a>    <span class="co"># for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a>      <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> i<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> j<span class="op">**</span><span class="dv">2</span> <span class="op">==</span> zahl:</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>          <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb4-11"><a href="#cb4-11" aria-hidden="true" tabindex="-1"></a>          <span class="co"># Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück</span></span>
+<span id="cb4-12"><a href="#cb4-12" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb4-13"><a href="#cb4-13" aria-hidden="true" tabindex="-1"></a>  <span class="cf">else</span>:</span>
+<span id="cb4-14"><a href="#cb4-14" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen</span></span>
+<span id="cb4-15"><a href="#cb4-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb4-16"><a href="#cb4-16" aria-hidden="true" tabindex="-1"></a>      <span class="co"># Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe</span></span>
+<span id="cb4-17"><a href="#cb4-17" aria-hidden="true" tabindex="-1"></a>      <span class="cf">if</span> istSumVonQuadr(zahl <span class="op">-</span> i<span class="op">**</span><span class="dv">2</span>, anz_quadrnr <span class="op">-</span> <span class="dv">1</span>):</span>
+<span id="cb4-18"><a href="#cb4-18" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> <span class="va">True</span></span>
+<span id="cb4-19"><a href="#cb4-19" aria-hidden="true" tabindex="-1"></a>        <span class="co">"""</span></span>
+<span id="cb4-20"><a href="#cb4-20" aria-hidden="true" tabindex="-1"></a><span class="co">        Von der 'zahl' wird das Quadrat von i subdrahiert</span></span>
+<span id="cb4-21"><a href="#cb4-21" aria-hidden="true" tabindex="-1"></a><span class="co">        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz</span></span>
+<span id="cb4-22"><a href="#cb4-22" aria-hidden="true" tabindex="-1"></a><span class="co">        zwischen i**2 und zahl ergeben</span></span>
+<span id="cb4-23"><a href="#cb4-23" aria-hidden="true" tabindex="-1"></a><span class="co">        """</span></span>
+<span id="cb4-24"><a href="#cb4-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> <span class="va">False</span></span>
+<span id="cb4-25"><a href="#cb4-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-26"><a href="#cb4-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können</span></span>
+<span id="cb4-27"><a href="#cb4-27" aria-hidden="true" tabindex="-1"></a>summe_quadraten_zahlen <span class="op">=</span> []</span>
+<span id="cb4-28"><a href="#cb4-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb4-29"><a href="#cb4-29" aria-hidden="true" tabindex="-1"></a>rangeOfQuadrNr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Zahl: "</span>))</span>
+<span id="cb4-30"><a href="#cb4-30" aria-hidden="true" tabindex="-1"></a>quadrnr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "</span>))</span>
+<span id="cb4-31"><a href="#cb4-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr</span></span>
+<span id="cb4-32"><a href="#cb4-32" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, rangeOfQuadrNr):</span>
+<span id="cb4-33"><a href="#cb4-33" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> istSumVonQuadr(zahl, quadrnr):</span>
+<span id="cb4-34"><a href="#cb4-34" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""</span></span>
+<span id="cb4-35"><a href="#cb4-35" aria-hidden="true" tabindex="-1"></a><span class="co">    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben</span></span>
+<span id="cb4-36"><a href="#cb4-36" aria-hidden="true" tabindex="-1"></a><span class="co">    """</span></span>
+<span id="cb4-37"><a href="#cb4-37" aria-hidden="true" tabindex="-1"></a>    summe_quadraten_zahlen.append(zahl)</span>
+<span id="cb4-38"><a href="#cb4-38" aria-hidden="true" tabindex="-1"></a><span class="co"># Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht</span></span>
+<span id="cb4-39"><a href="#cb4-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-40"><a href="#cb4-40" aria-hidden="true" tabindex="-1"></a><span class="co"># Ausgabe der gefundenen Zahlen</span></span>
+<span id="cb4-41"><a href="#cb4-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">"Natürliche Zahlen kleiner als "</span><span class="op">+</span><span class="bu">str</span>(rangeOfQuadrNr)<span class="op">+</span><span class="st">", die Summe von "</span><span class="op">+</span><span class="bu">str</span>(quadrnr)<span class="op">+</span><span class="st">" Quadraten sind: "</span>)</span>
+<span id="cb4-42"><a href="#cb4-42" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> zahl <span class="kw">in</span> summe_quadraten_zahlen:</span>
+<span id="cb4-43"><a href="#cb4-43" aria-hidden="true" tabindex="-1"></a>  <span class="bu">print</span>(zahl)</span>
+<span id="cb4-44"><a href="#cb4-44" aria-hidden="true" tabindex="-1"></a>  <span class="co"># Alle Elemente unserer Liste, werden geprinted</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 </div>
 <div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">

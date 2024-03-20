@@ -133,7 +133,7 @@ Sie können die Arbeit als Partnerarbeit erledigen.
 
 <details>
 
-<summary>Lösungsvorschlag</summary>
+<summary>Lösungsvorschlag 1</summary>
 
 Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter [CC BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -157,6 +157,38 @@ while True:
   else:
     break
 ```
+</details>
+
+<details>
+
+<summary>Lösungsvorschlag 2</summary>
+
+Dieser Lösungsvorschlag von Liv Streit ist unter einer CC0 Lizenz.
+
+```python
+import random
+def Aufgabe():
+  while True:
+    random_num1 = random.randint(1,100)
+    random_num2 = random.randint(1,100)
+    operation = random.choice (['+', '-'])
+    try:
+      user_answer = int(input(f"Was ist {random_num1} {operation} {random_num2}?"))
+      richtiges_resultat = eval(f"{random_num1} {operation} {random_num2}")
+      abweichung = abs(float(user_answer)-richtiges_resultat)
+      abweichung_prozentsatz = (abweichung / richtiges_resultat) * 100
+      toleranz = 10
+      if -toleranz <= abweichung_prozentsatz <= toleranz:
+        print ("Juhu, deine Antwort ist richtig!",flush=True)
+        break
+      else:
+        print ("Deine Antwort ist leider falsch, versuche es gleich noch einmal.",flush=True)
+    except ValueError:
+      print("gib bitte eine Zahl ein.")
+Aufgabe()
+```
+
+</details>
 
 ------------------------------------------------------------------------
 
