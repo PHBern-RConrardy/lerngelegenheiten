@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Richard Conrardy">
   <title>Learning Analytics</title>
@@ -535,7 +535,7 @@
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
 <div id="ref-felten_principles_2013" class="csl-entry" role="listitem">
-Felten, P. (2013). Principles of Good Practice in <span>SoTL</span>. <em>Teaching &amp; Learning Inquiry The <span>ISSOTL</span> Journal</em>, <em>1</em>(1), 121–125. <a href="https://doi.org/10.20343/teachlearninqu.1.1.121">https://doi.org/10.20343/teachlearninqu.1.1.121</a>
+Felten, P. (2013). Principles of good practice in <span>SoTL</span>. <em>Teaching and Learning Inquiry</em>, <em>1</em>(1), 121–125. <a href="https://doi.org/10.20343/teachlearninqu.1.1.121">https://doi.org/10.20343/teachlearninqu.1.1.121</a>
 </div>
 <div id="ref-pardo_designing_2014" class="csl-entry" role="listitem">
 Pardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson &amp; B. White, <em>Learning Analytics: From Research to Practice</em> (S. 15–38). Springer New York. <a href="https://doi.org/10.1007/978-1-4614-3305-7">https://doi.org/10.1007/978-1-4614-3305-7</a>
@@ -841,6 +841,11 @@ Pardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson &a
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
               // target, if specified
               link.setAttribute("target", "_blank");
               if (link.getAttribute("rel") === null) {
@@ -884,7 +889,11 @@ Pardo, A. (2014). Designing Learning Analytics Experiences. In J. A. Larusson &a
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

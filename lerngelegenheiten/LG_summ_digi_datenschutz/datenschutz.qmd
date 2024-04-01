@@ -1,0 +1,77 @@
+---
+title: "Digitalität und Datenschutz"
+format: html
+categories:
+  - Summative und prognostische Beurteilung
+  - Digitalität
+toc-depth: 3
+---
+
+:::{.callout-warning}
+Die einzige Präsenzzeit dieser Veranstaltung ist am Dienstag 14.11.23 von 18:15 bis 20:00.
+
+Es wird erwartet, dass Sie die volle Zeit vor Ort sind, den Vorbereitungsauftrag vollständigt erledigt haben und aktiv mitarbeiten.
+
+Bitte klären Sie Ihre Verfügbarkeit für dieses Datum möglichst früh ab.
+:::
+
+## Organisatorisches
+
+### Learning Outcomes des Seminars
+
+Die Studierenden ...
+
+* ... kennen die für Lehrpersonen relevanten, rechtlichen Rahmenbedingungen im Zusammenhang mit Datenschutz im Kanton Bern.
+* ... erklären die besonderen Herausforderungen und Verantwortungen in Bezug auf digitale Personendaten.
+* ... leiten alltagstaugliche Methoden der digitalen Datenverarbeitung innerhalb des Lehrauftrags ab.
+* ... erklären die Wichtigkeit des Datenschutzes in einer digitalisierten Welt.
+
+### Intention des Seminars
+
+Das Seminar vermittelt den Lernenden eine sachliche Grundlage für den Umgang mit Personendaten in ihrem zukünftigen Arbeitsalltag. Die Lernenden sehen Datenschutz nicht als Hemmnis für die Verarbeitung von Personendaten sondern als notwendige Bedingung für letzteres.
+
+## Vorbereitungsauftrag
+
+### Lernziele
+Lernziele
+
+* Wir unterscheiden Datenschutz, Datenschutzrecht und Datensicherheit.
+* Wir erklären den Einfluss neuer Technologien in Bezug auf Big Data auf die Ziele des Schweizer Datenschutzrechts.
+* Wir wissen um die rechtlichen Rahmenbedingungen und arbeiten mit den vom Kanton zur Verfügung gestellten Zusammenfassungen für Lehrpersonen.
+
+### Inhalt & Unterlagen
+
+* [Was schützt eigentlich der Datenschutz](https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz)
+* [Miro - Digitalität und Datenschutz](https://miro.com/app/board/uXjVPMj0wAc=/?share_link_id=428332753916)
+* [Datenschutz in Zeiten von Big Data](https://link.springer.com/content/pdf/10.1365/s40702-014-0042-z.pdf)
+* [Menti - Datenschutzrecht](https://www.menti.com/alkyee5vtyq4)
+* [Weitergabe von Personendaten in der Schule](https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/bss/schulamt/downloads-1/xy/weitergabe-personendaten.pdf/download)
+* [Padlet - Personendaten](https://phbern.padlet.org/richardconrardy/weitergabe-von-personendaten-in-der-schule-wco61m0xjg4sftxy) (Passwort: "Datenschutz")
+* [Datenschutzgesetz (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/2000)
+* [Datenschutz (Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter)](https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/ueberblick/datenschutz.html)
+* [Leitfaden Datenschutz in den Volksschulen im Kanton Bern](https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/schulleitungen/datenschutz-in-der-schule/leitfaden/leitfaden-datenschutz-d.pdf)
+* [TTIM Beitrag zum neuen Datenschutzgesetz](https://ttim.phbern.ch/2023/kompetent-in-sachen-datenschutz-hilfreiches-material-fuer-lehrpersonen/comment-page-1/#comment-33)
+
+### Vorbereitungsauftrag
+
+* Schauen Sie Was schützt eigentlich der Datenschutz.
+* Halten Sie auf Miro für Datenschutz, Datenschutzrecht und Datensicherheit jeweils fest, weshalb es für Ihr Berufsbild relevant ist und weshalb es für die Medienbildung relevant ist.
+* Lesen Sie Datenschutz in Zeiten von Big Data.
+* Halten Sie auf Menti in vollständigen Sätzen fest, in wiefern das Aufkommen von Big Data das Datenschutzrecht in der Schweiz einschränkt.
+* Lesen Sie Weitergabe von Personendaten in der Schule.
+* Halten Sie auf Padlet eine Unklarheit, eine offene Diskussionsfrage und eine eigene schulische Erfahrung in Bezug zu Datenschutz fest.
+
+## Präsenzlektion
+
+### Lernziele
+
+* Wir verstehen die Hürden im Umgang mit Datenschutzrecht in der Berufsausübung anhand von Beispielen.
+* Wir erklären allgemeine Lösungsstrategien für Lehrpersonen beim Umgang mit Datenschutzrecht.
+* Wir sind gewillt im Unterricht auf die Problematik des Datenschtzes aufmerksam zu machen.
+
+### Inhalte
+
+* [Präsentation](slides_datenschutz.qmd)
+* [https://www.lehrperson-bern.ch/](https://www.lehrperson-bern.ch/)
+* [Lehrmittel Edöb](https://www.edoeb.admin.ch/dam/edoeb/de/Dokumente/datenschutz/lehrmittel_datenschutz_basismodul.pdf.download.pdf/Lehrmittel%20Basismodul%20DE.pdf)
+* [OINF](https://oinf.ch/kurs/informationsgesellschaft/datenschutz/)

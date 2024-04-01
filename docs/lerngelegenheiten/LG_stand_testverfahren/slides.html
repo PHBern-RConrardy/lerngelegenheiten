@@ -9,7 +9,7 @@
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.550">
+  <meta name="generator" content="quarto-1.4.551">
 
   <meta name="author" content="Richard Conrardy">
   <title>Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</title>
@@ -409,7 +409,7 @@
 <h2>Hintergrund</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_b06d127f" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_6500c934" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">07</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -466,7 +466,7 @@
 <h2>Testen wir es</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_fcab7738" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_c206f827" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -488,7 +488,7 @@
 <h2>Bericht</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_50f7dfb5" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_41376379" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -519,7 +519,7 @@
 <h2>Auftrag</h2>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_1e32fb31" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_afb6dab1" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -886,6 +886,11 @@ Lehrmittelverlag St.Gallen. (o.&nbsp;J.). <em>Stellwerk</em>. <a href="https://s
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
               // target, if specified
               link.setAttribute("target", "_blank");
               if (link.getAttribute("rel") === null) {
@@ -929,7 +934,11 @@ Lehrmittelverlag St.Gallen. (o.&nbsp;J.). <em>Stellwerk</em>. <a href="https://s
           try { href = new URL(href).hash; } catch {}
           const id = href.replace(/^#\/?/, "");
           const note = window.document.getElementById(id);
-          return note.innerHTML;
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
         });
       }
       const findCites = (el) => {

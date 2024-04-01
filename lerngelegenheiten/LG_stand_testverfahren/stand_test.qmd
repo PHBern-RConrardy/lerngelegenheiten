@@ -4,7 +4,6 @@ subtitle: "Teil Mathematik"
 format: html
 categories:
   - Summative und prognostische Beurteilung
-  - bereit für FS24
 ---
 
 # Organisatorisches

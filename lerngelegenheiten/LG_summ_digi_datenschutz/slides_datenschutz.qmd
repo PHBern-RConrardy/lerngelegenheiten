@@ -1,0 +1,81 @@
+---
+title: "Digitalität und Datenschutz"
+format: revealjs
+categories:
+  - Summative und prognostische Beurteilung
+  - Digitalität
+toc-depth: 3
+---
+
+# {.unlisted}
+
+> "Datenschutz ist kein lästiges Anhängsel, er ist keine überflüssige Bürokratie, er ist Voraussetzung dafür, dass auch in der Informationsgesellschaft das Recht auf informationelle Selbstbestimmung durchgesetzt werden kann."
+>
+>Jörg Tauss, Rede vor dem Deutschen Bundestag, 29. März 20
+
+# Die üblichen Argumente zuerst
+
+## Privatsphäre $\neq$ Datenschutz
+
+* "Es ist mir egal ob Google und andere Firmen meine Daten haben."​
+* Wie reagieren Sie?
+* Murmelgruppe – 3 Minuten
+
+## End to end encryption
+
+> "Es bestehen keine Bestrebungen, die Verschlüsselung in irgendeiner Form zu schwächen oder zu verbieten"
+>
+:::{quelle}
+[Sprecher des Dienstes für die Überwachung des Post- und Fernmeldeverkehrs ÜPF](https://www.srf.ch/news/panorama/verschluesselte-kommunikation-will-die-eu-verschluesselte-kommunikation-bei-whatsapp-verbieten)
+:::
+
+> "Bund und Kantone wollten deshalb ein vereinfachtes System, um die Verschlüsselung auszuhebeln."
+>
+:::{quelle}
+[NZZ](https://www.nzz.ch/technologie/chat-kontrolle-behoerden-wollten-die-verschluesselung-knacken-ld.1691401?reduced=true)
+:::
+
+* Nehmen Sie sachkundig Stellung.
+* Murmelgruppe – 3 Minuten
+
+## Die 3 Seiten
+
+* Datenschutz
+* Datenschutzrecht
+* Datensicherheit
+
+# Datenschutz als Arbeitnehmer
+
+## Datenschutzrecht
+
+> "Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt."
+>
+:::{quelle}
+[Art. 321e Abs.1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e)
+:::
+
+
+* Halten Sie Arbeitssituationen fest in welchen Lehrpersonen mit Datenschutz(recht) konfrontiert werden. 
+* Teilen und diskutieren Sie die Liste mit ihren Sitznachbarn.
+
+# Datenschutz als Lerngegenstand
+
+## Gruppenarbeit
+
+* Halten Sie fest wie und wo Sie Datenschutz in einer Unterrichtssituation mit Lernenden besprechen würden.
+* Teilen und diskutieren Sie die Liste mit ihren Sitznachbarn.
+
+## Datensicherheit (IT Schutzziele)
+
+* Vertraulichkeit
+* Integrität
+* Verfügbarkeit
+
+## Empfehlungen
+
+* Laptop sperren!
+* Passwortmanager
+* Datenminimierung
+* SSD-Encryption auf Laptops
+* Cloud-Synchronisation
+* … ?

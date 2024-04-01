@@ -51,7 +51,9 @@ Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:
 4.  Grössen, Funktionen, Daten und Zufall (Analysis): Lineare Funktionen
 5.  Form und Raum (Geometrie): Flächen- und Volumenberechnungen, Dreiecke und Vierecke
 
-Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an.
+Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der [Lehrplan 21](https://be.lehrplan.ch/). Das [Mathbuch](https://www.mathbuch.info/), sowie [Mathematik vom LMVZ](https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html) können Ihnen nützliche Hilfestellungen geben. @walti_jahresplanung_2021 gibt eine mögliche Jahresplanung an. 
+
+Weitere Interpretationen des Lehrplan21 finden Sie in schulischen Lehrplänen, z.B. [KSAlpenquai LU](https://ksalpenquai.lu.ch/dokumente/Lehrplaene_Untergymnasium) oder [KSBG SG](https://www.sg.ch/bildung-sport/mittelschule/lehrplaene-und-stundentafeln/untergymnasium.html) oder [KBW ZH]().
 
 ------------------------------------------------------------------------
 
@@ -146,7 +148,6 @@ Lesen Sie @vandormolen1978 Kapitel 4.2, es beschreibt nach welchen Kriterien Sie
 
 @biggs1996 beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.
 
-Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet und die Learning Outcomes sinnvoll ausgewählt worden sein.
+Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet (vgl. Sachanalyse) und die Learning Outcomes sinnvoll ausgewählt worden sein.
 
--   [Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr) <https://doi.org/10.1007/978-3-322-84149-0>
--   [Biggs, J. (1996). Enhancing teaching through constructive alignment. Higher Education, 32(3), 347–364.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EfPsJp_cAKtOs3aFkBqVz2sBTwLukih_YaVThoKEJw7KuQ?e=6pDrx7) <https://doi.org/10.1007/BF00138871>
+-   [Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.](https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr)

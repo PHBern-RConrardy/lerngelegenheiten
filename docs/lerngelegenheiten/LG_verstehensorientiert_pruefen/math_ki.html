@@ -6,7 +6,6 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Richard Conrardy">
 
 <title>Verstehensorientiert prüfen in Zeiten von KI</title>
 <style>
@@ -166,6 +165,11 @@ window.Quarto = {
     <a class="nav-link" href="../../lerngelegenheiten/LG_learning_analytics/learning_analytics.html"> <i class="bi bi-graph-up" role="img">
 </i> 
 <span class="menu-text">Learning Analytics</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/datenschutz.html"> <i class="bi bi-shield-fill" role="img">
+</i> 
+<span class="menu-text">Datenschutz</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-math.-mikropl." role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -651,6 +655,28 @@ Lösungsvorschlag
 <p>Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.</p>
 <p>Die Eingabe ist eine natürliche Zahl <span class="math inline">\(n\)</span>, die Ausgabe die Liste aller Primzahlen kleiner gleich <span class="math inline">\(n\)</span>.</p>
 <p>Bestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span> (mit <span class="math inline">\(a&gt;b\)</span>) bestimmt werden, indem für die Elemente der Liste der Teiler von <span class="math inline">\(b\)</span> beginnend mit dem gr?ssten Element getestet wird, ob sie <span class="math inline">\(a\)</span> teilen.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="kw">def</span> primzahlen_bis_100():</span>
+<span id="cb5-2"><a href="#cb5-2"></a>  liste_2_bis_100 <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">101</span>))</span>
+<span id="cb5-3"><a href="#cb5-3"></a>  primzahlen <span class="op">=</span> []</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  </span>
+<span id="cb5-5"><a href="#cb5-5"></a>  <span class="cf">while</span> liste_2_bis_100:</span>
+<span id="cb5-6"><a href="#cb5-6"></a>    <span class="co"># Erste Zahl aus der Liste wird den Primzahlen hinzugefügt</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a>      prime <span class="op">=</span> liste_2_bis_100[<span class="dv">0</span>]</span>
+<span id="cb5-8"><a href="#cb5-8"></a>      primzahlen.append(prime)</span>
+<span id="cb5-9"><a href="#cb5-9"></a>    <span class="co"># Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:</span></span>
+<span id="cb5-10"><a href="#cb5-10"></a>      <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">100</span>):</span>
+<span id="cb5-11"><a href="#cb5-11"></a>    <span class="co"># Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:</span></span>
+<span id="cb5-12"><a href="#cb5-12"></a>        <span class="cf">if</span> i<span class="op">*</span>prime <span class="kw">in</span> liste_2_bis_100:</span>
+<span id="cb5-13"><a href="#cb5-13"></a>          liste_2_bis_100.remove(i<span class="op">*</span>prime)</span>
+<span id="cb5-14"><a href="#cb5-14"></a></span>
+<span id="cb5-15"><a href="#cb5-15"></a>  <span class="bu">print</span>(primzahlen)</span>
+<span id="cb5-16"><a href="#cb5-16"></a></span>
+<span id="cb5-17"><a href="#cb5-17"></a>primzahlen_bis_100()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </div>
 <div id="tabset-2-7" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-7-tab">
 <p>Vergleich des Wachstums von Potenz- und Exponentialfunktionen.</p>
