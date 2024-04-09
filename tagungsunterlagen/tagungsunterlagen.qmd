@@ -1,10 +1,11 @@
 ---
 title: "Übersicht Tagungsunterlagen"
 format: html
-fields: [date, title, description]
+
 listing:
   contents:
     - "*.qmd"
   sort: "date desc"
   type: table
+  fields: [date, title,subtitle]
 ---

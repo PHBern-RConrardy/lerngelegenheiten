@@ -27,41 +27,48 @@ website:  # Menüs für die Webseite
       - icon: github
         href: https://github.com/PHBern-RConrardy/lerngelegenheiten
     left:
-      - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
-        text: MA-KI
-        icon: calculator-fill
-      - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
-        text: ESW-Testv.
-        icon: file-bar-graph-fill
-      - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
-        text: Learning Analytics
-        icon: graph-up
-      - href: lerngelegenheiten/LG_summ_digi_datenschutz/datenschutz.qmd
-        text: Datenschutz
-        icon: shield-fill
-      - text: Math. Mikropl.
+      - text: formative Beurteilung
+        icon: sign-stop-lights-fill
+        menu: 
+          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
+            text: MA-KI
+            icon: calculator-fill
+          - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
+            text: MI-Learning Analytics
+            icon: graph-up
+      - text: summ. und progn. Beurteilung
+        icon: clipboard-check-fill
+        menu:
+          - href: lerngelegenheiten/LG_summ_digi_datenschutz/datenschutz.qmd
+            text: MI-Datenschutz
+            icon: shield-fill
+          - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
+            text: ESW-Testv.
+            icon: file-bar-graph-fill
+          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
+            text: MA-KI
+            icon: calculator-fill
+          - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
+            text: MA-FD-Präsenzveranstaltung
+            icon: building-fill
+          - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
+            text: MA-FD-Selbstorganisiertes Lernen
+            icon: mouse2-fill
+        
+      - text: Mikroplanung
         icon: arrows-angle-contract
         menu:   # Menü für die Mathematik Mikroplanung
-          - text: Präsenzkurs
+          - text: MA-FD-Präsenzkurs
             href: lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.qmd
             icon: building-fill
-          - text: Blockkurs
+          - text: MA-FD-Blockkurs
             href: lerngelegenheiten/LG_mikroplanung_math/blockkurs.qmd
             icon: file-earmark-zip-fill
-          - text: Selbstorganisiertes Lernen
+          - text: MA-FD-Selbstorganisiertes Lernen
             href: lerngelegenheiten/LG_mikroplanung_math/mikro_sol.qmd
             icon: mouse2-fill
-      - text: Math. summ. Beurt.
-        icon: file-earmark-check-fill
-        menu:
-        - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
-          text: Präsenzveranstaltung
-          icon: building-fill
-        - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
-          text: Selbstorganisiertes Lernen
-          icon: mouse2-fill
     right:  
-      - text: "Tagungen"
+      - text: "Konferenzen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
         icon: luggage-fill
         
@@ -83,6 +90,11 @@ website:  # Menüs für die Webseite
     
 mermaid:
       theme: neutral
+filters:
+  - reveal-auto-agenda
+auto-agenda:
+  bullets: numbered
+  heading: Inhalt
       
 format:
   html: # Einstellungen nur für Webseiten
@@ -94,7 +106,7 @@ format:
     page-layout: article
     title-block-banner: true
     code-line-numbers: true
-    
+    fig-align: center
       
   revealjs: # Einträge nur für Präsentationen
     toc: true
@@ -111,17 +123,29 @@ format:
     logo: images/penguin.png
     hide-inactive-cursor: true
     
-    author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
-      - name: Richard Conrardy
-        orcid: 0009-0004-2063-6898
-        id: 00383195
-        email: richard.conrardy@phbern.ch
-        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
-        affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
+author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
+  - name: Richard Conrardy
+    orcid: 0009-0004-2063-6898
+    id: 00383195
+    email: richard.conrardy@phbern.ch
+    url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
+    affiliation:
+      - ref: phbern
+          
+affiliations:
+  - id: phbern
+    name: University of Teacher Education Bern
+    address: Länggassstrasse 35
+    city: Bern
+    postal-code: 3012
+    url: https://www.phbern.ch
+    department: Institut Sekundarstufe I
+    ror: https://ror.org/05jf1ma54
+
+citation: 
+  type: webpage
+  URL: https://phbern-rconrardy.github.io/lerngelegenheiten/
+  publisher: University of Teacher Education Bern  
+language: 
+  title-block-author-single: "Dozierende"
+  title-block-author-plural: "Dozierende"

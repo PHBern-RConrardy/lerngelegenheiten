@@ -4,6 +4,88 @@ subtitle: "Blockkurs"
 format: html
 ---
 
-::: {.callout-important}
+::: callout-important
 Noch nicht fertig, work in progress
 :::
+
+# Organisatorisches
+
+::: {style="text-align: center;"}
+[Organisationsblatt](){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_grp_2127034.html){.knopf .knopf-klein target="_blank"}
+:::
+
+| Blocktag | Thema                         |                                   Vorbereitung                                   |                                  Slides                                  |
+|:----------------:|:-----------------|:----------------:|:----------------:|
+|    1     | LP21 - Thematische Aufteilung | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) | [<i class="bi bi-easel3-fill"></i>](block_slide_01.qmd){target="_blank"} |
+|    2     | Binnendifferenzierung         | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) | [<i class="bi bi-easel3-fill"></i>](block_slide_02.qmd){target="_blank"} |
+|    3     |                               | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) | [<i class="bi bi-easel3-fill"></i>](block_slide_01.qmd){target="_blank"} |
+
+: {.striped .hover .table-sm}
+
+::: {.callout-tip collapse="true"}
+## Flipped Classroom
+
+Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.
+
+> 1.  move most information-transmission teaching out of class
+> 2.  use class time for learning activities that are active and social and
+> 3.  require students to complete pre- and/or post-class activities to fully benefit from in-class work.
+>
+> [@abeysekera_motivation_2015, S.3]
+:::
+
+::: {.callout-warning collapse="true"}
+## Open Educational Resources (OER)
+
+Sie werden in dieser Lerngelegenheit Materialien unter eine [CC-BY-SA 4.0 Lizenz](https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1) stellen. Sie entscheiden selbst wer seinen Namen in welcher Reihenfolge auf dem Material haben möchte oder welcher weggelassen wird. Die Materialien werden von mir einheitlich Layoutet und gemäss der Lizenz ins Web gestellt, damit andere davon profitieren können.
+
+Beachten Sie das [URG](https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de) und geben Sie bei selbsterstellten Graphiken (z.B. Funktionsgraphen) eine Anleitung welche ausreicht um die Graphen neu zu erstellen.
+
+Hinweis: Es ist unwahrscheinlich, dass Sie [Zitatrecht](https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken) in Anspruch nehmen können in diesem Setting.
+
+[Weitere Informationen.](https://digileb.phbern.ch/didaktisches-design/kollaboratives-lernen-und-arbeiten/oer-herstellen/)
+:::
+
+# Workload
+
+Motivation @bovet_leitfaden_2020, Motivation gemäss @eccles_expectancies_1983 and @ryan_self-determination_2000. Für mehr Informationen besuchen Sie die LG *Motivationsförderung im Unterricht*. 
+
+Lernumgebung @friedrich_analyse_1997
+
+Leitideen für Lernumgebungen @lilitakis_zur_2009
+
+
+Padua (angelehnt an @aebli_zwolf_1983), 
+Aviva @stadeli_aviva_2020 
+*Planungsarbeit im Fokus* 
+
+[Switchportolio](https://portfolio.switch.ch/) und [LearningView](https://learningview.org/) in Mediendidaktik
+
+[Quarto](https://quarto.org/)
+
+
+## Vorbereitungsauftrag 1. Kurstag
+
+Lesen Sie den Workload sowie den Leistungsnachweis ([Modularbeit, Informationen auf Ilias](https://ilias.phbern.ch/goto_phbern_grp_2127034.html)) durch. Sie werden individuell eine Lernumgebung (nach @friedrich_analyse_1997) inklusive Lektionsplanung erstellen. Diese Lernumgebung folgt den Leitideen gemäss @lilitakis_zur_2009.
+
+Wählen Sie 
+
+
+## Vorbereitungsauftrag 2. Kurstag
+
+@van_dormolen_didaktik_1978
+
+## Vorbereitungsauftrag 3. Kurstag
+
+Anpassung an die Bedürfnisse der Schüler Klare Lernziele und Standards Strukturierter Unterrichtsverlauf Berücksichtigung von Schülerfeedback Einsatz differenzierter Unterrichtsmethoden
+
+         
+Theorie und Konzepte vermitteln
+Fallstudien und Praxisbeispiele
+Gruppenarbeit und Diskussionen
+Praktische Übungen
+Gastvorträge und Experteninterviews
+Feedback und Reflexion
+Technologieintegration

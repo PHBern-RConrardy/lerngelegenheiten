@@ -2381,45 +2381,6 @@
             "type": "article-journal"
         },
         {
-            "DOI": "10.1177/0098628311421336",
-            "ISSN": "0098-6283, 1532-8023",
-            "URL": "http://journals.sagepub.com/doi/10.1177/0098628311421336",
-            "abstract": "Previous findings suggest some advantages to using an online format to deliver declarative knowledge and to using class time for active learning and discussion. During 4 weeks of an introductory psychology course, students were assigned on alternate weeks to attend one of two lecture formats: in-class lecture or online video lecture with an in-class active learning session. No advantage was found for either format on the basis of quiz scores. Students appreciated the convenience of online lectures but preferred in-class lectures because of the increased ease of maintaining attention in the more structured environment. Attendance, as well as access of online content, decreased during the course of the study, suggesting that hybrid courses may lead to decreases in overall student effort.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        1,
-                        2
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Jensen",
-                    "given": "Scott A."
-                }
-            ],
-            "container-title": "Teaching of Psychology",
-            "container-title-short": "Teaching of Psychology",
-            "id": "jensen_-class_2011",
-            "issue": "4",
-            "issued": {
-                "date-parts": [
-                    [
-                        2011,
-                        10
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "298-302",
-            "title": "In-class versus online video lectures: Similar learning outcomes, but a preference for in-class",
-            "title-short": "In-class versus online video lectures",
-            "type": "article-journal",
-            "volume": "38"
-        },
-        {
             "DOI": "10.3389/feduc.2022.956416",
             "ISSN": "2504-284X",
             "URL": "https://www.frontiersin.org/articles/10.3389/feduc.2022.956416/full",
@@ -7487,36 +7448,6 @@
             "type": "book"
         },
         {
-            "ISBN": "978-3-8252-4447-7",
-            "abstract": "Die beiden Autorinnen gehen einleitend der Frage nach, welche Bedeutung Medien in der Lebenswelt von Kindern und Jugendlichen haben, sowohl die klassischen Medien Fernsehen, Radio und Zeitung als auch Internet, Computer und Smartphone. Dann untersuchen sie, welche Konzepte von Medienbildung und Medienkompetenz es eigentlich gibt und wie medienbezogene Kompetenzen im Unterricht vermittelt werden können. Im letzten Kapitel geht es um eine verstärkte digitale Medienintegration in die Unterrichtsarbeit, wie sie gegenwärtig nicht nur in Fachkreisen, sondern auch in der allgemeinen Öffentlichkeit diskutiert und verlangt wird. Zwischendurch gibt es zahlreiche Praxisbeispiele sowie Tabellen und Abbildungen. Ein gelungenes Studienbuch für angehende Lehrer mit gut strukturiertem und verständlich aufbereitetem medienpädagogischen Grundlagenwissen. Auch für praxiserfahrene Lehrkräfte zur Unterfütterung der einschlägigen Unterrichtshilfen. (2-3S)",
-            "author": [
-                {
-                    "family": "Schaumburg",
-                    "given": "Heike"
-                },
-                {
-                    "family": "Prasse",
-                    "given": "Doreen"
-                }
-            ],
-            "collection-number": "4447",
-            "collection-title": "Utb schulpädagogik",
-            "id": "schaumburg_medien_2019-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2019
-                    ]
-                ]
-            },
-            "number-of-pages": "288",
-            "publisher": "Verlag Julius Klinkhardt",
-            "publisher-place": "Bad Heilbrunn",
-            "title": "Medien und schule: Theorie - forschung - praxis",
-            "title-short": "Medien und schule",
-            "type": "book"
-        },
-        {
             "DOI": "10.18452/21264",
             "URL": "https://edoc.hu-berlin.de/handle/18452/22017",
             "abstract": "La madurez es importante en la cultura digital. El desarrollo requiere de un proceso educativo orientado hacia la madurez para que los jóvenes puedan actuar de forma autónoma y reflexiva en un mundo interconectado. Los futuros maestros han de ser conscientes de su propia madurez para poder fomentar la de sus futuros estudiantes. El presente estudio muestra el potencial del portafolio para una educación centrada en el proceso madurativo y examina los factores que son beneficiosos para su realización. Se lleva a cabo en seminario sobre Smat Cities dirigido a profesores de geografía en formación. Mediante la técnica de análisis de contenidos fueron analizados, en el marco de una educación para la madurez, los portafolios de los estudiantes y las entrevistas a las que estos se sometieron. Los resultados ponen de manifiesto que la elaboración de un portafolio contribuyó para que los estudiantes fueran conscientes de su propia madurez e influyó en los hábitos profesionales de ellos. Los estudiantes trabajaron de forma autónoma e intercambiaron sus opiniones en un procesos de discusión.",
@@ -9337,49 +9268,6 @@
             "type": "book"
         },
         {
-            "DOI": "10.1007/978-981-13-8260-4",
-            "ISBN": "9789811382598 9789811382604",
-            "URL": "http://link.springer.com/10.1007/978-981-13-8260-4",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        3,
-                        14
-                    ]
-                ]
-            },
-            "collection-title": "Smart innovation, systems and technologies",
-            "editor": [
-                {
-                    "family": "Uskov",
-                    "given": "Vladimir L."
-                },
-                {
-                    "family": "Howlett",
-                    "given": "Robert J."
-                },
-                {
-                    "family": "Jain",
-                    "given": "Lakhmi C."
-                }
-            ],
-            "id": "uskov_smart_2019-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2019
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "publisher": "Springer Singapore",
-            "publisher-place": "Singapore",
-            "title": "Smart education and e-learning 2019",
-            "type": "book",
-            "volume": "144"
-        },
-        {
             "DOI": "10.1007/s11092-008-9068-5",
             "ISSN": "1874-8597, 1874-8600",
             "URL": "http://link.springer.com/10.1007/s11092-008-9068-5",
@@ -9602,48 +9490,6 @@
             "title": "The flipped classroom: A brief, brief history",
             "title-short": "The flipped classroom",
             "type": "chapter"
-        },
-        {
-            "URL": "https://www.jstor.org/stable/pdf/1183338.pdf?refreqid=excelsior%3Ab0a9d2ec82ee6a85a2c6fd0791861766&ab_segments=&origin=&initiator=&acceptTC=1",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        3,
-                        30
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Lage",
-                    "given": "Maureen J"
-                },
-                {
-                    "family": "Platt",
-                    "given": "Glenn J"
-                },
-                {
-                    "family": "Treglia",
-                    "given": "Michael"
-                }
-            ],
-            "container-title": "The Journal of Economic Education",
-            "id": "lage_inverting_2000",
-            "issue": "1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2000
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "30-43",
-            "title": "Inverting the classroom: A gateway to creating an inclusive learning environment",
-            "title-short": "Inverting the classroom",
-            "type": "article-journal",
-            "volume": "31"
         },
         {
             "author": [
@@ -10648,34 +10494,6 @@
             "type": "chapter"
         },
         {
-            "ISBN": "978-1-4625-2876-9",
-            "author": [
-                {
-                    "family": "Ryan",
-                    "given": "Richard M."
-                },
-                {
-                    "family": "Deci",
-                    "given": "Edward L."
-                }
-            ],
-            "id": "ryan_self-determination_2017-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2017
-                    ]
-                ]
-            },
-            "keyword": "Autonomy (Psychology)",
-            "number-of-pages": "756",
-            "publisher": "Guilford Press",
-            "publisher-place": "New York",
-            "title": "Self-determination theory: Basic psychological needs in motivation, development, and wellness",
-            "title-short": "Self-determination theory",
-            "type": "book"
-        },
-        {
             "ISSN": "2504-284X",
             "URL": "https://www.frontiersin.org/articles/10.3389/feduc.2022.840947",
             "abstract": "Prior to the emergence of Big Data and technologies such as Learning Analytics (LA), classroom research focused mainly on measuring learning outcomes of a small sample through tests. Research on online environments shows that learners’ engagement is a critical precondition for successful learning and lack of engagement is associated with failure and dropout. LA helps instructors to track, measure and visualize students’ online behavior and use such digital traces to improve instruction and provide individualized support, i.e., feedback. This paper examines 1) metrics or indicators of learners’ engagement as extracted and displayed by LA, 2) their relationship with academic achievement and performance, and 3) some freely available LA tools for instructors and their usability. The paper concludes with making recommendations for practice and further research by considering challenges associated with using LA in classrooms.",
@@ -11196,48 +11014,6 @@
             "type": "book"
         },
         {
-            "DOI": "10.3402/rlt.v3i2.9606",
-            "ISSN": "2156-7077, 2156-7069",
-            "URL": "https://journal.alt.ac.uk/index.php/rlt/article/view/791",
-            "abstract": "In today’s complex world, simply knowing how to use tools and knowledge in a single domain is not sufficient to remain competitive as either individuals or companies. People must also learn to apply tools and knowledge in new domains and different situations. Industry specialists report that people at every organizational level must be creative and flexible problem solvers (Lynton, 1989). This requires the ability to apply experience and a definition knowledge to address novel problems. Consequently, learning to think critically, to analyse and synthesize information to solve technical, social, economic, political, and scientific problems, and to work productively in groups are crucial skills for successful and fulfilling participation in our modern, competitive society.DOI:10.1080/0968776950030202",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        4,
-                        23
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Grabinger",
-                    "given": "R. Scott"
-                },
-                {
-                    "family": "Dunlap",
-                    "given": "Joanna C."
-                }
-            ],
-            "container-title": "Research in Learning Technology",
-            "container-title-short": "Research in Learning Technology",
-            "id": "grabinger_rich_2011-1",
-            "issue": "2",
-            "issued": {
-                "date-parts": [
-                    [
-                        2011,
-                        12,
-                        30
-                    ]
-                ]
-            },
-            "title": "Rich environments for active learning: A definition",
-            "title-short": "Rich environments for active learning",
-            "type": "article-journal",
-            "volume": "3"
-        },
-        {
             "ISBN": "978-1-4736-3748-1 978-1-4736-3746-7 978-1-4736-3747-4",
             "abstract": "Introduction – The gap instinct – The negativity instinct – The straight line instinct – The fear instinct – The size instinct – The generalization instinct – The destiny instinct – The single perspective instinct – The blame instinct – The urgency instinct – Factfulness in practice – Acknowledgements – Appendix 1: How did your country do? – Notes – Index",
             "author": [
@@ -11423,36 +11199,6 @@
             "title": "Mit aufgabensets kompetenzaufbau und kompetenzförderung ermöglichen",
             "type": "article-journal",
             "volume": "4"
-        },
-        {
-            "author": [
-                {
-                    "family": "Luthinger",
-                    "given": "Herbert"
-                },
-                {
-                    "family": "Wilhelm",
-                    "given": "Markus"
-                },
-                {
-                    "family": "Wespi",
-                    "given": "Claudia"
-                }
-            ],
-            "container-title": "Journal für LehrerInnenbildung (jlb)",
-            "id": "luthinger_entwicklung_2014",
-            "issue": "3",
-            "issued": {
-                "date-parts": [
-                    [
-                        2014
-                    ]
-                ]
-            },
-            "page": "56-66",
-            "title": "Entwicklung von kompetenzorientierten aufgabensets prozessmodell und kategoriensystem",
-            "type": "article-journal",
-            "volume": "14"
         },
         {
             "ISSN": "0022-3514",
@@ -11754,47 +11500,6 @@
             "volume": "150"
         },
         {
-            "DOI": "10.1037/0022-3514.77.6.1121",
-            "ISSN": "1939-1315, 0022-3514",
-            "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/0022-3514.77.6.1121",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        4,
-                        24
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Kruger",
-                    "given": "Justin"
-                },
-                {
-                    "family": "Dunning",
-                    "given": "David"
-                }
-            ],
-            "container-title": "Journal of Personality and Social Psychology",
-            "container-title-short": "Journal of Personality and Social Psychology",
-            "id": "kruger_unskilled_1999",
-            "issue": "6",
-            "issued": {
-                "date-parts": [
-                    [
-                        1999
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "1121-1134",
-            "title": "Unskilled and unaware of it: How difficulties in recognizing one’s own incompetence lead to inflated self-assessments.",
-            "title-short": "Unskilled and unaware of it",
-            "type": "article-journal",
-            "volume": "77"
-        },
-        {
             "DOI": "10.1038/s41562-021-01101-z",
             "ISSN": "2397-3374",
             "URL": "https://www.nature.com/articles/s41562-021-01101-z",
@@ -11861,7 +11566,7 @@
             ],
             "container-title": "Journal of Personality and Social Psychology",
             "container-title-short": "Journal of Personality and Social Psychology",
-            "id": "kruger_unskilled_1999-1",
+            "id": "kruger_unskilled_1999",
             "issue": "6",
             "issued": {
                 "date-parts": [
@@ -12184,60 +11889,6 @@
             "title": "A model of future-oriented motivation and self-regulation",
             "type": "article-journal",
             "volume": "16"
-        },
-        {
-            "DOI": "10.1007/978-3-658-24292-3",
-            "ISBN": "978-3-658-24291-6 978-3-658-24292-3",
-            "URL": "http://link.springer.com/10.1007/978-3-658-24292-3",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        5,
-                        1
-                    ]
-                ]
-            },
-            "editor": [
-                {
-                    "family": "Büchter",
-                    "given": "Andreas"
-                },
-                {
-                    "family": "Glade",
-                    "given": "Matthias"
-                },
-                {
-                    "family": "Herold-Blasius",
-                    "given": "Raja"
-                },
-                {
-                    "family": "Klinger",
-                    "given": "Marcel"
-                },
-                {
-                    "family": "Schacht",
-                    "given": "Florian"
-                },
-                {
-                    "family": "Scherer",
-                    "given": "Petra"
-                }
-            ],
-            "id": "buchter_vielfaltige_2019-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2019
-                    ]
-                ]
-            },
-            "language": "de-DE",
-            "publisher": "Springer Fachmedien Wiesbaden",
-            "publisher-place": "Wiesbaden",
-            "title": "Vielfältige Zugänge zum Mathematikunterricht: Konzepte und Beispiele aus Forschung und Praxis",
-            "title-short": "Vielfältige Zugänge zum Mathematikunterricht",
-            "type": "book"
         },
         {
             "DOI": "10.1007/978-3-540-34926-6",
@@ -13726,55 +13377,6 @@
             "volume": "21"
         },
         {
-            "DOI": "10.1016/j.compedu.2020.104000",
-            "ISSN": "03601315",
-            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0360131520301986",
-            "abstract": "In flipped learning, students study learning material before class and apply the content of the learning material during class. This requires self-regulated learning (SRL) behavior due to the increased autonomy in this instructional approach. Providing students with video-embedded SRL support (i.e., prompts and explicit instruction) during the learning activities before class has proven to be an effective strategy in primary and higher education to enhance students’ SRL and learning outcomes. The current study aims to replicate the effects of SRL support in a Flipped class in secondary education over the course of eight weeks. In total, 115 eighth-grade students from five classes participated in a quasi-experimental study, which measured the effects of SRL support on students’ SRL (self-reports and online activities), learning outcomes, and satisfaction. We found a positive effect of SRL support on learning outcomes, but we could not explain this by differences in students’ SRL. Although all the students were generally positive about the flipped learning environment, some students clearly disliked the SRL instruction. We conclude that SRL support is beneficial for students’ learning but that it should be carefully designed to avoid students’ dissatisfaction, which could potentially nullify these beneficial effects on learning.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        5,
-                        28
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Van Alten",
-                    "given": "David C. D."
-                },
-                {
-                    "family": "Phielix",
-                    "given": "Chris"
-                },
-                {
-                    "family": "Janssen",
-                    "given": "Jeroen"
-                },
-                {
-                    "family": "Kester",
-                    "given": "Liesbeth"
-                }
-            ],
-            "container-title": "Computers & Education",
-            "container-title-short": "Computers & Education",
-            "id": "van_alten_self-regulated_2020-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2020,
-                        12
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "104000",
-            "title": "Self-regulated learning support in flipped learning videos enhances learning outcomes",
-            "type": "article-journal",
-            "volume": "158"
-        },
-        {
             "DOI": "10.1016/j.paid.2021.110673",
             "ISSN": "0191-8869",
             "URL": "https://www.sciencedirect.com/science/article/pii/S0191886921000489",
@@ -13963,51 +13565,6 @@
             "title": "A conceptual framework for assessing motivation and self-regulated learning in college students",
             "type": "article-journal",
             "volume": "16"
-        },
-        {
-            "DOI": "10.1016/j.paid.2021.110673",
-            "ISSN": "01918869",
-            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0191886921000489",
-            "abstract": "During the lockdown due to SARS-CoV-2 (coronavirus lockdown), there has been a tremendous increase in the number of students taking online courses. Few studies, however, have examined the individual dispositions that influence self-regulated online learning during the coronavirus lockdown. To address this gap, the present study explored the ineffectiveness of online learning and examined how it can be predicted by self-regulated online learning and participants’ procrastination disposition. Data of 433 participants were collected and subjected to confirmatory factor analysis with structural equation modeling. The results indicated that procrastination is negatively related to 6 sub-constructs of self-regulated online learning: task strategy, mood adjustment, selfevaluation, environmental structure, time management, and help-seeking. These sub-constructs were nega­ tively related to the learners’ perceived ineffectiveness of online learning. However, the relationship between perceived learning ineffectiveness and environmental structure or help-seeking was weaker than that with task strategy or mood adjustment, indicating that the latter two subtypes of self-regulated online learning should be considered before students engage in online learning.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        5,
-                        28
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Hong",
-                    "given": "Jon-Chao"
-                },
-                {
-                    "family": "Lee",
-                    "given": "Yi-Fang"
-                },
-                {
-                    "family": "Ye",
-                    "given": "Jian-Hong"
-                }
-            ],
-            "container-title": "Personality and Individual Differences",
-            "container-title-short": "Personality and Individual Differences",
-            "id": "hong_procrastination_2021-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2021,
-                        5
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "110673",
-            "title": "Procrastination predicts online self-regulated learning and online learning ineffectiveness during the coronavirus lockdown",
-            "type": "article-journal",
-            "volume": "174"
         },
         {
             "DOI": "10.1016/B978-012109890-2/50045-7",
@@ -14490,41 +14047,6 @@
             "title-short": "A revolution in mathematics?",
             "type": "article-journal",
             "volume": "59"
-        },
-        {
-            "DOI": "10.1007/978-3-319-62597-3",
-            "ISBN": "978-3-319-62596-6 978-3-319-62597-3",
-            "URL": "http://link.springer.com/10.1007/978-3-319-62597-3",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        7,
-                        11
-                    ]
-                ]
-            },
-            "collection-title": "ICME-13 monographs",
-            "editor": [
-                {
-                    "family": "Kaiser",
-                    "given": "Gabriele"
-                }
-            ],
-            "id": "kaiser_proceedings_2017-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2017
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "publisher": "Springer International Publishing",
-            "publisher-place": "Cham",
-            "title": "Proceedings of the 13th international congress on mathematical education: ICME-13",
-            "title-short": "Proceedings of the 13th international congress on mathematical education",
-            "type": "book"
         },
         {
             "DOI": "10.1007/978-3-319-62597-3_5",
@@ -15660,28 +15182,6 @@
             "title-short": "Towards a national assessment policy in switzerland",
             "type": "article-journal",
             "volume": "25"
-        },
-        {
-            "URL": "https://stellwerk.ch/downloads/",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        8,
-                        17
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "literal": "Lehrmittelverlang St. Gallen"
-                }
-            ],
-            "id": "lehrmittelverlang_st_gallen_downloads_nodate",
-            "language": "de-DE",
-            "title": "Downloads. Stellwerk",
-            "title-short": "Downloads",
-            "type": "webpage"
         },
         {
             "author": [
@@ -16922,50 +16422,6 @@
             "volume": "91"
         },
         {
-            "DOI": "10.21240/mpaed/00/2019.10.01.X",
-            "ISSN": "1424-3636",
-            "URL": "https://www.medienpaed.com/article/view/691",
-            "abstract": "Sowohl im privaten Umfeld als auch im schulischen Bereich gewinnen Erklärvideos zunehmend an Bedeutung. Empirische Befunde belegen positive Effekte von Erklärvideos für kognitive (Wissenszuwachs) sowie für nicht-kognitive Faktoren (z.B. Motivation, Aufmerksamkeit). Dies gilt sowohl für die Rezeption als auch die Produktion von Videoerklärungen. Darüber hinaus befassen sich empirische Studien zunehmend mit der Analyse der Wirkung verschiedener Gestaltungselemente von Erklärvideos (z.B. Interaktivität, Eigenschaften der erklärenden Person). Der Beitrag verfolgt das Ziel, vorliegende empirische Befunde zu verschiedenen Gestaltungselementen zu systematisieren. Zu diesem Zweck wurden 24 Studien gesichtet, die sich mit der Wirkung einzelner Gestaltungselemente befassen. Auf Basis der Befunde werden Gestaltungsempfehlungen für Erklärvideos ausgesprochen. Es zeigt sich, dass insbesondere der Einsatz interaktiver Elemente bedeutsam für den Lernerfolg ist. Zudem wirken sich die gewählte Perspektive (d.h. die Entscheidung, ob das Video aus der Sicht des Erklärenden oder der Person, die das Modell beobachtet, gezeigt wird) sowie das Design (z.B. Ästhetik) signifikant auf den Lernerfolg aus. Mit Blick auf die erklärende Person scheint lediglich das Alter bedeutsam zu sein – nicht jedoch das Geschlecht oder deren Sichtbarkeit im Erklärvideo.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        10,
-                        12
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Findeisen",
-                    "given": "Stefanie"
-                },
-                {
-                    "family": "Horn",
-                    "given": "Sebastian"
-                },
-                {
-                    "family": "Seifried",
-                    "given": "Jürgen"
-                }
-            ],
-            "container-title": "MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung",
-            "container-title-short": "MedienPädagogik",
-            "id": "findeisen_lernen_2019",
-            "issued": {
-                "date-parts": [
-                    [
-                        2019,
-                        10,
-                        1
-                    ]
-                ]
-            },
-            "page": "16-36",
-            "title": "Lernen durch videos – empirische befunde zur gestaltung von erklärvideos",
-            "type": "article-journal"
-        },
-        {
             "DOI": "10.1007/s11469-018-0009-3",
             "ISSN": "1557-1882",
             "URL": "https://doi.org/10.1007/s11469-018-0009-3",
@@ -17758,52 +17214,6 @@
             "type": ""
         },
         {
-            "DOI": "10.1007/s11423-018-9579-9",
-            "ISSN": "1042-1629, 1556-6501",
-            "URL": "http://link.springer.com/10.1007/s11423-018-9579-9",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        11,
-                        15
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Darabi",
-                    "given": "Aubteen"
-                },
-                {
-                    "family": "Arrington",
-                    "given": "Thomas Logan"
-                },
-                {
-                    "family": "Sayilir",
-                    "given": "Erkan"
-                }
-            ],
-            "container-title": "Educational Technology Research and Development",
-            "container-title-short": "Education Tech Research Dev",
-            "id": "darabi_learning_2018-1",
-            "issue": "5",
-            "issued": {
-                "date-parts": [
-                    [
-                        2018,
-                        10
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "1101-1118",
-            "title": "Learning from failure: A meta-analysis of the empirical studies",
-            "title-short": "Learning from failure",
-            "type": "article-journal",
-            "volume": "66"
-        },
-        {
             "DOI": "10.1007/978-3-658-00118-6",
             "ISBN": "978-3-658-00117-9 978-3-658-00118-6",
             "URL": "https://link.springer.com/10.1007/978-3-658-00118-6",
@@ -17980,51 +17390,6 @@
             "volume": "37"
         },
         {
-            "DOI": "10.1187/cbe.16-03-0125",
-            "ISSN": "1931-7913",
-            "URL": "https://www.lifescied.org/doi/10.1187/cbe.16-03-0125",
-            "abstract": "Educational videos have become an important part of higher education, providing an important content-delivery tool in many flipped, blended, and online classes. Effective use of video as an educational tool is enhanced when instructors consider three elements: how to manage cognitive load of the video; how to maximize student engagement with the video; and how to promote active learning from the video. This essay reviews literature relevant to each of these principles and suggests practical ways instructors can use these principles when using video as an educational tool.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        11,
-                        15
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Brame",
-                    "given": "Cynthia J."
-                }
-            ],
-            "container-title": "CBE—Life Sciences Education",
-            "container-title-short": "LSE",
-            "editor": [
-                {
-                    "family": "Perez",
-                    "given": "Kathryn E."
-                }
-            ],
-            "id": "brame_effective_2016-1",
-            "issue": "4",
-            "issued": {
-                "date-parts": [
-                    [
-                        2016,
-                        12
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "es6",
-            "title": "Effective educational videos: Principles and guidelines for maximizing student learning from video content",
-            "title-short": "Effective educational videos",
-            "type": "article-journal",
-            "volume": "15"
-        },
-        {
             "DOI": "10.21240/mpaed/00/2019.10.01.X",
             "ISSN": "1424-3636",
             "URL": "https://www.medienpaed.com/article/view/691",
@@ -18054,7 +17419,7 @@
             ],
             "container-title": "MedienPädagogik: Zeitschrift für Theorie und Praxis der Medienbildung",
             "container-title-short": "MedienPädagogik",
-            "id": "findeisen_lernen_2019-1",
+            "id": "findeisen_lernen_2019",
             "issued": {
                 "date-parts": [
                     [
@@ -19064,51 +18429,6 @@
             "type": "book"
         },
         {
-            "DOI": "10.1007/s10648-023-09828-z",
-            "ISSN": "1040-726X, 1573-336X",
-            "URL": "https://link.springer.com/10.1007/s10648-023-09828-z",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2023,
-                        11,
-                        27
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Gorbunova",
-                    "given": "Anna"
-                },
-                {
-                    "family": "Van Merrienboer",
-                    "given": "Jeroen J. G."
-                },
-                {
-                    "family": "Costley",
-                    "given": "Jamie"
-                }
-            ],
-            "container-title": "Educational Psychology Review",
-            "container-title-short": "Educ Psychol Rev",
-            "id": "gorbunova_are_2023",
-            "issue": "4",
-            "issued": {
-                "date-parts": [
-                    [
-                        2023,
-                        12
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "111",
-            "title": "Are inductive teaching methods compatible with cognitive load theory?",
-            "type": "article-journal",
-            "volume": "35"
-        },
-        {
             "ISBN": "978-1-4338-3215-4 978-1-4338-3216-1 978-1-4338-3217-8",
             "abstract": "\"The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple languages, it is the style manual of choice for writers, researchers, editors, students, and educators in the social and behavioral sciences, natural sciences, nursing, communications, education, business, engineering, and other fields. Known for its authoritative, easy-to-use reference and citation system, the Publication Manual also offers guidance on choosing the headings, tables, figures, language, and tone that will result in powerful, concise, and elegant scholarly communication. It guides users through the scholarly writing process-from the ethics of authorship to reporting research through publication. The seventh edition is an indispensable resource for students and professionals to achieve excellence in writing and make an impact with their work. The seventh edition has been thoroughly revised and updated to reflect best practices in scholarly writing and publishing. All formats are in full color, with a new tabbed spiral version Improved ease of navigation, with many additional numbered sections to help users quickly locate answers to their questions Resources for students on writing and formatting annotated bibliographies, response papers, and other paper types as well as guidelines on citing course materials Dedicated chapter for new users of APA Style covering paper elements and format, including sample papers for both professional authors and student writers New chapter on journal article reporting standards that includes updates to reporting standards for quantitative research and the first-ever qualitative and mixed methods reporting standards in APA Style New chapter on bias-free language guidelines for writing about people with respect and inclusivity in areas including age, disability, gender, participation in research, race and ethnicity, sexual orientation, socioeconomic status, and intersectionality More than 100 new reference examples covering periodicals, books, audiovisual media, social media, webpages and websites, and legal resources More than 40 new sample tables and figures Expanded guidance on ethical writing and publishing practices, including how to ensure the appropriate level of citation, avoid plagiarism and self-plagiarism, and navigate the publication process Guidelines that support accessibility for all users, including simplified reference, in-text citation, and heading formats as well as additional font options\"–",
             "edition": "Seventh edition",
@@ -19865,7 +19185,7 @@
             ],
             "container-title": "Teaching of Psychology",
             "container-title-short": "Teaching of Psychology",
-            "id": "jensen_-class_2011-1",
+            "id": "jensen_-class_2011",
             "issue": "4",
             "issued": {
                 "date-parts": [
@@ -20638,55 +19958,6 @@
             },
             "title": "LEITFADEN DATENSICHERHEIT FÜR LEHRPERSONEN UND SCHULLEITUNGEN",
             "type": ""
-        },
-        {
-            "DOI": "10.1007/s10648-023-09828-z",
-            "ISSN": "1573-336X",
-            "URL": "https://doi.org/10.1007/s10648-023-09828-z",
-            "abstract": "Since Bruner’s introduction of discovery learning in the 1960s, there has been an ongoing and intensive debate on the value of inductive teaching methods (e.g., problem-solving followed by instruction, such as in problem-based learning and productive failure) compared to deductive teaching methods (instruction followed by problem-solving, such as direct instruction). Although it has been strongly argued that problem-first inductive methods are incompatible with human cognitive architecture as perceived by cognitive load theory, the main goal of this position paper is to appeal to broaden cognitive load research on inductive and deductive methods, and especially, their orchestration in educational programs of longer duration. We describe eight possible sequences of problem-solving and instruction and conclude that, when well designed, at least six of these sequences can be compatible with cognitive load theory, including productive failure and problem-based learning. We suggest that rather than comparing inductive with deductive methods, future research should also include inductive methods that use different types of supported problem-solving in combination with expository and inquisitory instruction. We propagate a design perspective, looking for the instructional goals, learner characteristics, and other conditions that make selected teaching methods effective, efficient, and attractive.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2024,
-                        1,
-                        15
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Gorbunova",
-                    "given": "Anna"
-                },
-                {
-                    "dropping-particle": "van",
-                    "family": "Merrienboer",
-                    "given": "Jeroen J. G."
-                },
-                {
-                    "family": "Costley",
-                    "given": "Jamie"
-                }
-            ],
-            "container-title": "Educational Psychology Review",
-            "container-title-short": "Educ Psychol Rev",
-            "id": "gorbunova_are_2023-1",
-            "issue": "4",
-            "issued": {
-                "date-parts": [
-                    [
-                        2023,
-                        11,
-                        24
-                    ]
-                ]
-            },
-            "keyword": "Problem-solving, Productive failure, 4C/ID, Deductive teaching, Expository instruction, Inductive teaching, Inquisitory instruction, Problem-based learning",
-            "language": "en-US",
-            "page": "111",
-            "title": "Are inductive teaching methods compatible with cognitive load theory?",
-            "type": "article-journal",
-            "volume": "35"
         },
         {
             "URL": "https://stellwerk.ch/stellwerk/#produkt",
@@ -21702,42 +20973,6 @@
             "volume": "139"
         },
         {
-            "ISBN": "978-3-0355-0686-0",
-            "edition": "1. Auflage",
-            "editor": [
-                {
-                    "family": "Luthiger",
-                    "given": "Herbert"
-                },
-                {
-                    "family": "Wilhelm",
-                    "given": "Markus"
-                },
-                {
-                    "family": "Wespi",
-                    "given": "Claudia"
-                },
-                {
-                    "family": "Wildhirt",
-                    "given": "Susanne"
-                }
-            ],
-            "id": "luthiger_kompetenzforderung_2018-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2018
-                    ]
-                ]
-            },
-            "number-of-pages": "356",
-            "publisher": "hep, der bildungsverlag",
-            "publisher-place": "Bern",
-            "title": "Kompetenzförderung mit aufgabensets: Theorie - konzept - praxis",
-            "title-short": "Kompetenzförderung mit aufgabensets",
-            "type": "book"
-        },
-        {
             "ISSN": "2196-1662",
             "URL": "https://www.budrich-journals.de/index.php/HiBiFo/article/view/21292",
             "abstract": "ZusammenfassungMit der Forderung eines kompetenzorientierten Unterrichts gilt es, das Potenzial von Aufgaben einerseits und ihre Funktion für den vollständigen Lernzyklus andererseits zu erkennen. Zudem verlangt der Kompetenzaufbau, wenn dieser als Prozess verstanden wird, nach einem Set von aufeinander abgestimmten Aufgaben. Lernrelevante Merkmale von Aufgaben sind dabei zu berücksichtigen.Schlüsselwörter: Kompetenzfördernde Aufgabensets, didaktische Funktionen von Aufgaben, lernrelevante Merkmale von Aufgaben—–Bibliographie: Wespi, Claudia/Luthiger, Herbert/Wilhelm, Markus: Mit Aufgabensets Kompetenzaufbau und Kompetenzförderung ermöglichen, HiBiFo, 4-2015, S. 31-46. http://dx.doi.org/10.3224/hibifo.v4i4.21292",
@@ -22509,7 +21744,7 @@
                 }
             ],
             "container-title": "The Journal of Economic Education",
-            "id": "lage_inverting_2000-1",
+            "id": "lage_inverting_2000",
             "issue": "1",
             "issued": {
                 "date-parts": [
@@ -22564,59 +21799,6 @@
             "title": "Das inverted classroom model: Begleitband zur ersten deutschen ICM-konferenz",
             "title-short": "Das inverted classroom model",
             "type": "book"
-        },
-        {
-            "DOI": "10.1007/s11858-018-0918-4",
-            "ISSN": "1863-9704",
-            "URL": "https://doi.org/10.1007/s11858-018-0918-4",
-            "abstract": "In this paper, we argue that classroom management, student support, and cognitive activation are generic aspects of classroom teaching, forming Three Basic Dimensions of teaching quality. The conceptual framework was developed in research on mathematics instruction but it is supposed to generalize across subjects. It is based on general theories of schooling and teaching as well as established theories and research traditions from educational psychology. Although used frequently in German-speaking countries, no comprehensive overview of the theoretical foundation as well as the existing evidence regarding the framework, including its strengths and weaknesses, exists so far. The present paper therefore presents first an overview of the theoretical rationale of the framework. Second, it gives an overview of differences and commonalities in the operationalizations of the Three Basic Dimensions in different studies, including a comprehensive set of sub-dimensions. Third, evidence on the reliability and validity of the dimensions is reviewed, with good results for reliability and mixed results for predictive validity. Fourth, an analysis of three mathematics lessons using observer ratings illustrates how the framework of the Three Basic Dimensions can be used for investigating instructional quality. Finally, strengths and limitations of the framework for capturing instructional quality are discussed and we elaborate on the framework’s potential for further development.",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2024,
-                        2,
-                        26
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Praetorius",
-                    "given": "Anna-Katharina"
-                },
-                {
-                    "family": "Klieme",
-                    "given": "Eckhard"
-                },
-                {
-                    "family": "Herbert",
-                    "given": "Benjamin"
-                },
-                {
-                    "family": "Pinger",
-                    "given": "Petra"
-                }
-            ],
-            "container-title": "ZDM – Mathematics Education",
-            "container-title-short": "ZDM Mathematics Education",
-            "id": "praetorius_generic_2018-1",
-            "issue": "3",
-            "issued": {
-                "date-parts": [
-                    [
-                        2018,
-                        6,
-                        1
-                    ]
-                ]
-            },
-            "keyword": "Classroom management, Cognitive activation, Student support, Teaching quality, Three Basic Dimensions",
-            "language": "en-US",
-            "page": "407-426",
-            "title": "Generic dimensions of teaching quality: The german framework of three basic dimensions",
-            "title-short": "Generic dimensions of teaching quality",
-            "type": "article-journal",
-            "volume": "50"
         },
         {
             "ISBN": "978-3-86793-869-3 978-3-86793-790-0",
@@ -23168,8 +22350,8 @@
                 "date-parts": [
                     [
                         2024,
-                        7,
-                        3
+                        3,
+                        7
                     ]
                 ]
             },
@@ -24259,6 +23441,783 @@
             },
             "title": "Geistiges eigentum merkblatt (fassung vom november 2023)",
             "type": ""
+        },
+        {
+            "DOI": "10.1016/j.caeo.2023.100142",
+            "ISSN": "2666-5573",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S2666557323000204",
+            "abstract": "This is a study of two populations of learners/teachers: Pre-service teacher students (i.e., formal education for teaching certification) and In-service teachers (i.e., engaged in professional development), and involves an examination of their use of internet-based instructional applications. In these studies, the technologies are: a) Online Learning [OL]; b) Blended Learning [BL] and c) Flipped Classrooms [FC]. Treatments were compared to standard face-to-face classroom instruction (CI) on three dependent measures analysed separately to produce 77 achievement measures in the first meta-analysis, 21 attitude/satisfaction measures in the second, and 22 studies of self-efficacy in the third. Achievement data yielded a statistically significant, moderate effect size (i.e., g+= 0.44) in favor of the combined OL, BL and FC approaches versus CI, although OL showed only a small positive effect versus CI. Attitude yielded a non-significant effect size comparing CI with technology-supported strategies (g+= 0.12). Interestingly, self-efficacy produced a significant and moderate average random effect size of g+ = 0.45. Perhaps the most impactful finding of this analysis is related to improved performance of BL/FC when contrasted with OL, yielding significantly positive differences in all three measures. This confirms that improved outcomes are the result of better pedagogy, not the mere presence of technology. Finally, self-efficacy was found to be meaningfully improved when using BL/FC. This is the first meta-analysis with this target population implicating self-efficacy. These two outcomes offer important implications for institutions regarding the future design of instructional delivery for both pre- and in-service teachers.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Schmid",
+                    "given": "Richard F."
+                },
+                {
+                    "family": "Borokhovski",
+                    "given": "Eugene"
+                },
+                {
+                    "family": "Bernard",
+                    "given": "Robert M."
+                },
+                {
+                    "family": "Pickup",
+                    "given": "David I."
+                },
+                {
+                    "family": "Abrami",
+                    "given": "Phillip C."
+                }
+            ],
+            "container-title": "Computers and Education Open",
+            "container-title-short": "Computers and Education Open",
+            "id": "schmid_meta-analysis_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        12,
+                        15
+                    ]
+                ]
+            },
+            "keyword": "Distance education and online learning, Improving classroom teaching, Media in education, Teacher professional development, Teaching/learning strategies",
+            "page": "100142",
+            "title": "A meta-analysis of online learning, blended learning, the flipped classroom and classroom instruction for pre-service and in-service teachers",
+            "type": "article-journal",
+            "volume": "5"
+        },
+        {
+            "DOI": "10.1007/s42010-021-00136-5",
+            "ISSN": "0340-4099, 2520-873X",
+            "URL": "https://link.springer.com/10.1007/s42010-021-00136-5",
+            "abstract": "Zusammenfassung Im Rahmen der ersten repräsentativen schweizweiten Überprüfung der mathematischen Grundkompetenzen am Ende der Sekundarstufe I (ÜGK 2016) wurden auch die Einstellungen bzw. Beliefs von 10.539 Schülerinnen und Schülern zum Mathematikunterricht erhoben. Es wurde zwischen Beliefs zum instruktivistischen Lernen und Beliefs zum konstruktivistischen Lernen – differenziert in drei Subdimensionen entdeckendes Lernen, soziales Lernen und realitätsbezogenes Lernen – unterschieden. Anders als es die theoretischen Erwartungen nahelegten, bilden die konstruktivistischen und instruktivistischen Einstellungen keine Gegensätze, sondern bestehen nebeneinander. Einstellungen zum entdeckenden und instruktivistischen Lernen korrelieren hoch miteinander und sind positive Prädiktoren für ein gutes Ergebnis im mathematischen Leistungstest, während Einstellungen zum sozialen und realitätsbezogenen Lernen negative Prädiktoren sind. Diese Befunde sind für Schülerinnen stärker ausgeprägt als für Schüler und steigen mit zunehmenden Schulniveau an. Von Schülerinnen und Schülern wahrgenommene Angebote zu einem kognitiv aktivierenden Mathematikunterricht werden ähnlich wie bei impliziten Theorien zur Intelligenz vollständig über ihre Einstellungen zum Lernen auf ihre mathematischen Testergebnisse mediiert, und zwar positiv über Einstellungen zum entdeckenden und instruktivistischen Lernen und negativ über Einstellungen zum realitätsbezogenen Lernen. , Abstract As part of the first representative Swiss large-scale assessment of basic mathematical competencies at the end of lower secondary education (ÜGK 2016), 10,539 students reported their beliefs towards mathematics learning. Beliefs were differentiated into beliefs on transmissive learning and beliefs of constructivist learning with three subdomains of discovery learning, social learning and reality-based learning. Contrary to theoretical expectations, the constructivist and transmissive beliefs do not form opposites but align with each other. Beliefs on discovery and transmissive learning techniques are highly correlated and are positive predictors of mathematical achievement, while beliefs on social learning and reality-based learning are negative predictors. These findings are more pronounced for female students than for male students and increase with higher school levels. Similar to implicit theories on intelligence, the effects of mathematics instruction that is perceived by students as cognitively activating on mathematical achievement are completely mediated by their beliefs toward mathematics learning. It was found that beliefs on discovery and transmissive learning serve as positive mediators, beliefs on reality-based learning as negative mediator.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Girnat",
+                    "given": "Boris"
+                },
+                {
+                    "family": "Hascher",
+                    "given": "Tina"
+                }
+            ],
+            "container-title": "Unterrichtswissenschaft",
+            "container-title-short": "Unterrichtswiss",
+            "id": "girnat_beliefs_2021",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        12
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "525-546",
+            "title": "Beliefs von Schweizer Schülerinnen und Schülern zum konstruktivistischen und instruktivistischen Lernen im Mathematikunterricht der Sekundarstufe I – Ergebnisse eines Large-Scale-Assessments zur Überprüfung mathematischer Grundkompetenzen (ÜGK) 2016",
+            "type": "article-journal",
+            "volume": "49"
+        },
+        {
+            "DOI": "10.24452/sjer.42.2.7",
+            "ISSN": "2624-8492, 1424-3946",
+            "URL": "https://sjer.ch/article/view/5539",
+            "abstract": "Auf der Basis der Erwartungs-mal-Wert-Theorie (Eccles et al., 1983) wird anhand der Schweizer ÜGK-Daten 2016 der Zusammenhang zwischen motivationalen Variablen und Mathematikleistung bei N = 11’131 Schüler/innen am Ende der obligatorischen Schulzeit überprüft. Die Ergebnisse bestätigen den hohen prädiktiven Wert von Lernzielorientierungen, Selbstkonzept und Selbstwirksamkeitserwar-tung für die Mathematikleistung. Geschlechtsspezifische Unterschiede, etwa das deutlich geringere mathematische Selbstkonzept von Mädchen (N = 5’423) gegenüber Jungen (N = 5’708) trotz vergleichbarer Leistungen, lassen sich durch eine mehr-dimensionale Erfassung der mathematischen Selbstwirksamkeitserwartung differenzieren. So lassen sich beispielsweise signifikante Unterschiede in der angewandten Mathematik, nicht jedoch in der Algebra verorten. Bezüglich der Zielorientierungen bestehen ebenfalls Geschlechterunterschiede: Jungen weisen in allen Facetten höhere Werte auf als Mädchen; allerdings sind die Effekte geringer als bei den meisten Skalen der Selbstwirksamkeitserwartung.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Girnat",
+                    "given": "Boris"
+                },
+                {
+                    "family": "Hagenauer",
+                    "given": "Gerda"
+                },
+                {
+                    "family": "Hascher",
+                    "given": "Tina"
+                }
+            ],
+            "container-title": "Swiss Journal of Educational Research",
+            "container-title-short": "SJER",
+            "id": "girnat_zusammenhang_2020",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        10,
+                        14
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "414-438",
+            "title": "Der Zusammenhang von Schülermotivation und Mathematikleistung in der Überprüfung des Erreichens der Grundkompetenzen (ÜGK) 2016",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "DOI": "10.1006/ceps.1999.1015",
+            "ISSN": "0361-476X",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0361476X99910159",
+            "abstract": "We discuss the expectancy–value theory of motivation, focusing on an expectancy–value model developed and researched by Eccles, Wigfield, and their colleagues. Definitions of crucial constructs in the model, including ability beliefs, expectancies for success, and the components of subjective task values, are provided. These definitions are compared to those of related constructs, including self-efficacy, intrinsic and extrinsic motivation, and interest. Research is reviewed dealing with two issues: (1) change in children’s and adolescents’ ability beliefs, expectancies for success, and subjective values, and (2) relations of children’s and adolescents’ ability-expectancy beliefs and subjective task values to their performance and choice of activities.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wigfield",
+                    "given": "Allan"
+                },
+                {
+                    "family": "Eccles",
+                    "given": "Jacquelynne S."
+                }
+            ],
+            "container-title": "Contemporary Educational Psychology",
+            "container-title-short": "Contemporary Educational Psychology",
+            "id": "wigfield_expectancyvalue_2000",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2000,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "page": "68-81",
+            "title": "Expectancy–value theory of achievement motivation",
+            "type": "article-journal",
+            "volume": "25"
+        },
+        {
+            "DOI": "10.1007/s11618-019-00898-w",
+            "ISSN": "1434-663X, 1862-5215",
+            "URL": "http://link.springer.com/10.1007/s11618-019-00898-w",
+            "abstract": "Individual student characteristics like self-beliefs, motivational and emotional orientations are major factors in school performance and inﬂuence the latter based on a complex network of direct and indirect effects. This study explores the relations between these individual characteristics as well as their effects on students’ mathematics achievement using a linear structural equation model. As a theoretical framework, the expectancy-value theory of Eccles as well as the control-value theory of Pekrun are utilised. The empirical analyses are based on a data set from the 2012 PISA study comprising 4168 15-year-old students, who predominantly attended the ninth grade. The results show that self-beliefs (i.e. self-concept and self-efﬁcacy) in conjunction with instrumental motivational orientation account very well for differences in emotional orientations (i.e. enjoyment and interest as well as anxiety) in mathematics. Moreover, self-concept plays a central role in explaining the other personality traits, while self-efﬁcacy has the strongest positive effect on mathematics achievement.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Mews",
+                    "given": "Sina"
+                },
+                {
+                    "family": "Pöge",
+                    "given": "Andreas"
+                }
+            ],
+            "container-title": "Zeitschrift für Erziehungswissenschaft",
+            "container-title-short": "Z Erziehungswiss",
+            "id": "mews_zusammenspiel_2019",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        8
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "899-924",
+            "title": "Das Zusammenspiel von Selbstbildern, motivationalen und emotionalen Orientierungen sowie deren Einfluss auf die Mathematikleistung in der PISA-Studie 2012",
+            "type": "article-journal",
+            "volume": "22"
+        },
+        {
+            "DOI": "10.1007/978-3-658-32660-9_3",
+            "ISBN": "978-3-658-32660-9",
+            "URL": "https://doi.org/10.1007/978-3-658-32660-9_3",
+            "abstract": "Nach einem Überblick zu den Methoden der Strukturgleichungsanalyse werden in Abschn. 3.2 die Grundlagen der Pfadanalyse sowie der Kausalanalyse dargestellt und anhand von einfachen Beispielen erläutert. In Abschn. 3.3 werden sodann die Charakteristika und Ablaufschritte von Strukturgleichungsmodellen mit latenten Variablen allgemein dargestellt und mit dem kovarianzanalytischen (LISREL; AMOS) und dem varianzanalytischen Ansatz (Partial Least Squares-Ansatz; PLS) die beiden gegensätzlichen Vorgehensweisen bei der Modellschätzung, die im Bereich der Kausalanalyse bestehen, in ihren Grundzügen vorgestellt und abschließend einem zusammenfassenden Vergleich unterzogen. Die detaillierte Anwendung von AMOS und SmartPLS unter Rückgriff auf das in Kap. 4 dargestellte Fallbeispiel erfolgt dann in den Kap. 5, 6, 7, 8, 9, 10 und 11 (AMOS) bzw. in Kap. 15 (PLS).",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Weiber",
+                    "given": "Rolf"
+                },
+                {
+                    "family": "Sarstedt",
+                    "given": "Marko"
+                }
+            ],
+            "container-title": "Strukturgleichungsmodellierung: Eine anwendungsorientierte Einführung in die Kausalanalyse mit Hilfe von AMOS, SmartPLS und SPSS",
+            "editor": [
+                {
+                    "family": "Weiber",
+                    "given": "Rolf"
+                },
+                {
+                    "family": "Sarstedt",
+                    "given": "Marko"
+                }
+            ],
+            "id": "weiber_methoden_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "21-89",
+            "publisher": "Springer Fachmedien",
+            "publisher-place": "Wiesbaden",
+            "title": "Methoden der Strukturgleichungsanalyse (SGA)",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "0-7167-1396-9",
+            "URL": "https://www.semanticscholar.org/paper/Expectancies%2C-values-and-academic-behaviors-Eccles/41eccafa265b4d0fe20d9c5bfa9893f97e87edc8",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Eccles"
+                }
+            ],
+            "container-author": [
+                {
+                    "family": "Spence",
+                    "given": "Janet T."
+                }
+            ],
+            "container-title": "Achievement and achievement motives",
+            "editor": [
+                {
+                    "literal": "Richard C. Atkins"
+                },
+                {
+                    "literal": "Gardner Lindzey"
+                },
+                {
+                    "literal": "Richard F. Thompson"
+                }
+            ],
+            "id": "eccles_expectancies_1983",
+            "issued": {
+                "date-parts": [
+                    [
+                        1983
+                    ]
+                ]
+            },
+            "page": "75-146",
+            "publisher": "W. H. Freeman; Company",
+            "publisher-place": "San Francisco",
+            "title": "Expectancies, values and academic behaviors  semantic scholar",
+            "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/978-3-642-39773-8",
+            "ISBN": "978-3-642-39772-1 978-3-642-39773-8",
+            "URL": "https://link.springer.com/10.1007/978-3-642-39773-8",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Reiss",
+                    "given": "Kristina"
+                },
+                {
+                    "family": "Schmieder",
+                    "given": "Gerald"
+                }
+            ],
+            "id": "reiss_basiswissen_2014",
+            "issued": {
+                "date-parts": [
+                    [
+                        2014
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "publisher": "Springer Berlin Heidelberg",
+            "publisher-place": "Berlin, Heidelberg",
+            "title": "Basiswissen Zahlentheorie: Eine Einführung in Zahlen und Zahlbereiche",
+            "title-short": "Basiswissen Zahlentheorie",
+            "type": "book"
+        },
+        {
+            "DOI": "10.3102/0034654311421793",
+            "ISSN": "0034-6543",
+            "URL": "https://doi.org/10.3102/0034654311421793",
+            "abstract": "A meta-analytic approach was used to investigate the associations between affective qualities of teacher–student relationships (TSRs) and students’ school engagement and achievement. Results were based on 99 studies, including students from preschool to high school. Separate analyses were conducted for positive relationships and engagement (k = 61 studies, N = 88,417 students), negative relationships and engagement (k = 18, N = 5,847), positive relationships and achievement (k = 61, N = 52,718), and negative relationships and achievement (k = 28, N = 18,944). Overall, associations of both positive and negative relationships with engagement were medium to large, whereas associations with achievement were small to medium. Some of these associations were weaker, but still statistically significant, after correction for methodological biases. Overall, stronger effects were found in the higher grades. Nevertheless, the effects of negative relationships were stronger in primary than in secondary school.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Roorda",
+                    "given": "Debora L."
+                },
+                {
+                    "family": "Koomen",
+                    "given": "Helma M. Y."
+                },
+                {
+                    "family": "Spilt",
+                    "given": "Jantine L."
+                },
+                {
+                    "family": "Oort",
+                    "given": "Frans J."
+                }
+            ],
+            "container-title": "Review of Educational Research",
+            "id": "roorda_influence_2011",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Publisher: American Educational Research Association",
+            "page": "493-529",
+            "title": "The influence of affective teacher–student relationships on students’ school engagement and achievement: A meta-analytic approach",
+            "title-short": "The influence of affective teacher–student relationships on students’ school engagement and achievement",
+            "type": "article-journal",
+            "volume": "81"
+        },
+        {
+            "ISBN": "978-0-534-00189-6",
+            "author": [
+                {
+                    "family": "Johnson",
+                    "given": "Donovan A."
+                },
+                {
+                    "family": "Rising",
+                    "given": "Gerald R."
+                }
+            ],
+            "edition": "2d ed",
+            "id": "johnson_guidelines_1972",
+            "issued": {
+                "date-parts": [
+                    [
+                        1972
+                    ]
+                ]
+            },
+            "keyword": "Mathematics, Study and teaching",
+            "number-of-pages": "544",
+            "publisher": "Wadsworth Pub. Co",
+            "publisher-place": "Belmont, Calif",
+            "title": "Guidelines for teaching mathematics",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1515/iwp-2019-2060",
+            "ISSN": "1619-4292",
+            "URL": "https://www.degruyter.com/document/doi/10.1515/iwp-2019-2060/html",
+            "abstract": "Zusammenfassung Die Institutionen des Bildungssystems scheinen ein idealer Ort für die Digitalisierung zu sein – dank standardisierter Inhalte, massenhafter Daten über das zu Lehrende und bald auch massenhafter Daten über das Lernen. Doch nach den bisherigen vermeintlichen Tsunamis im Bildungssystem stellt sich die Frage, ob auch die neuerliche Revolution verebben wird. Ein Grundproblem der Ansätze ist ihr Start-up-typischer Solutionismus (Morozov): Sie verkennen, worum es überhaupt unter der Oberfläche geht.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        23
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Loviscach",
+                    "given": "Jörn"
+                }
+            ],
+            "container-title": "Information - Wissenschaft & Praxis",
+            "id": "loviscach_lehren_2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        1,
+                        20
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "note": "Publisher: De Gruyter Saur Section: Information – Wissenschaft & Praxis",
+            "page": "23-27",
+            "title": "Lehren, Lernen und flache Digitalisierung",
+            "type": "article-journal",
+            "volume": "71"
+        },
+        {
+            "URL": "https://kssursee.lu.ch/-/media/KSSursee/Dokumente/Dokumente/Lehrplaene_UG_neu/UG_Lehrplan_Mathematik.pdf?rev=b00c1f1397224cdf8c24d6b6eabdd807",
+            "abstract": "Lehrplan fürs UG an der Kantonsschule Sursee",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        3,
+                        30
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Kantonsschule Sursee Luzern"
+                }
+            ],
+            "id": "kantonsschule_sursee_luzern_lehrplan_nodate",
+            "title": "Lehrplan für das fach mathematik",
+            "type": ""
+        },
+        {
+            "URL": "https://www.ml4t.ch/Zurfluh2022.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        4
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Zurfluh",
+                    "given": "Thomas"
+                }
+            ],
+            "id": "zurfluh_machine_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        7,
+                        24
+                    ]
+                ]
+            },
+            "title": "Machine learning for teachers evaluation und entwicklung von lehr- und lernmaterialien zum thema künstliche intelligenz für lehrpersonen ab sekundarstufe 1",
+            "type": ""
+        },
+        {
+            "DOI": "10.1177/002205741319300302",
+            "ISSN": "0022-0574",
+            "URL": "https://doi.org/10.1177/002205741319300302",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Shulman",
+                    "given": "Lee S."
+                }
+            ],
+            "container-title": "Journal of Education",
+            "id": "shulman_those_2013",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        10,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "note": "Publisher: SAGE Publications Inc",
+            "page": "1-11",
+            "title": "Those who understand: Knowledge growth in teaching",
+            "title-short": "Those who understand",
+            "type": "article-journal",
+            "volume": "193"
+        },
+        {
+            "DOI": "10.1145/3556787.3556788",
+            "ISBN": "978-1-4503-9853-4",
+            "URL": "https://dl.acm.org/doi/10.1145/3556787.3556788",
+            "abstract": "Machine learning (ML) has triggered major changes across a great number of computing fields. People’s lives today are full of ML-driven services: eerily accurate recommendations, ability to automatically tag one’s friends in photos, and well working translation systems, for example. This keynote talk presents how ML technology upends the computational thinking (CT) consensus in computing education. It begins by presenting why and how a number of classical “CT1.0” concepts need to be re-thought for the “CT2.0” (machine learning) era, from control structures and problem-solving workflow, to correctness and notional machines. Based on a series of classroom interventions on teaching machine learning to middle schoolers, conducted by DIGS RC at University of Eastern Finland, the talk also presents how classroom pedagogy shifts between CT1.0 and CT2.0.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        1
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Tedre",
+                    "given": "Matti"
+                }
+            ],
+            "collection-title": "WiPSCE ’22",
+            "container-title": "Proceedings of the 17th workshop in primary and secondary computing education",
+            "id": "tedre_computational_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        10,
+                        31
+                    ]
+                ]
+            },
+            "keyword": "Artificial intelligence, Computational thinking, K-12, Machine learning, School",
+            "page": "1-2",
+            "publisher": "Association for Computing Machinery",
+            "publisher-place": "New York, NY, USA",
+            "title": "Computational thinking 2.0",
+            "type": "paper-conference"
+        },
+        {
+            "DOI": "10.3390/joitmc8010045",
+            "ISSN": "2199-8531",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S219985312201054X",
+            "abstract": "Artificial intelligence (AI) is a powerful technology with a range of capabilities, which are beginning to become apparent in all industries nowadays. The increased popularity of AI in the construction industry, however, is rather limited in comparison to other industry sectors. Moreover, despite AI being a hot topic in built environment research, there are limited review studies that investigate the reasons for the low-level AI adoption in the construction industry. This study aims to reduce this gap by identifying the adoption challenges of AI, along with the opportunities offered, for the construction industry. To achieve the aim, the study adopts a systematic literature review approach using the PRISMA protocol. In addition, the systematic review of the literature focuses on the planning, design, and construction stages of the construction project lifecycle. The results of the review reveal that (a) AI is particularly beneficial in the planning stage as the success of construction projects depends on accurate events, risks, and cost forecasting; (b) the major opportunity in adopting AI is to reduce the time spent on repetitive tasks by using big data analytics and improving the work processes; and (c) the biggest challenge to incorporate AI on a construction site is the fragmented nature of the industry, which has resulted in issues of data acquisition and retention. The findings of the study inform a range of parties that operate in the construction industry concerning the opportunities and challenges of AI adaptability and help increase the market acceptance of AI practices.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        2
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Regona",
+                    "given": "Massimo"
+                },
+                {
+                    "family": "Yigitcanlar",
+                    "given": "Tan"
+                },
+                {
+                    "family": "Xia",
+                    "given": "Bo"
+                },
+                {
+                    "family": "Li",
+                    "given": "Rita Yi Man"
+                }
+            ],
+            "container-title": "Journal of Open Innovation: Technology, Market, and Complexity",
+            "container-title-short": "Journal of Open Innovation: Technology, Market, and Complexity",
+            "id": "regona_opportunities_2022",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        3,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "AI adoption challenges, AI opportunities, artificial intelligence (AI), construction ecosystem, construction industry, construction technology, industry 4.0, innovation ecosystem, open innovation, technology adoption",
+            "page": "45",
+            "title": "Opportunities and adoption challenges of AI in the construction industry: A PRISMA review",
+            "title-short": "Opportunities and adoption challenges of AI in the construction industry",
+            "type": "article-journal",
+            "volume": "8"
+        },
+        {
+            "author": [
+                {
+                    "family": "Cardona",
+                    "given": "Miguel A"
+                },
+                {
+                    "family": "Rodríguez",
+                    "given": "Roberto J"
+                },
+                {
+                    "family": "Ishmael",
+                    "given": "Kristina"
+                }
+            ],
+            "id": "cardona_artificial_nodate",
+            "language": "en-US",
+            "title": "Artificial intelligence and the future of teaching and learning",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "978-3-589-16307-6",
+            "edition": "12. Auflage",
+            "editor": [
+                {
+                    "family": "Bovet",
+                    "given": "Gislinde"
+                },
+                {
+                    "family": "Huwendiek",
+                    "given": "Volker"
+                }
+            ],
+            "id": "bovet_leitfaden_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "number-of-pages": "639",
+            "publisher": "Cornelsen",
+            "publisher-place": "Berlin",
+            "title": "Leitfaden schulpraxis: Pädagogik und psychologie für den lehrberuf",
+            "title-short": "Leitfaden schulpraxis",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-619-01479-8",
+            "author": [
+                {
+                    "family": "Wollring",
+                    "given": "Bernd"
+                }
+            ],
+            "container-author": [
+                {
+                    "family": "Lilitakis",
+                    "given": "Georg"
+                },
+                {
+                    "family": "Spindeler",
+                    "given": "Brigitte"
+                },
+                {
+                    "family": "Peter-Koop",
+                    "given": "Andrea"
+                }
+            ],
+            "container-title": "Lernumgebungen - ein weg zum kompetenzorientierten mathematikunterricht in der grundschule: Festschrift zum 60. Geburtstag von bernd wollring",
+            "id": "lilitakis_zur_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "keyword": "Mathematikunterricht, Fachdidaktik, Mathematik, Grundschule, Lernaufgabe, Lernumwelt, Zyklus 1 und 2",
+            "page": "9-22",
+            "publisher": "Mildenberger",
+            "publisher-place": "Offenburg",
+            "title": "Zur kennzeichnung von lernumgebungen für den mathematikunterricht in der grundschule",
+            "type": "chapter"
+        },
+        {
+            "author": [
+                {
+                    "family": "Friedrich",
+                    "given": "Helmut"
+                },
+                {
+                    "family": "Mandl",
+                    "given": "Heinz"
+                }
+            ],
+            "container-title": "Lern- und denkstrategien",
+            "id": "friedrich_analyse_1997",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "note": "Journal Abbreviation: Lern- Und Denkstrategien",
+            "page": "237-296",
+            "title": "Analyse und förderung selbstgesteuerten lernens",
+            "type": "chapter"
         }
     ],
     "project_biblios": [

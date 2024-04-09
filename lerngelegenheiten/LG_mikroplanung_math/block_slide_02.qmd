@@ -1,0 +1,9 @@
+---
+title: "Mikroplanung Mathematik"
+subtitle: Woche 1
+format: revealjs
+---
+# Was ist Mikroplanung?
+
+
+# Arbeitsaufteilung

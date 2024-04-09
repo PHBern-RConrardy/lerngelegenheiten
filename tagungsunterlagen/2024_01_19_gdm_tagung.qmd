@@ -1,6 +1,6 @@
 ---
 title: "Mathematikverständnis stärken in Zeiten von KI"
-subtitle: "Workshop"
+subtitle: "Workshop Gesellschaft für Didaktik der Mathematik Schweiz"
 authors:
   - name: Joel Adler
     affiliations: PHBern

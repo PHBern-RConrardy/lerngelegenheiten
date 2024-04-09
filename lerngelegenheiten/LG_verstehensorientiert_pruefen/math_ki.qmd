@@ -8,29 +8,26 @@ categories:
   - Digitalität
 authors:
     - name: Richard Conrardy
+      roles: 
+      - investigation: lead 
+      - data curation: supporting
       orcid: 0009-0004-2063-6898
       id: 00383195
       email: richard.conrardy@phbern.ch
       url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
       affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
+        - ref: phbern
     - name: Joël Adler
       url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
       affiliations:
-          - name: University of Teacher Education Bern
-            address: Länggassstrasse 35
-            city: Bern
-            postal-code: 3012
-            url: https://www.phbern.ch
-            department: Institut Sekundarstufe I
-            ror: https://ror.org/05jf1ma54
+          - ref: phbern
+          
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+citation: 
+  author:
+    - Peter Giger
+    - Richard Conrardy
+    - Joel Adler
 ---
 
 ::: {style="text-align: center;"}
