@@ -2063,5 +2063,75 @@
     "title": "Inhalte effizient onlinebringen",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#teilbarkeit",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#teilbarkeit",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Teilbarkeit",
+    "text": "Teilbarkeit\nBestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vierquadratesatz-von-lagrange",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#vierquadratesatz-von-lagrange",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Vierquadratesatz von Lagrange",
+    "text": "Vierquadratesatz von Lagrange\n\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.\n\nMan kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.\n\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.\n\n\n\nLösungsvorschlag\n\nDieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter CC BY-SA 4.0 Lizenz.\n# Lösung von Leandro Lüthi unter CC BY-SA 4.0 Lizenz\ndef istSumVonQuadr(zahl, anz_quadrnr):\n  # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.\n  if anz_quadrnr == 2:\n    for i in range(1, int(zahl**0.5)+1):\n    # for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe\n    # Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist\n      for j in range(i, int(zahl**0.5)+1):\n        if i**2 + j**2 == zahl:\n          return True\n          # Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück\n    return False\n  else:\n    # Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen\n    for i in range(1, int(zahl**0.5) + 1):\n      # Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe\n      if istSumVonQuadr(zahl - i**2, anz_quadrnr - 1):\n        return True\n        \"\"\"\n        Von der 'zahl' wird das Quadrat von i subdrahiert\n        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz\n        zwischen i**2 und zahl ergeben\n        \"\"\"\n    return False\n\n# Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können\nsumme_quadraten_zahlen = []\nprint(\"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:\",flush=True)\nrangeOfQuadrNr = int(input(\"Zahl: \"))\nquadrnr = int(input(\"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: \"))\n# Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr\nfor zahl in range(1, rangeOfQuadrNr):\n  if istSumVonQuadr(zahl, quadrnr):\n    \"\"\"\n    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben\n    \"\"\"\n    summe_quadraten_zahlen.append(zahl)\n# Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht\n\n# Ausgabe der gefundenen Zahlen\nprint(\"Natürliche Zahlen kleiner als \"+str(rangeOfQuadrNr)+\", die Summe von \"+str(quadrnr)+\" Quadraten sind: \")\nfor zahl in summe_quadraten_zahlen:\n  print(zahl)\n  # Alle Elemente unserer Liste, werden geprinted"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#quadratzahlen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#quadratzahlen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Quadratzahlen",
+    "text": "Quadratzahlen\nDie SuS erkennen, dass jede natürliche Zahl \\(n\\) als Summe von vier Quadratzahlen dargestellt werden kann.\nNun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl \\(n\\) für alle \\(s\\leq n\\), \\(s\\in\\mathbb{N}\\), das kleinste \\(k\\) mit \\(s=\\sum_{i=1}^kx_i^3\\) zu bestimmen.\nSuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#stammbrüche",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#stammbrüche",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Stammbrüche",
+    "text": "Stammbrüche\nJeder Bruch \\(0&lt;\\frac{p}{q}&lt;1\\) kann als Summe verschiedener Stammbr?che dargestellt werden, zum Beispiel \\(\\frac{4}{17}=\\frac{1}{5}+\\frac{1}{30}+\\frac{1}{510}\\).\nSchreiben eines Programm, das bei Eingabe eines Bruchs \\(\\frac{p}{q}\\) eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.\nMan kann noch verlangen, dass die Eingabe \\(\\frac{p}{q}\\) auf die Bedingung \\(0&lt;\\frac{p}{q}&lt;1\\) getestet wird."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#collatz-problem",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#collatz-problem",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Collatz-Problem",
+    "text": "Collatz-Problem\nDie Vermutung von Collatz:\nFür jede Startzahl \\(n\\) erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv \\[a_0=n,\\quad a_{n+1}=\\begin{cases}\\frac{a_n}{2} & a_n\\text{ gerade }\\\\3a_n+1&a_n \\text{ ungerade}\\end{cases}\\]\ndefiniert.\nProgrammieren Sie die Funktion collatz(n)welche die Anzahl Schritte bis \\(a_n=1\\) ausgibt."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#sieb-des-eratosthenes",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#sieb-des-eratosthenes",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Sieb des Eratosthenes",
+    "text": "Sieb des Eratosthenes\nDas Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.\nDie Eingabe ist eine natürliche Zahl \\(n\\), die Ausgabe die Liste aller Primzahlen kleiner gleich \\(n\\).\nBestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen \\(a\\) und \\(b\\) (mit \\(a&gt;b\\)) bestimmt werden, indem für die Elemente der Liste der Teiler von \\(b\\) beginnend mit dem gr?ssten Element getestet wird, ob sie \\(a\\) teilen.\n\n\nLösungsvorschlag\n\ndef primzahlen_bis_100():\n  liste_2_bis_100 = list(range(2, 101))\n  primzahlen = []\n  \n  while liste_2_bis_100:\n    # Erste Zahl aus der Liste wird den Primzahlen hinzugefügt\n      prime = liste_2_bis_100[0]\n      primzahlen.append(prime)\n    # Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:\n      for i in range(1,100):\n    # Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:\n        if i*prime in liste_2_bis_100:\n          liste_2_bis_100.remove(i*prime)\n\n  print(primzahlen)\n\nprimzahlen_bis_100()"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#potenz--exponentialfunktion",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#potenz--exponentialfunktion",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Potenz-, Exponentialfunktion",
+    "text": "Potenz-, Exponentialfunktion\nVergleich des Wachstums von Potenz- und Exponentialfunktionen.\nZiel: Zur Eingabe zweier Zahlen \\(a\\) und \\(b\\), \\(a&gt;1\\), \\(b\\in\\mathbb{N}\\), die kleinste natürliche Zahl \\(n\\) bestimmen, für die \\(n^b&lt;a^n\\) gilt.\nDie SuS erkennen, dass jede Exponentialfunktion (auch für \\(a=1.0001\\)) schneller wächst als jede Potenzfunktion."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#narzistische-zahlen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#narzistische-zahlen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Narzistische Zahlen",
+    "text": "Narzistische Zahlen\nDas Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl \\(n\\)\nEine Zahl heisst \\(k=a_{n-1}a_{n-2}\\ldots a_1a_0\\) narzistisch, wenn \\(k=\\sum_{i=0}^{n-1}a_i^n\\) gilt.\nBeispiele narzistischer Zahlen sind 153 und 371 (\\(153=1^3+5^3+3^3\\), \\(371=3^3+7^3+1^3\\))"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#perfekte-zahlen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#perfekte-zahlen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Perfekte Zahlen",
+    "text": "Perfekte Zahlen\nEine natürliche Zahl \\(n\\) wird perfekte Zahl genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.\nBeispiel:\n\\(28\\) hat als Teiler \\(1,2,4,7,14,28\\) und \\(28=1+2+4+7+14\\).\nFinden Sie alle perfekten Zahlen kleiner als \\(n\\)."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#befreundete-zahlen",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#befreundete-zahlen",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Befreundete Zahlen",
+    "text": "Befreundete Zahlen\nProgrammieren Sie eine Funktion befreundet(zahl1,zahl2) welche überprüft ob zwei gegebene Zahlen befreutete Zahlen sind.\nFinden Sie alle befreundete Zahlen kleiner als \\(n\\)."
   }
 ]
