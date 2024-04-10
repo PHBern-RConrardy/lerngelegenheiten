@@ -2133,5 +2133,12 @@
     "title": "Verstehensorientiert prüfen in Zeiten von KI",
     "section": "Befreundete Zahlen",
     "text": "Befreundete Zahlen\nProgrammieren Sie eine Funktion befreundet(zahl1,zahl2) welche überprüft ob zwei gegebene Zahlen befreutete Zahlen sind.\nFinden Sie alle befreundete Zahlen kleiner als \\(n\\)."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#potenzwachstum-und-exponentielles-wachstum",
+    "href": "lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html#potenzwachstum-und-exponentielles-wachstum",
+    "title": "Verstehensorientiert prüfen in Zeiten von KI",
+    "section": "Potenzwachstum und Exponentielles Wachstum",
+    "text": "Potenzwachstum und Exponentielles Wachstum\nMA.1.C.2.k MA.3.A.1.n\nFrage den Nutzer nach zwei Zahlen \\(q\\in \\mathbb{R}\\) und \\(n \\in \\mathbb{N}\\).\nBerechnen Sie ab welchem \\(x \\in \\mathbb{N}\\), \\(q^x &gt; x^n\\)."
   }
 ]

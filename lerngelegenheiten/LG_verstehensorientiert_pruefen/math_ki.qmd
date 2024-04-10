@@ -371,4 +371,11 @@ Programmieren Sie eine Funktion `befreundet(zahl1,zahl2)` welche überprüft ob 
 
 Finden Sie alle befreundete Zahlen kleiner als $n$.
 
+## Potenzwachstum und Exponentielles Wachstum
 
+[MA.1.C.2.k](https://be.lehrplan.ch/101y8NsVTP6MGVEGREXbWpkDCHSb9NXEa){.knopf .stufe}
+[MA.3.A.1.n](https://be.lehrplan.ch/101hWBWgYGRHp3hS5DNZFdz32rNScD4Ye){.knopf .stufe}
+
+Frage den Nutzer nach zwei Zahlen $q\in \mathbb{R}$ und $n \in \mathbb{N}$.
+
+Berechnen Sie ab welchem $x \in \mathbb{N}$, $q^x > x^n$.
