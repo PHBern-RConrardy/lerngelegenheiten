@@ -220,7 +220,6 @@ Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 t
 Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.
 
 -   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
--   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.
 -   Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.
 
 <details>
@@ -280,6 +279,8 @@ for zahl in summe_quadraten_zahlen:
 
 ## Quadratzahlen
 
+[MA.1.B.3.e](https://be.lehrplan.ch/101V3HKgvvehukhLPNxAK3DGDwyZ3MWfb){.knopf .stufe} 
+
 Die SuS erkennen, dass jede natürliche Zahl $n$ als Summe von vier Quadratzahlen dargestellt werden kann.
 
 Nun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl $n$ für alle $s\leq n$, $s\in\mathbb{N}$, das kleinste $k$ mit $s=\sum_{i=1}^kx_i^3$ zu bestimmen.
@@ -288,13 +289,15 @@ SuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher
 
 ## Stammbrüche
 
-Jeder Bruch $0<\frac{p}{q}<1$ kann als Summe verschiedener Stammbr?che dargestellt werden, zum Beispiel $\frac{4}{17}=\frac{1}{5}+\frac{1}{30}+\frac{1}{510}$.
+Jeder Bruch $0<\frac{p}{q}<1$ kann als Summe verschiedener Stammbrüche dargestellt werden, zum Beispiel $\frac{4}{17}=\frac{1}{5}+\frac{1}{30}+\frac{1}{510}$.
 
-Schreiben eines Programm, das bei Eingabe eines Bruchs $\frac{p}{q}$ eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.
+Schreiben Sie ein Programm, das bei Eingabe eines Bruchs $\frac{p}{q}$ eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.
 
 Man kann noch verlangen, dass die Eingabe $\frac{p}{q}$ auf die Bedingung $0<\frac{p}{q}<1$ getestet wird.
 
 ## Collatz-Problem
+
+[MA.1.B.2.h](https://be.lehrplan.ch/101KHT3ut8tfgqxGYJ2wHnfxE9aBJvdNq){.knopf .stufe} 
 
 [Die Vermutung von Collatz](https://de.wikipedia.org/wiki/Collatz-Problem):
 
@@ -305,6 +308,8 @@ definiert.
 Programmieren Sie die Funktion `collatz(n)`welche die Anzahl Schritte bis $a_n=1$ ausgibt.
 
 ## Sieb des Eratosthenes
+
+[MA.1.B.1.l](https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG){.knopf .stufe}
 
 Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.
 
@@ -340,13 +345,20 @@ primzahlen_bis_100()
 
 ## Potenz-, Exponentialfunktion
 
+[MA.1.C.2.k](https://be.lehrplan.ch/101y8NsVTP6MGVEGREXbWpkDCHSb9NXEa){.knopf .stufe} [MA.3.A.1.n](https://be.lehrplan.ch/101hWBWgYGRHp3hS5DNZFdz32rNScD4Ye){.knopf .stufe}
+
 Vergleich des Wachstums von Potenz- und Exponentialfunktionen.
 
 Ziel: Zur Eingabe zweier Zahlen $a$ und $b$, $a>1$, $b\in\mathbb{N}$, die kleinste natürliche Zahl $n$ bestimmen, für die $n^b<a^n$ gilt.
 
 Die SuS erkennen, dass jede Exponentialfunktion (auch für $a=1.0001$) schneller wächst als jede Potenzfunktion.
 
+
+
 ## Narzistische Zahlen
+
+[MA.1.B.1.k](https://be.lehrplan.ch/101TrS9Y3WNTDAYebE4WFSETV7vcRMUZ7){.knopf .stufe}
+
 
 Das Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl $n$
 
@@ -366,14 +378,6 @@ Finden Sie alle perfekten Zahlen kleiner als $n$.
 
 ## Befreundete Zahlen
 
-Programmieren Sie eine Funktion `befreundet(zahl1,zahl2)` welche überprüft ob zwei gegebene Zahlen [befreutete Zahlen](https://de.wikipedia.org/wiki/Befreundete_Zahlen) sind.
+Programmieren Sie eine Funktion `befreundet(zahl1,zahl2)` welche überprüft ob zwei gegebene Zahlen [befreundete Zahlen](https://de.wikipedia.org/wiki/Befreundete_Zahlen) sind.
 
 Finden Sie alle befreundete Zahlen kleiner als $n$.
-
-## Potenzwachstum und Exponentielles Wachstum
-
-[MA.1.C.2.k](https://be.lehrplan.ch/101y8NsVTP6MGVEGREXbWpkDCHSb9NXEa){.knopf .stufe} [MA.3.A.1.n](https://be.lehrplan.ch/101hWBWgYGRHp3hS5DNZFdz32rNScD4Ye){.knopf .stufe}
-
-Frage den Nutzer nach zwei Zahlen $q\in \mathbb{R}$ und $n \in \mathbb{N}$.
-
-Berechnen Sie ab welchem $x \in \mathbb{N}$, $q^x > x^n$.
