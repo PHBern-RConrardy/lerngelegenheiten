@@ -1,0 +1,29 @@
+---
+format: html
+title: Grundlagen der Beurteilung
+subtitle: Fallbasiert diskutiert, SOL mit Coaching-Angebot 
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+    - Richard Conrardy
+categories:
+  - Summative und prognostische Beurteilung
+---
+# Allgemeine Informationen
+
+Liebe Studierende
+
+In diesem Lernmodul erhalten Sie einen ersten Einblick in die Thematik «Beurteilung und Förderung».
+Der Dokumentarfilm «Mein Leben und der Notenschnitt» von Luzius Wespe zeigt auf eindrückliche Weise, was Kinder beim Übertritt von der Primar- in die Sekundarstufe bewegt und was «Noten» bei den Lernenden selber aber auch zu Hause in den Familien auslösen können.
+
+Sie werden sich im Verlaufe dieses Semesters mit vielen Themen, Problematiken aber auch Widersprüchlichkeiten rund um das Thema «Beurteilung und Förderung» intensiver und vertiefter noch auseinandersetzen, so auch ganz explizit mit der «Notenfrage» namentlich mit dem Sinn und Unsinn von «Noten» im Lernmodul «Noten & Beurteilungsberichte» in der 5. Semesterwoche.
+
+# Ziele des Lernmoduls
+Die Studierenden ...
+
+* lernen Gefühle und Gedanken bezüglich des Notendrucks von Kindern kennen. 
+* setzen sich mit der Sinnhaftigkeit und Notwendigkeit von Noten bzw. von Beurteilung auseinander.
+* entwickeln ein Problembewusstsein in Bezug auf Noten und Leistungsbewertung.

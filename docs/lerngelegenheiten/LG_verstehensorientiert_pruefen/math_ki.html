@@ -203,6 +203,10 @@ window.Quarto = {
 </i> 
  <span class="dropdown-text">MA-FD-Selbstorganisiertes Lernen</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html">
+ <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -685,7 +689,7 @@ Lösungsvorschlag
 </section>
 <section id="sieb-des-eratosthenes" class="level2">
 <h2 class="anchored" data-anchor-id="sieb-des-eratosthenes">Sieb des Eratosthenes</h2>
-<p><a href="https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG" class="knopf stufe">MA.1.B.1.l</a></p>
+<p><a href="https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG" class="knopf stufe">MA.1.B.1.l</a> <a href="https://be.lehrplan.ch/101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc" class="knopf stufe">MA.1.A.1.h</a></p>
 <p>Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.</p>
 <p>Die Eingabe ist eine natürliche Zahl <span class="math inline">\(n\)</span>, die Ausgabe die Liste aller Primzahlen kleiner gleich <span class="math inline">\(n\)</span>.</p>
 <p>Bestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span> (mit <span class="math inline">\(a&gt;b\)</span>) bestimmt werden, indem für die Elemente der Liste der Teiler von <span class="math inline">\(b\)</span> beginnend mit dem gr?ssten Element getestet wird, ob sie <span class="math inline">\(a\)</span> teilen.</p>
@@ -718,6 +722,25 @@ Lösungsvorschlag
 <p>Vergleich des Wachstums von Potenz- und Exponentialfunktionen.</p>
 <p>Ziel: Zur Eingabe zweier Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span>, <span class="math inline">\(a&gt;1\)</span>, <span class="math inline">\(b\in\mathbb{N}\)</span>, die kleinste natürliche Zahl <span class="math inline">\(n\)</span> bestimmen, für die <span class="math inline">\(n^b&lt;a^n\)</span> gilt.</p>
 <p>Die SuS erkennen, dass jede Exponentialfunktion (auch für <span class="math inline">\(a=1.0001\)</span>) schneller wächst als jede Potenzfunktion.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">def</span> vergleich(potenz,basis):</span>
+<span id="cb6-2"><a href="#cb6-2"></a>  <span class="kw">def</span> f(x):</span>
+<span id="cb6-3"><a href="#cb6-3"></a>    <span class="cf">return</span> x<span class="op">**</span>potenz</span>
+<span id="cb6-4"><a href="#cb6-4"></a>  <span class="kw">def</span> g(x):</span>
+<span id="cb6-5"><a href="#cb6-5"></a>    <span class="cf">return</span> basis<span class="op">**</span>x</span>
+<span id="cb6-6"><a href="#cb6-6"></a>  n<span class="op">=</span><span class="dv">2</span></span>
+<span id="cb6-7"><a href="#cb6-7"></a>  <span class="cf">while</span> f(n)<span class="op">&gt;</span>g(n):</span>
+<span id="cb6-8"><a href="#cb6-8"></a>    n<span class="op">=</span>n<span class="op">+</span><span class="dv">1</span></span>
+<span id="cb6-9"><a href="#cb6-9"></a>  <span class="bu">print</span> (n)</span>
+<span id="cb6-10"><a href="#cb6-10"></a>  </span>
+<span id="cb6-11"><a href="#cb6-11"></a></span>
+<span id="cb6-12"><a href="#cb6-12"></a>potenz <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: "</span>))</span>
+<span id="cb6-13"><a href="#cb6-13"></a>basis <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: "</span>))    </span>
+<span id="cb6-14"><a href="#cb6-14"></a>vergleich(potenz,basis)  </span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </section>
 <section id="narzistische-zahlen" class="level2">
 <h2 class="anchored" data-anchor-id="narzistische-zahlen">Narzistische Zahlen</h2>
@@ -728,6 +751,7 @@ Lösungsvorschlag
 </section>
 <section id="perfekte-zahlen" class="level2">
 <h2 class="anchored" data-anchor-id="perfekte-zahlen">Perfekte Zahlen</h2>
+<p><a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe">MA.1.A.4.h</a></p>
 <p>Eine natürliche Zahl <span class="math inline">\(n\)</span> wird <a href="https://de.wikipedia.org/wiki/Vollkommene_Zahl">perfekte Zahl</a> genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.</p>
 <p>Beispiel:</p>
 <p><span class="math inline">\(28\)</span> hat als Teiler <span class="math inline">\(1,2,4,7,14,28\)</span> und <span class="math inline">\(28=1+2+4+7+14\)</span>.</p>

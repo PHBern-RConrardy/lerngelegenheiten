@@ -1,0 +1,60 @@
+---
+format: html
+title: Niveaus & Schulmodelle
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+---
+
+# Allgemeine Informationen
+
+Liebe Studierende
+
+Im kommenden Lernmodul geht es um die Themen Bildungssystem der Schweiz und Sekundarschulmodelle im Kanton Bern. Arbeiten Sie das Lernmodul Schritt für Schritt durch.
+
+Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
+
+# Ziele des Lernmoduls
+
+Die Studierenden ...
+
+-   wissen wie der gymnasiale Unterricht im Kanton Bern organisiert ist.
+-   kennen die fünf bernischen Schulmodelle der Sekundarstufe.
+-   kennen Vor- und Nachteile der unterschiedlichen Schulmodelle.
+
+# «Schweizer Bildungssystem & Sekundarschulmodelle»
+
+VIDEO PDF
+
+# Verarbeitungsauftrag
+
+Betrachten Sie die folgenen Abbildungen und beantworten Sie für sich folgende Fragen:
+
+-   Was ist auf diesen Abbildungen zu sehen?
+-   Wie sind die Kurven zu interpretieren?
+-   Welche Problematik ergibt sich daraus?
+
+![](images/Verteilung_der_Mathematikleistung_in_PISA_2000.png)
+![](images/Verteilung_der_Leseleistung_in_PISA_2000.png)
+
+# Schulmodelle Kanton Bern
+
+PDF VIDEO
+
+# Verarbeitungsauftrag
+### Niveaugetrennte Klassen
+
+Obwohl die Dauer der Sekundarstufe 1 gesamtschweizerisch auf 3 Jahre (Model 6/3) vereinheitlicht wurde bzw. wird, hat das trotzdem zu einer Vielfalt an Sekundarschulmodellen geführt. Es gibt grundsätzlich drei Schulmodellarten, die im schweizerischen Bildungssystem beobachtet werden.
+
+1. Typengetrennte Schulmodelle
+2. Kooperative Schulmodelle
+3. Integrierende Schulmodelle
+
+### Auftrag:
+
+1. Erarbeiten Sie zunächst Vor- und Nachteile der unterschiedlichen Modelle im Kanton Bern.
+2. Entwickeln Sie für sich eine Haltung in Bezug auf die 5 bernischen Schulmodelle unter Berücksichtigung der Einteilung in typengetrennte, kooperative und integrierende Modelle. Entscheiden Sie sich letztlich für ein Modell, in welchem Sie in Zukunft am liebsten unterrichten würden.
+3. Halten Sie Ihre Ergebnisse und Überlegungen zuhanden Ihres Beurteilungskonzepts fest und nehmen Sie Ihre Favorisierung zusammen mit einer kurzen Begründung an die nächste Austauschveranstaltung mit.
+

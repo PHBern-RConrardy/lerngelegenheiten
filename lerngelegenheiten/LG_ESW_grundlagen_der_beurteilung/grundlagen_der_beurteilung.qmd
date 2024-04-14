@@ -1,0 +1,35 @@
+---
+format: html
+title: Grundlagen der Beurteilung
+subtitle: Fallbasiert diskutiert, SOL mit Coaching-Angebot 
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+categories:
+  - Summative und prognostische Beurteilung
+---
+
+::: {style="text-align: center;"}
+[LearningView](https://learningview.org/){.knopf target="_blank"}
+
+[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
+:::
+
+
+| Woche |    Lernmodul         | Workload|
+|-------|-------------|------|
+| 1     | [Lernmodul 1](Lernmodul_01.qmd) |      |
+| 2     | [Lernmodul 2](Lernmodul_02.qmd) |      |
+| 3     |   [Lernmodul 3](Lernmodul_03.qmd)          |      |
+| 4     |   [Lernmodul 4](Lernmodul_04.qmd)          |      |
+| 5     |   [Lernmodul 5](Lernmodul_05.qmd)          |      |
+| 6     |  [Lernmodul 6](Lernmodul_06.qmd)           |      |
+| 7     |   [Lernmodul 7](Lernmodul_07.qmd)          |      |
+| 8     |   [Lernmodul 8](Lernmodul_08.qmd)          |      |
+| 9     |   [Lernmodul 9](Lernmodul_09.qmd)          |      |
+| 10    |    [Lernmodul 10](Lernmodul_10.qmd)         |      |
+| 11    |    [Lernmodul 11](Lernmodul_11.qmd)         |      |
+

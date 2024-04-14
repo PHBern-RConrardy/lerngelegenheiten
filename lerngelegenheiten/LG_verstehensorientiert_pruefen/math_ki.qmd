@@ -309,7 +309,9 @@ Programmieren Sie die Funktion `collatz(n)`welche die Anzahl Schritte bis $a_n=1
 
 ## Sieb des Eratosthenes
 
-[MA.1.B.1.l](https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG){.knopf .stufe}
+[MA.1.B.1.l](https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG){.knopf .stufe} [MA.1.A.1.h](https://be.lehrplan.ch/101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc){.knopf .stufe}
+
+
 
 Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.
 
@@ -353,6 +355,27 @@ Ziel: Zur Eingabe zweier Zahlen $a$ und $b$, $a>1$, $b\in\mathbb{N}$, die kleins
 
 Die SuS erkennen, dass jede Exponentialfunktion (auch für $a=1.0001$) schneller wächst als jede Potenzfunktion.
 
+<details>
+
+<summary>Lösungsvorschlag</summary>
+
+```python
+def vergleich(potenz,basis):
+  def f(x):
+    return x**potenz
+  def g(x):
+    return basis**x
+  n=2
+  while f(n)>g(n):
+    n=n+1
+  print (n)
+  
+
+potenz = float(input("Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: "))
+basis = float(input("Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: "))    
+vergleich(potenz,basis)  
+```
+</details>
 
 
 ## Narzistische Zahlen
@@ -367,6 +390,8 @@ Eine Zahl heisst $k=a_{n-1}a_{n-2}\ldots a_1a_0$ *narzistisch*, wenn $k=\sum_{i=
 Beispiele narzistischer Zahlen sind 153 und 371 ($153=1^3+5^3+3^3$, $371=3^3+7^3+1^3$)
 
 ## Perfekte Zahlen
+
+[MA.1.A.4.h](https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH){.knopf .stufe}
 
 Eine natürliche Zahl $n$ wird [perfekte Zahl](https://de.wikipedia.org/wiki/Vollkommene_Zahl) genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.
 

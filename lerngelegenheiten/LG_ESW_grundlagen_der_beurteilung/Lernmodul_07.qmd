@@ -1,0 +1,77 @@
+---
+format: html
+title: Kompetenzorientierung
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+---
+
+# Allgemeine Informationen
+Liebe Studierende
+
+In diesem Lernmodul geht es um Kompetenzorientierung, kompetenzorientierter Unterricht und kompetenzorientierte Beurteilung. Der Begriff der Kompetenz und der Kompetenzraster ist spätestens seit der Einführung des LP21 in aller Munde, also sollten wir wissen, worum es sich dabei handelt.
+
+Folgende Lernziele sollen mit diesem Lernmodul erreicht werden können.
+
+Die Studierenden ...
+• erarbeiten sich vom Kompetenzbegriff ausgehend ein Verständnis der Kompetenzorientierung.
+• entwickeln Vorstellungen darüber, welche Merkmale einen kompetenzorientierten Unterricht ausmachen.
+• kennen wichtigte Komponenten, die für die Umsetzung einer kompetenzorientierten Beurteilung zentral sind.
+
+Davon ausgehend werden wir das Thema «Kompetenzorientierung» also in folgende vier Kapitel unterteilen.
+
+1. Problemstellung
+2. Begriffsklärung → Was ist Kompetenzorientierung?
+3. Kompetenzorientierter Unterricht
+4. Kompetenzorientierte Beurteilung
+
+Als gleichsam übergeordnetes Ziel geht es auch darum, das Verständnis für den neuen Lehrplan 21 zu verbessern. Zumindest sollten Sie nachvollziehen können, weshalb die Kompetenzen im neuen Lehrplan so aufgebaut und dargestellt sind.
+
+Da das Thema Kompetenzorientierung im Grunde nicht mehr neu ist, kann es gut sein, dass Sie sich bereits intensiv mit der Thematik beschäftigt haben. Scheuen Sie sich deshalb nicht, Ausführungen in den Slidecasts zu überspringen, wenn Sie diese als Wiederholung empfinden oder Sie in Ihren Augen keine neuen Sichtweisen bieten.
+
+Arbeiten Sie das Lernmodul Schritt für Schritt durch.
+
+Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
+
+# 1 Problemstellung
+Bevor wir uns mit der Kompetenzorientierung ansich beschäftigen, sollten wir uns fragen, worin denn das Problem für Lehrpersonen mit diesem Thema besteht und was die Einführung des Lehrplan 21 mit seiner ausgeprägten kompetenzorientierten Ausprägung bei den Lehrpersonen ausgelöst hat.
+
+VIDEO
+
+# 2 Begriffsklärung
+Ausgehend von der Definition und von einem neuen Verständnis des Begriffs «Kompetenz», beschäftigt sich dieses Kapitel mit der Ausrichtung der Kompetenzorientierung im neuen Lehrplan 21. Wir fragen uns, wie die Kompetenzformulierungen im Lehrplan 21 entstanden und wie diese zu verstehen sind. Um diese Fragen beantworten zu können, müssen wir uns mit dem Kompetenzbegriff, der dem Lehrplan zugrunde liegt auseinandersetzen und uns auch damit beschäftigen, wie die Entwicklung der Kompetenzformulierungen im Lehrplan stattgefunden hat.
+
+PDF VIDEO
+
+# 3 Kompetenzorientierter Unterricht
+In Anlehnung an Rudolf Künzli (2013, S. 3) können wir davon ausgehen, dass jede Einführung eines neuen Lehrplans immer auch mit einem neuen, innotativen Unterrichtsverständnis bzw. mit einer neuen, innovativen Unterrichtspraxis in Verbindung steht.
+ 
+> «Wo neue Lehrpläne Änderungen bringen, und die sind in aller Regel eng begrenzt, wurden diese meistens bereits an einzelnen Schulen schon praktiziert. Was so Eingang in die neuen Lehrpläne findet und bislang ausserhalb des von den alten Lehrplänen gesetzten Rahmens praktiziert wurde, wird so gleichsam nachträglich anerkannt und offiziell. Offizialisierung von innovativen Praxisbeispielen ist denn auch die hauptsächliche Wirkung von Lehrplänen. Der Offizialisierung steht eine mehr oder weniger deutliche Delegitimierung überkommener Praxis gegenüber.» (Künzli 2013, S. 3).
+ 
+Im neuen Lehrplan 21 ist diese Offizialisierung und Legitimierung innovativer Unterrichtspraxis die «Kompetenzorientierung» bzw. der «kompetenzorientierte Unterricht». Wenn allerdings «Neues» und Innovatives legitimiert wird, dann ist damit immer auch eine Delegitimierung von «Altem» und Herkömmlichem verbunden. Wir müssen uns also die Frage stellen, was denn kompetenzorientierter Unterricht nun genau ist und inwiefern damit tatsächlich etwas Neues und Innovatives auf uns zukommt.
+
+PDF VIDEO
+
+# 4 Kompetenzorientierte Beurteilung
+Erst wenn wir wissen, was Kompetenzorientierung (im Lehrplan 21) ist (siehe Kapitel 2 «Begriffsklärung») und wie davon ausgehend kompetenzorientierter Unterricht zu verstehen ist (siehe Kapitel 3 «Kompetenzorientierter Unterricht»), können wir uns schliesslich mit der Frage beschäftigen, wie denn eine kompetenzorientierte Beurteilung aussehen muss.
+
+Hier beantworten diese Frage noch sehr allgemein. In anderen Lernmodulen (z.B. Förderorientierung, Gesamturteil) und auch in den Austauschveranstaltungen gehen wir etwas konkreter auch auf Beispiele ein.
+
+VIDEO
+
+# Verarbeitungsauftrag
+
+Sie haben unten Zugriff auf eine Reihe von Kompetenzrastern, die am Institut Beatenberg, namentlich eine Privatschule, wo die SuS schon seit Jahren mit Kompetenzrastern kompetenzorientiert unterrichtet werden.
+
+Studieren Sie mindestens zwei davon etwas intensiver und analysieren Sie diese vor dem Hintergrund dessen, was Sie sich anhand des Inputs erarbeitet haben. Folgende Fragen können Sie bei der Analyse leiten und unterstützen.
+
+* Wie werden die Kompetenzen formuliert?
+* Wie werden die Kompetenzniveaus aufeinander aufgebaut? → Stichwort «Kumulatives Lernen»
+* Können Aufgaben tatsächlich Indikatoren für die hier zugrunde liegenden Kompetenzen sein?
+* Wie muss eine Beurteilung aussehen, die sich auf solche oder ähnliche Kompetenzraster bezieht?
+
+Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.
+
+PDFs

@@ -1,0 +1,38 @@
+---
+format: html
+title: Thematische Einführung
+citation: 
+  author:
+    - Aline Löw
+    - Daniel Ingrisani
+    - Irene Althaus
+abstract: >
+  In diesem Lernmodul erhalten Sie einen ersten Einblick in die Thematik «Beurteilung und Förderung». Der Dokumentarfilm «Mein Leben und der Notenschnitt» von Luzius Wespe zeigt auf eindrückliche Weise, was Kinder beim Übertritt von der Primar- in die Sekundarstufe bewegt und was «Noten» bei den Lernenden selber aber auch zu Hause in den Familien auslösen können.  
+---
+
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+-   lernen Gefühle und Gedanken bezüglich des Notendrucks von Kindern kennen.
+-   setzen sich mit der Sinnhaftigkeit und Notwendigkeit von Noten bzw. von Beurteilung auseinander.
+-   entwickeln ein Problembewusstsein in Bezug auf Noten und Leistungsbewertung.
+:::
+
+# Mein Leben und die Noten
+
+![Kind erhält Beurteilung (KI-generiert)](images/Firefly Swiss child age 12 just gets handed a test back in school and looks perplexed at the paper 2.jpg){width="50%" #fig-kind}
+
+1.  Bevor Sie den Film schauen: Überlegen Sie sich kurz, was diesem Kind in @fig-kind gerade durch den Kopf geht.
+
+2.  Schauen Sie sich nun den Film [Mein Leben und der Notenschnitt]() anThematische Einführung.
+
+3.  Wenn Sie sich von diesem Film haben zum Nachdenken anregen und aufwühlen lassen, geht es in einem nächsten Schritt darum ein Problembewusstsein für die Problematik der Notengebung und der Leistungsbewertung zu entwickeln. Machen Sie sich dabei Notizen, indem Sie unter anderem auch versuchen Antworten auf die folgenden Fragen zu finden.
+
+-   Wie sind Sie selber mit Noten in Ihrer Schulzeit umgegangen?
+-   Wie hat ihr Umfeld auf gute/schlechte Noten reagiert?
+-   Was für eine Einstellung gegenüber Noten hatten Lehrpersonen aus Ihrer Vergangenheit?
+-   Was für eine Haltung gegenüber Noten haben Sie als (zukünftige) Lehrperson?
+
+In den nun folgenden Lernmodulen, die Sie im Verlaufe des Semesters durcharbeiten werden, soll es immer wieder auch darum gehen, Antworten zu finden und Ihr Problembewusstsein zu schärfen.

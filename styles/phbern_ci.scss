@@ -6,8 +6,6 @@ $phrotppt: rgb(184,34,63);
 $phrot: $phrotweb;
 $linkfarbe: #ac0101;
 
-
-
 // CI
 $bordeaux: #ad0101;
 $bordeauxhover: #780101;
@@ -322,4 +320,8 @@ color: $titelfarbe!important;
 
 .agenda-active {
   color: $bordeaux;
+}
+.abstract{
+  font-size: 1em;
+  line-height: 1em;
 }

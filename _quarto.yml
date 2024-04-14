@@ -36,6 +36,9 @@ website:  # Menüs für die Webseite
           - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
             text: MI-Learning Analytics
             icon: graph-up
+          - text: "ESW - Grundlagen der Beurteilung - SOL"
+            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
+            icon: card-checklist
       - text: summ. und progn. Beurteilung
         icon: clipboard-check-fill
         menu:
@@ -43,7 +46,7 @@ website:  # Menüs für die Webseite
             text: MI-Datenschutz
             icon: shield-fill
           - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
-            text: ESW-Testv.
+            text: ESW - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
             icon: file-bar-graph-fill
           - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
             text: MA-KI
@@ -54,6 +57,10 @@ website:  # Menüs für die Webseite
           - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
             text: MA-FD-Selbstorganisiertes Lernen
             icon: mouse2-fill
+          - text: "ESW - Grundlagen der Beurteilung - SOL"
+            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
+            icon: card-checklist
+            
         
       - text: Mikroplanung
         icon: arrows-angle-contract
@@ -71,6 +78,38 @@ website:  # Menüs für die Webseite
       - text: "Konferenzen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
         icon: luggage-fill
+  
+  sidebar:
+    - title: "Grundlagen der Beurteilung"
+      style: "docked"
+      background: light
+      contents:
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
+          text: Semesterübersicht
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/organisatorisches.qmd
+          text: Organistatorisches
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
+          text: Lernmodul 1
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
+          text: Lernmodul 2
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.qmd
+          text: Lernmodul 3
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.qmd
+          text: Lernmodul 4
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.qmd
+          text: Lernmodul 5
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.qmd
+          text: Lernmodul 6
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.qmd
+          text: Lernmodul 7
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.qmd
+          text: Lernmodul 8
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.qmd
+          text: Lernmodul 9
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.qmd
+          text: Lernmodul 10
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.qmd
+          text: Lernmodul 11
         
   page-footer: # Fusszeile
     center: 
@@ -118,7 +157,6 @@ format:
       data-background-image: "images/logo cc-by-sa.svg"
       data-background-size: 12%
       data-background-position: 94% 99%
-    fig-align: center
     scrollable: true
     logo: images/penguin.png
     hide-inactive-cursor: true
