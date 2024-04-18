@@ -169,6 +169,11 @@ window.Quarto = {
 </i> 
  <span class="dropdown-text">MI-Learning Analytics</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+</i> 
+ <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
+  </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
@@ -186,7 +191,7 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
- <span class="dropdown-text">ESW-Testv.</span></a>
+ <span class="dropdown-text">ESW - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html"><i class="bi bi-calculator-fill" role="img">
@@ -204,8 +209,9 @@ window.Quarto = {
  <span class="dropdown-text">MA-FD-Selbstorganisiertes Lernen</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html">
- <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+</i> 
+ <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
   </li>  
     </ul>
   </li>
@@ -756,6 +762,32 @@ Lösungsvorschlag
 <p>Beispiel:</p>
 <p><span class="math inline">\(28\)</span> hat als Teiler <span class="math inline">\(1,2,4,7,14,28\)</span> und <span class="math inline">\(28=1+2+4+7+14\)</span>.</p>
 <p>Finden Sie alle perfekten Zahlen kleiner als <span class="math inline">\(n\)</span>.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.</span></span>
+<span id="cb7-2"><a href="#cb7-2"></a><span class="kw">def</span> teiler(n):</span>
+<span id="cb7-3"><a href="#cb7-3"></a>  liste_teiler <span class="op">=</span> []</span>
+<span id="cb7-4"><a href="#cb7-4"></a>  <span class="co"># Wir müssen nur alle Zahlen bis die Hälfte probieren</span></span>
+<span id="cb7-5"><a href="#cb7-5"></a>  <span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="bu">int</span>(n<span class="op">//</span><span class="dv">2</span><span class="op">+</span><span class="dv">1</span>)): </span>
+<span id="cb7-6"><a href="#cb7-6"></a>     <span class="co"># Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.</span></span>
+<span id="cb7-7"><a href="#cb7-7"></a>     <span class="cf">if</span> n <span class="op">%</span> zahl<span class="op">==</span><span class="dv">0</span>:</span>
+<span id="cb7-8"><a href="#cb7-8"></a>       liste_teiler.append(zahl)</span>
+<span id="cb7-9"><a href="#cb7-9"></a>  <span class="cf">return</span> liste_teiler</span>
+<span id="cb7-10"><a href="#cb7-10"></a></span>
+<span id="cb7-11"><a href="#cb7-11"></a><span class="co"># die Liste mit perfekten Zahlen startet als leere Liste</span></span>
+<span id="cb7-12"><a href="#cb7-12"></a>perfNr <span class="op">=</span> []</span>
+<span id="cb7-13"><a href="#cb7-13"></a></span>
+<span id="cb7-14"><a href="#cb7-14"></a>eingegebene_Nummer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Nummer: "</span>))</span>
+<span id="cb7-15"><a href="#cb7-15"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span> (<span class="dv">1</span>, eingegebene_Nummer<span class="op">+</span><span class="dv">1</span>):</span>
+<span id="cb7-16"><a href="#cb7-16"></a><span class="co"># falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.</span></span>
+<span id="cb7-17"><a href="#cb7-17"></a>  <span class="cf">if</span> <span class="bu">sum</span>(teiler(zahl))<span class="op">==</span>zahl:</span>
+<span id="cb7-18"><a href="#cb7-18"></a>    perfNr.append(zahl)</span>
+<span id="cb7-19"><a href="#cb7-19"></a>      </span>
+<span id="cb7-20"><a href="#cb7-20"></a>  </span>
+<span id="cb7-21"><a href="#cb7-21"></a><span class="bu">print</span>(<span class="st">"Alle perfekten Zahlen bis "</span><span class="op">+</span> <span class="bu">str</span>(eingegebene_Nummer)<span class="op">+</span><span class="st">" sind: "</span> <span class="op">+</span> <span class="bu">str</span>(perfNr))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </section>
 <section id="befreundete-zahlen" class="level2">
 <h2 class="anchored" data-anchor-id="befreundete-zahlen">Befreundete Zahlen</h2>

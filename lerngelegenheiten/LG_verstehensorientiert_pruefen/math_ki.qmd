@@ -401,6 +401,36 @@ $28$ hat als Teiler $1,2,4,7,14,28$ und $28=1+2+4+7+14$.
 
 Finden Sie alle perfekten Zahlen kleiner als $n$.
 
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+```python
+# eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.
+def teiler(n):
+  liste_teiler = []
+  # Wir müssen nur alle Zahlen bis die Hälfte probieren
+  for zahl in range(1,int(n//2+1)): 
+     # Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.
+     if n % zahl==0:
+       liste_teiler.append(zahl)
+  return liste_teiler
+
+# die Liste mit perfekten Zahlen startet als leere Liste
+perfNr = []
+
+eingegebene_Nummer = int(input("Nummer: "))
+for zahl in range (1, eingegebene_Nummer+1):
+# falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.
+  if sum(teiler(zahl))==zahl:
+    perfNr.append(zahl)
+      
+  
+print("Alle perfekten Zahlen bis "+ str(eingegebene_Nummer)+" sind: " + str(perfNr))
+```
+
+</details>
+
 ## Befreundete Zahlen
 
 Programmieren Sie eine Funktion `befreundet(zahl1,zahl2)` welche überprüft ob zwei gegebene Zahlen [befreundete Zahlen](https://de.wikipedia.org/wiki/Befreundete_Zahlen) sind.
