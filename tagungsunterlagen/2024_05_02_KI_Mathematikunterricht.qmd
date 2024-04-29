@@ -84,13 +84,6 @@ flowchart TD
 Übersicht über Machine Learning
 
 :::
-
-
-
-# KI Applikationen {data-name="Regular slide2"}
-
-# Problematische Erklärversuche von KI 
-
 # KI in der Beurteilung
 
 
@@ -142,5 +135,13 @@ flowchart TD
 :::quelle
 Momo von @ende_momo_1973
 :::
+
+
+
+
+# Problematische Erklärversuche von KI 
+
+# KI Applikationen {data-name="Regular slide2"}
+
 
 ## Bibliographie {.unlisted}

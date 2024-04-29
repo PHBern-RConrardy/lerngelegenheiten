@@ -1,0 +1,49 @@
+---
+format: html
+---
+```{python}
+import ipywidgets as widgets
+
+# Define questions and answers
+questions = [
+    "What is the capital of France?",
+    "What is the largest planet in our solar system?",
+    "What is the chemical symbol for water?"
+]
+answers = [
+    "Paris",
+    "Jupiter",
+    "H2O"
+]
+
+# Create widget for question display
+question_widget = widgets.Label(value=questions[0])
+
+# Create widget for answer selection
+answer_widget = widgets.RadioButtons(
+    options=answers,
+    description='Select an answer:',
+    disabled=False
+)
+
+# Create widget for submit button
+submit_button = widgets.Button(description="Submit Answer")
+
+# Function to check answer
+def check_answer(b):
+    user_answer = answer_widget.value
+    correct_answer = answers[questions.index(question_widget.value)]
+    if user_answer == correct_answer:
+        feedback_widget.value = "Correct!"
+    else:
+        feedback_widget.value = "Incorrect. Try again."
+
+# Event handler for submit button
+submit_button.on_click(check_answer)
+
+# Widget for displaying feedback
+feedback_widget = widgets.Label()
+
+# Display widgets
+display(question_widget, answer_widget, submit_button, feedback_widget)
+```
