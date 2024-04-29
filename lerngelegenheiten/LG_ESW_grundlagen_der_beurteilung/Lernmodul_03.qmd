@@ -8,33 +8,26 @@ citation:
     - Irene Althaus
 categories:
   - Summative und prognostische Beurteilung
+abstract: >
+  In diesem Lernmodul lernen Sie die gesetzlichen Grundlagen schulischer Beurteilung im Kanton Bern kennen. Grundsätzlich kennen alle schweizerischen Kantone solche Grundlagen. Es ist allerdings ganz im Sinne des Föderalismus nicht überall gleich und vor allem findet man diese Grundlagen auch nicht überall gleich schnell bzw. an denselben Orten. Falls Sie jetzt schon wissen, dass Sie später nicht im Kanton Bern unterrichten werden, lohnt es sich dennoch, die gesetzlichen Grundlagen für Ihren Kanton zu recherchieren und zu studieren.
+  
 ---
-
-# Allgemeine Informationen
-
-Liebe Studierende
-
-In diesem Lernmodul lernen Sie die gesetzlichen Grundlagen schulischer Beurteilung im Kanton Bern kennen. Grundsätzlich kennen alle schweizerischen Kantone solche Grundlagen. Es ist allerdings ganz im Sinne des Föderalismus nicht überall gleich und vor allem findet man diese Grundlagen auch nicht überall gleich schnell bzw. an denselben Orten. Falls Sie jetzt schon wissen, dass Sie später nicht im Kanton Bern unterrichten werden, lohnt es sich dennoch, die gesetzlichen Grundlagen für Ihren Kanton zu recherchieren und zu studieren.
-
-Arbeiten Sie das Lernmodul Schritt für Schritt durch.
-
-Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
-
-# Ziele des Lernmoduls
+::: callout-note
+## Ziele des Lernmoduls
 
 Die Studierenden ...
 
 -   kennen die wichtigsten gesetzlichen Grundlagendokumente im Kanton Bern und können deren Bedeutung einschätzen.
-
 -   erarbeiten sich die wichtigsten gesetzlichen Vorgaben in Bezug auf Beurteilung, Förderung und Schullaufbahnentscheide.
+:::
 
 # Input als Screencast
 
 Mit diesem Screencast stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
 
-VIDEO
-
-PDF
+:::{ #fig-Leistung}
+<iframe src="https://tube.switch.ch/embed/xTav3e1any?title=hide" ></iframe>
+:::
 
 # Verarbeitungsauftrag
 

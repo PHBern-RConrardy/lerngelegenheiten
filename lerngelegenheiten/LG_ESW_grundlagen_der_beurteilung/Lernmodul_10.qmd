@@ -1,6 +1,6 @@
 ---
 format: html
-title: Nachteilsausgleich & Individuelle Lernziele
+title: Nachteilsausgleich und individuelle Lernziele
 citation: 
   author:
     - Aline Löw

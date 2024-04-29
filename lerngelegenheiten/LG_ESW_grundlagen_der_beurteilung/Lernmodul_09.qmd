@@ -1,6 +1,6 @@
 ---
 format: html
-title: Niveaus & Schulmodelle
+title: Niveaus und Schulmodelle
 citation: 
   author:
     - Aline Löw

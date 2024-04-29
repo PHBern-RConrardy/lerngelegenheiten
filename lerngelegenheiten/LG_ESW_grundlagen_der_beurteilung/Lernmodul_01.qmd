@@ -22,17 +22,42 @@ Die Studierenden ...
 
 # Mein Leben und die Noten
 
-![Kind erhält Beurteilung (KI-generiert)](images/Firefly Swiss child age 12 just gets handed a test back in school and looks perplexed at the paper 2.jpg){width="50%" #fig-kind}
 
-1.  Bevor Sie den Film schauen: Überlegen Sie sich kurz, was diesem Kind in @fig-kind gerade durch den Kopf geht.
 
-2.  Schauen Sie sich nun den Film [Mein Leben und der Notenschnitt]() anThematische Einführung.
 
-3.  Wenn Sie sich von diesem Film haben zum Nachdenken anregen und aufwühlen lassen, geht es in einem nächsten Schritt darum ein Problembewusstsein für die Problematik der Notengebung und der Leistungsbewertung zu entwickeln. Machen Sie sich dabei Notizen, indem Sie unter anderem auch versuchen Antworten auf die folgenden Fragen zu finden.
+
+
+:::{.callout-caution collapse="true"}
+## Aufträge auf LearningView
+
+![Kind erhält Beurteilung ©Voltafilm](https://www.voltafilm.ch/sites/default/files/styles/w976/public/stills/MLDN_Florina_01.jpg?itok=BZv1NQEt){ #fig-kind} 
+
+Bevor Sie den Film schauen: Überlegen Sie sich kurz, was diesem Kind in @fig-kind gerade durch den Kopf geht.
+
+:::
+
+:::{ #fig-film}
+<iframe src="https://tube.switch.ch/embed/TRIzZ5bjWM?title=hide"   frameborder="0" allowfullscreen></iframe>
+
+Film: Mein Leben und der Notenschnitt
+:::
+
+Schauen Sie sich nun den Film *Mein Leben und der Notenschnitt*
+@fig-film von @wespe_mein_2022 an.
+
+Wenn Sie sich von diesem Film haben zum Nachdenken anregen und aufwühlen lassen, geht es in einem nächsten Schritt darum ein Problembewusstsein für die Problematik der Notengebung und der Leistungsbewertung zu entwickeln. Machen Sie sich dabei Notizen, indem Sie unter anderem auch versuchen Antworten auf die folgenden Fragen zu finden.
+
+:::{.callout-caution collapse="true"}
+## Aufträge auf LearningView
 
 -   Wie sind Sie selber mit Noten in Ihrer Schulzeit umgegangen?
 -   Wie hat ihr Umfeld auf gute/schlechte Noten reagiert?
 -   Was für eine Einstellung gegenüber Noten hatten Lehrpersonen aus Ihrer Vergangenheit?
 -   Was für eine Haltung gegenüber Noten haben Sie als (zukünftige) Lehrperson?
 
+:::
+
 In den nun folgenden Lernmodulen, die Sie im Verlaufe des Semesters durcharbeiten werden, soll es immer wieder auch darum gehen, Antworten zu finden und Ihr Problembewusstsein zu schärfen.
+
+
+

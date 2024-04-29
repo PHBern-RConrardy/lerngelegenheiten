@@ -86,8 +86,6 @@ website:  # Menüs für die Webseite
       contents:
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
           text: Semesterübersicht
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/organisatorisches.qmd
-          text: Organistatorisches
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
           text: Lernmodul 1
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
@@ -160,6 +158,22 @@ format:
     scrollable: true
     logo: images/penguin.png
     hide-inactive-cursor: true
+  
+  pdf:
+    documentclass: scrartcl
+    include-in-header: 
+       - "styles/phbern-style.tex"
+    mainfont: "Arial"
+    fontsize: 10pt
+    linkcolor: (3,1.5)
+    papersize: a4
+    geometry:
+      - top=30mm
+      - left=20mm
+      - heightrounded
+    fig-align: center
+    number-sections: true
+    number-depth: 3
     
 author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
   - name: Richard Conrardy

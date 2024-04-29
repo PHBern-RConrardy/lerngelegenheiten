@@ -97,7 +97,7 @@ $font-family-sans-serif: sans-serif;
 /*-- scss:rules --*/
 
 //////////////////// For big screen
-@media screen and (min-width: 768px){
+@media screen and (min-width: 7680px){
   h3 {
     font-size: 1.5rem; /* Equivalent to $h3-font-size: 1.5rem; */
   }
@@ -158,9 +158,8 @@ main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-li
   font-weight: 700;
 
   &:hover {
-    color: $linkhover; // your hover color here
+    color: $linkhover; 
     text-decoration: underline;
-    // Additional hover styles if needed
   }
 }
 
@@ -255,13 +254,7 @@ td {
   font-style: italic;
 }
 
-.blockquote-footer {
-  // Additional styles for the text
-  text-align: right;
-  font-size: 0.6em;
-  font-style: normal; 
-  color: $schwarz3;
-}
+
 
 .quelle {
   text-align: right;
@@ -271,10 +264,6 @@ td {
   display: block;
 }
 
-/*#title-block-header {
-            background-color: inherit;
-        }
-*/        
 .quarto-title-banner{
   padding-bottom: 0em;
   background:inherit;
@@ -320,8 +309,4 @@ color: $titelfarbe!important;
 
 .agenda-active {
   color: $bordeaux;
-}
-.abstract{
-  font-size: 1em;
-  line-height: 1em;
 }

@@ -1,6 +1,6 @@
 ---
 format: html
-title: Lernbegleitung & Lerncoaching
+title: Lernbegleitung und Lerncoaching
 citation: 
   author:
     - Aline Löw

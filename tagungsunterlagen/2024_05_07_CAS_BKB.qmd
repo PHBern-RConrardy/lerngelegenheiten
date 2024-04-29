@@ -1,0 +1,15 @@
+---
+format: revealjs
+title: Medien und Informatik
+subtitle: CAS Berufspraxis kompetent begleiten
+date: 07 05 2024
+---
+
+D 102 Block 2
+
+# Ziele
+
+## Ziele
+
+* CAS Teilnehmenden kennenlernen und die Inhalte der FD/ESW aus der Persprektive der Praxislehrperosnen kennen lernen
+* Personen für unseren Bereich gewinnen.

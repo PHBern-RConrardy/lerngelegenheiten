@@ -20055,7 +20055,7 @@
                     "given": "Renfer"
                 }
             ],
-            "id": "nydegger_reichhaltige_2019",
+            "id": "nydegger_checkliste_2019",
             "issued": {
                 "date-parts": [
                     [
@@ -20065,7 +20065,7 @@
                 ]
             },
             "language": "de-DE",
-            "title": "Reichhaltige Aufgaben",
+            "title": "Checkliste zur Einschätzung der Reichhaltigkeit einer Aufgabe",
             "type": ""
         },
         {
@@ -24218,6 +24218,588 @@
             "page": "237-296",
             "title": "Analyse und förderung selbstgesteuerten lernens",
             "type": "chapter"
+        },
+        {
+            "DOI": "10.1007/s11858-015-0712-5",
+            "ISSN": "1863-9704",
+            "URL": "https://doi.org/10.1007/s11858-015-0712-5",
+            "abstract": "Recent research on the scaffolding of instruction has widened the use of the term to include forms of support for learners provided by, amongst other things, artefacts and computer-based learning environments. This paper tackles the important and under-researched issue of how mathematics lessons in junior high schools can be designed to scaffold students’ initial understanding of geometrical proofs. In order to scaffold the process of understanding the structure of introductory proofs, we show how flow-chart proofs with multiple solutions in “open problem” situations are a useful form of scaffold. We do this by identifying the “scaffolding functions” of flow-chart proofs with open problems through the analysis of classroom-based data from a class of Grade 8 students (aged 13–14 years old) and quantitative data from three classes. We find that using flow-chart proofs with open problems support students’ development of a structural understanding of proofs by giving them a range of opportunities to connect proof assumptions with conclusions. The implication is that such scaffolds are useful to enrich students’ understanding of introductory mathematical proofs.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        11
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Miyazaki",
+                    "given": "Mikio"
+                },
+                {
+                    "family": "Fujita",
+                    "given": "Taro"
+                },
+                {
+                    "family": "Jones",
+                    "given": "Keith"
+                }
+            ],
+            "container-title": "ZDM",
+            "container-title-short": "ZDM Mathematics Education",
+            "id": "miyazaki_flow-chart_2015",
+            "issue": "7",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        11,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Flow-chart proof, Geometry, Open problem, Scaffolding",
+            "language": "en-US",
+            "page": "1211-1224",
+            "title": "Flow-chart proofs with open problems as scaffolds for learning about geometrical proofs",
+            "type": "article-journal",
+            "volume": "47"
+        },
+        {
+            "author": [
+                {
+                    "literal": "Melanie Rathske"
+                }
+            ],
+            "id": "melanie_rathske_entdeckendes_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "Entdeckendes lernen in der geometrie: Analyse entwickelter unterrichtsmaterialien für den zweidimensionalen raum in der mathematik auf der sekundarstufe i",
+            "title-short": "Entdeckendes lernen in der geometrie",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-12-666858-3",
+            "author": [
+                {
+                    "family": "Leisen",
+                    "given": "Josef"
+                }
+            ],
+            "edition": "1. Auflage",
+            "id": "leisen_handbuch_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "number-of-pages": "175",
+            "publisher": "Ernst Klett Sprachen",
+            "publisher-place": "Stuttgart",
+            "title": "Handbuch lesen im fachunterricht: Sachtexte sprachsensibel bearbeiten: Verstehendes lesen vermitteln",
+            "title-short": "Handbuch lesen im fachunterricht",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-12-666851-4",
+            "author": [
+                {
+                    "family": "Abshagen",
+                    "given": "Maike"
+                }
+            ],
+            "edition": "1. Auflage",
+            "id": "abshagen_praxishandbuch_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "number-of-pages": "215",
+            "publisher": "Ernst Klett Sprachen",
+            "publisher-place": "Stuttgart",
+            "title": "Praxishandbuch sprachbildung mathematik: Sprachsensibel unterrichten - sprache fördern",
+            "title-short": "Praxishandbuch sprachbildung mathematik",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-12-606978-6",
+            "author": [
+                {
+                    "family": "Beese",
+                    "given": "Melanie"
+                },
+                {
+                    "family": "Benholz",
+                    "given": "Claudia"
+                },
+                {
+                    "family": "Chlosta",
+                    "given": "Christoph"
+                }
+            ],
+            "edition": "1. Auflage",
+            "id": "beese_deutsch_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "number-of-pages": "191",
+            "publisher": "Ernst Klett Sprachen GmbH",
+            "publisher-place": "Stuttgart",
+            "title": "Deutsch lehren lernen. 16: Sprachbildung in allen fächern / melanie beese, claudia benholz, christoph chlosta [und 4 weitere]",
+            "title-short": "Deutsch lehren lernen. 16",
+            "type": "book"
+        },
+        {
+            "DOI": "10.1007/978-3-662-63793-7",
+            "ISBN": "978-3-662-63792-0",
+            "author": [
+                {
+                    "family": "Schacht",
+                    "given": "Florian"
+                },
+                {
+                    "family": "Guckelsberger",
+                    "given": "Susanne"
+                }
+            ],
+            "id": "schacht_sprachbildung_2022-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "number-of-pages": "175",
+            "publisher": "Springer Open",
+            "publisher-place": "Berlin",
+            "title": "Sprachbildung in der lehramtsausbildung mathematik: Konzepte für eine sprachbewusste hochschullehre",
+            "title-short": "Sprachbildung in der lehramtsausbildung mathematik",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Balmer",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Kuratle",
+                    "given": "Regina"
+                }
+            ],
+            "id": "balmer_was_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        1,
+                        17
+                    ]
+                ]
+            },
+            "publisher": "Institut für Weiterbildung und Medienbildung",
+            "title": "Was sind reichhaltige aufgaben?",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Balmer",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Kuratle",
+                    "given": "Regina"
+                }
+            ],
+            "id": "balmer_was_2020-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        8,
+                        26
+                    ]
+                ]
+            },
+            "publisher": "Institut für Weiterbildung und Medienbildung",
+            "title": "Was sind reichhaltige aufgaben?",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                }
+            ],
+            "id": "walti_jahresplanung_2021-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        3
+                    ]
+                ]
+            },
+            "title": "Jahresplanung zu mathbuch 1, 2, und 3",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Bodenmann",
+                    "given": "Neda"
+                }
+            ],
+            "id": "bodenmann_planungsmodell_nodate",
+            "title": "Planungsmodell makroplanung – die einzelnen schritte für die planung eines lernarrangements",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Wälti",
+                    "given": "Beat"
+                },
+                {
+                    "family": "Richard",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Nydegger",
+                    "given": "Annegret"
+                }
+            ],
+            "id": "walti_raster_nodate",
+            "title": "Raster guter mathematikunterricht",
+            "type": ""
+        },
+        {
+            "DOI": "10.18452/25541",
+            "URL": "https://edoc.hu-berlin.de/handle/18452/26281",
+            "abstract": "This research project is based on the hypothesis that the understanding of complex concepts in physical geography and the geo sciences warped by popular mental models largely immune to change can be rectified through cognitive conflict strategy. So, for instance, holes in the atmosphere or layers of pollutant gases in the atmosphere are commonly blamed for the greenhouse effect. In order to test whether such lay perceptions can be altered by adequate teaching material, a constructivist learning environment was devised and optimized according to the findings of instructional psychology geared to causing a cognitive conflict and conceptual change. A longitudinal pilot survey using a pretest-posttest design with intervention and a delayed posttest two months later was employed to analyze the efficacy of the constructivist learning environment compared to conventional teaching materials. A total of 41 thirteen-years-old 8th grade students participated. The results of the statistical analysis show that the intervention lead to a significant increase in knowledge and a better understanding of the principle of the greenhouse effect in the experimental group in the posttest as well as in the delayed posttest. These results are of considerable significance because none of the attempted treatments published so far have succeeded in bringing about long-term conceptual change.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Reinfried",
+                    "given": "Sibylle"
+                },
+                {
+                    "family": "Rottermann",
+                    "given": "Benno"
+                },
+                {
+                    "family": "Aeschbacher",
+                    "given": "Urs"
+                },
+                {
+                    "family": "Huber",
+                    "given": "Erich"
+                }
+            ],
+            "id": "reinfried_wirksamkeit_2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "keyword": "370 Bildung und Erziehung, 550 Geowissenschaften, cognitive conflict, conceptual change, constructivist learning environment, global warming, greenhouse effect, mental models",
+            "language": "de-DE",
+            "note": "Publisher: [object Object]",
+            "title": "Wirksamkeit einer lernpsychologisch optimierten Lernumgebung auf die Veränderungen von Schülervorstellungen über den Treibhauseffekt und die globale Erwärmung",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "978-3-531-17607-9",
+            "abstract": "Kompakt und verständlich stellt dieser Band die psychologischen Grundlagen des Lernens vor. Behandelt werden sowohl klassische behavioristische Lerntheorien, wie z.B. das klassische und operante Konditionieren, als auch neuere Ansätze, die in der aktuellen Forschung eine wichtige Rolle spielen. Neben theoretischen Erläuterungen werden Anwendungsmöglichkeiten von Lerntheorien z.B. in der Psychotherapie aufgezeigt",
+            "author": [
+                {
+                    "family": "Kiesel",
+                    "given": "Andrea"
+                },
+                {
+                    "family": "Koch",
+                    "given": "Iring"
+                }
+            ],
+            "collection-title": "Lehrbuch",
+            "edition": "1. Aufl",
+            "id": "kiesel_lernen_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "number-of-pages": "152",
+            "publisher": "VS, Verl. für Sozialwiss",
+            "publisher-place": "Wiesbaden",
+            "title": "Lernen: Grundlagen der lernpsychologie",
+            "title-short": "Lernen",
+            "type": "book"
+        },
+        {
+            "DOI": "10.25656/01:13710",
+            "ISSN": "0259-353X",
+            "URL": "https://www.pedocs.de/frontdoor.php?source_opus=13710",
+            "abstract": "In this paper the model of didactic reconstruction is described. The model is a theoretical and methodological framework for both curriculum planning and for didactic teaching-learning research. It consists of three parts: technical clarification, recording student perspectives and didactic structuring. The methodological research and implications for the design of teaching are clearly described based on an example from biology, history and geography didactics. The importance of the model is discussed for teacher training.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Reinfried",
+                    "given": "Sibylle"
+                },
+                {
+                    "family": "Mathis",
+                    "given": "Christian"
+                },
+                {
+                    "family": "Kattmann",
+                    "given": "Ulrich"
+                }
+            ],
+            "id": "reinfried_modell_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "keyword": "370 Education, 370 Erziehung, Schul- und Bildungswesen, Lehrerbildung, Teacher education, Teachers’ training, Fachdidaktik, Lehr-Lern-Forschung, Lesson Planing, Planning of teaching, Specialized didactics, Subject didactics, Teaching-learning research, Unterrichtsplanung",
+            "language": "de-DE",
+            "note": "Publisher: [object Object]",
+            "title": "Das Modell der Didaktischen Rekonstruktion. Eine innovative Methode zur fachdidaktischen Erforschung und Entwicklung von Unterricht",
+            "type": "article-journal"
+        },
+        {
+            "ISSN": "0949-1147; 2197-988X",
+            "abstract": "Fachliche Klärung ist ein wichtiger Teil fachdidaktischer Arbeit, wenn es gilt, Unterricht über einen bestimmten Inhalt (wie Evolution, Photosynthese oder Energie) zu entwickeln. Nicht selten aber ist dieser Klärungsprozess vorwiegend oder gar vollständig von fachlichen Aspekten bestimmt. Weitere zentrale Bestimmungsstücke des Unterrichts wie seine Ziele oder die Perspektiven der Lernenden (u. a. ihre vorunterrichtlichen Vorstellungen zum in Rede stehenden Inhalt und ihre Einstellungen und Interessen) werden bestenfalls in Betracht gezogen, wenn die fachliche Klärung abgeschlossen ist. Im Modell der Didaktischen Rekonstruktion, das wir hier zur Diskussion stellen, werden alle zentralen Bestimmungsstücke des Unterrichts in eine Balance gebracht. Hermeneutisch-analytische Forschung zur fachlichen Klärung wird eng verbunden mit empirischen Untersuchungen zu Schülerperspektiven (z. Z. insbesondere zu ihren vorunterrichtlichen Vorstellungen und Lernprozessen) und mit der Konstruktion von Unterricht. (Orig.).",
+            "author": [
+                {
+                    "family": "Kattmann",
+                    "given": "Ulrich"
+                },
+                {
+                    "family": "Duit",
+                    "given": "Reinders"
+                },
+                {
+                    "family": "Gropengießer",
+                    "given": "Harald"
+                },
+                {
+                    "family": "Komorek",
+                    "given": "Michael"
+                }
+            ],
+            "container-title": "Zeitschrift für Didaktik der Naturwissenschaften",
+            "id": "kattmann_modell_1997-1",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997
+                    ]
+                ]
+            },
+            "keyword": "Fachdidaktik, Unterrichtsplanung, Naturwissenschaftlicher Unterricht, Didaktische Analyse, Didaktische Grundlageninformation, Didaktische Rekonstruktion, Diskussion, Unterrichtsforschung",
+            "note": "Type: online; gedruckt",
+            "page": "3-18",
+            "title": "Das modell der didaktischen rekonstruktion - ein rahmen für naturwissenschaftsdidaktische forschung und entwicklung.",
+            "type": "article-journal",
+            "volume": "3"
+        },
+        {
+            "DOI": "10.25656/01:24210",
+            "URL": "https://www.pedocs.de/frontdoor.php?source_opus=24210",
+            "abstract": "This paper outlines an approach to integrate explanatory videos in a course for preservice elementary teachers. We argue that the quality of (geographic) explanatory videos benefits from being aligned with the principles of the Model of Educational Reconstruction (MER). Therefore, students created explanatory videos on geographic topics as a contemporary and meaningful application of the model and to support their general understanding of it. We present results from the analysis of respective videos’ (explanatory) quality and application of MER aspects, using a MER-aligned observation protocol. (DIPF/Orig.)",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        19
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "Haltenberger, Melanie"
+                },
+                {
+                    "literal": "Böschl, Florian"
+                },
+                {
+                    "literal": "Asen-Molz, Katharina"
+                }
+            ],
+            "id": "haltenberger_melanie_modell_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        2,
+                        25
+                    ]
+                ]
+            },
+            "keyword": "370 Education, 370 Erziehung, Schul- und Bildungswesen, Fachdidaktik, Specialized didactics, Subject didactics, Qualitative Forschung, Qualitative research, Didaktische Rekonstruktion, Explorative Studie, Geografie, Geography, Information society, Informationsgesellschaft, Instruction in natural science subjects, Media education, Media pedagogics, Medienpädagogik, Primary school science and social studies, Qualität, Quality, Sachunterricht, Video",
+            "language": "de-DE",
+            "note": "Publisher: [object Object]",
+            "title": "Das Modell der Didaktischen Rekonstruktion als Kriterienraster für studentische Erklärvideos nutzen. Ergebnisse aus einem standortübergreifenden Seminar zur geographischen Perspektive",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/978-3-030-11069-7",
+            "ISBN": "978-3-030-11068-0 978-3-030-11069-7",
+            "URL": "http://link.springer.com/10.1007/978-3-030-11069-7",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        21
+                    ]
+                ]
+            },
+            "collection-title": "ICME-13 monographs",
+            "editor": [
+                {
+                    "family": "Jahnke",
+                    "given": "Hans Niels"
+                },
+                {
+                    "family": "Hefendehl-Hebeker",
+                    "given": "Lisa"
+                }
+            ],
+            "id": "jahnke_traditions_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "publisher": "Springer International Publishing",
+            "publisher-place": "Cham",
+            "title": "Traditions in german-speaking mathematics education research",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-0355-1337-0",
+            "URL": "https://www.hep-verlag.ch/kompetenzorientiert-beurteilen-pdf",
+            "author": [
+                {
+                    "family": "Lötscher",
+                    "given": "Hanni"
+                },
+                {
+                    "family": "Naas",
+                    "given": "Marcel"
+                },
+                {
+                    "family": "Roos",
+                    "given": "Markus"
+                }
+            ],
+            "container-title": "Kompetenzorientiert beurteilen",
+            "edition": "1. Auflage",
+            "id": "lotscher_grundlagen_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "page": "13-128",
+            "publisher": "hep",
+            "publisher-place": "Bern",
+            "title": "Grundlagen kompetenzorientierter beurteilung",
+            "type": "chapter"
+        },
+        {
+            "abstract": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closedsource models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
+            "author": [
+                {
+                    "family": "Touvron",
+                    "given": "Hugo"
+                },
+                {
+                    "family": "Martin",
+                    "given": "Louis"
+                },
+                {
+                    "family": "Stone",
+                    "given": "Kevin"
+                }
+            ],
+            "id": "touvron_llama_nodate",
+            "language": "en-US",
+            "title": "Llama 2: Open foundation and fine-tuned chat models",
+            "title-short": "Llama 2",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://www.mythenfilm.ch/meinleben/meinleben.html",
+            "author": [
+                {
+                    "family": "Wespe",
+                    "given": "Luzius"
+                }
+            ],
+            "id": "wespe_mein_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "publisher": "Voltafilm, Alexa Meyer",
+            "title": "Mein leben und der notenschnitt",
+            "type": "motion_picture"
         }
     ],
     "project_biblios": [

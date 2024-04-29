@@ -1,6 +1,6 @@
 ---
 format: html
-title: Nachteilsausgleich & Individuelle Lernziele
+title: Dokumentenmappe mit BU21
 citation: 
   author:
     - Aline Löw

@@ -1,6 +1,6 @@
 ---
 format: html
-title: Organistarisches
+title: Organisatorisches
 citation: 
   author:
     - Aline Löw
@@ -53,7 +53,7 @@ Bei einem ungenügenden Beurteilungskonzept dürfen Sie dieses einmalig überarb
 Mit dem Beurteilungskonzept müssen folgende Themen, Begriffe und Modelle geklärt werden:
 
 | Thema, Begriff, Modell                                                                                                                                                                                                                                                                                                                                           | Infos in den folgenden Lernmodulen                                            |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------|
+|--------------------------------------------------------|----------------|
 | Summative Beurteilung bzw. selektionsorientierter Unterricht Leistungsbewertung                                                                                                                                                                                                                                                                                  | «Theoretische Grundlagen» «Gesamturteil & PSK» «Noten & Beurteilungsberichte» |
 | Formative Beurteilung bzw. förderorientierter Unterricht Lernbegleitung                                                                                                                                                                                                                                                                                          | «Theoretische Grundlagen» «Förderorientierung»                                |
 | Prognostische Beurteilung Schullaufbahnentscheide                                                                                                                                                                                                                                                                                                                | «Theoretische Grundlagen» «Niveaus & Schulmodelle»                            |

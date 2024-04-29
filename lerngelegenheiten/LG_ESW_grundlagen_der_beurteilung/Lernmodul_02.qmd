@@ -22,9 +22,14 @@ Die Studierenden ...
 
 
 # 1. Input zur Einführung
-Mit diesem Screencast erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.
+Mit @fig-screencast erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.
 
-VIDEO
+:::{ #fig-screencast}
+<iframe   src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide" frameborder="0" allow="fullscreen"></iframe>
+
+Screencast zur formativen und summativen Beurteilung
+:::
+
 
 # 2. Input Kreisläufe
 Im Wissen darum, dass sowohl das Beurteilen als vor allem auch das Fördern in Kreisprozessen ablaufen, stellen wir Ihnen in diesem Input einen **Förderkreislauf** sowie zwei stärker auf die Beurteilung ausgerichtete **Beurteilungskreisläufe** vor.
@@ -36,7 +41,13 @@ Solche Kreismodelle sollen einerseits ermöglichen die Komplexität der Thematik
 Ein spezielles Augenmerk möchten wir auf die Beurteilungssituation im Kanton Bern richten. Im Input werden wir abschliessend auch den unten abgebildeten Kreislauf vorstellen, wo sowohl das Vokabular, als auch die gesetzlichen Vorgaben des Kantons schematisch abgebildet sind.
 Innerhalb der beiden Beurteilungsmodulen (Formative und Summative, prognostische Beurteilung) haben sich die Dozierenden darauf geeinigt, dass wir uns im Sinne der Kohärenz und des Konsenses vor allem auf diesen Kreislauf stützen werden. Es lohnt sich deshalb für Sie, diesen kennen zu lernen. Wie bereits erwähnt, stellen wir Ihnen auch diesen Kreislauf im unten angefügten Input nächer vor.
 
-BILD Förderkreislauf Kuratle Balmer
+BILD Förderkreislauf @kuratle_kompetenzorientierte_2021
+
+:::{ #fig-förderkreislauf}
+<iframe  src="https://tube.switch.ch/embed/htoYUClDmN?title=hide"></iframe>
+
+Screencast zum Förderkreislauf
+:::
 
 # Vertiefung «Abschlussphase»
 Wie im Input zu den «Kreisläufen» und dort in den Ausführungen zum «Beurteilungskreislauf» bereits hingewiesen, stellt die Rückgabe von Lernkontrollen, Tests oder Prüfungen (gemeint ist die **summative Abschlussphase**) ein eher marginalisiertes Thema dar.
@@ -58,11 +69,15 @@ Im folgenden Video stellt Ihnen Leah Alcala von der «Martin Luther King Middle 
 
 Spannende Aussagen in diesem Video:
 
-«So I see that now when I give tests back they're continuing to learn.»
+> «So I see that now when I give tests back they're continuing to learn.»
 
-«My hope is, that trough this strategy they see, that studying their mistakes and learning from their mistakes is really what learning is.»
+> «My hope is, that trough this strategy they see, that studying their mistakes and learning from their mistakes is really what learning is.»
 
-VIDEO
+:::{ #fig-kreislauf}
+<iframe  src="https://tube.switch.ch/embed/EFlUWtpSiI?title=hide"></iframe>
+
+[Alcala, Leah 2015](https://learn.teachingchannel.com/video/math-test-grading-tips) - Tch TeachingChannal - Highlighting Mistakes - A Grading Strategy ©Teaching Channel
+:::
 
 Vorschlag für das Bibliografieren und Zitieren des Videos:
 Alcala, Leah 2015 - Tch TeachingChannal - Highlighting Mistakes - A Grading Strategy
@@ -70,3 +85,8 @@ Alcala, Leah 2015 - Tch TeachingChannal - Highlighting Mistakes - A Grading Stra
 # 3. Input zum Leistungsbegriff
 
 Wenn es ja «Leistungen» sein sollen, die gefördert und beurteilt werden sollen, dann ist es unerlässlich, sich im Rahmen des folgenden Screencasts über den Begriff der schulischen «Leistung» Gedanken zu machen.
+
+:::{ #fig-Leistung}
+<iframe src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide"></iframe>
+Screencast zum Leistungsbegriff
+:::
