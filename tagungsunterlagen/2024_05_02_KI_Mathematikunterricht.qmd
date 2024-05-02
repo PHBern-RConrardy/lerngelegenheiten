@@ -130,9 +130,9 @@ flowchart TD
 [@kuratle_kompetenzorientierte_2021,S.10]
 :::
 
-## Bibigirl, die vollkommene Puppe {.unlisted}
+## KI und Kinder? {.unlisted}
 
->Ja, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben
+>Ja, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben.
 >
 >Aber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.
 >
