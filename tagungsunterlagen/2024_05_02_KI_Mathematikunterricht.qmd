@@ -132,12 +132,23 @@ flowchart TD
 
 ## KI und Kinder? {.unlisted}
 
+<br>
+
 >Ja, wenn die Puppe gar nichts gesagt hätte, dann hätte Momo an ihrer Stelle antworten können, und es hätte sich die schönste Unterhaltung ergeben.
 >
 >Aber so verhinderte Bibigirl gerade dadurch, daß sie redete, jedes Gespräch.
 >
->[...]
->
+:::quelle
+Momo von @ende_momo_1973
+:::
+
+## {.unnumbered}
+
+<br>
+<br>
+<br>
+
+
 >Ich glaub', sagte sie leise, man kann sie nicht liebhaben.
 >
 :::quelle
