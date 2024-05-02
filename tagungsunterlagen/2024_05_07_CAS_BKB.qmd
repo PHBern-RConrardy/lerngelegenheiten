@@ -13,3 +13,65 @@ D 102 Block 2
 
 * CAS Teilnehmenden kennenlernen und die Inhalte der FD/ESW aus der Persprektive der Praxislehrperosnen kennen lernen
 * Personen für unseren Bereich gewinnen.
+
+## Dagstuhldreieck
+
+:::{#fig-dagstuhl}
+![](https://mia.phsz.ch/pub/Dagstuhl/WebPreferences/w02886.png)
+
+Dagstuhldreieck 
+:::
+
+:::quelle
+Quelle: [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/) [Beat Döbeli Honegger und Renate Salzmann](https://mia.phsz.ch/Dagstuhl/WebHome)
+:::
+
+##  DPACK und TPACK
+
+@shulman_those_2013
+
+TPACK @koehler_what_2013
+
+DPACK @huwer_von_2019
+
+## TPACK
+
+:::{fig-tpack}
+![TPACK](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png)
+:::
+
+# Lerngelgenheiten
+
+## Gelabelt in Modulen (Bachelor)
+
+### Ohne Fachbezug
+
+* Learning Analytics
+* Mediendidaktik
+* Digitalität und Datenschutz 
+* Digitale Zusammenarbeit und Kommunikation
+* 
+
+### Mit Fachbezug
+
+* Beurteilung Mathematik: Verstehensorientiert prüfen in Zeiten von KI
+* 
+
+
+## Im Modul Digitalität (Master)
+
+* 
+
+# Lehrplan 21
+
+## Anwendungskompetenzen
+
+S. 508-510
+
+https://be.lehrplan.ch/index.php?code=e|10|4
+
+> “Die Querschnittsthemen sind zusätzlich in die Lerngelegenheiten und Leistungsnachweise der Bachelormodule integriert (weitere Informationen folgen).” ([PHBern, 2022, p. 14](zotero://select/library/items/JAUQG8QM)) ([pdf](zotero://open-pdf/library/items/N2GM9TYV?page=14&annotation=GKNLTIHD)
+
+
+
+## Bibliographie {.unlisted}

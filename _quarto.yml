@@ -26,6 +26,8 @@ website:  # Menüs für die Webseite
     tools:
       - icon: github
         href: https://github.com/PHBern-RConrardy/lerngelegenheiten
+      - icon: book-fill
+        href: https://www.zotero.org/groups/5512202/literatur_phbern_conrardy
     left:
       - text: formative Beurteilung
         icon: sign-stop-lights-fill
@@ -108,6 +110,8 @@ website:  # Menüs für die Webseite
           text: Lernmodul 10
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.qmd
           text: Lernmodul 11
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.qmd
+          text: Beurteilungskonzept
         
   page-footer: # Fusszeile
     center: 
@@ -146,7 +150,7 @@ format:
     fig-align: center
       
   revealjs: # Einträge nur für Präsentationen
-    toc: true
+    toc: false
     slide-number: false
     chalkboard: true
     toc-title: "Inhalt"

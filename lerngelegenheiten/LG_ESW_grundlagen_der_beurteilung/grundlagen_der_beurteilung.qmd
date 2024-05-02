@@ -34,6 +34,7 @@ categories:
 
 # Ziele und Intention
 
+:::{.callout-note}
 ## Modulkompetenzen
 
 Abgedeckte Indikatoren aus dem Modul «Formative Beurteilung»:
@@ -47,12 +48,16 @@ Abgedeckte Indikatoren aus dem Modul «Summative und prognostische Beurteilung»
 1.  Die Studierenden arbeiten mit den rechtlichen Vorgaben und den Empfehlungen zur summativen und prognostischen Beurteilung.
 2.  Die Studierenden nutzen Strategien, um mit dem Dilemma zwischen Förderung und Selektion umzugehen.
 3.  Die Studierenden setzen ein Alignment zwischen Lernerwartungen, Lerninhalten und Leistungsbeurteilungen um.
+:::
 
+:::{.callout-note}
 ## Intention des Seminars
 
 Schüler\*innenbeurteilung und Schullaufbahnentscheide gehören zu den wichtigsten Tätigkeiten und Aufgaben der Lehrpersonen. Die Schulleitungen weisen darauf hin, dass Berufseinsteigende genau bei dieser Thematik manchmal in der Kritik von Erziehungsberechtigten stehen. Dies lässt sich vermeiden, wenn die Lehrpersonen von Anfang an mit einem differenzierten Beurteilungskonzept Transparenz schaffen. Differenziert meint, dass das «persönliche» Beurteilungskonzept die Umsetzung der übergeordneten Vorgaben (im Kanton Bern DVBS & AHB) im eigenen Unterricht aufzeigt. Lehrpersonen machen ihren Lernenden und den Erziehungsberechtigten damit transparent, wie sie die förderorientierte Beurteilung in den Unterricht integrieren (formative Beurteilung), wie überfachliche Kompetenzen beurteilt werden und wie die Noten und Prädikate in den Fachbereichen zustande kommen (summative Beurteilung).
+:::
 
-# Teilnahmeregelung
+:::{.callout-note}
+## Teilnahmeregelung
 
 Grundsätzlich wird die Teilnahme am LearningView-Kurs erwartet.
 
@@ -60,9 +65,10 @@ Ich fühle mich dafür verantwortlich, dass Sie sich mit den Inhalten beschäfti
 
 Das bedeutet, dass anhand eines Kriterienrasters Qualitätsansprüche an den Workload «Beurteilungskonzept» gestellt werden. Dieses Raster wird sowohl als Rückmeldungsinstrument, als auch zur Einschätzung der Qualität desselben verwendet. Es ist deshalb möglich, dass das Beurteilungskonzept «nicht erfüllt» sein kann. In diesem Falle dürfen Sie selbstverständlich das Konzept überarbeiten.
 
-**Verpflichtende Teilnahme** an einem Coaching zum persönlichen Beurteilungskonzept
+**Verpflichtende** Teilnahme an einem Coaching zum persönlichen Beurteilungskonzept:
 
 Wie Sie sicher bereits gesehen haben, gibt es Zeitgefässe, die ganz der individuellen Arbeit am Beurteilungskonzept gewidmet sind. Sie haben diese Zeit zur Verfügung, um das Konzept zu schreiben, aber auch, um ein formatives Feedback einzuholen. Dazu stehen Ihnen Zeitgefässe zur Verfügung, in denen Sie ein Coaching zu Ihrem Beurteilungskonzept erhalten können. Sie müssen bis zum Ende des Semesters mindestens einen Coachingtermin wahrgenommen haben, an dem ich Ihnen ein formatives Feedback auf Ihr Konzept geben kann.
+:::
 
 # Workload «Beurteilungskonzept»
 
@@ -71,26 +77,3 @@ Am Ende des Semesters verfügen Sie über einen Entwurf eines persönlichen Beur
 Das Beurteilungskonzept ist Bestandteil des Workloads des Seminars und muss den Anforderungskriterien genügen, die in den Informationen zum Beurteilungskonzept einsehbar sind. Anhand dieser Kriterien erhalten Sie eine Rückmeldung sowie ein Prädikat. Es ist folglich möglich, dass das Beurteilungskonzept das Prädikat «nicht erfüllt» erhält.
 
 Bei einem ungenügenden Beurteilungskonzept dürfen Sie dieses einmalig überarbeiten. Genügt dieses auch nach der Überarbeitung den Anforderungskriterien nicht, erfolgt ein Ausschluss aus der Veranstaltung.
-
-Mit dem Beurteilungskonzept müssen folgende Themen, Begriffe und Modelle geklärt werden:
-
-| Thema, Begriff, Modell                                                                                                                                                                                                                                                                                                                                           | Infos in den folgenden Lernmodulen                                                                                                        |
-|-----------------------------------------------------|-------------------|
-| Summative Beurteilung bzw. selektionsorientierter Unterricht Leistungsbewertung                                                                                                                                                                                                                                                                                  | [«Theoretische Grundlagen»](Lernmodul_02.qmd) [«Gesamturteil & PSK»](Lernmodul_08.qmd) [«Noten & Beurteilungsberichte»](Lernmodul_04.qmd) |
-| Formative Beurteilung bzw. förderorientierter Unterricht Lernbegleitung                                                                                                                                                                                                                                                                                          | [«Theoretische Grundlagen»](Lernmodul_02.qmd) [«Förderorientierung»](Lernmodul_05.qmd)                                                    |
-| Prognostische Beurteilung Schullaufbahnentscheide                                                                                                                                                                                                                                                                                                                | [«Theoretische Grundlagen»](Lernmodul_02.qmd) [«Niveaus & Schulmodelle»](Lernmodul_09.qmd)                                                |
-| Bezugsnormen der Bewertung (individuelle, soziale und kriteriale Bezugsnorm)                                                                                                                                                                                                                                                                                     | [«Theoretische Grundlagen»](Lernmodul_02.qmd)                                                                                             |
-| Beurteilungsgerechtigkeit (Leistungs-, Bedürfnis- und Gleichheitsprinzip)                                                                                                                                                                                                                                                                                        | [«Theoretische Grundlagen»](Lernmodul_02.qmd)                                                                                             |
-| Gesetzliche Grundlagen (LP21, AHB, DVBS)                                                                                                                                                                                                                                                                                                                         | [«Gesetzliche Grundlagen»](Lernmodul_03.qmd)                                                                                              |
-| Summative Beurteilungsgegenstände (im Kanton Bern Produkte, Lernkontrollen, Lernprozess)                                                                                                                                                                                                                                                                         | [«Gesamturteil & PSK»](Lernmodul_08.qmd)                                                                                                  |
-| Notenfrage, Notengebung, Notenmassstäbe und Bewertungskriterien                                                                                                                                                                                                                                                                                                  | [«Noten & Beurteilungsberichte»](Lernmodul_04.qmd) [«Kompetenzorientierung»](Lernmodul_07.qmd)                                            |
-| Förderorientierung                                                                                                                                                                                                                                                                                                                                               | [«Förderorientierung»](Lernmodul_05.qmd)                                                                                                  |
-| Lernbegleitung & Lerncoaching                                                                                                                                                                                                                                                                                                                                    | [«Lernbegleitung & Lerncoaching»](Lernmodul_06.qmd)                                                                                       |
-| Gesamturteil (Zustandekommen der Gesamtnoten) & Beurteilungsbericht                                                                                                                                                                                                                                                                                              | [«Gesamturteil & PSK»](Lernmodul_08.qmd)                                                                                                  |
-| Beurteilung der «Personalen Kompetenzen» sowie der «Schlüsselkompetenzen» (Portfolio)                                                                                                                                                                                                                                                                            | [«Gesamturteil & PSK»](Lernmodul_08.qmd)                                                                                                  |
-| Klare Unterscheidung zwischen summativer Beurteilung des «Lernprozesses» mit den 5 überfachli-chen Aspekten (4 Beurteilungsbericht), der Beurteilung der «personalen Kompetenzen und Schlüs-selkompetenzen» (4 Portfolio) und der formativen Beurteilung der 56 überfachlichen (personalen, sozialen und methodischen) Kompetenzen im LP21 ( Standortgespräche). | [«Gesamturteil & PSK»](Lernmodul_08.qmd)                                                                                                  |
-| Selbst- und Fremdbeurteilung                                                                                                                                                                                                                                                                                                                                     | [«Gesetzliche Grundlagen»](Lernmodul_03.qmd)                                                                                              |
-| Beurteilungsgrundsätze (z.B. FLUT) Förderorientierung (Lerncoaching & Feedback)                                                                                                                                                                                                                                                                                  | [«Gesetzliche Grundlagen»](Lernmodul_03.qmd) [«Förderorientierung»](Lernmodul_05.qmd)                                                     |
-| Sekundarstufenmodelle & Niveauunterricht                                                                                                                                                                                                                                                                                                                         | [«Niveaus & Schulmodelle»](Lernmodul_09.qmd) [«Nachteilsausgleich & iLZ»](Lernmodul_10.qmd)                                               |
-
-

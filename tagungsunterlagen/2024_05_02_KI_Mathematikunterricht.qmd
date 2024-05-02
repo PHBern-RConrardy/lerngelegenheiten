@@ -81,12 +81,11 @@ flowchart TD
   end
 ```
 
-Übersicht über Machine Learning
+Übersicht über Machine Learning (eigene Darstellung)
 
 :::
+
 # KI in der Beurteilung
-
-
 
 ## Summative Beurteilung
 
@@ -95,11 +94,20 @@ flowchart TD
 3. KI $\neq$ KI
 4. KI $\neq$ Taschenrechner
 
+
+
 >participants were not able to detect AI-generated argumentative essays
 
 :::quelle
 [@fleckenstein_teachers_2024, p. 3]
 :::
+
+## {.unnumbered}
+
+<br>
+<br>
+<br>
+<br>
 
 >teachers may not be aware of their inability to identify AI-generated texts among student essays
 

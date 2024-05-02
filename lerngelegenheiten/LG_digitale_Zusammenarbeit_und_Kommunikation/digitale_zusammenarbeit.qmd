@@ -1,0 +1,8 @@
+---
+title: "Digitale Zusammenarbeit und Kommunikation"
+format: html
+categories:
+  - Zusammenarbeit und Kommunikation
+  - Klassenführung
+  - Digitalität
+---

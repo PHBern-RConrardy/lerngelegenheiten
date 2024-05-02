@@ -18430,15 +18430,15 @@
         },
         {
             "ISBN": "978-1-4338-3215-4 978-1-4338-3216-1 978-1-4338-3217-8",
+            "URL": "https://doi.org/10.1037/0000165-000",
             "abstract": "\"The Publication Manual of the American Psychological Association, Seventh Edition is the official source for APA Style. With millions of copies sold worldwide in multiple languages, it is the style manual of choice for writers, researchers, editors, students, and educators in the social and behavioral sciences, natural sciences, nursing, communications, education, business, engineering, and other fields. Known for its authoritative, easy-to-use reference and citation system, the Publication Manual also offers guidance on choosing the headings, tables, figures, language, and tone that will result in powerful, concise, and elegant scholarly communication. It guides users through the scholarly writing process-from the ethics of authorship to reporting research through publication. The seventh edition is an indispensable resource for students and professionals to achieve excellence in writing and make an impact with their work. The seventh edition has been thoroughly revised and updated to reflect best practices in scholarly writing and publishing. All formats are in full color, with a new tabbed spiral version Improved ease of navigation, with many additional numbered sections to help users quickly locate answers to their questions Resources for students on writing and formatting annotated bibliographies, response papers, and other paper types as well as guidelines on citing course materials Dedicated chapter for new users of APA Style covering paper elements and format, including sample papers for both professional authors and student writers New chapter on journal article reporting standards that includes updates to reporting standards for quantitative research and the first-ever qualitative and mixed methods reporting standards in APA Style New chapter on bias-free language guidelines for writing about people with respect and inclusivity in areas including age, disability, gender, participation in research, race and ethnicity, sexual orientation, socioeconomic status, and intersectionality More than 100 new reference examples covering periodicals, books, audiovisual media, social media, webpages and websites, and legal resources More than 40 new sample tables and figures Expanded guidance on ethical writing and publishing practices, including how to ensure the appropriate level of citation, avoid plagiarism and self-plagiarism, and navigate the publication process Guidelines that support accessibility for all users, including simplified reference, in-text citation, and heading formats as well as additional font options\"–",
-            "edition": "Seventh edition",
-            "editor": [
+            "author": [
                 {
-                    "family": "American Psychological Association (Washington",
-                    "given": "District of Columbia)"
+                    "literal": "American Psychological Association"
                 }
             ],
-            "id": "american_psychological_association_washington_district_of_columbia_publication_2020",
+            "edition": "7th ed.",
+            "id": "american_psychological_association_publication_2020",
             "issued": {
                 "date-parts": [
                     [
@@ -18447,7 +18447,6 @@
                 ]
             },
             "number-of-pages": "427",
-            "publisher": "American Psychological Association",
             "publisher-place": "Washington, DC",
             "title": "Publication manual of the american psychological association",
             "type": "book"
@@ -21563,7 +21562,7 @@
                     ]
                 ]
             },
-            "title": "Lehrplan 21 gesamtausgabe",
+            "title": "Lehrplan für die volksschule des kantons bern",
             "type": ""
         },
         {
@@ -24782,7 +24781,7 @@
             "type": "article-journal"
         },
         {
-            "URL": "https://www.mythenfilm.ch/meinleben/meinleben.html",
+            "URL": "https://www.voltafilm.ch/de/film/mein-leben-und-der-notenschnitt",
             "author": [
                 {
                     "family": "Wespe",
@@ -24800,6 +24799,141 @@
             "publisher": "Voltafilm, Alexa Meyer",
             "title": "Mein leben und der notenschnitt",
             "type": "motion_picture"
+        },
+        {
+            "URL": "https://www.zahlenbu.ch/cms/media/archive3/kursunterlagen_zahlenbuch/13_Script_Beurteilung_MATH_Werkzeugkiste_summativ_2019.pdf",
+            "author": [
+                {
+                    "family": "Rothenbacher",
+                    "given": "Martin"
+                }
+            ],
+            "id": "rothenbacher_beurteilen_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        11
+                    ]
+                ]
+            },
+            "title": "Beurteilen im mathematikunterricht mit dem „schweizer zahlenbuch“",
+            "type": ""
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/unterricht/reichhaltige-aufgaben/hinweise-zu-reichhaltige-aufgaben-z3.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        30
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Nydegger",
+                    "given": "Annegret"
+                }
+            ],
+            "id": "nydegger_reichhaltige_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        6
+                    ]
+                ]
+            },
+            "title": "Reichhaltige aufgaben",
+            "type": ""
+        },
+        {
+            "URL": "https://www.akvb-unterricht.bkd.be.ch/content/dam/akvb-unterricht_bkd/dokumente/de/startseite/regelunterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung/beurteilung-lp21-dokumentation-summative-beurteilung-illustrierte-lernsituation-mathematik-d.pdf",
+            "id": "noauthor_dokumentation_nodate",
+            "title": "Dokumentation der summativen beurteilung",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Adamina",
+                    "given": "Marco"
+                },
+                {
+                    "family": "Balmer",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Gfeller",
+                    "given": "Silvia"
+                },
+                {
+                    "family": "Hirt",
+                    "given": "Ueli"
+                },
+                {
+                    "family": "Michel",
+                    "given": "Jürg"
+                },
+                {
+                    "family": "Nattiel",
+                    "given": "Marlis"
+                },
+                {
+                    "family": "Wagner",
+                    "given": "Urs"
+                }
+            ],
+            "id": "adamina_erlauterungen_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        7
+                    ]
+                ]
+            },
+            "title": "Erläuterungen zur kompetenzorientierung und zum lern- und unterrichtsverständnis im lehrplan 21",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-621-27564-4",
+            "author": [
+                {
+                    "family": "Reinmann",
+                    "given": "Gabi"
+                },
+                {
+                    "family": "Mandl",
+                    "given": "Heinz"
+                }
+            ],
+            "container-title": "Pädagogische psychologie: Ein lehrbuch",
+            "edition": "5., vollst. überarb. Aufl., [Nachdr.]",
+            "editor": [
+                {
+                    "family": "Krapp",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Weidenmann",
+                    "given": "Bernd"
+                }
+            ],
+            "id": "krapp_unterrichten_2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "publisher": "Beltz PVU",
+            "publisher-place": "Weinheim",
+            "title": "Unterrichten und lernumgebungen gestalten",
+            "type": "chapter"
         }
     ],
     "project_biblios": [
