@@ -29,57 +29,68 @@ website:  # Menüs für die Webseite
       - icon: book-fill
         href: https://www.zotero.org/groups/5512202/literatur_phbern_conrardy
     left:
-      - text: formative Beurteilung
-        icon: sign-stop-lights-fill
+      - text: Beurteilung
+        icon: clipboard-check-fill
         menu: 
-          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
-            text: MA-KI
-            icon: calculator-fill
           - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
             text: MI-Learning Analytics
             icon: graph-up
           - text: "ESW - Grundlagen der Beurteilung - SOL"
             href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
             icon: card-checklist
-      - text: summ. und progn. Beurteilung
-        icon: clipboard-check-fill
-        menu:
-          - href: lerngelegenheiten/LG_summ_digi_datenschutz/datenschutz.qmd
-            text: MI-Datenschutz
+          - href: lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.qmd
+            text: MI - Digitalität und Datenschutz
             icon: shield-fill
           - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
-            text: ESW - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
+            text: MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
             icon: file-bar-graph-fill
           - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
-            text: MA-KI
+            text: MA - Verstehensorientiert prüfen in Zeiten von KI
             icon: calculator-fill
-          - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
-            text: MA-FD-Präsenzveranstaltung
-            icon: building-fill
-          - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
-            text: MA-FD-Selbstorganisiertes Lernen
-            icon: mouse2-fill
-          - text: "ESW - Grundlagen der Beurteilung - SOL"
-            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
-            icon: card-checklist
             
         
       - text: Mikroplanung
         icon: arrows-angle-contract
         menu:   # Menü für die Mathematik Mikroplanung
-          - text: MA-FD-Präsenzkurs
+          - text: MA - Mikroplanung Mathematik - Semesterkurs
             href: lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.qmd
             icon: building-fill
-          - text: MA-FD-Blockkurs
+          - text: MA - Mikroplanung Mathematik - Blockkurs
             href: lerngelegenheiten/LG_mikroplanung_math/blockkurs.qmd
             icon: file-earmark-zip-fill
-          - text: MA-FD-Selbstorganisiertes Lernen
+          - text: MA - Mikroplanung Mathematik - SOL
             href: lerngelegenheiten/LG_mikroplanung_math/mikro_sol.qmd
             icon: mouse2-fill
+          - text: MI - Mediendidaktik
+            href: empty
+            icon: images
+      - text: Zus. und Komm.
+        icon: chat-text-fill
+        menu:
+          - text: MI - Digitale Zusammenarbeit und Kommunikation
+            href: empty
+            icon: share-fill
+      - text: Digitalität
+        icon: pc-display-horizontal
+        menu:
+          - text: Medien und Informatik unterrichten
+            href: empty
+            icon: easel2-fill
+    
+    
     right:  
       - text: "Konferenzen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
         icon: luggage-fill
+      - text: "Archiv"
+        icon: box-seam-fill
+        menu:
+          - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
+            text: MA - Summative Beurteilung im Mathematikunterricht - Präsenz
+            icon: building-fill
+          - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
+            text: MA - Summative Beurteilung im Mathematikunterricht - SOL
+            icon: mouse2-fill
   
   sidebar:
     - title: "Grundlagen der Beurteilung"

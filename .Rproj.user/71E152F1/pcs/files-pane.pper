@@ -1,13 +1,13 @@
 {
     "sortOrder": [
         {
-            "columnIndex": 1,
-            "ascending": false
-        },
-        {
             "columnIndex": 2,
             "ascending": true
+        },
+        {
+            "columnIndex": 1,
+            "ascending": false
         }
     ],
-    "path": "~/Quarto/Quarto_Kurse/tagungsunterlagen"
+    "path": "~/Quarto/Quarto_Kurse/bibliographien"
 }

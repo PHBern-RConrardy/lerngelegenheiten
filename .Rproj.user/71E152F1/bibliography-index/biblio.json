@@ -24934,6 +24934,276 @@
             "publisher-place": "Weinheim",
             "title": "Unterrichten und lernumgebungen gestalten",
             "type": "chapter"
+        },
+        {
+            "author": [
+                {
+                    "family": "Betschert",
+                    "given": "Josy Jurt"
+                },
+                {
+                    "family": "Krucker",
+                    "given": "Ernst"
+                },
+                {
+                    "family": "Lötscher",
+                    "given": "Hanni"
+                },
+                {
+                    "family": "Schildknecht",
+                    "given": "Madleine"
+                },
+                {
+                    "family": "Theiler",
+                    "given": "Pius"
+                }
+            ],
+            "collection-title": "Die neue schulpraxis",
+            "id": "betschert_es_1997",
+            "issue": "67",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997
+                    ]
+                ]
+            },
+            "page": "5-12",
+            "title": "Es geht nicht besser ohne noten, es geht überhaupt nur ohne noten",
+            "type": "article-journal",
+            "volume": "Heft 1"
+        },
+        {
+            "author": [
+                {
+                    "family": "Dzelili",
+                    "given": "Amet"
+                }
+            ],
+            "collection-title": "Bildung schweiz",
+            "id": "dzelili_noten_2009",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "page": "8-11",
+            "title": "Noten gehören verboten – aber warum?",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "978-3-17-020147-7",
+            "abstract": "In der Berufsrolle des Lehrers sind Aufgaben wie Beurteilen, Beraten, Unterrichten und Erziehen nicht widerspruchsfrei zu verknüpfen. Viele Lehrer finden ihren modernen Unterricht durch den Zwang zu Notengebung und Zensuren infrage gestellt. Das Buch zeigt zunächst, dass und warum Leistungserziehung die Grundlage aktueller Schulpädagogik bildet. Das gelingt aber nur, wenn die herkömmlichen Verfahren pädagogischer Diagnostik in brauchbare Instrumente der Lernerfolgsmessung verwandelt werden. Vor allem, wie aus Prüfungen aussagekräftige Informationen und Fehleranalysen für eine optimale Lernberatung liefern und wie Notengebung ihre Funktion im Sinne einer Lernerfolgsmessung erfüllen kann, bildet dabei einen Schwerpunkt der Darstellung",
+            "author": [
+                {
+                    "family": "Jürgens",
+                    "given": "Eiko"
+                },
+                {
+                    "family": "Sacher",
+                    "given": "Werner"
+                }
+            ],
+            "collection-title": "Schulpädagogik",
+            "container-title": "Leistungserziehung und pädagogische diagnostik in der schule: Grundlagen und anregungen für die praxis",
+            "id": "jurgens_zensurengebung_2008",
+            "issued": {
+                "date-parts": [
+                    [
+                        2008
+                    ]
+                ]
+            },
+            "page": "52-73",
+            "publisher": "Verlag W. Kohlhammer",
+            "publisher-place": "Stuttgart",
+            "title": "Zensurengebung - kritik, eignung und optimierungsmöglichkeiten",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-3-258-07156-5",
+            "author": [
+                {
+                    "family": "Kronig",
+                    "given": "Winfried"
+                }
+            ],
+            "collection-number": "32",
+            "collection-title": "Beiträge zur heil- und sonderpädagogik",
+            "container-title": "Die systematische zufälligkeit des bildungserfolgs: Theoretische erklärungen und empirische untersuchungen zu lernentwicklung und zur leistungsbewertung in unterschiedlichen schulklassen",
+            "edition": "1. Aufl",
+            "id": "kronig_leistungsbewertung_2007",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007
+                    ]
+                ]
+            },
+            "page": "192-196",
+            "publisher": "Haupt-Verl",
+            "publisher-place": "Bern Stuttgart Wien",
+            "title": "Leistungsbewertung und selektion die elemente von zufall und systematik",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-3-9522130-5-ó",
+            "author": [
+                {
+                    "family": "Kronig",
+                    "given": "Winfried"
+                }
+            ],
+            "container-title": "Noten, was denn sonst?! Leistungsbeurteilung und -bewertung",
+            "editor": [
+                {
+                    "family": "Fischer",
+                    "given": "Doris"
+                },
+                {
+                    "family": "Strittmatter",
+                    "given": "Anton"
+                },
+                {
+                    "family": "Vögeli-MonÌovoni",
+                    "given": "Urs"
+                }
+            ],
+            "id": "kronig_schulnoten_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "publisher": "LCH",
+            "title": "Schulnoten - glasperlen des bildungssystems",
+            "type": "chapter"
+        },
+        {
+            "ISBN": "978-3-0355-1966-2",
+            "abstract": "Noten sind beim Lernen in der Schule sehr präsent. Sie bestimmen, was gelernt wird und wie gelernt wird. Das ist fatal: Die Notenfixierung erschwert sinnstiftendes Lernen. Leistungsbewertungen mit Noten belasten den Lernprozess. Die Gründe für die Notengebung sind fadenscheinig und überholt, trotzdem wird daran festgehalten. Längst gibt es sinnvolle Alternativen. Das Buch zeigt Wege für einen Unterricht ohne Noten auf",
+            "author": [
+                {
+                    "family": "Nölte",
+                    "given": "Björn"
+                },
+                {
+                    "family": "Wampfler",
+                    "given": "Philippe"
+                }
+            ],
+            "edition": "1. Auflage",
+            "id": "nolte_schule_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "number-of-pages": "133",
+            "publisher": "hep",
+            "publisher-place": "Bern",
+            "title": "Eine schule ohne noten: Neue wege zum umgang mit lernen und leistung",
+            "title-short": "Eine schule ohne noten",
+            "type": "book"
+        },
+        {
+            "author": [
+                {
+                    "family": "Oelkers",
+                    "given": "Jürgen"
+                },
+                {
+                    "family": "Tschopp",
+                    "given": "Rahel"
+                }
+            ],
+            "container-title": "Rundgang - Magazin für Unterricht und Bildung",
+            "id": "oelkers_sind_2023",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        1
+                    ]
+                ]
+            },
+            "page": "30-31",
+            "title": "Sind schulnoten noch sinnvoll?",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Comtesse",
+                    "given": "Mirjam"
+                }
+            ],
+            "container-title": "Der Bund",
+            "id": "comtesse_noten_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        11,
+                        20
+                    ]
+                ]
+            },
+            "page": "25",
+            "title": "\"Noten taugen nichts\"",
+            "type": "article-journal"
+        },
+        {
+            "ISBN": "978-3-407-25798-7",
+            "author": [
+                {
+                    "family": "Winter",
+                    "given": "Felix"
+                }
+            ],
+            "collection-title": "Pädagogik",
+            "container-title": "Lerndialog statt noten: Neue formen der leistungsbeurteilung",
+            "edition": "2. Auflage",
+            "id": "winter_noten_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "page": "59-68",
+            "publisher": "Beltz",
+            "publisher-place": "Weinheim Basel",
+            "title": "Die noten – was tun mit dem veralteten instrument?",
+            "type": "chapter"
+        },
+        {
+            "URL": "https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/themen/medien-und-informatik/spezialist-medien-und-informatik/sl-lp-medien-informatik-pflichtenheft-smi-d.pdf",
+            "author": [
+                {
+                    "literal": "Erziehungsdirektion des Kantons Bern"
+                }
+            ],
+            "id": "erziehungsdirektion_des_kantons_bern_pflichtenheft_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        1
+                    ]
+                ]
+            },
+            "title": "Pflichtenheft spezialistin/spezialist medien und informatik (SMI) an den volksschulen des kantons bern empfehlungen an die gemeinden und an die schulleitungen",
+            "type": ""
         }
     ],
     "project_biblios": [

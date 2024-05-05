@@ -8,18 +8,13 @@ citation:
     - Irene Althaus
 categories:
   - Summative und prognostische Beurteilung
+abstract: >
+  Im kommenden Lernmodul geht es um die Frage, wie das Zeugnis im Kanton Bern (Dokumentenmappe mit Beurteilungsbericht) genau aussieht, welche Formulare es enthalten kann und wie man ganz konkret Noten macht und einen Notenmassstab festlegt.
+
+  Bevor Sie sich allerdings mit diesen Fragen beschäftigen, ist es wichtig, dass Sie sich in diesem Lernmodul auch grundsätzlich mit der Frage nach der Sinnhaftigkeit, Notwendigkeit, Brauchbarkeit und der Aussagekraft von Noten auseinandersetzen. Das Lernmodul beginnt deshalb mit der «Notenfrage».
+  
 ---
-# Allgemeine Informationen
-Liebe Studierende
-
-Im kommenden Lernmodul geht es um die Frage, wie das Zeugnis im Kanton Bern (Dokumentenmappe mit Beurteilungsbericht) genau aussieht, welche Formulare es enthalten kann und wie man ganz konkret Noten macht und einen Notenmassstab festlegt.
-
-Bevor Sie sich allerdings mit diesen Fragen beschäftigen, ist es wichtig, dass Sie sich in diesem Lernmodul auch grundsätzlich mit der Frage nach der Sinnhaftigkeit, Notwendigkeit, Brauchbarkeit und der Aussagekraft von Noten auseinandersetzen. Das Lernmodul beginnt deshalb mit der «Notenfrage».
-
-Arbeiten Sie das Lernmodul Schritt für Schritt durch.
-
-Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
-
+::: callout-note
 # Ziele des Lernmoduls
 Die Studierenden ...
 
@@ -27,6 +22,7 @@ Die Studierenden ...
 * verschaffen sich einen Überblick über die Inhalte der AHB (Kapitel 5.2).
 * kennen die wichtigsten beurteilungsrelevanten Formulare zuhanden der Dokumentenmappe (mit Beurteilungsbericht).
 * kennen verschiedene Möglichkeiten konkret Noten zu machen (Notenmassstäbe bzw. Notenschlüssel).
+:::
 
 # Notenfrage
 Für eine kritische Auseinandersetzung mit dem Konzept der Noten in unserem Schulsystem ist es zwingend notwendig, dass Sie sich etwas Zeit nehmen und sich damit beschäftigen. Wenn schulische Noten weder reliabel, noch valide und schon gar nicht objektiv sein sollen, stellt sich schon die Frage, weshalb wir dennoch daran festhalten. Es muss ganz offensichtlich auch Gründe für den Einsatz von Noten geben.
@@ -43,16 +39,16 @@ Aber wo stehen Sie? Wie sehen Sie das? Wie positionieren Sie sich z.B. in Bezug 
 
 ### PDF Literatur
 
-* Betschert et al. 1997 - Es geht nur ohne Noten.pdf (6.03 MB)
-* DVBS - 2018.pdf (339.07 KB)
-* Dzelili 2009 - Noten gehoeren verboten.pdf (92.56 KB)
-* Juergens & Sacher 2008 - Zensurengebung - Kapitel 3.pdf (15.30 MB)
-* Kronig 2007 - Leistungsbewertung und Selektion - Kapitel 7.1.pdf (12.63 MB)
-* Kronig 2009 - Schulnoten - Glasperlen des Bildungssystems.pdf (1.81 MB)
-* Noelte & Wampfler 2021 - Eine Schule ohne Noten.pdf (73.66 MB)
-* Oelkers & Tschopp 2023 - Sind Schulnoten noch sinnvoll.pdf (152.50 KB)
-* Reichenbach, Joss & Comtesse 2021 - Noten taugen nichts.pdf (1.26 MB)
-* Winter 2018 - Die Noten - Kapitel 5.pdf (1.51 MB) 
+* @betschert_es_1997
+* [DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+* @dzelili_noten_2009
+* @Juergens_zensurengebung_2008
+* @Kronig_leistungsbewertung_2007
+* @Kronig_schulnoten_2009
+* @Noelte_eine_2021
+* @Oelkers_sind_2023
+* @Comtesse_noten_2021
+* @Winter_die_2018
 
 3. Hören Sie sich nun die Argumentationen von Philippe Wampfler in den beiden unten stehendem Videos zur Frage an, «warum man keine Noten und keine Prüfungen machen sollte» bzw. «von Noten wegkommen».
 4. Lassen Sie sich von diesen Argumenten provozieren und herausfordern oder dann bestärken und überzeugen. Versuchen Sie dort, wo Sie nicht einverstanden sind, argumentativ zu entgegnen, zu entkräftigen und dort, wo Sie einverstanden sind, zu untermauern oder zu bekräftigen. Ergänzen Sie damit Ihre Pro-Kontra-Liste.
