@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Tagungsunterlagen</title>
+<title>Mikroplanung Mathematik</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,28 +21,46 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/penguin.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +88,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -139,8 +99,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/penguin.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
@@ -157,27 +117,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
  <span class="dropdown-text">MI-Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
  <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
  <span class="dropdown-text">MI - Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
@@ -191,22 +151,22 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html"><i class="bi bi-building-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - Semesterkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - Blockkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - SOL</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-images" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-images" role="img">
 </i> 
  <span class="dropdown-text">MI - Mediendidaktik</span></a>
   </li>  
@@ -220,7 +180,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-zus.-und-komm.">    
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-share-fill" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-share-fill" role="img">
 </i> 
  <span class="dropdown-text">MI - Digitale Zusammenarbeit und Kommunikation</span></a>
   </li>  
@@ -234,7 +194,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -243,7 +203,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../tagungsunterlagen/tagungsunterlagen.html" aria-current="page"> <i class="bi bi-luggage-fill" role="img">
+    <a class="nav-link" href="../../tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-luggage-fill" role="img">
 </i> 
 <span class="menu-text">Konferenzen</span></a>
   </li>  
@@ -260,7 +220,8 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Tagungsunterlagen</h1>
+      <h1 class="title">Mikroplanung Mathematik</h1>
+            <p class="subtitle lead">Blockkurs</p>
                       </div>
   </div>
     
@@ -287,7 +248,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Geändert</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">07.05.2024</p>
+        <p class="date-modified">08.04.2024</p>
       </div>
     </div>
       
@@ -298,7 +259,19 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link active" data-scroll-target="#organisatorisches">Organisatorisches</a></li>
+  <li><a href="#workload" id="toc-workload" class="nav-link" data-scroll-target="#workload">Workload</a>
+  <ul class="collapse">
+  <li><a href="#vorbereitungsauftrag-1.-kurstag" id="toc-vorbereitungsauftrag-1.-kurstag" class="nav-link" data-scroll-target="#vorbereitungsauftrag-1.-kurstag">Vorbereitungsauftrag 1. Kurstag</a></li>
+  <li><a href="#vorbereitungsauftrag-2.-kurstag" id="toc-vorbereitungsauftrag-2.-kurstag" class="nav-link" data-scroll-target="#vorbereitungsauftrag-2.-kurstag">Vorbereitungsauftrag 2. Kurstag</a></li>
+  <li><a href="#vorbereitungsauftrag-3.-kurstag" id="toc-vorbereitungsauftrag-3.-kurstag" class="nav-link" data-scroll-target="#vorbereitungsauftrag-3.-kurstag">Vorbereitungsauftrag 3. Kurstag</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -307,162 +280,164 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing-1">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-1-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing-1'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
-       <option value="index" data-direction="asc">Voreinstellung</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Datum - Datum (aufsteigend)
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Datum - Neueste
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titel
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<table class="quarto-listing-table table">
+<div class="callout-title-container flex-fill">
+Wichtig
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Noch nicht fertig, work in progress</p>
+</div>
+</div>
+<section id="organisatorisches" class="level1">
+<h1>Organisatorisches</h1>
+<div style="text-align: center;">
+<p><a href="" class="knopf" target="_blank">Organisationsblatt</a></p>
+<p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_grp_2127034.html" class="knopf knopf-klein" target="_blank">Materialraum</a></p>
+</div>
+<table class="table-striped table-hover table-sm small table">
 <thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Datum</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
-</th>
-<th>
-Untertitel
-</th>
+<tr class="header">
+<th style="text-align: center;">Blocktag</th>
+<th style="text-align: left;">Thema</th>
+<th style="text-align: center;">Vorbereitung</th>
+<th style="text-align: center;">Slides</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1714937682045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Mathematik" data-listing-filename-sort="2024_05_07_CAS_BKB_MA.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MA.html" class="title listing-title">Mathematik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">LP21 - Thematische Aufteilung</td>
+<td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_mikroplanung_math/block_slide_01.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715097116625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308" data-listing-title-sort="Medien und Informatik" data-listing-filename-sort="2024_05_07_CAS_BKB_MI.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MI.html" class="title listing-title">Medien und Informatik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Binnendifferenzierung</td>
+<td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_mikroplanung_math/block_slide_02.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1714661183852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295" data-listing-title-sort="KI im Mathematikunterricht" data-listing-filename-sort="2024_05_02_KI_Mathematikunterricht.qmd">
-<td>
-<span class="listing-date">02.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html" class="title listing-title">KI im Mathematikunterricht</a>
-</td>
-<td>
-<span class="listing-subtitle">Think Tank Medien und Informatik</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1711967891226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>" data-listing-filename-sort="2024_03_20_PLP_Tagung.qmd">
-<td>
-<span class="listing-date">20.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_20_PLP_Tagung.html" class="title listing-title">Wie gelingt <span style="white-space:nowrap">Beziehungsgestaltung?</span></a>
-</td>
-<td>
-<span class="listing-subtitle">Praxislehrpersonen-Tagung</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1710716400000" data-listing-file-modified-sort="1710672915649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_03_18_Treffpunkt_Hochschuldidaktik.qmd">
-<td>
-<span class="listing-date">18.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Treffpunkt Hochschuldidaktik</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1709566742945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2056" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_03_04_kolloquium_fachdidaktik.qmd">
-<td>
-<span class="listing-date">04.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Kolloquium Fachdidaktik</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1707692400000" data-listing-file-modified-sort="1708602822350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_02_12_barcamp_phbern_2024.qmd">
-<td>
-<span class="listing-date">12.02.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Barcamp PHBern</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1706620969017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_01_30_literature_club.qmd">
-<td>
-<span class="listing-date">30.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_30_literature_club.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Literature Club Besprechung</span>
-</td>
-</tr>
-<tr data-index="8" data-categories="Tagungsfolien" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1711967761995" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="2024_01_19_gdm_tagung.qmd">
-<td>
-<span class="listing-date">19.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_19_gdm_tagung.html" class="title listing-title">Mathematikverständnis stärken in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-subtitle">Workshop Gesellschaft für Didaktik der Mathematik Schweiz</span>
-</td>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_mikroplanung_math/block_slide_01.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-Keine Treffer
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{conrardy,
+<div class="callout-title-container flex-fill">
+Flipped Classroom
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li>move most information-transmission teaching out of class</li>
+<li>use class time for learning activities that are active and social and</li>
+<li>require students to complete pre- and/or post-class activities to fully benefit from in-class work.</li>
+</ol>
+<p><span class="citation" data-cites="abeysekera_motivation_2015">(<a href="#ref-abeysekera_motivation_2015" role="doc-biblioref">Abeysekera &amp; Dawson, 2015, S. 3</a>)</span></p>
+</blockquote>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Open Educational Resources (OER)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Sie werden in dieser Lerngelegenheit Materialien unter eine <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0 Lizenz</a> stellen. Sie entscheiden selbst wer seinen Namen in welcher Reihenfolge auf dem Material haben möchte oder welcher weggelassen wird. Die Materialien werden von mir einheitlich Layoutet und gemäss der Lizenz ins Web gestellt, damit andere davon profitieren können.</p>
+<p>Beachten Sie das <a href="https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de">URG</a> und geben Sie bei selbsterstellten Graphiken (z.B. Funktionsgraphen) eine Anleitung welche ausreicht um die Graphen neu zu erstellen.</p>
+<p>Hinweis: Es ist unwahrscheinlich, dass Sie <a href="https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken">Zitatrecht</a> in Anspruch nehmen können in diesem Setting.</p>
+<p><a href="https://digileb.phbern.ch/didaktisches-design/kollaboratives-lernen-und-arbeiten/oer-herstellen/">Weitere Informationen.</a></p>
+</div>
+</div>
+</div>
+</section>
+<section id="workload" class="level1">
+<h1>Workload</h1>
+<p>Motivation <span class="citation" data-cites="bovet_leitfaden_2020">Bovet &amp; Huwendiek (<a href="#ref-bovet_leitfaden_2020" role="doc-biblioref">2020</a>)</span>, Motivation gemäss <span class="citation" data-cites="eccles_expectancies_1983">Eccles (<a href="#ref-eccles_expectancies_1983" role="doc-biblioref">1983</a>)</span> and <span class="citation" data-cites="ryan_self-determination_2000">Ryan &amp; Deci (<a href="#ref-ryan_self-determination_2000" role="doc-biblioref">2000</a>)</span>. Für mehr Informationen besuchen Sie die LG <em>Motivationsförderung im Unterricht</em>.</p>
+<p>Lernumgebung <span class="citation" data-cites="friedrich_analyse_1997">Friedrich &amp; Mandl (<a href="#ref-friedrich_analyse_1997" role="doc-biblioref">1997</a>)</span></p>
+<p>Leitideen für Lernumgebungen <span class="citation" data-cites="lilitakis_zur_2009">Wollring (<a href="#ref-lilitakis_zur_2009" role="doc-biblioref">2009</a>)</span></p>
+<p>Padua (angelehnt an <span class="citation" data-cites="aebli_zwolf_1983">Aebli (<a href="#ref-aebli_zwolf_1983" role="doc-biblioref">1983</a>)</span>), Aviva <span class="citation" data-cites="stadeli_aviva_2020">Städeli &amp; Maurer (<a href="#ref-stadeli_aviva_2020" role="doc-biblioref">2020</a>)</span> <em>Planungsarbeit im Fokus</em></p>
+<p><a href="https://portfolio.switch.ch/">Switchportolio</a> und <a href="https://learningview.org/">LearningView</a> in Mediendidaktik</p>
+<p><a href="https://quarto.org/">Quarto</a></p>
+<section id="vorbereitungsauftrag-1.-kurstag" class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitungsauftrag-1.-kurstag">Vorbereitungsauftrag 1. Kurstag</h2>
+<p>Lesen Sie den Workload sowie den Leistungsnachweis (<a href="https://ilias.phbern.ch/goto_phbern_grp_2127034.html">Modularbeit, Informationen auf Ilias</a>) durch. Sie werden individuell eine Lernumgebung (nach <span class="citation" data-cites="friedrich_analyse_1997">Friedrich &amp; Mandl (<a href="#ref-friedrich_analyse_1997" role="doc-biblioref">1997</a>)</span>) inklusive Lektionsplanung erstellen. Diese Lernumgebung folgt den Leitideen gemäss <span class="citation" data-cites="lilitakis_zur_2009">Wollring (<a href="#ref-lilitakis_zur_2009" role="doc-biblioref">2009</a>)</span>.</p>
+<p>Wählen Sie</p>
+</section>
+<section id="vorbereitungsauftrag-2.-kurstag" class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitungsauftrag-2.-kurstag">Vorbereitungsauftrag 2. Kurstag</h2>
+<p><span class="citation" data-cites="van_dormolen_didaktik_1978">Van Dormolen (<a href="#ref-van_dormolen_didaktik_1978" role="doc-biblioref">1978</a>)</span></p>
+</section>
+<section id="vorbereitungsauftrag-3.-kurstag" class="level2">
+<h2 class="anchored" data-anchor-id="vorbereitungsauftrag-3.-kurstag">Vorbereitungsauftrag 3. Kurstag</h2>
+<p>Anpassung an die Bedürfnisse der Schüler Klare Lernziele und Standards Strukturierter Unterrichtsverlauf Berücksichtigung von Schülerfeedback Einsatz differenzierter Unterrichtsmethoden</p>
+<p>Theorie und Konzepte vermitteln Fallstudien und Praxisbeispiele Gruppenarbeit und Diskussionen Praktische Übungen Gastvorträge und Experteninterviews Feedback und Reflexion Technologieintegration</p>
+
+
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-abeysekera_motivation_2015" class="csl-entry" role="listitem">
+Abeysekera, L., &amp; Dawson, P. (2015). Motivation and cognitive load in the flipped classroom: definition, rationale and a call for research. <em>Higher Education Research &amp; Development</em>, <em>34</em>(1), 1–14. <a href="https://doi.org/10.1080/07294360.2014.934336">https://doi.org/10.1080/07294360.2014.934336</a>
+</div>
+<div id="ref-aebli_zwolf_1983" class="csl-entry" role="listitem">
+Aebli, H. (1983). <em>Zwölf Grundformen des Lehrens: eine allgemeine Didaktik auf psychologischer Grundlage: Medien und Inhalte didaktischer Kommunikation, der Lernzyklus</em> (15. Auflage). Klett-Cotta.
+</div>
+<div id="ref-bovet_leitfaden_2020" class="csl-entry" role="listitem">
+Bovet, G., &amp; Huwendiek, V. (Hrsg.). (2020). <em>Leitfaden Schulpraxis: Pädagogik und Psychologie für den Lehrberuf</em> (12. Auflage). Cornelsen.
+</div>
+<div id="ref-eccles_expectancies_1983" class="csl-entry" role="listitem">
+Eccles. (1983). Expectancies, values and academic behaviors <span></span> Semantic Scholar. In Richard C. Atkins, Gardner Lindzey, &amp; Richard F. Thompson (Hrsg.), <em>Achievement and Achievement Motives</em> (S. 75–146). W. H. Freeman; Company. <a href="https://www.semanticscholar.org/paper/Expectancies%2C-values-and-academic-behaviors-Eccles/41eccafa265b4d0fe20d9c5bfa9893f97e87edc8">https://www.semanticscholar.org/paper/Expectancies%2C-values-and-academic-behaviors-Eccles/41eccafa265b4d0fe20d9c5bfa9893f97e87edc8</a>
+</div>
+<div id="ref-friedrich_analyse_1997" class="csl-entry" role="listitem">
+Friedrich, H., &amp; Mandl, H. (1997). Analyse und Förderung selbstgesteuerten Lernens. In <em>Lern- Und Denkstrategien</em> (S. 237–296).
+</div>
+<div id="ref-ryan_self-determination_2000" class="csl-entry" role="listitem">
+Ryan, R. M., &amp; Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. <em>American Psychologist</em>, <em>55</em>(1), 68–78. <a href="https://doi.org/10.1037/0003-066X.55.1.68">https://doi.org/10.1037/0003-066X.55.1.68</a>
+</div>
+<div id="ref-stadeli_aviva_2020" class="csl-entry" role="listitem">
+Städeli, C., &amp; Maurer, M. (2020). <em>The <span>AVIVA</span> model A competence-oriented approach to teaching and learning</em>. <a href="https://www.hep-verlag.ch/the-aviva-model">https://www.hep-verlag.ch/the-aviva-model</a>
+</div>
+<div id="ref-van_dormolen_didaktik_1978" class="csl-entry" role="listitem">
+Van Dormolen, J. (1978). <em>Didaktik der Mathematik</em>. Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-84149-0">https://doi.org/10.1007/978-3-322-84149-0</a>
+</div>
+<div id="ref-lilitakis_zur_2009" class="csl-entry" role="listitem">
+Wollring, B. (2009). Zur Kennzeichnung von Lernumgebungen für den Mathematikunterricht in der Grundschule. In G. Lilitakis, B. Spindeler, &amp; A. Peter-Koop, <em>Lernumgebungen - Ein Weg zum kompetenzorientierten Mathematikunterricht in der Grundschule: Festschrift zum 60. Geburtstag von Bernd Wollring</em> (S. 9–22). Mildenberger.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{conrardy,
   author = {Conrardy, Richard},
   publisher = {University of Teacher Education Bern},
-  title = {Tagungsunterlagen},
+  title = {Mikroplanung Mathematik},
   url = {https://phbern-rconrardy.github.io/lerngelegenheiten/},
   langid = {de}
 }
 </code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (n.d.). <em>Tagungsunterlagen</em>. University of Teacher
-Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+Conrardy, R. (n.d.). <em>Mikroplanung Mathematik</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -893,12 +868,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../footer/impressum.html">
+    <a class="nav-link" href="../../footer/impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../footer/disclaimer.html">
+    <a class="nav-link" href="../../footer/disclaimer.html">
 <p>Disclaimer</p>
 </a>
   </li>  

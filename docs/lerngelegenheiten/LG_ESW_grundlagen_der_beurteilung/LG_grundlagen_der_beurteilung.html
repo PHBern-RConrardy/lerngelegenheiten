@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Tagungsunterlagen</title>
+<title>Grundlagen der Beurteilung</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/penguin.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -139,8 +79,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/penguin.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
@@ -157,27 +97,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
  <span class="dropdown-text">MI-Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
  <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
  <span class="dropdown-text">MI - Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
@@ -191,22 +131,22 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html"><i class="bi bi-building-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - Semesterkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - Blockkurs</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
 </i> 
  <span class="dropdown-text">MA - Mikroplanung Mathematik - SOL</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-images" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-images" role="img">
 </i> 
  <span class="dropdown-text">MI - Mediendidaktik</span></a>
   </li>  
@@ -220,7 +160,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-zus.-und-komm.">    
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-share-fill" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-share-fill" role="img">
 </i> 
  <span class="dropdown-text">MI - Digitale Zusammenarbeit und Kommunikation</span></a>
   </li>  
@@ -234,7 +174,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -243,7 +183,7 @@ window.Quarto = {
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../tagungsunterlagen/tagungsunterlagen.html" aria-current="page"> <i class="bi bi-luggage-fill" role="img">
+    <a class="nav-link" href="../../tagungsunterlagen/tagungsunterlagen.html"> <i class="bi bi-luggage-fill" role="img">
 </i> 
 <span class="menu-text">Konferenzen</span></a>
   </li>  
@@ -260,8 +200,12 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Tagungsunterlagen</h1>
-                      </div>
+      <h1 class="title">Grundlagen der Beurteilung</h1>
+            <p class="subtitle lead">Fallbasiert diskutiert, SOL mit Coaching-Angebot</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Summative und prognostische Beurteilung</div>
+              </div>
+                  </div>
   </div>
     
   <div class="quarto-title-meta-author">
@@ -287,7 +231,7 @@ window.Quarto = {
       <div>
       <div class="quarto-title-meta-heading">Geändert</div>
       <div class="quarto-title-meta-contents">
-        <p class="date-modified">07.05.2024</p>
+        <p class="date-modified">05.05.2024</p>
       </div>
     </div>
       
@@ -298,7 +242,14 @@ window.Quarto = {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#ziele-und-intention" id="toc-ziele-und-intention" class="nav-link active" data-scroll-target="#ziele-und-intention">Ziele und Intention</a></li>
+  <li><a href="#workload-beurteilungskonzept" id="toc-workload-beurteilungskonzept" class="nav-link" data-scroll-target="#workload-beurteilungskonzept">Workload «Beurteilungskonzept»</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -307,162 +258,152 @@ window.Quarto = {
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing-1">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-1-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing-1'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
-       <option value="index" data-direction="asc">Voreinstellung</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Datum - Datum (aufsteigend)
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Datum - Neueste
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titel
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
+<div style="text-align: center;">
+<p><a href="https://learningview.org/" class="knopf" target="_blank">LearningView</a></p>
+<p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_fold_2177856.html" class="knopf knopf-klein" target="_blank">Materialraum</a></p>
 </div>
-<table class="quarto-listing-table table">
+<table class="table">
 <thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Datum</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
-</th>
-<th>
-Untertitel
-</th>
+<tr class="header">
+<th>Lernmodul</th>
+<th>Inhalt</th>
+<th>Workload</th>
 </tr>
 </thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1714937682045" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Mathematik" data-listing-filename-sort="2024_05_07_CAS_BKB_MA.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MA.html" class="title listing-title">Mathematik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html">Thematische Einführung</a></td>
+<td></td>
 </tr>
-<tr data-index="1" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715097116625" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308" data-listing-title-sort="Medien und Informatik" data-listing-filename-sort="2024_05_07_CAS_BKB_MI.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MI.html" class="title listing-title">Medien und Informatik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
+<tr class="even">
+<td>2</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html">Theoretische Grundlagen</a></td>
+<td></td>
 </tr>
-<tr data-index="2" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1714661183852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295" data-listing-title-sort="KI im Mathematikunterricht" data-listing-filename-sort="2024_05_02_KI_Mathematikunterricht.qmd">
-<td>
-<span class="listing-date">02.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html" class="title listing-title">KI im Mathematikunterricht</a>
-</td>
-<td>
-<span class="listing-subtitle">Think Tank Medien und Informatik</span>
-</td>
+<tr class="odd">
+<td>3</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.html">Gesetzliche Grundlagen</a></td>
+<td></td>
 </tr>
-<tr data-index="3" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1711967891226" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>" data-listing-filename-sort="2024_03_20_PLP_Tagung.qmd">
-<td>
-<span class="listing-date">20.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_20_PLP_Tagung.html" class="title listing-title">Wie gelingt <span style="white-space:nowrap">Beziehungsgestaltung?</span></a>
-</td>
-<td>
-<span class="listing-subtitle">Praxislehrpersonen-Tagung</span>
-</td>
+<tr class="even">
+<td>4</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.html">Noten und Beurteilungsberichte</a></td>
+<td></td>
 </tr>
-<tr data-index="4" data-listing-date-sort="1710716400000" data-listing-file-modified-sort="1710672915649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_03_18_Treffpunkt_Hochschuldidaktik.qmd">
-<td>
-<span class="listing-date">18.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Treffpunkt Hochschuldidaktik</span>
-</td>
+<tr class="odd">
+<td>5</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.html">Förderorientierung</a></td>
+<td></td>
 </tr>
-<tr data-index="5" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1709566742945" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2056" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_03_04_kolloquium_fachdidaktik.qmd">
-<td>
-<span class="listing-date">04.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Kolloquium Fachdidaktik</span>
-</td>
+<tr class="even">
+<td>6</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.html">Lernbegleitung und Lerncoaching</a></td>
+<td></td>
 </tr>
-<tr data-index="6" data-listing-date-sort="1707692400000" data-listing-file-modified-sort="1708602822350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_02_12_barcamp_phbern_2024.qmd">
-<td>
-<span class="listing-date">12.02.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Barcamp PHBern</span>
-</td>
+<tr class="odd">
+<td>7</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.html">Kompetenzorientierung</a></td>
+<td></td>
 </tr>
-<tr data-index="7" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1706620969017" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_01_30_literature_club.qmd">
-<td>
-<span class="listing-date">30.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_30_literature_club.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Literature Club Besprechung</span>
-</td>
+<tr class="even">
+<td>8</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.html">Gesamturteil und Persönliche und Schlüsselkompetenzen</a></td>
+<td></td>
 </tr>
-<tr data-index="8" data-categories="Tagungsfolien" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1711967761995" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="2024_01_19_gdm_tagung.qmd">
-<td>
-<span class="listing-date">19.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_19_gdm_tagung.html" class="title listing-title">Mathematikverständnis stärken in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-subtitle">Workshop Gesellschaft für Didaktik der Mathematik Schweiz</span>
-</td>
+<tr class="odd">
+<td>9</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.html">Niveaus und Schulmodelle</a></td>
+<td></td>
+</tr>
+<tr class="even">
+<td>10</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.html">Nachteilsausgleich und individuelle Lernziele</a></td>
+<td></td>
+</tr>
+<tr class="odd">
+<td>11</td>
+<td><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.html">Dokumentenmappe mit BU21</a></td>
+<td></td>
 </tr>
 </tbody>
 </table>
-<div class="listing-no-matching d-none">
-Keine Treffer
+<section id="ziele-und-intention" class="level1">
+<h1>Ziele und Intention</h1>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{conrardy,
-  author = {Conrardy, Richard},
+<div class="callout-title-container flex-fill">
+Modulkompetenzen
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Abgedeckte Indikatoren aus dem Modul «Formative Beurteilung»:</p>
+<ol type="1">
+<li>Die Studierenden arbeiten mit den rechtlichen Vorgaben und den Empfehlungen zur formativen Beurteilung.</li>
+<li>Die Studierenden nutzen Verfahren, um den Lernbedarf im Hinblick auf fachspezi-fische, fachübergreifende, methodische und sprachliche Kompetenzen zu ermitteln.</li>
+<li>Die Studierenden verstehen einen Förderkreislauf und leiten Fördermassnahmen ab.</li>
+</ol>
+<p>Abgedeckte Indikatoren aus dem Modul «Summative und prognostische Beurteilung»</p>
+<ol type="1">
+<li>Die Studierenden arbeiten mit den rechtlichen Vorgaben und den Empfehlungen zur summativen und prognostischen Beurteilung.</li>
+<li>Die Studierenden nutzen Strategien, um mit dem Dilemma zwischen Förderung und Selektion umzugehen.</li>
+<li>Die Studierenden setzen ein Alignment zwischen Lernerwartungen, Lerninhalten und Leistungsbeurteilungen um.</li>
+</ol>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Intention des Seminars
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Schüler*innenbeurteilung und Schullaufbahnentscheide gehören zu den wichtigsten Tätigkeiten und Aufgaben der Lehrpersonen. Die Schulleitungen weisen darauf hin, dass Berufseinsteigende genau bei dieser Thematik manchmal in der Kritik von Erziehungsberechtigten stehen. Dies lässt sich vermeiden, wenn die Lehrpersonen von Anfang an mit einem differenzierten Beurteilungskonzept Transparenz schaffen. Differenziert meint, dass das «persönliche» Beurteilungskonzept die Umsetzung der übergeordneten Vorgaben (im Kanton Bern DVBS &amp; AHB) im eigenen Unterricht aufzeigt. Lehrpersonen machen ihren Lernenden und den Erziehungsberechtigten damit transparent, wie sie die förderorientierte Beurteilung in den Unterricht integrieren (formative Beurteilung), wie überfachliche Kompetenzen beurteilt werden und wie die Noten und Prädikate in den Fachbereichen zustande kommen (summative Beurteilung).</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Teilnahmeregelung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Grundsätzlich wird die Teilnahme am LearningView-Kurs erwartet.</p>
+<p>Ich fühle mich dafür verantwortlich, dass Sie sich mit den Inhalten beschäftigen und sich diese aneignen und nicht, dass Sie Ihre Zeit auf LearningView verbringen müssen. Deshalb werden verbindliche Anforderungen an die Qualität des Beurteilungskonzepts gestellt.</p>
+<p>Das bedeutet, dass anhand eines Kriterienrasters Qualitätsansprüche an den Workload «Beurteilungskonzept» gestellt werden. Dieses Raster wird sowohl als Rückmeldungsinstrument, als auch zur Einschätzung der Qualität desselben verwendet. Es ist deshalb möglich, dass das Beurteilungskonzept «nicht erfüllt» sein kann. In diesem Falle dürfen Sie selbstverständlich das Konzept überarbeiten.</p>
+<p><strong>Verpflichtende</strong> Teilnahme an einem Coaching zum persönlichen Beurteilungskonzept:</p>
+<p>Wie Sie sicher bereits gesehen haben, gibt es Zeitgefässe, die ganz der individuellen Arbeit am Beurteilungskonzept gewidmet sind. Sie haben diese Zeit zur Verfügung, um das Konzept zu schreiben, aber auch, um ein formatives Feedback einzuholen. Dazu stehen Ihnen Zeitgefässe zur Verfügung, in denen Sie ein Coaching zu Ihrem Beurteilungskonzept erhalten können. Sie müssen bis zum Ende des Semesters mindestens einen Coachingtermin wahrgenommen haben, an dem ich Ihnen ein formatives Feedback auf Ihr Konzept geben kann.</p>
+</div>
+</div>
+</section>
+<section id="workload-beurteilungskonzept" class="level1">
+<h1>Workload «Beurteilungskonzept»</h1>
+<p>Am Ende des Semesters verfügen Sie über einen Entwurf eines persönlichen Beurteilungskonzepts, indem Sie an Ihren Vorkenntnissen anknüpfen und die wichtigsten Themen, Begriffe und Modelle aus dem Seminar (siehe Liste unten) in Ihre Argumentationen und Erläuterungen einbauen. Obwohl Ihre Argumentation persönlich ist, muss diese dennoch quellenbasiert erfolgen. Vergessen Sie also nicht, während des Verfassens des Konzepts konsequent und von Anfang an in Ihrem Lauftext die verwendeten Quellen anzugeben und sich allenfalls auch die Zitierweise von veranstaltunginternen Unterlagen anzueignen (siehe Vorschlag weiter unten). Sie entwickeln für Ihr Beurteilungskonzept eine eigene Struktur, welche Ihnen erlauben wird, alle künftigen Erfahrungen aus Unterricht und Praktika einzubauen.</p>
+<p>Das Beurteilungskonzept ist Bestandteil des Workloads des Seminars und muss den Anforderungskriterien genügen, die in den Informationen zum Beurteilungskonzept einsehbar sind. Anhand dieser Kriterien erhalten Sie eine Rückmeldung sowie ein Prädikat. Es ist folglich möglich, dass das Beurteilungskonzept das Prädikat «nicht erfüllt» erhält.</p>
+<p>Bei einem ungenügenden Beurteilungskonzept dürfen Sie dieses einmalig überarbeiten. Genügt dieses auch nach der Überarbeitung den Anforderungskriterien nicht, erfolgt ein Ausschluss aus der Veranstaltung.</p>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{löw,
+  author = {Löw, Aline and Ingrisani, Daniel and Althaus, Irene},
   publisher = {University of Teacher Education Bern},
-  title = {Tagungsunterlagen},
+  title = {Grundlagen der Beurteilung},
   url = {https://phbern-rconrardy.github.io/lerngelegenheiten/},
   langid = {de}
 }
-</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (n.d.). <em>Tagungsunterlagen</em>. University of Teacher
-Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-löw" class="csl-entry quarto-appendix-citeas" role="listitem">
+Löw, A., Ingrisani, D., &amp; Althaus, I. (n.d.). <em>Grundlagen der
+Beurteilung</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -893,12 +834,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../footer/impressum.html">
+    <a class="nav-link" href="../../footer/impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../footer/disclaimer.html">
+    <a class="nav-link" href="../../footer/disclaimer.html">
 <p>Disclaimer</p>
 </a>
   </li>  
