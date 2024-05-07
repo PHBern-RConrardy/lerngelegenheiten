@@ -28,23 +28,24 @@ website:  # Menüs für die Webseite
         href: https://github.com/PHBern-RConrardy/lerngelegenheiten
       - icon: book-fill
         href: https://www.zotero.org/groups/5512202/literatur_phbern_conrardy
+
     left:
       - text: Beurteilung
         icon: clipboard-check-fill
         menu: 
-          - href: lerngelegenheiten/LG_learning_analytics/learning_analytics.qmd
+          - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
             text: MI-Learning Analytics
             icon: graph-up
           - text: "ESW - Grundlagen der Beurteilung - SOL"
-            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
+            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
             icon: card-checklist
-          - href: lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.qmd
+          - href: lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.qmd
             text: MI - Digitalität und Datenschutz
             icon: shield-fill
-          - href: lerngelegenheiten/LG_stand_testverfahren/stand_test.qmd
+          - href: lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.qmd
             text: MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
             icon: file-bar-graph-fill
-          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.qmd
+          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
             text: MA - Verstehensorientiert prüfen in Zeiten von KI
             icon: calculator-fill
             
@@ -53,13 +54,13 @@ website:  # Menüs für die Webseite
         icon: arrows-angle-contract
         menu:   # Menü für die Mathematik Mikroplanung
           - text: MA - Mikroplanung Mathematik - Semesterkurs
-            href: lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.qmd
             icon: building-fill
           - text: MA - Mikroplanung Mathematik - Blockkurs
-            href: lerngelegenheiten/LG_mikroplanung_math/blockkurs.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.qmd
             icon: file-earmark-zip-fill
           - text: MA - Mikroplanung Mathematik - SOL
-            href: lerngelegenheiten/LG_mikroplanung_math/mikro_sol.qmd
+            href: lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.qmd
             icon: mouse2-fill
           - text: MI - Mediendidaktik
             href: empty
@@ -77,20 +78,10 @@ website:  # Menüs für die Webseite
             href: empty
             icon: easel2-fill
     
-    
     right:  
       - text: "Konferenzen"
         href: tagungsunterlagen/tagungsunterlagen.qmd
         icon: luggage-fill
-      - text: "Archiv"
-        icon: box-seam-fill
-        menu:
-          - href: lerngelegenheiten/LG_math_summative_praes/math_summ_praes.qmd
-            text: MA - Summative Beurteilung im Mathematikunterricht - Präsenz
-            icon: building-fill
-          - href: lerngelegenheiten/LG_math_summative_sol/math_summ_sol.qmd
-            text: MA - Summative Beurteilung im Mathematikunterricht - SOL
-            icon: mouse2-fill
   
   sidebar:
     - title: "Grundlagen der Beurteilung"
@@ -159,6 +150,7 @@ format:
     title-block-banner: true
     code-line-numbers: true
     fig-align: center
+    date-modified: last-modified
       
   revealjs: # Einträge nur für Präsentationen
     toc: false

@@ -12,5 +12,32 @@
       "/tagungsunterlagen/2024_01_30_literature_club.html",
       "/tagungsunterlagen/2024_01_19_gdm_tagung.html"
     ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html",
+      "/lerngelegenheiten/LG_beurteilung_digitale_medien/LG_digitale_medien_beurteilung.html",
+      "/lerngelegenheiten/LG_digitale_Zusammenarbeit_und_Kommunikation/LG_digitale_zusammenarbeit.html",
+      "/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html",
+      "/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html",
+      "/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html",
+      "/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html",
+      "/lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html",
+      "/lerngelegenheiten/LG_math_summative_praes/LG_math_summ_praes.html",
+      "/lerngelegenheiten/LG_math_summative_sol/LG_math_summ_sol.html",
+      "/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html",
+      "/tagungsunterlagen/2024_05_07_CAS_BKB_MA.html",
+      "/tagungsunterlagen/2024_05_07_CAS_BKB_MI.html",
+      "/tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html",
+      "/tagungsunterlagen/2024_03_20_PLP_Tagung.html",
+      "/tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+      "/tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html",
+      "/tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
+      "/tagungsunterlagen/2024_01_30_literature_club.html",
+      "/tagungsunterlagen/2024_01_19_gdm_tagung.html"
+    ]
   }
 ]

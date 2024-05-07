@@ -1,0 +1,14 @@
+---
+format: html
+title: Mediendidaktik
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard Conrardy
+citation: 
+  author:
+    - Michele Notari
+    - Richard Conrardy
+date: "5/05/2024"
+categories:
+  - Makroplanung
+  - Mikroplanung
+
+---

@@ -2,4 +2,27 @@
 title: "Lerngelegenheiten"
 subtitle: "Webseite für Lerngelegenheiten"
 format: html
+listing:
+  - contents: "lerngelegenheiten/*/LG_*.qmd"
+    type: table
+    fields: [title, subtitle]
+    categories: true
+    id: lerngelegenheiten
+    page-size: 5
+  - contents: "tagungsunterlagen/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [date, title,subtitle]
+    id: tagungsunterlagen
+    page-size: 5
 ---
+
+# Lerngelegenheiten
+
+:::{#lerngelegenheiten}
+:::
+
+# Konferenzen
+
+:::{#tagungsunterlagen}
+:::
