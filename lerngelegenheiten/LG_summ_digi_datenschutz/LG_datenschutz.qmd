@@ -2,7 +2,7 @@
 title: "Digitalität und Datenschutz"
 format: html
 categories:
-  - Summative und prognostische Beurteilung
+  - Modul - Summative und prognostische Beurteilung
   - Label - Digitalität
 toc-depth: 3
 ---

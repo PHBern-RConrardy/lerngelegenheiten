@@ -2,7 +2,7 @@
 title: Mikroplanung Mathematik
 format: html
 categories:
-  - Mikroplanung
+  - Modul - Mikroplanung
   - Fach - Mathematik
 ---
 

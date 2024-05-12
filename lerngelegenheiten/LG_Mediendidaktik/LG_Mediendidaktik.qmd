@@ -8,7 +8,7 @@ citation:
     - Richard Conrardy
 date: "5/05/2024"
 categories:
-  - Makroplanung
-  - Mikroplanung
+  - Modul - Makroplanung
+  - Modul - Mikroplanung
 
 ---

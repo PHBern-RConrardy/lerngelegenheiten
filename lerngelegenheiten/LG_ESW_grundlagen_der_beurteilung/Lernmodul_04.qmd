@@ -12,8 +12,7 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
-categories:
-  - Summative und prognostische Beurteilung
+
 abstract: >
   Im kommenden Lernmodul geht es um die Frage, wie das Zeugnis im Kanton Bern (Dokumentenmappe mit Beurteilungsbericht) genau aussieht, welche Formulare es enthalten kann und wie man ganz konkret Noten macht und einen Notenmassstab festlegt.
 

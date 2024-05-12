@@ -12,6 +12,9 @@ citation:
   author:
     - Michele Notari
     - Richard Conrardy
+categories:
+  - Modul - Summative und prognostische Beurteilung
+  - Modul - Formative Beurteilung
 ---
 
 | Woche | Thema                                           |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |

@@ -2,7 +2,7 @@
 title: "Digitale Zusammenarbeit und Kommunikation"
 format: html
 categories:
-  - Zusammenarbeit und Kommunikation
-  - Klassenführung
+  - Modul - Zusammenarbeit und Kommunikation
+  - Modul - Klassenführung
   - Label - Digitalität
 ---

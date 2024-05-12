@@ -67,7 +67,7 @@ website:  # Menüs für die Webseite
       - text: Zus. und Komm.
         icon: chat-text-fill
         menu:
-          - text: MI - Digitale Zusammenarbeit und Kommunikation
+          - text: Digitale Zusammenarbeit und Kommunikation
             href: empty
             icon: share-fill
       - text: Digitalität
@@ -172,6 +172,7 @@ format:
     code-line-numbers: true
     fig-align: center
     linkcolor: "#AC0101"
+    
       
   revealjs: # Einträge nur für Präsentationen
     toc: false
@@ -222,3 +223,9 @@ affiliations:
     department: Institut Sekundarstufe I
     ror: https://ror.org/05jf1ma54
 
+citation: 
+  type: webpage
+  URL: https://phbern-rconrardy.github.io/lerngelegenheiten/
+  publisher: University of Teacher Education Bern 
+appendix-cite-as: display
+date: 01/01/2024

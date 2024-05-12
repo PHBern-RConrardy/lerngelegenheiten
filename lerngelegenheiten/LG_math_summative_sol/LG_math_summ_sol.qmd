@@ -3,7 +3,8 @@ title: "Summative Beurteilung im Mathematikunterricht"
 subtitle: "Grundlagen für den Unterricht, selbst organisiertes Lernen (SOL)"
 format: html
 categories:
-  - Summative und prognostische Beurteilung
+  - Modul - Summative und prognostische Beurteilung
+  - Fach - Mathematik
 ---
 
 # Organisatorisches

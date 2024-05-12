@@ -12,8 +12,6 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
-categories:
-  - Summative und prognostische Beurteilung
 abstract: >
   In diesem Lernmodul lernen Sie die gesetzlichen Grundlagen schulischer Beurteilung im Kanton Bern kennen. Grundsätzlich kennen alle schweizerischen Kantone solche Grundlagen. Es ist allerdings ganz im Sinne des Föderalismus nicht überall gleich und vor allem findet man diese Grundlagen auch nicht überall gleich schnell bzw. an denselben Orten. Falls Sie jetzt schon wissen, dass Sie später nicht im Kanton Bern unterrichten werden, lohnt es sich dennoch, die gesetzlichen Grundlagen für Ihren Kanton zu recherchieren und zu studieren.
   

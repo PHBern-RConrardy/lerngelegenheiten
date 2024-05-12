@@ -3,9 +3,10 @@ title: "Verstehensorientiert prüfen in Zeiten von KI"
 subtitle: "Beurteilung Mathematik"
 format: html
 categories:
-  - Formative Beurteilung
-  - Summative und prognostische Beurteilung
+  - Modul - Formative Beurteilung
+  - Modul - Summative und prognostische Beurteilung
   - Label - Digitalität
+  - Fach - Mathematik
 authors:
     - name: Richard Conrardy
       orcid: 0009-0004-2063-6898

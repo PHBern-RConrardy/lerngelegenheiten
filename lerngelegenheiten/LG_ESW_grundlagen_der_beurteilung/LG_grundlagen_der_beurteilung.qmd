@@ -9,7 +9,8 @@ citation:
     - Daniel Ingrisani
     - Irene Althaus
 categories:
-  - Summative und prognostische Beurteilung
+  - Modul - Summative und prognostische Beurteilung
+  - Modul - Formative Beurteilung
 ---
 
 ::: {style="text-align: center;"}

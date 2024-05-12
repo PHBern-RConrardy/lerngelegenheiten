@@ -2,7 +2,7 @@
 title: "Learning Analytics"
 format: html
 categories:
-  - Formative Beurteilung
+  - Modul - Formative Beurteilung
   - Label - Digitalität
 ---
 
