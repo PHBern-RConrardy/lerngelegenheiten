@@ -25204,6 +25204,45 @@
             },
             "title": "Pflichtenheft spezialistin/spezialist medien und informatik (SMI) an den volksschulen des kantons bern empfehlungen an die gemeinden und an die schulleitungen",
             "type": ""
+        },
+        {
+            "URL": "https://dagstuhl.gi.de/fileadmin/GI/Hauptseite/Aktuelles/Projekte/Dagstuhl/Dagstuhl-Erklaerung_2016-03-23.pdf",
+            "author": [
+                {
+                    "literal": "Gesellschaft für Informatik e.V"
+                }
+            ],
+            "id": "gesellschaft_fur_informatik_ev_dagstuhl-erklarung_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016,
+                        3
+                    ]
+                ]
+            },
+            "title": "Dagstuhl-erklärung bildung in der digitalen vernetzten welt",
+            "type": ""
+        },
+        {
+            "URL": "https://qmp.phbern.ch/#/ui/coredata/docnet?treeId=2300",
+            "author": [
+                {
+                    "literal": "Pädagogische Hochschule Bern"
+                }
+            ],
+            "id": "padagogische_hochschule_bern_statistikmanagement_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        8,
+                        26
+                    ]
+                ]
+            },
+            "title": "Statistikmanagement PHBern",
+            "type": ""
         }
     ],
     "project_biblios": [

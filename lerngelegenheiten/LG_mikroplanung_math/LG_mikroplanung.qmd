@@ -1,7 +1,9 @@
 ---
-title: "Mikroplanung Mathematik"
-subtitle: "Blockkurs"
+title: Mikroplanung Mathematik
 format: html
+categories:
+  - Mikroplanung
+  - Fach - Mathematik
 ---
 
 ::: callout-important
@@ -25,7 +27,7 @@ Noch nicht fertig, work in progress
 : {.striped .hover .table-sm}
 
 ::: {.callout-tip collapse="true"}
-## Flipped Classroom
+## Flipped Classroom (Blockkurs)
 
 Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.
 
@@ -35,6 +37,18 @@ Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.
 >
 > [@abeysekera_motivation_2015, S.3]
 :::
+
+::: {.callout-tip collapse="true"}
+## Selbstorganisiertes Lernen (SOL-Kurs)
+
+Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, regulieren und beurteilen." [@hilbe_selbst_2011, S.8]
+
+Dem Dozierenden "kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für das Gelingen des Lernprozesses zu schaffen, Lernstrategien zu vermitteln und die Schülerinnen und Schüler bei Schwierigkeiten zu unterstützen." [@hilbe_selbst_2011, S.8]
+
+Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es inhaltlich, organisatorisch oder anderer Art.
+
+:::
+
 
 ::: {.callout-warning collapse="true"}
 ## Open Educational Resources (OER)
@@ -89,3 +103,9 @@ Praktische Übungen
 Gastvorträge und Experteninterviews
 Feedback und Reflexion
 Technologieintegration
+
+# Organisation
+
+AVIVA-Modell
+LUKAS-Modell
+PADUA-Modell

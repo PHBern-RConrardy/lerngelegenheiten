@@ -103,39 +103,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -162,27 +133,27 @@ window.Quarto = {
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
- <span class="dropdown-text">MI-Learning Analytics</span></a>
+ <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
- <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
+ <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
- <span class="dropdown-text">MI - Digitalität und Datenschutz</span></a>
+ <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
+ <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Verstehensorientiert prüfen in Zeiten von KI</span></a>
+ <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
     </ul>
   </li>
@@ -194,24 +165,14 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Semesterkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Blockkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - SOL</span></a>
+ <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../empty"><i class="bi bi-images" role="img">
 </i> 
- <span class="dropdown-text">MI - Mediendidaktik</span></a>
+ <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
     </ul>
   </li>
@@ -237,7 +198,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../../empty"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -258,6 +219,16 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html">Semesterübersicht</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
@@ -268,13 +239,13 @@ window.Quarto = {
                                 <div class="quarto-categories">
                 <div class="quarto-category">Formative Beurteilung</div>
                 <div class="quarto-category">Summative und prognostische Beurteilung</div>
-                <div class="quarto-category">Digitalität</div>
+                <div class="quarto-category">Label - Digitalität</div>
               </div>
                   </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Dozierende</div>
+    <div class="quarto-title-meta-heading">Autor:innen</div>
     <div class="quarto-title-meta-heading">Zugehörigkeit</div>
     
       <div class="quarto-title-meta-contents">
@@ -303,18 +274,72 @@ window.Quarto = {
 
         
     
-      <div>
-      <div class="quarto-title-meta-heading">Geändert</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date-modified">27.04.2024</p>
-      </div>
-    </div>
       
     </div>
     
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -328,19 +353,6 @@ window.Quarto = {
   <li><a href="#packages-installieren-numpy" id="toc-packages-installieren-numpy" class="nav-link" data-scroll-target="#packages-installieren-numpy">Packages installieren (numpy)</a></li>
   <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
   <li><a href="#projekt-2" id="toc-projekt-2" class="nav-link" data-scroll-target="#projekt-2">Projekt 2</a></li>
-  </ul></li>
-  <li><a href="#aufgabenvorschläge" id="toc-aufgabenvorschläge" class="nav-link" data-scroll-target="#aufgabenvorschläge">Aufgabenvorschläge</a>
-  <ul class="collapse">
-  <li><a href="#teilbarkeit" id="toc-teilbarkeit" class="nav-link" data-scroll-target="#teilbarkeit">Teilbarkeit</a></li>
-  <li><a href="#vierquadratesatz-von-lagrange" id="toc-vierquadratesatz-von-lagrange" class="nav-link" data-scroll-target="#vierquadratesatz-von-lagrange">Vierquadratesatz von Lagrange</a></li>
-  <li><a href="#quadratzahlen" id="toc-quadratzahlen" class="nav-link" data-scroll-target="#quadratzahlen">Quadratzahlen</a></li>
-  <li><a href="#stammbrüche" id="toc-stammbrüche" class="nav-link" data-scroll-target="#stammbrüche">Stammbrüche</a></li>
-  <li><a href="#collatz-problem" id="toc-collatz-problem" class="nav-link" data-scroll-target="#collatz-problem">Collatz-Problem</a></li>
-  <li><a href="#sieb-des-eratosthenes" id="toc-sieb-des-eratosthenes" class="nav-link" data-scroll-target="#sieb-des-eratosthenes">Sieb des Eratosthenes</a></li>
-  <li><a href="#potenz--exponentialfunktion" id="toc-potenz--exponentialfunktion" class="nav-link" data-scroll-target="#potenz--exponentialfunktion">Potenz-, Exponentialfunktion</a></li>
-  <li><a href="#narzistische-zahlen" id="toc-narzistische-zahlen" class="nav-link" data-scroll-target="#narzistische-zahlen">Narzistische Zahlen</a></li>
-  <li><a href="#perfekte-zahlen" id="toc-perfekte-zahlen" class="nav-link" data-scroll-target="#perfekte-zahlen">Perfekte Zahlen</a></li>
-  <li><a href="#befreundete-zahlen" id="toc-befreundete-zahlen" class="nav-link" data-scroll-target="#befreundete-zahlen">Befreundete Zahlen</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -476,7 +488,7 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</h2>
 <p>Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie <strong>vor</strong> der ersten Woche Rstudio und Python auf Ihrem Computer.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Grobe Installationsanleitung unter Windows:</p>
@@ -619,196 +631,6 @@ Leistungsnachweis: Formative Beurteilung
 <li><a href="https://www.mathe-kaenguru.de/chronik/aufgaben/index.html">Mathekänguru</a></li>
 </ul>
 <hr>
-</section>
-</section>
-<section id="aufgabenvorschläge" class="level1">
-<h1>Aufgabenvorschläge</h1>
-<section id="teilbarkeit" class="level2">
-<h2 class="anchored" data-anchor-id="teilbarkeit">Teilbarkeit</h2>
-<p>Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind.</p>
-</section>
-<section id="vierquadratesatz-von-lagrange" class="level2">
-<h2 class="anchored" data-anchor-id="vierquadratesatz-von-lagrange">Vierquadratesatz von Lagrange</h2>
-<ul>
-<li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.</li>
-</ul>
-<p>Man kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.</p>
-<ul>
-<li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.</li>
-<li>Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.</li>
-</ul>
-<details>
-<summary>
-Lösungsvorschlag
-</summary>
-<p>Dieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="co"># Lösung von Leandro Lüthi unter CC BY-SA 4.0 Lizenz</span></span>
-<span id="cb4-2"><a href="#cb4-2"></a><span class="kw">def</span> istSumVonQuadr(zahl, anz_quadrnr):</span>
-<span id="cb4-3"><a href="#cb4-3"></a>  <span class="co"># Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.</span></span>
-<span id="cb4-4"><a href="#cb4-4"></a>  <span class="cf">if</span> anz_quadrnr <span class="op">==</span> <span class="dv">2</span>:</span>
-<span id="cb4-5"><a href="#cb4-5"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
-<span id="cb4-6"><a href="#cb4-6"></a>    <span class="co"># for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe</span></span>
-<span id="cb4-7"><a href="#cb4-7"></a>    <span class="co"># Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist</span></span>
-<span id="cb4-8"><a href="#cb4-8"></a>      <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(i, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>)<span class="op">+</span><span class="dv">1</span>):</span>
-<span id="cb4-9"><a href="#cb4-9"></a>        <span class="cf">if</span> i<span class="op">**</span><span class="dv">2</span> <span class="op">+</span> j<span class="op">**</span><span class="dv">2</span> <span class="op">==</span> zahl:</span>
-<span id="cb4-10"><a href="#cb4-10"></a>          <span class="cf">return</span> <span class="va">True</span></span>
-<span id="cb4-11"><a href="#cb4-11"></a>          <span class="co"># Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück</span></span>
-<span id="cb4-12"><a href="#cb4-12"></a>    <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb4-13"><a href="#cb4-13"></a>  <span class="cf">else</span>:</span>
-<span id="cb4-14"><a href="#cb4-14"></a>    <span class="co"># Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen</span></span>
-<span id="cb4-15"><a href="#cb4-15"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="bu">int</span>(zahl<span class="op">**</span><span class="fl">0.5</span>) <span class="op">+</span> <span class="dv">1</span>):</span>
-<span id="cb4-16"><a href="#cb4-16"></a>      <span class="co"># Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe</span></span>
-<span id="cb4-17"><a href="#cb4-17"></a>      <span class="cf">if</span> istSumVonQuadr(zahl <span class="op">-</span> i<span class="op">**</span><span class="dv">2</span>, anz_quadrnr <span class="op">-</span> <span class="dv">1</span>):</span>
-<span id="cb4-18"><a href="#cb4-18"></a>        <span class="cf">return</span> <span class="va">True</span></span>
-<span id="cb4-19"><a href="#cb4-19"></a>        <span class="co">"""</span></span>
-<span id="cb4-20"><a href="#cb4-20"></a><span class="co">        Von der 'zahl' wird das Quadrat von i subdrahiert</span></span>
-<span id="cb4-21"><a href="#cb4-21"></a><span class="co">        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz</span></span>
-<span id="cb4-22"><a href="#cb4-22"></a><span class="co">        zwischen i**2 und zahl ergeben</span></span>
-<span id="cb4-23"><a href="#cb4-23"></a><span class="co">        """</span></span>
-<span id="cb4-24"><a href="#cb4-24"></a>    <span class="cf">return</span> <span class="va">False</span></span>
-<span id="cb4-25"><a href="#cb4-25"></a></span>
-<span id="cb4-26"><a href="#cb4-26"></a><span class="co"># Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können</span></span>
-<span id="cb4-27"><a href="#cb4-27"></a>summe_quadraten_zahlen <span class="op">=</span> []</span>
-<span id="cb4-28"><a href="#cb4-28"></a><span class="bu">print</span>(<span class="st">"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb4-29"><a href="#cb4-29"></a>rangeOfQuadrNr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Zahl: "</span>))</span>
-<span id="cb4-30"><a href="#cb4-30"></a>quadrnr <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: "</span>))</span>
-<span id="cb4-31"><a href="#cb4-31"></a><span class="co"># Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr</span></span>
-<span id="cb4-32"><a href="#cb4-32"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, rangeOfQuadrNr):</span>
-<span id="cb4-33"><a href="#cb4-33"></a>  <span class="cf">if</span> istSumVonQuadr(zahl, quadrnr):</span>
-<span id="cb4-34"><a href="#cb4-34"></a>    <span class="co">"""</span></span>
-<span id="cb4-35"><a href="#cb4-35"></a><span class="co">    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben</span></span>
-<span id="cb4-36"><a href="#cb4-36"></a><span class="co">    """</span></span>
-<span id="cb4-37"><a href="#cb4-37"></a>    summe_quadraten_zahlen.append(zahl)</span>
-<span id="cb4-38"><a href="#cb4-38"></a><span class="co"># Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht</span></span>
-<span id="cb4-39"><a href="#cb4-39"></a></span>
-<span id="cb4-40"><a href="#cb4-40"></a><span class="co"># Ausgabe der gefundenen Zahlen</span></span>
-<span id="cb4-41"><a href="#cb4-41"></a><span class="bu">print</span>(<span class="st">"Natürliche Zahlen kleiner als "</span><span class="op">+</span><span class="bu">str</span>(rangeOfQuadrNr)<span class="op">+</span><span class="st">", die Summe von "</span><span class="op">+</span><span class="bu">str</span>(quadrnr)<span class="op">+</span><span class="st">" Quadraten sind: "</span>)</span>
-<span id="cb4-42"><a href="#cb4-42"></a><span class="cf">for</span> zahl <span class="kw">in</span> summe_quadraten_zahlen:</span>
-<span id="cb4-43"><a href="#cb4-43"></a>  <span class="bu">print</span>(zahl)</span>
-<span id="cb4-44"><a href="#cb4-44"></a>  <span class="co"># Alle Elemente unserer Liste, werden geprinted</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</section>
-<section id="quadratzahlen" class="level2">
-<h2 class="anchored" data-anchor-id="quadratzahlen">Quadratzahlen</h2>
-<p><a href="https://be.lehrplan.ch/101V3HKgvvehukhLPNxAK3DGDwyZ3MWfb" class="knopf stufe">MA.1.B.3.e</a></p>
-<p>Die SuS erkennen, dass jede natürliche Zahl <span class="math inline">\(n\)</span> als Summe von vier Quadratzahlen dargestellt werden kann.</p>
-<p>Nun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl <span class="math inline">\(n\)</span> für alle <span class="math inline">\(s\leq n\)</span>, <span class="math inline">\(s\in\mathbb{N}\)</span>, das kleinste <span class="math inline">\(k\)</span> mit <span class="math inline">\(s=\sum_{i=1}^kx_i^3\)</span> zu bestimmen.</p>
-<p>SuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen.</p>
-</section>
-<section id="stammbrüche" class="level2">
-<h2 class="anchored" data-anchor-id="stammbrüche">Stammbrüche</h2>
-<p>Jeder Bruch <span class="math inline">\(0&lt;\frac{p}{q}&lt;1\)</span> kann als Summe verschiedener Stammbrüche dargestellt werden, zum Beispiel <span class="math inline">\(\frac{4}{17}=\frac{1}{5}+\frac{1}{30}+\frac{1}{510}\)</span>.</p>
-<p>Schreiben Sie ein Programm, das bei Eingabe eines Bruchs <span class="math inline">\(\frac{p}{q}\)</span> eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.</p>
-<p>Man kann noch verlangen, dass die Eingabe <span class="math inline">\(\frac{p}{q}\)</span> auf die Bedingung <span class="math inline">\(0&lt;\frac{p}{q}&lt;1\)</span> getestet wird.</p>
-</section>
-<section id="collatz-problem" class="level2">
-<h2 class="anchored" data-anchor-id="collatz-problem">Collatz-Problem</h2>
-<p><a href="https://be.lehrplan.ch/101KHT3ut8tfgqxGYJ2wHnfxE9aBJvdNq" class="knopf stufe">MA.1.B.2.h</a></p>
-<p><a href="https://de.wikipedia.org/wiki/Collatz-Problem">Die Vermutung von Collatz</a>:</p>
-<p>Für jede Startzahl <span class="math inline">\(n\)</span> erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv <span class="math display">\[a_0=n,\quad a_{n+1}=\begin{cases}\frac{a_n}{2} &amp; a_n\text{ gerade }\\3a_n+1&amp;a_n \text{ ungerade}\end{cases}\]</span></p>
-<p>definiert.</p>
-<p>Programmieren Sie die Funktion <code>collatz(n)</code>welche die Anzahl Schritte bis <span class="math inline">\(a_n=1\)</span> ausgibt.</p>
-</section>
-<section id="sieb-des-eratosthenes" class="level2">
-<h2 class="anchored" data-anchor-id="sieb-des-eratosthenes">Sieb des Eratosthenes</h2>
-<p><a href="https://be.lehrplan.ch/101nEpGSc4bsYLmecsEuavAhMAPEw8nZG" class="knopf stufe">MA.1.B.1.l</a> <a href="https://be.lehrplan.ch/101ae4LP3zUc7Lv3nZNtvtpBAsVS2bBBc" class="knopf stufe">MA.1.A.1.h</a></p>
-<p>Das Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.</p>
-<p>Die Eingabe ist eine natürliche Zahl <span class="math inline">\(n\)</span>, die Ausgabe die Liste aller Primzahlen kleiner gleich <span class="math inline">\(n\)</span>.</p>
-<p>Bestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span> (mit <span class="math inline">\(a&gt;b\)</span>) bestimmt werden, indem für die Elemente der Liste der Teiler von <span class="math inline">\(b\)</span> beginnend mit dem gr?ssten Element getestet wird, ob sie <span class="math inline">\(a\)</span> teilen.</p>
-<details>
-<summary>
-Lösungsvorschlag
-</summary>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="kw">def</span> primzahlen_bis_100():</span>
-<span id="cb5-2"><a href="#cb5-2"></a>  liste_2_bis_100 <span class="op">=</span> <span class="bu">list</span>(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">101</span>))</span>
-<span id="cb5-3"><a href="#cb5-3"></a>  primzahlen <span class="op">=</span> []</span>
-<span id="cb5-4"><a href="#cb5-4"></a>  </span>
-<span id="cb5-5"><a href="#cb5-5"></a>  <span class="cf">while</span> liste_2_bis_100:</span>
-<span id="cb5-6"><a href="#cb5-6"></a>    <span class="co"># Erste Zahl aus der Liste wird den Primzahlen hinzugefügt</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a>      prime <span class="op">=</span> liste_2_bis_100[<span class="dv">0</span>]</span>
-<span id="cb5-8"><a href="#cb5-8"></a>      primzahlen.append(prime)</span>
-<span id="cb5-9"><a href="#cb5-9"></a>    <span class="co"># Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a>      <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">100</span>):</span>
-<span id="cb5-11"><a href="#cb5-11"></a>    <span class="co"># Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:</span></span>
-<span id="cb5-12"><a href="#cb5-12"></a>        <span class="cf">if</span> i<span class="op">*</span>prime <span class="kw">in</span> liste_2_bis_100:</span>
-<span id="cb5-13"><a href="#cb5-13"></a>          liste_2_bis_100.remove(i<span class="op">*</span>prime)</span>
-<span id="cb5-14"><a href="#cb5-14"></a></span>
-<span id="cb5-15"><a href="#cb5-15"></a>  <span class="bu">print</span>(primzahlen)</span>
-<span id="cb5-16"><a href="#cb5-16"></a></span>
-<span id="cb5-17"><a href="#cb5-17"></a>primzahlen_bis_100()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</section>
-<section id="potenz--exponentialfunktion" class="level2">
-<h2 class="anchored" data-anchor-id="potenz--exponentialfunktion">Potenz-, Exponentialfunktion</h2>
-<p><a href="https://be.lehrplan.ch/101y8NsVTP6MGVEGREXbWpkDCHSb9NXEa" class="knopf stufe">MA.1.C.2.k</a> <a href="https://be.lehrplan.ch/101hWBWgYGRHp3hS5DNZFdz32rNScD4Ye" class="knopf stufe">MA.3.A.1.n</a></p>
-<p>Vergleich des Wachstums von Potenz- und Exponentialfunktionen.</p>
-<p>Ziel: Zur Eingabe zweier Zahlen <span class="math inline">\(a\)</span> und <span class="math inline">\(b\)</span>, <span class="math inline">\(a&gt;1\)</span>, <span class="math inline">\(b\in\mathbb{N}\)</span>, die kleinste natürliche Zahl <span class="math inline">\(n\)</span> bestimmen, für die <span class="math inline">\(n^b&lt;a^n\)</span> gilt.</p>
-<p>Die SuS erkennen, dass jede Exponentialfunktion (auch für <span class="math inline">\(a=1.0001\)</span>) schneller wächst als jede Potenzfunktion.</p>
-<details>
-<summary>
-Lösungsvorschlag
-</summary>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">def</span> vergleich(potenz,basis):</span>
-<span id="cb6-2"><a href="#cb6-2"></a>  <span class="kw">def</span> f(x):</span>
-<span id="cb6-3"><a href="#cb6-3"></a>    <span class="cf">return</span> x<span class="op">**</span>potenz</span>
-<span id="cb6-4"><a href="#cb6-4"></a>  <span class="kw">def</span> g(x):</span>
-<span id="cb6-5"><a href="#cb6-5"></a>    <span class="cf">return</span> basis<span class="op">**</span>x</span>
-<span id="cb6-6"><a href="#cb6-6"></a>  n<span class="op">=</span><span class="dv">2</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a>  <span class="cf">while</span> f(n)<span class="op">&gt;</span>g(n):</span>
-<span id="cb6-8"><a href="#cb6-8"></a>    n<span class="op">=</span>n<span class="op">+</span><span class="dv">1</span></span>
-<span id="cb6-9"><a href="#cb6-9"></a>  <span class="bu">print</span> (n)</span>
-<span id="cb6-10"><a href="#cb6-10"></a>  </span>
-<span id="cb6-11"><a href="#cb6-11"></a></span>
-<span id="cb6-12"><a href="#cb6-12"></a>potenz <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: "</span>))</span>
-<span id="cb6-13"><a href="#cb6-13"></a>basis <span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: "</span>))    </span>
-<span id="cb6-14"><a href="#cb6-14"></a>vergleich(potenz,basis)  </span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</section>
-<section id="narzistische-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="narzistische-zahlen">Narzistische Zahlen</h2>
-<p><a href="https://be.lehrplan.ch/101TrS9Y3WNTDAYebE4WFSETV7vcRMUZ7" class="knopf stufe">MA.1.B.1.k</a></p>
-<p>Das Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl <span class="math inline">\(n\)</span></p>
-<p>Eine Zahl heisst <span class="math inline">\(k=a_{n-1}a_{n-2}\ldots a_1a_0\)</span> <em>narzistisch</em>, wenn <span class="math inline">\(k=\sum_{i=0}^{n-1}a_i^n\)</span> gilt.</p>
-<p>Beispiele narzistischer Zahlen sind 153 und 371 (<span class="math inline">\(153=1^3+5^3+3^3\)</span>, <span class="math inline">\(371=3^3+7^3+1^3\)</span>)</p>
-</section>
-<section id="perfekte-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="perfekte-zahlen">Perfekte Zahlen</h2>
-<p><a href="https://be.lehrplan.ch/101kSAkAr2maExwz4HHC4z7x4eemPCXgH" class="knopf stufe">MA.1.A.4.h</a></p>
-<p>Eine natürliche Zahl <span class="math inline">\(n\)</span> wird <a href="https://de.wikipedia.org/wiki/Vollkommene_Zahl">perfekte Zahl</a> genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.</p>
-<p>Beispiel:</p>
-<p><span class="math inline">\(28\)</span> hat als Teiler <span class="math inline">\(1,2,4,7,14,28\)</span> und <span class="math inline">\(28=1+2+4+7+14\)</span>.</p>
-<p>Finden Sie alle perfekten Zahlen kleiner als <span class="math inline">\(n\)</span>.</p>
-<details>
-<summary>
-Lösungsvorschlag
-</summary>
-<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="co"># eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.</span></span>
-<span id="cb7-2"><a href="#cb7-2"></a><span class="kw">def</span> teiler(n):</span>
-<span id="cb7-3"><a href="#cb7-3"></a>  liste_teiler <span class="op">=</span> []</span>
-<span id="cb7-4"><a href="#cb7-4"></a>  <span class="co"># Wir müssen nur alle Zahlen bis die Hälfte probieren</span></span>
-<span id="cb7-5"><a href="#cb7-5"></a>  <span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="bu">int</span>(n<span class="op">//</span><span class="dv">2</span><span class="op">+</span><span class="dv">1</span>)): </span>
-<span id="cb7-6"><a href="#cb7-6"></a>     <span class="co"># Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.</span></span>
-<span id="cb7-7"><a href="#cb7-7"></a>     <span class="cf">if</span> n <span class="op">%</span> zahl<span class="op">==</span><span class="dv">0</span>:</span>
-<span id="cb7-8"><a href="#cb7-8"></a>       liste_teiler.append(zahl)</span>
-<span id="cb7-9"><a href="#cb7-9"></a>  <span class="cf">return</span> liste_teiler</span>
-<span id="cb7-10"><a href="#cb7-10"></a></span>
-<span id="cb7-11"><a href="#cb7-11"></a><span class="co"># die Liste mit perfekten Zahlen startet als leere Liste</span></span>
-<span id="cb7-12"><a href="#cb7-12"></a>perfNr <span class="op">=</span> []</span>
-<span id="cb7-13"><a href="#cb7-13"></a></span>
-<span id="cb7-14"><a href="#cb7-14"></a>eingegebene_Nummer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Nummer: "</span>))</span>
-<span id="cb7-15"><a href="#cb7-15"></a><span class="cf">for</span> zahl <span class="kw">in</span> <span class="bu">range</span> (<span class="dv">1</span>, eingegebene_Nummer<span class="op">+</span><span class="dv">1</span>):</span>
-<span id="cb7-16"><a href="#cb7-16"></a><span class="co"># falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.</span></span>
-<span id="cb7-17"><a href="#cb7-17"></a>  <span class="cf">if</span> <span class="bu">sum</span>(teiler(zahl))<span class="op">==</span>zahl:</span>
-<span id="cb7-18"><a href="#cb7-18"></a>    perfNr.append(zahl)</span>
-<span id="cb7-19"><a href="#cb7-19"></a>      </span>
-<span id="cb7-20"><a href="#cb7-20"></a>  </span>
-<span id="cb7-21"><a href="#cb7-21"></a><span class="bu">print</span>(<span class="st">"Alle perfekten Zahlen bis "</span><span class="op">+</span> <span class="bu">str</span>(eingegebene_Nummer)<span class="op">+</span><span class="st">" sind: "</span> <span class="op">+</span> <span class="bu">str</span>(perfNr))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-</section>
-<section id="befreundete-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="befreundete-zahlen">Befreundete Zahlen</h2>
-<p>Programmieren Sie eine Funktion <code>befreundet(zahl1,zahl2)</code> welche überprüft ob zwei gegebene Zahlen <a href="https://de.wikipedia.org/wiki/Befreundete_Zahlen">befreundete Zahlen</a> sind.</p>
-<p>Finden Sie alle befreundete Zahlen kleiner als <span class="math inline">\(n\)</span>.</p>
 
 
 </section>
@@ -816,15 +638,12 @@ Lösungsvorschlag
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{giger,
   author = {Giger, Peter and Conrardy, Richard and Adler, Joel},
-  publisher = {University of Teacher Education Bern},
   title = {Verstehensorientiert prüfen in Zeiten von KI},
-  url = {https://phbern-rconrardy.github.io/lerngelegenheiten/},
   langid = {de}
 }
 </code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-giger" class="csl-entry quarto-appendix-citeas" role="listitem">
 Giger, P., Conrardy, R., &amp; Adler, J. (n.d.).
-<em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
-Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+<em>Verstehensorientiert prüfen in Zeiten von KI</em>.
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

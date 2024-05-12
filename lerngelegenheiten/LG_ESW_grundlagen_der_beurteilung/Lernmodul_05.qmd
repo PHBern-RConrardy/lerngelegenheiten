@@ -1,23 +1,19 @@
 ---
 format: html
 title: Förderorientierung
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+abstract: >
+  In diesem Lernmodul geht es um «Förderorientierung» und «Förderorientierte Diagnostik».
 ---
-
-# Allgemeine Informationen
-
-Liebe Studierende
-
-In diesem Lernmodul geht es um «Förderorientierung» und «Förderorientierte Diagnostik».
-
-Arbeiten Sie das Lernmodul Schritt für Schritt durch.
-
-Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
-
+::: callout-note
 # Ziele des Lernmoduls
 
 Die Studierenden ...
@@ -26,12 +22,17 @@ Die Studierenden ...
 * kennen unterschiedliche Instrumente zur förderorientierten Diagnose.
 * lernen didaktische Settings für förderorientierten Unterricht kennen ...
 * und schätzen deren Umsetzbarkeit ein.
+:::
 
 # Förderorientierung
 
 Lernen Sie in diesem Input eine Grundhaltung sowie grundlegende Überlegungen zu förderorientiertem Unterricht kennen.
 
-VIDEO
+:::{#fig-foerderorientierung}
+<iframe src="https://tube.switch.ch/embed/9kC6iEOr0a?title=hide" allow="fullscreen"></iframe>
+
+Screencast - Förderorientierung
+:::
 
 # Förderorientierung konkret - Das Churer-Modell
 
@@ -49,15 +50,22 @@ Beantworten Sie für sich die folgenden Fragen:
 * Wie würden Sie persönlich dieses Modell oder auch nur Teile davon umsetzen?
 
 Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.
-SRF Einstein - Die Zukunft der Schule - Churer Modell
 
-VIDEO
+:::{#fig-churer-modell}
+<iframe  src="https://tube.switch.ch/embed/9f2bb6e8?title=hide" allow="fullscreen"></iframe>
+
+SRF Einstein - Die Zukunft der Schule - Churer Modell
+:::
 
 # Förderorientierte Diagnostik
 
 Lernen Sie in diesem Input Möglichkeiten und Instrumente zur förderorientierten Diagnostik kennen.
 
-VIDEO
+:::{#fig-foerderorientiert}
+<iframe src="https://tube.switch.ch/embed/b5vmCj1lsa?title=hide" frameborder="0" allow="fullscreen"></iframe>
+
+Screencast - Förderorientierte Diagnostik
+:::
 
 # Umsetzungsbeispiel
 
@@ -65,7 +73,8 @@ Mit dem folgenden Screencast stellen wir Ihnen ein Umsetzungsbeispiel vor, in we
 
 Setzen Sie sich damit auseinander und machen Sie sich Ihre eigenen Gedanken dazu. Lassen Sie sich dazu inspirieren - zuhanden Ihres Beurteilungskonzeptes, Ihre eigenen Vorstellungen und Verfahren zu entwickeln, wie man in Ihren Fächern Förderorientierung und Kompetenzorientierung umsetzen kann.
 
-PDFs
+:::{#fig-umsetzung}
+<iframe src="https://tube.switch.ch/embed/go3UJXxybi?title=hide"  allow="fullscreen"></iframe>
 
-VIDEO
-
+Screencast - Umsetzungsbeispiele
+:::

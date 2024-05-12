@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Digitalität und Datenschutz</title>
+<title>Funktionen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -97,29 +131,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/learning_analytics.html"><i class="bi bi-graph-up" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
- <span class="dropdown-text">MI-Learning Analytics</span></a>
+ <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
- <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
+ <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.html"><i class="bi bi-shield-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
- <span class="dropdown-text">MI - Digitalität und Datenschutz</span></a>
+ <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
+ <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html"><i class="bi bi-calculator-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Verstehensorientiert prüfen in Zeiten von KI</span></a>
+ <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
     </ul>
   </li>
@@ -131,24 +165,14 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Semesterkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Blockkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - SOL</span></a>
+ <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../empty"><i class="bi bi-images" role="img">
 </i> 
- <span class="dropdown-text">MI - Mediendidaktik</span></a>
+ <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
     </ul>
   </li>
@@ -174,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../../empty"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -187,25 +211,6 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Konferenzen</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-archiv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-box-seam-fill" role="img">
-</i> 
- <span class="menu-text">Archiv</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-archiv">    
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html"><i class="bi bi-building-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Summative Beurteilung im Mathematikunterricht - Präsenz</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html"><i class="bi bi-mouse2-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Summative Beurteilung im Mathematikunterricht - SOL</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -214,21 +219,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">LG Verstehensorientiert Pruefen</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html">Funktionen</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">LG Verstehensorientiert Pruefen</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html">Funktionen</a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Digitalität und Datenschutz</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Summative und prognostische Beurteilung</div>
-                <div class="quarto-category">Digitalität</div>
-              </div>
-                  </div>
+      <h1 class="title">Funktionen</h1>
+            <p class="subtitle lead">Lernmodul 5</p>
+                      </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Dozierende</div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
     <div class="quarto-title-meta-heading">Zugehörigkeit</div>
     
       <div class="quarto-title-meta-contents">
@@ -253,27 +265,92 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+ <span class="menu-text">Lerngelegenheiten</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+ <span class="menu-text">LG Verstehensorientiert Pruefen</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
-  <ul>
-  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link active" data-scroll-target="#organisatorisches">Organisatorisches</a>
   <ul class="collapse">
-  <li><a href="#learning-outcomes-des-seminars" id="toc-learning-outcomes-des-seminars" class="nav-link" data-scroll-target="#learning-outcomes-des-seminars">Learning Outcomes des Seminars</a></li>
-  <li><a href="#intention-des-seminars" id="toc-intention-des-seminars" class="nav-link" data-scroll-target="#intention-des-seminars">Intention des Seminars</a></li>
-  </ul></li>
-  <li><a href="#vorbereitungsauftrag" id="toc-vorbereitungsauftrag" class="nav-link" data-scroll-target="#vorbereitungsauftrag">Vorbereitungsauftrag</a>
+  <li><a href="#funktionen" id="toc-funktionen" class="nav-link active" data-scroll-target="#funktionen">Funktionen</a>
   <ul class="collapse">
-  <li><a href="#lernziele" id="toc-lernziele" class="nav-link" data-scroll-target="#lernziele">Lernziele</a></li>
-  <li><a href="#inhalt-unterlagen" id="toc-inhalt-unterlagen" class="nav-link" data-scroll-target="#inhalt-unterlagen">Inhalt &amp; Unterlagen</a></li>
-  <li><a href="#vorbereitungsauftrag-1" id="toc-vorbereitungsauftrag-1" class="nav-link" data-scroll-target="#vorbereitungsauftrag-1">Vorbereitungsauftrag</a></li>
-  </ul></li>
-  <li><a href="#präsenzlektion" id="toc-präsenzlektion" class="nav-link" data-scroll-target="#präsenzlektion">Präsenzlektion</a>
-  <ul class="collapse">
-  <li><a href="#lernziele-1" id="toc-lernziele-1" class="nav-link" data-scroll-target="#lernziele-1">Lernziele</a></li>
-  <li><a href="#inhalte" id="toc-inhalte" class="nav-link" data-scroll-target="#inhalte">Inhalte</a></li>
+  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#prüfungsvorbereitung-4" id="toc-prüfungsvorbereitung-4" class="nav-link" data-scroll-target="#prüfungsvorbereitung-4">Prüfungsvorbereitung</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -285,110 +362,49 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="callout callout-style-default callout-warning callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Warnung
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Die einzige Präsenzzeit dieser Veranstaltung ist am Dienstag 14.11.23 von 18:15 bis 20:00.</p>
-<p>Es wird erwartet, dass Sie die volle Zeit vor Ort sind, den Vorbereitungsauftrag vollständigt erledigt haben und aktiv mitarbeiten.</p>
-<p>Bitte klären Sie Ihre Verfügbarkeit für dieses Datum möglichst früh ab.</p>
-</div>
-</div>
-<section id="organisatorisches" class="level2">
-<h2 class="anchored" data-anchor-id="organisatorisches">Organisatorisches</h2>
-<section id="learning-outcomes-des-seminars" class="level3">
-<h3 class="anchored" data-anchor-id="learning-outcomes-des-seminars">Learning Outcomes des Seminars</h3>
-<p>Die Studierenden …</p>
-<ul>
-<li>… kennen die für Lehrpersonen relevanten, rechtlichen Rahmenbedingungen im Zusammenhang mit Datenschutz im Kanton Bern.</li>
-<li>… erklären die besonderen Herausforderungen und Verantwortungen in Bezug auf digitale Personendaten.</li>
-<li>… leiten alltagstaugliche Methoden der digitalen Datenverarbeitung innerhalb des Lehrauftrags ab.</li>
-<li>… erklären die Wichtigkeit des Datenschutzes in einer digitalisierten Welt.</li>
-</ul>
+<section id="funktionen" class="level1">
+<h1>Funktionen</h1>
+<section id="hilfreiche-links" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
+<p><strong>Wichtig:</strong> Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).</p>
+<p>Auf <strong>Youtube</strong> finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=LQCfN5HS9xI&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=18">Funktionen I</a>, <a href="https://www.youtube.com/watch?v=af9ORp1Pty0&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=19">Funktionen II</a> und <a href="https://www.youtube.com/watch?v=ehSP-sYoKCY&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=20">Funktionen III</a>.</p>
+<p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_functions.asp">Funktionen</a>.</p>
 </section>
-<section id="intention-des-seminars" class="level3">
-<h3 class="anchored" data-anchor-id="intention-des-seminars">Intention des Seminars</h3>
-<p>Das Seminar vermittelt den Lernenden eine sachliche Grundlage für den Umgang mit Personendaten in ihrem zukünftigen Arbeitsalltag. Die Lernenden sehen Datenschutz nicht als Hemmnis für die Verarbeitung von Personendaten sondern als notwendige Bedingung für letzteres.</p>
-</section>
-</section>
-<section id="vorbereitungsauftrag" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitungsauftrag">Vorbereitungsauftrag</h2>
-<section id="lernziele" class="level3">
-<h3 class="anchored" data-anchor-id="lernziele">Lernziele</h3>
-<p>Lernziele</p>
-<ul>
-<li>Wir unterscheiden Datenschutz, Datenschutzrecht und Datensicherheit.</li>
-<li>Wir erklären den Einfluss neuer Technologien in Bezug auf Big Data auf die Ziele des Schweizer Datenschutzrechts.</li>
-<li>Wir wissen um die rechtlichen Rahmenbedingungen und arbeiten mit den vom Kanton zur Verfügung gestellten Zusammenfassungen für Lehrpersonen.</li>
-</ul>
-</section>
-<section id="inhalt-unterlagen" class="level3">
-<h3 class="anchored" data-anchor-id="inhalt-unterlagen">Inhalt &amp; Unterlagen</h3>
-<ul>
-<li><a href="https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz">Was schützt eigentlich der Datenschutz</a></li>
-<li><a href="https://miro.com/app/board/uXjVPMj0wAc=/?share_link_id=428332753916">Miro - Digitalität und Datenschutz</a></li>
-<li><a href="https://link.springer.com/content/pdf/10.1365/s40702-014-0042-z.pdf">Datenschutz in Zeiten von Big Data</a></li>
-<li><a href="https://www.menti.com/alkyee5vtyq4">Menti - Datenschutzrecht</a></li>
-<li><a href="https://www.bern.ch/politik-und-verwaltung/stadtverwaltung/bss/schulamt/downloads-1/xy/weitergabe-personendaten.pdf/download">Weitergabe von Personendaten in der Schule</a></li>
-<li><a href="https://phbern.padlet.org/richardconrardy/weitergabe-von-personendaten-in-der-schule-wco61m0xjg4sftxy">Padlet - Personendaten</a> (Passwort: “Datenschutz”)</li>
-<li><a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/2000">Datenschutzgesetz (KDSG)</a></li>
-<li><a href="https://www.edoeb.admin.ch/edoeb/de/home/datenschutz/ueberblick/datenschutz.html">Datenschutz (Eidgenössischer Datenschutz- und Öffentlichkeitsbeauftragter)</a></li>
-<li><a href="https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/schulleitungen/datenschutz-in-der-schule/leitfaden/leitfaden-datenschutz-d.pdf">Leitfaden Datenschutz in den Volksschulen im Kanton Bern</a></li>
-<li><a href="https://ttim.phbern.ch/2023/kompetent-in-sachen-datenschutz-hilfreiches-material-fuer-lehrpersonen/comment-page-1/#comment-33">TTIM Beitrag zum neuen Datenschutzgesetz</a></li>
-</ul>
-</section>
-<section id="vorbereitungsauftrag-1" class="level3">
-<h3 class="anchored" data-anchor-id="vorbereitungsauftrag-1">Vorbereitungsauftrag</h3>
-<ul>
-<li>Schauen Sie Was schützt eigentlich der Datenschutz.</li>
-<li>Halten Sie auf Miro für Datenschutz, Datenschutzrecht und Datensicherheit jeweils fest, weshalb es für Ihr Berufsbild relevant ist und weshalb es für die Medienbildung relevant ist.</li>
-<li>Lesen Sie Datenschutz in Zeiten von Big Data.</li>
-<li>Halten Sie auf Menti in vollständigen Sätzen fest, in wiefern das Aufkommen von Big Data das Datenschutzrecht in der Schweiz einschränkt.</li>
-<li>Lesen Sie Weitergabe von Personendaten in der Schule.</li>
-<li>Halten Sie auf Padlet eine Unklarheit, eine offene Diskussionsfrage und eine eigene schulische Erfahrung in Bezug zu Datenschutz fest.</li>
-</ul>
-</section>
-</section>
-<section id="präsenzlektion" class="level2">
-<h2 class="anchored" data-anchor-id="präsenzlektion">Präsenzlektion</h2>
-<section id="lernziele-1" class="level3">
-<h3 class="anchored" data-anchor-id="lernziele-1">Lernziele</h3>
-<ul>
-<li>Wir verstehen die Hürden im Umgang mit Datenschutzrecht in der Berufsausübung anhand von Beispielen.</li>
-<li>Wir erklären allgemeine Lösungsstrategien für Lehrpersonen beim Umgang mit Datenschutzrecht.</li>
-<li>Wir sind gewillt im Unterricht auf die Problematik des Datenschtzes aufmerksam zu machen.</li>
-</ul>
-</section>
-<section id="inhalte" class="level3">
-<h3 class="anchored" data-anchor-id="inhalte">Inhalte</h3>
-<ul>
-<li><a href="../../lerngelegenheiten/LG_summ_digi_datenschutz/slides_datenschutz.html">Präsentation</a></li>
-<li><a href="https://www.lehrperson-bern.ch/">https://www.lehrperson-bern.ch/</a></li>
-<li><a href="https://www.edoeb.admin.ch/dam/edoeb/de/Dokumente/datenschutz/lehrmittel_datenschutz_basismodul.pdf.download.pdf/Lehrmittel%20Basismodul%20DE.pdf">Lehrmittel Edöb</a></li>
-<li><a href="https://oinf.ch/kurs/informationsgesellschaft/datenschutz/">OINF</a></li>
-</ul>
+<section id="prüfungsvorbereitung-4" class="level2">
+<h2 class="anchored" data-anchor-id="prüfungsvorbereitung-4">Prüfungsvorbereitung</h2>
+<p><strong>Lösungsvorschlag Aufträge</strong> - <a href="files/brief_adresse.py">Lösungsvorschlag Brief</a> - <a href="files/uhrzeit_rechner.py">Lösungsvorschlag Uhrzeit</a></p>
+<p><strong>Was ist der Output von diesem Programm?</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> meine_funktion(x, y, z):</span>
+<span id="cb1-2"><a href="#cb1-2"></a>    <span class="cf">if</span> x <span class="op">&gt;</span> y:</span>
+<span id="cb1-3"><a href="#cb1-3"></a>        <span class="cf">return</span> z</span>
+<span id="cb1-4"><a href="#cb1-4"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-5"><a href="#cb1-5"></a>        <span class="cf">return</span> z <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a>x <span class="op">=</span> meine_funktion(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="bu">print</span>(x)</span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a>Was macht diese Funktion (<span class="kw">in</span> Worte gefasst)?</span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a>```Python</span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="kw">def</span> meine_funktion(x, y):</span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="cf">if</span> x <span class="op">&gt;</span> y:</span>
+<span id="cb1-15"><a href="#cb1-15"></a>        <span class="cf">return</span> x</span>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-17"><a href="#cb1-17"></a>        <span class="cf">return</span> y</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Programmieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">from</span> random <span class="im">import</span> random <span class="co"># Import der Funktion random()</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">def</span> wuerfle():</span>
+<span id="cb2-4"><a href="#cb2-4"></a>    zufallszahl <span class="op">=</span> random() <span class="co"># Zufallszahl generieren</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>    <span class="co"># Ihr Code kommt hier..</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)</p>
+<p>Lösungsvorschlag</p>
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{conrardy,
-  author = {Conrardy, Richard},
-  publisher = {University of Teacher Education Bern},
-  title = {Digitalität und Datenschutz},
-  url = {https://phbern-rconrardy.github.io/lerngelegenheiten/},
-  langid = {de}
-}
-</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (n.d.). <em>Digitalität und Datenschutz</em>. University of
-Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
-</div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

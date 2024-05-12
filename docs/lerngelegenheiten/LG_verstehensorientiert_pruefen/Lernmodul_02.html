@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Learning Analytics</title>
+<title>Conditionals (if-elif-else) und Flussdiagramme</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -97,29 +131,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/learning_analytics.html"><i class="bi bi-graph-up" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
- <span class="dropdown-text">MI-Learning Analytics</span></a>
+ <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
- <span class="dropdown-text">ESW - Grundlagen der Beurteilung - SOL</span></a>
+ <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/00_datenschutz.html"><i class="bi bi-shield-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
- <span class="dropdown-text">MI - Digitalität und Datenschutz</span></a>
+ <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
+ <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/math_ki.html"><i class="bi bi-calculator-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Verstehensorientiert prüfen in Zeiten von KI</span></a>
+ <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
     </ul>
   </li>
@@ -131,24 +165,14 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/praesenzkurs.html"><i class="bi bi-building-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-file-earmark-zip-fill" role="img">
 </i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Semesterkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/blockkurs.html"><i class="bi bi-file-earmark-zip-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - Blockkurs</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/mikro_sol.html"><i class="bi bi-mouse2-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Mikroplanung Mathematik - SOL</span></a>
+ <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
     <a class="dropdown-item" href="../../empty"><i class="bi bi-images" role="img">
 </i> 
- <span class="dropdown-text">MI - Mediendidaktik</span></a>
+ <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
     </ul>
   </li>
@@ -174,7 +198,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../../empty"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -187,25 +211,6 @@ ul.task-list li input[type="checkbox"] {
 </i> 
 <span class="menu-text">Konferenzen</span></a>
   </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-archiv" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-box-seam-fill" role="img">
-</i> 
- <span class="menu-text">Archiv</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-archiv">    
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_math_summative_praes/math_summ_praes.html"><i class="bi bi-building-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Summative Beurteilung im Mathematikunterricht - Präsenz</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../../lerngelegenheiten/LG_math_summative_sol/math_summ_sol.html"><i class="bi bi-mouse2-fill" role="img">
-</i> 
- <span class="dropdown-text">MA - Summative Beurteilung im Mathematikunterricht - SOL</span></a>
-  </li>  
-    </ul>
-  </li>
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
@@ -214,21 +219,28 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html">Conditionals (if-elif-else) und Flussdiagramme</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html">Conditionals (if-elif-else) und Flussdiagramme</a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Learning Analytics</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">Formative Beurteilung</div>
-                <div class="quarto-category">Digitalität</div>
-              </div>
-                  </div>
+      <h1 class="title">Conditionals (if-elif-else) und Flussdiagramme</h1>
+            <p class="subtitle lead">Lernmodul 2</p>
+                      </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Dozierende</div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
     <div class="quarto-title-meta-heading">Zugehörigkeit</div>
     
       <div class="quarto-title-meta-contents">
@@ -253,18 +265,76 @@ ul.task-list li input[type="checkbox"] {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link active" data-scroll-target="#organisatorisches">Organisatorisches</a></li>
-  <li><a href="#workload" id="toc-workload" class="nav-link" data-scroll-target="#workload">Workload</a>
+  <li><a href="#conditionals-if-elif-else-und-flussdiagramme" id="toc-conditionals-if-elif-else-und-flussdiagramme" class="nav-link active" data-scroll-target="#conditionals-if-elif-else-und-flussdiagramme">Conditionals (if-elif-else) und Flussdiagramme</a>
   <ul class="collapse">
-  <li><a href="#aufträge-woche-9" id="toc-aufträge-woche-9" class="nav-link" data-scroll-target="#aufträge-woche-9">Aufträge Woche 9</a></li>
-  <li><a href="#aufträge-woche-10" id="toc-aufträge-woche-10" class="nav-link" data-scroll-target="#aufträge-woche-10">Aufträge Woche 10</a></li>
-  <li><a href="#auftrag-woche-11" id="toc-auftrag-woche-11" class="nav-link" data-scroll-target="#auftrag-woche-11">Auftrag Woche 11</a></li>
+  <li><a href="#wichtig" id="toc-wichtig" class="nav-link" data-scroll-target="#wichtig">Wichtig</a></li>
+  <li><a href="#prüfungsvorbereitung-1" id="toc-prüfungsvorbereitung-1" class="nav-link" data-scroll-target="#prüfungsvorbereitung-1">Prüfungsvorbereitung</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -276,85 +346,90 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="organisatorisches" class="level1">
-<h1>Organisatorisches</h1>
-<div style="text-align: center;">
-<p><a href="https://phbern365.sharepoint.com/:x:/r/sites/PMuIHS18/Freigegebene%20Dokumente/General/Lerngelegenheiten%20SP22/Learning%20Analytics/Studierende_Schreibrechte/HS23_Organisationsblatt_Learning%20Analytics.xlsx?d=w12810bdcfe9242a898b417c50a2ad33c&amp;csf=1&amp;web=1&amp;e=N2F37e" class="knopf" target="_blank">Organisationsblatt</a></p>
-<p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_fold_2177856.html" class="knopf knopf-klein" target="_blank">Materialraum</a></p>
-</div>
+<section id="conditionals-if-elif-else-und-flussdiagramme" class="level1">
+<h1>Conditionals (if-elif-else) und Flussdiagramme</h1>
+<section id="wichtig" class="level2">
+<h2 class="anchored" data-anchor-id="wichtig">Wichtig</h2>
+<p>Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).</p>
+<p>Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema <a href="https://de.wikipedia.org/wiki/Programmablaufplan">Flussdiagramm</a>. Auch hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen <a href="https://app.diagrams.net">draw.io</a> (siehe “Flowchart”).</p>
+<p>Auf <strong>Youtube</strong> finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=b6KzYbM-Hvg">If-Anweisung</a> und <a href="https://www.youtube.com/watch?v=f3YdEdYSNdk">If-Elif-Else</a>.</p>
+<p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_conditions.asp">Conditionals</a>.</p>
+<p>Auf der Website von <strong>Sylvia Lange</strong> finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die <a href="https://sylvialange.de/python/Programmieraufgaben.pdf">Aufgaben</a> (7, 8, 9, 10, 11) und die Lösungen <a href="https://sylvialange.de/python/python3/verzweigung/Quader.py">7</a>, <a href="https://sylvialange.de/python/python3/verzweigung/Rabatt.py">8</a>, <a href="https://sylvialange.de/python/python3/verzweigung/Rueckgeld.py">9</a>, <a href="https://sylvialange.de/python/python3/verzweigung/pqFormel.py">10</a>, <a href="https://sylvialange.de/python/python3/verzweigung/BMI.py">11</a> zum Thema Conditionals/Verzweigungen.</p>
 </section>
-<section id="workload" class="level1">
-<h1>Workload</h1>
-<table class="table-striped table-hover table-sm small table">
+<section id="prüfungsvorbereitung-1" class="level2">
+<h2 class="anchored" data-anchor-id="prüfungsvorbereitung-1">Prüfungsvorbereitung</h2>
+<p>Lösungsvorschlag Aufträge</p>
+<ul>
+<li><a href="files/login_without_username.py">Lösungsvorschlag Login I</a></li>
+<li><a href="files/login_with_username.py">Lösungsvorschlag Login II</a></li>
+<li><a href="files/login_with_username.drawio.png">Lösungsvorschlag Login II Flussdiagramm</a></li>
+</ul>
+<hr>
+<p>Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>x <span class="op">=</span> <span class="st">"Hello"</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a>y <span class="op">=</span> <span class="st">"Tom"</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="cf">if</span> x <span class="op">!=</span> <span class="st">"Hello"</span>:</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  y <span class="op">=</span> <span class="st">"Tim"</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="cf">else</span>:</span>
+<span id="cb1-7"><a href="#cb1-7"></a>  y <span class="op">=</span> <span class="st">"Tina"</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="bu">print</span>(y)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="files/prüfungsvorbereitung_1.drawio.png">Lösungsvorschlag</a></p>
+<hr>
+<p>Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="cf">if</span> x <span class="op">&lt;</span> <span class="dv">0</span>:</span>
+<span id="cb2-4"><a href="#cb2-4"></a>  <span class="bu">print</span>(<span class="st">"a"</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="cf">elif</span> x <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb2-6"><a href="#cb2-6"></a>  <span class="cf">if</span> x <span class="op">==</span> <span class="dv">5</span>:</span>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="bu">print</span>(<span class="st">"b"</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>  <span class="bu">print</span>(<span class="st">"c"</span>)</span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="cf">else</span>:</span>
+<span id="cb2-10"><a href="#cb2-10"></a>  <span class="bu">print</span>(<span class="st">"d"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p><a href="files/prüfungsvorbereitung_2.drawio.png">Lösungsvorschlag</a></p>
+<hr>
+<p>Erstellen Sie ein Programm, welches Schweizer Noten in das <a href="https://gpacalculator.net/grade-conversion/switzerland/">amerikanische Notensystem</a> umrechnet.</p>
+<table class="table">
 <thead>
 <tr class="header">
-<th style="text-align: center;">Woche</th>
-<th style="text-align: left;">Thema</th>
-<th style="text-align: center;">Slides</th>
-<th style="text-align: center;">Aufträge</th>
+<th style="text-align: center;">Schweiz</th>
+<th style="text-align: center;">US</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">Constructive Alignment</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_learning_analytics/woche_08.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"></td>
+<td style="text-align: center;">5.5-6</td>
+<td style="text-align: center;">A</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">Lehrplan21</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
+<td style="text-align: center;">4.5-5.4</td>
+<td style="text-align: center;">B</td>
 </tr>
 <tr class="odd">
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">Teilgebiete der Mathematik</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
+<td style="text-align: center;">4.0-4.4</td>
+<td style="text-align: center;">C</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">11</td>
-<td style="text-align: left;"></td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_learning_analytics/woche_11.html"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"><i class="bi bi-folder-fill"></i></td>
+<td style="text-align: center;">&lt;4</td>
+<td style="text-align: center;">F</td>
 </tr>
 </tbody>
 </table>
-<section id="aufträge-woche-9" class="level2">
-<h2 class="anchored" data-anchor-id="aufträge-woche-9">Aufträge Woche 9</h2>
-<p><code>average</code> <code>stdevp</code> <code>median</code></p>
-<p>conditional formatting</p>
-<p><code>xlookup</code> <code>textbefore</code> <code>textafter</code></p>
-<p>Ist die letzte Reihe schlechter als die anderen?</p>
-<p>Setze Sie so um, dass die letzte Reihe nicht mehr schlechter ist als die anderen.</p>
-</section>
-<section id="aufträge-woche-10" class="level2">
-<h2 class="anchored" data-anchor-id="aufträge-woche-10">Aufträge Woche 10</h2>
-<p>Sitzpositionen Setzen nach Note Randomisierung</p>
-<p>Korrelation</p>
-<p>Korrelieren 2 Fächer?</p>
-<p>Setz beide Fächer so um, dass …</p>
-</section>
-<section id="auftrag-woche-11" class="level2">
-<h2 class="anchored" data-anchor-id="auftrag-woche-11">Auftrag Woche 11</h2>
-<p>go wild</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/gpa_calculator.png" class="img-fluid figure-img"></p>
+<figcaption>GPA Calculator</figcaption>
+</figure>
+</div>
+<p><a href="files/gpa_calculator.py">Lösungsvorschlag</a></p>
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{conrardy,
-  author = {Conrardy, Richard},
-  publisher = {University of Teacher Education Bern},
-  title = {Learning Analytics},
-  url = {https://phbern-rconrardy.github.io/lerngelegenheiten/},
-  langid = {de}
-}
-</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (n.d.). <em>Learning Analytics</em>. University of Teacher
-Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
-</div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

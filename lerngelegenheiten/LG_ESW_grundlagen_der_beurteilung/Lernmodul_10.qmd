@@ -1,6 +1,10 @@
 ---
 format: html
 title: Nachteilsausgleich und individuelle Lernziele
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw

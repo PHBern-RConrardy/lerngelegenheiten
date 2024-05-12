@@ -1,0 +1,108 @@
+---
+format: html
+title: Conditionals (if-elif-else) und Flussdiagramme
+subtitle: Lernmodul 2
+copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+---
+# Conditionals (if-elif-else) und Flussdiagramme
+
+## Wichtig
+
+Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos
+schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim
+Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb
+empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B.
+mit den Aufträgen oder eigenen Ideen/Projekten).
+
+Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema
+[Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
+hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal
+ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon
+halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich
+Ihnen [draw.io](https://app.diagrams.net) (siehe “Flowchart”).
+
+Auf **Youtube** finden Sie (teilweise) gute Erklärvideos zum Thema
+Python. Hier sind einige Beispiellinks zu den Themen
+[If-Anweisung](https://www.youtube.com/watch?v=b6KzYbM-Hvg) und
+[If-Elif-Else](https://www.youtube.com/watch?v=f3YdEdYSNdk).
+
+Die Plattform **W3Schools** bietet sich als Nachschlagewerk an (in
+Englisch). Hier ist der Link zum Thema
+[Conditionals](https://www.w3schools.com/python/python_conditions.asp).
+
+Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (7, 8,
+9, 10, 11) und die Lösungen
+[7](https://sylvialange.de/python/python3/verzweigung/Quader.py),
+[8](https://sylvialange.de/python/python3/verzweigung/Rabatt.py),
+[9](https://sylvialange.de/python/python3/verzweigung/Rueckgeld.py),
+[10](https://sylvialange.de/python/python3/verzweigung/pqFormel.py),
+[11](https://sylvialange.de/python/python3/verzweigung/BMI.py) zum Thema
+Conditionals/Verzweigungen.
+
+## Prüfungsvorbereitung {#prüfungsvorbereitung-1}
+
+Lösungsvorschlag Aufträge
+
+-   [Lösungsvorschlag Login I](files/login_without_username.py)
+-   [Lösungsvorschlag Login II](files/login_with_username.py)
+-   [Lösungsvorschlag Login II
+    Flussdiagramm](files/login_with_username.drawio.png)
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = "Hello"
+y = "Tom"
+
+if x != "Hello":
+  y = "Tim"
+else:
+  y = "Tina"
+
+print(y)
+```
+
+[Lösungsvorschlag](files/prüfungsvorbereitung_1.drawio.png)
+
+------------------------------------------------------------------------
+
+Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm
+dazu.
+
+``` python
+x = 5
+
+if x < 0:
+  print("a")
+elif x > 0:
+  if x == 5:
+    print("b")
+  print("c")
+else:
+  print("d")
+```
+
+[Lösungsvorschlag](files/prüfungsvorbereitung_2.drawio.png)
+
+------------------------------------------------------------------------
+
+Erstellen Sie ein Programm, welches Schweizer Noten in das
+[amerikanische
+Notensystem](https://gpacalculator.net/grade-conversion/switzerland/)
+umrechnet.
+
+| Schweiz | US  |
+|:-------:|:---:|
+|  5.5-6  |  A  |
+| 4.5-5.4 |  B  |
+| 4.0-4.4 |  C  |
+|   \<4   |  F  |
+
+![GPA Calculator](images/gpa_calculator.png)
+
+[Lösungsvorschlag](files/gpa_calculator.py)

@@ -1,6 +1,10 @@
 ---
 format: html
 title: Dokumentenmappe mit BU21
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw

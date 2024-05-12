@@ -1,6 +1,10 @@
 ---
 format: html
 title: Gesamturteil und Persönliche und Schlüsselkompetenzen
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw

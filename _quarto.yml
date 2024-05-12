@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+
 lang: de #Sprache für die Webseite
 theme: 
   - styles/phbern_ci.scss # alle Stylesheets
@@ -18,8 +19,12 @@ fig-align: center # Bilder werden zentriert, funktioniert nicht immer
 
 
 website:  # Menüs für die Webseite
+  #cookie-consent: false
+   # type: express
+  repo-url: https://github.com/PHBern-RConrardy/lerngelegenheiten
   favicon: images/penguin.png
   search: true
+  
   navbar:
     logo: "images/penguin.png"
     background: white
@@ -34,35 +39,29 @@ website:  # Menüs für die Webseite
         icon: clipboard-check-fill
         menu: 
           - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
-            text: MI-Learning Analytics
+            text: "Learning Analytics"
             icon: graph-up
-          - text: "ESW - Grundlagen der Beurteilung - SOL"
+          - text: "Grundlagen der Beurteilung"
             href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
             icon: card-checklist
           - href: lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.qmd
-            text: MI - Digitalität und Datenschutz
+            text: Digitalität und Datenschutz
             icon: shield-fill
           - href: lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.qmd
-            text: MA - Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
+            text: Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
             icon: file-bar-graph-fill
           - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
-            text: MA - Verstehensorientiert prüfen in Zeiten von KI
+            text: "Verstehensorientiert prüfen in Zeiten von KI"
             icon: calculator-fill
             
         
       - text: Mikroplanung
         icon: arrows-angle-contract
-        menu:   # Menü für die Mathematik Mikroplanung
-          - text: MA - Mikroplanung Mathematik - Semesterkurs
-            href: lerngelegenheiten/LG_mikroplanung_math/LG_praesenzkurs.qmd
-            icon: building-fill
-          - text: MA - Mikroplanung Mathematik - Blockkurs
-            href: lerngelegenheiten/LG_mikroplanung_math/LG_blockkurs.qmd
+        menu: 
+          - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
+            text: "Mikroplanung Mathematik"
             icon: file-earmark-zip-fill
-          - text: MA - Mikroplanung Mathematik - SOL
-            href: lerngelegenheiten/LG_mikroplanung_math/LG_mikro_sol.qmd
-            icon: mouse2-fill
-          - text: MI - Mediendidaktik
+          - text: Mediendidaktik
             href: empty
             icon: images
       - text: Zus. und Komm.
@@ -75,7 +74,7 @@ website:  # Menüs für die Webseite
         icon: pc-display-horizontal
         menu:
           - text: Medien und Informatik unterrichten
-            href: empty
+            href: lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.qmd
             icon: easel2-fill
     
     right:  
@@ -86,34 +85,61 @@ website:  # Menüs für die Webseite
   sidebar:
     - title: "Grundlagen der Beurteilung"
       style: "docked"
-      background: light
+      background: none
+      foreground: none
+      collapse-level: 5
       contents:
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/grundlagen_der_beurteilung.qmd
+        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
           text: Semesterübersicht
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
-          text: Lernmodul 1
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
-          text: Lernmodul 2
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.qmd
-          text: Lernmodul 3
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.qmd
-          text: Lernmodul 4
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.qmd
-          text: Lernmodul 5
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.qmd
-          text: Lernmodul 6
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.qmd
-          text: Lernmodul 7
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.qmd
-          text: Lernmodul 8
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.qmd
-          text: Lernmodul 9
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.qmd
-          text: Lernmodul 10
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.qmd
-          text: Lernmodul 11
+        - section: Lernmodule
+          contents:
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
+            text: Lernmodul 1
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
+            text: Lernmodul 2
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.qmd
+            text: Lernmodul 3
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.qmd
+            text: Lernmodul 4
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.qmd
+            text: Lernmodul 5
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.qmd
+            text: Lernmodul 6
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.qmd
+            text: Lernmodul 7
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.qmd
+            text: Lernmodul 8
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.qmd
+            text: Lernmodul 9
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.qmd
+            text: Lernmodul 10
+          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.qmd
+            text: Lernmodul 11
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.qmd
           text: Beurteilungskonzept
+          
+    - title: "Mikroplanung Mathematik"
+      contents:
+        - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
+          text: Semesterübersicht
+        - section: Lernmodule
+          contents:
+            auto: lerngelegenheiten/LG_mikroplanung_math/Lernmodul*
+      
+    - title: "Verstehensorientiert prüfen in Zeiten von KI"
+      contents:
+        - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
+          text: Semesterübersicht
+        - section: Lernmodule
+          contents:
+            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.qmd
+            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.qmd
+            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.qmd
+            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.qmd
+            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.qmd
+                    
+        - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.qmd
+        
         
   page-footer: # Fusszeile
     center: 
@@ -150,7 +176,7 @@ format:
     title-block-banner: true
     code-line-numbers: true
     fig-align: center
-    date-modified: last-modified
+    linkcolor: "#AC0101"
       
   revealjs: # Einträge nur für Präsentationen
     toc: false
@@ -201,10 +227,3 @@ affiliations:
     department: Institut Sekundarstufe I
     ror: https://ror.org/05jf1ma54
 
-citation: 
-  type: webpage
-  URL: https://phbern-rconrardy.github.io/lerngelegenheiten/
-  publisher: University of Teacher Education Bern  
-language: 
-  title-block-author-single: "Dozierende"
-  title-block-author-plural: "Dozierende"

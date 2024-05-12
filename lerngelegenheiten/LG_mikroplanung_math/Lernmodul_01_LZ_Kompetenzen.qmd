@@ -1,0 +1,24 @@
+---
+title: Lernziele und Kompetenzen
+format: html
+---
+
+[DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
+Lernziele: 
+- anspruchsvolle Lernziele
+- Grundlegende Lernziele
+
+Kompetenzen:
+- Kompetenzbereiche
+- weiterführende Kompetenzen
+- Kompetenzstufen
+
+Aufgaben:
+- Aufgaben mit Grundansprüchen
+- Aufgaben mit erhöhtem Schwierigkeitsgrad
+
+teilweise erfolgreich
+durchwegs erfolgreich
+zureichend
+unzureichend
+nicht gelöst

@@ -1,6 +1,10 @@
 ---
 format: html
 title: Gesetzliche Grundlagen
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw

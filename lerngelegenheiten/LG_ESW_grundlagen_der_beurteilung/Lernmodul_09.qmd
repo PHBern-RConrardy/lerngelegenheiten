@@ -1,6 +1,10 @@
 ---
 format: html
 title: Niveaus und Schulmodelle
+authors:
+  - Aline Löw
+  - Daniel Ingrisani
+  - Irene Althaus
 citation: 
   author:
     - Aline Löw

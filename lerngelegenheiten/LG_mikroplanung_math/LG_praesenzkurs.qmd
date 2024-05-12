@@ -7,8 +7,3 @@ format: html
 Noch nicht fertig, work in progress
 :::
 
-# Organisation
-
-AVIVA-Modell
-LUKAS-Modell
-PADUA-Modell
