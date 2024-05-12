@@ -8,21 +8,37 @@ listing:
     fields: [title, subtitle]
     categories: true
     id: lerngelegenheiten
-    page-size: 5
+    page-size: 100
   - contents: "tagungsunterlagen/*.qmd"
     sort: "date desc"
     type: table
     fields: [date, title,subtitle]
     id: tagungsunterlagen
-    page-size: 5
+    page-size: 100
+  - contents: "lerngelegenheiten/*/Lernmodul_*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle]
+    id: lernmodule
+    page-size: 100
 ---
 
+:::: {.panel-tabset}
 # Lerngelegenheiten
 
 :::{#lerngelegenheiten}
 :::
 
+# Lernmodule
+
+:::{#lernmodule}
+:::
+
+
+
 # Konferenzen
 
 :::{#tagungsunterlagen}
 :::
+
+::::

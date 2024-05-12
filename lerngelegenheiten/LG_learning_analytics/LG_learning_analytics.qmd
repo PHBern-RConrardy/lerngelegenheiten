@@ -3,7 +3,7 @@ title: "Learning Analytics"
 format: html
 categories:
   - Formative Beurteilung
-  - Digitalität
+  - Label - Digitalität
 ---
 
 # Organisatorisches

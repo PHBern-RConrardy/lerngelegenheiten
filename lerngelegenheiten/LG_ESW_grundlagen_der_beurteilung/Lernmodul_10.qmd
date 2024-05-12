@@ -1,6 +1,8 @@
 ---
 format: html
 title: Nachteilsausgleich und individuelle Lernziele
+subtitle: Grundlagen der Beurteilung
+
 authors:
   - Aline Löw
   - Daniel Ingrisani

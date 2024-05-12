@@ -192,15 +192,15 @@
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "title": "Inhalte effizient onlinebringen",
-    "section": "Expectation management",
-    "text": "Expectation management\n\n\nbesser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
+    "section": "",
+    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "title": "Inhalte effizient onlinebringen",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+    "section": "",
+    "text": "Wir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
@@ -221,14 +221,14 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markdown",
     "title": "Inhalte effizient onlinebringen",
     "section": "2. Markdown",
-    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\nLogo der PHBern"
+    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\n\n\nLogo der PHBern"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "title": "Inhalte effizient onlinebringen",
     "section": "3. HTML",
-    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
@@ -249,7 +249,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
     "title": "Inhalte effizient onlinebringen",
     "section": "6. R (oder Python, oder OJS)",
-    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```"
+    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```\n\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",
@@ -263,7 +263,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibtex",
     "title": "Inhalte effizient onlinebringen",
     "section": "8. BibTeX",
-    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
+    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slideshow",
@@ -312,7 +312,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
     "title": "Inhalte effizient onlinebringen",
     "section": "Diskussion",
-    "text": "Diskussion\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
+    "text": "Diskussion\n\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\n\n\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
@@ -325,8 +325,8 @@
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html#ziele-1",
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html#ziele-1",
     "title": "Mathematik",
-    "section": "Ziele",
-    "text": "Ziele\n\nSich kennenlernen\nGemeinsame Wünsche und Bedürfnisse formulieren"
+    "section": "",
+    "text": "Sich kennenlernen\nGemeinsame Wünsche und Bedürfnisse formulieren"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html#vorstellungsrunde-1",
@@ -354,7 +354,7 @@
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html#bibliographie",
     "title": "Mathematik",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+    "text": "Bibliographie"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
@@ -508,7 +508,7 @@
     "href": "index.html",
     "title": "Lerngelegenheiten",
     "section": "",
-    "text": "Lerngelegenheiten\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\n\n\nDigitale Medien in der Beurteilung einsetzen\n\n\n \n\n\n\n\nDigitale Zusammenarbeit und Kommunikation\n\n\n \n\n\n\n\nDigitalität und Datenschutz\n\n\n \n\n\n\n\nGrundlagen der Beurteilung\n\n\nFallbasiert diskutiert, SOL mit Coaching-Angebot\n\n\n\n\nLearning Analytics\n\n\n \n\n\n\n\nMedien und Informatik unterrichten\n\n\n \n\n\n\n\nMediendidaktik\n\n\n \n\n\n\n\nMikroplanung Mathematik\n\n\nSOL\n\n\n\n\nMikroplanung Mathematik\n\n\n \n\n\n\n\nMikroplanung Mathematik\n\n\nErstellen einer Mikroplanung für den Mathematikunterricht\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, Präsenzveranstaltung\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, selbst organisiertes Lernen (SOL)\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nBeurteilung Mathematik\n\n\n\n\n\nKeine Treffer\n\n\n  \n\n\n\n\nKonferenzen\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\n \n\n\nTagungsunterlagen\n\n\n \n\n\n\n\n07.05.2024\n\n\nMathematik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n07.05.2024\n\n\nMedien und Informatik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nThink Tank Medien und Informatik\n\n\n\n\n20.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nPraxislehrpersonen-Tagung\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nTreffpunkt Hochschuldidaktik\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nKolloquium Fachdidaktik\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nBarcamp PHBern\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nLiterature Club Besprechung\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nWorkshop Gesellschaft für Didaktik der Mathematik Schweiz\n\n\n\n\n\nKeine Treffer\n\n\n  \n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
+    "text": "LerngelegenheitenLernmoduleKonferenzen\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\n\n\nDigitale Medien in der Beurteilung einsetzen\n\n\n \n\n\n\n\nDigitale Zusammenarbeit und Kommunikation\n\n\n \n\n\n\n\nDigitalität und Datenschutz\n\n\n \n\n\n\n\nGrundlagen der Beurteilung\n\n\nFallbasiert diskutiert, SOL mit Coaching-Angebot\n\n\n\n\nLearning Analytics\n\n\n \n\n\n\n\nMedien und Informatik unterrichten\n\n\n \n\n\n\n\nMediendidaktik\n\n\n \n\n\n\n\nMikroplanung Mathematik\n\n\nSOL\n\n\n\n\nMikroplanung Mathematik\n\n\n \n\n\n\n\nMikroplanung Mathematik\n\n\nErstellen einer Mikroplanung für den Mathematikunterricht\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, Präsenzveranstaltung\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht, selbst organisiertes Lernen (SOL)\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nBeurteilung Mathematik\n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\nThematische Einführung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nTheoretische Grundlagen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nGesetzliche Grundlagen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nNoten und Beurteilungsberichte\n\n\nGrundlagen der Beurteilung\n\n\n\n\nFörderorientierung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nLernbegleitung und Lerncoaching\n\n\nGrundlagen der Beurteilung\n\n\n\n\nKompetenzorientierung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nGesamturteil und Persönliche und Schlüsselkompetenzen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nNiveaus und Schulmodelle\n\n\nGrundlagen der Beurteilung\n\n\n\n\nNachteilsausgleich und individuelle Lernziele\n\n\nGrundlagen der Beurteilung\n\n\n\n\nDokumentenmappe mit BU21\n\n\nGrundlagen der Beurteilung\n\n\n\n\nLernziele und Kompetenzen\n\n\n \n\n\n\n\nDifferenzierung\n\n\n \n\n\n\n\nLehrmethoden\n\n\n \n\n\n\n\nSequenzierung\n\n\n \n\n\n\n\nFehlerkultur\n\n\n \n\n\n\n\nFeedback\n\n\n \n\n\n\n\nVariablen Datentypen und Typecasting\n\n\nPython - Lernmodul 1\n\n\n\n\nConditionals (if-elif-else) und Flussdiagramme\n\n\nPython - Lernmodul 2\n\n\n\n\nLoops\n\n\nPython - Lernmodul 3\n\n\n\n\nListen\n\n\nPython - Lernmodul 4\n\n\n\n\nFunktionen\n\n\nPython - Lernmodul 5\n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\n \n\n\nTagungsunterlagen\n\n\n \n\n\n\n\n07.05.2024\n\n\nMathematik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n07.05.2024\n\n\nMedien und Informatik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nThink Tank Medien und Informatik\n\n\n\n\n20.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nPraxislehrpersonen-Tagung\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nTreffpunkt Hochschuldidaktik\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nKolloquium Fachdidaktik\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nBarcamp PHBern\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nLiterature Club Besprechung\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nWorkshop Gesellschaft für Didaktik der Mathematik Schweiz\n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0"
   },
   {
     "objectID": "lerngelegenheiten/LG_math_summative_praes/woche_01.html#organisationsblatt",
@@ -2322,8 +2322,8 @@
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#ziele-1",
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#ziele-1",
     "title": "Medien und Informatik",
-    "section": "Ziele",
-    "text": "Ziele\n\nSich Kennenlernen"
+    "section": "",
+    "text": "Sich Kennenlernen"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#querschnittsthemen",
@@ -2379,7 +2379,7 @@
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#smi",
     "title": "Medien und Informatik",
     "section": "SMI",
-    "text": "SMI\n\nAufgaben der/des SMI - Erziehungsdirektion des Kantons Bern (2018)"
+    "text": "SMI\n\n\n\nAufgaben der/des SMI - Erziehungsdirektion des Kantons Bern (2018)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#praktikas-mit-mi",
@@ -2400,7 +2400,7 @@
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#dagstuhldreieck",
     "title": "Medien und Informatik",
     "section": "Dagstuhldreieck",
-    "text": "Dagstuhldreieck\n\n\nAbbildung 1: Dagstuhldreieck\n\nQuelle: CC-BY-SA Beat Döbeli Honegger und Renate Salzmann"
+    "text": "Dagstuhldreieck\n\n\n\n\n\n\nAbbildung 1: Dagstuhldreieck\n\n\n\n\nQuelle: CC-BY-SA Beat Döbeli Honegger und Renate Salzmann"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#tpack",
@@ -2427,15 +2427,15 @@
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#umriss",
     "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#umriss",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
-    "section": "Umriss",
-    "text": "Umriss\n\nPromotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel"
+    "section": "",
+    "text": "Promotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#geplanter-ablauf",
     "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#geplanter-ablauf",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
-    "section": "Geplanter Ablauf",
-    "text": "Geplanter Ablauf\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-04-01,14d\n        Experiment 1          :  e1, 2024-05-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        1. Artikel : art1, 2025-05-01, 365d\n        2. Artikel : art2, 2026-02-01, 365d\n        3. Artikel : art3, 2027-02-01, 365d\n        🎉🍾: cha, 2028-03-01,1d\n        Dissertationsförderung: diss, 2025-08-01, 365d\n\n    section Projekt\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n        \n    section Innovationspool\n        Antrag Innovationspool: i0, 2023-02-01, 30d\n        Innovationspoolprojekt: i1, 2024-08-01, 365d\n        Treffpunkt Hochschuldidaktik: i2, 2024-03-01, 5d\n        Poster: i3, 2025-08-01, 5d"
+    "section": "",
+    "text": "gantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-04-01,14d\n        Experiment 1          :  e1, 2024-05-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        1. Artikel : art1, 2025-05-01, 365d\n        2. Artikel : art2, 2026-02-01, 365d\n        3. Artikel : art3, 2027-02-01, 365d\n        🎉🍾: cha, 2028-03-01,1d\n        Dissertationsförderung: diss, 2025-08-01, 365d\n\n    section Projekt\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n        \n    section Innovationspool\n        Antrag Innovationspool: i0, 2023-02-01, 30d\n        Innovationspoolprojekt: i1, 2024-08-01, 365d\n        Treffpunkt Hochschuldidaktik: i2, 2024-03-01, 5d\n        Poster: i3, 2025-08-01, 5d"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#einordnung-productive-failure",
@@ -2477,7 +2477,7 @@
     "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#collaboration",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Collaboration",
-    "text": "Collaboration\nUnterschied kollaborativ - individuell\nPrimar (quasi-experimentell): \\(p=0.28\\), \\(\\eta^2_p=0.005\\)\n\nMazziotti et al. (2019), p.2\n\nSekundarklassen (quasi-experimentell): \\(p = 0.437\\)\n\nBrand et al. (2023)"
+    "text": "Collaboration\n\nUnterschied kollaborativ - individuell\nPrimar (quasi-experimentell): \\(p=0.28\\), \\(\\eta^2_p=0.005\\)\n\nMazziotti et al. (2019), p.2\n\nSekundarklassen (quasi-experimentell): \\(p = 0.437\\)\n\nBrand et al. (2023)"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#boundary-conditions",
@@ -2603,7 +2603,7 @@
     "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#fragen-1",
     "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
     "section": "Fragen",
-    "text": "Fragen\nMeinerseits:\n\nIst es sinnvoll Padua, Lukas, usw. mitzuerwähnen?\nWieviel Theorie braucht ein Paper?\nAnregungen zu zukünftigen Designs.\n\nEurerseits?"
+    "text": "Fragen\n\nMeinerseits:\n\nIst es sinnvoll Padua, Lukas, usw. mitzuerwähnen?\nWieviel Theorie braucht ein Paper?\nAnregungen zu zukünftigen Designs.\n\n\n\nEurerseits?"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html#bibliographie",
@@ -2624,7 +2624,7 @@
     "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
     "title": "Inhalte effizient onlinebringen",
     "section": "RStudio",
-    "text": "RStudio\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
+    "text": "RStudio\n\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\n\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
@@ -2673,7 +2673,7 @@
     "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
     "title": "Inhalte effizient onlinebringen",
     "section": "🧠 + 🤖 = 🦾",
-    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back!"
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n. . .\n\nThis text will sparkle!\n\n\n. . .\n\nThis text will jiggle!\n\n\n. . .\n\nWordArt is back!"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
@@ -2784,8 +2784,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Listen I, Listen II und Listen iterieren.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Listen.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (13) und die Lösungen 13 zum Thema Conditionals/Verzweigungen.\n\n\n\nLösungsvorschlag Aufträge - Lösungsvorschlag Einkaufsliste - Lösungsvorschlag Notendurchschnittsrechner\nWas macht diese Programm und was ist der Output?\nx = [6, 3, 8, 5, 7, 2, 4, 0, 5]\nz = 0\nfor y in x:\n    if y &gt; z:\n        z = y\nprint(z)\nEine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm, welches die folgende Liste ausgibt:\nx = [[1, 2],[3, 4],[5, 6]]\nLösungsvorschlag\nWievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor? Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und Kleinschreibung) im folgenden Text zählt:\ntext = [\"Lorem\", \"ipsum\", \"dolor\", \"sit\", \"amet\", \n        \"consetetur\", \"sadipscing\", \"elitr\", \"lorem\",\n        \"sed\", \"lorem\", \"diam\", \"nonumy\", \"eirmod\", \"tempor\",\n        \"invidunt\", \"Lorem\", \"ut\", \"labore\", \"et\", \"dolore\",\n        \"magna\", \"aliquyam\", \"erat\", \"sed\", \"diam\", \"voluptuz\",\n        \"At\", \"lorem\", \"vero\", \"eos\", \"et\", \"accusam\", \"et\",\n        \"justo\", \"duo\", \"lorem\", \"dolores\", \"et\", \"ea\"]\nQuelle Lösungsvorschlag",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Listen"
     ]
   },
@@ -2797,8 +2795,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Listen I, Listen II und Listen iterieren.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Listen.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (13) und die Lösungen 13 zum Thema Conditionals/Verzweigungen.",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Listen"
     ]
   },
@@ -2810,8 +2806,6 @@
     "text": "Lösungsvorschlag Aufträge - Lösungsvorschlag Einkaufsliste - Lösungsvorschlag Notendurchschnittsrechner\nWas macht diese Programm und was ist der Output?\nx = [6, 3, 8, 5, 7, 2, 4, 0, 5]\nz = 0\nfor y in x:\n    if y &gt; z:\n        z = y\nprint(z)\nEine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm, welches die folgende Liste ausgibt:\nx = [[1, 2],[3, 4],[5, 6]]\nLösungsvorschlag\nWievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor? Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und Kleinschreibung) im folgenden Text zählt:\ntext = [\"Lorem\", \"ipsum\", \"dolor\", \"sit\", \"amet\", \n        \"consetetur\", \"sadipscing\", \"elitr\", \"lorem\",\n        \"sed\", \"lorem\", \"diam\", \"nonumy\", \"eirmod\", \"tempor\",\n        \"invidunt\", \"Lorem\", \"ut\", \"labore\", \"et\", \"dolore\",\n        \"magna\", \"aliquyam\", \"erat\", \"sed\", \"diam\", \"voluptuz\",\n        \"At\", \"lorem\", \"vero\", \"eos\", \"et\", \"accusam\", \"et\",\n        \"justo\", \"duo\", \"lorem\", \"dolores\", \"et\", \"ea\"]\nQuelle Lösungsvorschlag",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Listen"
     ]
   },
@@ -2823,8 +2817,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Funktionen I, Funktionen II und Funktionen III.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Funktionen.\n\n\n\nLösungsvorschlag Aufträge - Lösungsvorschlag Brief - Lösungsvorschlag Uhrzeit\nWas ist der Output von diesem Programm?\ndef meine_funktion(x, y, z):\n    if x &gt; y:\n        return z\n    else:\n        return z - 1\n\nx = meine_funktion(1, 2, 3)\nprint(x)\n\nWas macht diese Funktion (in Worte gefasst)?\n\n```Python\ndef meine_funktion(x, y):\n    if x &gt; y:\n        return x\n    else:\n        return y\nProgrammieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:\nfrom random import random # Import der Funktion random()\n\ndef wuerfle():\n    zufallszahl = random() # Zufallszahl generieren\n    # Ihr Code kommt hier..\n(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)\nLösungsvorschlag",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Funktionen"
     ]
   },
@@ -2836,8 +2828,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Funktionen I, Funktionen II und Funktionen III.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema Funktionen.",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Funktionen"
     ]
   },
@@ -2849,8 +2839,6 @@
     "text": "Lösungsvorschlag Aufträge - Lösungsvorschlag Brief - Lösungsvorschlag Uhrzeit\nWas ist der Output von diesem Programm?\ndef meine_funktion(x, y, z):\n    if x &gt; y:\n        return z\n    else:\n        return z - 1\n\nx = meine_funktion(1, 2, 3)\nprint(x)\n\nWas macht diese Funktion (in Worte gefasst)?\n\n```Python\ndef meine_funktion(x, y):\n    if x &gt; y:\n        return x\n    else:\n        return y\nProgrammieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:\nfrom random import random # Import der Funktion random()\n\ndef wuerfle():\n    zufallszahl = random() # Zufallszahl generieren\n    # Ihr Code kommt hier..\n(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)\nLösungsvorschlag",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Funktionen"
     ]
   },
@@ -2862,8 +2850,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen While-Schleife und For-Schleife.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema While-Loop und For-Loop.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (17, 18, 19, 20) und die Lösungen 17 18 19 20 zum Thema Loops/Schleifen.\n\n\n\n\n\n\nLösungsvorschlag Primarschule\nLösungsvorschlag Fahrplan\nLösungsvorschlag Prüfungssoftware\nLösungsvorschlag Prüfungssoftware Flussdiagramm\n\n\n\n\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 2\nwhile i &lt; 5:\n  print(i)\n  i = i + 1\n  print(i)\nLösungsvorschlag Flussdiagramm\n\n\n\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 5\nwhile i &lt; 10:\n  i += 1  # Kurzform von i = i + 1\n  if i == 8:\n    print(\"Katze\")\n  else:\n    print(i)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm\n\n\n\nErstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.\nLösungsvorschlag\n\n\n\nErweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.\nLösungsvorschlag\n\n\n\nErstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Loops"
     ]
   },
@@ -2875,8 +2861,6 @@
     "text": "Wichtig: Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Wikipedia finden sie eine gute Zusammenfassung zum Thema Flussdiagramm. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen draw.io (siehe “Flowchart”).\nAuf Youtube finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen While-Schleife und For-Schleife.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema While-Loop und For-Loop.\nAuf der Website von Sylvia Lange finden sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (17, 18, 19, 20) und die Lösungen 17 18 19 20 zum Thema Loops/Schleifen.",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Loops"
     ]
   },
@@ -2888,8 +2872,6 @@
     "text": "Lösungsvorschlag Primarschule\nLösungsvorschlag Fahrplan\nLösungsvorschlag Prüfungssoftware\nLösungsvorschlag Prüfungssoftware Flussdiagramm\n\n\n\n\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 2\nwhile i &lt; 5:\n  print(i)\n  i = i + 1\n  print(i)\nLösungsvorschlag Flussdiagramm\n\n\n\nWas ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.\ni = 5\nwhile i &lt; 10:\n  i += 1  # Kurzform von i = i + 1\n  if i == 8:\n    print(\"Katze\")\n  else:\n    print(i)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm\n\n\n\nErstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.\nLösungsvorschlag\n\n\n\nErweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.\nLösungsvorschlag\n\n\n\nErstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)\nLösungsvorschlag Code Lösungsvorschlag Flussdiagramm",
     "crumbs": [
       "Lernmodule",
-      "Lerngelegenheiten",
-      "LG Verstehensorientiert Pruefen",
       "Loops"
     ]
   },
@@ -3002,5 +2984,47 @@
     "crumbs": [
       "Aufgabensammlung"
     ]
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html",
+    "href": "tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html",
+    "title": "How to flip the right way? Fail, flip, fix and feed in practice.",
+    "section": "",
+    "text": "Promotionsprojekt\nFakultät für Natur- und Gesellschaftswissenschaften\nMitgliedschaft: Graduate School PH Heidelberg\nKumulative Promotion, 3 Artikel\nBetreuer: Prof. Dr. Christian Spannagel\n\n\n\n\n\n\n\n\n\n\ngantt\n    title Ablauf\n    dateFormat YYYY-MM-DD\n    section Vorbereitung\n    section Doktorarbeit\n        Exposé: e0, 2023-01-08, 240d\n        Promotionsvereinbarung: pv, 2023-07-01, 30d\n        Zulassung durch den Promotionsausschuss: zp, 2023-10-05, 5d\n        Probedurchlauf: pdl, 2024-04-01,14d\n        Experiment 1          :  e1, 2024-05-01, 60d\n        Experiment 2    : e2, 2025-02-01, 120d\n        Experiment 3: e3, 2025-08-01, 110d\n        1. Artikel : art1, 2025-05-01, 365d\n        2. Artikel : art2, 2026-02-01, 365d\n        3. Artikel : art3, 2027-02-01, 365d\n        🎉🍾: cha, 2028-03-01,1d\n        Dissertationsförderung: diss, 2025-08-01, 365d\n\n    section Projekt\n        Antrag Anschubfinanzierung: a0, 2023-02-01, 30d\n        Anschubfinanzierung: a1, 2024-08-01, 365d\n        Antrag Projekt: p0, 2025-01-01, 60d\n        Projekt: p1, 2026-08-01, 1100d\n        \n    section Innovationspool\n        Antrag Innovationspool: i0, 2023-02-01, 30d\n        Innovationspoolprojekt: i1, 2024-08-01, 365d\n        Treffpunkt Hochschuldidaktik: i2, 2024-03-01, 5d\n        Poster: i3, 2025-08-01, 5d"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html",
+    "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html",
+    "title": "Medien und Informatik",
+    "section": "",
+    "text": "Sich Kennenlernen"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_20_PLP_Tagung.html",
+    "href": "tagungsunterlagen/2024_03_20_PLP_Tagung.html",
+    "title": "Wie gelingt Beziehungsgestaltung?",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html",
+    "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MA.html",
+    "title": "Mathematik",
+    "section": "",
+    "text": "Sich kennenlernen\nGemeinsame Wünsche und Bedürfnisse formulieren"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!\n\n\n\n\n\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
   }
 ]

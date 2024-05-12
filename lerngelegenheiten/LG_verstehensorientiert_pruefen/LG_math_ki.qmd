@@ -8,9 +8,6 @@ categories:
   - Label - Digitalität
 authors:
     - name: Richard Conrardy
-      roles: 
-      - investigation: lead 
-      - data curation: supporting
       orcid: 0009-0004-2063-6898
       id: 00383195
       email: richard.conrardy@phbern.ch

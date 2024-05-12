@@ -1,6 +1,8 @@
 ---
 format: html
 title: Lernbegleitung und Lerncoaching
+subtitle: Grundlagen der Beurteilung
+
 authors:
   - Aline Löw
   - Daniel Ingrisani

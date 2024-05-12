@@ -3,7 +3,7 @@ title: "Digitalität und Datenschutz"
 format: html
 categories:
   - Summative und prognostische Beurteilung
-  - Digitalität
+  - Label - Digitalität
 toc-depth: 3
 ---
 

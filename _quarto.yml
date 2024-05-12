@@ -60,9 +60,9 @@ website:  # Menüs für die Webseite
         menu: 
           - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
             text: "Mikroplanung Mathematik"
-            icon: file-earmark-zip-fill
+            icon: grid-3x3-gap-fill
           - text: Mediendidaktik
-            href: empty
+            href: lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.qmd
             icon: images
       - text: Zus. und Komm.
         icon: chat-text-fill
@@ -76,11 +76,6 @@ website:  # Menüs für die Webseite
           - text: Medien und Informatik unterrichten
             href: lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.qmd
             icon: easel2-fill
-    
-    right:  
-      - text: "Konferenzen"
-        href: tagungsunterlagen/tagungsunterlagen.qmd
-        icon: luggage-fill
   
   sidebar:
     - title: "Grundlagen der Beurteilung"

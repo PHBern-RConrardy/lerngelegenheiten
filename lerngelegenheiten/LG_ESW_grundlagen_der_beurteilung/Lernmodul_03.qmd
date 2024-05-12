@@ -1,6 +1,8 @@
 ---
 format: html
 title: Gesetzliche Grundlagen
+subtitle: Grundlagen der Beurteilung
+
 authors:
   - Aline Löw
   - Daniel Ingrisani

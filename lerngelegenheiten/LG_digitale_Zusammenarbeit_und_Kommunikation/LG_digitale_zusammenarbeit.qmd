@@ -4,5 +4,5 @@ format: html
 categories:
   - Zusammenarbeit und Kommunikation
   - Klassenführung
-  - Digitalität
+  - Label - Digitalität
 ---
