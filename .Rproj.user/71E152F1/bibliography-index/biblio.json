@@ -25243,6 +25243,35 @@
             },
             "title": "Statistikmanagement PHBern",
             "type": ""
+        },
+        {
+            "DOI": "10.1007/978-3-658-12828-9",
+            "ISBN": "978-3-658-12828-9 978-3-658-12827-2",
+            "author": [
+                {
+                    "family": "Perkhofer-Czapek",
+                    "given": "Monika"
+                },
+                {
+                    "family": "Potzmann",
+                    "given": "Renate"
+                }
+            ],
+            "collection-title": "Research",
+            "id": "perkhofer-czapek_begleiten_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "number-of-pages": "389",
+            "publisher": "Springer Fachmedien Wiesbaden GmbH",
+            "publisher-place": "Wiesbaden",
+            "title": "Begleiten, beraten und coachen: Der lehrberuf im wandel",
+            "title-short": "Begleiten, beraten und coachen",
+            "type": "book"
         }
     ],
     "project_biblios": [

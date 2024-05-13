@@ -10,7 +10,8 @@ categories:
 Noch nicht fertig, work in progress
 :::
 
-# Organisatorisches
+::::{.panel-tabset}
+# Blockkurs
 
 ::: {style="text-align: center;"}
 [Organisationsblatt](){.knopf target="_blank"}
@@ -38,7 +39,8 @@ Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.
 > [@abeysekera_motivation_2015, S.3]
 :::
 
-::: {.callout-tip collapse="true"}
+# SOL
+::: {.callout-tip collapse="false"}
 ## Selbstorganisiertes Lernen (SOL-Kurs)
 
 Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden "steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, regulieren und beurteilen." [@hilbe_selbst_2011, S.8]
@@ -48,6 +50,11 @@ Dem Dozierenden "kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für da
 Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es inhaltlich, organisatorisch oder anderer Art.
 
 :::
+::::
+
+
+
+
 
 
 ::: {.callout-warning collapse="true"}
@@ -109,3 +116,7 @@ Technologieintegration
 AVIVA-Modell
 LUKAS-Modell
 PADUA-Modell
+
+# Lernumgebung
+
+Learner centered, Knowledge centered, Assessment centered, community centered [@krapp_unterrichten_2010, S. 618]

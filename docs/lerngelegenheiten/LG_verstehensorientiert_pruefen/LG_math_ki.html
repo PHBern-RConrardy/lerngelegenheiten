@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.4.551" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="author" content="Richard Conrardy" />
+<meta name="author" content="Richard Conrardy">
 
 <title>Verstehensorientiert prüfen in Zeiten von KI</title>
 <style>
@@ -59,7 +57,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -91,140 +106,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body>
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="/index.html" class="navbar-brand navbar-brand-logo">
-    <img src="/images/penguin.png" alt="" class="navbar-logo" />
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-beurteilung" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-clipboard-check-fill" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-beurteilung" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-clipboard-check-fill" role="img">
 </i> 
  <span class="menu-text">Beurteilung</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i 
-  class="bi bi-graph-up" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
  <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i 
-  class="bi bi-card-checklist" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
  <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i 
-  class="bi bi-shield-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
  <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i 
-  class="bi bi-file-bar-graph-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
  <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i 
-  class="bi bi-calculator-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
  <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mikroplanung" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-arrows-angle-contract" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mikroplanung" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-arrows-angle-contract" role="img">
 </i> 
  <span class="menu-text">Mikroplanung</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i 
-  class="bi bi-grid-3x3-gap-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-grid-3x3-gap-fill" role="img">
 </i> 
  <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html"><i 
-  class="bi bi-images" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html"><i class="bi bi-images" role="img">
 </i> 
  <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zus.-und-komm." role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-chat-text-fill" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zus.-und-komm." role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-chat-text-fill" role="img">
 </i> 
  <span class="menu-text">Zus. und Komm.</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-zus.-und-komm.">    
         <li>
-    <a class="dropdown-item" href="/empty"><i 
-  class="bi bi-share-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-share-fill" role="img">
 </i> 
- <span class="dropdown-text">MI - Digitale Zusammenarbeit und Kommunikation</span></a>
+ <span class="dropdown-text">Digitale Zusammenarbeit und Kommunikation</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-digitalität" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-pc-display-horizontal" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-digitalität" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-pc-display-horizontal" role="img">
 </i> 
  <span class="menu-text">Digitalität</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i 
-  class="bi bi-easel2-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -233,100 +207,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html">Semesterübersicht</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Semesterübersicht</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Lernmodule</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Loops</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Listen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Funktionen</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Aufgabensammlung</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
             <p class="subtitle lead">Beurteilung Mathematik</p>
@@ -379,29 +278,99 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
     
   
-  </header>
-
-<nav id="TOC" role="doc-toc">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
-  <ul>
-  <li><a href="#wochenüberblick" id="toc-wochenüberblick">Wochenüberblick</a></li>
-  <li><a href="#wocheninhalte" id="toc-wocheninhalte">Wocheninhalte</a>
-  <ul>
-  <li><a href="#vorbereitungsauftrag---woche-1" id="toc-vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</a></li>
-  <li><a href="#packages-installieren-numpy" id="toc-packages-installieren-numpy">Packages installieren (numpy)</a></li>
-  <li><a href="#projekt-1" id="toc-projekt-1">Projekt 1</a></li>
-  <li><a href="#projekt-2" id="toc-projekt-2">Projekt 2</a></li>
+  <ul class="collapse">
+  <li><a href="#wochenüberblick" id="toc-wochenüberblick" class="nav-link active" data-scroll-target="#wochenüberblick">Wochenüberblick</a></li>
+  <li><a href="#wocheninhalte" id="toc-wocheninhalte" class="nav-link" data-scroll-target="#wocheninhalte">Wocheninhalte</a>
+  <ul class="collapse">
+  <li><a href="#vorbereitungsauftrag---woche-1" id="toc-vorbereitungsauftrag---woche-1" class="nav-link" data-scroll-target="#vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</a></li>
+  <li><a href="#packages-installieren-numpy" id="toc-packages-installieren-numpy" class="nav-link" data-scroll-target="#packages-installieren-numpy">Packages installieren (numpy)</a></li>
+  <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
+  <li><a href="#projekt-2" id="toc-projekt-2" class="nav-link" data-scroll-target="#projekt-2">Projekt 2</a></li>
   </ul></li>
   </ul>
 </nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
 <div style="text-align: center;">
 <p><a href="https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Beurteilung%20Mathematik%20Verstehensorientiert%20pr%C3%BCfen%20in%20Zeiten%20von%20KI/Studierende_Schreibrechte/Organisationsblatt%20Verstehensorientiert%20KI.xlsx?d=wf38b17f72e1f471bbdb882f9f7a981de&amp;csf=1&amp;web=1&amp;e=6yfZvS" class="knopf" target="_blank">Organisationsblatt</a></p>
 <p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_fold_2177856.html" class="knopf knopf-klein" target="_blank">Materialraum</a> <a href="https://porta.phbern.ch/content/page/62694b41dd910c2dedc2d1d1" class="knopf knopf-klein" target="_blank">Porta-QT-Digitalität</a></p>
 </div>
 <section id="wochenüberblick" class="level1">
 <h1>Wochenüberblick</h1>
-<table class="table-striped table-hover table-sm small">
+<table class="table-striped table-hover table-sm small table">
 <thead>
 <tr class="header">
 <th style="text-align: center;">Woche</th>
@@ -416,7 +385,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Variablen und Conditionals</td>
-<td style="text-align: center;"><a href="woche_01.qmd" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_01.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
 <td></td>
@@ -424,7 +393,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Loops und Listen</td>
-<td style="text-align: center;"><a href="woche_02.qmd" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_02.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -432,7 +401,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Funktionen und Projektauftrag</td>
-<td style="text-align: center;"><a href="woche_03.qmd" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_03.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -448,7 +417,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Überschlagen üben und Sieb des Eratosthenes</td>
-<td style="text-align: center;"><a href="woche_05.qmd"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_05.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -464,7 +433,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">7</td>
 <td style="text-align: left;">Stammbrüche und Vermutung von Collatz</td>
-<td style="text-align: center;"><a href="woche_07.qmd"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_07.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -472,7 +441,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="even">
 <td style="text-align: center;">8</td>
 <td style="text-align: left;">Brute force Gleichungen lösen &amp; Kombinatorik</td>
-<td style="text-align: center;"><a href="woche_08.qmd"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_08.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -496,7 +465,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">11</td>
 <td style="text-align: left;">Algorithmen</td>
-<td style="text-align: center;"><a href="woche_10.qmd"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_10.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -504,7 +473,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="even">
 <td style="text-align: center;">12</td>
 <td style="text-align: left;">Quarto</td>
-<td style="text-align: center;"><a href="woche_11.qmd"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/woche_11.html"><i class="bi bi-easel3-fill"></i></a></td>
 <td style="text-align: center;"></td>
 <td style="text-align: center;"></td>
 <td></td>
@@ -516,10 +485,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="wocheninhalte" class="level1">
 <h1>Wocheninhalte</h1>
 <section id="vorbereitungsauftrag---woche-1" class="level2">
-<h2>Vorbereitungsauftrag - Woche 1</h2>
+<h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</h2>
 <p>Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie <strong>vor</strong> der ersten Woche Rstudio und Python auf Ihrem Computer.</p>
-<div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Grobe Installationsanleitung unter Windows:</p>
@@ -552,7 +521,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Hinweis
@@ -563,11 +532,11 @@ Hinweis
 </div>
 </div>
 <p>Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="st">&quot;Hello, World!&quot;</span>)</span></code></pre></div>
-<hr />
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="st">"Hello, World!"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<hr>
 </section>
 <section id="packages-installieren-numpy" class="level2">
-<h2>Packages installieren (numpy)</h2>
+<h2 class="anchored" data-anchor-id="packages-installieren-numpy">Packages installieren (numpy)</h2>
 <p>Im <code>Terminal</code>folgenden Befehl eingeben: <code>pip install numpy</code>. Falls Fehler gemeldet werden folgendes beachten:</p>
 <ol type="1">
 <li>Im <code>Terminal</code> folgendes eingeben: `pip –version``</li>
@@ -575,10 +544,10 @@ Hinweis
 <li>In Rstudio im Menü unter <code>Tools &gt; Global Options</code> bei <code>Python</code> genau diesen Interpreter wählen und speichern.</li>
 <li>Nun Library im <code>Terminal</code>mit <code>pip install numpy</code>installieren.</li>
 </ol>
-<hr />
+<hr>
 </section>
 <section id="projekt-1" class="level2">
-<h2>Projekt 1</h2>
+<h2 class="anchored" data-anchor-id="projekt-1">Projekt 1</h2>
 <p>Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren <a href="https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA">MA.1.A.2.h</a> oder <a href="https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd">MA.1.A.2.i</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
 <p>Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.</p>
 <p>Sie können die Arbeit als Partnerarbeit erledigen.</p>
@@ -587,55 +556,55 @@ Hinweis
 Lösungsvorschlag 1
 </summary>
 <p>Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> random</span>
-<span id="cb2-3"><a href="#cb2-3"></a>auftrag <span class="op">=</span> <span class="bu">input</span>(<span class="st">&quot;Löse die nachfolgenden Aufgaben!&quot;</span>)</span>
+<span id="cb2-3"><a href="#cb2-3"></a>auftrag <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Löse die nachfolgenden Aufgaben!"</span>)</span>
 <span id="cb2-4"><a href="#cb2-4"></a><span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb2-5"><a href="#cb2-5"></a>  random_numberone<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
 <span id="cb2-6"><a href="#cb2-6"></a>  random_numbertwo<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
-<span id="cb2-7"><a href="#cb2-7"></a>  <span class="bu">print</span>(random_numberone, <span class="st">&quot;von&quot;</span>, random_numbertwo,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb2-8"><a href="#cb2-8"></a>  lösung<span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">&quot;Schätze den prozentualen Anteil ab. Wie viel erhältst du?&quot;</span>))</span>
+<span id="cb2-7"><a href="#cb2-7"></a>  <span class="bu">print</span>(random_numberone, <span class="st">"von"</span>, random_numbertwo,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-8"><a href="#cb2-8"></a>  lösung<span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Schätze den prozentualen Anteil ab. Wie viel erhältst du?"</span>))</span>
 <span id="cb2-9"><a href="#cb2-9"></a>  richtiges_resultat <span class="op">=</span> (random_numberone <span class="op">/</span> random_numbertwo) <span class="op">*</span> <span class="dv">100</span></span>
 <span id="cb2-10"><a href="#cb2-10"></a>  <span class="cf">if</span> <span class="bu">abs</span>(lösung <span class="op">-</span> richtiges_resultat)<span class="op">&lt;</span><span class="dv">10</span>:</span>
-<span id="cb2-11"><a href="#cb2-11"></a>    <span class="bu">print</span>(<span class="st">&quot;Gut gemacht ... weiter so!&quot;</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-11"><a href="#cb2-11"></a>    <span class="bu">print</span>(<span class="st">"Gut gemacht ... weiter so!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb2-12"><a href="#cb2-12"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-13"><a href="#cb2-13"></a>    <span class="bu">print</span>(<span class="st">&quot;Versuch es nochmals.&quot;</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb2-14"><a href="#cb2-14"></a>  weiter <span class="op">=</span> <span class="bu">input</span> (<span class="st">&quot;Möchten sie fortfahren? (ja/nein)&quot;</span>)</span>
-<span id="cb2-15"><a href="#cb2-15"></a>  <span class="cf">if</span> weiter <span class="op">==</span> <span class="st">&quot;ja&quot;</span>:</span>
+<span id="cb2-13"><a href="#cb2-13"></a>    <span class="bu">print</span>(<span class="st">"Versuch es nochmals."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-14"><a href="#cb2-14"></a>  weiter <span class="op">=</span> <span class="bu">input</span> (<span class="st">"Möchten sie fortfahren? (ja/nein)"</span>)</span>
+<span id="cb2-15"><a href="#cb2-15"></a>  <span class="cf">if</span> weiter <span class="op">==</span> <span class="st">"ja"</span>:</span>
 <span id="cb2-16"><a href="#cb2-16"></a>    <span class="cf">continue</span></span>
 <span id="cb2-17"><a href="#cb2-17"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-18"><a href="#cb2-18"></a>    <span class="cf">break</span></span></code></pre></div>
+<span id="cb2-18"><a href="#cb2-18"></a>    <span class="cf">break</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <details>
 <summary>
 Lösungsvorschlag 2
 </summary>
 <p>Dieser Lösungsvorschlag von Liv Streit ist unter einer CC0 Lizenz.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">import</span> random</span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">import</span> random</span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="kw">def</span> Aufgabe():</span>
 <span id="cb3-3"><a href="#cb3-3"></a>  <span class="cf">while</span> <span class="va">True</span>:</span>
 <span id="cb3-4"><a href="#cb3-4"></a>    random_num1 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
 <span id="cb3-5"><a href="#cb3-5"></a>    random_num2 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
-<span id="cb3-6"><a href="#cb3-6"></a>    operation <span class="op">=</span> random.choice ([<span class="st">&#39;+&#39;</span>, <span class="st">&#39;-&#39;</span>])</span>
+<span id="cb3-6"><a href="#cb3-6"></a>    operation <span class="op">=</span> random.choice ([<span class="st">'+'</span>, <span class="st">'-'</span>])</span>
 <span id="cb3-7"><a href="#cb3-7"></a>    <span class="cf">try</span>:</span>
-<span id="cb3-8"><a href="#cb3-8"></a>      user_answer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="ss">f&quot;Was ist </span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">?&quot;</span>))</span>
-<span id="cb3-9"><a href="#cb3-9"></a>      richtiges_resultat <span class="op">=</span> <span class="bu">eval</span>(<span class="ss">f&quot;</span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">&quot;</span>)</span>
+<span id="cb3-8"><a href="#cb3-8"></a>      user_answer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="ss">f"Was ist </span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">?"</span>))</span>
+<span id="cb3-9"><a href="#cb3-9"></a>      richtiges_resultat <span class="op">=</span> <span class="bu">eval</span>(<span class="ss">f"</span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">"</span>)</span>
 <span id="cb3-10"><a href="#cb3-10"></a>      abweichung <span class="op">=</span> <span class="bu">abs</span>(<span class="bu">float</span>(user_answer)<span class="op">-</span>richtiges_resultat)</span>
 <span id="cb3-11"><a href="#cb3-11"></a>      abweichung_prozentsatz <span class="op">=</span> (abweichung <span class="op">/</span> richtiges_resultat) <span class="op">*</span> <span class="dv">100</span></span>
 <span id="cb3-12"><a href="#cb3-12"></a>      toleranz <span class="op">=</span> <span class="dv">10</span></span>
 <span id="cb3-13"><a href="#cb3-13"></a>      <span class="cf">if</span> <span class="op">-</span>toleranz <span class="op">&lt;=</span> abweichung_prozentsatz <span class="op">&lt;=</span> toleranz:</span>
-<span id="cb3-14"><a href="#cb3-14"></a>        <span class="bu">print</span> (<span class="st">&quot;Juhu, deine Antwort ist richtig!&quot;</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-14"><a href="#cb3-14"></a>        <span class="bu">print</span> (<span class="st">"Juhu, deine Antwort ist richtig!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb3-15"><a href="#cb3-15"></a>        <span class="cf">break</span></span>
 <span id="cb3-16"><a href="#cb3-16"></a>      <span class="cf">else</span>:</span>
-<span id="cb3-17"><a href="#cb3-17"></a>        <span class="bu">print</span> (<span class="st">&quot;Deine Antwort ist leider falsch, versuche es gleich noch einmal.&quot;</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-17"><a href="#cb3-17"></a>        <span class="bu">print</span> (<span class="st">"Deine Antwort ist leider falsch, versuche es gleich noch einmal."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
 <span id="cb3-18"><a href="#cb3-18"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
-<span id="cb3-19"><a href="#cb3-19"></a>      <span class="bu">print</span>(<span class="st">&quot;gib bitte eine Zahl ein.&quot;</span>)</span>
-<span id="cb3-20"><a href="#cb3-20"></a>Aufgabe()</span></code></pre></div>
+<span id="cb3-19"><a href="#cb3-19"></a>      <span class="bu">print</span>(<span class="st">"gib bitte eine Zahl ein."</span>)</span>
+<span id="cb3-20"><a href="#cb3-20"></a>Aufgabe()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
-<hr />
+<hr>
 </section>
 <section id="projekt-2" class="level2">
-<h2>Projekt 2</h2>
+<h2 class="anchored" data-anchor-id="projekt-2">Projekt 2</h2>
 <p>Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator <a href="https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW">MA.3.B.2.e</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
 <p>Halten Sie schriftlich fest:</p>
 <ul>
@@ -646,7 +615,7 @@ Lösungsvorschlag 2
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Leistungsnachweis: Formative Beurteilung
@@ -661,33 +630,18 @@ Leistungsnachweis: Formative Beurteilung
 <li><a href="https://www.informatik-biber.ch/aufgabensammlung/">Informatikbiber</a> (Lizenz CC BY-NC-SA)</li>
 <li><a href="https://www.mathe-kaenguru.de/chronik/aufgaben/index.html">Mathekänguru</a></li>
 </ul>
-<hr />
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-next">Variablen Datentypen und Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.htmlSemesterübersicht">Semesterübersicht</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Lernmodule</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.htmlVariablen-Datentypen-und-Typecasting">Variablen Datentypen und Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.htmlConditionals-(if-elif-else)-und-Flussdiagramme">Conditionals (if-elif-else) und Flussdiagramme</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.htmlLoops">Loops</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.htmlListen">Listen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.htmlFunktionen">Funktionen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.htmlAufgabensammlung">Aufgabensammlung</span> <span class="hidden" data-render-id="quarto-int-navbar:Beurteilung">Beurteilung</span> <span class="hidden" data-render-id="quarto-int-navbar:Learning Analytics">Learning Analytics</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html">/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Grundlagen der Beurteilung">Grundlagen der Beurteilung</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html">/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Digitalität und Datenschutz">Digitalität und Datenschutz</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html">/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Chancen und Risiken standardisierter Testverfahren und Leistungsmessung">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html">/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Verstehensorientiert prüfen in Zeiten von KI">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html">/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Mikroplanung">Mikroplanung</span> <span class="hidden" data-render-id="quarto-int-navbar:Mikroplanung Mathematik">Mikroplanung Mathematik</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html">/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Mediendidaktik">Mediendidaktik</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html">/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Zus. und Komm.">Zus. und Komm.</span> <span class="hidden" data-render-id="quarto-int-navbar:MI - Digitale Zusammenarbeit und Kommunikation">MI - Digitale Zusammenarbeit und Kommunikation</span> <span class="hidden" data-render-id="quarto-int-navbar:/empty">/empty</span> <span class="hidden" data-render-id="quarto-int-navbar:Digitalität">Digitalität</span> <span class="hidden" data-render-id="quarto-int-navbar:Medien und Informatik unterrichten">Medien und Informatik unterrichten</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html">/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://github.com/PHBern-RConrardy/lerngelegenheiten">https://github.com/PHBern-RConrardy/lerngelegenheiten</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://www.zotero.org/groups/5512202/literatur_phbern_conrardy">https://www.zotero.org/groups/5512202/literatur_phbern_conrardy</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Semesterübersicht">Semesterübersicht</span></p>
-<div class="hidden" data-render-id="footer-left-https://www.phbern.ch/">
-<p>PHBern</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/impressum.html">
-<p>Impressum</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/disclaimer.html">
-<p>Disclaimer</p>
-</div>
-<div class="hidden" data-render-id="footer-center-https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
-<p>Kontakt</p>
-</div>
-<div class="hidden" data-render-id="footer-right-&lt;small&gt;Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.&lt;/small&gt;">
-<p><small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small></p>
-</div>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-twittercarddesc">Beurteilung Mathematik</span> <span class="hidden" data-render-id="quarto-ogcardddesc">Beurteilung Mathematik</span></p>
-</div>
+<hr>
+
+
 </section>
 </section>
 
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-giger2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Giger, P., Conrardy, R., &amp; Adler, J. (2024, January 1).
+<em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -1108,27 +1062,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/">
- PHBern
-    </a>
+<p>PHBern</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="/footer/impressum.html">
- Impressum
-    </a>
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="/footer/disclaimer.html">
- Disclaimer
-    </a>
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
- Kontakt
-    </a>
+<p>Kontakt</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -1142,6 +1096,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-</body>
 
-</html>
+
+
+</body></html>

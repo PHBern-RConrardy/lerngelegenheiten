@@ -1,8 +1,0 @@
----
-title: "Mikroplanung Mathematik"
-subtitle: "SOL"
-format: html
----
-::: {.callout-important}
-Noch nicht fertig, work in progress
-:::

@@ -1,9 +1,0 @@
----
-title: "Mikroplanung Mathematik"
-subtitle: "Erstellen einer Mikroplanung für den Mathematikunterricht"
-format: html
----
-::: {.callout-important}
-Noch nicht fertig, work in progress
-:::
-

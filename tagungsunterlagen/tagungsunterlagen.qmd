@@ -1,9 +1,0 @@
----
-title: "Tagungsunterlagen"
-format: html
-listing:
-  - contents: "*.qmd"
-    sort: "date desc"
-    type: table
-    fields: [date, title,subtitle]
----
