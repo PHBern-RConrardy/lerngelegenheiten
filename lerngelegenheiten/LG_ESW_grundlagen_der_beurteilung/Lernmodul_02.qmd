@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Theoretische Grundlagen
 subtitle: Grundlagen der Beurteilung
 
@@ -12,6 +15,7 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
 abstract: >
   Mit diesem Lernmodul erhalten Sie nicht bloss eine Einführung in die Thematik «Beurteilung und Förderung», sondern auch ein Grundgerüst an Begriffsdefinitionen, die für das Verständnis und die Begründung der eigenen Beurteilungspraxis von entscheidender Bedeutung sind.  
 ---

@@ -1,9 +1,28 @@
 ---
 title: "Learning Analytics"
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
+  
 categories:
   - Modul - Formative Beurteilung
   - Label - Digitalität
+  
+authors:
+  - name: Florian Keller
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Richard Conrardy
+    affiliations:
+      - ref: phbern
+      
+citation:
+  author:
+    - Florian Keller
+    - Richard Conrardy
+date: 05/14/2024
 ---
 
 # Organisatorisches
@@ -14,51 +33,15 @@ categories:
 [Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
 :::
 
-# Workload
+# Semesterüberblick
 
-| Woche | Thema                      |                               Slides                               |            Aufträge             |
-|:----------------:|:-----------------|:----------------:|:----------------:|
-|   8   | Constructive Alignment     | [<i class="bi bi-easel3-fill"></i>](woche_08.qmd){target="_blank"} |  |
-|   9   | Lehrplan21                 |                                                                    | <i class="bi bi-folder-fill"></i> |
-|  10   | Teilgebiete der Mathematik |                                                                    | <i class="bi bi-folder-fill"></i> |
-|  11   |                            |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          | <i class="bi bi-folder-fill"></i> |
+| Teil | Thema                               |                         Vorbereitung                         |                          |
+|:-------------:|:---------------------|:-------------:|:-------------------:|
+|  1   | Einführung, Gruppenbildung          | [Forschungsethik](Lernmodul_01), [Open Access](Lernmodul_02) | [Slides](Slides_01.html) |
+|  2   | Festlegung der Fragestellungen      |                                                              |                          |
+|  3   | Erstellung der Erhebungsinstrumente |                                                              |                          |
+|  4   | Verwalten der Daten                 |                                                              |                          |
+|  5   | Analysieren der Daten               |                                                              |                          |
+|  6   | Veröffentlichen der Daten           |    [Ergebnisse reproduzierbar publizieren](Lernmodul_06)     |                          |
 
 : {.striped .hover .table-sm}
-
-
-
-
-## Aufträge Woche 9
-
-`average`
-`stdevp`
-`median`
-
-conditional formatting
-
-`xlookup`
-`textbefore`
-`textafter`
-
-Ist die letzte Reihe schlechter als die anderen?
-
-Setze Sie so um, dass die letzte Reihe nicht mehr schlechter ist als die anderen.
-
-
-## Aufträge Woche 10
-
-Sitzpositionen
-Setzen nach Note
-Randomisierung
-
-Korrelation
-
-Korrelieren 2 Fächer?
-
-Setz beide Fächer so um, dass ...
-
-
-
-## Auftrag Woche 11
-
-go wild

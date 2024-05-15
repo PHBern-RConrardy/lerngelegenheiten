@@ -12,10 +12,11 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
 abstract: > 
   Im kommenden Lernmodul geht es um die Frage, wie das Gesamturteil für den Beurteilungsbericht zustande kommt und wie die Personalen Kompetenzen und Schlüsselkompetenzen Eingang in den Beurteilungsbericht finden.
 ---
-
+::: callout-note
 # Ziele des Lernmoduls
 
 Die Studierenden ...
@@ -23,6 +24,7 @@ Die Studierenden ...
 -   kennen die gesetzlichen Grundlagen bezüglich Gesamturteil und Portfolio Personale Kompetenzen und Schlüsselkompetenzen.
 -   können das Zustandekommen der Gesamtbeurteilung erklären und kritisch reflektieren.
 -   setzen sich vertieft mit dem «Portfolio Personale Kompetenzen und Schlüsselkompetenzen» auseinander.
+:::
 
 # Einleitung Gesamturteil
 
@@ -38,14 +40,16 @@ Anhand der folgenden Lernmaterialien setzen Sie sich mit folgenden Leitfragen au
 2.  Wie kommt man anhand mehrerer Beurteilungsanlässe im Verlauf des Schuljahres schliesslich zu einem Gesamturteil am Ende des Schuljahres?
 3.  Was muss oder darf bzw. darf nicht in die Gesamtbeurteilung «einfliessen»?
 
-<!-- -->
 
 a)  Anzahl Beurteilungsberichte Wie oft Zeugnisse oder Beurteilungsberichte im Verlauf einer Schulkarriere abgegeben werden, ist von Kanton zu Kanton unterschiedlich. Im Kanton Bern sieht die Situation wie folgt aus.
 
 Die blauen Striche in der folgenden Grafik kennzeichnen die Zeitpunkte der Aushändigung der Gesamtbeurteilungen in den Fachbereichen und damit zusammenhängend auch des Entscheids über den Übertritt ins nächste Schuljahr. Im Zyklus 1 geschieht dies am Ende der 2. Klasse, im Zyklus 2 am Ende der 4., 5. und 6. Klasse und im im Zyklus 3 am Ende der 7., 8. und 9. Klasse (DVBS, Artikel 9, Absatz 4).
 
+:::{#fig-beurteilungsbericht}
 ![](images/Bild_-_Zeitpunkt_Beurteilungsberichte.png)
 
+Beurteilungsbericht
+:::
 Es ist zu beachten, dass zwischen den Zyklen (Zyklus 1, Zyklus 2 und Zyklus 3) wesentliche Unterschiede bestehen.
 
 Zyklus 1: «Im Beurteilungsbericht am Ende des 2. Schuljahres auf der Primarstufe werden die fachlichen Kompetenzen danach beurteilt, ob die Schüler:in dem Grundanspruch gemäss Lehrplan genügt oder nicht.» [(DVBS, Artikel 24, Absatz 3)](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11). Für die Fachbereiche werden also keine Noten gesetzt, sondern lediglich die Prädikate «Grundanspruch erreicht» oder «Grundanspruch nicht erreicht».
@@ -58,7 +62,13 @@ Zyklus 2 & 3: «Am Ende Ende des 4., 5. und 6. Schuljahres auf der Primarstufe u
 
 Diese Formulare werden den Schüler:innen freilich nicht lose abgegeben, sondern in einer Dokumentenmappe, die im Kanton Bern für die Volksschule wie folgt aussieht. Die Dokumentenmappe stellt so gesehen das Zeugnis dar, das den Schüler:innen am Ende des Schuljahres nach Hause gegeben wird.
 
+:::{#fig-berichte}
+
 VIDEO
+
+Screencast - Beurteilungsberichte
+:::
+
 
 # Vorbereitungsauftrag
 
@@ -66,8 +76,11 @@ Bereiten Sie sich mit diesem Auftrag auf das nächste Kapitel vor, wo es um die 
 
 Notieren Sie sich nicht nur das Gesamturteil bzw. die Note, sondern auch wie Sie vorgegangen sind und weshalb?
 
+:::{#fig-kompetenzbereiche}
 ![https://www.akvb-unterricht.bkd.be.ch/content/dam/akvb-unterricht_bkd/dokumente/de/startseite/regelunterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung/beurteilung-lp21-dokumentation-summative-beurteilung-ausgefuelltes-musterbeispiel-sport-d.pdf](images/Abbildung_-_Dokumentation_summative_Beurteilung_-_Bewegung_a_Sport.png)
 
+Beispiel
+:::
 # b) Zustandekommen Gesamturteil
 
 Bevor wir uns mit dem Zustandekommen des Gesamturteil auseinandersetzen, lohnt es sich, das Augenmerk auf die Beurteilungsgegenstände im Kanton Bern zu legen, denn diese sind schliesslich die Grundlage für das Gesamturteil am Ende des Schuljahres, das schliesslich im Beurteilungsbericht ausgewiesen wird.
@@ -79,7 +92,12 @@ Schauen Sie sich dafür den folgenden Slidecast an und entnehmen Sie diesem ...
 -   ... welche Beurteilungsgegenstände in das Gesamturteil einfliessen dürfen,
 -   ... wie die summative Beurteilung des Beurteilungsgegenstandes «Lernprozess» zu verstehen ist.
 
+:::{#fig-lernprozess}
+
 PDF VIDEO
+Screencast - Lernprozess
+
+:::
 
 Fassen wir noch einmal zusammen:
 
@@ -131,8 +149,11 @@ Wie bereits mehrfach erwähnt, müssen im Kanton Bern die Beurteilungsanlässe i
 
 Im hier vorliegenden Musterbeispiel liegen also 10 Beurteilungsanlässe vor, 3 Produkte, 5 Lernkontrollen und 2 summative Lernprozessbewertungen.
 
+:::{fig-sichten}
 ![](images/sichten.png)
 
+sichten
+:::
 ### 2. gewichten
 
 Obwohl die Beurteilungsanlässe also ausgewogen und auch relevant sind, gibt es dennoch immer auch Unterschiede in Bezug auf deren Bedeutsamkeit für das Gesamturteil. Bei bestimmten Anlässen wurde vielleicht gar nicht so viel Unterrichtszeit investiert, andere decken unter Umständen Themenbereiche oder Teilaspekte ab, die als weniger relevant eingeschätzt werden können.
@@ -145,16 +166,22 @@ Birri, Monn & Nänny (2021, S. 11) schlagen für die Gewichtung folgende Kriteri
 
 Die vorliegenden 10 Beurteilungsbelege können also zusätzlich noch in hohe, mittlere oder geringe Bedeutsamkeit eingeteilt und damit gewichtet werden.
 
+:::{#fig-gewichten}
 ![](images/gewichten.png)
 
+gewichten
+:::
 ### 3. kategorisieren
 
 Auf dem Weg zum Ermessensentscheid ist es als nächstes von Vorteil, die Beurteilungsanlässe zu kategorisieren bzw. zu kodieren. Sowohl für die Prädikate «erreicht» und «nicht erreicht» (Zyklus 1) als auch für die Noten, welche im Zyklus 2 und Zyklus 3 im Beurteilungsbericht (Zeugnis) gesetzt werden müssen, ist es von Vorteil, die gezeigten Leistungen in «ungenügend», «genügend», «gut» und «sehr gut» einzuteilen.
 
 Im Falle der Notenvergabe bewegen sich genügende Beurteilungsanlässe um die Note 4, gute Beurteilungsbelege um die Note 5 und schliesslich sehr gute Kompetenznachweise um die Note 6.
 
+:::{#fig-kategorisieren}
 ![](images/kategorisieren.png)
 
+kategorisieren
+:::
 ### 4. bilanzieren
 
 Lehrpersonen sollten jetzt in der Lage sein, aufgrund der Gewichtung und der Kategorisierung der Kompetenznachweise einen Gesamteindruck zu erhalten, der dann in der verlangten Form im Beurteilungsbericht pro Fachbereich auch eingetragen werden kann.
@@ -165,8 +192,11 @@ Im vorliegenden Musterbeispiel könnte der Ermessensentscheid (ohne rechnen zu m
 
 Viele Lehrpersonen nehmen sich vor, die Gesamtnote mit ihren Schüler:innen zu besprechen bzw. auszuhandeln. Ob im vorliegenden Fall also eine 4.5 oder eine 5 im Beurteilungsbericht stehen soll, könnte Bestandteil und Ergebnis eines solchen Beurteilungsgesprächs sein.
 
+:::{#fig-bilanzieren}
 ![](images/bilanzieren.png)
 
+bilanzieren
+:::
 # c) Was darf «einfliessen?
 Diese Frage stellen sich Lehrpersonen immer wieder, wenn es darum geht, das Gesamturteil am Ende des 7., 8. oder 9. Schuljahres festzulegen. Es geht darum ob wirklich NUR die gesammelten summativen Beurteilungsanlässe (siehe vorheriges Kapitel) in die Gesamtbeurteilung einflissen dürfen.
 
@@ -232,9 +262,13 @@ Für das Ausweisen der überfachlichen Kompetenzen sieht der Kanton Bern für de
 
 Entnehmen Sie dem folgenden Slidecast nähere Informationen dazu.
 
+:::{fig-psk}
 PDF
 
-VIDEO
+Video
+
+Screencast - PSK
+:::
 
 # Verarbeitungsauftrag
 

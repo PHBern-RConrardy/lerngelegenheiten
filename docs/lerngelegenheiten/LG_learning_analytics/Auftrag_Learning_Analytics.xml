@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Publishing
+DTD v1.2 20190208//EN" "JATS-publishing1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
+  <front>
+    <journal-meta>
+      <journal-id/>
+      <journal-title-group>
+</journal-title-group>
+      <issn/>
+      <publisher>
+        <publisher-name/>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <title-group>
+        <article-title>Auftrag</article-title>
+        <subtitle>Learning Analytics</subtitle>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keller</surname>
+            <given-names>Florian</given-names>
+          </name>
+          <string-name>Florian Keller</string-name>
+          <degrees>Dr.</degrees>
+          <xref ref-type="aff" rid="phbern">a</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Conrardy</surname>
+            <given-names>Richard</given-names>
+          </name>
+          <string-name>Richard Conrardy</string-name>
+          <xref ref-type="aff" rid="phbern">a</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="phbern">
+        <institution content-type="dept">Institut Sekundarstufe I</institution>
+        <institution-wrap>
+          <institution>University of Teacher Education Bern</institution>
+          <institution-id institution-id-type="ROR">https://ror.org/05jf1ma54</institution-id>
+        </institution-wrap>
+        <addr-line>Länggassstrasse 35</addr-line>
+        <city>Bern</city>
+        <postal-code>3012</postal-code>
+        <ext-link ext-link-type="uri" xlink:href="https://www.phbern.ch">https://www.phbern.ch</ext-link>
+      </aff>
+      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2024-05-14">
+        <year>2024</year>
+        <month>5</month>
+        <day>14</day>
+      </pub-date>
+      <history/>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="ziel">
+      <title>Ziel</title>
+      <p>Sie führen in dieser Lerngelegenheit eine quantitative Untersuchung
+  mit Unterrichtsbezug durch.</p>
+    </sec>
+    <sec id="abgabe">
+      <title>Abgabe</title>
+      <p>Sie reichen ihre Forschungsarbeit 2 Wochen vor Semesterende über
+  <ext-link ext-link-type="uri" xlink:href="https://portfolio.switch.ch/">SWITCHportfolio</ext-link>
+  in einer speziell dafür eingerichteten Gruppe ein.</p>
+      <p>Alle Dateien müssen auf der Seite eingebettet sein. Sie dürfen
+  nicht per Link zu einem Cloudanbieter eingebunden sein.</p>
+      <p>Sie erhalten eine schriftliche, formative Rückmeldung. Auf Wunsch
+  erhalten Sie sehr gerne auch eine ausführliche mündliche
+  Rückmeldung.</p>
+    </sec>
+    <sec id="notwendige-bedingungen">
+      <title>Notwendige Bedingungen</title>
+      <list list-type="bullet">
+        <list-item>
+          <p>Werk is veröffentlicht
+      (<ext-link ext-link-type="uri" xlink:href="https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de#art_9">vgl.
+      Art. 9 Abs. 3 URG</ext-link>)</p>
+        </list-item>
+        <list-item>
+          <p>Autoren sind benannt</p>
+        </list-item>
+        <list-item>
+          <p>Freie Lizenz ist korrekt angegeben</p>
+        </list-item>
+        <list-item>
+          <p>Rechtliche Rahmenbedingungen werden eingehalten (insb. URG, DSG
+      und KDSG)</p>
+        </list-item>
+        <list-item>
+          <p>Die Forschung ist replizierbar:</p>
+          <list list-type="bullet">
+            <list-item>
+              <p>Datensatz vorhanden</p>
+            </list-item>
+            <list-item>
+              <p>Informationen zur Auswertung</p>
+            </list-item>
+            <list-item>
+              <p>Notwendige Dateien (Formula, Aufgabenblätter, …)
+          vorhanden</p>
+            </list-item>
+          </list>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="grundlegende-lernziele">
+      <title>Grundlegende Lernziele</title>
+      <list list-type="bullet">
+        <list-item>
+          <p>Zielgruppengerechte Sprache</p>
+        </list-item>
+        <list-item>
+          <p>Graphiken aussagekräftig</p>
+        </list-item>
+        <list-item>
+          <p>Hypothesen wohlformuliert</p>
+        </list-item>
+        <list-item>
+          <p>Interpretation datengestützt</p>
+        </list-item>
+        <list-item>
+          <p>Störvariablen mehrheitlich beachtet</p>
+        </list-item>
+        <list-item>
+          <p>mind. 3 Variablen</p>
+        </list-item>
+        <list-item>
+          <p>mind. 2 abhängige Stichproben</p>
+        </list-item>
+      </list>
+    </sec>
+    <sec id="erweiterte-lernziele">
+      <title>Erweiterte Lernziele</title>
+      <list list-type="bullet">
+        <list-item>
+          <p>Schreibstil ist wissenschaftlich</p>
+        </list-item>
+        <list-item>
+          <p>Hypothesen theoriegeleitet</p>
+        </list-item>
+        <list-item>
+          <p>Schliessende Statistik (ohne Untersuchung der Annahmen)</p>
+        </list-item>
+        <list-item>
+          <p>Erweiterte Diagrammtypen (falls angebracht)</p>
+        </list-item>
+      </list>
+    </sec>
+  </body>
+  <back>
+</back>
+</article>

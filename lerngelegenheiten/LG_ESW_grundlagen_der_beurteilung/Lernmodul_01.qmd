@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Thematische Einführung
 subtitle: Grundlagen der Beurteilung
 authors:
@@ -11,7 +14,7 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
-
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
 abstract: >
   In diesem Lernmodul erhalten Sie einen ersten Einblick in die Thematik «Beurteilung und Förderung». Der Dokumentarfilm «Mein Leben und der Notenschnitt» von Luzius Wespe zeigt auf eindrückliche Weise, was Kinder beim Übertritt von der Primar- in die Sekundarstufe bewegt und was «Noten» bei den Lernenden selber aber auch zu Hause in den Familien auslösen können.  
 ---

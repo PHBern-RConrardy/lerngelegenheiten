@@ -12,16 +12,12 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  Im kommenden Lernmodul geht es um die Themen Bildungssystem der Schweiz und Sekundarschulmodelle im Kanton Bern. Arbeiten Sie das Lernmodul Schritt für Schritt durch.
 ---
 
-# Allgemeine Informationen
-
-Liebe Studierende
-
-Im kommenden Lernmodul geht es um die Themen Bildungssystem der Schweiz und Sekundarschulmodelle im Kanton Bern. Arbeiten Sie das Lernmodul Schritt für Schritt durch.
-
-Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte zu diskutieren oder wissen Sie nicht, wie Sie die behandelten Inhalte in Ihrem Beurteilungskonzept berücksichtigen sollen, dann ist es wichtig, dass Sie Ihre Anliegen an den dafür vorgesehenen Austauschterminen einbringen.
-
+::: callout-note
 # Ziele des Lernmoduls
 
 Die Studierenden ...
@@ -29,10 +25,15 @@ Die Studierenden ...
 -   wissen wie der gymnasiale Unterricht im Kanton Bern organisiert ist.
 -   kennen die fünf bernischen Schulmodelle der Sekundarstufe.
 -   kennen Vor- und Nachteile der unterschiedlichen Schulmodelle.
+:::
 
 # «Schweizer Bildungssystem & Sekundarschulmodelle»
 
+:::{#fig-bildungssystem}
 VIDEO PDF
+
+Screencast - Schweizer Bildungssystem
+:::
 
 # Verarbeitungsauftrag
 
@@ -42,12 +43,26 @@ Betrachten Sie die folgenen Abbildungen und beantworten Sie für sich folgende F
 -   Wie sind die Kurven zu interpretieren?
 -   Welche Problematik ergibt sich daraus?
 
+:::{#fig-verteilung}
 ![](images/Verteilung_der_Mathematikleistung_in_PISA_2000.png)
+
+Verteilung
+:::
+
+
+:::{#fig-leseleistung}
 ![](images/Verteilung_der_Leseleistung_in_PISA_2000.png)
+
+Verteilung Leseleistung
+:::
 
 # Schulmodelle Kanton Bern
 
+:::{#fig-schulmodelle}
 PDF VIDEO
+
+Screencast - Schulmodelle
+:::
 
 # Verarbeitungsauftrag
 ### Niveaugetrennte Klassen

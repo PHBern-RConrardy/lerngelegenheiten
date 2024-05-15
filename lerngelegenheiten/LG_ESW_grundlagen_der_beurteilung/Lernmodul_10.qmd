@@ -12,6 +12,7 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
 ---
 # Arbeitsauftrag und Fallbeispiel
 Liebe Studierende
@@ -89,14 +90,27 @@ Dispensation vom Französischunterricht
 
 # Input «Nachteilsausgleich & ILZ»
 
+:::{#fig-nachteil}
 VIDEO PDF
+
+Screencast - Nachteilsausgleich
+:::
 
 # Lernfilm Nachteilsausgleich
 
+:::{#fig-beurteilungsbericht}
 VIDEO
+
+Lernfilm - Nachteilsausgleich
+
+:::
 
 # Ergebnisse zum Projekt SECABS
 
 In dieser Folienpräsentation finden Sie Angaben zu den Projekten SECABS und CHARISMA, welche vom Institut für Forschung und Entwicklung an der PHBern unter der Leitung von Dr. C. Sahli Lozano durchgeführt wurden. Lesen Sie vor allem auf den beiden letzten Seiten die Ergebnisse zum Nachteilsausgleich auf der Sekundarstufe I.
 
+:::{#fig-secabs}
 VIDEO
+
+Video - Secabs
+:::

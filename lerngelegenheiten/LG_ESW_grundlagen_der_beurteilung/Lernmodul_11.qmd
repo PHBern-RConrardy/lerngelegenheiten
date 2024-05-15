@@ -12,6 +12,7 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
+copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
 ---
 Ziel: Informationen und Einblicke in das Notenerfassungssystem «Beurteilung 21».
 
@@ -126,7 +127,11 @@ PDF
 Im untenstehenden Video wird Ihnen gezeigt, wie das Portal BU21 aufgebaut ist, wie sie (summative) Beurteilungen erfassen und die Dokumente für die Dokumentenmappe erstellen und ausdrucken können. 
 Eine ausführliche Hilfsdokumentation finden Sie direkt in der Applikation. 
 
+:::{#fig-portal}
 VIDEO
+
+Screencast - Tutorial zum Portal BU21
+:::
 
 # Dokumente anhand von Fallbeispielen erstellen
 

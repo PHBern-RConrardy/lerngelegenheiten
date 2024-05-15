@@ -1,0 +1,8 @@
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: Ergebnisse reproduzierbar publizieren
+subtitle: Learning Analytics
+---

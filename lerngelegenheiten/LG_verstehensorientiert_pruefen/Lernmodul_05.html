@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Richard Conrardy">
 
-<title>Tagungsunterlagen</title>
+<title>Funktionen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,28 +21,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../images/penguin.png" rel="icon" type="image/png">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,77 +102,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Suchen"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing-1 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing-1'] = new List('listing-listing-1', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../images/penguin.png" alt="" class="navbar-logo">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
@@ -156,27 +131,27 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
  <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
  <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
  <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
  <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
  <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
@@ -190,12 +165,12 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-grid-3x3-gap-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-grid-3x3-gap-fill" role="img">
 </i> 
  <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-images" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html"><i class="bi bi-images" role="img">
 </i> 
  <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
@@ -209,9 +184,9 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-zus.-und-komm.">    
         <li>
-    <a class="dropdown-item" href="../empty"><i class="bi bi-share-fill" role="img">
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-share-fill" role="img">
 </i> 
- <span class="dropdown-text">MI - Digitale Zusammenarbeit und Kommunikation</span></a>
+ <span class="dropdown-text">Digitale Zusammenarbeit und Kommunikation</span></a>
   </li>  
     </ul>
   </li>
@@ -223,7 +198,7 @@ window.Quarto = {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -237,24 +212,51 @@ window.Quarto = {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html">Funktionen</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html">Funktionen</a></li></ol></nav>
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Tagungsunterlagen</h1>
+      <h1 class="title">Funktionen</h1>
+            <p class="subtitle lead">Python - Lernmodul 5</p>
                       </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Autor:innen</div>
+    <div class="quarto-title-meta-heading">Autor:in</div>
     <div class="quarto-title-meta-heading">Zugehörigkeit</div>
     
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.phbern.ch">
+              University of Teacher Education Bern
+              </a>
+            </p>
+        </div>
     </div>
 
   <div class="quarto-title-meta">
 
         
+      <div>
+      <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">01.01.2024</p>
+      </div>
+    </div>
     
       
     </div>
@@ -262,9 +264,79 @@ window.Quarto = {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#funktionen" id="toc-funktionen" class="nav-link active" data-scroll-target="#funktionen">Funktionen</a>
+  <ul class="collapse">
+  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#prüfungsvorbereitung-4" id="toc-prüfungsvorbereitung-4" class="nav-link" data-scroll-target="#prüfungsvorbereitung-4">Prüfungsvorbereitung</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -273,153 +345,52 @@ window.Quarto = {
 
 
 
+<section id="funktionen" class="level1">
+<h1>Funktionen</h1>
+<section id="hilfreiche-links" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
+<p><strong>Wichtig:</strong> Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).</p>
+<p>Auf <strong>Youtube</strong> finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=LQCfN5HS9xI&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=18">Funktionen I</a>, <a href="https://www.youtube.com/watch?v=af9ORp1Pty0&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=19">Funktionen II</a> und <a href="https://www.youtube.com/watch?v=ehSP-sYoKCY&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=20">Funktionen III</a>.</p>
+<p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_functions.asp">Funktionen</a>.</p>
+</section>
+<section id="prüfungsvorbereitung-4" class="level2">
+<h2 class="anchored" data-anchor-id="prüfungsvorbereitung-4">Prüfungsvorbereitung</h2>
+<p><strong>Lösungsvorschlag Aufträge</strong> - <a href="files/brief_adresse.py">Lösungsvorschlag Brief</a> - <a href="files/uhrzeit_rechner.py">Lösungsvorschlag Uhrzeit</a></p>
+<p><strong>Was ist der Output von diesem Programm?</strong></p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="kw">def</span> meine_funktion(x, y, z):</span>
+<span id="cb1-2"><a href="#cb1-2"></a>    <span class="cf">if</span> x <span class="op">&gt;</span> y:</span>
+<span id="cb1-3"><a href="#cb1-3"></a>        <span class="cf">return</span> z</span>
+<span id="cb1-4"><a href="#cb1-4"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-5"><a href="#cb1-5"></a>        <span class="cf">return</span> z <span class="op">-</span> <span class="dv">1</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a></span>
+<span id="cb1-7"><a href="#cb1-7"></a>x <span class="op">=</span> meine_funktion(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>)</span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="bu">print</span>(x)</span>
+<span id="cb1-9"><a href="#cb1-9"></a></span>
+<span id="cb1-10"><a href="#cb1-10"></a>Was macht diese Funktion (<span class="kw">in</span> Worte gefasst)?</span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a>```Python</span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="kw">def</span> meine_funktion(x, y):</span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="cf">if</span> x <span class="op">&gt;</span> y:</span>
+<span id="cb1-15"><a href="#cb1-15"></a>        <span class="cf">return</span> x</span>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="cf">else</span>:</span>
+<span id="cb1-17"><a href="#cb1-17"></a>        <span class="cf">return</span> y</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Programmieren sie einen Würfel und würfeln sie 1000-mal. Um eine Zufallszahl zu generieren, können sie die Funktion “random()” verwenden. Diese generiert eine Zufallszahl zwischen 0 und 1 (float). Dafür müssen sie jedoch die Funktion zuerst importieren:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">from</span> random <span class="im">import</span> random <span class="co"># Import der Funktion random()</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="kw">def</span> wuerfle():</span>
+<span id="cb2-4"><a href="#cb2-4"></a>    zufallszahl <span class="op">=</span> random() <span class="co"># Zufallszahl generieren</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>    <span class="co"># Ihr Code kommt hier..</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>(Tipp: Es gibt verschiedene Lösungswege z. B. mit if-then-else)</p>
+<p>Lösungsvorschlag</p>
 
 
+</section>
+</section>
 
-
-<div class="quarto-listing quarto-listing-container-table" id="listing-listing-1">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-1-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-listing-1'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
-       <option value="index" data-direction="asc">Voreinstellung</option>
-         <option value="listing-date-sort" data-direction="asc">
-          Datum - Datum (aufsteigend)
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Datum - Neueste
-        </option>
-         <option value="listing-title-sort" data-direction="asc">
-          Titel
-        </option>
-     </select>
-  </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
-</div>
-<table class="quarto-listing-table table">
-<thead>
-<tr>
-<th>
-<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Datum</a>
-</th>
-<th>
-<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
-</th>
-<th>
-Untertitel
-</th>
-</tr>
-</thead>
-<tbody class="list">
-<tr data-index="0" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715536463538" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20" data-listing-title-sort="Mathematik" data-listing-filename-sort="2024_05_07_CAS_BKB_MA.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MA.html" class="title listing-title">Mathematik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
-</tr>
-<tr data-index="1" data-listing-date-sort="1715032800000" data-listing-file-modified-sort="1715536477529" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="308" data-listing-title-sort="Medien und Informatik" data-listing-filename-sort="2024_05_07_CAS_BKB_MI.qmd">
-<td>
-<span class="listing-date">07.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_07_CAS_BKB_MI.html" class="title listing-title">Medien und Informatik</a>
-</td>
-<td>
-<span class="listing-subtitle">CAS Berufspraxis kompetent begleiten</span>
-</td>
-</tr>
-<tr data-index="2" data-listing-date-sort="1714600800000" data-listing-file-modified-sort="1714661183852" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="295" data-listing-title-sort="KI im Mathematikunterricht" data-listing-filename-sort="2024_05_02_KI_Mathematikunterricht.qmd">
-<td>
-<span class="listing-date">02.05.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html" class="title listing-title">KI im Mathematikunterricht</a>
-</td>
-<td>
-<span class="listing-subtitle">Think Tank Medien und Informatik</span>
-</td>
-</tr>
-<tr data-index="3" data-listing-date-sort="1710889200000" data-listing-file-modified-sort="1715536452813" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1" data-listing-title-sort="Wie gelingt <span style=white-space:nowrap>Beziehungsgestaltung?</span>" data-listing-filename-sort="2024_03_20_PLP_Tagung.qmd">
-<td>
-<span class="listing-date">20.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_20_PLP_Tagung.html" class="title listing-title">Wie gelingt <span style="white-space:nowrap">Beziehungsgestaltung?</span></a>
-</td>
-<td>
-<span class="listing-subtitle">Praxislehrpersonen-Tagung</span>
-</td>
-</tr>
-<tr data-index="4" data-listing-date-sort="1710716400000" data-listing-file-modified-sort="1715536448423" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="586" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_03_18_Treffpunkt_Hochschuldidaktik.qmd">
-<td>
-<span class="listing-date">18.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Treffpunkt Hochschuldidaktik</span>
-</td>
-</tr>
-<tr data-index="5" data-listing-date-sort="1709506800000" data-listing-file-modified-sort="1715536441434" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2056" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_03_04_kolloquium_fachdidaktik.qmd">
-<td>
-<span class="listing-date">04.03.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_03_04_kolloquium_fachdidaktik.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Kolloquium Fachdidaktik</span>
-</td>
-</tr>
-<tr data-index="6" data-listing-date-sort="1707692400000" data-listing-file-modified-sort="1715536433807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1150" data-listing-title-sort="Inhalte effizient onlinebringen" data-listing-filename-sort="2024_02_12_barcamp_phbern_2024.qmd">
-<td>
-<span class="listing-date">12.02.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html" class="title listing-title">Inhalte effizient onlinebringen</a>
-</td>
-<td>
-<span class="listing-subtitle">Barcamp PHBern</span>
-</td>
-</tr>
-<tr data-index="7" data-listing-date-sort="1706569200000" data-listing-file-modified-sort="1715536422350" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1251" data-listing-title-sort="How to flip the right way? Fail, flip, fix and feed in practice." data-listing-filename-sort="2024_01_30_literature_club.qmd">
-<td>
-<span class="listing-date">30.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_30_literature_club.html" class="title listing-title">How to flip the right way? Fail, flip, fix and feed in practice.</a>
-</td>
-<td>
-<span class="listing-subtitle">Literature Club Besprechung</span>
-</td>
-</tr>
-<tr data-index="8" data-listing-date-sort="1705618800000" data-listing-file-modified-sort="1715528505394" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="874" data-listing-title-sort="Mathematikverständnis stärken in Zeiten von KI" data-listing-filename-sort="2024_01_19_gdm_tagung.qmd">
-<td>
-<span class="listing-date">19.01.2024</span>
-</td>
-<td>
-<a href="../tagungsunterlagen/2024_01_19_gdm_tagung.html" class="title listing-title">Mathematikverständnis stärken in Zeiten von KI</a>
-</td>
-<td>
-<span class="listing-subtitle">Workshop Gesellschaft für Didaktik der Mathematik Schweiz</span>
-</td>
-</tr>
-</tbody>
-</table>
-<div class="listing-no-matching d-none">
-Keine Treffer
-</div>
-</div><div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section></div></main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R. (2024, January 1). <em>Funktionen</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -849,12 +820,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../footer/impressum.html">
+    <a class="nav-link" href="../../footer/impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../footer/disclaimer.html">
+    <a class="nav-link" href="../../footer/disclaimer.html">
 <p>Disclaimer</p>
 </a>
   </li>  

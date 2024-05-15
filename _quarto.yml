@@ -112,7 +112,6 @@ website:  # Menüs für die Webseite
             text: Lernmodul 11
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.qmd
           text: Beurteilungskonzept
-          
     - title: "Mikroplanung Mathematik"
       contents:
         - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
@@ -120,7 +119,6 @@ website:  # Menüs für die Webseite
         - section: Lernmodule
           contents:
             auto: lerngelegenheiten/LG_mikroplanung_math/Lernmodul*
-      
     - title: "Verstehensorientiert prüfen in Zeiten von KI"
       contents:
         - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
@@ -134,7 +132,17 @@ website:  # Menüs für die Webseite
             - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.qmd
                     
         - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.qmd
-        
+    - title: "Learning Analytics"
+      contents:
+        - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
+          text: Semesterübersicht
+        - section: Lernmodule
+          contents:
+            - lerngelegenheiten/LG_learning_analytics/Lernmodul_01.qmd
+            - lerngelegenheiten/LG_learning_analytics/Lernmodul_02.qmd
+            - lerngelegenheiten/LG_learning_analytics/Lernmodul_06.qmd
+        - href: lerngelegenheiten/LG_learning_analytics/Auftrag_Learning_Analytics.qmd
+          text: Auftrag
         
   page-footer: # Fusszeile
     center: 
@@ -205,9 +213,9 @@ format:
     number-depth: 3
     
 author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
-  - name: Richard Conrardy
+  - id: cori
+    name: Richard Conrardy
     orcid: 0009-0004-2063-6898
-    id: 00383195
     email: richard.conrardy@phbern.ch
     url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
     affiliation:
