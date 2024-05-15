@@ -1,9 +1,9 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.10)  15 MAY 2024 13:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.5.10)  15 MAY 2024 13:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**Lernmodul_02.tex
-(./Lernmodul_02.tex
+**Lernmodul_01.tex
+(./Lernmodul_01.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-04-11>
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -532,7 +532,10 @@ Package graphics Info: Driver file: xetex.def on input line 107.
 )
 \Gin@req@height=\dimen181
 \Gin@req@width=\dimen182
-) (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
+)
+\cslhangindent=\skip76
+\csllabelwidth=\skip77
+(/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading styles
 
 LaTeX Warning: Command \underbar  has changed.
@@ -554,7 +557,7 @@ Class scrartcl Warning: Incompatible package `sectsty' loaded!
 (scrartcl)              the `sectsty' maintainer for a more compatible release.
 (scrartcl)              Ignoring this warning could result in several error
 (scrartcl)              messages and formatting issues after loading package
-(scrartcl)              `sectsty' on input line 85.
+(scrartcl)              `sectsty' on input line 118.
 
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
 Package: scrlayer-scrpage 2023/07/07 v3.41 KOMA-Script package (end user interface for scrlayer)
@@ -861,9 +864,9 @@ Language: nil 2024/04/20 v24.4 Nil language
 \everypar=\toks45
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex)
 Package babel Info: Importing data for ngerman
-(babel)             from babel-de.ini. Reported on input line 166.
+(babel)             from babel-de.ini. Reported on input line 199.
 Package babel Info: Hyphen rules for 'ngerman' set to \l@nil
-(babel)             (\language7). Reported on input line 166.
+(babel)             (\language7). Reported on input line 199.
 
 Package fontspec Info: 
 (fontspec)             Language 'German' not explicitly supported within font
@@ -930,7 +933,7 @@ Package fontspec Info:
 (fontspec)             <->s*[1]"Arial/BI/OT:script=latn;language=DEU;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/Arial(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 169.
+(Font)              scaled to size 10.0pt on input line 202.
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty
@@ -1032,57 +1035,43 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip76
+\Hy@SectionHShift=\skip78
 ) (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/bookmark/bkm-dvipdfm.def
 File: bkm-dvipdfm.def 2023-12-10 v1.31 bookmark driver for dvipdfm (HO)
 \BKM@id=\count353
 ))
-Package hyperref Info: Option `colorlinks' set `true' on input line 190.
-(./Lernmodul_02.aux
+Package hyperref Info: Option `colorlinks' set `true' on input line 223.
+No file Lernmodul_01.aux.
+\openout1 = `Lernmodul_01.aux'.
 
-Package babel Info: The following font families will use the default
-(babel)             settings for all or some languages:
-(babel)             * \sffamily = lmss
-(babel)               "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
-(babel)             * \ttfamily = lmtt
-(babel)               "[lmmono10-regular]:" at 10.0pt
-(babel)             There is nothing intrinsically wrong with it, but
-(babel)             'babel' will no set Script and Language, which could
-(babel)             be relevant in some languages. If your document uses
-(babel)             these families, consider redefining them with \babelfont.
-(babel)             Reported on input line 4.
-
-)
-\openout1 = `Lernmodul_02.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 237.
+LaTeX Font Info:    ... okay on input line 237.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 203.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 237.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 203.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/b/n on input line 237.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 203.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 237.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 203.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/b/n on input line 237.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.203139548468638.
@@ -1110,7 +1099,7 @@ Package fontspec Info:
 (fontspec)             <->s*[1.203139548468638]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 12.0314pt on input line 203.
+(Font)              scaled to size 12.0314pt on input line 237.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.203139548468638.
@@ -1146,15 +1135,15 @@ Package fontspec Info:
 (fontspec)             <->s*[1.203139548468638]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0314pt on input line 203.
+(Font)              scaled to size 12.0314pt on input line 237.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 203.
+(Font)              `operators' in the math version `normal' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 203.
+(Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input line 237.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 203.
+(Font)              `operators' in the math version `bold' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 203.
+(Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/b/n on input line 237.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.203139548468638.
@@ -1220,13 +1209,13 @@ Package fontspec Info:
 (fontspec)             <->s*[1.203259862423485]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 203.
+(Font)              `symbols' in the math version `normal' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 203.
+(Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on input line 237.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 203.
+(Font)              `symbols' in the math version `bold' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 203.
+(Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/b/n on input line 237.
 
 Package fontspec Info: 
 (fontspec)             latinmodern-math scale = 1.203139548468638.
@@ -1286,19 +1275,19 @@ Package fontspec Info:
 (fontspec)             <->s*[1.203019234513791]"[latinmodern-math.otf]/OT:script=math;language=dflt;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 203.
+(Font)              `largesymbols' in the math version `normal' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 203.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on input line 237.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 203.
+(Font)              `largesymbols' in the math version `bold' on input line 237.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 203.
-LaTeX Info: Redefining \microtypecontext on input line 203.
-Package microtype Info: Applying patch `item' on input line 203.
-Package microtype Info: Applying patch `toc' on input line 203.
-Package microtype Info: Applying patch `eqnum' on input line 203.
-Package microtype Info: Applying patch `footnote' on input line 203.
-Package microtype Info: Applying patch `verbatim' on input line 203.
+(Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/b/n on input line 237.
+LaTeX Info: Redefining \microtypecontext on input line 237.
+Package microtype Info: Applying patch `item' on input line 237.
+Package microtype Info: Applying patch `toc' on input line 237.
+Package microtype Info: Applying patch `eqnum' on input line 237.
+Package microtype Info: Applying patch `footnote' on input line 237.
+Package microtype Info: Applying patch `verbatim' on input line 237.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1346,66 +1335,76 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 203.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+
+Package babel Info: The following font families will use the default
+(babel)             settings for all or some languages:
+(babel)             * \sffamily = lmss
+(babel)               "[lmsans10-regular]:mapping=tex-text;" at 10.0pt
+(babel)             * \ttfamily = lmtt
+(babel)               "[lmmono10-regular]:" at 10.0pt
+(babel)             There is nothing intrinsically wrong with it, but
+(babel)             'babel' will no set Script and Language, which could
+(babel)             be relevant in some languages. If your document uses
+(babel)             these families, consider redefining them with \babelfont.
+(babel)             Reported on input line 237.
+
+Package hyperref Info: Link coloring ON on input line 237.
+
+Package hyperref Warning: Rerun to get /PageLabels entry.
+
 LaTeX Font Info:    Font shape `TU/Arial(2)/m/n' will be
-(Font)              scaled to size 14.4pt on input line 205.
+(Font)              scaled to size 14.4pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 17.32521pt on input line 205.
+(Font)              scaled to size 17.32521pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.42198pt on input line 205.
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 205.
+(Font)              scaled to size 8.42198pt on input line 239.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 239.
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 17.32697pt on input line 205.
+(Font)              scaled to size 17.32697pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.03262pt on input line 205.
+(Font)              scaled to size 12.03262pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.42284pt on input line 205.
+(Font)              scaled to size 8.42284pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 17.32344pt on input line 205.
+(Font)              scaled to size 17.32344pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 12.03018pt on input line 205.
+(Font)              scaled to size 12.03018pt on input line 239.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 8.42113pt on input line 205.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 205.
+(Font)              scaled to size 8.42113pt on input line 239.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 239.
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 205.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 239.
 (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-Underfull \hbox (badness 2261) in paragraph at lines 206--210
-[]\TU/Arial(2)/m/n/10 Mit diesem Lernmodul erhalten Sie nicht bloss eine Einführung in die Thematik
- []
-
-(/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
+) (/Users/richardconrardy/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-TU-empty.cfg
 File: mt-TU-empty.cfg 2021/06/22 v1.1 microtype config. file: fonts with nonstandard glyph set (RS)
 )
 
-! Package xcolor Error: Undefined color `(3,1.5)'.
+LaTeX Warning: File `Lernmodul_01_files/mediabag/MLDN_Florina_01.jpg' not found on input line 275.
 
-See the xcolor package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.242 Mit Abbildung~\ref{fig-screencast}
-                                         erhalten Sie eine Einführung in die 
+! Unable to load picture or PDF file 'Lernmodul_01_files/mediabag/MLDN_Florina_01.jpg'.
+<to be read again> 
+                   }
+l.275 ...ul_01_files/mediabag/MLDN_Florina_01.jpg}
+                                                   
 Here is how much of TeX's memory you used:
- 41432 strings out of 476685
- 868503 string characters out of 5798597
+ 41489 strings out of 476685
+ 871166 string characters out of 5798597
  1923403 words of memory out of 5000000
- 62951 multiletter control sequences out of 15000+600000
+ 63007 multiletter control sequences out of 15000+600000
  561792 words of font info for 92 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  108i,6n,127p,10907b,924s stack positions out of 10000i,1000n,20000p,200000b,200000s

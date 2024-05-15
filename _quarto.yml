@@ -89,27 +89,15 @@ website:  # Menüs für die Webseite
         - section: Lernmodule
           contents:
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
-            text: Lernmodul 1
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
-            text: Lernmodul 2
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.qmd
-            text: Lernmodul 3
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.qmd
-            text: Lernmodul 4
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.qmd
-            text: Lernmodul 5
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.qmd
-            text: Lernmodul 6
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.qmd
-            text: Lernmodul 7
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.qmd
-            text: Lernmodul 8
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.qmd
-            text: Lernmodul 9
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.qmd
-            text: Lernmodul 10
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.qmd
-            text: Lernmodul 11
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.qmd
           text: Beurteilungskonzept
     - title: "Mikroplanung Mathematik"

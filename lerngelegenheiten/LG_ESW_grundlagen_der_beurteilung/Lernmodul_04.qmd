@@ -4,9 +4,16 @@ title: Noten und Beurteilungsberichte
 subtitle: Grundlagen der Beurteilung
 
 authors:
-  - Aline Löw
-  - Daniel Ingrisani
-  - Irene Althaus
+  - name: Aline Löw
+    affiliations:
+      - ref: phbern
+  - name: Daniel Ingrisani
+    degrees: Dr.
+    affiliations:
+      - ref: phbern
+  - name: Irene Althaus
+    affiliations:
+      - ref: phbern
 citation: 
   author:
     - Aline Löw
