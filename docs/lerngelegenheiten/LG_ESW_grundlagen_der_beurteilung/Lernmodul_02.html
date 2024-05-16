@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.4.551" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="author" content="Richard Conrardy" />
+<meta name="author" content="Richard Conrardy">
 
 <title>Theoretische Grundlagen</title>
 <style>
@@ -25,7 +23,24 @@ ul.task-list li input[type="checkbox"] {
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,140 +72,99 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body>
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="/index.html" class="navbar-brand navbar-brand-logo">
-    <img src="/images/penguin.png" alt="" class="navbar-logo" />
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Suchen"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
-  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten"
-  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-beurteilung" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-clipboard-check-fill" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-beurteilung" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-clipboard-check-fill" role="img">
 </i> 
  <span class="menu-text">Beurteilung</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-beurteilung">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i 
-  class="bi bi-graph-up" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html"><i class="bi bi-graph-up" role="img">
 </i> 
  <span class="dropdown-text">Learning Analytics</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i 
-  class="bi bi-card-checklist" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html"><i class="bi bi-card-checklist" role="img">
 </i> 
  <span class="dropdown-text">Grundlagen der Beurteilung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i 
-  class="bi bi-shield-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html"><i class="bi bi-shield-fill" role="img">
 </i> 
  <span class="dropdown-text">Digitalität und Datenschutz</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i 
-  class="bi bi-file-bar-graph-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html"><i class="bi bi-file-bar-graph-fill" role="img">
 </i> 
  <span class="dropdown-text">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i 
-  class="bi bi-calculator-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html"><i class="bi bi-calculator-fill" role="img">
 </i> 
  <span class="dropdown-text">Verstehensorientiert prüfen in Zeiten von KI</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mikroplanung" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-arrows-angle-contract" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-mikroplanung" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-arrows-angle-contract" role="img">
 </i> 
  <span class="menu-text">Mikroplanung</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-mikroplanung">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i 
-  class="bi bi-grid-3x3-gap-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html"><i class="bi bi-grid-3x3-gap-fill" role="img">
 </i> 
  <span class="dropdown-text">Mikroplanung Mathematik</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html"><i 
-  class="bi bi-images" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html"><i class="bi bi-images" role="img">
 </i> 
  <span class="dropdown-text">Mediendidaktik</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zus.-und-komm." role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-chat-text-fill" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-zus.-und-komm." role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-chat-text-fill" role="img">
 </i> 
  <span class="menu-text">Zus. und Komm.</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-zus.-und-komm.">    
         <li>
-    <a class="dropdown-item" href="/empty"><i 
-  class="bi bi-share-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../empty"><i class="bi bi-share-fill" role="img">
 </i> 
  <span class="dropdown-text">Digitale Zusammenarbeit und Kommunikation</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-digitalität" role="button" data-bs-toggle="dropdown" aria-expanded="false" >
-      <i 
-  class="bi bi-pc-display-horizontal" 
-  role="img" 
->
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-digitalität" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="bi bi-pc-display-horizontal" role="img">
 </i> 
  <span class="menu-text">Digitalität</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-digitalität">    
         <li>
-    <a class="dropdown-item" href="/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i 
-  class="bi bi-easel2-fill" 
-  role="img" 
->
+    <a class="dropdown-item" href="../../lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html"><i class="bi bi-easel2-fill" role="img">
 </i> 
  <span class="dropdown-text">Medien und Informatik unterrichten</span></a>
   </li>  
@@ -199,136 +173,25 @@ ul.task-list li input[type="checkbox"] {
 </ul>
           </div> <!-- /navcollapse -->
           <div class="quarto-navbar-tools">
-    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html">Theoretische Grundlagen</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
-<!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Semesterübersicht</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Lernmodule</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Thematische Einführung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Theoretische Grundlagen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gesetzliche Grundlagen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Noten und Beurteilungsberichte</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Förderorientierung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernbegleitung und Lerncoaching</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kompetenzorientierung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gesamturteil und Persönliche und Schlüsselkompetenzen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Niveaus und Schulmodelle</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nachteilsausgleich und individuelle Lernziele</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Dokumentenmappe mit BU21</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Beurteilungskonzept</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
-    </div>
-<!-- main -->
-<main class="content" id="quarto-document-content">
-
-
-<header id="title-block-header" class="quarto-title-block default">
-  <div class="quarto-title-banner">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html">Theoretische Grundlagen</a></li></ol></nav>
+  <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
       <h1 class="title">Theoretische Grundlagen</h1>
             <p class="subtitle lead">Grundlagen der Beurteilung</p>
@@ -343,16 +206,31 @@ ul.task-list li input[type="checkbox"] {
       <p class="author">Aline Löw </p>
     </div>
     <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.phbern.ch">
+              University of Teacher Education Bern
+              </a>
+            </p>
         </div>
       <div class="quarto-title-meta-contents">
-      <p class="author">Daniel Ingrisani </p>
+      <p class="author">Daniel Ingrisani, Dr. </p>
     </div>
     <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.phbern.ch">
+              University of Teacher Education Bern
+              </a>
+            </p>
         </div>
       <div class="quarto-title-meta-contents">
       <p class="author">Irene Althaus </p>
     </div>
     <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.phbern.ch">
+              University of Teacher Education Bern
+              </a>
+            </p>
         </div>
     </div>
 
@@ -376,24 +254,124 @@ ul.task-list li input[type="checkbox"] {
     </div>
   </div>
   
-  </header>
-
-<nav id="TOC" role="doc-toc">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Thematische Einführung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Theoretische Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gesetzliche Grundlagen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Noten und Beurteilungsberichte</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Förderorientierung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernbegleitung und Lerncoaching</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Kompetenzorientierung</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Gesamturteil und Persönliche und Schlüsselkompetenzen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Niveaus und Schulmodelle</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Nachteilsausgleich und individuelle Lernziele</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Beurteilungskonzept</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
-  <ul>
-  <li><a href="#input-zur-einführung" id="toc-input-zur-einführung">1. Input zur Einführung</a></li>
-  <li><a href="#input-kreisläufe" id="toc-input-kreisläufe">2. Input Kreisläufe</a>
-  <ul>
-  <li><a href="#vertiefung-abschlussphase" id="toc-vertiefung-abschlussphase">Vertiefung «Abschlussphase»</a></li>
+  <ul class="collapse">
+  <li><a href="#input-zur-einführung" id="toc-input-zur-einführung" class="nav-link active" data-scroll-target="#input-zur-einführung">1. Input zur Einführung</a></li>
+  <li><a href="#input-kreisläufe" id="toc-input-kreisläufe" class="nav-link" data-scroll-target="#input-kreisläufe">2. Input Kreisläufe</a>
+  <ul class="collapse">
+  <li><a href="#vertiefung-abschlussphase" id="toc-vertiefung-abschlussphase" class="nav-link" data-scroll-target="#vertiefung-abschlussphase">Vertiefung «Abschlussphase»</a></li>
   </ul></li>
-  <li><a href="#input-zum-leistungsbegriff" id="toc-input-zum-leistungsbegriff">3. Input zum Leistungsbegriff</a></li>
+  <li><a href="#input-zum-leistungsbegriff" id="toc-input-zum-leistungsbegriff" class="nav-link" data-scroll-target="#input-zum-leistungsbegriff">3. Input zum Leistungsbegriff</a></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="Lernmodul_02.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="Lernmodul_02.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Ziele des Lernmoduls
@@ -412,15 +390,15 @@ Ziele des Lernmoduls
 </div>
 <section id="input-zur-einführung" class="level1">
 <h1>1. Input zur Einführung</h1>
-<p>Mit <a href="#fig-screencast" class="quarto-xref">Abbildung 1</a> erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.</p>
-<div id="fig-screencast" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
+<p>Mit <a href="#fig-screencast" class="quarto-xref">Abbildung&nbsp;1</a> erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.</p>
+<div id="fig-screencast" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-screencast-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <iframe src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide" frameborder="0" allow="fullscreen">
 </iframe>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-screencast-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 1: Screencast zur formativen und summativen Beurteilung
+Abbildung&nbsp;1: Screencast zur formativen und summativen Beurteilung
 </figcaption>
 </figure>
 </div>
@@ -430,32 +408,32 @@ Abbildung 1: Screencast zur formativen und summativen Beurteilung
 <p>Im Wissen darum, dass sowohl das Beurteilen als vor allem auch das Fördern in Kreisprozessen ablaufen, stellen wir Ihnen in diesem Input einen <strong>Förderkreislauf</strong> sowie zwei stärker auf die Beurteilung ausgerichtete <strong>Beurteilungskreisläufe</strong> vor.</p>
 <p>Solche Kreismodelle sollen einerseits ermöglichen die Komplexität der Thematik überschaubar zu halten und zudem helfen, aufeinander aufbauende Aspekte der Beurteilung und Förderung besser zu verstehen. Es lohnt sich deshalb auch für das eigene Beurteilungskonzept sich von solchen Modellen leiten zu lassen. Allenfalls entwickeln Sie darauf aufbauend ein eigenes Kreismodell Ihres persönlichen Beurteilungskonzeptes.</p>
 <section id="beurteilung-im-kanton-bern" class="level3">
-<h3>Beurteilung im Kanton Bern</h3>
+<h3 class="anchored" data-anchor-id="beurteilung-im-kanton-bern">Beurteilung im Kanton Bern</h3>
 <p>Ein spezielles Augenmerk möchten wir auf die Beurteilungssituation im Kanton Bern richten. Im Input werden wir abschliessend auch den unten abgebildeten Kreislauf vorstellen, wo sowohl das Vokabular, als auch die gesetzlichen Vorgaben des Kantons schematisch abgebildet sind. Innerhalb der beiden Beurteilungsmodulen (Formative und Summative, prognostische Beurteilung) haben sich die Dozierenden darauf geeinigt, dass wir uns im Sinne der Kohärenz und des Konsenses vor allem auf diesen Kreislauf stützen werden. Es lohnt sich deshalb für Sie, diesen kennen zu lernen. Wie bereits erwähnt, stellen wir Ihnen auch diesen Kreislauf im unten angefügten Input nächer vor.</p>
-<div id="fig-bild" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
+<div id="fig-bild" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-bild-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="images/Beurteilungskreislauf_Ingrisani.png" class="img-fluid" />
+<img src="images/Beurteilungskreislauf_Ingrisani.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bild-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 2: Förderkreislauf
+Abbildung&nbsp;2: Förderkreislauf
 </figcaption>
 </figure>
 </div>
-<div id="fig-förderkreislauf" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
+<div id="fig-förderkreislauf" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-förderkreislauf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <iframe src="https://tube.switch.ch/embed/htoYUClDmN?title=hide">
 </iframe>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-förderkreislauf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 3: Screencast zum Förderkreislauf
+Abbildung&nbsp;3: Screencast zum Förderkreislauf
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="vertiefung-abschlussphase" class="level2">
-<h2>Vertiefung «Abschlussphase»</h2>
+<h2 class="anchored" data-anchor-id="vertiefung-abschlussphase">Vertiefung «Abschlussphase»</h2>
 <p>Wie im Input zu den «Kreisläufen» und dort in den Ausführungen zum «Beurteilungskreislauf» bereits hingewiesen, stellt die Rückgabe von Lernkontrollen, Tests oder Prüfungen (gemeint ist die <strong>summative Abschlussphase</strong>) ein eher marginalisiertes Thema dar.</p>
 <p>Es stellen sich dabei unter anderem folgende Fragen:</p>
 <ul>
@@ -468,26 +446,26 @@ Abbildung 3: Screencast zum Förderkreislauf
 <div class="callout callout-style-default callout-caution callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
-<i class='callout-icon'></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Auftrag auf LearningView
 </div>
-<div class='callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end'><i class='callout-toggle'></i></div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <section id="auftrag" class="level3 callout-body-container callout-body">
-<h3>Auftrag:</h3>
+<h3 class="anchored" data-anchor-id="auftrag">Auftrag:</h3>
 <p>Im <a href="https://phbern365.sharepoint.com/:v:/r/sites/IS1.Z.Studienplanentwicklung2022/Freigegebene%20Dokumente/General/BA%20-%20Beurteilung%20(formativ%20und%20summativ)/Lerngelegenheiten/Grundlagen%20der%20Beurteilung%20SOL%20-%20Conrardy/Alcala,%20Leah%202015%20-%20Tch%20TeachingChannal%20-%20Highlighting%20Mistakes%20-%20A%20Grading%20Strategy.mp4?csf=1&amp;web=1&amp;e=opTUxg">folgenden Video</a> stellt Ihnen <a href="https://learn.teachingchannel.com/video/math-test-grading-tips">Alcala, Leah 2015</a> von der «Martin Luther King Middle School» in Berkeley (USA) Ihre «Strategie» vor, wie Sie bei Ihren SuS des 7. und 8. Schuljahres Tests zurückgibt.</p>
 <ul>
 <li>Lassen Sie sich von diesem «System», von dieser «Strategie» oder von dieser Möglichkeit inspirieren und erarbeiten Sie sich Ihre eigenen Ideen, Möglichkeiten oder auch schon Strategien.</li>
 <li>Bauen Sie diese schliesslich auch in Ihr Beurteilungskonzept ein.</li>
 </ul>
 <p>Spannende Aussagen in diesem Video:</p>
-<blockquote>
+<blockquote class="blockquote">
 <p>«So I see that now when I give tests back they’re continuing to learn.»</p>
 </blockquote>
-<blockquote>
+<blockquote class="blockquote">
 <p>«My hope is, that trough this strategy they see, that studying their mistakes and learning from their mistakes is really what learning is.»</p>
 </blockquote>
 <p>Vorschlag für das Bibliografieren und Zitieren des Videos: Alcala, Leah 2015 - Tch TeachingChannal - Highlighting Mistakes - A Grading Strategy</p>
@@ -499,42 +477,27 @@ Auftrag auf LearningView
 <section id="input-zum-leistungsbegriff" class="level1">
 <h1>3. Input zum Leistungsbegriff</h1>
 <p>Wenn es ja «Leistungen» sein sollen, die gefördert und beurteilt werden sollen, dann ist es unerlässlich, sich im Rahmen des folgenden Screencasts über den Begriff der schulischen «Leistung» Gedanken zu machen.</p>
-<div id="fig-Leistung" class="quarto-figure quarto-figure-center quarto-float">
-<figure class="quarto-float quarto-float-fig">
+<div id="fig-Leistung" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-Leistung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <iframe src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide">
 </iframe>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-Leistung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung 4: Screencast zum Leistungsbegriff
+Abbildung&nbsp;4: Screencast zum Leistungsbegriff
 </figcaption>
 </figure>
 </div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Grundlagen der Beurteilung</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Theoretische Grundlagen</span> <span class="hidden" data-render-id="quarto-int-next">Gesetzliche Grundlagen</span> <span class="hidden" data-render-id="quarto-int-prev">Thematische Einführung</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.htmlSemesterübersicht">Semesterübersicht</span> <span class="hidden" data-render-id="quarto-int-sidebar:quarto-sidebar-section-1">Lernmodule</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.htmlThematische-Einführung">Thematische Einführung</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.htmlTheoretische-Grundlagen">Theoretische Grundlagen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.htmlGesetzliche-Grundlagen">Gesetzliche Grundlagen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.htmlNoten-und-Beurteilungsberichte">Noten und Beurteilungsberichte</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.htmlFörderorientierung">Förderorientierung</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.htmlLernbegleitung-und-Lerncoaching">Lernbegleitung und Lerncoaching</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.htmlKompetenzorientierung">Kompetenzorientierung</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.htmlGesamturteil-und-Persönliche-und-Schlüsselkompetenzen">Gesamturteil und Persönliche und Schlüsselkompetenzen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.htmlNiveaus-und-Schulmodelle">Niveaus und Schulmodelle</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.htmlNachteilsausgleich-und-individuelle-Lernziele">Nachteilsausgleich und individuelle Lernziele</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_11.htmlDokumentenmappe-mit-BU21">Dokumentenmappe mit BU21</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.htmlBeurteilungskonzept">Beurteilungskonzept</span> <span class="hidden" data-render-id="quarto-int-navbar:Beurteilung">Beurteilung</span> <span class="hidden" data-render-id="quarto-int-navbar:Learning Analytics">Learning Analytics</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html">/lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Grundlagen der Beurteilung">Grundlagen der Beurteilung</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html">/lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Digitalität und Datenschutz">Digitalität und Datenschutz</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html">/lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Chancen und Risiken standardisierter Testverfahren und Leistungsmessung">Chancen und Risiken standardisierter Testverfahren und Leistungsmessung</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html">/lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Verstehensorientiert prüfen in Zeiten von KI">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html">/lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Mikroplanung">Mikroplanung</span> <span class="hidden" data-render-id="quarto-int-navbar:Mikroplanung Mathematik">Mikroplanung Mathematik</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html">/lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Mediendidaktik">Mediendidaktik</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html">/lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.html</span> <span class="hidden" data-render-id="quarto-int-navbar:Zus. und Komm.">Zus. und Komm.</span> <span class="hidden" data-render-id="quarto-int-navbar:Digitale Zusammenarbeit und Kommunikation">Digitale Zusammenarbeit und Kommunikation</span> <span class="hidden" data-render-id="quarto-int-navbar:/empty">/empty</span> <span class="hidden" data-render-id="quarto-int-navbar:Digitalität">Digitalität</span> <span class="hidden" data-render-id="quarto-int-navbar:Medien und Informatik unterrichten">Medien und Informatik unterrichten</span> <span class="hidden" data-render-id="quarto-int-navbar:/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html">/lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.html</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://github.com/PHBern-RConrardy/lerngelegenheiten">https://github.com/PHBern-RConrardy/lerngelegenheiten</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://www.zotero.org/groups/5512202/literatur_phbern_conrardy">https://www.zotero.org/groups/5512202/literatur_phbern_conrardy</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Lernmodule">Lernmodule</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Theoretische-Grundlagen">Theoretische Grundlagen</span></p>
-<div class="hidden" data-render-id="footer-left-https://www.phbern.ch/">
-<p>PHBern</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/impressum.html">
-<p>Impressum</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/disclaimer.html">
-<p>Disclaimer</p>
-</div>
-<div class="hidden" data-render-id="footer-center-https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
-<p>Kontakt</p>
-</div>
-<div class="hidden" data-render-id="footer-right-&lt;small&gt;Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.&lt;/small&gt;">
-<p><small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small></p>
-</div>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">Theoretische Grundlagen</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Theoretische Grundlagen</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Theoretische Grundlagen</span> <span class="hidden" data-render-id="quarto-twittercarddesc">Mit diesem Lernmodul erhalten Sie nicht bloss eine Einführung in die Thematik «Beurteilung und Förderung», sondern auch ein Grundgerüst an Begriffsdefinitionen, die für das Verständnis und die Begründung der eigenen Beurteilungspraxis von entscheidender Bedeutung sind.</span> <span class="hidden" data-render-id="quarto-ogcardddesc">Mit diesem Lernmodul erhalten Sie nicht bloss eine Einführung in die Thematik «Beurteilung und Förderung», sondern auch ein Grundgerüst an Begriffsdefinitionen, die für das Verständnis und die Begründung der eigenen Beurteilungspraxis von entscheidender Bedeutung sind.</span></p>
-</div>
+
+
 </section>
 
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-löw2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Löw, A., Ingrisani, D., &amp; Althaus, I. (2024, January 1).
+<em>Theoretische Grundlagen</em>. University of Teacher Education Bern.
+<a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -955,27 +918,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/">
- PHBern
-    </a>
+<p>PHBern</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="/footer/impressum.html">
- Impressum
-    </a>
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="/footer/disclaimer.html">
- Disclaimer
-    </a>
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
- Kontakt
-    </a>
+<p>Kontakt</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -989,6 +952,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-</body>
 
-</html>
+
+
+</body></html>
