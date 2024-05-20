@@ -1,0 +1,4 @@
+---
+format: revealjs
+title: Kompetenzen und Fertigkeiten
+---
