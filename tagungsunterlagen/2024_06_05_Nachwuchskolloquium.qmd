@@ -1,8 +1,7 @@
 ---
 title: <small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>
 subtitle: "Nachwuchskolloquium PH Heidelberg"
-format: revealjs
-
+format: phheidelberg-revealjs
 date: 05 06 2024
 toc-depth: 1
 author:
@@ -53,19 +52,21 @@ Meta-Metastudie zu flipped classrooms, $n=173$, *included in quantitative Analys
 
 ## 4F, ein Phasenmodell
 
-1.  [**Fail**]{style="color: rgb(9, 67, 114)"}
-2.  [**Flip**]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-3.  [**Fix**]{style="color: rgb(9, 67, 114)"}
-4.  [**Feed**]{style="color: rgb(9, 67, 114)"}
+1.  [Fail]{style="color: rgb(9, 67, 114)"}
+2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
+3.  [Fix]{style="color: rgb(9, 67, 114)"}
+4.  [Feed]{style="color: rgb(9, 67, 114)"}
 
 ::: quelle
 Phasen von @kapur_fail_2022, Einteilung gemäss Autor
 :::
 
 ::: quelle
+
 [synchron]{style="color: rgb(9, 67, 114)"}
 
 [asynchron]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
+
 :::
 
 Empirisch hergeleitet, jedoch (noch) nicht empirisch geprüft
@@ -90,7 +91,7 @@ Empirisch hergeleitet, jedoch (noch) nicht empirisch geprüft
 
 ## Weshalb kollaborativ? 
 
-#### individuell
+### individuell
 
 * conceptual knowledge: $p<0.001$, $\eta^2=0.26$
 
@@ -105,7 +106,7 @@ Empirisch hergeleitet, jedoch (noch) nicht empirisch geprüft
 @kapur_productive_2014
 :::
 
-#### Unterschied kollaborativ - individuell
+### Unterschied kollaborativ - individuell
 
 * Sekundarklassen (quasi-experimentell): $p = 0.437$
 
@@ -154,10 +155,10 @@ Empirisch hergeleitet, jedoch (noch) nicht empirisch geprüft
 
 ## Schnittstelle Fail - Flip
 
-1.  [**Fail**]{style="color: rgb(9, 67, 114)"}
-2.  [**Flip**]{style="text-decoration: underline;color: rgb(255, 197, 11); font-weight: bold;"}
-3.  [**Fix**]{style="color: rgb(9, 67, 114)"}
-4.  [**Feed**]{style="color: rgb(9, 67, 114)"}
+1.  [Fail]{style="color: rgb(9, 67, 114)"}
+2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11); font-weight: bold;"}
+3.  [Fix]{style="color: rgb(9, 67, 114)"}
+4.  [Feed]{style="color: rgb(9, 67, 114)"}
 
 ::: quelle
 Phasen von @kapur_fail_2022, Einteilung gemäss Autor
@@ -183,19 +184,19 @@ Is the 4F-model flipped the right way?
 ::: {.column width="40%"}
 ### 4F-Modell
 
-1.  [**Fail**]{style="color: rgb(9, 67, 114)"}
-2.  [**Flip**]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-3.  [**Fix**]{style="color: rgb(9, 67, 114)"}
-4.  [**Feed**]{style="color: rgb(9, 67, 114)"}
+1.  [Fail]{style="color: rgb(9, 67, 114)"}
+2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
+3.  [Fix]{style="color: rgb(9, 67, 114)"}
+4.  [Feed]{style="color: rgb(9, 67, 114)"}
 :::
 
 ::: {.column width="60%"}
 ### Alternativmodell
 
-1.  [**Fail** (flipped)]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-2.  [**Instruct**]{style="color: rgb(9, 67, 114)"}
-3.  [**Fix**]{style="color: rgb(9, 67, 114)"}
-4.  [**Feed**]{style="color: rgb(9, 67, 114)"}
+1.  [Fail (flipped)]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
+2.  [Instruct]{style="color: rgb(9, 67, 114)"}
+3.  [Fix]{style="color: rgb(9, 67, 114)"}
+4.  [Feed]{style="color: rgb(9, 67, 114)"}
 :::
 ::::
 
