@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Sprachsensibler Mathematikunterricht</title>
+<title>Verstehensorientiert prüfen in Zeiten von KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -92,7 +106,7 @@ div.csl-indent {
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -198,31 +212,32 @@ div.csl-indent {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html">LG Mikroplanung Math</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html">Sprachsensibler Mathematikunterricht</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html">LG Mikroplanung Math</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html">Sprachsensibler Mathematikunterricht</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Sprachsensibler Mathematikunterricht</h1>
+      <h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
+            <p class="subtitle lead">Woche 2</p>
                       </div>
   </div>
     
   <div class="quarto-title-meta-author">
-    <div class="quarto-title-meta-heading">Autor:in</div>
+    <div class="quarto-title-meta-heading">Autor:innen</div>
     <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
     
       <div class="quarto-title-meta-contents">
       <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+    </div>
+    <div class="quarto-title-meta-contents">
+          <p class="affiliation">
+              <a href="https://www.phbern.ch">
+              University of Teacher Education Bern
+              </a>
+            </p>
+        </div>
+      <div class="quarto-title-meta-contents">
+      <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/joel-adler">Joël Adler</a> </p>
     </div>
     <div class="quarto-title-meta-contents">
           <p class="affiliation">
@@ -249,99 +264,28 @@ div.csl-indent {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Semesterübersicht</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Lernmodule</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Lerngelegenheiten</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">LG Mikroplanung Math</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernziele und Kompetenzen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernumgebungen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Sprachsensibler Mathematikunterricht</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernphasen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fehlerkultur</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Feedback</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#reflexion-eigene-schulzeit" id="toc-reflexion-eigene-schulzeit" class="nav-link active" data-scroll-target="#reflexion-eigene-schulzeit">Reflexion eigene Schulzeit</a></li>
-  <li><a href="#lesekompetenz" id="toc-lesekompetenz" class="nav-link" data-scroll-target="#lesekompetenz">Lesekompetenz</a></li>
-  <li><a href="#sprachsensible-aufgaben" id="toc-sprachsensible-aufgaben" class="nav-link" data-scroll-target="#sprachsensible-aufgaben">Sprachsensible Aufgaben</a></li>
+  <li><a href="#loops" id="toc-loops" class="nav-link active" data-scroll-target="#loops">Loops</a>
+  <ul class="collapse">
+  <li><a href="#was-sind-loops-schleifen" id="toc-was-sind-loops-schleifen" class="nav-link" data-scroll-target="#was-sind-loops-schleifen">Was sind Loops? (Schleifen)</a></li>
+  <li><a href="#while-loops-vs.-for-loops" id="toc-while-loops-vs.-for-loops" class="nav-link" data-scroll-target="#while-loops-vs.-for-loops">While-Loops vs.&nbsp;For-Loops</a></li>
+  <li><a href="#unendliche-loops" id="toc-unendliche-loops" class="nav-link" data-scroll-target="#unendliche-loops">Unendliche Loops</a></li>
+  <li><a href="#loops-verlassen" id="toc-loops-verlassen" class="nav-link" data-scroll-target="#loops-verlassen">Loops verlassen</a></li>
+  </ul></li>
+  <li><a href="#listen" id="toc-listen" class="nav-link" data-scroll-target="#listen">Listen</a>
+  <ul class="collapse">
+  <li><a href="#was-sind-listen" id="toc-was-sind-listen" class="nav-link" data-scroll-target="#was-sind-listen">Was sind Listen? <i class="fas fa-list-ul"></i></a></li>
+  <li><a href="#zugriff-auf-listenelemente" id="toc-zugriff-auf-listenelemente" class="nav-link" data-scroll-target="#zugriff-auf-listenelemente">Zugriff auf Listenelemente</a></li>
+  <li><a href="#listen-loops" id="toc-listen-loops" class="nav-link" data-scroll-target="#listen-loops">Listen &amp; Loops</a></li>
+  <li><a href="#listenelemente-bearbeiten" id="toc-listenelemente-bearbeiten" class="nav-link" data-scroll-target="#listenelemente-bearbeiten">Listenelemente bearbeiten</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_02.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -350,56 +294,212 @@ div.csl-indent {
 
 
 
-<div class="callout callout-style-default callout-note callout-titled">
+<section id="loops" class="level1">
+<h1>Loops</h1>
+<section id="was-sind-loops-schleifen" class="level2">
+<h2 class="anchored" data-anchor-id="was-sind-loops-schleifen">Was sind Loops? (Schleifen)</h2>
+<p>Mit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:</p>
+<section id="while-loop" class="level3">
+<h3 class="anchored" data-anchor-id="while-loop">While-Loop</h3>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>i <span class="op">=</span> <span class="dv">0</span>  <span class="co"># Braucht eine Zähler-Variable</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">5</span>:  <span class="co"># Solange i &lt; 5</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a>  <span class="bu">print</span>(i)</span>
+<span id="cb1-4"><a href="#cb1-4"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span>  <span class="co"># i um eins erhöhen</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="for-loop" class="level3">
+<h3 class="anchored" data-anchor-id="for-loop">For-Loop</h3>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">5</span>):  <span class="co"># Für jedes i von 0 bis 5</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a>  <span class="bu">print</span>(i)</span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="co"># Output: 0 1 2 3 4</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+</section>
+<section id="while-loops-vs.-for-loops" class="level2">
+<h2 class="anchored" data-anchor-id="while-loops-vs.-for-loops">While-Loops vs.&nbsp;For-Loops</h2>
+<p>While-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.</p>
+<p>Warum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">5</span>, <span class="dv">10</span>):  <span class="co"># range(von, bis)</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a>  <span class="bu">print</span>(i)</span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="co"># Output: 5 6 7 8 9</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="unendliche-loops" class="level2">
+<h2 class="anchored" data-anchor-id="unendliche-loops">Unendliche Loops</h2>
+<p>Mit “while True:” erzeugt man einen unendlichen Loop:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="cf">while</span> <span class="va">True</span>:  <span class="co"># Unendliche Schleife</span></span>
+<span id="cb4-2"><a href="#cb4-2"></a>  <span class="bu">print</span>(<span class="st">"hallo"</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a><span class="co"># Output: hallo hallo hallo hallo hallo hallo hallo hallo ...</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Lernziele
+Tipp
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Wir</p>
+<p>(Tipp: Mit “ctrl-c” (Mac: command-c) brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)</p>
+</div>
+</div>
+</section>
+<section id="loops-verlassen" class="level2">
+<h2 class="anchored" data-anchor-id="loops-verlassen">Loops verlassen</h2>
+<p>Mit <code>break</code> kann man einen Loop wieder <strong>verlassen</strong></p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a>i <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb5-3"><a href="#cb5-3"></a>  <span class="bu">print</span>(i)</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">100</span>:</span>
+<span id="cb5-5"><a href="#cb5-5"></a>    <span class="cf">break</span>  <span class="co"># Loop verlassen</span></span>
+<span id="cb5-6"><a href="#cb5-6"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb5-7"><a href="#cb5-7"></a><span class="co"># Output: 0 1 2 4 5 ... 98 99 100</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="auftrag-stellen-sie-sich-vor-sie-seien-wieder-in-der-primarschule">Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule</h2>
+<ol type="1">
+<li>Die Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.</li>
+<li>Die Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.</li>
+<li>Nun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm.</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag 1.
+</summary>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">1001</span>):</span>
+<span id="cb6-2"><a href="#cb6-2"></a>    <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<details>
+<summary>
+Lösungsvorschlag 2.
+</summary>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, <span class="dv">1001</span>):</span>
+<span id="cb7-2"><a href="#cb7-2"></a>    <span class="bu">print</span>(<span class="dv">1001</span><span class="op">-</span>i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+<details>
+<summary>
+Lösungsvorschlag 3.
+</summary>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a>i<span class="op">=</span><span class="dv">1</span></span>
+<span id="cb8-2"><a href="#cb8-2"></a><span class="cf">while</span> <span class="dv">7</span><span class="op">*</span>i<span class="op">&lt;=</span><span class="dv">1000</span>:</span>
+<span id="cb8-3"><a href="#cb8-3"></a>    <span class="bu">print</span>(<span class="dv">7</span><span class="op">*</span>i)</span>
+<span id="cb8-4"><a href="#cb8-4"></a>    i<span class="op">=</span>i<span class="op">+</span><span class="dv">1</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</section>
+<section id="auftrag-prüfungssoftware-programmieren" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="auftrag-prüfungssoftware-programmieren">Auftrag: Prüfungssoftware Programmieren</h2>
+<p>Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb9"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1"></a>richtige_hauptstadt <span class="op">=</span> <span class="st">"bern"</span></span>
+<span id="cb9-2"><a href="#cb9-2"></a>anzahl_versuche <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb9-3"><a href="#cb9-3"></a><span class="cf">while</span> anzahl_versuche<span class="op">&lt;=</span><span class="dv">3</span>:</span>
+<span id="cb9-4"><a href="#cb9-4"></a>  eingegebene_hauptstadt<span class="op">=</span><span class="bu">input</span>(<span class="st">"Was ist die Hauptstadt von der Schweiz? "</span>)</span>
+<span id="cb9-5"><a href="#cb9-5"></a>  <span class="cf">if</span> eingegebene_hauptstadt<span class="op">==</span>richtige_hauptstadt:</span>
+<span id="cb9-6"><a href="#cb9-6"></a>    <span class="bu">print</span>(<span class="st">"Gratulation"</span>)</span>
+<span id="cb9-7"><a href="#cb9-7"></a>    <span class="cf">break</span></span>
+<span id="cb9-8"><a href="#cb9-8"></a>  <span class="cf">else</span>:</span>
+<span id="cb9-9"><a href="#cb9-9"></a>    <span class="bu">print</span>(<span class="st">"Falsche Antwort, versuche es erneut"</span>)</span>
+<span id="cb9-10"><a href="#cb9-10"></a>    <span class="bu">print</span>(<span class="st">"Du hast noch "</span><span class="op">+</span> <span class="bu">str</span>(<span class="dv">3</span><span class="op">-</span>anzahl_versuche) <span class="op">+</span> <span class="st">" Versuche."</span>, flush<span class="op">=</span><span class="va">True</span>) <span class="co"># Flush sorgt dafür, dass das print zum richtigen Zeitpunkt ausgegeben wird.</span></span>
+<span id="cb9-11"><a href="#cb9-11"></a>    anzahl_versuche<span class="op">=</span>anzahl_versuche<span class="op">+</span><span class="dv">1</span></span>
+<span id="cb9-12"><a href="#cb9-12"></a><span class="cf">if</span> anzahl_versuche<span class="op">==</span><span class="dv">3</span>:</span>
+<span id="cb9-13"><a href="#cb9-13"></a>  <span class="bu">print</span>(<span class="st">"Prüfung nicht bestanden"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</section>
+</section>
+<section id="listen" class="level1">
+<h1>Listen</h1>
+<section id="was-sind-listen" class="level2">
+<h2 class="anchored" data-anchor-id="was-sind-listen">Was sind Listen? <i class="fas fa-list-ul"></i></h2>
+<p>Eine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:</p>
 <ul>
-<li>strukturieren fachliche Inhalte ebenso korrekt wie zielgruppengerecht und formulieren entsprechende Lernerwartungen.</li>
-<li>entwickeln sprachsensible Aufgaben.</li>
+<li>Brot</li>
+<li>Nutella</li>
+<li>Milch</li>
+<li>…</li>
 </ul>
-<div class="quelle">
-<p><span class="citation" data-cites="phbern_leitfaden_2022">(<a href="#ref-phbern_leitfaden_2022" role="doc-biblioref">PHBern, 2022, S. 6</a>)</span></p>
-</div>
-</div>
-</div>
-<section id="reflexion-eigene-schulzeit" class="level1">
-<h1>Reflexion eigene Schulzeit</h1>
-<p>Welche Sprachen, bzw. Sprachebenen wurden bei dir in der Schule benutzt? Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?</p>
+<p>In Python werden Listen mit eckigen Klammern <code>[]</code> geschrieben:</p>
+<div class="sourceCode" id="cb10"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1"></a>x <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]  <span class="co"># Definition einer Liste</span></span>
+<span id="cb10-2"><a href="#cb10-2"></a><span class="bu">print</span>(x)  <span class="co"># Output: "['Brot', 'Nutella', 'Milch']"</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="lesekompetenz" class="level1">
-<h1>Lesekompetenz</h1>
-<p><span class="citation" data-cites="abshagen_praxishandbuch_2015">Abshagen (<a href="#ref-abshagen_praxishandbuch_2015" role="doc-biblioref">2015</a>)</span></p>
+<section id="zugriff-auf-listenelemente" class="level2">
+<h2 class="anchored" data-anchor-id="zugriff-auf-listenelemente">Zugriff auf Listenelemente</h2>
+<p>Der Zugriff auf Listenelemente erfolgt mit einem Index. <code>[0]</code> ist dabei das erste Element, <code>[1]</code> das zweite, etc.</p>
+<div class="sourceCode" id="cb11"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1"></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb11-2"><a href="#cb11-2"></a><span class="bu">print</span>(einkaufsliste[<span class="dv">0</span>])  <span class="co"># Output: Brot</span></span>
+<span id="cb11-3"><a href="#cb11-3"></a><span class="bu">print</span>(einkaufsliste[<span class="dv">1</span>])  <span class="co"># Output: Nutella</span></span>
+<span id="cb11-4"><a href="#cb11-4"></a><span class="bu">print</span>(einkaufsliste[<span class="dv">2</span>])  <span class="co"># Output: Milch</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Informatiker und moderne Mathematiker fangen bei 0 an zu zählen.</p>
+<p>Die Länge einer Liste erhält man mit der Funktion <code>len()</code>:</p>
+<div class="sourceCode" id="cb12"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1"></a>laenge <span class="op">=</span> <span class="bu">len</span>(einkaufsliste)  <span class="co"># Länge der Liste</span></span>
+<span id="cb12-2"><a href="#cb12-2"></a><span class="bu">print</span>(laenge)  <span class="co"># Output: 3</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="sprachsensible-aufgaben" class="level1">
-<h1>Sprachsensible Aufgaben</h1>
-<p><span class="citation" data-cites="schacht_sprachbildung_2022">Schacht &amp; Guckelsberger (<a href="#ref-schacht_sprachbildung_2022" role="doc-biblioref">2022</a>)</span></p>
-
+<section id="listen-loops" class="level2">
+<h2 class="anchored" data-anchor-id="listen-loops">Listen &amp; Loops</h2>
+<p>Listen sind iterierbar, d.&nbsp;h. folgendes funktioniert und sollte bevorzugt werden:</p>
+<div class="sourceCode" id="cb13"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1"></a><span class="cf">for</span> element <span class="kw">in</span> einkaufsliste:</span>
+<span id="cb13-2"><a href="#cb13-2"></a>  <span class="bu">print</span>(element)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Wenn jedoch der Index benötigt wird, kann auch ein “normaler” Loop mit der <code>len()</code>-Funktion verwendet werden:</p>
+<div class="sourceCode" id="cb14"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(einkaufsliste)):  <span class="co"># len() ist die Listenlänge</span></span>
+<span id="cb14-2"><a href="#cb14-2"></a>  <span class="bu">print</span>(einkaufsliste[i])</span>
+<span id="cb14-3"><a href="#cb14-3"></a>  <span class="bu">print</span>(i)  <span class="co"># Vorteil: Man hat Zugriff auf den Index i</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="listenelemente-bearbeiten" class="level2">
+<h2 class="anchored" data-anchor-id="listenelemente-bearbeiten">Listenelemente bearbeiten</h2>
+<p>Ein Element ändern</p>
+<div class="sourceCode" id="cb15"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1"></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb15-2"><a href="#cb15-2"></a>einkaufsliste[<span class="dv">1</span>] <span class="op">=</span> <span class="st">"Bananen"</span></span>
+<span id="cb15-3"><a href="#cb15-3"></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch']</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ein Element hinzufügen</p>
+<div class="sourceCode" id="cb16"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1"></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb16-2"><a href="#cb16-2"></a>einkaufsliste.append(<span class="st">"Bananen"</span>)</span>
+<span id="cb16-3"><a href="#cb16-3"></a><span class="co"># Resultat: ['Brot', 'Bananen', 'Milch', "Bananen"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Ein Element löschen</p>
+<div class="sourceCode" id="cb17"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1"></a>einkaufsliste <span class="op">=</span> [<span class="st">"Brot"</span>, <span class="st">"Nutella"</span>, <span class="st">"Milch"</span>]</span>
+<span id="cb17-2"><a href="#cb17-2"></a>einkaufsliste.pop()</span>
+<span id="cb17-3"><a href="#cb17-3"></a><span class="co"># Resultat: ["Brot", "Nutella"]</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="auftrag-einkaufsliste" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="auftrag-einkaufsliste">Auftrag: Einkaufsliste</h2>
+<p>Programmieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.</p>
+<p><small>Tipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren</small></p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb18"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1"></a>einkaufliste<span class="op">=</span>[]</span>
+<span id="cb18-2"><a href="#cb18-2"></a></span>
+<span id="cb18-3"><a href="#cb18-3"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb18-4"><a href="#cb18-4"></a>    zusatz<span class="op">=</span><span class="bu">input</span>(<span class="st">"Was möchtest du der Einkaufsliste hinzufügen? "</span>)</span>
+<span id="cb18-5"><a href="#cb18-5"></a>    einkaufliste.append(zusatz)</span>
+<span id="cb18-6"><a href="#cb18-6"></a>    <span class="bu">print</span>(einkaufliste)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
+</section>
+<section id="auftrag-notendurchschnittsrechner" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="auftrag-notendurchschnittsrechner">Auftrag: Notendurchschnittsrechner</h2>
+<p>Programmieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb19"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1"></a>notenliste<span class="op">=</span>[]</span>
+<span id="cb19-2"><a href="#cb19-2"></a>notensumme<span class="op">=</span><span class="dv">0</span></span>
+<span id="cb19-3"><a href="#cb19-3"></a></span>
+<span id="cb19-4"><a href="#cb19-4"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb19-5"><a href="#cb19-5"></a>    zusatz<span class="op">=</span><span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Wie lautet deine nächste Note? "</span>))</span>
+<span id="cb19-6"><a href="#cb19-6"></a>    notenliste.append(zusatz)</span>
+<span id="cb19-7"><a href="#cb19-7"></a>    notensumme<span class="op">=</span>notensumme<span class="op">+</span>zusatz</span>
+<span id="cb19-8"><a href="#cb19-8"></a>    mittelwert<span class="op">=</span>notensumme<span class="op">/</span><span class="bu">len</span>(notenliste)</span>
+<span id="cb19-9"><a href="#cb19-9"></a>    <span class="bu">print</span>(<span class="st">"Dein Mittelwert beträgt: "</span><span class="op">+</span><span class="bu">str</span>(mittelwert))</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 
 
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-abshagen_praxishandbuch_2015" class="csl-entry" role="listitem">
-Abshagen, M. (2015). <em>Praxishandbuch Sprachbildung Mathematik: sprachsensibel unterrichten - Sprache fördern</em> (1. Auflage). Ernst Klett Sprachen.
-</div>
-<div id="ref-phbern_leitfaden_2022" class="csl-entry" role="listitem">
-PHBern. (2022). <em><span>LEITFADEN</span> <span>FÜR</span> <span>DAS</span> <span>LABELING</span> <span>DER</span> <span>QUERSCHNITTSTHEMEN</span></em>. <span>PHBern</span>. <a href="https://ilias.phbern.ch/goto_phbern_file_1783576_download.html">https://ilias.phbern.ch/goto_phbern_file_1783576_download.html</a>
-</div>
-<div id="ref-schacht_sprachbildung_2022" class="csl-entry" role="listitem">
-Schacht, F., &amp; Guckelsberger, S. (2022). <em>Sprachbildung in der Lehramtsausbildung Mathematik: Konzepte für eine sprachbewusste Hochschullehre</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-63793-7">https://doi.org/10.1007/978-3-662-63793-7</a>
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieses Lernmodul basiert auf dem Buch "Sprachbildung in der Lehramtsausbildung Mathematik" von Florian Schacht und Susanne Guckelsberger. Dieses Buch steht unter einer CC BY 4.0 Lizenz: http://creativecommons.org/licenses/by/4.0/deed.de
-</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, January 1). <em>Sprachsensibler
-Mathematikunterricht</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R. (2024, January 1). <em>Verstehensorientiert prüfen in
+Zeiten von KI</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

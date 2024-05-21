@@ -15,8 +15,6 @@ csl: bibliographien/apa7.csl          # Zitierstil, wird automatisch angewandt
 link-external-newwindow: true  # damit Präsentationen in neuem Tab geöffnet werden.
 fig-align: center # Bilder werden zentriert, funktioniert nicht immer
 
-
-
 website:  # Menüs für die Webseite
   #cookie-consent: false
    # type: express
@@ -185,6 +183,15 @@ format:
     hide-inactive-cursor: true
   phheidelberg-revealjs:
     scrollable: true
+    hide-inactive-cursor: true
+    title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
+    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy, Promovierender"
+    
+
+    
   pdf:
     documentclass: scrartcl
     include-in-header: 
@@ -219,6 +226,10 @@ affiliations:
     url: https://www.phbern.ch
     department: Institut Sekundarstufe I
     ror: https://ror.org/05jf1ma54
+  - id: phheidelberg
+    name: Pädagogische Hochschule Heidelberg
+    url: https://www.ph-heidelberg.de/
+    department: Institut Sekundarstufe I
 
 citation: 
   type: webpage

@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Richard Conrardy">
+<meta name="author" content="Joel Adler   Richard Conrardy">
 
-<title>Sprachsensibler Mathematikunterricht</title>
+<title>Verstehensorientiert prüfen in Zeiten von KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,27 +21,7 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -88,11 +68,42 @@ div.csl-indent {
     "search-label": "Suchen"
   }
 }</script>
+<link href="../../site_libs/countdown-0.4.0/countdown.css" rel="stylesheet">
+<script src="../../site_libs/countdown-0.4.0/countdown.js"></script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -198,22 +209,13 @@ div.csl-indent {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html">LG Mikroplanung Math</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html">Sprachsensibler Mathematikunterricht</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Lernmodule</li><li class="breadcrumb-item">Lerngelegenheiten</li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html">LG Mikroplanung Math</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html">Sprachsensibler Mathematikunterricht</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Sprachsensibler Mathematikunterricht</h1>
+      <h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
+            <p class="subtitle lead">Woche 5</p>
                       </div>
   </div>
     
@@ -222,14 +224,9 @@ div.csl-indent {
     <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
     
       <div class="quarto-title-meta-contents">
-      <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
+      <p class="author">Joel Adler <br> Richard Conrardy </p>
     </div>
     <div class="quarto-title-meta-contents">
-          <p class="affiliation">
-              <a href="https://www.phbern.ch">
-              University of Teacher Education Bern
-              </a>
-            </p>
         </div>
     </div>
 
@@ -249,99 +246,29 @@ div.csl-indent {
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Semesterübersicht</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
- <span class="menu-text">Lernmodule</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
- <span class="menu-text">Lerngelegenheiten</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 show">  
-          <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
- <span class="menu-text">LG Mikroplanung Math</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth3 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernziele und Kompetenzen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernumgebungen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_03.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Sprachsensibler Mathematikunterricht</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernphasen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_05.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Fehlerkultur</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_mikroplanung_math/Lernmodul_06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Feedback</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-      </ul>
-  </li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#reflexion-eigene-schulzeit" id="toc-reflexion-eigene-schulzeit" class="nav-link active" data-scroll-target="#reflexion-eigene-schulzeit">Reflexion eigene Schulzeit</a></li>
-  <li><a href="#lesekompetenz" id="toc-lesekompetenz" class="nav-link" data-scroll-target="#lesekompetenz">Lesekompetenz</a></li>
-  <li><a href="#sprachsensible-aufgaben" id="toc-sprachsensible-aufgaben" class="nav-link" data-scroll-target="#sprachsensible-aufgaben">Sprachsensible Aufgaben</a></li>
+  <li><a href="#besprechung" id="toc-besprechung" class="nav-link active" data-scroll-target="#besprechung">Besprechung</a>
+  <ul class="collapse">
+  <li><a href="#austausch-über-projekt-1" id="toc-austausch-über-projekt-1" class="nav-link" data-scroll-target="#austausch-über-projekt-1">Austausch über Projekt 1</a></li>
+  <li><a href="#minuten---lesen" id="toc-minuten---lesen" class="nav-link" data-scroll-target="#minuten---lesen">5 Minuten - Lesen</a></li>
+  <li><a href="#minuten---reden" id="toc-minuten---reden" class="nav-link" data-scroll-target="#minuten---reden">5 Minuten - Reden</a></li>
+  </ul></li>
+  <li><a href="#code-gemeinsam-ausbauen" id="toc-code-gemeinsam-ausbauen" class="nav-link" data-scroll-target="#code-gemeinsam-ausbauen">Code gemeinsam ausbauen</a>
+  <ul class="collapse">
+  <li><a href="#beispiel-online" id="toc-beispiel-online" class="nav-link" data-scroll-target="#beispiel-online">Beispiel online</a></li>
+  </ul></li>
+  <li><a href="#sieb-des-eratosthenes" id="toc-sieb-des-eratosthenes" class="nav-link" data-scroll-target="#sieb-des-eratosthenes">Sieb des Eratosthenes</a>
+  <ul class="collapse">
+  <li><a href="#problemstellung" id="toc-problemstellung" class="nav-link" data-scroll-target="#problemstellung">Problemstellung</a></li>
+  <li><a href="#idee" id="toc-idee" class="nav-link" data-scroll-target="#idee">Idee</a></li>
+  </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_05.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -350,57 +277,137 @@ div.csl-indent {
 
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="besprechung" class="level1">
+<h1>Besprechung</h1>
+<section id="austausch-über-projekt-1" class="level2">
+<h2 class="anchored" data-anchor-id="austausch-über-projekt-1">Austausch über Projekt 1</h2>
+</section>
+<section id="minuten---lesen" class="level2">
+<h2 class="anchored" data-anchor-id="minuten---lesen">5 Minuten - Lesen</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_5f5afde6" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
-<div class="callout-title-container flex-fill">
-Lernziele
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Wir</p>
 <ul>
-<li>strukturieren fachliche Inhalte ebenso korrekt wie zielgruppengerecht und formulieren entsprechende Lernerwartungen.</li>
-<li>entwickeln sprachsensible Aufgaben.</li>
+<li>Tauschen Sie Ihren Code mit einem Sitznachbarn.</li>
+<li>Lesen Sie den Code des Sitznachbarn und notieren Sie sich Fragen und Vorschläge.</li>
 </ul>
+</section>
+<section id="minuten---reden" class="level2">
+<h2 class="anchored" data-anchor-id="minuten---reden">5 Minuten - Reden</h2>
+<div class="cell">
+<div class="cell-output-display">
+<div class="countdown" id="timer_e6f3b43e" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:1.5em;">
+<div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+</div>
+</div>
+<ul>
+<li>Was hat Ihnen geholfen den Code zu verstehen?</li>
+<li>Welche tollen, überraschenden Ideen sind im Code?</li>
+<li>Wie würden Sie den Code erweitern oder abändern?</li>
+</ul>
+</section>
+</section>
+<section id="code-gemeinsam-ausbauen" class="level1">
+<h1>Code gemeinsam ausbauen</h1>
+<section id="beispiel-online" class="level2">
+<h2 class="anchored" data-anchor-id="beispiel-online">Beispiel online</h2>
+<p>Erweiterungen:</p>
+<ol type="1">
+<li>Automatisiert</li>
+<li>Adaptiv</li>
+<li>Gamification</li>
+</ol>
+</section>
+</section>
+<section id="sieb-des-eratosthenes" class="level1">
+<h1>Sieb des Eratosthenes</h1>
+<section id="problemstellung" class="level2">
+<h2 class="anchored" data-anchor-id="problemstellung">Problemstellung</h2>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<p><img src="woche_05_files/figure-html/mermaid-figure-1.png" style="width:5.85in;height:0.52in" class="figure-img"></p>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<ol type="1">
+<li>Liste aller Primzahlen von <span class="math inline">\(2\)</span> bis <span class="math inline">\(n\)</span> generieren.</li>
+</ol>
+</section>
+<section id="idee" class="level2">
+<h2 class="anchored" data-anchor-id="idee">Idee</h2>
+<div id="fig-bild" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-bild-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Animation_Sieb_des_Eratosthenes_%C3%9Cberarbeitet.gif" class="img-fluid figure-img">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-bild-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Sieb des Eratosthenes
+</figcaption>
+</figure>
+</div>
 <div class="quelle">
-<p><span class="citation" data-cites="phbern_leitfaden_2022">(<a href="#ref-phbern_leitfaden_2022" role="doc-biblioref">PHBern, 2022, S. 6</a>)</span></p>
+<p><a href="https://commons.wikimedia.org/wiki/File:Animation_Sieb_des_Eratosthenes_%C3%9Cberarbeitet.gif">Faultier11</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons</p>
 </div>
-</div>
-</div>
-<section id="reflexion-eigene-schulzeit" class="level1">
-<h1>Reflexion eigene Schulzeit</h1>
-<p>Welche Sprachen, bzw. Sprachebenen wurden bei dir in der Schule benutzt? Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?</p>
-</section>
-<section id="lesekompetenz" class="level1">
-<h1>Lesekompetenz</h1>
-<p><span class="citation" data-cites="abshagen_praxishandbuch_2015">Abshagen (<a href="#ref-abshagen_praxishandbuch_2015" role="doc-biblioref">2015</a>)</span></p>
-</section>
-<section id="sprachsensible-aufgaben" class="level1">
-<h1>Sprachsensible Aufgaben</h1>
-<p><span class="citation" data-cites="schacht_sprachbildung_2022">Schacht &amp; Guckelsberger (<a href="#ref-schacht_sprachbildung_2022" role="doc-biblioref">2022</a>)</span></p>
-
 
 
 </section>
+</section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-abshagen_praxishandbuch_2015" class="csl-entry" role="listitem">
-Abshagen, M. (2015). <em>Praxishandbuch Sprachbildung Mathematik: sprachsensibel unterrichten - Sprache fördern</em> (1. Auflage). Ernst Klett Sprachen.
-</div>
-<div id="ref-phbern_leitfaden_2022" class="csl-entry" role="listitem">
-PHBern. (2022). <em><span>LEITFADEN</span> <span>FÜR</span> <span>DAS</span> <span>LABELING</span> <span>DER</span> <span>QUERSCHNITTSTHEMEN</span></em>. <span>PHBern</span>. <a href="https://ilias.phbern.ch/goto_phbern_file_1783576_download.html">https://ilias.phbern.ch/goto_phbern_file_1783576_download.html</a>
-</div>
-<div id="ref-schacht_sprachbildung_2022" class="csl-entry" role="listitem">
-Schacht, F., &amp; Guckelsberger, S. (2022). <em>Sprachbildung in der Lehramtsausbildung Mathematik: Konzepte für eine sprachbewusste Hochschullehre</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-63793-7">https://doi.org/10.1007/978-3-662-63793-7</a>
-</div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieses Lernmodul basiert auf dem Buch "Sprachbildung in der Lehramtsausbildung Mathematik" von Florian Schacht und Susanne Guckelsberger. Dieses Buch steht unter einer CC BY 4.0 Lizenz: http://creativecommons.org/licenses/by/4.0/deed.de
-</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, January 1). <em>Sprachsensibler
-Mathematikunterricht</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R., &amp; Adler &lt;br&gt; Richard Conrardy, J. (2024, January
+1). <em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
+
+<script>
+  // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+  // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+  // slide changes (different for each slide format).
+  (function () {
+    // dispatch for htmlwidgets
+    function fireSlideEnter() {
+      const event = window.document.createEvent("Event");
+      event.initEvent("slideenter", true, true);
+      window.document.dispatchEvent(event);
+    }
+
+    function fireSlideChanged(previousSlide, currentSlide) {
+      fireSlideEnter();
+
+      // dispatch for shiny
+      if (window.jQuery) {
+        if (previousSlide) {
+          window.jQuery(previousSlide).trigger("hidden");
+        }
+        if (currentSlide) {
+          window.jQuery(currentSlide).trigger("shown");
+        }
+      }
+    }
+
+    // hookup for slidy
+    if (window.w3c_slidy) {
+      window.w3c_slidy.add_observer(function (slide_num) {
+        // slide_num starts at position 1
+        fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+      });
+    }
+
+  })();
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
