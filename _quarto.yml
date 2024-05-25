@@ -31,48 +31,7 @@ website:  # Menüs für die Webseite
       - icon: book-fill
         href: https://www.zotero.org/groups/5512202/literatur_phbern_conrardy
 
-    left:
-      - text: Beurteilung
-        icon: clipboard-check-fill
-        menu: 
-          - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
-            text: "Learning Analytics"
-            icon: graph-up
-          - text: "Grundlagen der Beurteilung"
-            href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
-            icon: card-checklist
-          - href: lerngelegenheiten/LG_summ_digi_datenschutz/LG_datenschutz.qmd
-            text: Digitalität und Datenschutz
-            icon: shield-fill
-          - href: lerngelegenheiten/LG_stand_testverfahren/LG_stand_test.qmd
-            text: Chancen und Risiken standardisierter Testverfahren und Leistungsmessung
-            icon: file-bar-graph-fill
-          - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
-            text: "Verstehensorientiert prüfen in Zeiten von KI"
-            icon: calculator-fill
-            
-        
-      - text: Mikroplanung
-        icon: arrows-angle-contract
-        menu: 
-          - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
-            text: "Mikroplanung Mathematik"
-            icon: grid-3x3-gap-fill
-          - text: Mediendidaktik
-            href: lerngelegenheiten/LG_Mediendidaktik/LG_Mediendidaktik.qmd
-            icon: images
-      - text: Zus. und Komm.
-        icon: chat-text-fill
-        menu:
-          - text: Digitale Zusammenarbeit und Kommunikation
-            href: empty
-            icon: share-fill
-      - text: Digitalität
-        icon: pc-display-horizontal
-        menu:
-          - text: Medien und Informatik unterrichten
-            href: lerngelegenheiten/LG_medien_informatik_unterrichten/LG_medien_informatik_unterrichten.qmd
-            icon: easel2-fill
+    
   
   sidebar:
     - title: "Grundlagen der Beurteilung"
@@ -161,12 +120,10 @@ format:
     toc-depth: 2
     license: "CC BY-SA"
     page-layout: article
-    title-block-banner: true
+    title-block-banner: false
     code-line-numbers: true
     fig-align: center
     linkcolor: "#AC0101"
-    
-    
       
   revealjs: # Einträge nur für Präsentationen
     toc: false

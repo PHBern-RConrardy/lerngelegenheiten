@@ -13,7 +13,9 @@ draft: true
 >
 > Influence on instruction
 >
+:::quelle
 >@imlig2018
+:::
 
 # Stellwerk
 
@@ -40,11 +42,19 @@ countdown(
 
 > Students, teachers, school boards and instructors in vocational education must learn how to read such results and interpret them in formative and summative ways."
 >
-> [@imlig2018, S.22]
+:::quelle
+[@imlig2018, S.22]
+:::
 
 ## Ein Beispiel {.unnumbered .unlisted}
 
-![Stellwerk-Profil(Muster)](https://stellwerk.ch/wp-content/uploads/2021/02/Stellwerk-Profil-Ausschnitt-2021-1024x789.jpg)
+::: {#fig-stellwerk_beispiel}
+
+![](https://stellwerk.ch/wp-content/uploads/2021/02/Stellwerk-Profil-Ausschnitt-2021-1024x789.jpg)
+
+Stellwerk-Profil(Muster)
+
+:::
 
 ## Umsetzung
 
@@ -54,25 +64,33 @@ countdown(
 >
 > Die Stellwerk-Profile können für Standortgespräche genutzt werden.
 >
-> @lehrmittelverlagst.gallen
+:::quelle
+@lehrmittelverlagst.gallen
+:::
 
 ## Problematik
 
 > These evaluation practices illustrate the diminishing importance of the formative purpose of the eighth graders’ test and imply accountability mechanisms that go beyond mere classroom instruction.
 >
-> [@imlig2018, S. 19]
+:::quelle
+[@imlig2018, S. 19]
+:::
 
 ## Problematik {.unnumbered .unlisted}
 
 > Students use their test results for applications (a usage recommended by officials), and administrators are informed about the results of classes, schools and cantons.
 >
-> [@imlig2018, S. 20]
+:::quelle
+[@imlig2018, S. 20]
+:::
 
 ## Problematik {.unnumbered .unlisted}
 
 > Furthermore, in parallel to the Stellwerk tests, several training platforms were established. One of these platforms is directly connected to the tests themselves and serves as a possible preparation for the assessment.
 >
-> [@imlig2018, S. 22]
+:::quelle
+[@imlig2018, S. 22]
+:::
 
 ## Testen wir es
 

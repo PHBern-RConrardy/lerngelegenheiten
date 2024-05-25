@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Gesetzliche Grundlagen
 subtitle: Grundlagen der Beurteilung
 

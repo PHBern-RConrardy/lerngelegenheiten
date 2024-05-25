@@ -1,6 +1,5 @@
 ---
-format: 
-  revealjs
+format: revealjs
 title: Inhalte effizient onlinebringen
 subtitle: Treffpunkt Hochschuldidaktik
 date: 18 03 2024

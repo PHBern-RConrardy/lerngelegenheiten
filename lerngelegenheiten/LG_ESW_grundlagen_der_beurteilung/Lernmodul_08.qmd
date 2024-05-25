@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Gesamturteil und Persönliche und Schlüsselkompetenzen
 subtitle: Grundlagen der Beurteilung
 
@@ -71,7 +74,7 @@ Diese Formulare werden den Schüler:innen freilich nicht lose abgegeben, sondern
 
 :::{#fig-berichte}
 
-VIDEO
+<iframe src="https://tube.switch.ch/embed/2025f6e8?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
 Screencast - Beurteilungsberichte
 :::
@@ -101,7 +104,8 @@ Schauen Sie sich dafür den folgenden Slidecast an und entnehmen Sie diesem ...
 
 :::{#fig-lernprozess}
 
-PDF VIDEO
+<iframe src="https://tube.switch.ch/embed/mMnsDwgUYs?title=hide" frameborder="0" allow="fullscreen"></iframe>
+
 Screencast - Lernprozess
 
 :::
@@ -156,7 +160,7 @@ Wie bereits mehrfach erwähnt, müssen im Kanton Bern die Beurteilungsanlässe i
 
 Im hier vorliegenden Musterbeispiel liegen also 10 Beurteilungsanlässe vor, 3 Produkte, 5 Lernkontrollen und 2 summative Lernprozessbewertungen.
 
-:::{fig-sichten}
+:::{#fig-sichten}
 ![](images/sichten.png)
 
 sichten
@@ -270,9 +274,8 @@ Für das Ausweisen der überfachlichen Kompetenzen sieht der Kanton Bern für de
 Entnehmen Sie dem folgenden Slidecast nähere Informationen dazu.
 
 :::{fig-psk}
-PDF
 
-Video
+<iframe src="https://tube.switch.ch/embed/L10EDGLFPC?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
 Screencast - PSK
 :::

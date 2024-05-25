@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Niveaus und Schulmodelle
 subtitle: Grundlagen der Beurteilung
 
@@ -37,7 +40,8 @@ Die Studierenden ...
 # «Schweizer Bildungssystem & Sekundarschulmodelle»
 
 :::{#fig-bildungssystem}
-VIDEO PDF
+
+<iframe src="https://tube.switch.ch/embed/HjMtHz9jSG?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
 Screencast - Schweizer Bildungssystem
 :::
@@ -66,7 +70,8 @@ Verteilung Leseleistung
 # Schulmodelle Kanton Bern
 
 :::{#fig-schulmodelle}
-PDF VIDEO
+
+<iframe src="https://tube.switch.ch/embed/jbt9DnpJm5?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
 Screencast - Schulmodelle
 :::
@@ -85,4 +90,3 @@ Obwohl die Dauer der Sekundarstufe 1 gesamtschweizerisch auf 3 Jahre (Model 6/3)
 1. Erarbeiten Sie zunächst Vor- und Nachteile der unterschiedlichen Modelle im Kanton Bern.
 2. Entwickeln Sie für sich eine Haltung in Bezug auf die 5 bernischen Schulmodelle unter Berücksichtigung der Einteilung in typengetrennte, kooperative und integrierende Modelle. Entscheiden Sie sich letztlich für ein Modell, in welchem Sie in Zukunft am liebsten unterrichten würden.
 3. Halten Sie Ihre Ergebnisse und Überlegungen zuhanden Ihres Beurteilungskonzepts fest und nehmen Sie Ihre Favorisierung zusammen mit einer kurzen Begründung an die nächste Austauschveranstaltung mit.
-

@@ -1,6 +1,8 @@
 ---
 format: 
   html: default
+  pdf: default
+  docx: default
 title: Thematische Einführung
 subtitle: Grundlagen der Beurteilung
 authors:
@@ -35,10 +37,6 @@ Die Studierenden ...
 :::
 
 # Mein Leben und die Noten
-
-
-
-
 
 
 :::{.callout-caution collapse="true"}

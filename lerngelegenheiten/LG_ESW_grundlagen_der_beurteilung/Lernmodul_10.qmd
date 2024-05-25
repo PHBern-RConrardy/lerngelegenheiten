@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Nachteilsausgleich und individuelle Lernziele
 subtitle: Grundlagen der Beurteilung
 
@@ -20,6 +23,7 @@ citation:
     - Daniel Ingrisani
     - Irene Althaus
 copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+
 ---
 # Arbeitsauftrag und Fallbeispiel
 Liebe Studierende
@@ -35,7 +39,7 @@ Falls Sie sich für die Massnahme Nachteilsausgleich oder Beurteilung ohne Note 
 Bei der Bearbeitung des Fallbeispiels können Sie ausgehen vom Fach, welches Sie studieren. Wenn Sie weder Mathematik noch Deutsch studieren, dann machen Sie sich Gedanken zu möglichen Massnahmen, um die Symptome des ADS auszugleichen.
 6. Im Forum können Sie nach der Bearbeitung Fragen stellen, die ich (Barbara Rindlisbacher) beantworten werde.
 
-### Fallbeispiel Mario            8. Klasse, Real
+### Fallbeispiel Mario  8. Klasse, Real
  
 Angaben zur familiären Situation
 
@@ -98,7 +102,8 @@ Dispensation vom Französischunterricht
 # Input «Nachteilsausgleich & ILZ»
 
 :::{#fig-nachteil}
-VIDEO PDF
+
+<iframe src="https://tube.switch.ch/embed/2371de8d?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 
 Screencast - Nachteilsausgleich
 :::
@@ -106,7 +111,8 @@ Screencast - Nachteilsausgleich
 # Lernfilm Nachteilsausgleich
 
 :::{#fig-beurteilungsbericht}
-VIDEO
+
+<iframe src="https://tube.switch.ch/embed/H0FEJsV2HW?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 
 Lernfilm - Nachteilsausgleich
 
@@ -117,7 +123,8 @@ Lernfilm - Nachteilsausgleich
 In dieser Folienpräsentation finden Sie Angaben zu den Projekten SECABS und CHARISMA, welche vom Institut für Forschung und Entwicklung an der PHBern unter der Leitung von Dr. C. Sahli Lozano durchgeführt wurden. Lesen Sie vor allem auf den beiden letzten Seiten die Ergebnisse zum Nachteilsausgleich auf der Sekundarstufe I.
 
 :::{#fig-secabs}
-VIDEO
+
+<iframe src="https://tube.switch.ch/embed/51fe2200?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
 
 Video - Secabs
 :::
