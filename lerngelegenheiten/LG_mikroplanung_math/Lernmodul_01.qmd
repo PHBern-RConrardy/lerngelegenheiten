@@ -36,9 +36,6 @@ zureichend
 unzureichend
 nicht gelöst
 
-# Constructive Alignment
-@biggs
-
 # Kompetenzen
 
 > Die Orientierung an Kompetenzen im Lehrplan 21 basiert u.a. auf den Ausführungen von Franz E. Weinert. Nach ihm umfassen Kompetenzen [...]

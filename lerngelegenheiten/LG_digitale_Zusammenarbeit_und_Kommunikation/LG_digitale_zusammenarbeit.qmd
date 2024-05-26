@@ -5,4 +5,5 @@ categories:
   - Modul - Zusammenarbeit und Kommunikation
   - Modul - Klassenführung
   - Label - Digitalität
+draft: true
 ---

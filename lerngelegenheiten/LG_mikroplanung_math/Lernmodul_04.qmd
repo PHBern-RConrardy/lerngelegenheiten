@@ -1,4 +1,4 @@
 ---
 format: html
-title: Lernphasen
+title: Lerninhalte
 ---

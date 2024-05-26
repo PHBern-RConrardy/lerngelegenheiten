@@ -15,6 +15,7 @@ citation:
 categories:
   - Modul - Summative und prognostische Beurteilung
   - Modul - Formative Beurteilung
+draft: true
 ---
 
 | Woche | Thema                                           |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |

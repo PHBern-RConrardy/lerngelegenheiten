@@ -1,0 +1,10 @@
+---
+title: Datenschutzrecht
+format: html
+categories:
+  - Label - Digitalität
+editor: 
+  markdown: 
+    wrap: 72
+draft: true
+---
