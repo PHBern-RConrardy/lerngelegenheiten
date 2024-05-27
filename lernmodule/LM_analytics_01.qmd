@@ -1,0 +1,10 @@
+---
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: Forschungsethik
+subtitle: Learning Analytics
+---
+
+# Rechtliche Rahmenbedingungen

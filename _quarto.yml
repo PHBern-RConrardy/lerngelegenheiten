@@ -42,6 +42,7 @@ website:  # Menüs für die Webseite
       contents:
         - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
           text: Semesterübersicht
+        - auto: "/lernmodule/LM_grundl-beurteilung*"
         - section: Lernmodule
           contents:
           - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
@@ -80,13 +81,19 @@ website:  # Menüs für die Webseite
       contents:
         - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
           text: Semesterübersicht
-        - section: Lernmodule
-          contents:
-            - lerngelegenheiten/LG_learning_analytics/Lernmodul_01.qmd
-            - lerngelegenheiten/LG_learning_analytics/Lernmodul_02.qmd
-            - lerngelegenheiten/LG_learning_analytics/Lernmodul_06.qmd
+        - auto: "/lernmodule/LM_analytics*"
         - href: lerngelegenheiten/LG_learning_analytics/Auftrag_Learning_Analytics.qmd
           text: Auftrag
+    - title: "Datenschutz"
+      contents:
+        - href: lerngelegenheiten/LG_datenschutz.qmd
+          text: Semesterübersicht
+        - auto: "/lernmodule/LM_datenschutz*"
+    - title: "Chancen und Risiken von standardisierten Testverfahren"
+      contents:
+        - href: lerngelegenheiten/LG_standtest.qmd
+          text: Semesterübersicht
+        - auto: "/lernmodule/LM_standtest"
         
   page-footer: # Fusszeile
     center: 

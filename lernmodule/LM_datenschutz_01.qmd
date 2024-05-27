@@ -1,0 +1,74 @@
+---
+title: Datenschutz
+format: html
+categories:
+  - Label - Digitalität
+editor: 
+  markdown: 
+    wrap: 72
+draft: true
+---
+::: callout-note
+## Ziele des Lernmoduls
+
+Die Studierenden ...
+
+- unterscheiden zwischen Datenschutz (als soziologischer Begriff), Datenschutzrecht und Datensicherheit
+- argumentieren die Gesellschaftsrelevanz von Datenschutz
+- entscheiden inwiefern Daten von Datenschutzrecht betroffen sind.
+- kennen die drei Schutzziele von Datensicherheit.
+- setzen good practices von Datensicherheit um.
+:::
+
+# Einstiegsfragen
+
+Notieren Sie sich ihre Antworten auf folgende Fragen:
+
+- Was bedeutet für Sie Datenschutz?
+- Eine Person sagt "Datenschutz ist mir egal, Google hat ja eh schon all meine Daten." Was antworten Sie?.
+
+# Begriffsabgrenzung
+
+Schauen Sie [Was schützt eigentlich der Datenschutz?](https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz)
+
+- Notieren Sie sich welche Teilbereiche von Datenschutz berührt werden.
+
+# Datenschutz als soziologischer Begriff
+
+Haben Sie ihre Meinung 
+
+# Datenschutzrecht
+
+In der Schweiz regelt das [Datenschutzgesetz (DSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/de), bzw. das [kantonale Datenschutzgesetzt (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane [Art. 2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de). Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden [vgl. Art. 4 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7). Die [Datenschutzgrundverordnung (DSGVO)](https://dsgvo-gesetz.de/) ist das europäische Pendant. 
+
+* Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzten gleich definiert?
+* Welche solcher Daten bearbeiten Lehrpersonen? 
+* Welche dieser Daten sind gemäss KDSG "besonders schützenswert"?
+
+### Unternehmensinterne Bestimmungen
+
+Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber. Die PHBern kennt beispielsweise 
+
+# Datensicherheit
+
+Datensicherheit (IT Security) hat drei übergeordnete Ziele.
+
+* Integrität
+* Vertraulichkeit
+* Verfügbarkeit
+
+Integrität beschreibt, dass die Daten nicht von Fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.
+
+Vertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.
+
+Verfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.
+
+* Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?
+* Welche Sicherheitsvorkehrungen nehmen Sie beruflich?
+* Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?
+* Zeigen Sie, dass es meist Zielkonflikte gibt.
+
+Es gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen "digital unterschrieben" wurde.
+
+# Fallbeispiele
+
