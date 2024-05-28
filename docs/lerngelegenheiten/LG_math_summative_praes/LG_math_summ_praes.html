@@ -89,6 +89,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -116,17 +145,7 @@ div.csl-indent {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul class="collapse">
-  <li><a href="#organisatorisches" id="toc-organisatorisches" class="nav-link active" data-scroll-target="#organisatorisches">Organisatorisches</a></li>
-  <li><a href="#workload" id="toc-workload" class="nav-link" data-scroll-target="#workload">Workload</a>
-  <ul class="collapse">
-  <li><a href="#fünf-lernkontrollen" id="toc-fünf-lernkontrollen" class="nav-link" data-scroll-target="#fünf-lernkontrollen">Fünf Lernkontrollen</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -176,8 +195,12 @@ div.csl-indent {
 </header>
 
 
-<section id="organisatorisches" class="level1">
-<h1>Organisatorisches</h1>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Präsenzkurs</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">SOL</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<section id="organisatorisches" class="level2">
+<h2 class="anchored" data-anchor-id="organisatorisches">Organisatorisches</h2>
 <div style="text-align: center;">
 <p><a href="https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/Pr%C3%A4senzkurs_Schreibrechte_Studierende/Organisationsblatt_Summ_Praes.xlsx?d=wf606fa7c49d4435a8505a9f2c621dd67&amp;csf=1&amp;web=1&amp;e=czb7Xz" class="knopf" target="_blank">Organisationsblatt</a></p>
 <p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_fold_2177856.html" class="knopf knopf-klein" target="_blank">Materialraum</a></p>
@@ -224,10 +247,10 @@ div.csl-indent {
 </tbody>
 </table>
 </section>
-<section id="workload" class="level1">
-<h1>Workload</h1>
-<section id="fünf-lernkontrollen" class="level2">
-<h2 class="anchored" data-anchor-id="fünf-lernkontrollen">Fünf Lernkontrollen</h2>
+<section id="workload" class="level2">
+<h2 class="anchored" data-anchor-id="workload">Workload</h2>
+<section id="fünf-lernkontrollen" class="level3">
+<h3 class="anchored" data-anchor-id="fünf-lernkontrollen">Fünf Lernkontrollen</h3>
 <p>Sie (alle Teilnehmende) erstellen gemeinsam alle fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) <strong>8. Klasse</strong> im deutschsprachigen Teil des Kantons Bern.</p>
 <p>Die Lernkontrollen sind unter einer freien Lizenz(<a href="https://creativecommons.org/licenses/by/4.0/">CC BY</a> oder <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0 Lizenz</a>) didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf. Die restlichen Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.</p>
 <p>Teilen Sie sich gleichmässig auf 5 Themenblöcke auf. Vorschlag:</p>
@@ -239,13 +262,209 @@ div.csl-indent {
 <li>Form und Raum (Geometrie): Satz von Thales, Satzgruppe des Pythagoras, Volumen und Oberflächen von geraden Prismen, Pyramiden</li>
 </ol>
 <p>Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der <a href="https://be.lehrplan.ch/">Lehrplan 21</a>. Das <a href="https://www.mathbuch.info/">Mathbuch</a>, sowie <a href="https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html">Mathematik vom LMVZ</a> können Ihnen nützliche Hilfestellungen geben. <span class="citation" data-cites="walti_jahresplanung_2021">Wälti (<a href="#ref-walti_jahresplanung_2021" role="doc-biblioref">2021</a>)</span> gibt eine mögliche Jahresplanung an.</p>
-
-
-
 </section>
 </section>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<section id="organisatorisches-1" class="level2">
+<h2 class="anchored" data-anchor-id="organisatorisches-1">Organisatorisches</h2>
+<div style="text-align: center;">
+<p><a href="https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/Freigegebene%20Dokumente/General/Lerngelegenheiten/Summative%20Beurteilung%20im%20Mathematikunterricht/02_Asynchroner_Teil/SOL_Order%20mit%20Studierendenschreibrechte/asynchron_Organisationsblatt_summative%20Beurteilung%20Math1.xlsx?d=w09fe9a34cde14766bac334c925187760&amp;csf=1&amp;web=1&amp;e=g55BTe" class="knopf" target="_blank">Organisationsblatt</a></p>
+<p><a href="https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a" class="knopf knopf-klein" target="_blank">Porta-Mathematik</a> <a href="https://ilias.phbern.ch/goto_phbern_fold_2177856.html" class="knopf knopf-klein" target="_blank">Materialraum</a></p>
+</div>
+</section>
+<section id="workload-1" class="level2">
+<h2 class="anchored" data-anchor-id="workload-1">Workload</h2>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+SOL <span class="math inline">\(\neq\)</span> alleingelassen
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die Studierenden “steuern ihr Lernhandeln jedoch weitgehend selber, indem sie selbständig Lernschritte definieren, ausführen, regulieren und beurteilen.” <span class="citation" data-cites="hilbe_selbst_2011">(<a href="#ref-hilbe_selbst_2011" role="doc-biblioref">Hilbe &amp; Herzog, 2011, S. 8</a>)</span></p>
+<p>Dem Dozierenden “kommt dabei die Aufgabe zu, geeignete Rahmenbedingungen für das Gelingen des Lernprozesses zu schaffen, Lernstrategien zu vermitteln und die Schülerinnen und Schüler bei Schwierigkeiten zu unterstützen.” <span class="citation" data-cites="hilbe_selbst_2011">(<a href="#ref-hilbe_selbst_2011" role="doc-biblioref">Hilbe &amp; Herzog, 2011, S. 8</a>)</span></p>
+<p>Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es inhaltlich, organisatorisch oder anderer Art.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Open Educational Resources (OER)
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Sie werden in dieser Lerngelegenheit Materialien unter eine <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0 Lizenz</a> stellen. Sie entscheiden selbst wer seinen Namen in welcher Reihenfolge auf dem Material haben möchte oder welcher weggelassen wird. Die Materialien werden von mir einheitlich Layoutet und gemäss der Lizenz ins Web gestellt, damit andere davon profitieren können.</p>
+<p>Beachten Sie das <a href="https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de">URG</a> und geben Sie bei selbsterstellten Graphiken (z.B. Funktionsgraphen) eine Anleitung welche ausreicht um die Graphen neu zu erstellen.</p>
+<p>Hinweis: Es ist unwahrscheinlich, dass Sie <a href="https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken">Zitatrecht</a> in Anspruch nehmen können in diesem Setting.</p>
+</div>
+</div>
+</div>
+<section id="fünf-lernkontrollen-1" class="level3">
+<h3 class="anchored" data-anchor-id="fünf-lernkontrollen-1">Fünf Lernkontrollen</h3>
+<p>Sie (alle Teilnehmende) erstellen gemeinsam (alle) fünf Lernkontrollen für eine niveaudurchmischte (Real, Sek und Spez-Sek) <strong>7. Klasse</strong> im deutschsprachigen Teil des Kantons Bern.</p>
+<p>Die Lernkontrollen sind unter der <a href="https://creativecommons.org/licenses/by-sa/4.0/?ref=chooser-v1">CC-BY-SA 4.0 Lizenz</a> didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.</p>
+<p>Teilen Sie sich gleichmässig auf folgende 5 Themenblöcke auf:</p>
+<ol type="1">
+<li>Zahl und Variable (Arithmetik): Vertiefung von Grundrechenarten (Addition, Subtraktion, Multiplikation, Division), Brüche und Dezimalzahlen, Prozentsätze und Verhältnisse (Proportionen)</li>
+<li>Zahl und Variable (Algebra): Einführung in algebraische Ausdrücke, Lösen einfacher Gleichungen, Ungleichungen</li>
+<li>Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. leichtem Zusammenhang mit Programmieren)</li>
+<li>Grössen, Funktionen, Daten und Zufall (Analysis): Lineare Funktionen</li>
+<li>Form und Raum (Geometrie): Flächen- und Volumenberechnungen, Dreiecke und Vierecke</li>
+</ol>
+<p>Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der <a href="https://be.lehrplan.ch/">Lehrplan 21</a>. Das <a href="https://www.mathbuch.info/">Mathbuch</a>, sowie <a href="https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html">Mathematik vom LMVZ</a> können Ihnen nützliche Hilfestellungen geben. <span class="citation" data-cites="walti_jahresplanung_2021">Wälti (<a href="#ref-walti_jahresplanung_2021" role="doc-biblioref">2021</a>)</span> gibt eine mögliche Jahresplanung an.</p>
+<p>Weitere Interpretationen des Lehrplan21 finden Sie in schulischen Lehrplänen, z.B. <a href="https://ksalpenquai.lu.ch/dokumente/Lehrplaene_Untergymnasium">KSAlpenquai LU</a> oder <a href="https://www.sg.ch/bildung-sport/mittelschule/lehrplaene-und-stundentafeln/untergymnasium.html">KSBG SG</a> oder <a href="">KBW ZH</a>.</p>
+<hr>
+</section>
+<section id="vier-produkte-und-eine-prozessbeurteilung" class="level3">
+<h3 class="anchored" data-anchor-id="vier-produkte-und-eine-prozessbeurteilung">Vier Produkte und eine Prozessbeurteilung</h3>
+<p>Sie (alle Teilnehmende) erstellen gemeinsam (alle) 4 Produktbeurteilungen für eine niveaudurchmischte (Real, Sek und Spez-Sek) <strong>7. Klasse</strong> im deutschsprachigen Teil des Kantons Bern.</p>
+<p>Die Beurteilungen sind unter der CC-BY-SA 4.0 Lizenz, didaktisch kohärent und bauen auf wohl ausgewähltem Lehrstoff auf (siehe Theorie). Die Rahmenbedingen (Hilfsmittel, Zeit, Aufteilung) legen Sie fest.</p>
+<p>Die Prozessbeurteilung ist verbunden mit, und abhängig von, einer Produktbeurteilung Ihrer Wahl. Tauschen Sie sich mit dem jeweiligen Team aus. Beachten Sie die 5 Aspekte der Prozessbeurteilung und grenzen Sie sie klar ab von der Produktbeurteilung.</p>
+<p>Teilen Sie sich gleichmässig auf folgende 4 Themenblöcke auf:</p>
+<ol type="1">
+<li>Grössen, Funktionen, Daten und Zufall (Analysis): Funktionen (inkl. Programmieren)</li>
+<li>Form und Raum (Geometrie): Symmetrien und Transformationen (inkl. dynamische Geometriesoftware)</li>
+<li>Grössen, Funktionen, Daten und Zufall (Stochastik &amp; Kombinatorik und beschreibende Statistik): Wahrscheinlichkeit und Kombinatorik (inkl. Tabellenkalkulationssoftware)</li>
+<li>Zahl und Variable (Arithmetik und Algebra): Übersicht über alle bekannten Rechenregeln und Operationen (inkl. digitale Hilfsmittel)</li>
+</ol>
+<p>Sie dürfen eine andere inhaltlich Einteilungen vorschlagen. Verpflichtend ist der <a href="https://be.lehrplan.ch/">Lehrplan 21</a>. Das <a href="https://www.mathbuch.info/">Mathbuch</a>, sowie <a href="https://003.lmvz.ch/lehrmittelsites/mathe_sek/de/m2/index.html">Mathematik vom LMVZ</a> können Ihnen nützliche Hilfestellungen geben. <span class="citation" data-cites="walti_jahresplanung_2021">Wälti (<a href="#ref-walti_jahresplanung_2021" role="doc-biblioref">2021</a>)</span> gibt eine mögliche Jahresplanung an.</p>
+<hr>
+</section>
+</section>
+<section id="theorie" class="level2">
+<h2 class="anchored" data-anchor-id="theorie">Theorie</h2>
+<section id="ausgangslage" class="level3">
+<h3 class="anchored" data-anchor-id="ausgangslage">Ausgangslage</h3>
+<ul>
+<li>Wie viele Lernkontrollen pro Schuljahr empfielt die Bildungsdirektion des Kantons Bern in <span class="citation" data-cites="hirt2022">Hirt et al. (<a href="#ref-hirt2022" role="doc-biblioref">2022</a>)</span>?</li>
+<li>Welche Handlungsaspekte sollen bei Lernkontrollen im Fokus stehen gemäss <span class="citation" data-cites="erziehungsdirektiondeskantonsbern">Erziehungsdirektion des Kantons Bern (<a href="#ref-erziehungsdirektiondeskantonsbern" role="doc-biblioref">o.&nbsp;J.</a>)</span> ?</li>
+<li>Welche Qualitätsmerkmale gibt es für die Beurteilung gemäss <span class="citation" data-cites="bildungs-undkulturdirektiondeskantonsbern2016">Bildungs- und Kulturdirektion des Kantons Bern (<a href="#ref-bildungs-undkulturdirektiondeskantonsbern2016" role="doc-biblioref">2016</a>)</span> ?</li>
+<li>Verschaffen Sie sich einen Überblick über die Übertrittsprüfungen vor und am Ende der Sekundarstufe. Folgende Fragen können bei der Lektüre helfen:
+<ul>
+<li>Übertrittsprüfung PRIM-Sek1: Welche Vorkenntnisse/Kompetenzen werden die Lernenden mitbringen, wenn sie ins 7. Schuljahr eintreten?</li>
+<li>Überittsprüfung Sek1-Sek2: Welche Kenntnisse/Kompetenzen müssen die Lernenden bei mir erwerben? Welche Erwartungen können die Lehrpersonen der nächsten Schule (FMS, Gym) stellen?</li>
+</ul></li>
+</ul>
+<section id="materialien" class="level5">
+<h5 class="anchored" data-anchor-id="materialien">Materialien</h5>
+<ul>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY4Z36w4s2RMk3hfj__oeysB_Xh6fqGgyqmJuuXfbNLAWw?e=ZRRxB3">Dokumentation der summativen Beurteilung</a></li>
+<li><a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-prim-sek-i-kontrollpruefung.html">Übertritt PRIM - Sek I</a></li>
+<li><a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html">Übertritt Sek I - Sek II (Bern)</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="reichhaltige-aufgaben" class="level3">
+<h3 class="anchored" data-anchor-id="reichhaltige-aufgaben">Reichhaltige Aufgaben</h3>
+<ul>
+<li>Lesen Sie <span class="citation" data-cites="hirt2018">Hirt et al. (<a href="#ref-hirt2018" role="doc-biblioref">2018</a>)</span> und überlegen Sie wie “bedeutsam” in folgendem Zitat definiert ist: “Weil die Beurteilung umfassend sein soll, indem sie die Kompetenzbereiche und Handlungsaspekte ausgewogen berücksichtigt und die überfachlichen Kompetenzen miteinbezieht (siehe <a href="https://www.belex.sites.be.ch/frontend/versions/1445%20?locale=de">DVBS</a>), sind reichhaltige Aufgaben auch bedeutsam für die summative Beurteilung.”</li>
+<li>Lesen Sie <span class="citation" data-cites="nydegger2019">Nydegger (<a href="#ref-nydegger2019" role="doc-biblioref">2019</a>)</span> und argumentieren Sie in wiefern sie vereinbar ist mit den Merkmalen.</li>
+<li>Lesen Sie die <span class="citation" data-cites="erziehungsdirektiondeskantonsbern">Erziehungsdirektion des Kantons Bern (<a href="#ref-erziehungsdirektiondeskantonsbern" role="doc-biblioref">o.&nbsp;J.</a>)</span> und überlegen Sie in wiefern reichhaltige Aufgaben in die summativen Beurteilung einfliessen können.</li>
+<li>Lesen Sie alle Teile in <span class="citation" data-cites="hirt2022">Hirt et al. (<a href="#ref-hirt2022" role="doc-biblioref">2022</a>)</span> welche sich auf die summative Beurteilung im Zyklus 3 beziehen.</li>
+<li>Lesen Sie <span class="citation" data-cites="eckhart2020">Eckhart (<a href="#ref-eckhart2020" role="doc-biblioref">2020</a>)</span> (Kapitel 3.1) zu den vier Merkmalen reichhaltiger Aufgaben.</li>
+</ul>
+<section id="materialien-1" class="level5">
+<h5 class="anchored" data-anchor-id="materialien-1">Materialien</h5>
+<ul>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/ETWTCT-3n8BNmspye4zpRUYBuVZR9ew6iwxBNj3ygOM6Tw?e=cv9NfX">Umsetzung des Lehrplans 21 im Fachbereich Mathematik</a></li>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY0Ztq7-zulHoK-0PSRQYSoBP4sF3skd4CwhkPytIIYUug?e=XKTrcf">Allgemeine Hinweise zu reichhaltigen Aufgaben</a></li>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EYD1iXOziGBPtQU0jbYU7_4B9tjEEelTNRfDOINlur8ZgA?e=mgdcTk">Checkliste zur Einschätzung der Reichhaltigkeit einer Aufgabe</a></li>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EY4Z36w4s2RMk3hfj__oeysB_Xh6fqGgyqmJuuXfbNLAWw?e=HXfWiy">Dokumentation der summativen Beurteilung Kanton Bern</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="core-mathematics-vs.-mathematical-science" class="level3">
+<h3 class="anchored" data-anchor-id="core-mathematics-vs.-mathematical-science">Core mathematics vs.&nbsp;mathematical science</h3>
+<p>Lesen Sie <span class="citation" data-cites="quinn_revolution_2012">Quinn (<a href="#ref-quinn_revolution_2012" role="doc-biblioref">2012</a>)</span>. Nehmen Sie im Padlet persönlich Stellung zum Text. Gehen Sie insbesondere auf folgende Fragen ein: * Inwiefern haben Sie Unterricht im Sinne von <em>Core Mathematics</em>, bzw. im Sinne von <em>Mathematical Science</em> erhalten? * An welchen konkreten Beispielen machen Sie dies fest?</p>
+<section id="inhalt-und-unterlagen" class="level4">
+<h4 class="anchored" data-anchor-id="inhalt-und-unterlagen">Inhalt und Unterlagen</h4>
+<ul>
+<li><a href="https://phbern.padlet.org/richardconrardy/padlet-zu-quinn-2012-iodxajz5mvihuipp">Padlet</a></li>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQtQpV3Gx8BBo2ZpG5S866ABLB2eppux-YnON8M4Y9W0bA?e=YiBnAx">Quinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. Notices of the American Mathematical Society, 59(01), 31.</a> <a href="https://doi.org/10.1090/noti787" class="uri">https://doi.org/10.1090/noti787</a></li>
+</ul>
+<hr>
+</section>
+</section>
+<section id="concept-map-der-mathematik" class="level3">
+<h3 class="anchored" data-anchor-id="concept-map-der-mathematik">Concept Map der Mathematik</h3>
+<p>Arbeiten Sie kollaborativ am Miroboard, um einen <a href="https://de.wikipedia.org/wiki/Gerichteter_Graph">gerichteten Graphen</a> der innermathematischen Themen der Schulzeit (Fokus Sek1) zu erstellen.</p>
+<ul>
+<li>Haftnotizen stellen die Themen dar.</li>
+<li>Themen, welche eine <a href="https://de.wikipedia.org/wiki/Notwendige_und_hinreichende_Bedingung">notwendige Bedingung</a> (Vorwissen) darstellen, sollen mit einem Pfeil verknüpft werden.</li>
+<li>Die Stärke des Zusammenhangs kann mit einer <a href="https://de.wikipedia.org/wiki/Kantengewichteter_Graph">Gewichtung</a> (zwischen 0 und 1) als Text auf dem Pfeil erwähnt werden.</li>
+</ul>
+<p>Unten ist zusätzlich das Video “Map of Mathematics” verlinkt. Es handelt sich hier um eine Empfehlung um einen Überblick über das gesamte Fachgebiet (insb. Hochschulmathematik) zu erhalten. Hinweis: Das Poster eignet sich besonders gut um einen Schulraum zu schmücken.</p>
+<ul>
+<li><a href="https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EYsRDr6UYRlBo0QVaQaT9HUB1aqgVQC_7aXyw0_HBdo8CA?e=Jdehgv">Auftrag (Videoerklärung)</a></li>
+<li><a href="https://miro.com/app/board/uXjVM7-2Hec=/">Miroboard (Passwort: “Mathematik”)</a></li>
+<li><a href="https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EZyDEaI5lmNMthBzF3XErkQBcYbKIKDUol-LLXZtKM8jHQ?e=IyHpCk">Map of Mathematics (Video)</a> - <a href="https://phbern365.sharepoint.com/:i:/s/IS1_Z_FachteamMathematik/EbRVbbP5515EsW0taqyzyf8B3ZL-KWk-J7eZfXFas9S5qA?e=yajq8e">Poster</a></li>
+<li><a href="https://de.wikipedia.org/wiki/Teilgebiete_der_Mathematik">Teilgebiete der Mathematik (Wikipedia)</a></li>
+</ul>
+<hr>
+</section>
+<section id="constructive-alignment" class="level3">
+<h3 class="anchored" data-anchor-id="constructive-alignment">Constructive Alignment</h3>
+<p>Lesen Sie <span class="citation" data-cites="vandormolen1978">Van Dormolen (<a href="#ref-vandormolen1978" role="doc-biblioref">1978</a>)</span> Kapitel 2.4, es zeigt wie der Satz des Pythagoras auf 5 verschiedene Arten gelehrt (und beurteilt) werden kann.</p>
+<p>Lesen Sie <span class="citation" data-cites="vandormolen1978">Van Dormolen (<a href="#ref-vandormolen1978" role="doc-biblioref">1978</a>)</span> Kapitel 4.2, es beschreibt nach welchen Kriterien Sie in der Mikro-, Makroplanung Unterrichtsstoff untersuchen sollen.</p>
+<p><span class="citation" data-cites="biggs1996">Biggs (<a href="#ref-biggs1996" role="doc-biblioref">1996</a>)</span> beschreibt wie wichtig die Kohärenz zwischen Leistungsnachweisen, Lernaktivitäten und Lernergebnissen (Learning Outcomes) ist. Dies wird Constructive Alignment genannt.</p>
+<p>Diese Lektüre weist Sie darauf hin, dass Sie den Beurteilungsanlass nicht ohne Lernaktivität planen können, welche nicht ohne die Learning Outcomes auskommt. Somit muss für die Erstellung eines Beurteilungsanlasses der Inhalt sachkundig aufgearbeitet (vgl. Sachanalyse) und die Learning Outcomes sinnvoll ausgewählt worden sein.</p>
+<ul>
+<li><a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EQcHfKUz4KtLll4S4dhuGvABrBD6z94uyOz3KE63wY9tDQ?e=L8e5wr">Van Dormolen, J. (1978). Didaktik der Mathematik. Vieweg+Teubner Verlag.</a></li>
+</ul>
+</section>
+</section>
+</div>
+</div>
+</div>
+
+
+
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-biggs1996" class="csl-entry" role="listitem">
+Biggs, J. (1996). Enhancing teaching through constructive alignment. <em>Higher Education</em>, <em>32</em>(3), 347–364. <a href="https://doi.org/10.1007/BF00138871">https://doi.org/10.1007/BF00138871</a>
+</div>
+<div id="ref-bildungs-undkulturdirektiondeskantonsbern2016" class="csl-entry" role="listitem">
+Bildungs- und Kulturdirektion des Kantons Bern. (2016). <em>Lehrplan 21 - Allgemeine Hinweise und Bestimmungen (AHB) - 5.2 Beurteilung</em>. <a href="https://be.lehrplan.ch/index.php?code=e|92|5&amp;hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm">https://be.lehrplan.ch/index.php?code=e|92|5&amp;hilit=102mWGPxSAR8AFePDMWqVh45MaUsKm#102mWGPxSAR8AFePDMWqVh45MaUsKm</a>
+</div>
+<div id="ref-eckhart2020" class="csl-entry" role="listitem">
+Eckhart, M. (2020). <em>3.1 Reichhaltige Aufgaben</em> (C. Ammann-Tinguely &amp; Caroline Sahli Lozano, Hrsg.; 1. Auflage). hep Verlag AG.
+</div>
+<div id="ref-erziehungsdirektiondeskantonsbern" class="csl-entry" role="listitem">
+Erziehungsdirektion des Kantons Bern. (o.&nbsp;J.). <em>Dokumentation der summativen Beurteilung Mathematik</em>. <a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html">https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/dokumentation-zur-summativen-beurteilung.html</a>
+</div>
+<div id="ref-hilbe_selbst_2011" class="csl-entry" role="listitem">
+Hilbe, R., &amp; Herzog, W. (2011). <em>Selbst organisiertes Lernen am Gymnasium Theoretische Konzepte und empirische Erkenntnisse</em>. Mittelschul- und Berufsbildungsamt, Erziehungsdirektion des Kantons Bern. <a href="https://www.bkd.be.ch/content/dam/bkd/dokumente/de/themen/bildung/mittelschulen/entwicklung-mittelschulen/ams-projekte-sol-bericht-deutsch.pdf">https://www.bkd.be.ch/content/dam/bkd/dokumente/de/themen/bildung/mittelschulen/entwicklung-mittelschulen/ams-projekte-sol-bericht-deutsch.pdf</a>
+</div>
+<div id="ref-hirt2018" class="csl-entry" role="listitem">
+Hirt, U., Marti, M., Sasdi, P., Schärer, A., Seiler, I., &amp; Wehrlin, J. (2018). <em>Checkliste zur Einschätzung der Reichhaltigkeit einer Aufgabe</em>.
+</div>
+<div id="ref-hirt2022" class="csl-entry" role="listitem">
+Hirt, U., Marti, M., Sasdi, P., Schärer, A., Seiler, I., &amp; Wehrlin, J. (2022). <em>Umsetzung des Lehrplans 21 im Fachbereich Mathematik Handreichung für die Zyklen 1 bis 3</em>. Erziehungsdirektion des Kantons Bern Lehrplan- und Lehrmittelkommission (<span>LPLMK</span>). <a href="https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/umsetzungshilfe/umsetzungshilfen-zyklus-1-bis-3.pdf">https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/umsetzungshilfe/umsetzungshilfen-zyklus-1-bis-3.pdf</a>
+</div>
+<div id="ref-nydegger2019" class="csl-entry" role="listitem">
+Nydegger, R. (2019). <em>Reichhaltige Aufgaben</em>. <a href="https://ds">ds</a>
+</div>
+<div id="ref-quinn_revolution_2012" class="csl-entry" role="listitem">
+Quinn, F. (2012). A Revolution in Mathematics? What Really Happened a Century Ago and Why It Matters Today. <em>Notices of the American Mathematical Society</em>, <em>59</em>(1), 31. <a href="https://doi.org/10.1090/noti787">https://doi.org/10.1090/noti787</a>
+</div>
+<div id="ref-vandormolen1978" class="csl-entry" role="listitem">
+Van Dormolen, J. (1978). <em>Didaktik der Mathematik</em>. Vieweg+Teubner Verlag. <a href="https://doi.org/10.1007/978-3-322-84149-0">https://doi.org/10.1007/978-3-322-84149-0</a>
+</div>
 <div id="ref-walti_jahresplanung_2021" class="csl-entry" role="listitem">
 Wälti, B. (2021). <em>Jahresplanung zu mathbuch 1, 2, und 3</em>. <a href="https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/unterricht/planen/planungen-zum-mathbuch-1bis3-z3.pdf">https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/unterrichtsfaecher/mathematik/unterricht/planen/planungen-zum-mathbuch-1bis3-z3.pdf</a>
 </div>
@@ -334,7 +553,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
