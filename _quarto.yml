@@ -93,7 +93,7 @@ website:  # Menüs für die Webseite
       contents:
         - href: lerngelegenheiten/LG_standtest.qmd
           text: Semesterübersicht
-        - auto: "/lernmodule/LM_standtest"
+        - auto: "/lernmodule/LM_standtest*"
         
   page-footer: # Fusszeile
     center: 

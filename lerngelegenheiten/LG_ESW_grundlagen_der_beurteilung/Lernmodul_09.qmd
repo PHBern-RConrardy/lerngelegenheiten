@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Niveaus und Schulmodelle
 subtitle: Grundlagen der Beurteilung
 

@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Thematische Einführung
 subtitle: Grundlagen der Beurteilung
 authors:

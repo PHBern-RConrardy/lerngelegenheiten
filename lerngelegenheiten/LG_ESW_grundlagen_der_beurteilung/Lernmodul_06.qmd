@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Lernbegleitung und Lerncoaching
 subtitle: Grundlagen der Beurteilung
 

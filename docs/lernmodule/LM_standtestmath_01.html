@@ -89,10 +89,39 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -110,24 +139,80 @@ div.csl-indent {
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lernmodule/LM_standtestmath_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../lernmodule/LM_standtestmath_01.html">Standardisierte Testverfahren in der Mathematik</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lerngelegenheiten/LG_standtest.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../lernmodule/LM_standtestmath_01.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Standardisierte Testverfahren in der Mathematik</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#thematischer-einstieg" id="toc-thematischer-einstieg" class="nav-link active" data-scroll-target="#thematischer-einstieg">Thematischer Einstieg</a></li>
+  <li><a href="#thematischer-einstieg" id="toc-thematischer-einstieg" class="nav-link active" data-scroll-target="#thematischer-einstieg">Thematischer Einstieg</a>
+  <ul class="collapse">
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#konfliktareale" id="toc-konfliktareale" class="nav-link" data-scroll-target="#konfliktareale">Konfliktareale</a></li>
+  </ul></li>
+  <li><a href="#internationale-tests" id="toc-internationale-tests" class="nav-link" data-scroll-target="#internationale-tests">Internationale Tests</a></li>
+  <li><a href="#nationale-tests" id="toc-nationale-tests" class="nav-link" data-scroll-target="#nationale-tests">Nationale Tests</a>
+  <ul class="collapse">
+  <li><a href="#überprüfung-der-grundkompetenzen" id="toc-überprüfung-der-grundkompetenzen" class="nav-link" data-scroll-target="#überprüfung-der-grundkompetenzen">Überprüfung der Grundkompetenzen</a></li>
+  <li><a href="#eignungstest-für-das-medizinstudium-in-der-schweiz" id="toc-eignungstest-für-das-medizinstudium-in-der-schweiz" class="nav-link" data-scroll-target="#eignungstest-für-das-medizinstudium-in-der-schweiz">Eignungstest für das Medizinstudium in der Schweiz</a></li>
+  <li><a href="#stellwerktest-kantonsübergreifend" id="toc-stellwerktest-kantonsübergreifend" class="nav-link" data-scroll-target="#stellwerktest-kantonsübergreifend">Stellwerktest (kantonsübergreifend)</a></li>
+  </ul></li>
+  <li><a href="#kantonale-tests" id="toc-kantonale-tests" class="nav-link" data-scroll-target="#kantonale-tests">Kantonale Tests</a>
+  <ul class="collapse">
+  <li><a href="#anfang-sekundarstufe-1" id="toc-anfang-sekundarstufe-1" class="nav-link" data-scroll-target="#anfang-sekundarstufe-1">Anfang Sekundarstufe 1</a></li>
+  <li><a href="#ende-der-sekundarstufe-1" id="toc-ende-der-sekundarstufe-1" class="nav-link" data-scroll-target="#ende-der-sekundarstufe-1">Ende der Sekundarstufe 1</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../lernmodule/LM_standtestmath_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../lernmodule/LM_standtestmath_01.html">Standardisierte Testverfahren in der Mathematik</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Standardisierte Testverfahren in der Mathematik</h1>
 </div>
@@ -169,66 +254,106 @@ div.csl-indent {
 
 <section id="thematischer-einstieg" class="level1">
 <h1>Thematischer Einstieg</h1>
-<p>Als Vorbereitung werden folgende drei Medien in absteigender Reihenfolge der Wissenschaftlichkeit genannt:</p>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 <ul>
-<li><span class="citation" data-cites="imlig_towards_2018">(<a href="#ref-imlig_towards_2018" role="doc-biblioref">Imlig &amp; Ender, 2018</a>)</span></li>
 <li><a href="https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EXfwrFDtzjNArMaGyWiosRcB22QMC9y1QE48GTob05l-2A?e=th92S0">Prüfungen abschaffen, Video (Jörn Loviscach)</a></li>
 <li><a href="https://phbern365.sharepoint.com/:v:/s/IS1_Z_FachteamMathematik/EUjsTQSfUqBKqO5O4IHLjGcByhdi_l6QqreFOfjW0uiNrA?e=QdjpoN">Standardized Testing, Video (John Oliver)</a></li>
 </ul>
-<table class="table">
-<tbody>
-<tr class="odd">
-<td>### Test Ende 9. Klasse</td>
-</tr>
-<tr class="even">
-<td>#### International</td>
-</tr>
-<tr class="odd">
-<td>Ein <strong>internationaler</strong> Vergleich mittels standardisiertem Test erfolgt mittels <a href="https://www.oecd.org/pisa/publications/pisa-2018-results.htm">PISA</a> bei Lernenden welche das 15. Lebensjahr erreich haben. Das <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EcYeJ2XBvdRPp28NTYD9W04BO1QMAOz18YZOlDue41v8SA?e=pwl4Cz">Country Note - Switzerland</a> ist eine kurze Zusammenfassung für die Schweiz. Um sich ein Bild der Aufgaben zu machen gibt es <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/Ee4USkcuFWVFti6wvTDG1BkB6E7C4Y4XN4WX9UKq44GayA?e=GMfeYZ">PISA 2012: Veröffentlichte Beispielaufgaben - Mathematik</a></td>
-</tr>
-<tr class="even">
-<td>#### National</td>
-</tr>
-<tr class="odd">
-<td>Ein <strong>nationales</strong>, staatliches Projekt bei welchem Lernende der Sekundarstufe regelmässig auf ihre Mathematikleistung geprüft wurden, ist die <a href="https://www.uegk-schweiz.ch">Überprüfung der Grundkompetenzen (ÜGK) von 2016</a>. Deren <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EUJDu0pLGFFFjiDAmUHQlpsBRv9a3GJ-5AzNuCNfcwFa5Q?e=4l9mvo">ÜGK 2016Schlussbericht</a> ermöglicht einen nationalen Vergleich. Ab 2028 wird dieses Monitoring regelmässig durchgeführt <a href="https://www.edk.ch/de/die-edk/blog/271023">(vgl. EDK)</a>.</td>
-</tr>
-<tr class="even">
-<td>#### Kantonal</td>
-</tr>
-<tr class="odd">
-<td><a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html">Übertritt Sek I - Sek II</a> - <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/maturitaetsquote.html">BFS - Maturitätsquote</a></td>
-</tr>
-<tr class="even">
-<td>### Test Ende 6. Klasse</td>
-</tr>
-<tr class="odd">
-<td>#### Kantonal</td>
-</tr>
-<tr class="even">
-<td>Auf <strong>kantonaler</strong> Ebene gibt es gewisse Prüfungen, welche ebenfalls als standardisiert bezeichnet werden können. Sie werden jährlich durchgeführt und messen kantonsweit die gleichen Standards.</td>
-</tr>
-<tr class="odd">
-<td>Die <a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-prim-sek-i-kontrollpruefung.html">Übertritt PRIM - Sek I Kontrollprüfungen</a> ist ein solches Beispiel. Das <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/ETVJKe4XX45GmoWGze8pq6MB4lLQXPt7U9aqCshkvrVUEQ?e=3CJbXt">Monitoring Kontrollprüfungen 2023</a> gibt hier Auskunft über die Resultate. Der <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EXiCoKrAXTlKj5-TaomEti0B2MoqY4YFD-Mn3ScFbtcD5g?e=wsclIZ">Referenzrahmen Mathematik</a> gibt dabei eine genauere Auskunft über die erreichenden Kompetenzen Ende 6. Klasse, bzw. welche Kompetenzen von Primarschülern in der 7. Klasse erwartet werden können.</td>
-</tr>
-<tr class="even">
-<td>Da es mit dem Lehrplan21 eine gewisse Standardisierung (Homegenisierung) der obligatorischen Schulzeit gibt, sind die Daten des Bundesamts für Statistik auch vergleichbar.</td>
-</tr>
-<tr class="odd">
-<td>### Tests der postobligatorischen Schulzeit</td>
-</tr>
-<tr class="even">
-<td>#### EMS</td>
-</tr>
-<tr class="odd">
-<td>Der Eignungstest für das Medizinstudium in der Schweiz (EMS) prüft ebenfalls Mathematikkompetenzen auf Niveau <span class="citation" data-cites="ztd_unifr_beispielaufgaben_2021">(<a href="#ref-ztd_unifr_beispielaufgaben_2021" role="doc-biblioref"><strong>ztd_unifr_beispielaufgaben_2021?</strong></a>)</span></td>
-</tr>
-</tbody>
-</table>
+</section>
+<section id="konfliktareale" class="level2">
+<h2 class="anchored" data-anchor-id="konfliktareale">Konfliktareale</h2>
+<p><span class="citation" data-cites="imlig_towards_2018">Imlig &amp; Ender (<a href="#ref-imlig_towards_2018" role="doc-biblioref">2018</a>)</span> geben einen guten Referenzrahmen für potentielle Konflikte bei standardisierten Tests:</p>
+<ul>
+<li>confusion of purposes</li>
+<li>aggregation level and sovereignty</li>
+<li>influence on instruction</li>
+</ul>
+<p>Standardisierte Tests sollten ein einziges klares Ziel haben, meist haben sie jedoch mehrere konfundierende Ziele (<em>confusion of purposes</em>). Tests zur formativen Beurteilung von Lernenden können zur Bewertung von Lehrpersonen oder der Schulleitung eingesetzt werden.</p>
+<p>Vor der Testdurchführung sollte geklärt sein bis auf welche Ebene die Resultate aufgeschlüsselt werden (Kantone, Schulen, Lehrpersonen oder sogar einzelne Schüler) (<em>aggregation level</em>). Zusätzlich sollte geklärt sein wer Zugriff auf die Resultate hat (nur die tiefste Stufe oder auch höhere Ebenen) (<em>sovereignty</em>).</p>
+<p>Zuletzt hat nicht nur die Schule einen Einfluss auf die Testresultate, sondern die Tests selbst haben eine Einfluss auf die Schule.</p>
+</section>
+</section>
+<section id="internationale-tests" class="level1">
+<h1>Internationale Tests</h1>
+<p>Ein <strong>internationaler</strong> Vergleich mittels standardisiertem Test erfolgt mittels <a href="https://www.oecd.org/pisa/publications/pisa-2018-results.htm">PISA</a> bei Lernenden welche das 15. Lebensjahr erreich haben. Das <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EcYeJ2XBvdRPp28NTYD9W04BO1QMAOz18YZOlDue41v8SA?e=pwl4Cz">Country Note - Switzerland</a> ist eine kurze Zusammenfassung für die Schweiz. Um sich ein Bild der Aufgaben zu machen gibt es <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/Ee4USkcuFWVFti6wvTDG1BkB6E7C4Y4XN4WX9UKq44GayA?e=GMfeYZ">PISA 2012: Veröffentlichte Beispielaufgaben - Mathematik</a></p>
+</section>
+<section id="nationale-tests" class="level1">
+<h1>Nationale Tests</h1>
+<section id="überprüfung-der-grundkompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="überprüfung-der-grundkompetenzen">Überprüfung der Grundkompetenzen</h2>
+<p>Ein <strong>nationales</strong>, staatliches Projekt bei welchem Lernende der Sekundarstufe regelmässig auf ihre Mathematikleistung geprüft wurden, ist die <a href="https://www.uegk-schweiz.ch">Überprüfung der Grundkompetenzen (ÜGK) von 2016</a>. Deren <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EUJDu0pLGFFFjiDAmUHQlpsBRv9a3GJ-5AzNuCNfcwFa5Q?e=4l9mvo">ÜGK 2016 Schlussbericht</a> ermöglicht einen nationalen Vergleich. Ab 2028 wird dieses Monitoring regelmässig durchgeführt <a href="https://www.edk.ch/de/die-edk/blog/271023">(vgl. EDK)</a>.</p>
+</section>
+<section id="eignungstest-für-das-medizinstudium-in-der-schweiz" class="level2">
+<h2 class="anchored" data-anchor-id="eignungstest-für-das-medizinstudium-in-der-schweiz">Eignungstest für das Medizinstudium in der Schweiz</h2>
+<p>Der Eignungstest für das Medizinstudium in der Schweiz (EMS) prüft ebenfalls Mathematikkompetenzen auf Niveau <span class="citation" data-cites="ztd_unifr_beispielaufgaben_2021">(<a href="#ref-ztd_unifr_beispielaufgaben_2021" role="doc-biblioref"><strong>ztd_unifr_beispielaufgaben_2021?</strong></a>)</span> “EMS ist ein kognitiver Fähigkeitstest” <a href="https://www.swissuniversities.ch/service/anmeldung-zum-medizinstudium/eignungstest/aufbau-des-ems">Quelle</a></p>
+<p>Im Untertest “Quantitative und formale Probleme” wird explizit erwähnt:</p>
+<blockquote class="blockquote">
+<p>Welche Mathematikkenntnisse sind erforderlich? Vorausgesetzt werden Kenntnisse der Mittelstufen-Mathematik, nicht jedoch Lerninhalte der Oberstufe.</p>
+<p>Folgendes müssen Sie beispielsweise kennen und beherrschen: Gängige Symbole wie &gt;, ≥, &lt;, ≤ (grösser, grösser/gleich, kleiner, kleiner/gleich), ≠, ~ (ungleich, proportional), die vier Grundrechenarten und die Dreisatzrechnung, das Rechnen mit Potenzen. Zum Beispiel: <span class="math inline">\(a^\frac{1}{2}=\sqrt{a}\)</span>; <span class="math inline">\(10^{-3}=\frac{1}{1000}\)</span>; <span class="math inline">\(x^0=1\)</span>; <span class="math inline">\(10^{-5} : 10^{-3} =10^{-2}\)</span> <span class="citation" data-cites="zdt_beispielaufgaben_2021">(<a href="#ref-zdt_beispielaufgaben_2021" role="doc-biblioref"><strong>zdt_beispielaufgaben_2021?</strong></a>)</span></p>
+</blockquote>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tipp
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Beispielaufgaben sind verfügbar: <span class="citation" data-cites="ztd_unifr_beispielaufgaben_2021">(<a href="#ref-ztd_unifr_beispielaufgaben_2021" role="doc-biblioref"><strong>ztd_unifr_beispielaufgaben_2021?</strong></a>)</span></p>
+</div>
+</div>
+</section>
+<section id="stellwerktest-kantonsübergreifend" class="level2">
+<h2 class="anchored" data-anchor-id="stellwerktest-kantonsübergreifend">Stellwerktest (kantonsübergreifend)</h2>
+<p>Der <a href="https://stellwerk.ch/">Stellwerktest</a> ist ein kommerziell betriebener standardisierter Test vom <em>Lehrmittelverlag St.Gallen</em>, welches eine Abteilung des Amts für Volksschule des Bildungsdepartments des Kantons St.Gallen ist. Im Kanton Bern wird der Stellwerktest in Mathematik flächendeckend durchgeführt und das Ergebnis von “Stellwerk 8” fliesst ins Standortgespräch des 8. Schuljahres ein (<a href="https://www.lp-sl.bkd.be.ch/de/start/themen/berufliche-orientierung/weichen-stellen/stellwerk-8-und-9.html">Quelle</a>). Die Kosten für Stellwerk 8 und 9 in Deutsch und Mathematik übernimmt dabei der Steuerzahler.</p>
+<p>Im Gegensatz zu anderen Tests ist der Stellwerktest <em>adaptiv</em>, das heisst, die Aufgaben passen sich der Güte der letzen Lösung an.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tipp
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Beispielaufgaben sind verfügbar auf <a href="https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4">ihrer Webseite</a>.</p>
+</div>
+</div>
+</section>
+</section>
+<section id="kantonale-tests" class="level1">
+<h1>Kantonale Tests</h1>
+<p>Auf <strong>kantonaler</strong> Ebene gibt es gewisse Prüfungen, welche ebenfalls als standardisiert bezeichnet werden können. Sie werden jährlich durchgeführt und messen kantonsweit die gleichen Standards.</p>
+<section id="anfang-sekundarstufe-1" class="level2">
+<h2 class="anchored" data-anchor-id="anfang-sekundarstufe-1">Anfang Sekundarstufe 1</h2>
+<p>Die <a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-prim-sek-i-kontrollpruefung.html">Übertritt PRIM - Sek I Kontrollprüfungen</a> ist ein solches Beispiel. Das <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/ETVJKe4XX45GmoWGze8pq6MB4lLQXPt7U9aqCshkvrVUEQ?e=3CJbXt">Monitoring Kontrollprüfungen 2023</a> gibt hier Auskunft über die Resultate. Der <a href="https://phbern365.sharepoint.com/:b:/s/IS1_Z_FachteamMathematik/EXiCoKrAXTlKj5-TaomEti0B2MoqY4YFD-Mn3ScFbtcD5g?e=wsclIZ">Referenzrahmen Mathematik</a> gibt dabei eine genauere Auskunft über die erreichenden Kompetenzen Ende 6. Klasse, bzw. welche Kompetenzen von Primarschülern in der 7. Klasse erwartet werden können.</p>
+<p>Da es mit dem Lehrplan21 eine gewisse Standardisierung (Homegenisierung) der obligatorischen Schulzeit gibt, sind die Daten des Bundesamts für Statistik auch vergleichbar.</p>
+</section>
+<section id="ende-der-sekundarstufe-1" class="level2">
+<h2 class="anchored" data-anchor-id="ende-der-sekundarstufe-1">Ende der Sekundarstufe 1</h2>
+<p><a href="https://www.akvb-unterricht.bkd.be.ch/de/start/unterricht/beurteilung-uebertritte/uebertritt-sek-i-sek-ii.html">Übertritt Sek I - Sek II</a> - <a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/bildungsindikatoren/themen/bildungserfolg/maturitaetsquote.html">BFS - Maturitätsquote</a></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tipp
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Alle vergangen Tests sind online verfügbar auf der Webseite der BKD, sowohl für <a href="https://www.bkd.be.ch/de/start/themen/bildung-im-kanton-bern/mittelschulen/gymnasium/aufnahmeverfahren-gymnasium/aufgaben-und-loesungen-aufnahmepruefungen-gymnasium.html">GYM 1</a> als auch für <a href="https://www.bkd.be.ch/de/start/themen/bildung-im-kanton-bern/mittelschulen/fachmittelschulen/aufnahmeverfahren/aufgaben-und-loesungen-aufnahmepruefungen-fachmittelschulen.html">die FMS Übertrittsprüfung</a>.</p>
+</div>
+</div>
+<hr>
 <ul>
 <li><p><a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/gleichstellun-frau-mann/bildung/bildungsstand.assetdetail.24485156.html">BFS - Selektion auf der Sekundarstufe I</a></p></li>
 <li><p><a href="https://www.bfs.admin.ch/bfs/de/home/statistiken/wirtschaftliche-soziale-situation-bevoelkerung/gleichstellung-frau-mann/loehne/kompetenzniveau-bildung-berufliche-stellung.html">BFS - Löhne nach Kompetenzniveau, Bildung und beruflicher Stellung</a></p></li>
 <li><p><a href="https://www.derbund.ch/die-ungerechtigkeit-ist-in-bern-eher-groesser-als-in-zuerich-325562265525">Artikel: der Bund</a></p></li>
-<li></li>
 </ul>
 <p>Weitere Dokumente:</p>
 <ul>
@@ -237,6 +362,7 @@ div.csl-indent {
 
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -328,7 +454,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
