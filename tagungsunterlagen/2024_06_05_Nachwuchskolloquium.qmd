@@ -122,10 +122,9 @@ $$n=173$$
 ## Leitfrage
 
 <br>
-
+<br>
 
 Is the 4F-model flipped the right way?
-
 
 ## Untersuchungsdesign
 
@@ -152,6 +151,13 @@ Is the 4F-model flipped the right way?
 
 
 [synchron]{style="color: #1c87ce"}; [asynchron]{style="text-decoration: underline;color: #9478b6"}
+
+## Forschungsfragen
+
+1. Students in the 4F-model score higher in **engagement** than the alternative model.
+2. Students in the 4F-model score higher on (a) **procedural fluency** and (b) **concept knowledge** than the alternative model.
+
+
 
 ## Untersuchungsdesign
 

@@ -3061,7 +3061,7 @@
     "href": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#leitfrage",
     "title": "Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen",
     "section": "Leitfrage",
-    "text": "Leitfrage\n\nIs the 4F-model flipped the right way?"
+    "text": "Leitfrage\n \nIs the 4F-model flipped the right way?"
   },
   {
     "objectID": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#productive-failure",
@@ -3089,7 +3089,7 @@
     "href": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#eigene-forschungsschwerpunkte",
     "title": "Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen",
     "section": "Eigene Forschungsschwerpunkte",
-    "text": "Eigene Forschungsschwerpunkte\n\nFlipped Classroom Method\nPhasenmodell\nAufgaben mit mehreren representations and solution methods\nEmpirische Forschung\n\n\nrepresentations and solution methods: (vgl. Kapur, 2014, S. 49)"
+    "text": "Eigene Forschungsschwerpunkte\n\nFlipped Classroom Methode\nPhasenmodell\nAufgaben mit mehreren representations and solution methods\nEmpirische Forschung\n\n\nrepresentations and solution methods: (vgl. Kapur, 2014, S. 49)"
   },
   {
     "objectID": "lerngelegenheiten/LG_mikroplanung.html",
@@ -3124,5 +3124,19 @@
     "crumbs": [
       "Semesterübersicht"
     ]
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#bildungskontext",
+    "href": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#bildungskontext",
+    "title": "Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen",
+    "section": "Bildungskontext",
+    "text": "Bildungskontext\nSchweiz, geprägt vom Kantönligeist und von …\nPhasenmodellen: PADUA, AVIVA, KAKFA und SAMBA, …\n\nPADUA: (Aebli, 1983), AVIVA: (Städeli & Maurer, 2020), KAFKA und SAMBA: (Reusser 1999 nach Leuchter, 2009)\n\nBerner (Mathematik-) Didaktik, geprägt von Heuristiken:\n\nSOL - Selbstorganisiertes Lernen\nReichhaltige Aufgaben\n…\n\n\nSOL: (Ammann-Tinguely & Sahli Lozano, 2020; Hilbe & Herzog, 2016); reichhaltige Aufgaben: (Eckhart, 2020; Nydegger, 2019)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#forschungsfragen",
+    "href": "tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html#forschungsfragen",
+    "title": "Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen",
+    "section": "Forschungsfragen",
+    "text": "Forschungsfragen\n\nStudents in the 4F-model score higher in engagement than the alternative model.\nStudents in the 4F-model score higher on (a) procedural fluency and (b) concept knowledge than the alternative model."
   }
 ]
