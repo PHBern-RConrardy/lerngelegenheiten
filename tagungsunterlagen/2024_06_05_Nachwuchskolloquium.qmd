@@ -4,6 +4,7 @@ subtitle: "Nachwuchskolloquium PH Heidelberg"
 format: phheidelberg-revealjs
 date: 05 06 2024
 toc-depth: 1
+slide-number: true
 author:
       - id: cori
         name: Richard Conrardy
@@ -12,209 +13,146 @@ author:
         url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
         affiliation:
           - ref: phheidelberg
+title-slide-attributes: 
+      data-background-image: "images/logo cc-by-sa.svg"
+      data-background-size: 12%
+      data-background-position: 94% 99%
 ---
 
 # Ausgangslage
 
-## Schweizer Lehrerbildung
+## Bildungslandschaft
 
-Schweiz, geprägt vom Kantönligeist und von ...
+**Schweiz**, geprägt vom *Kantönligeist* und von ...
 
-Phasenmodellen:
+Phasenmodellen: PADUA, AVIVA, KAKFA und SAMBA, ...
 
-- PADUA [vgl. @aebli_zwolf_1983]
-- AVIVA [vgl. @stadeli_aviva_2020]
-- KAKFA [vgl. @reusser__1999]
-- SAMBA [vgl. ]
+:::quelle
+PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reusser 1999  nach  @leuchter_rolle_2009]
+:::
+
+**Berner** (Mathematik-) Didaktik, geprägt von Heuristiken:
+
+- SOL - Selbstorganisiertes Lernen 
+- Reichhaltige Aufgaben 
 - ...
 
-## Berner Lehrerbildung
+:::quelle
+SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: [@eckhart_31_2020; @nydegger_reichhaltige_2019]
+:::
 
-Berner (Mathematik-) Didaktik, geprägt von Heuristiken:
+## Eigene Forschungsschwerpunkte
 
-- Selbstorganisiertes Lernen [vgl. @hilbe_selbst_2016]
-- Reichhaltige Aufgaben [@eckhart_kompetenzorientierung_2020]
-- ...
-
-## Forschungsschwerpunkte
-
-- Empirische Forschung
+- Flipped Classroom Method
 - Phasenmodell
-- Offene Aufgaben
+- Aufgaben mit mehreren *representations and solution methods*
+- Empirische Forschung
+
+:::quelle
+representations and solution methods: [vgl. @kapur_productive_2014, S.49]
+:::
 
 # 4F-Modell
 
 ## Empirische Forschung
 
-Meta-Metastudie zu flipped classrooms, $n=173$, *included in quantitative Analysis*.
+:::: {.columns}
+::: {.column width="50%"}
 
-@kapur_fail_2022
+### Studie
 
-## 4F, ein Phasenmodell
+* Meta-Metastudie 
+* *flipped classrooms*
 
-1.  [Fail]{style="color: rgb(9, 67, 114)"}
-2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-3.  [Fix]{style="color: rgb(9, 67, 114)"}
-4.  [Feed]{style="color: rgb(9, 67, 114)"}
-
-::: quelle
-Phasen von @kapur_fail_2022, Einteilung gemäss Autor
-:::
-
-::: quelle
-
-[synchron]{style="color: rgb(9, 67, 114)"}
-
-[asynchron]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
+$$n=173$$
 
 :::
+::: {.column width="50%"}
 
-Empirisch hergeleitet, jedoch (noch) nicht empirisch geprüft
+### 4F, ein Phasenmodell
 
-# Fail
+1.  [**Fail**]{}
+2.  [**Flip**]{}
+3.  [**Fix**]{}
+4.  [**Feed**]{}
 
-## Productive Failure (PF)
+:::
+::::
 
-> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts prior to instruction.
+(>1500 berücksichtigt, 173 eingeschlossen)
+
+::: quelle
+[@kapur_fail_2022, S.14]
+:::
+
+## Productive Failure
+
+> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts prior to instruction. 
 
 :::quelle
-@hartmann_productive_2022
+[@hartmann_productive_2022, S.1219]
 :::
 
-- Design in 2 **kollaborative** Phasen:
-  -   Phase 1: generation and exploration phase
-  -   Phase 2: consolidation phase
+#### Design in 2 Phasen:
+
+-   Phase 1: *generation and exploration phase*
+-   Phase 2: *consolidation phase*
 
 ::: quelle
 [@kapur_designing_2012, S.49]
 :::
 
-## Weshalb kollaborativ? 
+## Flipped Classroom
 
-### individuell
-
-* conceptual knowledge: $p<0.001$, $\eta^2=0.26$
-
-:::quelle
-@hartmann_examples_2020
-:::
-
-* conceptual understanding: $p<0.001$, $d = 2.00$
-* transfer $p<0.001$, $d=1.52$
-
-:::quelle
-@kapur_productive_2014
-:::
-
-### Unterschied kollaborativ - individuell
-
-* Sekundarklassen (quasi-experimentell): $p = 0.437$
-
-::: quelle
-@brand_students_2023
-:::
-
-# Flip
-
-## Clipped Classroom
-
-> set of pedagogical approaches that:
->
-> (1) move most information-transmission teaching out of class
->
-> (2) use class time for learning activities that are active and social and
->
-> (3) require students to complete pre- and/or post-class activities to fully benefit from in-class work.
+> set of pedagogical approaches that: (1) move most information-transmission teaching **out of class**; (2) use class time for learning activities that are **active and social** and; (3) require students to complete **pre-** and/or post-**class activities** to fully benefit from in-class work.
 >
 > ::: quelle
-> @abeysekera_motivation_2015
+> [@abeysekera_motivation_2015, S.3]
 > :::
 
-## Flipped Classroom Method (FCM)
-
-* Design in 2 Phasen:
-  * learn basic content online and prior to class
-  * in-class time to clarify students’ understandings [...] enable students to engage deeply [...]
+#### Design in 2 Phasen:
+* Phase 1: *learn basic content online and prior to class*
+* Phase 2: *in-class time to clarify students’ understandings [...] enable students to engage deeply [...]*
 
 ::: quelle
-@kapur_fail_2022
+[@kapur_fail_2022, S.1]
 :::
 
-## Key findings
-
-1.  quality of implementation \[...\] not consistent
-2.  greatest impact \[...\] in-class included a lecture
-3.  effects on learning \[...\] due to active learning
-4.  problem-solving prior to a lecture \[...\] can be effective
-
-::: quelle
-@kapur_fail_2022
-:::
-
-# Leitfrage
-
-## Schnittstelle Fail - Flip
-
-1.  [Fail]{style="color: rgb(9, 67, 114)"}
-2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11); font-weight: bold;"}
-3.  [Fix]{style="color: rgb(9, 67, 114)"}
-4.  [Feed]{style="color: rgb(9, 67, 114)"}
-
-::: quelle
-Phasen von @kapur_fail_2022, Einteilung gemäss Autor
-:::
-
-::: quelle
-[synchron]{style="color: rgb(9, 67, 114)"}
-
-[asynchron]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-:::
-
+# Leitfrage & Forschungsdesign
 
 ## Leitfrage
 
 <br>
-<br>
+
 
 Is the 4F-model flipped the right way?
 
-## 
+
+## Untersuchungsdesign
 
 :::: {.columns}
 ::: {.column width="40%"}
 ### 4F-Modell
 
-1.  [Fail]{style="color: rgb(9, 67, 114)"}
-2.  [Flip]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-3.  [Fix]{style="color: rgb(9, 67, 114)"}
-4.  [Feed]{style="color: rgb(9, 67, 114)"}
+1.  [**Fail**]{style="color: #1c87ce"}
+2.  [**Flip**]{style="text-decoration: underline;color: #9478b6"}
+3.  [**Fix**]{style="color: #1c87ce"}
+4.  [**Feed**]{style="color: #1c87ce"}
 :::
 
 ::: {.column width="60%"}
 ### Alternativmodell
 
-1.  [Fail (flipped)]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-2.  [Instruct]{style="color: rgb(9, 67, 114)"}
-3.  [Fix]{style="color: rgb(9, 67, 114)"}
-4.  [Feed]{style="color: rgb(9, 67, 114)"}
+1.  [**Fail (Flipped)**]{style="text-decoration: underline;color: #9478b6"}
+2.  [**Instruct**]{style="color: #1c87ce"}
+3.  [**Fix**]{style="color: #1c87ce"}
+4.  [**Feed**]{style="color: #1c87ce"}
 :::
 ::::
 
 
-::: quelle
-[synchron]{style="color: rgb(9, 67, 114)"}
 
-[asynchron]{style="text-decoration: underline;color: rgb(255, 197, 11)"}
-:::
-
-
-# Experiment
-
-## Eckdaten
-
-* 200+ Lernende
-* 10+ Klassen
-* Experimentell
+[synchron]{style="color: #1c87ce"}; [asynchron]{style="text-decoration: underline;color: #9478b6"}
 
 ## Untersuchungsdesign
 
@@ -256,9 +194,6 @@ Klasse wird zusammen unterrichtet.
 | 5    | mental effort | mental effort |
 | 15   | Posttest      | Posttest      |
 
-## Forschungsfragen und Hypothesen
 
-1.  Students in the 4F-model score higher in engagement than the non-flipped model.
-2.  Students in the 4F-model score higher on (a) procedural fluency and (b) concept knowledge than the alternative model.
 
 ## Bibliographie {.unlisted .scrollable}

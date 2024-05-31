@@ -131,6 +131,7 @@ format:
     code-line-numbers: true
     fig-align: center
     linkcolor: "#AC0101"
+    date: 01/01/2024
       
   revealjs: # Einträge nur für Präsentationen
     toc: false
@@ -200,4 +201,3 @@ citation:
   URL: https://phbern-rconrardy.github.io/lerngelegenheiten/
   publisher: University of Teacher Education Bern 
 appendix-cite-as: display
-date: 01/01/2024

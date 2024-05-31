@@ -146,9 +146,9 @@ $font-family-sans-serif: sans-serif;
 }
 
 main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-link),
-.reveal a:not(.knopf) {
+.reveal a:not(.knopf):not(.quarto-title-author) {
   color: $link-color;
-  text-decoration: none;
+  text-decoration: none!important;
   font-weight: 700;
 
   &:hover {
@@ -252,7 +252,7 @@ td {
 
 .quelle {
   text-align: right;
-  font-size: 0.6rem;
+  font-size: 0.85rem;
   font-style: normal; 
   color: $schwarz3;
   display: block;
@@ -303,6 +303,11 @@ color: $titelfarbe!important;
 
 .agenda-active {
   color: $bordeaux;
+}
+
+.agenda-heading {
+  @extend h1;
+  font-size: 2em!important;
 }
 
 
