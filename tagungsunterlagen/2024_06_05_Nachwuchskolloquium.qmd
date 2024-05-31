@@ -4,7 +4,6 @@ subtitle: "Nachwuchskolloquium PH Heidelberg"
 format: phheidelberg-revealjs
 date: 05 06 2024
 toc-depth: 1
-slide-number: true
 author:
       - id: cori
         name: Richard Conrardy
