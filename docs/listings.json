@@ -4,6 +4,7 @@
     "items": [
       "/lerngelegenheiten/LG_standtest.html",
       "/lerngelegenheiten/LG_datenschutz.html",
+      "/lerngelegenheiten/LG_mikroplanungmath.html",
       "/lerngelegenheiten/LG_summmath.html",
       "/tagungsunterlagen/2024_06_05_Nachwuchskolloquium.html",
       "/tagungsunterlagen/2024_05_07_CAS_BKB_MA.html",
@@ -21,9 +22,6 @@
       "/lernmodule/LM_mikromath_01.html",
       "/lernmodule/LM_mikromath_02.html",
       "/lernmodule/LM_mikromath_03.html",
-      "/lernmodule/LM_mikromath_04.html",
-      "/lernmodule/LM_mikromath_05.html",
-      "/lernmodule/LM_mikromath_06.html",
       "/lernmodule/LM_standtestmath_01.html"
     ]
   }

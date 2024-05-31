@@ -59,11 +59,9 @@ website:  # Menüs für die Webseite
           text: Beurteilungskonzept
     - title: "Mikroplanung Mathematik"
       contents:
-        - href: lerngelegenheiten/LG_mikroplanung_math/LG_mikroplanung.qmd
+        - href: lerngelegenheiten/LG_mikroplanungmath.qmd
           text: Semesterübersicht
-        - section: Lernmodule
-          contents:
-            auto: lerngelegenheiten/LG_mikroplanung_math/Lernmodul*
+        - auto: "lernmodule/LM_mikromath*"
     - title: "Verstehensorientiert prüfen in Zeiten von KI"
       contents:
         - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd

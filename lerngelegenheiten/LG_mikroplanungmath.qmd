@@ -7,7 +7,7 @@ categories:
 editor: 
   markdown: 
     wrap: 72
-draft: true
+draft: false
 ---
 
 ::: {style="text-align: center;"}
@@ -120,7 +120,3 @@ Einsatz differenzierter Unterrichtsmethoden
 Theorie und Konzepte vermitteln Fallstudien und Praxisbeispiele
 Gruppenarbeit und Diskussionen Praktische Übungen Gastvorträge und
 Experteninterviews Feedback und Reflexion Technologieintegration
-
-# Organisation
-
-AVIVA-Modell LUKAS-Modell PADUA-Modell

@@ -20,7 +20,7 @@ title-slide-attributes:
 
 # Ausgangslage
 
-## Bildungslandschaft
+## Bildungskontext
 
 **Schweiz**, geprägt vom *Kantönligeist* und von ...
 
@@ -42,7 +42,7 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 ## Eigene Forschungsschwerpunkte
 
-- Flipped Classroom Method
+- Flipped Classroom Methode
 - Phasenmodell
 - Aufgaben mit mehreren *representations and solution methods*
 - Empirische Forschung

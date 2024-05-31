@@ -266,7 +266,6 @@ td {
 .quarto-title {
   @extend .page-full !optional;
   /* Additional styles for the quarto-title class */
-  margin-left: 4%;
   color:$titelfarbe;
   grid-column: body-content-start/body-content-end;
 }

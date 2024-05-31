@@ -151,7 +151,6 @@ div.csl-indent {
   <ul class="collapse">
   <li><a href="#vorbereitungsauftrag-3.-kurstag" id="toc-vorbereitungsauftrag-3.-kurstag" class="nav-link" data-scroll-target="#vorbereitungsauftrag-3.-kurstag">Vorbereitungsauftrag 3. Kurstag</a></li>
   </ul></li>
-  <li><a href="#organisation" id="toc-organisation" class="nav-link" data-scroll-target="#organisation">Organisation</a></li>
   </ul>
 </nav>
     </div>
@@ -320,14 +319,10 @@ Open Educational Resources (OER)
 <h2 class="anchored" data-anchor-id="vorbereitungsauftrag-3.-kurstag">Vorbereitungsauftrag 3. Kurstag</h2>
 <p>Anpassung an die Bedürfnisse der Schüler Klare Lernziele und Standards Strukturierter Unterrichtsverlauf Berücksichtigung von Schülerfeedback Einsatz differenzierter Unterrichtsmethoden</p>
 <p>Theorie und Konzepte vermitteln Fallstudien und Praxisbeispiele Gruppenarbeit und Diskussionen Praktische Übungen Gastvorträge und Experteninterviews Feedback und Reflexion Technologieintegration</p>
+
+
+
 </section>
-</section>
-<section id="organisation" class="level1">
-<h1>Organisation</h1>
-<p>AVIVA-Modell LUKAS-Modell PADUA-Modell</p>
-
-
-
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
@@ -443,7 +438,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
