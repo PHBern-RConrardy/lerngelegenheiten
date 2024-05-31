@@ -14,9 +14,9 @@ author:
         affiliation:
           - ref: phheidelberg
 title-slide-attributes: 
-      data-background-image: "images/logo cc-by-sa.svg"
-      data-background-size: 12%
-      data-background-position: 94% 99%
+      data-background-image: "https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg"
+      data-background-size: 16%
+      data-background-position: 98% 5%
 ---
 
 # Ausgangslage
