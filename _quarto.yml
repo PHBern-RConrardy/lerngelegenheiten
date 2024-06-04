@@ -38,25 +38,23 @@ website:  # Menüs für die Webseite
       style: "docked"
       background: none
       foreground: none
-      collapse-level: 5
       contents:
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/LG_grundlagen_der_beurteilung.qmd
+        - href: lerngelegenheiten/LG_esw-beurteilung/LG_grundbeurteilung.qmd
           text: Semesterübersicht
-        - auto: "/lernmodule/LM_grundl-beurteilung*"
-        - section: Lernmodule
-          contents:
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_01.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_02.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_03.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_04.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_05.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_06.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_07.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_08.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_09.qmd
-          - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Lernmodul_10.qmd
-        - href: lerngelegenheiten/LG_ESW_grundlagen_der_beurteilung/Auftrag_Beurteilungskonzept.qmd
-          text: Beurteilungskonzept
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_01.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_02.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_03.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_04.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_05.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_06.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_07.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_08.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_09.qmd
+          - href: lerngelegenheiten/LG_esw-beurteilung/LM_10.qmd
+        - href: lerngelegenheiten/LG_esw-beurteilung/Auftrag_Beurteilungskonzept.qmd
+          text: Auftrag
     - title: "Mikroplanung Mathematik"
       contents:
         - href: lerngelegenheiten/LG_mikroplanungmath.qmd
@@ -64,17 +62,10 @@ website:  # Menüs für die Webseite
         - auto: "lernmodule/LM_mikromath*"
     - title: "Verstehensorientiert prüfen in Zeiten von KI"
       contents:
-        - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/LG_math_ki.qmd
+        - href: lerngelegenheiten/LG_mathpython.qmd
           text: Semesterübersicht
-        - section: Lernmodule
-          contents:
-            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_01.qmd
-            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_02.qmd
-            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_03.qmd
-            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_04.qmd
-            - lerngelegenheiten/LG_verstehensorientiert_pruefen/Lernmodul_05.qmd
-                    
-        - href: lerngelegenheiten/LG_verstehensorientiert_pruefen/aufgabensammlung.qmd
+        - auto: "/lernmodule/LM_mathpython*"
+        - href: lerngelegenheiten/LG_mathpython/aufgabensammlung.qmd
     - title: "Learning Analytics"
       contents:
         - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd
@@ -151,7 +142,7 @@ format:
       data-background-image: "images/logo cc-by-sa.svg"
       data-background-size: 12%
       data-background-position: 94% 99%
-    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy, Promovierender"
+    footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy"
     
 
     

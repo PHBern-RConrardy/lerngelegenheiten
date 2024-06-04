@@ -1,0 +1,53 @@
+---
+format: html
+title: Sprachsensibler Mathematikunterricht
+copyright: >
+  Dieses Lernmodul basiert auf dem Buch "Sprachbildung in der Lehramtsausbildung Mathematik" von Florian Schacht und Susanne Guckelsberger. 
+  Dieses Buch steht unter einer CC BY 4.0 Lizenz: http://creativecommons.org/licenses/by/4.0/deed.de
+---
+
+:::: {.callout-note}
+
+## Lernziele
+
+Wir 
+
+* strukturieren fachliche Inhalte ebenso korrekt wie zielgruppengerecht und formulieren entsprechende Lernerwartungen.
+* entwickeln sprachsensible Aufgaben.
+
+:::quelle
+[@phbern_leitfaden_2022, S.6]
+:::
+::::
+
+# Reflexion eigene Schulzeit
+
+Welche Sprachen, bzw. Sprachebenen wurden bei dir in der Schule benutzt?
+
+Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?
+
+Lesen Sie @pyers_language_2009. Ausgehend von diesem Artikel, argumentieren Sie in wiefern Sprache notwendig ist, um Schulmathematik zu verstehen.
+
+$$\lim_{x \to x_0} f(x) = L \iff \forall \epsilon > 0 \, \exists \delta > 0 \, \text{so dass} \, 0 < |x - x_0| < \delta \implies |f(x) - L| < \epsilon.$$
+
+## Checkliste zur Entlastung von Texten
+
+@abshagen_praxishandbuch_2015 beschreibt in 
+
+> * Kontext aus der Lebenswelt der SuS wählen. 
+> * Kurze Sätze bilden, Nebensätze und Verschachtelungen vermeiden' 
+> * Verben im Aktiv nutzen statt unpersönlicher oder abstrakter Ausdrücke (du rechnest "')' 
+> * Texte durch Absätze vorstrukturieren' Wichtiges farbig oder fett gedruckt hervorheben' 
+> * Genitiv und Partizi pialkonstruktionen vermeiden' 
+> * Wenig Bezugsformen verwenden, stattdessen Wiederholungen wählen' 
+> * Bei Fachwörtern oder schwierigen Wörtern Erklärungen in Klammern oder als Fußnoten mitliefern' 
+> * Wenig zusammengesetzte Wöfter verwenden' 
+> * Bei Arbeitsaufträgen bereits bekannte Operatoren einsetzen' Unterstützung durch eine informative Figur anbieten'
+>
+:::quelle
+[@abshagen_praxishandbuch_2015, S.18]
+:::
+
+# Sprachsensible Aufgaben
+
+@schacht_sprachbildung_2022

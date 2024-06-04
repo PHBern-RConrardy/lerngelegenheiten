@@ -23,6 +23,7 @@ citation:
     - Florian Keller
     - Richard Conrardy
 date: 05/14/2024
+draft: true
 ---
 
 # Organisatorisches
@@ -36,7 +37,7 @@ date: 05/14/2024
 # Semesterüberblick
 
 | Teil | Thema                               |                         Vorbereitung                         |                          |
-|:----:|:------------------------------------|:------------------------------------------------------------:|:------------------------:|
+|:------------:|:---------------|:---------------------------:|:------------:|
 |  1   | Einführung, Gruppenbildung          | [Forschungsethik](Lernmodul_01), [Open Access](Lernmodul_02) | [Slides](Slides_01.html) |
 |  2   | Festlegung der Fragestellungen      |                                                              |                          |
 |  3   | Erstellung der Erhebungsinstrumente |                                                              |                          |

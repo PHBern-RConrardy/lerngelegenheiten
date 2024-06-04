@@ -356,7 +356,6 @@ Richard Conrardy
     </div>
 </div>
 
-  <p class="date">01.01.2024</p>
 </section>
 <section id="offene-fragen-zu-den-vorbereitungsaufträgen" class="title-slide slide level1 agenda-slide center scrollable">
 <h1>Offene Fragen zu den Vorbereitungsaufträgen</h1>
@@ -695,7 +694,7 @@ Richard Conrardy
       });
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+          var filterRegex = new RegExp('/' + window.location.host + '/');
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }

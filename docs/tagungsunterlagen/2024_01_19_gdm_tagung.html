@@ -584,7 +584,7 @@ Richard François Conrardy
 <p><strong>Probiert eigene Ideen aus.</strong></p>
 <div class="cell">
 <div class="cell-output-display">
-<div class="countdown" id="timer_1358adfe" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
+<div class="countdown" id="timer_ff2670c7" data-update-every="1" tabindex="0" style="top:0;right:0;margin:0%;font-size:2em;">
 <div class="countdown-controls"><button class="countdown-bump-down">−</button><button class="countdown-bump-up">+</button></div>
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
@@ -637,7 +637,7 @@ Richard François Conrardy
 <p>https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13</p>
 <div id="qrcode" class="qrcode"></div>
 <script type="text/javascript">
-var qrcode = new QRCode("qrcode", {"height":"300","colorLight":"#ffffff","width":"300","colorDark":"#000000","text":"https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13"});
+var qrcode = new QRCode("qrcode", {"height":"300","colorLight":"#ffffff","colorDark":"#000000","text":"https://phbern.padlet.org/richardconrardy/workshop-gdm-f7fukgt5ggad1j13","width":"300"});
 </script>
     
 </section>
@@ -1033,7 +1033,7 @@ OpenAI. (2024). <em>Terms of use</em>. <a href="https://openai.com/policies/term
       });
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
-          var filterRegex = new RegExp("https:\/\/PHBern-RConrardy\.github\.io\/lerngelegenheiten\/");
+          var filterRegex = new RegExp('/' + window.location.host + '/');
         var isInternal = (href) => {
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
