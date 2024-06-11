@@ -28,7 +28,26 @@ Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?
 
 Lesen Sie @pyers_language_2009. Ausgehend von diesem Artikel, argumentieren Sie in wiefern Sprache notwendig ist, um Schulmathematik zu verstehen.
 
-$$\lim_{x \to x_0} f(x) = L \iff \forall \epsilon > 0 \, \exists \delta > 0 \, \text{so dass} \, 0 < |x - x_0| < \delta \implies |f(x) - L| < \epsilon.$$
+Übersetzen Sie folgende Aussage ins Deutsche. 
+$$\lim_{x \to \infty} f(x) = L \quad \Leftrightarrow \quad \forall \epsilon > 0 \; \exists M > 0 \; \vert \; \forall x > M \; \left| f(x) - L \right| < \epsilon.$$
+
+Übersetzen Sie folgenden Linuxbefehl ins Deutsche: 
+
+```bash
+rm -rf /
+```
+
+## Sprachsensibler Fachunterricht
+
+Sprachsensibler Fachunterricht (SFU) geht auf die Arbeit von Leisen zurück  und war ursprünglich als Handbuch für Deutsch im Fachunterricht (DFU) für Deutsch als "Fremd- umd Fachsprache an deutschen Auslandschulen" gedacht, wurden jedoch später für Deutsch als Zweitsprache genutzt [vgl. @rottger_sprachsensibler_2019]. 
+
+
+> Der Begriff *sprachsensibler Unterricht* steht für unterschiedliche Unterrichtskonzepte, die Sprache bewusst als Mittel des Denkens und Kommunizierens einsetzen, um fachliches und sprachliches Lernen zu verknüpfen. [@giesau_basiswissen_2018, CC BY-ND 4.0]
+
+Zwischen Sprachbildung, Sprachförderung und sprachsensiblem Unterricht wird nicht durchgängig unterschieden. Ähnlich verhält es sich mit *sprachbewusst* und *sprachaufmerksamem* Unterricht. “Was unübersichtlich klingt, *ist* in der fachlichen Diskussion auch so,” [@rottger_sprachsensibler_2019, S. 91]
+
+Die Dokumente zu SFU sind mehrheitlich theoretisch oder praxisorientiert[@rottger_sprachsensibler_2019]. Nach zahlreichen SFU-Projekten hat sich der Abstand zwischen Lernenden mit und ohne Migrationshintergrund nicht reduziert. Empirische Evidenz für den Erfolg von Massnahmen scheint noch nicht vorzuliegen. 
+
 
 ## Checkliste zur Entlastung von Texten
 

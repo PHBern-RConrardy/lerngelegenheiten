@@ -21,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 /* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
@@ -151,6 +185,7 @@ window.Quarto = {
   <ul class="collapse">
   <li><a href="#reflexion-eigene-schulzeit" id="toc-reflexion-eigene-schulzeit" class="nav-link active" data-scroll-target="#reflexion-eigene-schulzeit">Reflexion eigene Schulzeit</a>
   <ul class="collapse">
+  <li><a href="#sprachsensibler-fachunterricht" id="toc-sprachsensibler-fachunterricht" class="nav-link" data-scroll-target="#sprachsensibler-fachunterricht">Sprachsensibler Fachunterricht</a></li>
   <li><a href="#checkliste-zur-entlastung-von-texten" id="toc-checkliste-zur-entlastung-von-texten" class="nav-link" data-scroll-target="#checkliste-zur-entlastung-von-texten">Checkliste zur Entlastung von Texten</a></li>
   </ul></li>
   <li><a href="#sprachsensible-aufgaben" id="toc-sprachsensible-aufgaben" class="nav-link" data-scroll-target="#sprachsensible-aufgaben">Sprachsensible Aufgaben</a></li>
@@ -224,8 +259,19 @@ Lernziele
 <h1>Reflexion eigene Schulzeit</h1>
 <p>Welche Sprachen, bzw. Sprachebenen wurden bei dir in der Schule benutzt?</p>
 <p>Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?</p>
-<p>Lesen Sie <span class="citation" data-cites="pyers_language_2009">(<a href="#ref-pyers_language_2009" role="doc-biblioref"><strong>pyers_language_2009?</strong></a>)</span>. Ausgehend von diesem Artikel, argumentieren Sie in wiefern Sprache notwendig ist, um Schulmathematik zu verstehen.</p>
-<p><span class="math display">\[\lim_{x \to x_0} f(x) = L \iff \forall \epsilon &gt; 0 \, \exists \delta &gt; 0 \, \text{so dass} \, 0 &lt; |x - x_0| &lt; \delta \implies |f(x) - L| &lt; \epsilon.\]</span></p>
+<p>Lesen Sie <span class="citation" data-cites="pyers_language_2009">Pyers &amp; Senghas (<a href="#ref-pyers_language_2009" role="doc-biblioref">2009</a>)</span>. Ausgehend von diesem Artikel, argumentieren Sie in wiefern Sprache notwendig ist, um Schulmathematik zu verstehen.</p>
+<p>Übersetzen Sie folgende Aussage ins Deutsche. <span class="math display">\[\lim_{x \to \infty} f(x) = L \quad \Leftrightarrow \quad \forall \epsilon &gt; 0 \; \exists M &gt; 0 \; \vert \; \forall x &gt; M \; \left| f(x) - L \right| &lt; \epsilon.\]</span></p>
+<p>Übersetzen Sie folgenden Linuxbefehl ins Deutsche:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">rm</span> <span class="at">-rf</span> /</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="sprachsensibler-fachunterricht" class="level2">
+<h2 class="anchored" data-anchor-id="sprachsensibler-fachunterricht">Sprachsensibler Fachunterricht</h2>
+<p>Sprachsensibler Fachunterricht (SFU) geht auf die Arbeit von Leisen zurück und war ursprünglich als Handbuch für Deutsch im Fachunterricht (DFU) für Deutsch als “Fremd- umd Fachsprache an deutschen Auslandschulen” gedacht, wurden jedoch später für Deutsch als Zweitsprache genutzt <span class="citation" data-cites="rottger_sprachsensibler_2019">(vgl. <a href="#ref-rottger_sprachsensibler_2019" role="doc-biblioref">Röttger, 2019</a>)</span>.</p>
+<blockquote class="blockquote">
+<p>Der Begriff <em>sprachsensibler Unterricht</em> steht für unterschiedliche Unterrichtskonzepte, die Sprache bewusst als Mittel des Denkens und Kommunizierens einsetzen, um fachliches und sprachliches Lernen zu verknüpfen. <span class="citation" data-cites="giesau_basiswissen_2018">(<a href="#ref-giesau_basiswissen_2018" role="doc-biblioref">Giesau &amp; Woerfel, 2018</a>, CC BY-ND 4.0)</span></p>
+</blockquote>
+<p>Zwischen Sprachbildung, Sprachförderung und sprachsensiblem Unterricht wird nicht durchgängig unterschieden. Ähnlich verhält es sich mit <em>sprachbewusst</em> und <em>sprachaufmerksamem</em> Unterricht. “Was unübersichtlich klingt, <em>ist</em> in der fachlichen Diskussion auch so,” <span class="citation" data-cites="rottger_sprachsensibler_2019">(<a href="#ref-rottger_sprachsensibler_2019" role="doc-biblioref">Röttger, 2019, S. 91</a>)</span></p>
+<p>Die Dokumente zu SFU sind mehrheitlich theoretisch oder praxisorientiert<span class="citation" data-cites="rottger_sprachsensibler_2019">(<a href="#ref-rottger_sprachsensibler_2019" role="doc-biblioref">Röttger, 2019</a>)</span>. Nach zahlreichen SFU-Projekten hat sich der Abstand zwischen Lernenden mit und ohne Migrationshintergrund nicht reduziert. Empirische Evidenz für den Erfolg von Massnahmen scheint noch nicht vorzuliegen.</p>
+</section>
 <section id="checkliste-zur-entlastung-von-texten" class="level2">
 <h2 class="anchored" data-anchor-id="checkliste-zur-entlastung-von-texten">Checkliste zur Entlastung von Texten</h2>
 <p><span class="citation" data-cites="abshagen_praxishandbuch_2015">Abshagen (<a href="#ref-abshagen_praxishandbuch_2015" role="doc-biblioref">2015</a>)</span> beschreibt in</p>
@@ -259,8 +305,17 @@ Lernziele
 <div id="ref-abshagen_praxishandbuch_2015" class="csl-entry" role="listitem">
 Abshagen, M. (2015). <em>Praxishandbuch Sprachbildung Mathematik: sprachsensibel unterrichten - Sprache fördern</em> (1. Auflage). Ernst Klett Sprachen.
 </div>
+<div id="ref-giesau_basiswissen_2018" class="csl-entry" role="listitem">
+Giesau, M., &amp; Woerfel, T. (2018). <em><span>BASISWISSEN</span>: Sprachsensibler Unterricht</em>. <a href="https://mercator-institut.uni-koeln.de/sites/mercator/user_upload/PDF/05_Publikationen_und_Material/201124_Basiswissen_SprachsensiblerUnterricht_CC.pdf">https://mercator-institut.uni-koeln.de/sites/mercator/user_upload/PDF/05_Publikationen_und_Material/201124_Basiswissen_SprachsensiblerUnterricht_CC.pdf</a>
+</div>
 <div id="ref-phbern_leitfaden_2022" class="csl-entry" role="listitem">
 PHBern. (2022). <em><span>LEITFADEN</span> <span>FÜR</span> <span>DAS</span> <span>LABELING</span> <span>DER</span> <span>QUERSCHNITTSTHEMEN</span></em>. <span>PHBern</span>. <a href="https://ilias.phbern.ch/goto_phbern_file_1783576_download.html">https://ilias.phbern.ch/goto_phbern_file_1783576_download.html</a>
+</div>
+<div id="ref-pyers_language_2009" class="csl-entry" role="listitem">
+Pyers, J. E., &amp; Senghas, A. (2009). Language Promotes False-Belief Understanding. <em>Psychological science</em>, <em>20</em>(7), 805–812. <a href="https://doi.org/10.1111/j.1467-9280.2009.02377.x">https://doi.org/10.1111/j.1467-9280.2009.02377.x</a>
+</div>
+<div id="ref-rottger_sprachsensibler_2019" class="csl-entry" role="listitem">
+Röttger, E. (2019). Sprachsensibler Fachunterricht: Versuch einer Standortbestimmung. <em>Zeitschrift für Interkulturellen Fremdsprachenunterricht</em>, <em>24</em>(1). <a href="https://zif.tujournals.ulb.tu-darmstadt.de/article/id/3177/">https://zif.tujournals.ulb.tu-darmstadt.de/article/id/3177/</a>
 </div>
 <div id="ref-schacht_sprachbildung_2022" class="csl-entry" role="listitem">
 Schacht, F., &amp; Guckelsberger, S. (2022). <em>Sprachbildung in der Lehramtsausbildung Mathematik: Konzepte für eine sprachbewusste Hochschullehre</em>. Springer Berlin Heidelberg. <a href="https://doi.org/10.1007/978-3-662-63793-7">https://doi.org/10.1007/978-3-662-63793-7</a>
