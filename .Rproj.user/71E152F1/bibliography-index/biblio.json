@@ -24421,26 +24421,6 @@
         {
             "author": [
                 {
-                    "family": "Wälti",
-                    "given": "Beat"
-                }
-            ],
-            "id": "walti_jahresplanung_2021-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2021,
-                        1,
-                        3
-                    ]
-                ]
-            },
-            "title": "Jahresplanung zu mathbuch 1, 2, und 3",
-            "type": ""
-        },
-        {
-            "author": [
-                {
                     "family": "Bodenmann",
                     "given": "Neda"
                 }
@@ -25911,6 +25891,669 @@
             "title": "BASISWISSEN: Sprachsensibler unterricht",
             "title-short": "BASISWISSEN",
             "type": ""
+        },
+        {
+            "DOI": "10.3389/fpsyg.2023.1219945",
+            "ISSN": "1664-1078",
+            "URL": "https://www.frontiersin.org/articles/10.3389/fpsyg.2023.1219945/full",
+            "abstract": "As traditional handwriting is progressively being replaced by digital devices, it is essential to investigate the implications for the human brain. Brain electrical activity was recorded in 36 university students as they were handwriting visually presented words using a digital pen and typewriting the words on a keyboard. Connectivity analyses were performed on EEG data recorded with a 256-channel sensor array. When writing by hand, brain connectivity patterns were far more elaborate than when typewriting on a keyboard, as shown by widespread theta/alpha connectivity coherence patterns between network hubs and nodes in parietal and central brain regions. Existing literature indicates that connectivity patterns in these brain areas and at such frequencies are crucial for memory formation and for encoding new information and, therefore, are beneficial for learning. Our findings suggest that the spatiotemporal pattern from visual and proprioceptive information obtained through the precisely controlled hand movements when using a pen, contribute extensively to the brain’s connectivity patterns that promote learning. We urge that children, from an early age, must be exposed to handwriting activities in school to establish the neuronal connectivity patterns that provide the brain with optimal conditions for learning. Although it is vital to maintain handwriting practice at school, it is also important to keep up with continuously developing technological advances. Therefore, both teachers and students should be aware of which practice has the best learning effect in what context, for example when taking lecture notes or when writing an essay.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        12
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Van Der Weel",
+                    "given": "F. R. (Ruud)"
+                },
+                {
+                    "family": "Van Der Meer",
+                    "given": "Audrey L. H."
+                }
+            ],
+            "container-title": "Frontiers in Psychology",
+            "container-title-short": "Front. Psychol.",
+            "id": "van_der_weel_handwriting_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        1,
+                        26
+                    ]
+                ]
+            },
+            "page": "1219945",
+            "title": "Handwriting but not typewriting leads to widespread brain connectivity: A high-density EEG study with implications for the classroom",
+            "title-short": "Handwriting but not typewriting leads to widespread brain connectivity",
+            "type": "article-journal",
+            "volume": "14"
+        },
+        {
+            "DOI": "10.1007/s13138-015-0074-0",
+            "ISSN": "0173-5322, 1869-2699",
+            "URL": "http://link.springer.com/10.1007/s13138-015-0074-0",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        14
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Prediger",
+                    "given": "Susanne"
+                },
+                {
+                    "family": "Wilhelm",
+                    "given": "Nadine"
+                },
+                {
+                    "family": "Büchter",
+                    "given": "Andreas"
+                },
+                {
+                    "family": "Gürsoy",
+                    "given": "Erkan"
+                },
+                {
+                    "family": "Benholz",
+                    "given": "Claudia"
+                }
+            ],
+            "container-title": "Journal für Mathematik-Didaktik",
+            "container-title-short": "J Math Didakt",
+            "id": "prediger_sprachkompetenz_2015",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        8
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "77-104",
+            "title": "Sprachkompetenz und Mathematikleistung – Empirische Untersuchung sprachlich bedingter Hürden in den Zentralen Prüfungen 10",
+            "type": "article-journal",
+            "volume": "36"
+        },
+        {
+            "DOI": "10.1007/s11618-021-01033-4",
+            "ISSN": "1434-663X, 1862-5215",
+            "URL": "https://link.springer.com/10.1007/s11618-021-01033-4",
+            "abstract": "ZusammenfassungIm vorliegenden Beitrag werden basierend auf einem Evaluationsprojekt im Rahmen des von Bund und Ländern geförderten Programms „Bildung durch Sprache und Schrift“ (BiSSBiSS) Analysen zu Bedingungen einer wirksamen Implementation von evidenzbasierten Lesefördermaßnahmen in den schulischen Alltag am Beispiel zweier BiSSBiSS-Verbünde und einer Kontrollgruppe vorgestellt. Sowohl hinsichtlich der Implementationsstrategie (top-down vs. bottom-up) als auch im Hinblick auf das Fördermaterial (einfach vs. komplex) unterschieden sich die beiden Fördermaßnahmen deutlich voneinander. Zur Evaluation der Implementation kamen Lehrkräftebefragungen und Kompetenztestungen von Schüler*innen zum Einsatz. Zwei Stichproben von 100 bzw. 98 Lehrkräften wurden zu Begleitfaktoren der Leseförderung (Einstellungen, Selbstwirksamkeit, Wissen, Akzeptanz) und gewünschten Effekten (Wiedergabetreue, Nutzung) befragt. Im Rahmen einer Längsschnittuntersuchung an einer Stichprobe von N  = 1054 Schüler*innen wurden Entwicklungen wesentlicher Facetten der Lesekompetenz (Leseverständnis, Leseflüssigkeit, Lesestrategien, Lesemotivation) betrachtet. Die Ergebnisse zeigen zunächst, dass eine breite Nutzung und positive Effekte in den beteiligten Verbünden nicht in dem gewünschten Maße resultieren. Dabei liegen zwischen den beiden Verbünden – trotz der unterschiedlichen Fördermaßnahmen – nur marginale Unterschiede vor. Analysen der Interkorrelationsmuster zu den Implementationsmerkmalen weisen darauf hin, dass eine erfolgreiche Implementation letztlich von einer hohen Passung zwischen Merkmalen auf Seiten der Maßnahme, der Lehrkraft und der schulischen Rahmenbedingungen abhängt. Implikationen für Forschung und Praxis werden abgeleitet., AbstractBased on an evaluation project as part of the program “Bildung durch Sprache und Schrift”Bildung durch Sprache und Schrift (BiSSBiSS) funded by the German Federal Ministry of Education and Research, this study examines preconditions of effective implementation of reading skill promotion into school practice within two BiSSBiSS-groups and one control group. The two programs largely differed with respect to their implementation strategy (top-down vs. bottom-up) and complexity of the teaching material. We used teacher surveys and competence tests for students to evaluate the two programs. Two samples of 100 and 98 teachers were surveyed regarding preconditions (beliefs, self-efficacy, knowledge, acceptance) and regarding desired effects (fidelity, usage of materials). Development of students’ reading skills (reading fluency, reading comprehension, reading strategies, reading motivation) was investigated in a longitudinal study with N  = 1054 students. Results reveal few usage and positive effects within the BiSSBiSS-groups than intended. Rather, contrasts between the results for the two programs are marginal despite their conceptual differences. Analyses of intercorrelations between aspects of implementation demonstrate that successful implementation depends on the fit of characteristics of the program, the individual teacher, and specific circumstances of the school. Implications for research and practice are discussed.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Souvignier",
+                    "given": "Elmar"
+                },
+                {
+                    "family": "Zeuch",
+                    "given": "Nina"
+                },
+                {
+                    "family": "Jost",
+                    "given": "Jörg"
+                },
+                {
+                    "family": "Karstens",
+                    "given": "Fabiana"
+                },
+                {
+                    "family": "Meudt",
+                    "given": "Sarah-Ines"
+                },
+                {
+                    "family": "Schmitz",
+                    "given": "Anke"
+                }
+            ],
+            "container-title": "Zeitschrift für Erziehungswissenschaft",
+            "container-title-short": "Z Erziehungswiss",
+            "id": "souvignier_evaluation_2021",
+            "issue": "4",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        8
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "883-908",
+            "title": "Evaluation der Implementation konzeptuell unterschiedlicher Maßnahmen zur Leseförderung in der Sekundarstufe I",
+            "type": "article-journal",
+            "volume": "24"
+        },
+        {
+            "DOI": "10.4324/9781003380542",
+            "ISBN": "978-1-00-338054-2",
+            "URL": "https://www.taylorfrancis.com/books/9781003380542",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Hattie",
+                    "given": "John"
+                }
+            ],
+            "edition": "1",
+            "id": "hattie_visible_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        2,
+                        7
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "publisher": "Routledge",
+            "publisher-place": "London",
+            "title": "Visible learning: The sequel: A synthesis of over 2,100 meta-analyses relating to achievement",
+            "title-short": "Visible learning",
+            "type": "book"
+        },
+        {
+            "DOI": "10.25656/01:13921",
+            "ISSN": "0259-353X",
+            "URL": "https://www.pedocs.de/frontdoor.php?source_opus=13921",
+            "abstract": "The EDAMA framework model for reflection is presented on the basis of an understanding of reflection which sees reflection as the mental process of trying to structure or restructure. This model is supposed to provide a framework which demonstrates how reflection can basically manifest itself. Three structural elements form its skeleton: (1) five phases of reflection, (2) two directions of view as well as (3) two aspects of thinking activity. This structuring yields different domains of reflection (characterized by 15 categories of reflection) which are arranged in a non-hierarchical order. By means of the framework model with its structural elements and the categories of reflection, an elaborate understanding of reflection can be established, on the one hand. On the other hand, the model lays a basis for a more accurate analysis of reflections.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        17
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Aeppli",
+                    "given": "Jürg"
+                },
+                {
+                    "family": "Lötscher",
+                    "given": "Hanni"
+                }
+            ],
+            "container-title": "Beiträge zur Lehrerinnen- und Lehrerbildung",
+            "id": "aeppli_edama_2016-1",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "keyword": "370 Education, 370 Erziehung, Schul- und Bildungswesen, Lehrerbildung, Teacher education, Teachers’ training, Reflexionsvermögen",
+            "language": "de-DE",
+            "note": "Publisher: Schweizerische Gesellschaft für Lehrerinnen- und Lehrerbildung (SGL) : Langnau, Emmental",
+            "page": "78-97",
+            "title": "EDAMA - Ein Rahmenmodell für Reflexion",
+            "type": "article-journal",
+            "volume": "34"
+        },
+        {
+            "DOI": "10.1007/s13138-020-00159-y",
+            "ISSN": "0173-5322, 1869-2699",
+            "URL": "http://link.springer.com/10.1007/s13138-020-00159-y",
+            "abstract": "Zusammenfassung In den letzten Jahren ist die Rolle von Sprache für den Erwerb fachlicher Kompetenzen sowie die Relevanz einer durchgängigen Sprachförderung in allen Unterrichtsfächern immer deutlicher geworden. Dies war der Ausgangspunkt dafür, dass im Rahmen des Entwicklungsprogrammes BiSS bundesweit an Schulen Sprachförderung in verschiedenen Unterrichtsfächern implementiert und durch Begleitforschung evaluiert werden sollte. Das Evaluationsprojekt EvaFa untersucht dabei die mathematikspezifische Sprachförderung von Schulen aus dem BiSS-Programm. Entsprechend beschäftigt sich dieser Beitrag mit der Frage, inwiefern Schülerinnen und Schüler, die an einem sprachfördernden Mathematikunterricht teilnehmen, von einem Jahr Sprachförderung profitieren und höhere Textverstehensleistungen bzw. einen größeren Fachwortschatz aufweisen. Hierfür wurden von den Schülerinnen und Schülern eines exemplarischen Sprachförderverbundes bestehend aus acht Klassen in einem Pre-Post-Design u. a. soziodemographische Hintergrundmerkmale, sprachliche Fähigkeiten, die Verfügbarkeit von Fachwörtern, die mathematische Kompetenz, das Textaufgabenverständnis sowie die Einschätzung unterrichtlicher Aspekte längsschnittlich erhoben. Für eine Stichprobe von 133 Schülerinnen und Schüler der 5. und 6. Jahrgangsstufe werden diese Daten näher analysiert, wobei sich zum einen zeigt, dass Schülerinnen und Schüler verschiedene unterrichtliche Aspekte sehr differenziert wahrnehmen und für Veränderungen sensibel sind. Zum anderen zeigen sich beim mathematischen Textaufgabenverständnis signifikante Zuwächse zwischen den beiden Messzeitpunkten im Förderzeitraum. , Abstract In recent years it has become increasingly clear what meaning language has for the acquisition of professional competences and what relevance a continuous language promotion has in all school subjects. This was the starting point for the BiSS funding program, which implemented language support at various schools in schools across Germany, and which was to be evaluated through accompanying research. One such evaluation project was the EvaFa project. This examined the mathematics-specific language support of schools from the BiSS program. Accordingly, the present article deals with the question of to what extent students who take part in language-promoting mathematics lessons benefit from language support from one year and have higher levels of text comprehension or a larger vocabulary. For this purpose, the longitudinally collected student data from eight classes, which formed a thematically homogeneous language support cluster, were analyzed as part of a pre-post design (including socio-demographic background characteristics, language skills, the availability of technical words, mathematical competence, understanding of word problems and the assessment of teaching aspects). The analysis of the sample (133 pupils in the 5th and 6th grades) shows that pupils perceive different teaching aspects in a very differentiated manner and are quite sensitive to changes in the teaching of mathematics. In addition, the mathematical understanding of word problems shows significant increases between the two measurement times in the funding period.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Leiss",
+                    "given": "Dominik"
+                },
+                {
+                    "family": "Plath",
+                    "given": "Jennifer"
+                }
+            ],
+            "container-title": "Journal für Mathematik-Didaktik",
+            "container-title-short": "J Math Didakt",
+            "id": "leiss_im_2020",
+            "issue": "1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020,
+                        3
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "191-236",
+            "title": "„Im Mathematikunterricht muss man auch mit Sprache rechnen!“ – Sprachbezogene Fachleistung und Unterrichtswahrnehmung im Rahmen mathematischer Sprachförderung",
+            "type": "article-journal",
+            "volume": "41"
+        },
+        {
+            "DOI": "10.1016/j.linged.2018.03.005",
+            "ISSN": "08985898",
+            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0898589818301141",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wilkinson",
+                    "given": "Louise C."
+                }
+            ],
+            "container-title": "Linguistics and Education",
+            "container-title-short": "Linguistics and Education",
+            "id": "wilkinson_learning_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019,
+                        2
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "86-95",
+            "title": "Learning language and mathematics: A perspective from linguistics and education",
+            "title-short": "Learning language and mathematics",
+            "type": "article-journal",
+            "volume": "49"
+        },
+        {
+            "abstract": "Mathematikunterricht stellt hohe sprachliche Anforderungen, weil Lernende viele Sprachen verstehen, sprechen und schreiben sollen: Alltags-, Bildungs- und Fachsprache in jeweils unterschiedlichen Darstellungen. Dies ist nicht nur für Lernende mit Deutsch als Zweitsprache eine Herausforderung, sondern für alle Schülerinnen und Schüler. Vorgestellt werden Ansätze zur ganzheitlichen und zur fokussierten Förderung der Sprachen, die einen verständigeren Zugang zur Mathematik ermöglichen.",
+            "author": [
+                {
+                    "family": "Meyer",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Prediger",
+                    "given": "Susanne"
+                }
+            ],
+            "id": "meyer_sprachenvielfalt_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "page": "2-9",
+            "title": "Sprachenvielfalt im mathematikunterricht – herausforderungen, chancen und förderansätze. (Praxis der mathematik in der schule)",
+            "type": "article-journal",
+            "volume": "54"
+        },
+        {
+            "DOI": "10.1007/978-3-531-91596-8_15",
+            "ISSN": "978-3-531-15886-0",
+            "abstract": "In diesem Beitrag geht es um einen zentralen Ausschnitt sprachlicher Kompetenz, und zwar um die „Bildungssprache“. Dieser Begriff wurde im Kontext der Begründung des Modellprogramms „Förderung von Kindern und Jugendlichen mit Migrationshintergrund FöRMIG“ empfohlen. Damit war intendiert, einen „Streitfall“ anzuregen, da er der Sache dient. Dieser blieb bisher jedoch aus, weshalb es angeraten scheint, den Begriff weiter auszufüllen und sich mit der Relevanz des ihm unterliegenden Sachverhalts auseinanderzusetzen. Dafür soll mein Beitrag Anlass bieten. Ich erläutere zunächst die Gründe, sich mit „Bil-dungssprache“ noch genauer zu befassen, stelle Annäherungen an ein Verständnis dieses Terminus vor und führe abschließend offene Forschungsfragen auf.",
+            "author": [
+                {
+                    "family": "Gogolin",
+                    "given": "Ingrid"
+                }
+            ],
+            "id": "gogolin_zweisprachigkeit_2009",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "title": "Zweisprachigkeit und die entwicklung bildungssprachlicher fähigkeiten",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.1007/978-3-531-91596-8_15",
+            "ISBN": "978-3-531-91596-8",
+            "URL": "https://doi.org/10.1007/978-3-531-91596-8_15",
+            "abstract": "In diesem Beitrag geht es um einen zentralen Ausschnitt sprachlicher Kompetenz, und zwar um die „Bildungssprache“. Dieser Begriff wurde im Kontext der Begründung des Modellprogramms „Förderung von Kindern und Jugendlichen mit Migrationshintergrund FöRMIG“ empfohlen. Damit war intendiert, einen „Streitfall“ anzuregen, da er der Sache dient. Dieser blieb bisher jedoch aus, weshalb es angeraten scheint, den Begriff weiter auszufüllen und sich mit der Relevanz des ihm unterliegenden Sachverhalts auseinanderzusetzen. Dafür soll mein Beitrag Anlass bieten. Ich erläutere zunächst die Gründe, sich mit „Bil-dungssprache“ noch genauer zu befassen, stelle Annäherungen an ein Verständnis dieses Terminus vor und führe abschließend offene Forschungsfragen auf.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Gogolin",
+                    "given": "Ingrid"
+                }
+            ],
+            "container-title": "Streitfall Zweisprachigkeit – The Bilingualism Controversy",
+            "editor": [
+                {
+                    "family": "Gogolin",
+                    "given": "Ingrid"
+                },
+                {
+                    "family": "Neumann",
+                    "given": "Ursula"
+                }
+            ],
+            "id": "gogolin_zweisprachigkeit_2009-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2009
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "page": "263-280",
+            "publisher": "VS Verlag für Sozialwissenschaften",
+            "publisher-place": "Wiesbaden",
+            "title": "Zweisprachigkeit und die Entwicklung bildungssprachlicher Fähigkeiten",
+            "type": "chapter"
+        },
+        {
+            "ISSN": "0949-1147; 2197-988X",
+            "abstract": "Mit der Benennung eines Kompetenzbereichs Kommunikation in den Bildungsstandards werden Alltags- und Fachsprache zu einem Gegenstand des Unterrichts. Eine allgemeine Unterscheidung der beiden Sprachebenen fällt jedoch schwer, sodass zunächst unklar bleibt, wie das Anliegen der Standards umgesetzt werden kann. Ein Überblick über die Diskussion zur Rolle der Sprache im Naturwissenschaftsunterricht offenbart zudem sehr unterschiedliche Blickrichtungen. Im vorliegenden Beitrag wird ein ordnender Rahmen gewählt, indem eine auf die Struktur des Gegenstands gerichtete Perspektive von einer solchen unterschieden wird, die nach Entwicklungsverläufen fragt. In Zusammenhang mit letzterer Blickrichtung werden die Ergebnisse einer empirischen Untersuchung vorgestellt und in zwei unterschiedlichen Interpretationsrahmen gedeutet, einem fachlich-fachdidaktischen und einem, der auf Ergebnisse der Sprachentwicklungsforschung rekurriert. Es wird dafür argumentiert, Alltags- und Fachsprache nicht als einander gegenüber stehende Gebilde anzusehen, wobei die Fachsprache aus einer Pflege der Alltagssprache zu entwickeln sei. Stattdessen wird dafür argumentiert, Alltags- und Fachsprache als je für sich entwicklungsfähig anzusehen und im Unterricht zu thematisieren. (Autorenreferat).;;;In national science education standards students’ communication and use of special or everyday language play an important role. Literature concerning everyday and special language in science shows that it is difficult to distinguish these language levels. In addition, a broad range of approaches exist to describe the role of everyday and special language for science education. In the present paper these different approaches are discussed within a framework distinguishing two fundamental perspectives, one concerning structurally aspects of language, the other involving the development experienced by the students. The latter is deeply discussed including empirical data. Conclusions are made regarding two different interpretations, firstly referring to students’ preconceptions, secondly including results of the field of second language learning. The paper argues against the view of special language in science to be developed starting from everyday language. The data give reason for regarding everyday language and special language in science as different challenges, both to be taught and developed. (Author’s abstract).",
+            "author": [
+                {
+                    "family": "Rincke",
+                    "given": "Karsten"
+                }
+            ],
+            "container-title": "Zeitschrift für Didaktik der Naturwissenschaften",
+            "id": "rincke_alltagssprache_2010",
+            "issued": {
+                "date-parts": [
+                    [
+                        2010
+                    ]
+                ]
+            },
+            "keyword": "Fachdidaktik, Naturwissenschaftlicher Unterricht, Alltagssprache, Begriffsbildung, Fachsprache, Kommunikation, Kraft (Phys), Physikunterricht, Sprachentwicklung",
+            "note": "Type: online; gedruckt",
+            "page": "235-260; 0,4 MB",
+            "title": "Alltagssprache, fachsprache und ihre besonderen bedeutungen für das lernen.",
+            "type": "article-journal",
+            "volume": "16"
+        },
+        {
+            "URL": "https://aquarium-fische.net/goldfische-im-aquarium/",
+            "abstract": "Erfahre alles über Goldfische im Aquarium! Tipps zur Pflege, Fütterung und häufigen Fehlern. Mach es richtig und lass deinen Goldfisch strahlen!",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        18
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Löbe",
+                    "given": "Dirk"
+                }
+            ],
+            "id": "lobe_goldfische_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10,
+                        27
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "title": "Goldfische im Aquarium: So machst du alles richtig! Aquarium-Fische.net",
+            "title-short": "Goldfische im Aquarium",
+            "type": "webpage"
+        },
+        {
+            "DOI": "10.1016/j.jmathb.2014.09.002",
+            "ISSN": "0732-3123",
+            "URL": "https://www.sciencedirect.com/science/article/pii/S0732312314000534",
+            "abstract": "The aim is to develop a multimodal (i.e. multisemiotic) approach to the mathematics register, where language is considered as one resource, often a secondary one, which operates in conjunction with mathematical symbolism and images to create meaning in mathematics. For this purpose, the linguistic features and grammatical difficulties of scientific English are reviewed and compared to the grammatical features of mathematical symbolic notation and mathematical images. From here, the integration of language, mathematics symbolism and images in mathematics texts and the nature of spoken language in mathematics classrooms and associated difficulties are explored. The approach leads to the notion of a “multimodal register” for mathematics to complement the existing language-based conceptualization of register. The multimodal approach has significant implications for teaching and learning mathematics and the development of strategies for mastering the mathematics register for the effective communication of mathematical knowledge.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "O’Halloran",
+                    "given": "Kay L."
+                }
+            ],
+            "collection-title": "THE LANGUAGE OF LEARNING MATHEMATICS",
+            "container-title": "The Journal of Mathematical Behavior",
+            "container-title-short": "The Journal of Mathematical Behavior",
+            "id": "ohalloran_language_2015",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015,
+                        12,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "Intersemiosis, Mathematical images, Mathematical symbolism, Mathematics register, Multimodal literacy, Scientific English",
+            "page": "63-74",
+            "title": "The language of learning mathematics: A multimodal perspective",
+            "title-short": "The language of learning mathematics",
+            "type": "article-journal",
+            "volume": "40"
+        },
+        {
+            "DOI": "10.1080/10573560601158461",
+            "ISSN": "1057-3569",
+            "URL": "https://doi.org/10.1080/10573560601158461",
+            "abstract": "This article synthesizes research by applied linguists and mathematics educators to highlight the linguistic challenges of mathematics and suggest pedagogical practices to help learners in mathematics classrooms. The linguistic challenges include the multi-semiotic formations of mathematics, its dense noun phrases that participate in relational processes, and the precise meanings of conjunctions and implicit logical relationships that link elements in mathematics discourse. Research on pedagogical practices supports developing mathematics knowledge through attention to the way language is used, suggesting strategies for moving students from informal, everyday ways of talking about mathematics into the registers that construe more technical and precise meanings.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Schleppegrell",
+                    "given": "Mary J"
+                }
+            ],
+            "container-title": "Reading & Writing Quarterly",
+            "id": "schleppegrell_linguistic_2007",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        2007,
+                        2,
+                        26
+                    ]
+                ]
+            },
+            "note": "Publisher: Routledge _eprint: https://doi.org/10.1080/10573560601158461",
+            "page": "139-159",
+            "title": "The linguistic challenges of mathematics teaching and learning: A research review",
+            "title-short": "The linguistic challenges of mathematics teaching and learning",
+            "type": "article-journal",
+            "volume": "23"
+        },
+        {
+            "DOI": "10.1023/A:1002976114883",
+            "ISSN": "1573-0816",
+            "URL": "https://doi.org/10.1023/A:1002976114883",
+            "abstract": "This article describes and analyses a short teaching episode in a multilingual secondary mathematics classroom in South Africa where the teacher is using a participatory-inquiry approach. The episode is used to illuminate the general claim that such an approach, because of the particular communicative demands it places on teachers and learners, can create specific dilemmas of mediation. Teachers are often aware of dilemmas they face. However, what can be obscured is how a participatory-inquiry approach can inadvertently constrain mediation of mathematical activity and access to mathematical knowledge.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Adler",
+                    "given": "Jill"
+                }
+            ],
+            "container-title": "Educational Studies in Mathematics",
+            "container-title-short": "Educational Studies in Mathematics",
+            "id": "adler_participatory-inquiry_1997",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        1997,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "keyword": "General Claim, Mathematical Activity, Mathematical Knowledge, Mathematics Classroom, Secondary Mathematics",
+            "language": "en-US",
+            "page": "235-258",
+            "title": "A participatory-inquiry approach and the mediation of mathematical knowledge in a multilingual classroom",
+            "type": "article-journal",
+            "volume": "33"
+        },
+        {
+            "author": [
+                {
+                    "family": "Adler",
+                    "given": "Jill"
+                }
+            ],
+            "container-title": "For the Learning of Mathematics",
+            "container-title-short": "For the Learning of Mathematics",
+            "id": "adler_language_1998",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "page": "24-33",
+            "title": "A language of teaching dilemmas: Unlocking the complex multilingual secondary mathematics classroom",
+            "title-short": "A language of teaching dilemmas",
+            "type": "article-journal",
+            "volume": "18"
+        },
+        {
+            "DOI": "10.1177/0741088398015002003",
+            "ISSN": "0741-0883, 1552-8472",
+            "URL": "http://journals.sagepub.com/doi/10.1177/0741088398015002003",
+            "abstract": "In response to the need for studies that focus on learning and writing in mathematics, this study examined changes in students’ probabilistic thinking and writing during an instructional program that emphasized transactional writing in a problem-solving context. Although correlations between probabilistic thinking and writing levels at the end of the study were not significant, students did make significant gains in both probability reasoning and writing. Analysis of target students’ journals revealed that their writing incorporated both writing symbols and mathematical symbols. These symbols were more complementary for those students whose writing increased to the higher levels during instruction. Moreover, this growth appeared to be promoted by the teacher herself, who systematically sought verbal explanations of solutions and written interpretations of diagrams and numerical patterns.",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        20
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Johnson",
+                    "given": "Todd M."
+                },
+                {
+                    "family": "Jones",
+                    "given": "Graham A."
+                },
+                {
+                    "family": "Thornton",
+                    "given": "Carol A."
+                },
+                {
+                    "family": "Langrall",
+                    "given": "Cynthia W."
+                },
+                {
+                    "family": "Rous",
+                    "given": "Amy"
+                }
+            ],
+            "container-title": "Written Communication",
+            "container-title-short": "Written Communication",
+            "id": "johnson_students_1998",
+            "issue": "2",
+            "issued": {
+                "date-parts": [
+                    [
+                        1998,
+                        4
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "page": "203-229",
+            "title": "Students’ thinking and writing in the context of probability",
+            "type": "article-journal",
+            "volume": "15"
         }
     ],
     "project_biblios": [
