@@ -57,9 +57,14 @@ website:  # Menüs für die Webseite
           text: Auftrag
     - title: "Mikroplanung Mathematik"
       contents:
-        - href: lerngelegenheiten/LG_mikroplanungmath.qmd
+        - href: lerngelegenheiten/LG_math-mikro/LG_mikromath.qmd
           text: Semesterübersicht
-        - auto: "lernmodule/LM_mikromath*"
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_01.qmd
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_02.qmd
+          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_03.qmd
+        
     - title: "Verstehensorientiert prüfen in Zeiten von KI"
       contents:
         - href: lerngelegenheiten/LG_mathpython.qmd

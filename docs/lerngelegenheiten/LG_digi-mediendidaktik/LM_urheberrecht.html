@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Förderorientierung</title>
+<title>Urheberrecht</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,7 +21,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -69,10 +89,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,159 +139,44 @@ ul.task-list li input[type="checkbox"] {
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
-  <nav class="quarto-secondary-nav">
-    <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-        <i class="bi bi-layout-text-sidebar-reverse"></i>
-      </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_05.html">Förderorientierung</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-        </a>
-    </div>
-  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
-    <div class="sidebar-menu-container"> 
-    <ul class="list-unstyled mt-1">
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LG_grundbeurteilung.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Semesterübersicht</span></a>
-  </div>
-</li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
- <span class="menu-text">Lernmodule</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_01.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Thematische Einführung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Theoretische Grundlagen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_03.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gesetzliche Grundlagen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_04.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Noten und Beurteilungsberichte</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_05.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Förderorientierung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_06.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Lernbegleitung und Lerncoaching</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_07.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Kompetenzorientierung</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_08.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Gesamturteil und Persönliche und Schlüsselkompetenzen</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_09.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Niveaus und Schulmodelle</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_10.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Nachteilsausgleich und individuelle Lernziele</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_esw-beurteilung/Auftrag_Beurteilungskonzept.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Auftrag</span></a>
-  </div>
-</li>
-    </ul>
-    </div>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#förderorientierung" id="toc-förderorientierung" class="nav-link active" data-scroll-target="#förderorientierung">Förderorientierung</a></li>
-  <li><a href="#förderorientierung-konkret---das-churer-modell" id="toc-förderorientierung-konkret---das-churer-modell" class="nav-link" data-scroll-target="#förderorientierung-konkret---das-churer-modell">Förderorientierung konkret - Das Churer-Modell</a></li>
-  <li><a href="#förderorientierte-diagnostik" id="toc-förderorientierte-diagnostik" class="nav-link" data-scroll-target="#förderorientierte-diagnostik">Förderorientierte Diagnostik</a></li>
-  <li><a href="#umsetzungsbeispiel" id="toc-umsetzungsbeispiel" class="nav-link" data-scroll-target="#umsetzungsbeispiel">Umsetzungsbeispiel</a></li>
+  <li><a href="#urheberrechtsgesetz-urg" id="toc-urheberrechtsgesetz-urg" class="nav-link active" data-scroll-target="#urheberrechtsgesetz-urg">Urheberrechtsgesetz (URG)</a>
+  <ul class="collapse">
+  <li><a href="#bearbeitungsfragen" id="toc-bearbeitungsfragen" class="nav-link" data-scroll-target="#bearbeitungsfragen">Bearbeitungsfragen</a></li>
+  </ul></li>
+  <li><a href="#prolitteris-und-gemeinsamer-tarif-7" id="toc-prolitteris-und-gemeinsamer-tarif-7" class="nav-link" data-scroll-target="#prolitteris-und-gemeinsamer-tarif-7">ProLitteris und Gemeinsamer Tarif 7</a></li>
+  <li><a href="#verwertungsrechte-an-eigenem-unterrichtsmaterial" id="toc-verwertungsrechte-an-eigenem-unterrichtsmaterial" class="nav-link" data-scroll-target="#verwertungsrechte-an-eigenem-unterrichtsmaterial">Verwertungsrechte an eigenem Unterrichtsmaterial</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_esw-beurteilung/LM_05.html">Förderorientierung</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Förderorientierung</h1>
-<p class="subtitle lead">Grundlagen der Beurteilung</p>
-</div>
+<h1 class="title">Urheberrecht</h1>
+<p class="subtitle lead">Mediendidaktik</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Label - Digitalität</div>
+  </div>
+  </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Autor:innen</div>
+  <div class="quarto-title-meta-heading">Autor:in</div>
   <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Aline Löw </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.phbern.ch">
-            University of Teacher Education Bern
-            </a>
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Daniel Ingrisani, Dr. </p>
-  </div>
-  <div class="quarto-title-meta-contents">
-        <p class="affiliation">
-            <a href="https://www.phbern.ch">
-            University of Teacher Education Bern
-            </a>
-          </p>
-      </div>
-    <div class="quarto-title-meta-contents">
-    <p class="author">Irene Althaus </p>
+    <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
         <p class="affiliation">
@@ -259,122 +193,183 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">01.01.2024</p>
+      <p class="date">22.06.2024</p>
     </div>
   </div>
   
     
   </div>
   
-<div>
-  <div class="abstract">
-    <div class="block-title">Zusammenfassung</div>
-    <p>In diesem Lernmodul geht es um «Förderorientierung» und «Förderorientierte Diagnostik».</p>
-  </div>
-</div>
 
 
 </header>
 
 
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Ziele des Lernmoduls
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Die Studierenden …</p>
-<ul>
-<li>werden sich der Grundhaltung förderorientierten Unterrichts bewusst.</li>
-<li>kennen unterschiedliche Instrumente zur förderorientierten Diagnose.</li>
-<li>lernen didaktische Settings für förderorientierten Unterricht kennen …</li>
-<li>und schätzen deren Umsetzbarkeit ein.</li>
-</ul>
-</div>
-</div>
-<section id="förderorientierung" class="level1">
-<h1>Förderorientierung</h1>
-<p>Lernen Sie in diesem Input eine Grundhaltung sowie grundlegende Überlegungen zu förderorientiertem Unterricht kennen.</p>
-<div id="fig-foerderorientierung" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-foerderorientierung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<iframe src="https://tube.switch.ch/embed/9kC6iEOr0a?title=hide" allow="fullscreen">
-</iframe>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-foerderorientierung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;1: Screencast - Förderorientierung
-</figcaption>
-</figure>
-</div>
+<section id="urheberrechtsgesetz-urg" class="level1">
+<h1>Urheberrechtsgesetz (URG)</h1>
+<p>Lesen Sie <a href="https://www.fedlex.admin.ch/eli/cc/1993/1798_1798_1798/de">Bundesgesetz über das Urheberrecht und verwandte Schutzrechte</a>. Lösen Sie <em>anschliessend</em> die Fragen mit Hilfe des URG.</p>
+<section id="bearbeitungsfragen" class="level2">
+<h2 class="anchored" data-anchor-id="bearbeitungsfragen">Bearbeitungsfragen</h2>
+<ol type="1">
+<li>Der Urheber eines Werkes ist seit 80 Jahren verstorben. Ist die Übersetzung damit ebenfalls frei?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Nein. “Werke zweiter Hand sind selbständig geschützt.” URG Art. 3 Abs. 3
+</details>
+<ol start="2" type="1">
+<li>Einzelaufgaben wie z.B. <span class="math inline">\(x^2-3x=0\)</span> sind (vermutlich) nicht geschützt. Ist somit eine Aufgabe mit 10 von diesen Gleichungen ebenfalls nicht geschützt?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Doch. “Sammlungen sind selbständig geschützt, sofern es sich bezüglich Auswahl oder Anordnung um geistige Schöpfungen mit individuellem Charakter handelt.” URG Art. 4 Abs. 1
+</details>
+<ol start="3" type="1">
+<li>Dürfen Lehrmaterialien welche zur ausschliesslichen Verwendung in einem Kurs erschaffen wurden, zitiert werden?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<p>Ja, “Ein Werk ist veröffentlicht, wenn der Urheber oder die Urheberin es selber erstmals ausserhalb eines privaten Kreises im Sinne von Artikel 19 Absatz 1 Buchstabe a einer grösseren Anzahl Personen zugänglich gemacht oder einer solchen Veröffentlichung zugestimmt hat.” URG Art. 9 Abs. 3</p>
+<p>“Veröffentlichte Werke dürfen zitiert werden, wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.” URG Art. 25 Abs. 1</p>
+</details>
+<ol start="4" type="1">
+<li>Dürfen Werke, deren Ursprung nicht bekannt ist, zitiert werden?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Ja. “Verwaiste Werke gelten als veröffentlicht. Sind in einem verwaisten Werk andere Werke oder Werkteile integriert, so gilt Absatz 2 auch für die Geltendmachung der Rechte an diesen Werken oder Werkteilen, sofern diese nicht in erheblichem Mass die Eigenart des Exemplars bestimmen.” URG Art. 22b Abs. 3
+</details>
+<ol start="5" type="1">
+<li>Darf ich fremde Unterrichtsmaterialien umändern und in meinem Unterricht benutzen?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Nein. “1 Der Urheber oder die Urheberin hat das ausschliessliche Recht zu bestimmen; a. ob, wann und wie das Werk geändert werden darf; b. ob, wann und wie das Werk zur Schaffung eines Werks zweiter Hand verwendet oder in ein Sammelwerk aufgenommen werden darf.” URG Art. 11 Abs. 1
+</details>
+<ol start="6" type="1">
+<li>Darf ich Unterrichtsmaterialien, welche ich von einer eng befreundeten Lehrperson (legal) erhalten habe, an meine Klasse für den Unterricht weitergeben?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Jein. Enge Freunde geben Ihnen Werke gemäss URG Art. 19 Abs. 1 lit. a weiter. Sie geben Ihrer Klasse es jedoch nach URG Art. 19 Abs. 1 lit. b weiter. URG Art. 19 Abs. 3 regelt, welche Werke nicht an die Klasse weitergegeben werden dürfen. Es handelt sich insbesondere um Werke der bildenden Kunst und weitgehend vollständige Werkexemplare.
+</details>
+<ol start="7" type="1">
+<li>Erhalten Urheber eine Vergütung, falls ich für den Unterricht in meiner Klasse verwende?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Ja. “Wer zum Eigengebrauch nach Artikel 19 Absatz 1 Buchstabe b oder Buchstabe c oder wer als Drittperson nach Artikel 19 Absatz 2 Werke auf irgendwelche Art vervielfältigt, schuldet dem Urheber oder der Urheberin hiefür eine Vergütung.” URG Art. 20 Abs. 2
+</details>
+<ol start="8" type="1">
+<li>Meine Kollege benutzt die von mir (privat) erstellten Materialien. Schuldet er mir eine Vergütung?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Ja, aber nicht direkt sondern über eine Verwertungsgesellschaft. “Die Vergütungsansprüche können nur von zugelassenen Verwertungsgesellschaften geltend gemacht werden.” URG Art. 20 Abs. 4
+</details>
+<ol start="9" type="1">
+<li>Wird ein nicht weitesgehend vollständiges Werkexemplar für den Unterricht vervielfältig, muss dann die Quelle angegeben werden?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Nein, denn hier handelt es sich um “Eigengebrauch” nach URG Art. 19 Abs. 1 lit. b und nicht um ein Zitat nach URG Art. 25
+</details>
+<ol start="10" type="1">
+<li>Darf bildende Kunst zitiert werden?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<p>Ja, allerdings nur “wenn das Zitat zur Erläuterung, als Hinweis oder zur Veranschaulichung dient und der Umfang des Zitats durch diesen Zweck gerechtfertigt ist.” URG Art. 25</p>
+Das IGE stellt hier klar: “Auch zitieren ist erlaubt: Zur Erläuterung, Veranschaulichung oder um auf etwas Bestimmtes hinzuweisen, darf jedermann Stellen aus veröffentlichten Werken wörtlich wiedergeben. Und zwar nicht nur aus Büchern, sondern auch aus Vorträgen, Musikstücken oder Filmen. Ob das Zitieren von Werken der bildenden Kunst und von Fotografien von der gesetzlichen Regelung auch erfasst ist, war lange umstritten. Die Botschaft zur Revision stellt klar, dass auch diese Werkkategorien unter Einhaltung der gesetzlich vorgegebenen Bedingungen zitiert werden können.” <a href="https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken">IGE</a>
+</details>
+<ol start="11" type="1">
+<li>Gibt es (gesetzliche) Regeln wie man die Quelle bei Zitaten korrekt angibt?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Nein. “Das Zitat als solches und die Quelle müssen bezeichnet werden. Wird in der Quelle auf die Urheberschaft hingewiesen, so ist diese ebenfalls anzugeben.” URG Art. 25 Abs. 2
+</details>
+<ol start="12" type="1">
+<li>Ist der Film “Modern Times” (1936) noch urheberrechtlich geschützt?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+Ja, bin zum Jahr 2027. Gemäss URG Art. 29 Abs. 2 b erlischt der Schutz 70 Jahre nach dem Tod des Urheberes. Nach Art. 30 Abs. 3 bezieht sich diese Zeitdauer auf den Tod des Regisseurs. Sir Charles Chaplin war der Regisseur des Films, er verstarb am 25.12.1977 <a href="https://www.imdb.com/name/nm0000122/?ref_=nm_mv_close">Quelle</a>, somit erlischt das Urheberrecht am 25.12.2027.
+</details>
+<ol start="13" type="1">
+<li>Haftet die Lehrperson bei einem Urheberrechtsverstoss persönlich?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<p>“Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.” OR Art. 321e Abs. 1</p>
+<p>Fahrlässig ist nicht gesetzlich klar abgegrenzt. Eine Rechtsschutzversicherung oder eine Geldreserve für einen Anwalt ist vermutlich eine gute Investition.</p>
+<p>Weitere Empfehlung: Alle Handlungen als Lehrperson klar abgrenzen von privaten Handlungen.</p>
+Beispiel: Eine Lehrperson hat über einen Cloudprovider sein Skript mit seiner Klasse über einen öffentlich verfügbaren Link geteilt. Das Skript enthielt eine Textaufgabe welche aus einem Mathematikbuch eines Verlages (teilweise) übernommen wurde. Der Verlag hat von der Lehrperson (privat) 10’000 Chf verlangt, damit es nicht vor Gericht geht.
+</details>
+<ol start="14" type="1">
+<li>Gehört das Werk, welches ein Programm dank maschinellem Lernen und einer Benutzereingabe erstellt hat, diesem Benutzer?</li>
+</ol>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<p>Die Rechtssprechung bei “KI”-Anwendungen ist im Moment (2024) noch dünn und eine gute Antwort kann weder national noch international gegeben werden.</p>
+<p>Klar ist, dass das Programm kein Urheber sein kann: “Urheber oder Urheberin ist die natürliche Person, die das Werk geschaffen hat.” Art. 6 URG</p>
+</details>
 </section>
-<section id="förderorientierung-konkret---das-churer-modell" class="level1">
-<h1>Förderorientierung konkret - Das Churer-Modell</h1>
-<p>In diesem Video lernen Sie eine Möglichkeit einer didaktischen Umsetzung kennen, die einen förderorientierten Unterricht ermöglichen soll.</p>
-<p>Schauen Sie sich den Film an und lösen Sie den folgenden Verarbeitungsauftrag.</p>
-<section id="auftrag" class="level3">
-<h3 class="anchored" data-anchor-id="auftrag">Auftrag:</h3>
-<p>Beantworten Sie für sich die folgenden Fragen:</p>
-<ul>
-<li>Was gefällt Ihnen an diesem Modell?</li>
-<li>Was schätzen Sie an diesem Modell als eher kritisch ein?</li>
-<li>Inwiefern lässt sich dieses Modell auf der Sekundarstufe I umsetzen?</li>
-<li>Wie würden Sie persönlich dieses Modell oder auch nur Teile davon umsetzen?</li>
-</ul>
-<p>Machen Sie sich Notizen zuhanden Ihres Beurteilungskonzepts.</p>
-<div id="fig-churer-modell" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-churer-modell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<iframe src="https://tube.switch.ch/embed/9f2bb6e8?title=hide" allow="fullscreen">
-</iframe>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-churer-modell-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;2: SRF Einstein - Die Zukunft der Schule - Churer Modell
-</figcaption>
-</figure>
-</div>
 </section>
+<section id="prolitteris-und-gemeinsamer-tarif-7" class="level1">
+<h1>ProLitteris und Gemeinsamer Tarif 7</h1>
+<p><span class="citation" data-cites="prolitteris_gemeinsamer_2022">ProLitteris (<a href="#ref-prolitteris_gemeinsamer_2022" role="doc-biblioref">2022</a>)</span> hält im GT7 weitere Rechte für Schulen fest. Diese gehen über die Rechte nach URG hinaus, helfen jedoch nicht, falls Materialien öffentlich zugänglich gemacht werden.</p>
 </section>
-<section id="förderorientierte-diagnostik" class="level1">
-<h1>Förderorientierte Diagnostik</h1>
-<p>Lernen Sie in diesem Input Möglichkeiten und Instrumente zur förderorientierten Diagnostik kennen.</p>
-<div id="fig-foerderorientiert" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-foerderorientiert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<iframe src="https://tube.switch.ch/embed/b5vmCj1lsa?title=hide" frameborder="0" allow="fullscreen">
-</iframe>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-foerderorientiert-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;3: Screencast - Förderorientierte Diagnostik
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="umsetzungsbeispiel" class="level1">
-<h1>Umsetzungsbeispiel</h1>
-<p>Mit dem folgenden Screencast stellen wir Ihnen ein Umsetzungsbeispiel vor, in welchem sowohl förderorientierter als auch kompetenzorientierter Unterricht, formative sowie summative Beurteilung zur Anwendung kommen.</p>
-<p>Setzen Sie sich damit auseinander und machen Sie sich Ihre eigenen Gedanken dazu. Lassen Sie sich dazu inspirieren - zuhanden Ihres Beurteilungskonzeptes, Ihre eigenen Vorstellungen und Verfahren zu entwickeln, wie man in Ihren Fächern Förderorientierung und Kompetenzorientierung umsetzen kann.</p>
-<div id="fig-umsetzung" class="quarto-figure quarto-figure-center quarto-float anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-umsetzung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<iframe src="https://tube.switch.ch/embed/go3UJXxybi?title=hide" allow="fullscreen">
-</iframe>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-umsetzung-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Abbildung&nbsp;4: Screencast - Umsetzungsbeispiele
-</figcaption>
-</figure>
-</div>
+<section id="verwertungsrechte-an-eigenem-unterrichtsmaterial" class="level1">
+<h1>Verwertungsrechte an eigenem Unterrichtsmaterial</h1>
+<p>Lehrpersonen sind zwar Urheber von von ihnen erstelltem Unterrichtsmaterial, jedoch gehört das Material dem Arbeitgeber.</p>
+<blockquote class="blockquote">
+<p>Er hat dem Arbeitgeber auch alles sofort herauszugeben, was er in Ausübung seiner vertraglichen Tätigkeit hervorbringt. OR Art. 321b Abs. 2</p>
+</blockquote>
+<p><span class="citation" data-cites="hofmann_wer_2016">Peter Hofmann (<a href="#ref-hofmann_wer_2016" role="doc-biblioref">2016</a>)</span> hat einen lesenswerten Beitrag spezifisch für Lehrpersonen verfasst.</p>
 
 
+
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-löw2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Löw, A., Ingrisani, D., &amp; Althaus, I. (2024, January 1).
-<em>Förderorientierung</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-hofmann_wer_2016" class="csl-entry" role="listitem">
+Peter Hofmann. (2016). Wer hat’s erfunden wem gehört es? <em>Bildung Schweiz</em>, <em>6</em>, 32. <a href="https://www.bildungschweiz.ch/">https://www.bildungschweiz.ch/</a>
+</div>
+<div id="ref-prolitteris_gemeinsamer_2022" class="csl-entry" role="listitem">
+ProLitteris. (2022). <em>Gemeinsamer Tarif 7 (<span>GT</span> 7)</em>. <span>ProLitteris</span>, Schweizerische Urheberrechtsgesellschaft für Literatur und bildende Kuns. <a href="https://shab.ch/#!/search/publications/detail/3e0adfa3-b9e2-432c-a061-121a1c0e3b27">https://shab.ch/#!/search/publications/detail/3e0adfa3-b9e2-432c-a061-121a1c0e3b27</a>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R. (2024, June 22). <em>Urheberrecht</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

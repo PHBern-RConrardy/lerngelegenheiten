@@ -1,5 +1,6 @@
 ---
 title: Datenschutz
+subtitle: Digitalität und Datenschutz
 format: html
 categories:
   - Label - Digitalität

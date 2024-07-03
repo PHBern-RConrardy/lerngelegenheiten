@@ -26554,6 +26554,134 @@
             "title": "Students’ thinking and writing in the context of probability",
             "type": "article-journal",
             "volume": "15"
+        },
+        {
+            "URL": "https://ilias.phbern.ch/ilias.php?baseClass=ilrepositorygui&cmd=sendfile&ref_id=2239272",
+            "author": [
+                {
+                    "literal": "PHBern, Institut Sekundarstufe I"
+                }
+            ],
+            "id": "phbern_institut_sekundarstufe_i_wegleitung_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        12,
+                        12
+                    ]
+                ]
+            },
+            "title": "Wegleitung berufskonzept institut sekundarstufe 1",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Schneider",
+                    "given": "Wolfgang"
+                },
+                {
+                    "family": "Baumert",
+                    "given": "Jürgen"
+                },
+                {
+                    "family": "Becker-Mrotzek",
+                    "given": "Michael"
+                },
+                {
+                    "family": "Hasselhorn",
+                    "given": "Marcus"
+                },
+                {
+                    "family": "Kammermeyer",
+                    "given": "Gisela"
+                },
+                {
+                    "family": "Rauschenbach",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Roßbach",
+                    "given": "HG"
+                },
+                {
+                    "family": "Roth",
+                    "given": "Hans-Joachim"
+                },
+                {
+                    "family": "Rothweiler",
+                    "given": "M"
+                },
+                {
+                    "family": "Stanat",
+                    "given": "Petra"
+                }
+            ],
+            "id": "schneider_expertise_2012",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "note": "Journal Abbreviation: Verfügbar unter: http://www. bmbf. de/pubRD/BISS _Ex-pertise. pdf [22.04. 2014] Publication Title: Verfügbar unter: http://www. bmbf. de/pubRD/BISS _Ex-pertise. pdf [22.04. 2014]",
+            "title": "Expertise \"bildung durch sprache und schrift (BISS)\" (bund-länder-initiative zur sprachförderung, sprachdiagnostik und leseförderung)",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.bildungschweiz.ch/",
+            "author": [
+                {
+                    "literal": "Peter Hofmann"
+                }
+            ],
+            "container-title": "Bildung Schweiz",
+            "id": "hofmann_wer_2016",
+            "issue": "6",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "page": "32",
+            "title": "Wer hat’s erfunden wem gehört es?",
+            "type": "article-journal"
+        },
+        {
+            "URL": "https://shab.ch/#!/search/publications/detail/3e0adfa3-b9e2-432c-a061-121a1c0e3b27",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        6,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "literal": "ProLitteris"
+                }
+            ],
+            "id": "prolitteris_gemeinsamer_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        1,
+                        13
+                    ]
+                ]
+            },
+            "publisher": "ProLitteris, Schweizerische Urheberrechtsgesellschaft für Literatur und bildende Kuns",
+            "title": "Gemeinsamer tarif 7 (GT 7)",
+            "type": ""
         }
     ],
     "project_biblios": [

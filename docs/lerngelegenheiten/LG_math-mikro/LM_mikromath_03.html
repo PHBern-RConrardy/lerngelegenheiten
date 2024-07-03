@@ -155,7 +155,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -173,10 +173,62 @@ window.Quarto = {
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_03.html">Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-mikro/LG_mikromath.qmd" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernziele und Kompetenzen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Lernumgebungen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_03.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -200,7 +252,7 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-mikro/LM_mikromath_03.html">Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Sprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht</h1>
 </div>
@@ -281,10 +333,11 @@ Lernziele
 </div>
 <section id="einstieg" class="level1">
 <h1>Einstieg</h1>
-<p>Welche Sprachen, bzw. Sprachebenen wurden bei dir in der Schule benutzt?</p>
-<p>Wann sprach die Lehrperson Hochdeutsch, wann sprach sie Dialekt?</p>
-<p>Übersetzen Sie folgende Aussage ins Deutsche. <span class="math display">\[\lim_{x \to \infty} f(x) = L \quad \Leftrightarrow \quad \forall \epsilon &gt; 0 \; \exists M &gt; 0 \; \vert \; \forall x &gt; M \; \left| f(x) - L \right| &lt; \epsilon.\]</span></p>
-<p>Übersetzen Sie folgenden Linuxbefehl ins Deutsche:</p>
+<p>An welche sprachlichen Stolpersteine kannst du dich aus deinem Mathematikunterricht erinnern?</p>
+<p>In welchen Situationen wich die Lehrperson von der Schulsprache ab?</p>
+<p>Übersetzen Sie folgende mathematische Aussage in Alltagssprache:</p>
+<p><span class="math display">\[\lim_{x \to \infty} f(x) = L \quad \overset{\text{Def.}}{\Leftrightarrow} \quad \forall \epsilon &gt; 0 \; \exists M &gt; 0 \; \vert \; \forall x &gt; M \; \left| f(x) - L \right| &lt; \epsilon.\]</span></p>
+<p>Übersetzen Sie folgenden Linuxbefehl in Alltagssprache:</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource bash number-lines code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu">rm</span> <span class="at">-rf</span> /</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
@@ -314,7 +367,7 @@ Begriff: Sprachsensibler Fachunterricht
 </section>
 <section id="einfluss-von-sprachkompetenz-auf-mathematikleistung" class="level1">
 <h1>Einfluss von Sprachkompetenz auf Mathematikleistung</h1>
-<p>Lesen Sie <span class="citation" data-cites="prediger_sprachkompetenz_2015">Prediger et al. (<a href="#ref-prediger_sprachkompetenz_2015" role="doc-biblioref">2015</a>)</span>. Vergleichen Sie den Einfluss Sozioökonomischen Statuses mit dem der Sprachkompetenz auf die Mathematikleistung. Wie werden die drei Variablen operationalisiert?</p>
+<p>Lesen Sie <span class="citation" data-cites="prediger_sprachkompetenz_2015">Prediger et al. (<a href="#ref-prediger_sprachkompetenz_2015" role="doc-biblioref">2015</a>)</span>. Vergleichen Sie den Einfluss des Sozioökonomischen Statuses mit dem der Sprachkompetenz auf die Mathematikleistung. Wie werden die Konstrukte operationalisiert?</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -382,7 +435,7 @@ Tipp
 <p><span class="citation" data-cites="schleppegrell_linguistic_2007">Schleppegrell (<a href="#ref-schleppegrell_linguistic_2007" role="doc-biblioref">2007</a>)</span> fügt jedoch auch hinzu: “But it is also important to recognize that students need to learn to deal with the dense and technical language.” <span class="citation" data-cites="schleppegrell_linguistic_2007">(<a href="#ref-schleppegrell_linguistic_2007" role="doc-biblioref">Schleppegrell, 2007, S. 156</a>)</span></p>
 </div>
 </div>
-<p>Interessanterweise stellt <span class="citation" data-cites="johnson_students_1998">Johnson et al. (<a href="#ref-johnson_students_1998" role="doc-biblioref">1998</a>)</span> in einer Unterrichtsbeobachtung (5. Klasse Primar) fest, dass eine Nutzung von mehreren Sprachebenen (Verbalsprache, zusätzlich zur Formalsprache) von vielen Lernenden als hilfreich empfunden wird und bereitwillig angenommen wurde, mathematisch besonders begabte Lernende jedoch bei der reinen Formalsprache zu bleiben bevorzugen. Er schlägt vor die Verbalsprache nicht aufzuzwingen, falls die Formalsprache beherrscht wird.</p>
+<p>Interessanterweise stellt <span class="citation" data-cites="johnson_students_1998">Johnson et al. (<a href="#ref-johnson_students_1998" role="doc-biblioref">1998</a>)</span> in einer Unterrichtsbeobachtung (5. Klasse Grundschule) fest, dass die Verwendung mehrerer Sprachebenen (Verbalsprache, zusätzlich zur Formalsprache) von vielen Lernenden als hilfreich empfunden und bereitwillig angenommen wird, dass aber mathematisch besonders begabte Lernende es vorziehen, bei der reinen Formalsprache zu bleiben. Er schlägt vor, die Verbalsprache nicht vorzuschreiben, wenn die Formalsprache beherrscht wird.</p>
 </section>
 <section id="sprachregiser" class="level2">
 <h2 class="anchored" data-anchor-id="sprachregiser">Sprachregiser</h2>
@@ -398,13 +451,13 @@ Praxisempfehlung
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Nehmen Sie das Verständnis fachfremder, präziser Bildungssprache nicht als gegeben an. Leisten Sie auch hier einen Beitrag zur Sprachförderung.</p>
+<p>Nehmen Sie das Verständnis der fachfremden, präzisen Bildungssprache nicht als gegeben hin. Leisten Sie auch hier einen Beitrag zur Sprachförderung.</p>
 </div>
 </div>
-<p>In der mathematischen, verbalen Fachsprache gibt es besonders viele Kollokationen. Auf diese ist besonders zu achten.</p>
+<p>In der mathematischen Fachsprache gibt es besonders viele Kollokationen. Ihnen ist besondere Aufmerksamkeit zu widmen.</p>
 <section id="kollokation" class="level3">
 <h3 class="anchored" data-anchor-id="kollokation">Kollokation</h3>
-<p>Kollokationen sind Wortverbindungen welche eine sprachliche Einheit bilden. In der Mathematik kommen handelt es dabei, in der Regel Verbindungen von Substantiven und Verben.</p>
+<p>Kollokationen sind häufig vorkommende Wortverbindungen. In der Mathematik handelt es sich meist um Verbindungen von Nomen und Verben.</p>
 <blockquote class="blockquote">
 <p>Sie bezeichnen entweder mathematische Handlungen (z. B. „einen Bruch erweitern/kürzen“, „eine Gleichung aufstellen/auflösen“, „eine Wurzel ziehen“), bei denen der oder die Mathematiker*in das handelnde Subjekt ist (also z. B. „Ich erweitere den Bruch“ etc.). Oder sie bezeichnen mathematische Zustände (z. B. „ein Ereignis tritt ein“; „die Gerade schneidet [den Kreis]“); hier liegt die Vorstellung des mathematischen Gegenstands als handelndem Subjekt zugrunde (Maier und Schweiger 1999, S. 22). Auf fachspezifische Kollokationen ist im Unterricht besonders zu achten – zum einen, weil die jeweiligen Bestandteile für sich genommen (oft) in anderer Verwendungsweise auch in der Alltagssprache vorkommen, zum anderen, weil sich die Substantive und Verben nicht beliebig variieren lassen. Hinzu kommt, dass die mathematische Bedeutung sich nicht immer leicht erschließen lässt, selbst wenn die Bestandteile für sich genommen bekannt sind (vgl. Tajmel 2011, 2017). Fachspezifische Kollokationen müssen daher im jeweiligen mathematischen Kontext gelernt werden. <span class="citation" data-cites="schacht_sprachbildung_2022">(<a href="#ref-schacht_sprachbildung_2022" role="doc-biblioref">Schacht &amp; Guckelsberger, 2022, S. 26</a>)</span></p>
 </blockquote>
@@ -418,8 +471,8 @@ Tipp
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Falls Sie einen neuen Begriff oder eine Kollokation in ihrem Unterricht aufgreifen. Thematisieren Sie diesen Begriff explizit.</p>
-<p>In der Praxis werden Lernende aufgefordert einen Begriff in eigenen Worten zu erläutern (z.B. “Algebra”). Die Lehrperson kann somit Misskonzeptionen möglichst früh erkennen.</p>
+<p>Wenn Sie einen neuen Begriff oder eine Kollokation im Unterricht verwenden. Thematisieren Sie den Begriff explizit.</p>
+<p>In der Praxis werden die Lernenden aufgefordert, einen Begriff mit eigenen Worten zu erklären (z.B. “Algebra”). So kann die Lehrperson Missverständnisse möglichst früh erkennen.</p>
 </div>
 </div>
 </section>
@@ -429,21 +482,20 @@ Tipp
 <p><span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> charakterisiert auf Grund einer <em>action research</em> in Botswana drei Dilemmas in Bezug auf Sprache im Mathematikunterricht. <span class="citation" data-cites="schleppegrell_linguistic_2007">Schleppegrell (<a href="#ref-schleppegrell_linguistic_2007" role="doc-biblioref">2007</a>)</span> merkt an, dass das <em>dilemma of mediation</em> und das <em>dilemma of transparency</em> nicht aufgelöst werden können, sondern ein Spannungsverhältnis verursachen, dessen man sich als Lehrperson bewusst sein muss.</p>
 <section id="dilemma-of-code-switching" class="level3">
 <h3 class="anchored" data-anchor-id="dilemma-of-code-switching">Dilemma of code-switching</h3>
-<p>Dieses Dilemma wurde von <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> in Afrika untersucht, trifft jedoch so ebenfalls auf Schweizer Mathematikunterricht zu. Die Unterrichtssprache (Englisch) unterscheidet sich von der gemeinsamen gesprochenen Sprache (Setswana). Die Lehrperson muss situativ entscheiden, ob sie die Schulsprache beibehält oder zum besseren Verständnis auf die gemeinsame Sprache ausweicht.</p>
+<p>Dieses Dilemma wurde von <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> in Afrika untersucht, gilt aber auch für den Mathematikunterricht in der Schweiz. Die Unterrichtssprache (Englisch) unterscheidet sich von der gemeinsam gesprochenen Sprache (Setswana). Die Lehrperson muss situativ entscheiden, ob sie die Unterrichtssprache beibehält oder zum besseren Verständnis in die gemeinsame Sprache wechselt.</p>
 </section>
 <section id="dilemma-of-mediation" class="level3">
 <h3 class="anchored" data-anchor-id="dilemma-of-mediation">Dilemma of mediation</h3>
-<p>Lehrpersonen, insbesondere in Mathematik, müssen öfters entscheiden ob sie die Zuwortmeldung eines Lernenden korrigieren oder validieren. Aussagen sind öfters nicht vollständig korrekt, eine Zurechtweisung wird jedoch von Schülern häufig als eine Nicht-Würdigung Ihres Beitrags verstanden. Dieses Dilemma nennt <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> das <em>dilemma of mediation</em>.</p>
+<p>Lehrerinnen und Lehrer, insbesondere in Mathematik, müssen oft entscheiden, ob sie die Antworten der Schülerinnen und Schüler korrigieren oder bestätigen sollen. Die Aussagen sind oft nicht ganz korrekt, aber eine Korrektur wird von den Lernenden oft als Nichtanerkennung ihres Beitrags verstanden. Dieses Dilemma wird von <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> als <em>dilemma of mediation</em> bezeichnet.</p>
 </section>
 <section id="dilemma-of-transparency" class="level3">
 <h3 class="anchored" data-anchor-id="dilemma-of-transparency">Dilemma of transparency</h3>
-<p>Einerseits hilft es sprache Hürden explizit anzusprechen. Andererseits möchten Lehrpersonen auch nicht zu viel Zeit für Erklärungen in Anspruch nehmen. Ein Fokus auf die Sprache im Mathematikunterricht, kann vom Mathematikverständnis ablenken und nicht dazu hinführen. Dieses Dilemma nennt <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> das <em>dilemma of transparency</em>.</p>
+<p>Einerseits hilft es, sprachliche Hürden explizit anzusprechen. Auf der anderen Seite wollen Lehrpersonen nicht zu viel Zeit für Erklärungen aufwenden. Eine Fokussierung auf Sprache im Mathematikunterricht kann vom mathematischen Verständnis ablenken und nicht zu diesem führen. Dieses Dilemma wird von <span class="citation" data-cites="adler_language_1998">Adler (<a href="#ref-adler_language_1998" role="doc-biblioref">1998</a>)</span> als <em>dilemma of transparency</em> bezeichnet.</p>
 </section>
 </section>
 <section id="fragend-entwickelnder-unterricht" class="level2">
 <h2 class="anchored" data-anchor-id="fragend-entwickelnder-unterricht">Fragend-entwickelnder Unterricht</h2>
-<p>Aus der eigenen Forschungsarbeit (Conrardy, 2024; noch nicht publiziert) fällt anekdotisch auf, dass Lernende lediglich versuchen das richtige Resultat zu nennen. Es scheint zweckdienlich regelmässig zu fragen “Wie kommst du auf das Ergebnis?”, “Weshalb ist das so?” u.s.w.. Einerseits werden Lernende darauf hingewiesen, dass eigentlich der Lösungsweg und nicht die Lösung im Zentrum der Mathematik stehen, andererseits erhalten Sie die Möglichkeit sich sprachlich auszudrücken.</p>
-<p>In der Hochschuldidaktik gibt es ebenfalls die Technik über Resultate abzustimmen (e-voting) und bei knappen Ergebnissen die Studierenden so lange unter sich diskutieren zu lassen, bis eine klare Mehrheit für eine Lösung besteht.</p>
+<p>Aus der eigenen Forschung (Conrardy, 2024; noch nicht veröffentlicht) ist anekdotisch aufgefallen, dass Lernende einfach versuchen, das richtige Ergebnis zu nennen. Es erscheint sinnvoll, regelmässig nachzufragen “Wie kommst du auf das Ergebnis?”, “Warum ist das so?” etc. Einerseits werden die Lernenden darauf hingewiesen, dass eigentlich der Lösungsweg und nicht die Lösung im Zentrum der Mathematik steht, andererseits erhalten sie die Möglichkeit, sich sprachlich auszudrücken. In der Hochschuldidaktik gibt es auch die Technik, über Ergebnisse abzustimmen (E-Voting) und bei knappen Ergebnissen die Studierenden untereinander diskutieren zu lassen, bis sich eine klare Mehrheit für eine Lösung ergibt.</p>
 
 
 
