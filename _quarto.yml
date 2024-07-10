@@ -57,11 +57,10 @@ website:  # Menüs für die Webseite
           text: Auftrag
     - title: "Mikroplanung Mathematik"
       contents:
-        - href: lerngelegenheiten/LG_math-mikro/LG_mikromath.qmd
+        - href: lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.qmd
           text: Semesterübersicht
         - text: "Lernmodule"
           contents: 
-          - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_01.qmd
           - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_02.qmd
           - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_03.qmd
         

@@ -19,22 +19,35 @@ citation:
     - Aline Löw
     - Daniel Ingrisani
     - Irene Althaus
-copyright: Dieser Kurs  basiert auf einer Lerngelegenheit von Aline Löw, Daniel Ingrisani und Irene Althaus. Diese haben die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
-
+copyright: Dieses Lernmodul basiert auf einem Lernmodul von Barbara Rindlisbacher. Diese hat die notwendigen Materialien freundlicherweise unter eine CC BY-SA 4.0 Lizenz gestellt.
+abstract: >
+  In diesem Lernmodul geht es Nachteilsausgleiche und individuelle reduzierte und erweiterte Lernziele.
 ---
-# Arbeitsauftrag und Fallbeispiel
-Liebe Studierende
+::: callout-note
+## Ziele des Lernmoduls
 
- Für die Bearbeitung des Lernmoduls gehen Sie nach den Schritten vor, die nachfolgend aufgeführt sind.
+Die Studierenden ...
+
+* benennen die rechtlichen Grundlagen bei sonderpädagogischen und unterstützenden Massnahmen.
+* unterscheiden zwischen Ausgleichsmassnahmen, reduzieren individuellen Lernzielen und erweiterten individuellen Lernzielen.
+
+:::
+
+# Arbeitsauftrag und Fallbeispiel
+
+Für die Bearbeitung des Lernmoduls gehen Sie nach den Schritten vor, die nachfolgend aufgeführt sind.
  
-1. Schauen Sie sich den Screencast (Folienpräsentation mit Kommentar) und den Lernfilm zum Nachteilsausgleich an. Der Screencast wurde von meiner Kollegin Daniela Berger im Frühlingssemester 2020 erstellt. Die Inhalte sind weiterhin aktuell und geben Ihnen einen Überblick über die Thematik. Beachten Sie dabei bitte, dass im Kanton Bern im Gegensatz zu vielen anderen Kantonen der Schweiz in der Volksschule nicht der Begriff "Nachteilsausgleich" verwendet wird, sondern für dasselbe Konzept von "Ausgleichsmassnahmen" gesprochen wird (Link Abweichen von der DVBS). Für weiterführende Schulen/Mittelschulen und höhere Berufsschulen/Universität wird auch im Kanton Bern der Begriff "Nachteilsausgleich" verwendet (Link BKD).
-2. Verschaffen Sie sich einen Überblick über die PDF's dieser Woche und lesen Sie in der Statistik der Sonderpädagogik vom Schuljahr 2018/19 das Kapitel 2.2 (S. 9-14). Schauen Sie sich im Anschluss daran die Ergebnisse des Forschungsprojekts von Sahli Lozano et al. an (siehe Folienpräsentation). Welche Übereinstimmungen erkennen Sie (z.B. Anteil SuS mit Migrationshintergrund, Geschlecht usw.)?
-3. Überprüfen Sie ihr Wissen anhand der Fragen zum Lernmodul.
-4. Überlegen Sie sich, was bezüglich der beiden Massnahmen (Nachteilsausgleich / iLZ) für Ihr Beurteilungskonzept wesentlich sein könnte.
+1. Schauen Sie sich den [Screencast](https://tube.switch.ch/embed/2371de8d?title=hide) und den [Lernfilm zum Nachteilsausgleich](https://tube.switch.ch/embed/H0FEJsV2HW?title=hide) an. 
+
+:::{.callout-tip}
+Im Kanton Bern ist neben dem Begriff "Nachteilsausgleich" ebenfalls der Begriff "Ausgleich von Benachteilungen"[@erziehungsdirektion_des_kantons_bern_lehrplan_2016-1] und "Ausgleichsmassnahmen" [@bildungs_und_kulturdirektion_kanton_bern_information_2019] geläufig.
+:::
+
+2. Verschaffen Sie sich einen Überblick über @brunsting_dyslexie_2018, @knutti_nachteilsausgleich_2015, @sahli_lozano_vergabe_2020 und lesen Sie @bundesamt_fur_statistik_bfs_statistik_2020 das Kapitel 2.2 (S. 9-14). Lesen Sie die [Verordnung über die einfachen sonderpädagogischen und unterstützenden Massnahmen im Regelschulangebot (VMR)](https://www.belex.sites.be.ch/app/de/texts_of_law/432.271.1/art/11). Schauen Sie sich im Anschluss daran die den [Screencast zu den Ergebnissen des Forschungsprojekts von Sahli Lozano et al.](https://tube.switch.ch/embed/51fe2200?title=hide) an. Welche Übereinstimmungen erkennen Sie (z.B. Anteil SuS mit Migrationshintergrund, Geschlecht usw.)?
+4. Überlegen Sie sich, was bezüglich der beiden Massnahmen (Nachteilsausgleich / iLZ) für **Ihr Beurteilungskonzept** wesentlich sein könnte.
 5. Bearbeiten Sie anschliessend das Fallbeispiel (Text unten). Im Fallbeispiel steht, dass der Schüler Mario sowohl im Fach Deutsch, wie im Fach Mathematik reduzierte, individuelle Lernziele hat. Überlegen Sie, ob Sie diese Massnahme angemessen finden, oder ob es auch Argumente für eine andere Massnahme in einem der beiden Fächer gibt.
-Falls Sie sich für die Massnahme Nachteilsausgleich oder Beurteilung ohne Note nach Art. 19 entscheiden, machen Sie sich auch Gedanken zu konkreten Massnahmen. Im Screencast auf der letzten Folie finden Sie dazu auch ein ausgefülltes Antragsformular mit Ideen.
+Falls Sie sich für die Massnahme Nachteilsausgleich oder Beurteilung ohne Note nach [Art. 19 DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) entscheiden, machen Sie sich auch Gedanken zu konkreten Massnahmen. Im Screencast auf der letzten Folie finden Sie dazu auch ein ausgefülltes Antragsformular mit Ideen.
 Bei der Bearbeitung des Fallbeispiels können Sie ausgehen vom Fach, welches Sie studieren. Wenn Sie weder Mathematik noch Deutsch studieren, dann machen Sie sich Gedanken zu möglichen Massnahmen, um die Symptome des ADS auszugleichen.
-6. Im Forum können Sie nach der Bearbeitung Fragen stellen, die ich (Barbara Rindlisbacher) beantworten werde.
 
 ### Fallbeispiel Mario  8. Klasse, Real
  
@@ -95,33 +108,3 @@ Resultate/Diagnosen:
  
 NEU seit diesem Schuljahr drei zusätzliche GEF Lektionen (IF), 1 Lektion Logopädie
 Dispensation vom Französischunterricht
-
-# Input «Nachteilsausgleich & ILZ»
-
-:::{#fig-nachteil}
-
-<iframe src="https://tube.switch.ch/embed/2371de8d?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-
-Screencast - Nachteilsausgleich
-:::
-
-# Lernfilm Nachteilsausgleich
-
-:::{#fig-beurteilungsbericht}
-
-<iframe src="https://tube.switch.ch/embed/H0FEJsV2HW?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-
-Lernfilm - Nachteilsausgleich
-
-:::
-
-# Ergebnisse zum Projekt SECABS
-
-In dieser Folienpräsentation finden Sie Angaben zu den Projekten SECABS und CHARISMA, welche vom Institut für Forschung und Entwicklung an der PHBern unter der Leitung von Dr. C. Sahli Lozano durchgeführt wurden. Lesen Sie vor allem auf den beiden letzten Seiten die Ergebnisse zum Nachteilsausgleich auf der Sekundarstufe I.
-
-:::{#fig-secabs}
-
-<iframe src="https://tube.switch.ch/embed/51fe2200?title=hide" frameborder="0" allow="fullscreen" allowfullscreen></iframe>
-
-Video - Secabs
-:::

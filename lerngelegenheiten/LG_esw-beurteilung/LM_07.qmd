@@ -27,8 +27,6 @@ abstract: >
 ::: callout-note
 ## Ziele des Lernmoduls
 
-Folgende Lernziele sollen mit diesem Lernmodul erreicht werden können.
-
 Die Studierenden ...
 * erarbeiten sich vom Kompetenzbegriff ausgehend ein Verständnis der Kompetenzorientierung.
 * entwickeln Vorstellungen darüber, welche Merkmale einen kompetenzorientierten Unterricht ausmachen.

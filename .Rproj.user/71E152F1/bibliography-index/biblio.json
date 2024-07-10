@@ -2571,42 +2571,6 @@
             "volume": "26"
         },
         {
-            "DOI": "10.1016/j.learninstruc.2015.05.004",
-            "ISSN": "09594752",
-            "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959475215300049",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2022,
-                        12,
-                        28
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "family": "Kapur",
-                    "given": "Manu"
-                }
-            ],
-            "container-title": "Learning and Instruction",
-            "container-title-short": "Learning and Instruction",
-            "id": "kapur_preparatory_2015",
-            "issued": {
-                "date-parts": [
-                    [
-                        2015,
-                        10
-                    ]
-                ]
-            },
-            "language": "en-US",
-            "page": "23-31",
-            "title": "The preparatory effects of problem solving versus problem posing on learning from instruction",
-            "type": "article-journal",
-            "volume": "39"
-        },
-        {
             "DOI": "10.1016/j.learninstruc.2019.101222",
             "ISSN": "09594752",
             "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0959475218301506",
@@ -17136,7 +17100,7 @@
             ],
             "container-title": "Learning and Instruction",
             "container-title-short": "Learning and Instruction",
-            "id": "kapur_preparatory_2015-1",
+            "id": "kapur_preparatory_2015",
             "issued": {
                 "date-parts": [
                     [
@@ -17201,17 +17165,6 @@
             "title-short": "Do students learn more from failing alone or in groups?",
             "type": "article-journal",
             "volume": "51"
-        },
-        {
-            "author": [
-                {
-                    "family": "Rathske",
-                    "given": "Melanie"
-                }
-            ],
-            "id": "rathske_vergleichende_nodate",
-            "title": "Vergleichende analyse von 3D-modellen im mathematikunterricht",
-            "type": ""
         },
         {
             "DOI": "10.1007/978-3-658-00118-6",
@@ -26636,7 +26589,8 @@
             "URL": "https://www.bildungschweiz.ch/",
             "author": [
                 {
-                    "literal": "Peter Hofmann"
+                    "family": "Hofmann",
+                    "given": "Peter"
                 }
             ],
             "container-title": "Bildung Schweiz",
@@ -26681,6 +26635,440 @@
             },
             "publisher": "ProLitteris, Schweizerische Urheberrechtsgesellschaft für Literatur und bildende Kuns",
             "title": "Gemeinsamer tarif 7 (GT 7)",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-06-450505-6",
+            "collection-title": "Mathematik : Grundwissen für den beruf / hrsg. Von reinhold koullen",
+            "edition": "1. Aufl. 1. Dr",
+            "editor": [
+                {
+                    "family": "Koullen",
+                    "given": "Reinhold"
+                }
+            ],
+            "id": "koullen_gesundheit_2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "number-of-pages": "208",
+            "publisher": "Cornelsen",
+            "publisher-place": "Berlin",
+            "title": "Gesundheit, körperpflege, ernährung und soziales",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-06-450279-6",
+            "edition": "1. Aufl., 1. Dr",
+            "editor": [
+                {
+                    "family": "Koullen",
+                    "given": "Reinhold"
+                }
+            ],
+            "id": "koullen_mathematik_2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "number-of-pages": "208",
+            "publisher": "Cornelsen",
+            "publisher-place": "Berlin",
+            "title": "Mathematik. Grundwissen für den beruf. Technik: technik",
+            "title-short": "Mathematik. Grundwissen für den beruf. technik",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-06-450540-7",
+            "collection-title": "Mathematik : Grundwissen für den beruf / hrsg. Von reinhold koullen",
+            "edition": "1. Aufl. 1. Dr",
+            "editor": [
+                {
+                    "family": "Koullen",
+                    "given": "Reinhold"
+                }
+            ],
+            "id": "koullen_wirtschaft_2011",
+            "issued": {
+                "date-parts": [
+                    [
+                        2011
+                    ]
+                ]
+            },
+            "number-of-pages": "208",
+            "publisher": "Cornelsen",
+            "publisher-place": "Berlin",
+            "title": "Wirtschaft",
+            "type": "book"
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:mengenlehre-sv.pdf",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        5,
+                        7
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                }
+            ],
+            "id": "blochliger_1_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        19
+                    ]
+                ]
+            },
+            "title": "1 zahlenmengen",
+            "type": ""
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:termanalyse-sv.pdf",
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                }
+            ],
+            "id": "blochliger_2_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9,
+                        16
+                    ]
+                ]
+            },
+            "title": "2 terme",
+            "type": ""
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:negative-exponenten-sv.pdf",
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                }
+            ],
+            "id": "blochliger_3_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        1,
+                        10
+                    ]
+                ]
+            },
+            "title": "3 exponenten in z",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                }
+            ],
+            "id": "blochliger_4_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        11,
+                        11
+                    ]
+                ]
+            },
+            "title": "4 planimetrie grundlagen",
+            "type": ""
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:mathematik-erste-klasse-blc-lv.pdf",
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                }
+            ],
+            "id": "blochliger_mathematik_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        8,
+                        19
+                    ]
+                ]
+            },
+            "title": "Mathematik erste klasse",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Schnürer",
+                    "given": "Olaf"
+                }
+            ],
+            "id": "blochliger_11_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        8,
+                        9
+                    ]
+                ]
+            },
+            "title": "11 gleichungssysteme",
+            "type": ""
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:streckung-sv.pdf",
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Schnürer",
+                    "given": "Olaf"
+                }
+            ],
+            "id": "blochliger_12_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        10,
+                        25
+                    ]
+                ]
+            },
+            "title": "12 strahlensätze und ähnlichkeit",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Schnürer",
+                    "given": "Olaf"
+                }
+            ],
+            "id": "blochliger_13_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022,
+                        11,
+                        17
+                    ]
+                ]
+            },
+            "title": "13 trigonometrie",
+            "type": ""
+        },
+        {
+            "URL": "https://fginfo.ksbg.ch/dokuwiki/lib/exe/fetch.php?media=lehrkraefte:blc:math-2021hw:rationale-exponenten-sv.pdf",
+            "author": [
+                {
+                    "family": "Blöchliger",
+                    "given": "Ivo"
+                },
+                {
+                    "family": "Schnürer",
+                    "given": "Olaf"
+                }
+            ],
+            "id": "blochliger_14_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        26
+                    ]
+                ]
+            },
+            "title": "14 potenzen mit rationalen exponenten",
+            "type": ""
+        },
+        {
+            "URL": "https://en.klapp.pro/privacypolicy",
+            "author": [
+                {
+                    "literal": "Klapp GmbH"
+                }
+            ],
+            "id": "klapp_gmbh_privacy_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        1,
+                        9
+                    ]
+                ]
+            },
+            "title": "Privacy policy klapp GmbH",
+            "type": ""
+        },
+        {
+            "URL": "https://www.rechtschreibrat.com/DOX/RfdR_Amtliches-Regelwerk_2024.pdf",
+            "author": [
+                {
+                    "literal": "Rat für deutsche Rechtschreibung"
+                }
+            ],
+            "id": "rat_fur_deutsche_rechtschreibung_amtliches_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "publisher": "Geschäftsstelle des Rats für deutsche Rechtschreibung",
+            "title": "Amtliches regelwerk der deutschen rechtschreibung regeln und wörterverzeichnis",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Brunsting",
+                    "given": "Monika"
+                }
+            ],
+            "container-title": "folio",
+            "id": "brunsting_dyslexie_2018",
+            "issue": "5",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        10
+                    ]
+                ]
+            },
+            "page": "38-40",
+            "title": "Dyslexie (LRS) und dyskalkulie und ihr nachteilsausgleich in der berufslehre",
+            "type": "article-journal"
+        },
+        {
+            "ISSN": "1420-1607",
+            "author": [
+                {
+                    "family": "Knutti",
+                    "given": "Peter"
+                }
+            ],
+            "container-title": "Schweizerische Zeitschrift für Heilpädagogik,",
+            "id": "knutti_nachteilsausgleich_2015",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2015
+                    ]
+                ]
+            },
+            "page": "38-45",
+            "title": "Nachteilsausgleich – wie ein begriff denken und handeln veränder",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "family": "Sahli Lozano",
+                    "given": "Caroline"
+                },
+                {
+                    "family": "Brandenberg",
+                    "given": "Kathrin"
+                },
+                {
+                    "family": "Ganz",
+                    "given": "Anne Sophie"
+                }
+            ],
+            "container-title": "Schweizerische Zeitschrift für Bildungswissenschaften",
+            "id": "sahli_lozano_vergabe_2020",
+            "issue": "3",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "page": "693-706",
+            "title": "Vergabe und umsetzung des nachteilsausgleichs auf sekundarstufe i",
+            "type": "article-journal",
+            "volume": "42"
+        },
+        {
+            "URL": "https://www.bfs.admin.ch/bfs/de/home/statistiken/bildung-wissenschaft/personen-ausbildung/obligatorische-schule/sonderpaedagogik.assetdetail.14776871.html",
+            "author": [
+                {
+                    "literal": "Bundesamt für Statistik"
+                }
+            ],
+            "id": "bundesamt_fur_statistik_bfs_statistik_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "publisher": "Bundesamt für Statistik (BFS)",
+            "title": "Statistik der sonderpädagogik",
+            "type": ""
+        },
+        {
+            "URL": "https://www.akvb-unterricht.bkd.be.ch/content/dam/akvb-unterricht_bkd/dokumente/de/startseite/regelunterricht/beurteilung-uebertritte/abweichen-von-der-dvbs/information-abweichen-dvbs-langversion-d.pdf",
+            "author": [
+                {
+                    "literal": "Bildungs und Kulturdirektion Kanton Bern"
+                }
+            ],
+            "id": "bildungs_und_kulturdirektion_kanton_bern_information_2019",
+            "issued": {
+                "date-parts": [
+                    [
+                        2019
+                    ]
+                ]
+            },
+            "note": "2019.ERZ.6716 / 39996",
+            "title": "Information abweichen aus «wichtigen gründen» von den vorschriften",
             "type": ""
         }
     ],
