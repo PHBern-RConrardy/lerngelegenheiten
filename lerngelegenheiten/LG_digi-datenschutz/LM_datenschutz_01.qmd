@@ -7,7 +7,7 @@ categories:
 editor: 
   markdown: 
     wrap: 72
-draft: true
+draft: false
 ---
 ::: callout-note
 ## Ziele des Lernmoduls

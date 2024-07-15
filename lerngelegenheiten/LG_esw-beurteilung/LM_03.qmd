@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Gesetzliche Grundlagen
 subtitle: Grundlagen der Beurteilung
 
@@ -35,21 +38,15 @@ Die Studierenden ...
 
 # Input als Screencast
 
-Mit diesem Screencast stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
-
-:::{ #fig-Leistung}
-<iframe src="https://tube.switch.ch/embed/xTav3e1any?title=hide" ></iframe>
-
-Screencast - gesetzliche Grundlagen
-:::
+Mit [diesem Screencast](https://tube.switch.ch/embed/xTav3e1any?title=hide) stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
 
 # Verarbeitungsauftrag
 
 Da die gesetzlichen Grundlagen für alle Lehrpersonen verbindlich sind, sollten nicht nur die Schulleitungen im Bilde sein, was in diesen Grundlagen alles geregelt ist, sondern auch Sie als zukünftige Lehrpersonen.
 
-In diesem Verarbeitungsauftrag setzen Sie sich vertieft mit den Inhalten der [DVBS (Direktionsverordnung über die Beurteilung und Schullaufbahnentscheide in der Volksschule)](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) auseinander.
+In diesem Verarbeitungsauftrag setzen Sie sich vertieft mit den Inhalten der [DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11) und auseinander. @bildungs_und_kulturdirektion_kanton_bern_information_2019 ergänzt Art. 19 DVBS.
 
-Da die [Allgemeinen Hinweise und Bestimmungen im **bernischen** Lehrplan 21](https://be.lehrplan.ch/index.php?code=e|92|1) auch zu den Vorgaben des Kantons Bern gehören, wird hier ebenfalls darauf hingewiesen.
+Da die @erziehungsdirektion_des_kantons_bern_lehrplan_2016-1 auch zu den Vorgaben des Kantons Bern gehören, wird hier ebenfalls darauf hingewiesen.
 
 Gehen Sie zur Vertiefung und zur Verarbeitung der gesetzlichen Grundlagen wie folgt vor.
 
@@ -72,8 +69,7 @@ Eine Mutter, deren Kind frisch von der 6. Klasse zu Ihnen gewechselt hat, verlan
 [Art. 7 Abs. 1 Information](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
 
 1 Die **Schulleitung** sorgt für die rechtzeitige Information der Schülerinnen und Schüler sowie der Eltern, ins-
-besondere über Beurteilung, **Zeitpunkt des Standortgesprächs mit den Eltern**, Übertrittsverfahren, Schul-
-laufbahnentscheide und Bildungsgänge.
+besondere über Beurteilung, **Zeitpunkt des Standortgesprächs mit den Eltern**, Übertrittsverfahren, Schullaufbahnentscheide und Bildungsgänge.
 
 Art. 10 Standortgespräch
 
@@ -147,7 +143,7 @@ Für Ihren ersten Elternabend haben Sie sich vorgenommen, den Eltern in einer kl
 
 
 
-##  Fallbeispiele zur DVBS (Förderung) - auf LearningView
+##  Fallbeispiele zur DVBS (Förderung)
 
 ### 1. Beurteilung bei ILZ (individuelle Lernziele)
 
@@ -188,8 +184,7 @@ das jetzt genau?
 
 ### 3. Was muss ich weshalb beurteilen?
 
-Sie übernehmen neu eine 7. Klasse und setzen sich mit der Beurteilung auf Ihrer Stufe auseinander. Beim Studieren Ihrer Unterlagen fragen Sie sich, was Sie eigentlich während des Semesters alles beurteilen müs-
-sen und wozu diese eigentlich dienen soll.
+Sie übernehmen neu eine 7. Klasse und setzen sich mit der Beurteilung auf Ihrer Stufe auseinander. Beim Studieren Ihrer Unterlagen fragen Sie sich, was Sie eigentlich während des Semesters alles beurteilen müssen und wozu diese eigentlich dienen soll.
 
 1. Welche Antworten finden Sie diesbezüglich in der DVBS?
 

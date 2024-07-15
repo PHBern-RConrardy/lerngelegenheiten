@@ -1,53 +1,10 @@
 ---
-title: Lernziele und Kompetenzen
+title: Lehrmittel
 format: html
 ---
 
-# Aufgaben der Volksschule
+Lesen Sie sich ins Mathbuch ein: https://www.mathbuch.info/
 
-Was sind für Sie die Aufgaben der Volksschule?
+@blochliger_mathematik_2021
 
-> Die Volksschule vermittelt jene Kenntnisse und Fertigkeiten, welche die Grundlage für die berufliche Ausbildung, für den Besuch weiterführender Schulen und für das lebenslange Lernen darstellen.
->
-> [Art. 2 VSG](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210)
-
-> “Insofern scheinen sich gegenwärtig alle in einer Art Minimalkonsens darüber einig zu sein, dass Schulen weder eine Generation von Fachidioten noch eine Generation geschwätziger Dilletanten [sic] ausbilden sollten. Was das genau heißt, bleibt umstritten.” 
-> [@weinert_leistungsmessungen_2014,S.28]
-
-# Lernziele
-
-[DVBS](https://www.belex.sites.be.ch/app/de/texts_of_law/432.213.11)
-Lernziele: 
-- anspruchsvolle Lernziele
-- Grundlegende Lernziele
-
-Kompetenzen:
-- Kompetenzbereiche
-- weiterführende Kompetenzen
-- Kompetenzstufen
-
-Aufgaben:
-- Aufgaben mit Grundansprüchen
-- Aufgaben mit erhöhtem Schwierigkeitsgrad
-
-teilweise erfolgreich
-durchwegs erfolgreich
-zureichend
-unzureichend
-nicht gelöst
-
-# Kompetenzen
-
-> Die Orientierung an Kompetenzen im Lehrplan 21 basiert u.a. auf den Ausführungen von Franz E. Weinert. Nach ihm umfassen Kompetenzen [...]
->
-> [Lehrplan 21 Bern](https://be.lehrplan.ch/index.php?code=e|200|2&hilit=101e2006ccJgzJ9dzVvB5WbsuV5Wzw#101e2006ccJgzJ9dzVvB5WbsuV5Wzw)
-
-> Dabei versteht man unter Kompetenzen die bei Individuen verfügbaren oder durch sie erlernbaren kognitiven Fähigkeiten und Fertigkeiten, um bestimmte Probleme zu lösen, sowie die damit verbundenen motivationalen, volitionalen und sozialen Bereitschaften und Fähigkeiten um die Problemlösungen in variablen Situationen erfolgreich und verantwortungsvoll nutzen zu können (Weinert, im Druck).
-> @weinert_
-
-"Weinert im Druck" bezieht sich auf Folgendes:
-
-> I will thus defer from giving a unified definition and limit myself to some pragmatic conclusions concerning the use of the concept of competence.
->
-> @weinert_defining_2001
-
+@keller_mathematik_2021, @keller_mathematik_2021_1

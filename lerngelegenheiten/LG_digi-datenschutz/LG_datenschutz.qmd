@@ -5,7 +5,7 @@ categories:
   - Modul - Summative und prognostische Beurteilung
   - Label - Digitalität
 toc-depth: 3
-draft: true
+draft: false
 ---
 
 ::: callout-warning

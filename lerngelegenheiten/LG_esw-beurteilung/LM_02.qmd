@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Theoretische Grundlagen
 subtitle: Grundlagen der Beurteilung
 
@@ -38,51 +41,44 @@ Die Studierenden ...
 
 # 1. Input zur Einführung
 
-Mit @fig-screencast erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.
-
-::: {#fig-screencast}
-<iframe src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide" frameborder="0" allow="fullscreen">
-
-</iframe>
-
-Screencast zur formativen und summativen Beurteilung
-:::
+Mit [diesem Screencast](https://tube.switch.ch/embed/iZltDP0sR8?title=hide) erhalten Sie eine Einführung in die Thematik und Sie lernen die Unterscheidung zwischen «summativer» und «formativer» Beurteilung kennen.
 
 # 2. Input Kreisläufe
 
-Im Wissen darum, dass sowohl das Beurteilen als vor allem auch das Fördern in Kreisprozessen ablaufen, stellen wir Ihnen in diesem Input einen **Förderkreislauf** sowie zwei stärker auf die Beurteilung ausgerichtete **Beurteilungskreisläufe** vor.
+Im Wissen darum, dass sowohl das Beurteilen als vor allem auch das Fördern in Kreisprozessen ablaufen, stellen wir Ihnen einen **Förderkreislauf** sowie zwei stärker auf die Beurteilung ausgerichtete **Beurteilungskreisläufe** vor.
 
 Solche Kreismodelle sollen einerseits ermöglichen die Komplexität der Thematik überschaubar zu halten und zudem helfen, aufeinander aufbauende Aspekte der Beurteilung und Förderung besser zu verstehen. Es lohnt sich deshalb auch für das eigene Beurteilungskonzept sich von solchen Modellen leiten zu lassen. Allenfalls entwickeln Sie darauf aufbauend ein eigenes Kreismodell Ihres persönlichen Beurteilungskonzeptes.
 
 ### Beurteilung im Kanton Bern
 
-Ein spezielles Augenmerk möchten wir auf die Beurteilungssituation im Kanton Bern richten. Im Input werden wir abschliessend auch den unten abgebildeten Kreislauf vorstellen, wo sowohl das Vokabular, als auch die gesetzlichen Vorgaben des Kantons schematisch abgebildet sind. Innerhalb der beiden Beurteilungsmodulen (Formative und Summative, prognostische Beurteilung) haben sich die Dozierenden darauf geeinigt, dass wir uns im Sinne der Kohärenz und des Konsenses vor allem auf diesen Kreislauf stützen werden. Es lohnt sich deshalb für Sie, diesen kennen zu lernen. Wie bereits erwähnt, stellen wir Ihnen auch diesen Kreislauf im unten angefügten Input nächer vor.
+Ein spezielles Augenmerk möchten wir auf die Beurteilungssituation im Kanton Bern richten. Im Input werden wir abschliessend auch den unten abgebildeten Kreislauf vorstellen, wo sowohl das Vokabular, als auch die gesetzlichen Vorgaben des Kantons schematisch abgebildet sind. Innerhalb der beiden Beurteilungsmodulen (Formative und Summative, prognostische Beurteilung) haben sich die Dozierenden darauf geeinigt, dass wir uns im Sinne der Kohärenz und des Konsenses vor allem auf diesen Kreislauf von @adamina_erlauterungen_2015 stützen werden. Es lohnt sich deshalb für Sie, diesen kennen zu lernen. Wie bereits erwähnt, stellen wir Ihnen auch diesen Kreislauf in [diesem Screencast](https://tube.switch.ch/embed/htoYUClDmN?title=hide) näher vor.
 
-::: {#fig-bild}
-![](images/Beurteilungskreislauf_Ingrisani.png)
+::: {#fig-bild layout-ncol=2}
+![Förderkreislauf [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) [University of teacher education Bern](https://www.phbern.ch/)](images/Kreislauf_PHBern.png)
 
-Förderkreislauf
-:::
 
-::: {#fig-förderkreislauf}
-<iframe src="https://tube.switch.ch/embed/htoYUClDmN?title=hide">
 
-</iframe>
+![[@adamina_erlauterungen_2015, S.27]](images/Kreislauf_PHBern_2.png)
 
-Screencast zum Förderkreislauf
+Förder- und Beurteilungskreisläufe
+
 :::
 
 ## Vertiefung «Abschlussphase»
 
 Wie im Input zu den «Kreisläufen» und dort in den Ausführungen zum «Beurteilungskreislauf» bereits hingewiesen, stellt die Rückgabe von Lernkontrollen, Tests oder Prüfungen (gemeint ist die **summative Abschlussphase**) ein eher marginalisiertes Thema dar.
 
-Es stellen sich dabei unter anderem folgende Fragen:
+::: {.callout-caution collapse="true"}
+## Auftrag auf LearningView
+
+Es stellen sich dabei unter anderem folgende Fragen. Beantworten Sie diese auf LearningView.
 
 -   Wie gebe ich den Test zurück? Mit welchen Worten, mit welchen Hinweisen?
 -   Welche Angaben machen Sie auf Ihren Tests (Punkte, Punktedurchschnitt, Noten, Notendurchnitt, ...)?
 -   Was ist mit den «Fehlern» oder den «Unkorrektheiten» die in den Tests gemacht wurden bzw. mit den «Punkten», die im Test nicht «geholt» wurden?
 -   Werden die Aufgaben noch einmal besprochen? Wenn ja, mit der ganzen Klasse oder nur mit einzelnen?
 -   Muss man den Test «verbessern»? Darf man nachträglich noch zeigen, dass man es eingentlich «kann» (Stichwort: Wiederholungstests)?
+:::
 
 ::: {.callout-caution collapse="true"}
 ## Auftrag auf LearningView
@@ -105,12 +101,9 @@ Vorschlag für das Bibliografieren und Zitieren des Videos: Alcala, Leah 2015 - 
 
 # 3. Input zum Leistungsbegriff
 
-Wenn es ja «Leistungen» sein sollen, die gefördert und beurteilt werden sollen, dann ist es unerlässlich, sich im Rahmen des folgenden Screencasts über den Begriff der schulischen «Leistung» Gedanken zu machen.
+Wenn es ja «Leistungen» sein sollen, die gefördert und beurteilt werden sollen, dann ist es unerlässlich, sich im Rahmen des [folgenden Screencasts](https://tube.switch.ch/embed/lnjJjmvJpA?title=hide) über den Begriff der schulischen «Leistung» Gedanken zu machen.
 
-::: {#fig-Leistung}
-<iframe src="https://tube.switch.ch/embed/lnjJjmvJpA?title=hide">
+# 4. Input zur Komplexität
 
-</iframe>
+Die Komplexität von Beurteilung und Förderung zeigt sich vor allem im Zusammenspiel zwischen Gerechtigkeit, Bezugsnormen und Beurteilungsfunktionen. Im [folgenden Screencast](https://tube.switch.ch/embed/4UjoPHVudN?title=hide) lernen Sie zunächst einmal die Begrifflichkeiten kennen. Im abschliessenden Verarbeitungsauftrag wird es dann darum gehen, Gemeinsamkeiten sowie Widersprüchlichkeiten zu erarbeiten.
 
-Screencast zum Leistungsbegriff
-:::

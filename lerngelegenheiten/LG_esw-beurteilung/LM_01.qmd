@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Thematische Einführung
 subtitle: Grundlagen der Beurteilung
 authors:
@@ -39,7 +42,7 @@ Die Studierenden ...
 :::{.callout-caution collapse="true"}
 ## Aufträge auf LearningView
 
-![Kind erhält Beurteilung ©Voltafilm](https://www.voltafilm.ch/sites/default/files/styles/w976/public/stills/MLDN_Florina_01.jpg?itok=BZv1NQEt){ #fig-kind} 
+![Kind erhält Beurteilung ©Voltafilm](images/kind_ki.jpg){ #fig-kind width=50%} 
 
 Bevor Sie den Film schauen: Überlegen Sie sich kurz, was diesem Kind in @fig-kind gerade durch den Kopf geht.
 

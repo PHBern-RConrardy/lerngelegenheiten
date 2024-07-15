@@ -19,8 +19,6 @@ draft: false
 
 ::: {style="text-align: center;"}
 [LearningView](https://learningview.org/){.knopf target="_blank"}
-
-[Porta-Mathematik](https://porta.phbern.ch/content/page/61fbb3277513396a43d9373a){.knopf .knopf-klein target="_blank"} [Materialraum](https://ilias.phbern.ch/goto_phbern_fold_2177856.html){.knopf .knopf-klein target="_blank"}
 :::
 
 # Ziele und Intention

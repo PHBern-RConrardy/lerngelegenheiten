@@ -1,0 +1,12 @@
+---
+format: revealjs
+title: Digitale Zusammenarbeit und Kommunikation
+subtitle: Tag 2
+---
+
+# Ziel
+
+## Besprechung
+
+So kurz wie möglich, so lang wie nötig.
+
