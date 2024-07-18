@@ -1,277 +1,89 @@
 ---
-title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: "Woche 2"
-format: revealjs
-authors:
-    - name: Richard Conrardy
-      orcid: 0009-0004-2063-6898
-      id: 00383195
-      email: richard.conrardy@phbern.ch
-      url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
-      affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
-    - name: Joël Adler
-      url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
-      affiliations:
-          - name: University of Teacher Education Bern
-            address: Länggassstrasse 35
-            city: Bern
-            postal-code: 3012
-            url: https://www.phbern.ch
-            department: Institut Sekundarstufe I
-            ror: https://ror.org/05jf1ma54
-
-footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
-toc-depth: 2
+format: html
+title: Übungen mit Conditionals
+date: 07/18/2024
 ---
 
 
-# Loops
+## Gerade oder ungerade Zahl
 
-## Was sind Loops? (Schleifen)
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl gerade oder ungerade ist.
 
-Mit einem Loop können sie Programmcode wiederholen. In Python gibt es zwei Arten von Loops:
+## Positiv, negativ oder null
 
-### While-Loop
-```python
-i = 0  # Braucht eine Zähler-Variable
-while i < 5:  # Solange i < 5
-  print(i)
-  i = i + 1  # i um eins erhöhen
-# Output: 0 1 2 3 4
-```
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl positiv, negativ oder null ist.
 
-### For-Loop
-```Python
-for i in range(0, 5):  # Für jedes i von 0 bis 5
-  print(i)
-# Output: 0 1 2 3 4
-```
+## Zahlenmengen
 
-## While-Loops vs. For-Loops
+Schreiben Sie ein Programm, welches prüft, ob eine Zahl in $\mathbb{N}$, $\mathbb{Z}$ oder $\mathbb{Q}$ ist.
 
-While-Loops können alles, was For-Loops können und noch mehr. Trotzdem sollte man in den meisten Fällen For-Loops verwenden, da diese weniger fehleranfällig sind.
+## Mehrfache von drei und fünf
 
-Warum sind For-Loops weniger fehleranfällig? Der Bereich (englisch: range) muss mit einer Funktion “range(von, bis)” vorgegeben werden.
+Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl sowohl ein Vielfaches von 3 als auch von 5 ist.
 
-```Python
-for i in range(5, 10):  # range(von, bis)
-  print(i)
-# Output: 5 6 7 8 9
-```
+## Schaltjahr oder nicht
 
-## Unendliche Loops
+Schreibe ein Programm, das ein Jahr als Eingabe nimmt und überprüft, ob es sich um ein Schaltjahr handelt.
 
-Mit “while True:” erzeugt man einen unendlichen Loop:
+> Die gregorianische Schalttagsregelung besteht aus folgenden drei einzelnen Regeln: 
+> 1. Die durch 4 ganzzahlig teilbaren Jahre sind, abgesehen von den folgenden Ausnahmen, Schaltjahre.
+> 2. Säkularjahre, also die Jahre, die ein Jahrhundert abschließen (z.B. 1800, 1900, 2100 und 2200), sind, abgesehen von der folgenden Ausnahme, keine Schaltjahre.
+> 3. Die durch 400 ganzzahlig teilbaren Säkularjahre, zum Beispiel das Jahr 2000, sind jedoch Schaltjahre.
+>
+> Quelle: https://de.wikipedia.org/wiki/Schaltjahr
 
-```Python
-while True:  # Unendliche Schleife
-  print("hallo")
-# Output: hallo hallo hallo hallo hallo hallo hallo hallo ...
-```
+## Abweichung
+
+Schreiben Sie ein Programm, welche zwei Zahlen nimmt und augibt um wieviel Prozent die grössere Zahl grösser ist als die kleinere Zahl.
+
+## Eintritspreis basierend auf dem Alter
+
+Schreiben Sie ein Programm, das das Alter einer Person als Eingabe nimmt und den Eintrittspreis basierend auf dem Alter berechnet: unter 18: 5Chf, 18-64: 10Chf, 65 und älter: 7Chf.
+
+## Maximalwert
+
+Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und den größten Wert ausgibt.
 
 :::{.callout-tip}
-(Tipp: Mit “ctrl-c” (Mac: command-c) brechen sie ein Programm ab, falls sie in einem unendlichen Loop stecken bleiben.)
+
+## Maximalfunktion
+
+Die Maximalfunktion gibt sofort den grössten Wert aus: `max()` 
 
 :::
 
-## Loops verlassen 
+## Berechnung der Quadratwurzel
 
-Mit `break` kann man einen Loop wieder **verlassen**
+Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurzel dieser Zahl berechnet. Überprüfen Sie dabei, ob die Zahl positiv ist.
 
+## Dreieckstyp
 
-```Python
-i = 0
-while True:
-  print(i)
-  if i == 100:
-    break  # Loop verlassen
-  i = i + 1
-# Output: 0 1 2 4 5 ... 98 99 100
-```
+Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt.
 
+## Addition mit Überprüfung
 
-## Auftrag: Stellen sie sich vor, sie seien wieder in der Primarschule {.unlisted}
+Schreibe ein Programm, das zwei Zahlen als Eingabe nimmt, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.
 
-1. Die Lehrerin möchte, dass sie die Zahlen von 1 bis 1000 aufschreiben. Automatisieren sie diesen Auftrag.
-2. Die Lehrerin verlangt nun, dass sie von 1000 wieder rückwärts auf 1 zählen. Erstellen sie ein Programm.
-3. Nun möchte die Lehrerin auch noch, dass sie die 7er-Reihe bis 1000 (1x7, 2x7, 3x7…) aufschreiben. Erstellen sie wieder ein Programm.
+## Zufällige Addition mit Überprüfung
 
-<details>
+Schreibe ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.
 
-<summary>Lösungsvorschlag 1.</summary>
+:::{.callout-tip}
 
-``` python
-for i in range(1, 1001):
-    print(i)
-```
-</details>
+## Random-Package
 
-<details>
-
-<summary>Lösungsvorschlag 2.</summary>
-
-``` python
-for i in range(1, 1001):
-    print(1001-i)
-```
-</details>
-
-<details>
-
-<summary>Lösungsvorschlag 3.</summary>
-
-``` python
-i=1
-while 7*i<=1000:
-    print(7*i)
-    i=i+1
-```
-</details>
-
-## Auftrag: Prüfungssoftware Programmieren {.unlisted}
-Programmieren sie eine Software, welche eine Frage stellt und nach 3 Fehlversuchen “Prüfung leider nicht bestanden” ausgibt (inkl. verbleibende Versuche). Wenn die Frage richtig beantwortet wird, soll “Gratulation!” ausgegeben werden.
-
-<details>
-
-<summary>Lösungsvorschlag</summary>
-
-``` python
-richtige_hauptstadt = "bern"
-anzahl_versuche = 1
-while anzahl_versuche<=3:
-  eingegebene_hauptstadt=input("Was ist die Hauptstadt von der Schweiz? ")
-  if eingegebene_hauptstadt==richtige_hauptstadt:
-    print("Gratulation")
-    break
-  else:
-    print("Falsche Antwort, versuche es erneut")
-    print("Du hast noch "+ str(3-anzahl_versuche) + " Versuche.", flush=True) # Flush sorgt dafür, dass das print zum richtigen Zeitpunkt ausgegeben wird.
-    anzahl_versuche=anzahl_versuche+1
-if anzahl_versuche==3:
-  print("Prüfung nicht bestanden")
-````
-</details>
-
-# Listen
-
-## Was sind Listen? <i class="fas fa-list-ul"></i>
-
-Eine Liste speichert mehrere Elemente, z. B. eine Einkaufsliste:
-
-- Brot
-- Nutella
-- Milch
-- ...
-
-In Python werden Listen mit eckigen Klammern `[]` geschrieben:
+Das Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben. Jedes Mal wenn das Programm laufen gelassen werden neue zufällige Zahlen mit Hilfe der aktuellen Uhrzeit produziert.
 
 ```python
-x = ["Brot", "Nutella", "Milch"]  # Definition einer Liste
-print(x)  # Output: "['Brot', 'Nutella', 'Milch']"
+import random
+zahl1 = random.randint(1, 100)
+zahl2 = random.random()
+zahl3 = choice(-1,1)
+print(zahl1,zahl2,zahl3)
 ```
 
-## Zugriff auf Listenelemente
+:::
 
-Der Zugriff auf Listenelemente erfolgt mit einem Index. `[0]` ist dabei das erste Element, `[1]` das zweite, etc.
+## Zufällige Multiplikation mit Bewertung
 
-```Python
-einkaufsliste = ["Brot", "Nutella", "Milch"]
-print(einkaufsliste[0])  # Output: Brot
-print(einkaufsliste[1])  # Output: Nutella
-print(einkaufsliste[2])  # Output: Milch
-```
-
-Informatiker und moderne Mathematiker fangen bei 0 an zu zählen.
-
-Die Länge einer Liste erhält man mit der Funktion `len()`:
-
-```Python
-laenge = len(einkaufsliste)  # Länge der Liste
-print(laenge)  # Output: 3
-```
-## Listen & Loops
-
-Listen sind iterierbar, d. h. folgendes funktioniert und sollte bevorzugt werden:
-
-```Python
-for element in einkaufsliste:
-  print(element)
-```
-
-Wenn jedoch der Index benötigt wird, kann auch ein "normaler" Loop mit der `len()`-Funktion verwendet werden:
-```Python
-for i in range(len(einkaufsliste)):  # len() ist die Listenlänge
-  print(einkaufsliste[i])
-  print(i)  # Vorteil: Man hat Zugriff auf den Index i
-```
-
-## Listenelemente bearbeiten
-Ein Element ändern
-```Python
-einkaufsliste = ["Brot", "Nutella", "Milch"]
-einkaufsliste[1] = "Bananen"
-# Resultat: ['Brot', 'Bananen', 'Milch']
-````
-Ein Element hinzufügen
-
-```Python
-einkaufsliste = ["Brot", "Nutella", "Milch"]
-einkaufsliste.append("Bananen")
-# Resultat: ['Brot', 'Bananen', 'Milch', "Bananen"]
-```
-
-Ein Element löschen
-
-```Python
-einkaufsliste = ["Brot", "Nutella", "Milch"]
-einkaufsliste.pop()
-# Resultat: ["Brot", "Nutella"]
-````
-
-## Auftrag: Einkaufsliste {.unlisted}
-
-Programmieren sie eine Einkaufsliste, bei der sie Artikel hinzufügen können. Die Liste soll dabei nach jeder Eingabe wieder ausgegeben werden.
-
-<small>Tipp: Mit while True wird eine Schleife unendlich oft ausgeführt und mit CTRL-C (command-C) können sie das Programm trotzdem terminieren</small>
-
-<details>
-
-<summary>Lösungsvorschlag</summary>
-
-``` python
-einkaufliste=[]
-
-while True:
-    zusatz=input("Was möchtest du der Einkaufsliste hinzufügen? ")
-    einkaufliste.append(zusatz)
-    print(einkaufliste)
-```
-</details>
-
-## Auftrag: Notendurchschnittsrechner {.unlisted}
-
-Programmieren sie einen Notendurchschnittsrechner. Das Ziel: Sie können ihre Noten eingeben und der Rechner gibt ihnen ihren aktuellen Durchschnitt zurück.
-
-<details>
-
-<summary>Lösungsvorschlag</summary>
-
-``` python
-notenliste=[]
-notensumme=0
-
-while True:
-    zusatz=float(input("Wie lautet deine nächste Note? "))
-    notenliste.append(zusatz)
-    notensumme=notensumme+zusatz
-    mittelwert=notensumme/len(notenliste)
-    print("Dein Mittelwert beträgt: "+str(mittelwert))
-```
-</details>
+Schreiben Sie ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihr Produkt berechnet und überprüft, um wieviel das vom Benutzer eingegebene Resultat vom echten Resultat abweicht. Bei einer Eingabe von weniger als 2% soll "sehr gut" ausgegeben werden, bei einer Abweichung ovn weniger als 7% soll "gut" augegeben werden und bei einer Abweichung von mehr als 20% soll "schwach" ausgegeben werden. In allen anderen Fällen soll "gut genug" ausgegeben werden.

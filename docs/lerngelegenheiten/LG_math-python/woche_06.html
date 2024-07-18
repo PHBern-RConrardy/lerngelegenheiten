@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Joel Adler   Richard Conrardy">
+<meta name="author" content="Richard Conrardy">
 
-<title>Verstehensorientiert prüfen in Zeiten von KI</title>
+<title>Erweiterte Übungen in Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -69,6 +69,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -96,15 +125,28 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_06.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a>
+  <ul class="collapse">
+  <li><a href="#numerische-ableitung" id="toc-numerische-ableitung" class="nav-link" data-scroll-target="#numerische-ableitung">Numerische Ableitung</a></li>
+  <li><a href="#numerische-integration" id="toc-numerische-integration" class="nav-link" data-scroll-target="#numerische-integration">Numerische Integration</a></li>
+  <li><a href="#berechnung-der-summe-einer-geometrischen-reihe" id="toc-berechnung-der-summe-einer-geometrischen-reihe" class="nav-link" data-scroll-target="#berechnung-der-summe-einer-geometrischen-reihe">Berechnung der Summe einer geometrischen Reihe</a></li>
+  <li><a href="#erzeugen-von-pascalschem-dreieck" id="toc-erzeugen-von-pascalschem-dreieck" class="nav-link" data-scroll-target="#erzeugen-von-pascalschem-dreieck">Erzeugen von Pascal’schem Dreieck</a></li>
+  <li><a href="#brüche-addieren" id="toc-brüche-addieren" class="nav-link" data-scroll-target="#brüche-addieren">Brüche addieren</a></li>
+  <li><a href="#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" id="toc-lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" class="nav-link" data-scroll-target="#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen">Lösen von linearen Gleichungssystemen mit zwei Variablen</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
-<p class="subtitle lead">Woche 6</p>
+<h1 class="title">Erweiterte Übungen in Python</h1>
 </div>
 
 
@@ -113,9 +155,14 @@ ul.task-list li input[type="checkbox"] {
   <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
   
     <div class="quarto-title-meta-contents">
-    <p class="author">Joel Adler <br> Richard Conrardy </p>
+    <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
   <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.phbern.ch">
+            University of Teacher Education Bern
+            </a>
+          </p>
       </div>
   </div>
 
@@ -137,13 +184,39 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="übungen" class="level1">
+<h1>Übungen</h1>
+<section id="numerische-ableitung" class="level2">
+<h2 class="anchored" data-anchor-id="numerische-ableitung">Numerische Ableitung</h2>
+<p>Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.</p>
+</section>
+<section id="numerische-integration" class="level2">
+<h2 class="anchored" data-anchor-id="numerische-integration">Numerische Integration</h2>
+<p>Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.</p>
+</section>
+<section id="berechnung-der-summe-einer-geometrischen-reihe" class="level2">
+<h2 class="anchored" data-anchor-id="berechnung-der-summe-einer-geometrischen-reihe">Berechnung der Summe einer geometrischen Reihe</h2>
+<p>Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.</p>
+</section>
+<section id="erzeugen-von-pascalschem-dreieck" class="level2">
+<h2 class="anchored" data-anchor-id="erzeugen-von-pascalschem-dreieck">Erzeugen von Pascal’schem Dreieck</h2>
+<p>Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.</p>
+</section>
+<section id="brüche-addieren" class="level2">
+<h2 class="anchored" data-anchor-id="brüche-addieren">Brüche addieren</h2>
+<p>Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.</p>
+</section>
+<section id="lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" class="level2">
+<h2 class="anchored" data-anchor-id="lösen-von-linearen-gleichungssystemen-mit-zwei-variablen">Lösen von linearen Gleichungssystemen mit zwei Variablen</h2>
+<p>Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (<span class="math inline">\(ax + by = c\)</span> und <span class="math inline">\(dx + ey = f\)</span>) löst.</p>
 
 
+</section>
+</section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R., &amp; Adler &lt;br&gt; Richard Conrardy, J. (2024, January
-1). <em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
-Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+Conrardy, R. (2024, January 1). <em>Erweiterte Übungen in Python</em>.
+University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

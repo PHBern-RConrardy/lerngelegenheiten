@@ -1,8 +1,30 @@
 ---
-title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: Woche 6
-format: revealjs
-author: Joel Adler <br> Richard Conrardy
-
-footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
+format: html
+title: Erweiterte Übungen in Python
 ---
+
+
+# Übungen
+
+## Numerische Ableitung
+
+Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.
+
+## Numerische Integration
+
+Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.
+
+## Berechnung der Summe einer geometrischen Reihe
+
+Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.
+
+## Erzeugen von Pascal'schem Dreieck
+Schreiben Sie eine Funktion, die Pascal'sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.
+
+## Brüche addieren
+
+Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.
+
+## Lösen von linearen Gleichungssystemen mit zwei Variablen
+
+Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen ($ax + by = c$ und $dx + ey = f$) löst.

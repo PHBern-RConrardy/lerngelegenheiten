@@ -1,303 +1,108 @@
 ---
-title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: "Woche 1"
-format: revealjs
-author:   # Autoren welche automatisch gesetzt werden, falls nichts anderes angegeben wird
-      - name: Joel Adler
-        email: joel.adler@phbern.ch
-        degrees: Dr.
-        url: https://www.phbern.ch/ueber-die-phbern/personen/joel-adler
-        affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
-      - name: Richard Conrardy
-        orcid: 0009-0004-2063-6898
-        id: 00383195
-        email: richard.conrardy@phbern.ch
-        url: https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy
-        affiliations:
-        - name: University of Teacher Education Bern
-          address: Länggassstrasse 35
-          city: Bern
-          postal-code: 3012
-          url: https://www.phbern.ch
-          department: Institut Sekundarstufe I
-          ror: https://ror.org/05jf1ma54
-
-footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
+format: html
+title: Übungen mit Typecasting
+date: 07/18/2024
 ---
+# Übungen
 
-# Variablen
+## Fläche eines Rechtecks
 
-## Learning Outcomes{.unnumbered .unlisted}
+Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.
 
+## Durchschnitt zweier Zahlen
 
-::: {style="background-color: #DDDDD7; padding: 10px; border-radius: 10px;"}
-[MI.2.2.h](https://be.lehrplan.ch/101UtVudCvvtEYaGJ6pZKNDBVYTC2H2kB){.knopf .indikator target="\"_blank"}
+Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.
 
-können selbstentwickelte Algorithmen in Form von **lauffähigen und korrekten Computerprogrammen** mit **Variablen** und Unterprogrammen formulieren.
+## Summe und Produkt von drei Zahlen
 
-::: {style="border-top: 3px dotted #CB3A27; "}
-:::
-:::
+Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.
 
-## Was sind Variablen?
+## Quadratzahlen
 
-Eine Variable ist ein Behälter, um Daten zu speichern (vgl. Mathematik).
+Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.
 
-```Python
-name = "Christian" # Variable erstellen und Wert zuweisen
-print(name) # Output: Christian
+:::{.callout-tip}
 
-name = 3 # Variable überschreiben
-print(name) # Output: 3 
+## Potenzen
 
-name = input("Gib deinen Namen ein: ") # Benutzereingabe
-print("Dein Name ist: " + name) # Output: ?
-```
+Potenzen werden in Python mit `**`angeschrieben: 
 
-(Eine Variable sollte so benannt werden, dass jeder weiss, um was es geht z. B. name_Ohne_Letzer_Buchstabe = “Christia”, vgl. [PEP 8](https://peps.python.org/pep-0008/#function-and-variable-names))
+$x^2 \longrightarrow$ `x**2`.
 
-## Was sind Datentypen?
-
-Jede Variable hat einen Datentyp. Die vier wichtigsten:
-
-```Python
-x = 5
-print(type(x)) # Output: int (Integer/Ganzzahl)
-
-x = 5.0
-print(type(x)) # Output: float (Floating-Point/Kommazahl)
-
-x = True
-print(type(x)) # Output: bool (Boolean/Wahrheitswert)
-
-x = "hello"
-print(type(x)) # Output: string (String/Zeichenkette)
-```
-
-## Konvertierung von Datentypen (Type Casting){.unnumbered .unlisted}
-
-Manchmal muss man Datentypen umwandeln
-
-```Python
-x = "Monat "
-y = 12
-print(x + y) # funktioniert nicht und macht keinen Sinn
-
-x = "Monat "
-y = 12
-print(x + str(y)) # Output: Monat 12
-```
-
-Die Umwandlungsfunktionen sind analog zu den Datentypen:
-
-```Python
-x = 5
-int(x) # x ist bereits ein Integer
-float(x) # 5.0
-bool(x) # True
-str(x) # "5"
-```
-
-## Auftrag: Mein erstes Programm
-:::: {.columns}
-
-::: {.column width="60%"}
-In Amerika ist die Längeneinheit “Fuss” (ft) auch heute noch in Gebrauch. 1 ft entspricht dabei 30.48 cm bzw. 1 cm entspricht 0.032808 ft.
-
-
-Erstellen Sie ein Programm, welches cm in ft umrechnet. Wie gross sind sie in Fuss?
+Andere Computersprachen (z.B. $\LaTeX$) benutzen stattdessen `^`, dann wird es `x^2` geschrieben.
 
 :::
 
-::: {.column width="40%"}
-![](images/metric_imperial.jpg)
-:::
+## Kreisumfang berechnen
 
-::::
+Schreiben Sie ein Programm, das den Radius eines Kreises als *Eingabe* nimmt und den Umfang des Kreises ausgibt.
 
-<details>
+:::{.callout-tip}
 
-<summary>Lösungsvorschlag</summary>
+## Libraries
 
-``` python
-# Grösse wird per input gefragt und per int in einen integer gecastet.
-groesse_in_cm = int(input("Gib deine Körpergrösse in cm ein: ")) 
-
-# Grösse in cm (jetzt eine Zahl) wird zu Fuss umgerechnet, hier per Multiplikation
-groesse_in_feet = groesse_in_cm*0.032808 
-
-# Output wird geprinted, dabei muss Variable zurück zu einem String umgewandelt werden.
-print("Deine Körpergrösse in Fuss beträgt: " + str(groesse_in_feet)) 
-```
-</details>
-
-
-
-# Conditionals
-
-## Learning Outcomes{.unnumbered .unlisted}
-
-::: {style="background-color: #DDDDD7; padding: 10px; border-radius: 10px;"}
-[MI.2.2.f](https://be.lehrplan.ch/101bUbEpzVbteMu2Yt7sPsyW3ZunBzPn9){.knopf .indikator .zyklus2 target="\"_blank"}
-
-können Programme mit Schleifen, **bedingten Anweisungen** und Parametern schreiben und testen.
-:::
-
-## Was sind Conditionals?
-
-Conditionals sind bedingte Anweisungen oder Verzweigungen. In Python schreibt man "if Bedingung: dann". Die Bedingung ist dabei entweder Wahr oder Falsch (Boolean).
+Damit Sie $\pi$ erhalten müssen Sie mit `import math`, z.B. in der ersten Zeile des Programms, die *math library* importieren und können danach `math.pi` nutzen.
 
 ```python
-note = 4.5
-
-if note >= 4:
-  print("Prüfung bestanden")
-  print("...")  # Alles in einer If-Bedingung muss eingerückt sein
-else:
-  print("Mehr Code")  # Ohne Einrücken ist es wieder normaler Code
-```  
-  
-
-## If-Elif-Else{.unnumbered .unlisted}
-
-Mit elif (Abkürzung für "else-if") und else (deutsch: sonst) können sie mehrere Bedingungen verschachteln.
-
-```Python
-x = 1
-
-if x > 1:
-  print("x ist größer als 1")
-elif x < 1:
-  print("x ist kleiner als 1")
-else:
-  print("x ist gleich 1")
+import math
+print(math.pi)
 ```
 
-:::{.callout-caution}
-Ein Vergleich in Python ist `==`, eine Zuweisung ist `=`.
 :::
 
-## Logische Operatoren
+## Hypotenuse eines rechtwinkligen Dreiecks
 
-* `and` (Deutsch: und)
-* `or` (Deutsch: oder)
-* `not` (Deutsch: nicht)
+Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet. 
 
-```Python
-x = 5
-y = 6
+## Temperaturumrechnung
 
-if x == 5 and y == 6:
-  print("Beide Aussagen sind Wahr")
+Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel: 
+$$\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32$$
 
-if x == 5 or y == 6:
-  print("Eine oder beide Aussagen sind Wahr")
+**Vertiefung:** Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.
 
-if not x == 5:  # Gleich wie x != 5
-  print("Die Aussage ist nicht Wahr")
-```
+## Zinsrechnung
 
+Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: $$ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}$$
 
-## Was ihr vermeiden solltet!{.unnumbered .unlisted}
+## Volumen eines Zylinders
 
-Vergleichen von Booleans mit `==`
+Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: $$\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Höhe}$$
 
-```Python
-winter = True
+## Minuten
 
-if winter == True:  # Schlechter Programmierstil
-  print("Es ist Winter")
+Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.
 
-if winter:  # Viel besser
-  print("Es ist Winter")
-```
+:::{.callout-tip}
 
-Vergleichen von Floats mit `==`
-```Python
-meter = 1.8324
+## Ganzzahldivision
 
-if meter == 1.8324:  # Nicht gut, da Floats nur "ungefähr" sind
-  print("Sie sind 1.83 Meter groß")
+Python nutzt `/`als Divison. `//`ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.
 
-if 1.83 < meter < 1.84:  # Viel besser
-  print("Sie sind 1.83 Meter groß")
-```
-
-## Auftrag: Login mit Passwort
-
-:::: {.columns}
-
-::: {.column width="60%"}
-Programmieren Sie ein Login (nur mit Passwort, ohne Benutzernamen). Wenn das Passwort korrekt ist, soll “Herzlich Willkommen” erscheinen, andernfalls “Passwort nicht korrekt”.
-:::
-
-:::{.column width="40%"}
-![](images/login_1.jpg)
-:::
-
-::::
-
-<details>
-
-<summary>Lösungsvorschlag</summary>
-
-``` python
-# Passwort einfachheitshalber in eine Variable gespeichert
-korrektes_passwort = "Swordfish"
-
-# Passwort wird abgefragt
-eingegebenes_passwort = input("Wie lautet dein Passwort? ")
-
-# Eingabe und korrektes Passwort werden verglichen mit ==
-if eingegebenes_passwort == korrektes_passwort:
-  print("Willkommen")
-else:
-  print("Passwort falsch")
-
-```
-</details>
-
-
-## Auftrag: Login mit Benutzer und Passwort
-:::: {.columns}
-
-::: {.column width="60%"}
-Ergänzen sie das Login mit einem Benutzernamen (neues .py file). Falls der Benutzer nicht existiert, soll “Benutzer nicht gefunden” ausgegeben werden.
+`7//3` ergibt 2, denn: $7/3=2 \text{ Rest } 1$
 
 :::
-:::{.column width="40%"}
-![](images/login_2.jpg)
+
+## Anzahl der vollen Dutzend
+
+Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.
+
+
+
+:::{.callout-tip}
+
+## Modulo
+
+`%` ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.
+
+`7%3`, gelesen *7 modulo 3*, ergibt 1, denn $7/3=2 \text{ Rest } 1$.
+
 :::
-::::
 
-<details>
+## Wochen und Tage
 
-<summary>Lösungsvorschlag</summary>
+Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.
 
-``` python
-# Passwort und User einfachheitshalber in eine Variable gespeichert
-passwort = "Swordfish"
-username = "Richard"
+## Packungsgrösse und Restmenge
 
-# Zuerst wird Username gefragt
-eingabe_username = input("Wie lautet dein Username?")
-
-if eingabe_username == username:
-  # Passwort wird ausschliesslich gefragt, falls es der User korrekt ist. 
-  eingabe_passwort = input("Wie lautet dein Passwort?")
-  if eingabe_passwort == paswort:
-    print("Hallo!")
-  else:
-    print("falsches Passwort")
-# Falls es den User nicht gibt, geht es hier weiter
-else:
-  print("Benutzer nicht gefunden.")
-```
-</details>
+Schreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.

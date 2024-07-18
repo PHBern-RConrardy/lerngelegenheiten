@@ -106,7 +106,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -124,10 +124,80 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html">Semesterübersicht</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -151,7 +221,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
 <h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
-<p class="subtitle lead">Python im Mathematikunterricht</p>
+<p class="subtitle lead">Programmieren im Mathematikunterricht</p>
   <div class="quarto-categories">
     <div class="quarto-category">Modul - Formative Beurteilung</div>
     <div class="quarto-category">Modul - Summative und prognostische Beurteilung</div>
@@ -212,112 +282,64 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="wochenüberblick" class="level1">
 <h1>Wochenüberblick</h1>
 <table class="table-striped table-hover table-sm small table">
+<colgroup>
+<col style="width: 17%">
+<col style="width: 28%">
+<col style="width: 17%">
+<col style="width: 17%">
+<col style="width: 17%">
+</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">Woche</th>
 <th style="text-align: left;">Thema</th>
-<th style="text-align: center;">Slides</th>
-<th style="text-align: center;">Unterlagen</th>
 <th style="text-align: center;">Vorbereitung</th>
-<th></th>
+<th style="text-align: center;">Präsenz</th>
+<th style="text-align: center;">Nachbereitung</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td style="text-align: center;">1</td>
-<td style="text-align: left;">Variablen und Conditionals</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: left;">Variablen, Datentypen und Typecasting</td>
+<td style="text-align: center;">Lernmodul</td>
+<td style="text-align: center;">Übungen</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="#vorbereitungsauftrag---woche-1"><i class="bi bi-file-earmark-check-fill"></i></a></td>
-<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
-<td style="text-align: left;">Loops und Listen</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_02.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: left;">Conditionals</td>
+<td style="text-align: center;">Lernmodul</td>
+<td style="text-align: center;">Übungen</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
-<td style="text-align: left;">Funktionen und Projektauftrag</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_03.html" target="_blank"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: left;">Loops</td>
+<td style="text-align: center;">Lernmodul</td>
+<td style="text-align: center;">Übungen</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
-<td style="text-align: left;">Projekt 1 (asynchron)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="#projekt-1"><i class="bi bi-folder-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td></td>
+<td style="text-align: left;">Listen</td>
+<td style="text-align: center;">Lernmodul</td>
+<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;">Projekt 1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
-<td style="text-align: left;">Überschlagen üben und Sieb des Eratosthenes</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_05.html"><i class="bi bi-easel3-fill"></i></a></td>
+<td style="text-align: left;">Funktionen</td>
+<td style="text-align: center;">Lernmodul</td>
+<td style="text-align: center;">Übungen</td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
-<td style="text-align: left;">Perfekte und narzistische Zahlen, Exp. Wachstum</td>
+<td style="text-align: left;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">Stammbrüche und Vermutung von Collatz</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_07.html"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">Brute force Gleichungen lösen &amp; Kombinatorik</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_08.html"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">Projekt 2 (asynchron)</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"><a href="#projekt-2"><i class="bi bi-folder-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">fällt im FS24 aus?</td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">11</td>
-<td style="text-align: left;">Algorithmen</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_10.html"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">12</td>
-<td style="text-align: left;">Quarto</td>
-<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_11.html"><i class="bi bi-easel3-fill"></i></a></td>
-<td style="text-align: center;"></td>
-<td style="text-align: center;"></td>
-<td></td>
+<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;">Projekt 2</td>
 </tr>
 </tbody>
 </table>
@@ -329,7 +351,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</h2>
 <p>Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie <strong>vor</strong> der ersten Woche Rstudio und Python auf Ihrem Computer.</p>
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Grobe Installationsanleitung unter Windows:</p>

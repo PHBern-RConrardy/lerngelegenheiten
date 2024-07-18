@@ -1,85 +1,46 @@
 ---
-title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: Woche 5
-format: revealjs
-author: Joel Adler <br> Richard Conrardy
-
-footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
+format: html
+title: Übungen zu Funktionen
 ---
-# Besprechung
 
-## Austausch über Projekt 1
+## Lineare Interpolation
 
-## 5 Minuten - Lesen
+Schreiben Sie eine Funktion, die zwei Listen von x- und y-Werten entgegennimmt und den interpolierten y-Wert für einen gegebenen x-Wert berechnet.
 
-```{r}
-#| echo: false
-#| code-fold: true
-#| code-summary: "Quellcode für den Countdown"
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "1.5em",
-  margin = "0%",
-  minutes = 5, 
-  seconds = 0
-)
-```
+## Binomialkoeffizienten mit Funktion
+
+Schreiben Sie eine Funktion, die den Binomialkoeffizienten für zwei gegebene Zahlen n und k berechnet und zurückgibt.
+
+## Quadratische Gleichungen lösen
+
+Schreiben Sie eine Funktion, die die Koeffizienten einer quadratischen Gleichung entgegennimmt und deren Lösungen berechnet.
+
+## Bestimmung des Modus
+
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und den Modus (häufigster Wert) berechnet.
+
+## Median einer Liste
+
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und den Median berechnet.
 
 
+## Standardabweichung
 
-* Tauschen Sie Ihren Code mit einem Sitznachbarn.
-* Lesen Sie den Code des Sitznachbarn und notieren Sie sich Fragen und Vorschläge.
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und die Standardabweichung berechnet.
 
-## 5 Minuten - Reden
+## Kombinationen generieren
 
-```{r}
-#| echo: false
-#| code-fold: true
-#| code-summary: "Quellcode für den Countdown"
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "1.5em",
-  margin = "0%",
-  minutes = 5, 
-  seconds = 0
-)
-```
+Schreiben Sie eine Funktion, die eine Liste und eine Zahl k entgegennimmt und alle möglichen Kombinationen von k Elementen der Liste zurückgibt.
 
-* Was hat Ihnen geholfen den Code zu verstehen?
-* Welche tollen, überraschenden Ideen sind im Code?
-* Wie würden Sie den Code erweitern oder abändern?
+## Häufigkeitsverteilung
+Schreiben Sie eine Funktion, die eine Liste von Zahlen entgegennimmt und eine Häufigkeitsverteilung (als Dictionary) zurückgibt.
 
-# Code gemeinsam ausbauen
+## Grösster gemeinsamer Teiler
+Schreiben Sie eine Funktion, welche zwei Zahlen entgegennimmt und ihren grössten gemeinsamen Teiler (ggT) berechnet.
 
-## Beispiel online
+** Erweiterung:** Schreiben Sie eine Funktion welche Zähler und Nenner entgegennimmt und sie so weit wie möglich kürzt.
 
-Erweiterungen:
+## Kleinstes gemeinsames Vielfaches
+Schreiben Sie eine Funktion, die zwei Zahlen entgegennimmt und ihr kleinstes gemeinsames Vielfaches (kgV) berechnet.
 
-1. Automatisiert 
-2. Adaptiv
-3. Gamification
-
-# Sieb des Eratosthenes
-
-## Problemstellung
-
-```{mermaid}
-%%| mermaid-format: png
-graph LR
-
-  Primzahlen --> Primzahlzerlegung --> kgV --> Bruchrechnen
-```
-
-1. Liste aller Primzahlen von $2$ bis $n$ generieren.
-
-## Idee
-
-![Sieb des Eratosthenes](https://upload.wikimedia.org/wikipedia/commons/5/5e/Animation_Sieb_des_Eratosthenes_%C3%9Cberarbeitet.gif){#fig-bild}
-
-:::quelle
-<a href="https://commons.wikimedia.org/wiki/File:Animation_Sieb_des_Eratosthenes_%C3%9Cberarbeitet.gif">Faultier11</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
-:::
+**Erweiterung:** Schreiben Sie eine Funktion welche zwei Brüche in Form von Listen mit je zwei Zahlen (Zähler und Nenner) entgegennimmt und sie addiert.

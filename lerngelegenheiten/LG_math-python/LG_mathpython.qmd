@@ -1,6 +1,6 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: "Python im Mathematikunterricht"
+subtitle: "Programmieren im Mathematikunterricht"
 format: html
 categories:
   - Modul - Formative Beurteilung
@@ -36,20 +36,14 @@ citation:
 
 # Wochenüberblick
 
-| Woche | Thema                                           |                               Slides                               |                   Unterlagen                    |                                   Vorbereitung                                   |     |
-|:----------:|:-----------|:----------:|:----------:|:----------:|------------|
-|   1   | Variablen und Conditionals                      | [<i class="bi bi-easel3-fill"></i>](woche_01.qmd){target="_blank"} |                                                 | [<i class="bi bi-file-earmark-check-fill"></i>](#vorbereitungsauftrag---woche-1) |     |
-|   2   | Loops und Listen                                | [<i class="bi bi-easel3-fill"></i>](woche_02.qmd){target="_blank"} |                                                 |                                                                                  |     |
-|   3   | Funktionen und Projektauftrag                   | [<i class="bi bi-easel3-fill"></i>](woche_03.qmd){target="_blank"} |                                                 |                                                                                  |     |
-|   4   | Projekt 1 (asynchron)                           |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-1) |                                                                                  |     |
-|   5   | Überschlagen üben und Sieb des Eratosthenes     |         [<i class="bi bi-easel3-fill"></i>](woche_05.qmd)          |                                                 |                                                                                  |     |
-|   6   | Perfekte und narzistische Zahlen, Exp. Wachstum |                                                                    |                                                 |                                                                                  |     |
-|   7   | Stammbrüche und Vermutung von Collatz           |         [<i class="bi bi-easel3-fill"></i>](woche_07.qmd)          |                                                 |                                                                                  |     |
-|   8   | Brute force Gleichungen lösen & Kombinatorik    |         [<i class="bi bi-easel3-fill"></i>](woche_08.qmd)          |                                                 |                                                                                  |     |
-|   9   | Projekt 2 (asynchron)                           |                                                                    | [<i class="bi bi-folder-fill"></i>](#projekt-2) |                                                                                  |     |
-|  10   | fällt im FS24 aus?                              |                                                                    |                                                 |                                                                                  |     |
-|  11   | Algorithmen                                     |         [<i class="bi bi-easel3-fill"></i>](woche_10.qmd)          |                                                 |                                                                                  |     |
-|  12   | Quarto                                          |         [<i class="bi bi-easel3-fill"></i>](woche_11.qmd)          |                                                 |                                                                                  |     |
+| Woche | Thema                                 | Vorbereitung | Präsenz | Nachbereitung |
+|:-----------:|:--------------------|:-----------:|:-----------:|:-----------:|
+|   1   | Variablen, Datentypen und Typecasting |  Lernmodul   | Übungen |               |
+|   2   | Conditionals                          |  Lernmodul   | Übungen |               |
+|   3   | Loops                                 |  Lernmodul   | Übungen |               |
+|   4   | Listen                                |  Lernmodul   | Übungen |   Projekt 1   |
+|   5   | Funktionen                            |  Lernmodul   | Übungen |               |
+|   6   |                                       |              | Übungen |   Projekt 2   |
 
 : {.striped .hover .table-sm}
 
@@ -205,8 +199,7 @@ Dieses Projekt kann integraler Bestandteil des Modulleistungsnachweises der form
 
 Interessante Aufgaben kann man hier finden:
 
-- [Informatikbiber](https://www.informatik-biber.ch/aufgabensammlung/) (Lizenz CC BY-NC-SA)
-- [Mathekänguru](https://www.mathe-kaenguru.de/chronik/aufgaben/index.html) 
+-   [Informatikbiber](https://www.informatik-biber.ch/aufgabensammlung/) (Lizenz CC BY-NC-SA)
+-   [Mathekänguru](https://www.mathe-kaenguru.de/chronik/aufgaben/index.html)
 
 ------------------------------------------------------------------------
-

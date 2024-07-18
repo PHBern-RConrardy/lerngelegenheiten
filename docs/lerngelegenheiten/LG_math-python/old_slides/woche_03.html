@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Joel Adler">
 <meta name="author" content="Richard Conrardy">
 
-<title>Übungen mit Typecasting</title>
+<title>Verstehensorientiert prüfen in Zeiten von KI</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -55,26 +56,46 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/penguin.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<link href="../../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -103,35 +124,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -142,8 +134,8 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -163,38 +155,50 @@ window.Quarto = {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a>
+  <li><a href="#funktionen" id="toc-funktionen" class="nav-link active" data-scroll-target="#funktionen">Funktionen</a>
   <ul class="collapse">
-  <li><a href="#fläche-eines-rechtecks" id="toc-fläche-eines-rechtecks" class="nav-link" data-scroll-target="#fläche-eines-rechtecks">Fläche eines Rechtecks</a></li>
-  <li><a href="#durchschnitt-zweier-zahlen" id="toc-durchschnitt-zweier-zahlen" class="nav-link" data-scroll-target="#durchschnitt-zweier-zahlen">Durchschnitt zweier Zahlen</a></li>
-  <li><a href="#summe-und-produkt-von-drei-zahlen" id="toc-summe-und-produkt-von-drei-zahlen" class="nav-link" data-scroll-target="#summe-und-produkt-von-drei-zahlen">Summe und Produkt von drei Zahlen</a></li>
-  <li><a href="#quadratzahlen" id="toc-quadratzahlen" class="nav-link" data-scroll-target="#quadratzahlen">Quadratzahlen</a></li>
-  <li><a href="#kreisumfang-berechnen" id="toc-kreisumfang-berechnen" class="nav-link" data-scroll-target="#kreisumfang-berechnen">Kreisumfang berechnen</a></li>
-  <li><a href="#hypotenuse-eines-rechtwinkligen-dreiecks" id="toc-hypotenuse-eines-rechtwinkligen-dreiecks" class="nav-link" data-scroll-target="#hypotenuse-eines-rechtwinkligen-dreiecks">Hypotenuse eines rechtwinkligen Dreiecks</a></li>
-  <li><a href="#temperaturumrechnung" id="toc-temperaturumrechnung" class="nav-link" data-scroll-target="#temperaturumrechnung">Temperaturumrechnung</a></li>
-  <li><a href="#zinsrechnung" id="toc-zinsrechnung" class="nav-link" data-scroll-target="#zinsrechnung">Zinsrechnung</a></li>
-  <li><a href="#volumen-eines-zylinders" id="toc-volumen-eines-zylinders" class="nav-link" data-scroll-target="#volumen-eines-zylinders">Volumen eines Zylinders</a></li>
-  <li><a href="#minuten" id="toc-minuten" class="nav-link" data-scroll-target="#minuten">Minuten</a></li>
-  <li><a href="#anzahl-der-vollen-dutzend" id="toc-anzahl-der-vollen-dutzend" class="nav-link" data-scroll-target="#anzahl-der-vollen-dutzend">Anzahl der vollen Dutzend</a></li>
-  <li><a href="#wochen-und-tage" id="toc-wochen-und-tage" class="nav-link" data-scroll-target="#wochen-und-tage">Wochen und Tage</a></li>
-  <li><a href="#packungsgrösse-und-restmenge" id="toc-packungsgrösse-und-restmenge" class="nav-link" data-scroll-target="#packungsgrösse-und-restmenge">Packungsgrösse und Restmenge</a></li>
+  <li><a href="#was-sind-funktionen" id="toc-was-sind-funktionen" class="nav-link" data-scroll-target="#was-sind-funktionen">Was sind Funktionen?</a></li>
+  <li><a href="#parameter-bzw.-argumente" id="toc-parameter-bzw.-argumente" class="nav-link" data-scroll-target="#parameter-bzw.-argumente">Parameter bzw. Argumente</a></li>
+  <li><a href="#rückgabewert" id="toc-rückgabewert" class="nav-link" data-scroll-target="#rückgabewert">Rückgabewert</a></li>
+  <li><a href="#beispiel" id="toc-beispiel" class="nav-link" data-scroll-target="#beispiel">Beispiel</a></li>
+  <li><a href="#auftrag-brief-adressieren" id="toc-auftrag-brief-adressieren" class="nav-link" data-scroll-target="#auftrag-brief-adressieren">Auftrag: Brief Adressieren</a></li>
+  </ul></li>
+  <li><a href="#packages" id="toc-packages" class="nav-link" data-scroll-target="#packages">Packages</a>
+  <ul class="collapse">
+  <li><a href="#zufällige-zahlen" id="toc-zufällige-zahlen" class="nav-link" data-scroll-target="#zufällige-zahlen">Zufällige Zahlen</a></li>
+  </ul></li>
+  <li><a href="#projekt" id="toc-projekt" class="nav-link" data-scroll-target="#projekt">Projekt</a>
+  <ul class="collapse">
+  <li><a href="#förderkreislauf" id="toc-förderkreislauf" class="nav-link" data-scroll-target="#förderkreislauf">Förderkreislauf</a></li>
+  <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_03.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Übungen mit Typecasting</h1>
+<h1 class="title">Verstehensorientiert prüfen in Zeiten von KI</h1>
+<p class="subtitle lead">Woche 3</p>
 </div>
 
 
 <div class="quarto-title-meta-author">
-  <div class="quarto-title-meta-heading">Autor:in</div>
+  <div class="quarto-title-meta-heading">Autor:innen</div>
   <div class="quarto-title-meta-heading">Zugehörigkeiten</div>
   
+    <div class="quarto-title-meta-contents">
+    <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/joel-adler">Joel Adler, Dr.</a> <a href="mailto:joel.adler@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            <a href="https://www.phbern.ch">
+            University of Teacher Education Bern
+            </a>
+          </p>
+      </div>
     <div class="quarto-title-meta-contents">
     <p class="author"><a href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">Richard Conrardy</a> <a href="mailto:richard.conrardy@phbern.ch" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> <a href="https://orcid.org/0009-0004-2063-6898" class="quarto-title-author-orcid"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a></p>
   </div>
@@ -213,7 +217,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">18.07.2024</p>
+      <p class="date">01.01.2024</p>
     </div>
   </div>
   
@@ -225,126 +229,154 @@ window.Quarto = {
 </header>
 
 
-<section id="übungen" class="level1">
-<h1>Übungen</h1>
-<section id="fläche-eines-rechtecks" class="level2">
-<h2 class="anchored" data-anchor-id="fläche-eines-rechtecks">Fläche eines Rechtecks</h2>
-<p>Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.</p>
+<section id="funktionen" class="level1">
+<h1>Funktionen</h1>
+<section id="was-sind-funktionen" class="level2">
+<h2 class="anchored" data-anchor-id="was-sind-funktionen">Was sind Funktionen?</h2>
+<p>Funktionen kennen sie bereits aus der Mathematik, z. B. <code>f(x) = 2x</code>.</p>
+<p>In Python werden Funktionen mit <code>def</code> und <code>return</code> definiert und meistens verwendet, um Code besser zu strukturieren:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Definition einer Funktion</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="kw">def</span> meine_funktion(x):</span>
+<span id="cb1-3"><a href="#cb1-3"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Funktionen können mehrmals aufgerufen werden</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="bu">print</span>(meine_funktion(<span class="dv">2</span>))</span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="bu">print</span>(meine_funktion(<span class="dv">4</span>))</span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="co"># Output: 4 8</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="durchschnitt-zweier-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="durchschnitt-zweier-zahlen">Durchschnitt zweier Zahlen</h2>
-<p>Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.</p>
+<section id="parameter-bzw.-argumente" class="level2">
+<h2 class="anchored" data-anchor-id="parameter-bzw.-argumente">Parameter bzw. Argumente</h2>
+<p>Funktionen können (müssen aber nicht) Argumente haben:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">def</span> funktion_ohne_argument():</span>
+<span id="cb2-2"><a href="#cb2-2"></a>  <span class="bu">print</span>(<span class="st">"hello"</span>)</span>
+<span id="cb2-3"><a href="#cb2-3"></a></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="kw">def</span> funktion_mit_argument(x):</span>
+<span id="cb2-5"><a href="#cb2-5"></a>  <span class="bu">print</span>(x)</span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="co"># Funktionen haben immer Klammern (mit oder ohne Argumente)</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a>funktion_ohne_argument()</span>
+<span id="cb2-9"><a href="#cb2-9"></a>funktion_mit_argument(<span class="st">"world"</span>)</span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="co"># Output: hello world</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Die Argumente sind nur innerhalb der Funktion erreichbar:</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="kw">def</span> meine_funktion(x):</span>
+<span id="cb3-2"><a href="#cb3-2"></a>  <span class="bu">print</span>(x) <span class="co"># x ist das Argument/Parameter</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="bu">print</span>(x) <span class="co"># x wird nicht gefunden</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="summe-und-produkt-von-drei-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="summe-und-produkt-von-drei-zahlen">Summe und Produkt von drei Zahlen</h2>
-<p>Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.</p>
+<section id="rückgabewert" class="level2">
+<h2 class="anchored" data-anchor-id="rückgabewert">Rückgabewert</h2>
+<p>Funktionen können (müssen aber nicht) einen Rückgabewert haben. Ein Rückgabewert ist nichts anderes als eine Variable, welche außerhalb der Funktion gespeichert werden kann:</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="kw">def</span> funktion_ohne_rückgabewert(x):</span>
+<span id="cb4-2"><a href="#cb4-2"></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb4-3"><a href="#cb4-3"></a></span>
+<span id="cb4-4"><a href="#cb4-4"></a><span class="kw">def</span> funktion_mit_rückgabewert(x):</span>
+<span id="cb4-5"><a href="#cb4-5"></a>  y <span class="op">=</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb4-6"><a href="#cb4-6"></a>  <span class="cf">return</span> y</span>
+<span id="cb4-7"><a href="#cb4-7"></a></span>
+<span id="cb4-8"><a href="#cb4-8"></a>v1 <span class="op">=</span> funktion_ohne_rückgabewert(<span class="dv">5</span>)</span>
+<span id="cb4-9"><a href="#cb4-9"></a>v2 <span class="op">=</span> funktion_mit_rückgabewert(<span class="dv">5</span>)</span>
+<span id="cb4-10"><a href="#cb4-10"></a></span>
+<span id="cb4-11"><a href="#cb4-11"></a><span class="bu">print</span>(v1) <span class="co"># Output: None</span></span>
+<span id="cb4-12"><a href="#cb4-12"></a><span class="bu">print</span>(v2) <span class="co"># Output: 10</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="quadratzahlen" class="level2">
-<h2 class="anchored" data-anchor-id="quadratzahlen">Quadratzahlen</h2>
-<p>Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Potenzen
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Potenzen werden in Python mit <code>**</code>angeschrieben:</p>
-<p><span class="math inline">\(x^2 \longrightarrow\)</span> <code>x**2</code>.</p>
-<p>Andere Computersprachen (z.B. <span class="math inline">\(\LaTeX\)</span>) benutzen stattdessen <code>^</code>, dann wird es <code>x^2</code> geschrieben.</p>
-</div>
-</div>
+<section id="reine-vs.-modifizierte-funktionen" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="reine-vs.-modifizierte-funktionen">Reine vs.&nbsp;Modifizierte Funktionen</h2>
+<p>In der Programmierung wird zwischen reinen (“pure”) und modifizierten (“impure”) Funktionen unterschieden. Reine Funktionen geben für den gleichen Input immer den gleichen Output, z. B. mathematische Funktionen. Benutzen sie, wenn möglich, reine Funktionen!</p>
 </section>
-<section id="kreisumfang-berechnen" class="level2">
-<h2 class="anchored" data-anchor-id="kreisumfang-berechnen">Kreisumfang berechnen</h2>
-<p>Schreiben Sie ein Programm, das den Radius eines Kreises als <em>Eingabe</em> nimmt und den Umfang des Kreises ausgibt.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Libraries
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Damit Sie <span class="math inline">\(\pi\)</span> erhalten müssen Sie mit <code>import math</code>, z.B. in der ersten Zeile des Programms, die <em>math library</em> importieren und können danach <code>math.pi</code> nutzen.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> math</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(math.pi)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
+<section id="beispiel" class="level2">
+<h2 class="anchored" data-anchor-id="beispiel">Beispiel</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a>globaleVariable <span class="op">=</span> <span class="dv">0</span> <span class="co"># Das ist eine globale Variable</span></span>
+<span id="cb5-2"><a href="#cb5-2"></a></span>
+<span id="cb5-3"><a href="#cb5-3"></a><span class="kw">def</span> reine_funktion(x):</span>
+<span id="cb5-4"><a href="#cb5-4"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x</span>
+<span id="cb5-5"><a href="#cb5-5"></a></span>
+<span id="cb5-6"><a href="#cb5-6"></a><span class="kw">def</span> modifizierte_funktion(x):</span>
+<span id="cb5-7"><a href="#cb5-7"></a>  <span class="kw">global</span> globaleVariable <span class="co"># auf globale Variable zugreifen</span></span>
+<span id="cb5-8"><a href="#cb5-8"></a>  globaleVariable <span class="op">=</span> globaleVariable <span class="op">+</span> <span class="dv">1</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a>  <span class="cf">return</span> <span class="dv">2</span><span class="op">*</span>x<span class="op">*</span>globaleVariable</span>
+<span id="cb5-10"><a href="#cb5-10"></a></span>
+<span id="cb5-11"><a href="#cb5-11"></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-12"><a href="#cb5-12"></a>reine_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-13"><a href="#cb5-13"></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 8</span></span>
+<span id="cb5-14"><a href="#cb5-14"></a>modifizierte_funktion(<span class="dv">4</span>) <span class="co"># Output: 16 --&gt; anderer Output</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="hypotenuse-eines-rechtwinkligen-dreiecks" class="level2">
-<h2 class="anchored" data-anchor-id="hypotenuse-eines-rechtwinkligen-dreiecks">Hypotenuse eines rechtwinkligen Dreiecks</h2>
-<p>Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet.</p>
+<section id="auftrag-brief-adressieren" class="level2">
+<h2 class="anchored" data-anchor-id="auftrag-brief-adressieren">Auftrag: Brief Adressieren</h2>
+<p>Erstellen sie eine Funktion, welche eine korrekt formatierte Adresse ausgibt. Rufen sie dann die Funktion auf und geben sie mind. 2 verschiedene Adressen aus. Die Funktion soll folgende Argumente besitzen:</p>
+<p>Vorname, Name, Strasse, Strassennr, Plz, Ort</p>
+<details>
+<summary>
+Lösungsvorschlag
+</summary>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a><span class="kw">def</span> formatiere_adresse(vorname, nachname, strasse, strassen_nr, plz, ort):</span>
+<span id="cb6-2"><a href="#cb6-2"></a>    <span class="bu">print</span>(<span class="st">"=========================="</span>)</span>
+<span id="cb6-3"><a href="#cb6-3"></a>    <span class="bu">print</span>(vorname<span class="op">+</span><span class="st">" "</span><span class="op">+</span>nachname)</span>
+<span id="cb6-4"><a href="#cb6-4"></a>    <span class="bu">print</span>(strasse<span class="op">+</span><span class="st">" "</span><span class="op">+</span>strassen_nr)</span>
+<span id="cb6-5"><a href="#cb6-5"></a>    <span class="bu">print</span>(<span class="st">"CH-"</span><span class="op">+</span>plz<span class="op">+</span><span class="st">" "</span><span class="op">+</span>ort)</span>
+<span id="cb6-6"><a href="#cb6-6"></a>    </span>
+<span id="cb6-7"><a href="#cb6-7"></a><span class="co"># Beispieladressen aufrufen</span></span>
+<span id="cb6-8"><a href="#cb6-8"></a>formatiere_adresse(<span class="st">"Max"</span>, <span class="st">"Mustermann"</span>, <span class="st">"Musterstraße"</span>, <span class="st">"123"</span>, <span class="st">"12345"</span>, <span class="st">"Musterstadt"</span>)</span>
+<span id="cb6-9"><a href="#cb6-9"></a>formatiere_adresse(<span class="st">"Anna"</span>, <span class="st">"Schmidt"</span>, <span class="st">"Hauptweg"</span>, <span class="st">"456"</span>, <span class="st">"54321"</span>, <span class="st">"Stadtmitte"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</details>
 </section>
-<section id="temperaturumrechnung" class="level2">
-<h2 class="anchored" data-anchor-id="temperaturumrechnung">Temperaturumrechnung</h2>
-<p>Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel: <span class="math display">\[\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32\]</span></p>
-<p><strong>Vertiefung:</strong> Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.</p>
 </section>
-<section id="zinsrechnung" class="level2">
-<h2 class="anchored" data-anchor-id="zinsrechnung">Zinsrechnung</h2>
-<p>Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: <span class="math display">\[ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}\]</span></p>
+<section id="packages" class="level1">
+<h1>Packages</h1>
+<section id="ausprobieren" class="level2 unlisted">
+<h2 class="unlisted anchored" data-anchor-id="ausprobieren">Ausprobieren</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb7-2"><a href="#cb7-2"></a></span>
+<span id="cb7-3"><a href="#cb7-3"></a><span class="co"># Access the value of pi from NumPy</span></span>
+<span id="cb7-4"><a href="#cb7-4"></a>pi_value <span class="op">=</span> np.pi</span>
+<span id="cb7-5"><a href="#cb7-5"></a></span>
+<span id="cb7-6"><a href="#cb7-6"></a><span class="co"># Print the value of pi</span></span>
+<span id="cb7-7"><a href="#cb7-7"></a><span class="bu">print</span>(<span class="st">"Die Zahl Pi lautet: "</span>, pi_value)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="volumen-eines-zylinders" class="level2">
-<h2 class="anchored" data-anchor-id="volumen-eines-zylinders">Volumen eines Zylinders</h2>
-<p>Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: <span class="math display">\[\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Höhe}\]</span></p>
+<section id="zufällige-zahlen" class="level2">
+<h2 class="anchored" data-anchor-id="zufällige-zahlen">Zufällige Zahlen</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1"></a><span class="im">import</span> random</span>
+<span id="cb8-2"><a href="#cb8-2"></a></span>
+<span id="cb8-3"><a href="#cb8-3"></a>random_number <span class="op">=</span> random.randint(<span class="dv">1</span>, <span class="dv">5</span>)</span>
+<span id="cb8-4"><a href="#cb8-4"></a><span class="bu">print</span>(random_number)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
-<section id="minuten" class="level2">
-<h2 class="anchored" data-anchor-id="minuten">Minuten</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Ganzzahldivision
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Python nutzt <code>/</code>als Divison. <code>//</code>ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.</p>
-<p><code>7//3</code> ergibt 2, denn: <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span></p>
-</div>
-</div>
 </section>
-<section id="anzahl-der-vollen-dutzend" class="level2">
-<h2 class="anchored" data-anchor-id="anzahl-der-vollen-dutzend">Anzahl der vollen Dutzend</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<section id="projekt" class="level1">
+<h1>Projekt</h1>
+<section id="förderkreislauf" class="level2">
+<h2 class="anchored" data-anchor-id="förderkreislauf">Förderkreislauf</h2>
+<div id="fig-kreislauf" class="quarto-figure quarto-figure-center quarto-float anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-kreislauf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="images/foerderkreislauf.svg" class="img-fluid figure-img">
 </div>
-<div class="callout-title-container flex-fill">
-Modulo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><code>%</code> ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.</p>
-<p><code>7%3</code>, gelesen <em>7 modulo 3</em>, ergibt 1, denn <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span>.</p>
-</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-kreislauf-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Abbildung&nbsp;1: Förderkreislauf <span class="citation" data-cites="kuratle_kompetenzorientierte_2021">(<a href="#ref-kuratle_kompetenzorientierte_2021" role="doc-biblioref">Kuratle &amp; Balmer, 2021, S. 3</a>)</span>
+</figcaption>
+</figure>
 </div>
 </section>
-<section id="wochen-und-tage" class="level2">
-<h2 class="anchored" data-anchor-id="wochen-und-tage">Wochen und Tage</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.</p>
+<section id="projekt-1" class="level2">
+<h2 class="anchored" data-anchor-id="projekt-1">Projekt 1</h2>
+<div style="text-align: center;">
+<p><a href="math_ki.qmd" class="knopf" target="_blank">Auftrag auf der Webseite</a></p>
+</div>
 </section>
-<section id="packungsgrösse-und-restmenge" class="level2">
-<h2 class="anchored" data-anchor-id="packungsgrösse-und-restmenge">Packungsgrösse und Restmenge</h2>
-<p>Schreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.</p>
+<section id="bibliographie" class="level2 unlisted">
+
+
 
 
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, July 18). <em>Übungen mit Typecasting</em>.
-University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliographie</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-kuratle_kompetenzorientierte_2021" class="csl-entry" role="listitem">
+Kuratle, R., &amp; Balmer, T. (2021). <em>Kompetenzorientierte Beurteilung an der Volksschule des Kantons Bern</em>. Institut für Weiterbildung und Medienbildung.
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R., Adler, J., &amp; Conrardy, R. (2024, January 1).
+<em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
@@ -775,12 +807,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/impressum.html">
+    <a class="nav-link" href="../../../footer/impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/disclaimer.html">
+    <a class="nav-link" href="../../../footer/disclaimer.html">
 <p>Disclaimer</p>
 </a>
   </li>  

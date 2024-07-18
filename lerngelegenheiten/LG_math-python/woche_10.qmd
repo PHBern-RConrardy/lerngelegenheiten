@@ -1,8 +1,0 @@
----
-title: "Verstehensorientiert prüfen in Zeiten von KI"
-subtitle: Woche 10
-format: revealjs
-author: Joel Adler <br> Richard Conrardy
-
-footer: "**PHBern, Institut Sekundarstufe 1**, Joel Adler, Richard Conrardy"
----

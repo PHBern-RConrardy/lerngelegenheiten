@@ -66,10 +66,19 @@ website:  # Menüs für die Webseite
         
     - title: "Verstehensorientiert prüfen in Zeiten von KI"
       contents:
-        - href: lerngelegenheiten/LG_mathpython.qmd
+        - href: lerngelegenheiten/LG_math-python/LG_mathpython.qmd
           text: Semesterübersicht
-        - auto: "/lernmodule/LM_mathpython*"
-        - href: lerngelegenheiten/LG_mathpython/aufgabensammlung.qmd
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_01.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_02.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_03.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_04.qmd
+          - href: lerngelegenheiten/LG_math-python/LM_mathpython_05.qmd
+        - href: lerngelegenheiten/LG_math-python/aufgabensammlung.qmd
+        
+        
+        
     - title: "Learning Analytics"
       contents:
         - href: lerngelegenheiten/LG_learning_analytics/LG_learning_analytics.qmd

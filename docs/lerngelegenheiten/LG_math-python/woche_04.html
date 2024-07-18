@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Übungen mit Typecasting</title>
+<title>Übungen zu Listen</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -163,22 +129,19 @@ window.Quarto = {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a>
-  <ul class="collapse">
-  <li><a href="#fläche-eines-rechtecks" id="toc-fläche-eines-rechtecks" class="nav-link" data-scroll-target="#fläche-eines-rechtecks">Fläche eines Rechtecks</a></li>
-  <li><a href="#durchschnitt-zweier-zahlen" id="toc-durchschnitt-zweier-zahlen" class="nav-link" data-scroll-target="#durchschnitt-zweier-zahlen">Durchschnitt zweier Zahlen</a></li>
-  <li><a href="#summe-und-produkt-von-drei-zahlen" id="toc-summe-und-produkt-von-drei-zahlen" class="nav-link" data-scroll-target="#summe-und-produkt-von-drei-zahlen">Summe und Produkt von drei Zahlen</a></li>
-  <li><a href="#quadratzahlen" id="toc-quadratzahlen" class="nav-link" data-scroll-target="#quadratzahlen">Quadratzahlen</a></li>
-  <li><a href="#kreisumfang-berechnen" id="toc-kreisumfang-berechnen" class="nav-link" data-scroll-target="#kreisumfang-berechnen">Kreisumfang berechnen</a></li>
-  <li><a href="#hypotenuse-eines-rechtwinkligen-dreiecks" id="toc-hypotenuse-eines-rechtwinkligen-dreiecks" class="nav-link" data-scroll-target="#hypotenuse-eines-rechtwinkligen-dreiecks">Hypotenuse eines rechtwinkligen Dreiecks</a></li>
-  <li><a href="#temperaturumrechnung" id="toc-temperaturumrechnung" class="nav-link" data-scroll-target="#temperaturumrechnung">Temperaturumrechnung</a></li>
-  <li><a href="#zinsrechnung" id="toc-zinsrechnung" class="nav-link" data-scroll-target="#zinsrechnung">Zinsrechnung</a></li>
-  <li><a href="#volumen-eines-zylinders" id="toc-volumen-eines-zylinders" class="nav-link" data-scroll-target="#volumen-eines-zylinders">Volumen eines Zylinders</a></li>
-  <li><a href="#minuten" id="toc-minuten" class="nav-link" data-scroll-target="#minuten">Minuten</a></li>
-  <li><a href="#anzahl-der-vollen-dutzend" id="toc-anzahl-der-vollen-dutzend" class="nav-link" data-scroll-target="#anzahl-der-vollen-dutzend">Anzahl der vollen Dutzend</a></li>
-  <li><a href="#wochen-und-tage" id="toc-wochen-und-tage" class="nav-link" data-scroll-target="#wochen-und-tage">Wochen und Tage</a></li>
-  <li><a href="#packungsgrösse-und-restmenge" id="toc-packungsgrösse-und-restmenge" class="nav-link" data-scroll-target="#packungsgrösse-und-restmenge">Packungsgrösse und Restmenge</a></li>
-  </ul></li>
+  <li><a href="#quadratzahlen-erstellen" id="toc-quadratzahlen-erstellen" class="nav-link active" data-scroll-target="#quadratzahlen-erstellen">Quadratzahlen erstellen</a></li>
+  <li><a href="#mittelwert-berechnen" id="toc-mittelwert-berechnen" class="nav-link" data-scroll-target="#mittelwert-berechnen">Mittelwert berechnen</a></li>
+  <li><a href="#maximum-und-minimum-finden" id="toc-maximum-und-minimum-finden" class="nav-link" data-scroll-target="#maximum-und-minimum-finden">Maximum und Minimum finden</a></li>
+  <li><a href="#primzahlen-in-einer-liste" id="toc-primzahlen-in-einer-liste" class="nav-link" data-scroll-target="#primzahlen-in-einer-liste">Primzahlen in einer Liste</a></li>
+  <li><a href="#sortieren-einer-liste" id="toc-sortieren-einer-liste" class="nav-link" data-scroll-target="#sortieren-einer-liste">Sortieren einer Liste</a></li>
+  <li><a href="#teiler-einer-zahl-finden" id="toc-teiler-einer-zahl-finden" class="nav-link" data-scroll-target="#teiler-einer-zahl-finden">Teiler einer Zahl finden</a></li>
+  <li><a href="#liste-von-zufallszahlen" id="toc-liste-von-zufallszahlen" class="nav-link" data-scroll-target="#liste-von-zufallszahlen">Liste von Zufallszahlen</a></li>
+  <li><a href="#gleichheit-zweier-listen-prüfen" id="toc-gleichheit-zweier-listen-prüfen" class="nav-link" data-scroll-target="#gleichheit-zweier-listen-prüfen">Gleichheit zweier Listen prüfen</a></li>
+  <li><a href="#palindromzahlen-finden" id="toc-palindromzahlen-finden" class="nav-link" data-scroll-target="#palindromzahlen-finden">Palindromzahlen finden</a></li>
+  <li><a href="#vorkommen-von-elementen-zählen" id="toc-vorkommen-von-elementen-zählen" class="nav-link" data-scroll-target="#vorkommen-von-elementen-zählen">Vorkommen von Elementen zählen</a></li>
+  <li><a href="#pythagoreische-tripel" id="toc-pythagoreische-tripel" class="nav-link" data-scroll-target="#pythagoreische-tripel">Pythagoreische Tripel</a></li>
+  <li><a href="#elementweise-addition-zweier-listen" id="toc-elementweise-addition-zweier-listen" class="nav-link" data-scroll-target="#elementweise-addition-zweier-listen">Elementweise Addition zweier Listen</a></li>
+  <li><a href="#kleinste-und-größte-differenz" id="toc-kleinste-und-größte-differenz" class="nav-link" data-scroll-target="#kleinste-und-größte-differenz">Kleinste und größte Differenz</a></li>
   </ul>
 </nav>
     </div>
@@ -187,7 +150,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Übungen mit Typecasting</h1>
+<h1 class="title">Übungen zu Listen</h1>
 </div>
 
 
@@ -213,7 +176,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Veröffentlichungsdatum</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">18.07.2024</p>
+      <p class="date">01.01.2024</p>
     </div>
   </div>
   
@@ -225,126 +188,64 @@ window.Quarto = {
 </header>
 
 
-<section id="übungen" class="level1">
-<h1>Übungen</h1>
-<section id="fläche-eines-rechtecks" class="level2">
-<h2 class="anchored" data-anchor-id="fläche-eines-rechtecks">Fläche eines Rechtecks</h2>
-<p>Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.</p>
+<section id="quadratzahlen-erstellen" class="level2">
+<h2 class="anchored" data-anchor-id="quadratzahlen-erstellen">Quadratzahlen erstellen</h2>
+<p>Schreiben Sie ein Programm, das eine Liste der Quadratzahlen von 1 bis n erstellt.</p>
 </section>
-<section id="durchschnitt-zweier-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="durchschnitt-zweier-zahlen">Durchschnitt zweier Zahlen</h2>
-<p>Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.</p>
+<section id="mittelwert-berechnen" class="level2">
+<h2 class="anchored" data-anchor-id="mittelwert-berechnen">Mittelwert berechnen</h2>
+<p>Schreiben Sie ein Programm, das den Mittelwert einer Liste von Zahlen berechnet.</p>
 </section>
-<section id="summe-und-produkt-von-drei-zahlen" class="level2">
-<h2 class="anchored" data-anchor-id="summe-und-produkt-von-drei-zahlen">Summe und Produkt von drei Zahlen</h2>
-<p>Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.</p>
+<section id="maximum-und-minimum-finden" class="level2">
+<h2 class="anchored" data-anchor-id="maximum-und-minimum-finden">Maximum und Minimum finden</h2>
+<p>Schreiben Sie ein Programm, das das Maximum und Minimum in einer Liste von Zahlen findet.</p>
 </section>
-<section id="quadratzahlen" class="level2">
-<h2 class="anchored" data-anchor-id="quadratzahlen">Quadratzahlen</h2>
-<p>Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Potenzen
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Potenzen werden in Python mit <code>**</code>angeschrieben:</p>
-<p><span class="math inline">\(x^2 \longrightarrow\)</span> <code>x**2</code>.</p>
-<p>Andere Computersprachen (z.B. <span class="math inline">\(\LaTeX\)</span>) benutzen stattdessen <code>^</code>, dann wird es <code>x^2</code> geschrieben.</p>
-</div>
-</div>
+<section id="primzahlen-in-einer-liste" class="level2">
+<h2 class="anchored" data-anchor-id="primzahlen-in-einer-liste">Primzahlen in einer Liste</h2>
+<p>Schreiben Sie ein Programm, das alle Primzahlen in einer gegebenen Liste findet.</p>
 </section>
-<section id="kreisumfang-berechnen" class="level2">
-<h2 class="anchored" data-anchor-id="kreisumfang-berechnen">Kreisumfang berechnen</h2>
-<p>Schreiben Sie ein Programm, das den Radius eines Kreises als <em>Eingabe</em> nimmt und den Umfang des Kreises ausgibt.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Libraries
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Damit Sie <span class="math inline">\(\pi\)</span> erhalten müssen Sie mit <code>import math</code>, z.B. in der ersten Zeile des Programms, die <em>math library</em> importieren und können danach <code>math.pi</code> nutzen.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> math</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(math.pi)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div>
-</div>
+<section id="sortieren-einer-liste" class="level2">
+<h2 class="anchored" data-anchor-id="sortieren-einer-liste">Sortieren einer Liste</h2>
+<p>Schreiben Sie ein Programm, das eine Liste von Zahlen in aufsteigender Reihenfolge sortiert (ohne eingebaute Sortierfunktionen).</p>
 </section>
-<section id="hypotenuse-eines-rechtwinkligen-dreiecks" class="level2">
-<h2 class="anchored" data-anchor-id="hypotenuse-eines-rechtwinkligen-dreiecks">Hypotenuse eines rechtwinkligen Dreiecks</h2>
-<p>Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet.</p>
+<section id="teiler-einer-zahl-finden" class="level2">
+<h2 class="anchored" data-anchor-id="teiler-einer-zahl-finden">Teiler einer Zahl finden</h2>
+<p>Schreiben Sie ein Programm, das alle Teiler einer gegebenen Zahl in einer Liste speichert.</p>
 </section>
-<section id="temperaturumrechnung" class="level2">
-<h2 class="anchored" data-anchor-id="temperaturumrechnung">Temperaturumrechnung</h2>
-<p>Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel: <span class="math display">\[\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32\]</span></p>
-<p><strong>Vertiefung:</strong> Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.</p>
+<section id="liste-von-zufallszahlen" class="level2">
+<h2 class="anchored" data-anchor-id="liste-von-zufallszahlen">Liste von Zufallszahlen</h2>
+<p>Schreiben Sie ein Programm, das eine Liste von n zufälligen Zahlen zwischen 1 und 100 generiert.</p>
 </section>
-<section id="zinsrechnung" class="level2">
-<h2 class="anchored" data-anchor-id="zinsrechnung">Zinsrechnung</h2>
-<p>Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: <span class="math display">\[ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}\]</span></p>
+<section id="gleichheit-zweier-listen-prüfen" class="level2">
+<h2 class="anchored" data-anchor-id="gleichheit-zweier-listen-prüfen">Gleichheit zweier Listen prüfen</h2>
+<p>Schreiben Sie ein Programm, das prüft, ob zwei Listen die gleichen Elemente enthalten (unabhängig von der Reihenfolge).</p>
 </section>
-<section id="volumen-eines-zylinders" class="level2">
-<h2 class="anchored" data-anchor-id="volumen-eines-zylinders">Volumen eines Zylinders</h2>
-<p>Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: <span class="math display">\[\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Höhe}\]</span></p>
+<section id="palindromzahlen-finden" class="level2">
+<h2 class="anchored" data-anchor-id="palindromzahlen-finden">Palindromzahlen finden</h2>
+<p>Schreiben Sie ein Programm, das alle Palindromzahlen in einer gegebenen Liste findet.</p>
 </section>
-<section id="minuten" class="level2">
-<h2 class="anchored" data-anchor-id="minuten">Minuten</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Ganzzahldivision
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Python nutzt <code>/</code>als Divison. <code>//</code>ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.</p>
-<p><code>7//3</code> ergibt 2, denn: <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span></p>
-</div>
-</div>
+<section id="vorkommen-von-elementen-zählen" class="level2">
+<h2 class="anchored" data-anchor-id="vorkommen-von-elementen-zählen">Vorkommen von Elementen zählen</h2>
+<p>Schreiben Sie ein Programm, das zählt, wie oft jedes Element in einer Liste vorkommt.</p>
 </section>
-<section id="anzahl-der-vollen-dutzend" class="level2">
-<h2 class="anchored" data-anchor-id="anzahl-der-vollen-dutzend">Anzahl der vollen Dutzend</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Modulo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><code>%</code> ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.</p>
-<p><code>7%3</code>, gelesen <em>7 modulo 3</em>, ergibt 1, denn <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span>.</p>
-</div>
-</div>
+<section id="pythagoreische-tripel" class="level2">
+<h2 class="anchored" data-anchor-id="pythagoreische-tripel">Pythagoreische Tripel</h2>
+<p>Schreiben Sie ein Programm, das alle Pythagoreischen Tripel <span class="math inline">\((a, b, c)\)</span> mit <span class="math inline">\(a, b, c \leq n\)</span> findet.</p>
 </section>
-<section id="wochen-und-tage" class="level2">
-<h2 class="anchored" data-anchor-id="wochen-und-tage">Wochen und Tage</h2>
-<p>Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.</p>
+<section id="elementweise-addition-zweier-listen" class="level2">
+<h2 class="anchored" data-anchor-id="elementweise-addition-zweier-listen">Elementweise Addition zweier Listen</h2>
+<p>Schreiben Sie ein Programm, das zwei Listen gleicher Länge elementweise addiert.</p>
 </section>
-<section id="packungsgrösse-und-restmenge" class="level2">
-<h2 class="anchored" data-anchor-id="packungsgrösse-und-restmenge">Packungsgrösse und Restmenge</h2>
-<p>Schreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.</p>
+<section id="kleinste-und-größte-differenz" class="level2">
+<h2 class="anchored" data-anchor-id="kleinste-und-größte-differenz">Kleinste und größte Differenz</h2>
+<p>Schreiben Sie ein Programm, das die kleinste und größte Differenz zwischen zwei aufeinanderfolgenden Elementen in einer Liste berechnet.</p>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, July 18). <em>Übungen mit Typecasting</em>.
-University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+Conrardy, R. (2024, January 1). <em>Übungen zu Listen</em>. University
+of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
