@@ -102,11 +102,15 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Suchen"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -124,10 +128,127 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html">Loops</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Übungsblätter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Installationsanleitung IDE</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -136,16 +257,16 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#loops-while-for-und-flussdiagramme" id="toc-loops-while-for-und-flussdiagramme" class="nav-link active" data-scroll-target="#loops-while-for-und-flussdiagramme">Loops (while, for) und Flussdiagramme</a>
   <ul class="collapse">
-  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#lehr-lernmaterialien" id="toc-lehr-lernmaterialien" class="nav-link" data-scroll-target="#lehr-lernmaterialien">Lehr-Lernmaterialien</a></li>
   <li><a href="#prüfungsvorbereitung-2" id="toc-prüfungsvorbereitung-2" class="nav-link" data-scroll-target="#prüfungsvorbereitung-2">Prüfungsvorbereitung</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="LM_mathpython_03.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="LM_mathpython_03.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html">Loops</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Loops</h1>
 <p class="subtitle lead">Python - Lernmodul 3</p>
@@ -188,9 +309,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="loops-while-for-und-flussdiagramme" class="level1">
 <h1>Loops (while, for) und Flussdiagramme</h1>
-<section id="hilfreiche-links" class="level2">
-<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
-<p><strong>Wichtig:</strong> Verbringen sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).</p>
+<section id="lehr-lernmaterialien" class="level2">
+<h2 class="anchored" data-anchor-id="lehr-lernmaterialien">Lehr-Lernmaterialien</h2>
 <p>Auf Wikipedia finden sie eine gute Zusammenfassung zum Thema <a href="https://de.wikipedia.org/wiki/Programmablaufplan">Flussdiagramm</a>. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen <a href="https://app.diagrams.net">draw.io</a> (siehe “Flowchart”).</p>
 <p>Auf <strong>Youtube</strong> finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=sXLicTuJzB4&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=13">While-Schleife</a> und <a href="https://www.youtube.com/watch?v=pQh5Idw2sKM&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=17">For-Schleife</a>.</p>
 <p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_while_loops.asp">While-Loop</a> und <a href="https://www.w3schools.com/python/python_for_loops.asp">For-Loop</a>.</p>
@@ -198,15 +318,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="prüfungsvorbereitung-2" class="level2">
 <h2 class="anchored" data-anchor-id="prüfungsvorbereitung-2">Prüfungsvorbereitung</h2>
-<section id="lösungsvorschlag-aufträge" class="level3">
-<h3 class="anchored" data-anchor-id="lösungsvorschlag-aufträge">Lösungsvorschlag Aufträge</h3>
-<ul>
-<li><a href="files/primarschule.py">Lösungsvorschlag Primarschule</a></li>
-<li><a href="files/fahrplan.py">Lösungsvorschlag Fahrplan</a></li>
-<li><a href="files/prüfungssoftware.py">Lösungsvorschlag Prüfungssoftware</a></li>
-<li><a href="files/prüfungssoftware.drawio.png">Lösungsvorschlag Prüfungssoftware Flussdiagramm</a></li>
-</ul>
-</section>
 <section id="auftrag-1" class="level3">
 <h3 class="anchored" data-anchor-id="auftrag-1">Auftrag 1</h3>
 <p>Was ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.</p>
@@ -215,7 +326,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-3"><a href="#cb1-3"></a>  <span class="bu">print</span>(i)</span>
 <span id="cb1-4"><a href="#cb1-4"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a>  <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Lösungsvorschlag Flussdiagramm</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A((Start)) --&gt; B[i = 2]
+    B --&gt; id4{i &lt; 5}
+    id4 -- False --&gt; id10([Ende])
+    id4 -- True --&gt; id7[/Ausgabe von i/]
+    id7 --&gt; id8[i = i+1]
+    id8 --&gt; id9[/Ausgabe von i/]
+    id9 --&gt; id4
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="auftrag-2" class="level3">
 <h3 class="anchored" data-anchor-id="auftrag-2">Auftrag 2</h3>
@@ -227,22 +356,117 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-5"><a href="#cb2-5"></a>    <span class="bu">print</span>(<span class="st">"Katze"</span>)</span>
 <span id="cb2-6"><a href="#cb2-6"></a>  <span class="cf">else</span>:</span>
 <span id="cb2-7"><a href="#cb2-7"></a>    <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p>Lösungsvorschlag Code Lösungsvorschlag Flussdiagramm</p>
+<p>Lösungsvorschlag</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># i = 5</span></span>
+<span id="cb3-2"><a href="#cb3-2"></a><span class="co"># while i &lt; 10:</span></span>
+<span id="cb3-3"><a href="#cb3-3"></a><span class="co">#   i += 1 # Kurzform von i = i + 1</span></span>
+<span id="cb3-4"><a href="#cb3-4"></a><span class="co">#   if i == 8:</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co">#     print("Katze")</span></span>
+<span id="cb3-6"><a href="#cb3-6"></a><span class="co">#   else:</span></span>
+<span id="cb3-7"><a href="#cb3-7"></a><span class="co">#     print(i)</span></span>
+<span id="cb3-8"><a href="#cb3-8"></a></span>
+<span id="cb3-9"><a href="#cb3-9"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">6</span>, <span class="dv">11</span>):</span>
+<span id="cb3-10"><a href="#cb3-10"></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">8</span>:</span>
+<span id="cb3-11"><a href="#cb3-11"></a>    <span class="bu">print</span>(<span class="st">"Katze"</span>)</span>
+<span id="cb3-12"><a href="#cb3-12"></a>  <span class="cf">else</span>:</span>
+<span id="cb3-13"><a href="#cb3-13"></a>    <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A((Start)) --&gt; B[i = 5]
+    B --&gt; id4{i &lt; 10}
+    id4 -- False --&gt; id10([Ende])
+    id4 -- True --&gt; id7[i=i+1]
+    id7 --&gt; id8{i == 8}
+    id8 -- True --&gt; id9[/Ausgabe Katze/]
+    id8 -- False --&gt;id11[/Ausgabe i/]
+    id9 &amp; id11--&gt; id4
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 </section>
 <section id="auftrag-3" class="level3">
 <h3 class="anchored" data-anchor-id="auftrag-3">Auftrag 3</h3>
 <p>Erstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.</p>
 <p>Lösungsvorschlag</p>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb4-2"><a href="#cb4-2"></a>    zahl <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Geben sie eine Zahl oder 'quit' ein: "</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>    <span class="cf">if</span> zahl <span class="op">==</span> <span class="st">"quit"</span>:</span>
+<span id="cb4-4"><a href="#cb4-4"></a>        <span class="cf">break</span></span>
+<span id="cb4-5"><a href="#cb4-5"></a>    <span class="cf">else</span>:</span>
+<span id="cb4-6"><a href="#cb4-6"></a>        quadrat <span class="op">=</span> <span class="bu">int</span>(zahl)<span class="op">*</span><span class="bu">int</span>(zahl)</span>
+<span id="cb4-7"><a href="#cb4-7"></a>        <span class="bu">print</span>(quadrat)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-4" class="level3">
 <h3 class="anchored" data-anchor-id="auftrag-4">Auftrag 4</h3>
 <p>Erweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.</p>
 <p>Lösungsvorschlag</p>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">3</span>):</span>
+<span id="cb5-2"><a href="#cb5-2"></a>    benutzer <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Benutzername eingeben: "</span>)</span>
+<span id="cb5-3"><a href="#cb5-3"></a>    passwort <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Passwort eingeben: "</span>)</span>
+<span id="cb5-4"><a href="#cb5-4"></a></span>
+<span id="cb5-5"><a href="#cb5-5"></a>    <span class="cf">if</span> benutzer <span class="op">==</span> <span class="st">"tom"</span>:</span>
+<span id="cb5-6"><a href="#cb5-6"></a>        <span class="cf">if</span> passwort <span class="op">==</span> <span class="st">"strudel123"</span>:</span>
+<span id="cb5-7"><a href="#cb5-7"></a>            <span class="bu">print</span>(<span class="st">"Herzlich Willkommen"</span>)</span>
+<span id="cb5-8"><a href="#cb5-8"></a>            <span class="cf">break</span></span>
+<span id="cb5-9"><a href="#cb5-9"></a>        <span class="cf">else</span>:</span>
+<span id="cb5-10"><a href="#cb5-10"></a>            <span class="bu">print</span>(<span class="st">"Passwort nicht korrekt! Verbleibende Versuche: "</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
+<span id="cb5-11"><a href="#cb5-11"></a>    <span class="cf">else</span>:</span>
+<span id="cb5-12"><a href="#cb5-12"></a>        <span class="bu">print</span>(<span class="st">"Benutzer nicht gefunden! Verbleibende Versuche: "</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
+<span id="cb5-13"><a href="#cb5-13"></a></span>
+<span id="cb5-14"><a href="#cb5-14"></a>    <span class="cf">if</span> i <span class="op">==</span> <span class="dv">2</span>:</span>
+<span id="cb5-15"><a href="#cb5-15"></a>        <span class="bu">print</span>(<span class="st">"Zu viele Login-Versuche. Ihr Konto wurde aus Sicherheitsgründen gesperrt."</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-5" class="level3">
 <h3 class="anchored" data-anchor-id="auftrag-5">Auftrag 5</h3>
 <p>Erstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)</p>
-<p>Lösungsvorschlag Code Lösungsvorschlag Flussdiagramm</p>
+<p>Lösungsvorschlag Code</p>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>n <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben sie eine Zahl n ein: "</span>))</span>
+<span id="cb6-2"><a href="#cb6-2"></a></span>
+<span id="cb6-3"><a href="#cb6-3"></a>vorvorgaenger <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb6-4"><a href="#cb6-4"></a>vorgaenger <span class="op">=</span> <span class="dv">1</span></span>
+<span id="cb6-5"><a href="#cb6-5"></a></span>
+<span id="cb6-6"><a href="#cb6-6"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n):</span>
+<span id="cb6-7"><a href="#cb6-7"></a>    <span class="cf">if</span> i <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
+<span id="cb6-8"><a href="#cb6-8"></a>        <span class="bu">print</span>(<span class="st">"1"</span>)</span>
+<span id="cb6-9"><a href="#cb6-9"></a>    <span class="cf">else</span>:</span>
+<span id="cb6-10"><a href="#cb6-10"></a>        fib <span class="op">=</span> vorgaenger <span class="op">+</span> vorvorgaenger</span>
+<span id="cb6-11"><a href="#cb6-11"></a>        vorvorgaenger <span class="op">=</span> vorgaenger</span>
+<span id="cb6-12"><a href="#cb6-12"></a>        vorgaenger <span class="op">=</span> fib</span>
+<span id="cb6-13"><a href="#cb6-13"></a>        <span class="bu">print</span>(fib)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Lösungsvorschlag Flussdiagramm</p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A((Start)) --&gt; id1[/Eingabe n/]
+    id1 --&gt; id2[Vorgänger = 1]
+    id2 --&gt; id3[Vorvorgänger = 1]
+    id3 --&gt; id4[i=0]
+    id4 --&gt; id5{i &lt; n}
+    id5 -- False --&gt; id10([Ende])
+    id5 -- True --&gt; id7{i &lt;= 1}
+    id7 -- True --&gt; id8[/Ausgabe 1/]
+    id8 --&gt; id5
+    id7 -- False --&gt; id9[fib = vorgänger+vorvorgänger]
+    id9 --&gt; id11[vorvorgänger=vorgänger]
+    id11 --&gt; id12[vorgänger=fib]
+    id12 --&gt; id13[/Ausgabe fib/]
+    id13 --&gt; id5
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 
 
 </section>

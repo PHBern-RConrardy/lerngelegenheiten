@@ -1,13 +1,14 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Variablen Datentypen und Typecasting
 subtitle: Python - Lernmodul 1
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
 ---
-# Variablen, Datentypen und Type Casting
 
-
-## Hilfreiche Links
+# Lehr-Lernmaterialien
 
 **Wichtig:** Verbringen Sie nicht zu viel Zeit mit der Theorie.
 Stundenlang Videos schauen oder Texte lesen wird Sie nicht
@@ -28,45 +29,17 @@ Englisch). Hier sind die Links zu den Themen
 [Datentypen](https://www.w3schools.com/python/python_datatypes.asp) und
 [Type Casting](https://www.w3schools.com/python/python_casting.asp).
 
-Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
-Übungsaufgaben. Hier sind die
-[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (2, 3,
-4, 6, 12) und die Lösungen
-[2](https://sylvialange.de/python/python3/linear/NettoBrutto.py),
-[3](https://sylvialange.de/python/python3/linear/Zins.py),
-[4](https://sylvialange.de/python/python3/linear/Rabatt.py),
-[6](https://sylvialange.de/python/python3/linear/Quader.py),
-[12](https://sylvialange.de/python/python3/linear/Mittelwert.py) zum
-Thema Variablen.
+## Vorbereitungsaufträge
 
-## Vorbereitungsaufträge {#prüfungsvorbereitung}
 
-### Übung 1
-
-Lösungsvorschlag Aufträge
-
-<details>
-
-<summary>Lösungsvorschlag</summary>
-
-``` python
-cm = input("Gib deine Grösse in cm ein: ")
-feet = float(cm) * 0.0328084
-print("Deine Grösse in Fuss: " + str(feet))
-```
-
-</details>
-
-------------------------------------------------------------------------
-
-### Übung 2
+### Übung
 
 Nennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel
 dazu.
 
 ------------------------------------------------------------------------
 
-### Übung 3
+### Übung
 
 Was ist der Output von diesem Programm?
 
@@ -78,7 +51,7 @@ print(x * 2)
 
 ------------------------------------------------------------------------
 
-### Übung 4
+### Übung
 
 Was ist der Output von diesem Programm?
 
@@ -90,7 +63,7 @@ print(x + y)
 
 ------------------------------------------------------------------------
 
-### Übung 5
+### Übung
 
 Was ist der Output von diesem Programm?
 
@@ -103,7 +76,7 @@ print("Output: " + str(c))
 
 ------------------------------------------------------------------------
 
-### Übung 6
+### Übung
 
 Was macht dieses Programm?
 
@@ -114,7 +87,7 @@ print(x * x)
 
 ------------------------------------------------------------------------
 
-### Übung 7
+### Übung
 
 Erstellen sie ein Programm, welches ihren BMI (Body-Mass-Index)
 berechnet. Der BMI ist denifiert als: $BMI=Gewicht(kg)/Grösse(m)^2$
@@ -132,3 +105,16 @@ print("Dein BMI ist: " + str(bmi))
 ```
 
 </details>
+
+## Optionale Vertiefung
+
+Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
+Übungsaufgaben. Hier sind die
+[Aufgaben](https://sylvialange.de/python/Programmieraufgaben.pdf) (2, 3,
+4, 6, 12) und die Lösungen
+[2](https://sylvialange.de/python/python3/linear/NettoBrutto.py),
+[3](https://sylvialange.de/python/python3/linear/Zins.py),
+[4](https://sylvialange.de/python/python3/linear/Rabatt.py),
+[6](https://sylvialange.de/python/python3/linear/Quader.py),
+[12](https://sylvialange.de/python/python3/linear/Mittelwert.py) zum
+Thema Variablen.

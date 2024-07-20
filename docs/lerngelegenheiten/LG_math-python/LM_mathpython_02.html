@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Conditionals (if-elif-else) und Flussdiagramme</title>
+<title>Conditionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -102,6 +102,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Suchen"
   }
 }</script>
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
@@ -129,7 +133,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html">Conditionals (if-elif-else) und Flussdiagramme</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html">Conditionals</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -165,7 +169,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+ <span class="menu-text">Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -188,6 +192,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Übungsblätter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Installationsanleitung IDE</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
@@ -206,18 +257,17 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <ul class="collapse">
   <li><a href="#conditionals-if-elif-else-und-flussdiagramme" id="toc-conditionals-if-elif-else-und-flussdiagramme" class="nav-link active" data-scroll-target="#conditionals-if-elif-else-und-flussdiagramme">Conditionals (if-elif-else) und Flussdiagramme</a>
   <ul class="collapse">
-  <li><a href="#wichtig" id="toc-wichtig" class="nav-link" data-scroll-target="#wichtig">Wichtig</a></li>
-  <li><a href="#prüfungsvorbereitung-1" id="toc-prüfungsvorbereitung-1" class="nav-link" data-scroll-target="#prüfungsvorbereitung-1">Prüfungsvorbereitung</a></li>
+  <li><a href="#lehr-lernmaterialien" id="toc-lehr-lernmaterialien" class="nav-link" data-scroll-target="#lehr-lernmaterialien">Lehr-Lernmaterialien</a></li>
   </ul></li>
   </ul>
-</nav>
+<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="LM_mathpython_02.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="LM_mathpython_02.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html">Conditionals (if-elif-else) und Flussdiagramme</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html">Conditionals</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Conditionals (if-elif-else) und Flussdiagramme</h1>
+<h1 class="title">Conditionals</h1>
 <p class="subtitle lead">Python - Lernmodul 2</p>
 </div>
 
@@ -258,22 +308,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <section id="conditionals-if-elif-else-und-flussdiagramme" class="level1">
 <h1>Conditionals (if-elif-else) und Flussdiagramme</h1>
-<section id="wichtig" class="level2">
-<h2 class="anchored" data-anchor-id="wichtig">Wichtig</h2>
-<p>Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).</p>
+<section id="lehr-lernmaterialien" class="level2">
+<h2 class="anchored" data-anchor-id="lehr-lernmaterialien">Lehr-Lernmaterialien</h2>
 <p>Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema <a href="https://de.wikipedia.org/wiki/Programmablaufplan">Flussdiagramm</a>. Auch hier gilt: “Versuchen Sie es einfach”. Erstellen Sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn Sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen <a href="https://app.diagrams.net">draw.io</a> (siehe “Flowchart”).</p>
 <p>Auf <strong>Youtube</strong> finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=b6KzYbM-Hvg">If-Anweisung</a> und <a href="https://www.youtube.com/watch?v=f3YdEdYSNdk">If-Elif-Else</a>.</p>
 <p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_conditions.asp">Conditionals</a>.</p>
 <p>Auf der Website von <strong>Sylvia Lange</strong> finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die <a href="https://sylvialange.de/python/Programmieraufgaben.pdf">Aufgaben</a> (7, 8, 9, 10, 11) und die Lösungen <a href="https://sylvialange.de/python/python3/verzweigung/Quader.py">7</a>, <a href="https://sylvialange.de/python/python3/verzweigung/Rabatt.py">8</a>, <a href="https://sylvialange.de/python/python3/verzweigung/Rueckgeld.py">9</a>, <a href="https://sylvialange.de/python/python3/verzweigung/pqFormel.py">10</a>, <a href="https://sylvialange.de/python/python3/verzweigung/BMI.py">11</a> zum Thema Conditionals/Verzweigungen.</p>
-</section>
-<section id="prüfungsvorbereitung-1" class="level2">
-<h2 class="anchored" data-anchor-id="prüfungsvorbereitung-1">Prüfungsvorbereitung</h2>
-<p>Lösungsvorschlag Aufträge</p>
-<ul>
-<li><a href="files/login_without_username.py">Lösungsvorschlag Login I</a></li>
-<li><a href="files/login_with_username.py">Lösungsvorschlag Login II</a></li>
-<li><a href="files/login_with_username.drawio.png">Lösungsvorschlag Login II Flussdiagramm</a></li>
-</ul>
 <hr>
 <p>Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>x <span class="op">=</span> <span class="st">"Hello"</span></span>
@@ -285,7 +325,26 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb1-7"><a href="#cb1-7"></a>  y <span class="op">=</span> <span class="st">"Tina"</span></span>
 <span id="cb1-8"><a href="#cb1-8"></a></span>
 <span id="cb1-9"><a href="#cb1-9"></a><span class="bu">print</span>(y)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="files/prüfungsvorbereitung_1.drawio.png">Lösungsvorschlag</a></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A((Start)) --&gt; B[x = Hello]
+    B --&gt; id3[y = Tom]
+    id3 --&gt; id4{x != Hello}
+    id4 -- False --&gt; id5[y = Tina]
+    id4 -- True --&gt; id6[y= Tim]
+    id5 --&gt; id7[/Ausgabe von y/]
+    id6 --&gt; id7
+    id7 --&gt; id8([Ende])
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 <p>Was ist der Output von diesem Programm? Erstellen Sie ein Flussdiagramm dazu.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>x <span class="op">=</span> <span class="dv">5</span></span>
@@ -298,7 +357,28 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb2-8"><a href="#cb2-8"></a>  <span class="bu">print</span>(<span class="st">"c"</span>)</span>
 <span id="cb2-9"><a href="#cb2-9"></a><span class="cf">else</span>:</span>
 <span id="cb2-10"><a href="#cb2-10"></a>  <span class="bu">print</span>(<span class="st">"d"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<p><a href="files/prüfungsvorbereitung_2.drawio.png">Lösungsvorschlag</a></p>
+<div class="cell" data-layout-align="center">
+<div class="cell-output-display">
+<div>
+<p></p><figure class="figure"><p></p>
+<div>
+<pre class="mermaid mermaid-js">flowchart TD
+    A((Start)) --&gt; B[x = 5]
+    B --&gt; id4{x &lt; 0}
+    id4 -- True --&gt; F[/Ausgabe a/]
+    id4 -- False --&gt; c{x &gt; 0}
+    c -- True --&gt; D{x == 5}
+    c -- False --&gt; E[/Ausgabe d/]
+    D -- True --&gt; T[/Ausgabe b/]
+    D -- False --&gt; U[/Ausgabe c/]
+    T --&gt; U
+    F &amp; E &amp; U --&gt; id8([Ende])
+</pre>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
 <hr>
 <p>Erstellen Sie ein Programm, welches Schweizer Noten in das <a href="https://gpacalculator.net/grade-conversion/switzerland/">amerikanische Notensystem</a> umrechnet.</p>
 <table class="table">
@@ -322,26 +402,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <td style="text-align: center;">C</td>
 </tr>
 <tr class="even">
-<td style="text-align: center;">&lt;4</td>
+<td style="text-align: center;">&lt; 4</td>
 <td style="text-align: center;">F</td>
 </tr>
 </tbody>
 </table>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/gpa_calculator.png" class="img-fluid figure-img"></p>
-<figcaption>GPA Calculator</figcaption>
-</figure>
-</div>
-<p><a href="files/gpa_calculator.py">Lösungsvorschlag</a></p>
 
 
 </section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, January 1). <em>Conditionals (if-elif-else) und
-Flussdiagramme</em>. University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+Conrardy, R. (2024, January 1). <em>Conditionals</em>. University of
+Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {

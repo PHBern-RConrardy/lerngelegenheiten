@@ -165,7 +165,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Conditionals (if-elif-else) und Flussdiagramme</span></a>
+ <span class="menu-text">Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -188,6 +188,53 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
       </ul>
   </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Übungsblätter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Installationsanleitung IDE</span></a>
+  </div>
+</li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
@@ -204,10 +251,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#wochenüberblick" id="toc-wochenüberblick" class="nav-link active" data-scroll-target="#wochenüberblick">Wochenüberblick</a></li>
-  <li><a href="#wocheninhalte" id="toc-wocheninhalte" class="nav-link" data-scroll-target="#wocheninhalte">Wocheninhalte</a>
+  <li><a href="#wochenüberblick" id="toc-wochenüberblick" class="nav-link active" data-scroll-target="#wochenüberblick">Wochenüberblick</a>
   <ul class="collapse">
-  <li><a href="#vorbereitungsauftrag---woche-1" id="toc-vorbereitungsauftrag---woche-1" class="nav-link" data-scroll-target="#vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</a></li>
   <li><a href="#packages-installieren-numpy" id="toc-packages-installieren-numpy" class="nav-link" data-scroll-target="#packages-installieren-numpy">Packages installieren (numpy)</a></li>
   <li><a href="#projekt-1" id="toc-projekt-1" class="nav-link" data-scroll-target="#projekt-1">Projekt 1</a></li>
   <li><a href="#projekt-2" id="toc-projekt-2" class="nav-link" data-scroll-target="#projekt-2">Projekt 2</a></li>
@@ -270,6 +315,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Zusammenfassung</div>
+    <p>In dieser Lerngelegenheit lernen Sie wie sie Pythonprogrammierübungen im Mathematikunterricht der Sekundarstufe 1 einbauen und beurteilen können. Sie können zudem Chatbots lernförderlich einsetzen.</p>
+  </div>
+</div>
 
 
 </header>
@@ -282,13 +333,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="wochenüberblick" class="level1">
 <h1>Wochenüberblick</h1>
 <table class="table-striped table-hover table-sm small table">
-<colgroup>
-<col style="width: 17%">
-<col style="width: 28%">
-<col style="width: 17%">
-<col style="width: 17%">
-<col style="width: 17%">
-</colgroup>
 <thead>
 <tr class="header">
 <th style="text-align: center;">Woche</th>
@@ -302,102 +346,48 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <tr class="odd">
 <td style="text-align: center;">1</td>
 <td style="text-align: left;">Variablen, Datentypen und Typecasting</td>
-<td style="text-align: center;">Lernmodul</td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="LM_IDE_install">Install IDE</a>, <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html">Lernmodul</a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungen</a></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">2</td>
 <td style="text-align: left;">Conditionals</td>
-<td style="text-align: center;">Lernmodul</td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html">Lernmodul</a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_02.html">Übungen</a></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">3</td>
 <td style="text-align: left;">Loops</td>
-<td style="text-align: center;">Lernmodul</td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html">Lernmodul</a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_03.html">Übungen</a></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">4</td>
 <td style="text-align: left;">Listen</td>
-<td style="text-align: center;">Lernmodul</td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html">Lernmodul</a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_04.html">Übungen</a></td>
 <td style="text-align: center;">Projekt 1</td>
 </tr>
 <tr class="odd">
 <td style="text-align: center;">5</td>
 <td style="text-align: left;">Funktionen</td>
-<td style="text-align: center;">Lernmodul</td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html">Lernmodul</a></td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_05.html">Übungen</a></td>
 <td style="text-align: center;"></td>
 </tr>
 <tr class="even">
 <td style="text-align: center;">6</td>
 <td style="text-align: left;"></td>
 <td style="text-align: center;"></td>
-<td style="text-align: center;">Übungen</td>
+<td style="text-align: center;"><a href="../../lerngelegenheiten/LG_math-python/woche_05.html">Übungen</a></td>
 <td style="text-align: center;">Projekt 2</td>
 </tr>
 </tbody>
 </table>
 <hr>
-</section>
-<section id="wocheninhalte" class="level1">
-<h1>Wocheninhalte</h1>
-<section id="vorbereitungsauftrag---woche-1" class="level2">
-<h2 class="anchored" data-anchor-id="vorbereitungsauftrag---woche-1">Vorbereitungsauftrag - Woche 1</h2>
-<p>Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie <strong>vor</strong> der ersten Woche Rstudio und Python auf Ihrem Computer.</p>
-<div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" aria-current="page">Windows 🪟</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">MacOS 🍎</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">GNU/Linux 🐧</a></li></ul>
-<div class="tab-content">
-<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>Grobe Installationsanleitung unter Windows:</p>
-<ol type="1">
-<li>Installieren Sie R, <a href="https://cran.rstudio.com/bin/windows/base/">Webseite</a>.</li>
-<li>Installieren Sie RStudio, <a href="https://posit.co/download/rstudio-desktop/">Webseite</a>.</li>
-<li>Installieren Sie RTools, <a href="https://cran.r-project.org/bin/windows/Rtools/">Webseite</a>.</li>
-<li>In der <em>Console</em> in Rstudio: <code>install.packages("reticulate")</code>.</li>
-<li>In der <em>Console</em> in Rstudio: <code>reticulate::install_miniconda()</code>.</li>
-</ol>
-</div>
-<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>Grobe Installationsanleitung unter MacOS:</p>
-<p>Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:</p>
-<ol type="1">
-<li><a href="https://brew.sh/">Homebrew</a> im <em>Terminal</em> installieren: <code>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"</code></li>
-<li><a href="https://formulae.brew.sh/cask/rstudio#default">RStudio (+R)</a> im <em>Terminal</em> installieren: <code>brew install --cask rstudio</code></li>
-<li>In der <em>Console</em> in Rstudio: <code>install.packages("reticulate")</code>.</li>
-<li>In der <em>Console</em> in Rstudio: <code>reticulate::install_miniconda()</code>.</li>
-</ol>
-<p>Empfehlung: Installieren Sie Software grundsätzlich über <a href="https://brew.sh/">Homebrew</a> (Paketmanager für MacOS).</p>
-<p>Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: <code>brew update &amp;&amp; brew upgrade &amp;&amp; brew upgrade --cask &amp;&amp; brew cleanup</code></p>
-</div>
-<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Komm vorbei für einen gratis ☕️.</p>
-<p>Installation hängt von der Distro ab.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Hinweis
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.</p>
-</div>
-</div>
-<p>Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="bu">print</span>(<span class="st">"Hello, World!"</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<hr>
-</section>
 <section id="packages-installieren-numpy" class="level2">
 <h2 class="anchored" data-anchor-id="packages-installieren-numpy">Packages installieren (numpy)</h2>
 <p>Im <code>Terminal</code>folgenden Befehl eingeben: <code>pip install numpy</code>. Falls Fehler gemeldet werden folgendes beachten:</p>
@@ -411,7 +401,7 @@ Hinweis
 </section>
 <section id="projekt-1" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-1">Projekt 1</h2>
-<p>Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren <a href="https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA">MA.1.A.2.h</a> oder <a href="https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd">MA.1.A.2.i</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
+<p>Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren <a href="https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA" class="knopf stufe">MA.1.A.2.h</a> oder <a href="https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd" class="knopf stufe">MA.1.A.2.i</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
 <p>Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.</p>
 <p>Sie können die Arbeit als Partnerarbeit erledigen.</p>
 <details>
@@ -419,56 +409,56 @@ Hinweis
 Lösungsvorschlag 1
 </summary>
 <p>Dieser Lösungsvorschlag stammt von Jessica Eichler, lizenziert unter <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0 Lizenz</a>.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> random</span>
-<span id="cb2-3"><a href="#cb2-3"></a>auftrag <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Löse die nachfolgenden Aufgaben!"</span>)</span>
-<span id="cb2-4"><a href="#cb2-4"></a><span class="cf">while</span> <span class="va">True</span>:</span>
-<span id="cb2-5"><a href="#cb2-5"></a>  random_numberone<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
-<span id="cb2-6"><a href="#cb2-6"></a>  random_numbertwo<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
-<span id="cb2-7"><a href="#cb2-7"></a>  <span class="bu">print</span>(random_numberone, <span class="st">"von"</span>, random_numbertwo,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb2-8"><a href="#cb2-8"></a>  lösung<span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Schätze den prozentualen Anteil ab. Wie viel erhältst du?"</span>))</span>
-<span id="cb2-9"><a href="#cb2-9"></a>  richtiges_resultat <span class="op">=</span> (random_numberone <span class="op">/</span> random_numbertwo) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb2-10"><a href="#cb2-10"></a>  <span class="cf">if</span> <span class="bu">abs</span>(lösung <span class="op">-</span> richtiges_resultat)<span class="op">&lt;</span><span class="dv">10</span>:</span>
-<span id="cb2-11"><a href="#cb2-11"></a>    <span class="bu">print</span>(<span class="st">"Gut gemacht ... weiter so!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb2-12"><a href="#cb2-12"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-13"><a href="#cb2-13"></a>    <span class="bu">print</span>(<span class="st">"Versuch es nochmals."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb2-14"><a href="#cb2-14"></a>  weiter <span class="op">=</span> <span class="bu">input</span> (<span class="st">"Möchten sie fortfahren? (ja/nein)"</span>)</span>
-<span id="cb2-15"><a href="#cb2-15"></a>  <span class="cf">if</span> weiter <span class="op">==</span> <span class="st">"ja"</span>:</span>
-<span id="cb2-16"><a href="#cb2-16"></a>    <span class="cf">continue</span></span>
-<span id="cb2-17"><a href="#cb2-17"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-18"><a href="#cb2-18"></a>    <span class="cf">break</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="co"># Lösung von Jessica Eichler unter einer CC BY-SA 4.0 Lizenz</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="im">import</span> random</span>
+<span id="cb1-3"><a href="#cb1-3"></a>auftrag <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Löse die nachfolgenden Aufgaben!"</span>)</span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb1-5"><a href="#cb1-5"></a>  random_numberone<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
+<span id="cb1-6"><a href="#cb1-6"></a>  random_numbertwo<span class="op">=</span>random.randint(<span class="dv">1</span>,<span class="dv">1000</span>)</span>
+<span id="cb1-7"><a href="#cb1-7"></a>  <span class="bu">print</span>(random_numberone, <span class="st">"von"</span>, random_numbertwo,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-8"><a href="#cb1-8"></a>  lösung<span class="op">=</span> <span class="bu">float</span>(<span class="bu">input</span>(<span class="st">"Schätze den prozentualen Anteil ab. Wie viel erhältst du?"</span>))</span>
+<span id="cb1-9"><a href="#cb1-9"></a>  richtiges_resultat <span class="op">=</span> (random_numberone <span class="op">/</span> random_numbertwo) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a>  <span class="cf">if</span> <span class="bu">abs</span>(lösung <span class="op">-</span> richtiges_resultat)<span class="op">&lt;</span><span class="dv">10</span>:</span>
+<span id="cb1-11"><a href="#cb1-11"></a>    <span class="bu">print</span>(<span class="st">"Gut gemacht ... weiter so!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-12"><a href="#cb1-12"></a>  <span class="cf">else</span>:</span>
+<span id="cb1-13"><a href="#cb1-13"></a>    <span class="bu">print</span>(<span class="st">"Versuch es nochmals."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb1-14"><a href="#cb1-14"></a>  weiter <span class="op">=</span> <span class="bu">input</span> (<span class="st">"Möchten sie fortfahren? (ja/nein)"</span>)</span>
+<span id="cb1-15"><a href="#cb1-15"></a>  <span class="cf">if</span> weiter <span class="op">==</span> <span class="st">"ja"</span>:</span>
+<span id="cb1-16"><a href="#cb1-16"></a>    <span class="cf">continue</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a>  <span class="cf">else</span>:</span>
+<span id="cb1-18"><a href="#cb1-18"></a>    <span class="cf">break</span></span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <details>
 <summary>
 Lösungsvorschlag 2
 </summary>
 <p>Dieser Lösungsvorschlag von Liv Streit ist unter einer CC0 Lizenz.</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="im">import</span> random</span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="kw">def</span> Aufgabe():</span>
-<span id="cb3-3"><a href="#cb3-3"></a>  <span class="cf">while</span> <span class="va">True</span>:</span>
-<span id="cb3-4"><a href="#cb3-4"></a>    random_num1 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
-<span id="cb3-5"><a href="#cb3-5"></a>    random_num2 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
-<span id="cb3-6"><a href="#cb3-6"></a>    operation <span class="op">=</span> random.choice ([<span class="st">'+'</span>, <span class="st">'-'</span>])</span>
-<span id="cb3-7"><a href="#cb3-7"></a>    <span class="cf">try</span>:</span>
-<span id="cb3-8"><a href="#cb3-8"></a>      user_answer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="ss">f"Was ist </span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">?"</span>))</span>
-<span id="cb3-9"><a href="#cb3-9"></a>      richtiges_resultat <span class="op">=</span> <span class="bu">eval</span>(<span class="ss">f"</span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb3-10"><a href="#cb3-10"></a>      abweichung <span class="op">=</span> <span class="bu">abs</span>(<span class="bu">float</span>(user_answer)<span class="op">-</span>richtiges_resultat)</span>
-<span id="cb3-11"><a href="#cb3-11"></a>      abweichung_prozentsatz <span class="op">=</span> (abweichung <span class="op">/</span> richtiges_resultat) <span class="op">*</span> <span class="dv">100</span></span>
-<span id="cb3-12"><a href="#cb3-12"></a>      toleranz <span class="op">=</span> <span class="dv">10</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a>      <span class="cf">if</span> <span class="op">-</span>toleranz <span class="op">&lt;=</span> abweichung_prozentsatz <span class="op">&lt;=</span> toleranz:</span>
-<span id="cb3-14"><a href="#cb3-14"></a>        <span class="bu">print</span> (<span class="st">"Juhu, deine Antwort ist richtig!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb3-15"><a href="#cb3-15"></a>        <span class="cf">break</span></span>
-<span id="cb3-16"><a href="#cb3-16"></a>      <span class="cf">else</span>:</span>
-<span id="cb3-17"><a href="#cb3-17"></a>        <span class="bu">print</span> (<span class="st">"Deine Antwort ist leider falsch, versuche es gleich noch einmal."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
-<span id="cb3-18"><a href="#cb3-18"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
-<span id="cb3-19"><a href="#cb3-19"></a>      <span class="bu">print</span>(<span class="st">"gib bitte eine Zahl ein."</span>)</span>
-<span id="cb3-20"><a href="#cb3-20"></a>Aufgabe()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> random</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">def</span> Aufgabe():</span>
+<span id="cb2-3"><a href="#cb2-3"></a>  <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb2-4"><a href="#cb2-4"></a>    random_num1 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a>    random_num2 <span class="op">=</span> random.randint(<span class="dv">1</span>,<span class="dv">100</span>)</span>
+<span id="cb2-6"><a href="#cb2-6"></a>    operation <span class="op">=</span> random.choice ([<span class="st">'+'</span>, <span class="st">'-'</span>])</span>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="cf">try</span>:</span>
+<span id="cb2-8"><a href="#cb2-8"></a>      user_answer <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="ss">f"Was ist </span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">?"</span>))</span>
+<span id="cb2-9"><a href="#cb2-9"></a>      richtiges_resultat <span class="op">=</span> <span class="bu">eval</span>(<span class="ss">f"</span><span class="sc">{</span>random_num1<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>operation<span class="sc">}</span><span class="ss"> </span><span class="sc">{</span>random_num2<span class="sc">}</span><span class="ss">"</span>)</span>
+<span id="cb2-10"><a href="#cb2-10"></a>      abweichung <span class="op">=</span> <span class="bu">abs</span>(<span class="bu">float</span>(user_answer)<span class="op">-</span>richtiges_resultat)</span>
+<span id="cb2-11"><a href="#cb2-11"></a>      abweichung_prozentsatz <span class="op">=</span> (abweichung <span class="op">/</span> richtiges_resultat) <span class="op">*</span> <span class="dv">100</span></span>
+<span id="cb2-12"><a href="#cb2-12"></a>      toleranz <span class="op">=</span> <span class="dv">10</span></span>
+<span id="cb2-13"><a href="#cb2-13"></a>      <span class="cf">if</span> <span class="op">-</span>toleranz <span class="op">&lt;=</span> abweichung_prozentsatz <span class="op">&lt;=</span> toleranz:</span>
+<span id="cb2-14"><a href="#cb2-14"></a>        <span class="bu">print</span> (<span class="st">"Juhu, deine Antwort ist richtig!"</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-15"><a href="#cb2-15"></a>        <span class="cf">break</span></span>
+<span id="cb2-16"><a href="#cb2-16"></a>      <span class="cf">else</span>:</span>
+<span id="cb2-17"><a href="#cb2-17"></a>        <span class="bu">print</span> (<span class="st">"Deine Antwort ist leider falsch, versuche es gleich noch einmal."</span>,flush<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb2-18"><a href="#cb2-18"></a>    <span class="cf">except</span> <span class="pp">ValueError</span>:</span>
+<span id="cb2-19"><a href="#cb2-19"></a>      <span class="bu">print</span>(<span class="st">"gib bitte eine Zahl ein."</span>)</span>
+<span id="cb2-20"><a href="#cb2-20"></a>Aufgabe()</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <hr>
 </section>
 <section id="projekt-2" class="level2">
 <h2 class="anchored" data-anchor-id="projekt-2">Projekt 2</h2>
-<p>Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator <a href="https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW">MA.3.B.2.e</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
+<p>Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator <a href="https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW" class="knopf stufe">MA.3.B.2.e</a>. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.</p>
 <p>Halten Sie schriftlich fest:</p>
 <ul>
 <li>wie diese Übung zur formativen Beurteilung beiträgt.</li>

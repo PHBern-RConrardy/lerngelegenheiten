@@ -26,6 +26,8 @@ citation:
     - Peter Giger
     - Richard Conrardy
     - Joel Adler
+abstract: >
+  In dieser Lerngelegenheit lernen Sie wie sie Pythonprogrammierübungen im Mathematikunterricht der Sekundarstufe 1 einbauen und beurteilen können. Sie können zudem Chatbots lernförderlich einsetzen.
 ---
 
 ::: {style="text-align: center;"}
@@ -36,69 +38,18 @@ citation:
 
 # Wochenüberblick
 
-| Woche | Thema                                 | Vorbereitung | Präsenz | Nachbereitung |
-|:-----------:|:--------------------|:-----------:|:-----------:|:-----------:|
-|   1   | Variablen, Datentypen und Typecasting |  Lernmodul   | Übungen |               |
-|   2   | Conditionals                          |  Lernmodul   | Übungen |               |
-|   3   | Loops                                 |  Lernmodul   | Übungen |               |
-|   4   | Listen                                |  Lernmodul   | Übungen |   Projekt 1   |
-|   5   | Funktionen                            |  Lernmodul   | Übungen |               |
-|   6   |                                       |              | Übungen |   Projekt 2   |
+| Woche | Thema                                 |                           Vorbereitung                           |         Präsenz         | Nachbereitung |
+|:-------------:|:--------------|:-------------:|:-------------:|:-------------:|
+|   1   | Variablen, Datentypen und Typecasting | [Install IDE](LM_IDE_install), [Lernmodul](LM_mathpython_01.qmd) | [Übungen](woche_01.qmd) |               |
+|   2   | Conditionals                          |                [Lernmodul](LM_mathpython_02.qmd)                 | [Übungen](woche_02.qmd) |               |
+|   3   | Loops                                 |                [Lernmodul](LM_mathpython_03.qmd)                 | [Übungen](woche_03.qmd) |               |
+|   4   | Listen                                |                [Lernmodul](LM_mathpython_04.qmd)                 | [Übungen](woche_04.qmd) |   Projekt 1   |
+|   5   | Funktionen                            |                [Lernmodul](LM_mathpython_05.qmd)                 | [Übungen](woche_05.qmd) |               |
+|   6   |                                       |                                                                  | [Übungen](woche_05.qmd) |   Projekt 2   |
 
 : {.striped .hover .table-sm}
 
 <hr>
-
-# Wocheninhalte
-
-## Vorbereitungsauftrag - Woche 1 {#vorbereitungsauftrag---woche-1}
-
-Im Fokus der Lerngelegenheit steht das Programmieren. Installieren Sie **vor** der ersten Woche Rstudio und Python auf Ihrem Computer.
-
-::: panel-tabset
-## Windows 🪟
-
-Grobe Installationsanleitung unter Windows:
-
-1.  Installieren Sie R, [Webseite](https://cran.rstudio.com/bin/windows/base/).
-2.  Installieren Sie RStudio, [Webseite](https://posit.co/download/rstudio-desktop/).
-3.  Installieren Sie RTools, [Webseite](https://cran.r-project.org/bin/windows/Rtools/).
-4.  In der *Console* in Rstudio: `install.packages("reticulate")`.
-5.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
-
-## MacOS 🍎
-
-Grobe Installationsanleitung unter MacOS:
-
-Öffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:
-
-1.  [Homebrew](https://brew.sh/) im *Terminal* installieren: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-2.  [RStudio (+R)](https://formulae.brew.sh/cask/rstudio#default) im *Terminal* installieren: `brew install --cask rstudio`
-3.  In der *Console* in Rstudio: `install.packages("reticulate")`.
-4.  In der *Console* in Rstudio: `reticulate::install_miniconda()`.
-
-Empfehlung: Installieren Sie Software grundsätzlich über [Homebrew](https://brew.sh/) (Paketmanager für MacOS).
-
-Alle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: `brew update && brew upgrade && brew upgrade --cask && brew cleanup`
-
-## GNU/Linux 🐧
-
-Komm vorbei für einen gratis ☕️.
-
-Installation hängt von der Distro ab.
-:::
-
-::: callout-note
-Bei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. ChatGPT 3.5 liefert ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.
-:::
-
-Überprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.
-
-``` python
-print("Hello, World!")
-```
-
-------------------------------------------------------------------------
 
 ## Packages installieren (numpy)
 
@@ -113,7 +64,7 @@ Im `Terminal`folgenden Befehl eingeben: `pip install numpy`. Falls Fehler gemeld
 
 ## Projekt 1 {#projekt-1}
 
-Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA) oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
+Entwickeln Sie Übungssituation im Kontext einer formativen oder summativen Beurteilung mit direktem Bezug zu den Indikatoren [MA.1.A.2.h](https://be.lehrplan.ch/101tLRW4xvunbRb5TfwTddzSsnKWUGRXA){.knopf .stufe} oder [MA.1.A.2.i](https://be.lehrplan.ch/1017J6SBfwtVNTyD2VCwcbJdt6SD5mwXd){.knopf .stufe}. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
 
 Halten Sie schriftlich fest, wie diese Übung zur summativen Beurteilung beiträgt und gehen Sie dabei auf Chancen und Risiken von automatisierten Verfahren ein.
 
@@ -183,7 +134,7 @@ Aufgabe()
 
 ## Projekt 2 {#projekt-2}
 
-Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW). In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
+Entwickeln Sie Übungssetting im Kontext einer formativen Beurteilung mit direktem Bezug zum Indikator [MA.3.B.2.e](https://be.lehrplan.ch/101qxA33rpuZHJ7LqqFSn39kpbUyt7DwW){.knopf .stufe}. In dieser Übung müssen die Lernenden ein Computerprogramm erstellen oder ein von Ihnen erstelltes Programm anpassen und/oder benutzen.
 
 Halten Sie schriftlich fest:
 

@@ -1,18 +1,15 @@
 ---
-format: html
-title: Conditionals (if-elif-else) und Flussdiagramme
+format: 
+  html: default
+  pdf: default
+  docx: default
+title: Conditionals
 subtitle: Python - Lernmodul 2
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
 ---
 # Conditionals (if-elif-else) und Flussdiagramme
 
-## Wichtig
-
-Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos
-schauen oder Texte lesen, wird Sie nicht weiterbringen. Beim
-Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb
-empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B.
-mit den Aufträgen oder eigenen Ideen/Projekten).
+## Lehr-Lernmaterialien
 
 Auf Wikipedia finden Sie eine gute Zusammenfassung zum Thema
 [Flussdiagramm](https://de.wikipedia.org/wiki/Programmablaufplan). Auch
@@ -41,14 +38,6 @@ Auf der Website von **Sylvia Lange** finden Sie noch weitere (gute)
 [11](https://sylvialange.de/python/python3/verzweigung/BMI.py) zum Thema
 Conditionals/Verzweigungen.
 
-## Prüfungsvorbereitung {#prüfungsvorbereitung-1}
-
-Lösungsvorschlag Aufträge
-
--   [Lösungsvorschlag Login I](files/login_without_username.py)
--   [Lösungsvorschlag Login II](files/login_with_username.py)
--   [Lösungsvorschlag Login II
-    Flussdiagramm](files/login_with_username.drawio.png)
 
 ------------------------------------------------------------------------
 
@@ -67,7 +56,17 @@ else:
 print(y)
 ```
 
-[Lösungsvorschlag](files/prüfungsvorbereitung_1.drawio.png)
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[x = Hello]
+    B --> id3[y = Tom]
+    id3 --> id4{x != Hello}
+    id4 -- False --> id5[y = Tina]
+    id4 -- True --> id6[y= Tim]
+    id5 --> id7[/Ausgabe von y/]
+    id6 --> id7
+    id7 --> id8([Ende])
+```
 
 ------------------------------------------------------------------------
 
@@ -87,7 +86,19 @@ else:
   print("d")
 ```
 
-[Lösungsvorschlag](files/prüfungsvorbereitung_2.drawio.png)
+```{mermaid}
+flowchart TD
+    A((Start)) --> B[x = 5]
+    B --> id4{x < 0}
+    id4 -- True --> F[/Ausgabe a/]
+    id4 -- False --> c{x > 0}
+    c -- True --> D{x == 5}
+    c -- False --> E[/Ausgabe d/]
+    D -- True --> T[/Ausgabe b/]
+    D -- False --> U[/Ausgabe c/]
+    T --> U
+    F & E & U --> id8([Ende])
+```
 
 ------------------------------------------------------------------------
 
@@ -101,8 +112,4 @@ umrechnet.
 |  5.5-6  |  A  |
 | 4.5-5.4 |  B  |
 | 4.0-4.4 |  C  |
-|   \<4   |  F  |
-
-![GPA Calculator](images/gpa_calculator.png)
-
-[Lösungsvorschlag](files/gpa_calculator.py)
+|   < 4   |  F  |

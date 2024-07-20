@@ -1,18 +1,15 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Listen
 subtitle: Python - Lernmodul 4
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
 ---
 # Listen
 
-## Hilfreiche Links
-
-**Wichtig:** Verbringen sie nicht zu viel Zeit mit der Theorie.
-Stundenlang Videos schauen oder Texte lesen, wird sie nicht
-weiterbringen. Beim Programmieren geht es um das “Können” und nicht um
-das “Wissen”. Deshalb empfehle ich ihnen, selber zu experimentieren und
-viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).
+## Lehr-Lernmaterialien
 
 Auf **Youtube** finden sie (teilweise) gute Erklärvideos zum Thema
 Python. Hier sind einige Beispiellinks zu den Themen [Listen
@@ -33,13 +30,9 @@ und die Lösungen
 [13](https://sylvialange.de/python/python3/listen/WahlprogrammListen.py)
 zum Thema Conditionals/Verzweigungen.
 
-## Prüfungsvorbereitung {#prüfungsvorbereitung-3}
+## Prüfungsvorbereitung 
 
-Lösungsvorschlag Aufträge - [Lösungsvorschlag
-Einkaufsliste](files/einkaufsliste.py) - [Lösungsvorschlag
-Notendurchschnittsrechner](files/notendurchschnitt.py)
-
-Was macht diese Programm und was ist der Output?
+Was macht dieses Programm und was ist der Output?
 
 ``` python
 x = [6, 3, 8, 5, 7, 2, 4, 0, 5]
@@ -50,14 +43,23 @@ for y in x:
 print(z)
 ```
 
-Eine Liste kann auch “Unterlisten” haben. Schreiben sie ein Programm,
-welches die folgende Liste ausgibt:
+
+Eine Liste kann auch “Unterlisten” haben. Schreiben Sie ein Programm,
+welches die folgende Liste, Element für Element, ausgibt:
 
 ``` python
 x = [[1, 2],[3, 4],[5, 6]]
 ```
 
 Lösungsvorschlag
+
+```python
+x = [[1, 2],[3, 4],[5, 6]]
+
+for unterliste in x:
+    for element in unterliste:
+        print(element)
+```
 
 Wievielmal kommt das Wort “lorem” (Gross- und Kleinschreibung) vor?
 Erstellen sie ein Programm, welches das Wort “lorem” (Gross- und
@@ -74,3 +76,21 @@ text = ["Lorem", "ipsum", "dolor", "sit", "amet",
 ```
 
 Quelle Lösungsvorschlag
+
+```python
+# source: https://www.computerwoche.de/a/13-wirklich-wahre-it-geschichten,3218843
+
+text = ["Lorem", "ipsum", "dolor", "sit", "amet", "consetetur", "sadipscing", "elitr", "lorem",
+        "sed", "lorem", "diam", "nonumy", "eirmod", "tempor", "invidunt", "Lorem", "ut", "labore",
+        "et", "dolore", "magna", "aliquyam", "erat", "sed", "diam", "voluptuz", "At", "lorem", 
+        "vero", "eos", "et", "accusam", "et", "justo", "duo", "lorem", "dolores", "et", "ea"]
+
+summe = 0
+for wort in text:
+    if wort == "lorem":
+        summe = summe + 1
+    if wort == "Lorem":
+        summe = summe + 1
+
+print(summe)
+```

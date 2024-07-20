@@ -1,5 +1,8 @@
 ---
-format: html
+format: 
+  html: default
+  pdf: default
+  docx: default
 title: Übungen mit Typecasting
 date: 07/18/2024
 ---
@@ -29,7 +32,7 @@ Potenzen werden in Python mit `**`angeschrieben:
 
 $x^2 \longrightarrow$ `x**2`.
 
-Andere Computersprachen (z.B. $\LaTeX$) benutzen stattdessen `^`, dann wird es `x^2` geschrieben.
+Andere Computersprachen (z.B. LaTeX) benutzen stattdessen `^`, dann wird es `x^2` geschrieben.
 
 :::
 
@@ -57,17 +60,20 @@ Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreieck
 ## Temperaturumrechnung
 
 Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel: 
+
 $$\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32$$
 
 **Vertiefung:** Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.
 
 ## Zinsrechnung
 
-Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: $$ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}$$
+Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel: 
+
+$$ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}$$
 
 ## Volumen eines Zylinders
 
-Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: $$\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Höhe}$$
+Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: $$\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Hoehe}$$
 
 ## Minuten
 
