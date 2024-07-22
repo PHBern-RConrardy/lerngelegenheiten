@@ -4,7 +4,7 @@
     "href": "lerngelegenheiten/LG_math-python/woche_01.html",
     "title": "Übungen mit Typecasting",
     "section": "",
-    "text": "Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.\n\n\n\nSchreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.\n\n\n\nSchreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.\n\n\n\nSchreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.\n\n\n\n\n\n\nPotenzen\n\n\n\nPotenzen werden in Python mit **angeschrieben:\n\\(x^2 \\longrightarrow\\) x**2.\nAndere Computersprachen (z.B. LaTeX) benutzen stattdessen ^, dann wird es x^2 geschrieben.\n\n\n\n\n\nSchreiben Sie ein Programm, das den Radius eines Kreises als Eingabe nimmt und den Umfang des Kreises ausgibt.\n\n\n\n\n\n\nLibraries\n\n\n\nDamit Sie \\(\\pi\\) erhalten müssen Sie mit import math, z.B. in der ersten Zeile des Programms, die math library importieren und können danach math.pi nutzen.\nimport math\nprint(math.pi)\n\n\n\n\n\nSchreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet.\n\n\n\nSchreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel:\n\\[\\text{Fahrenheit}=\\text{Celsius}\\cdot \\frac{9}{5}+32\\]\nVertiefung: Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.\n\n\n\nSchreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel:\n\\[ \\text{Endkapital}=\\text{Anfangskapital}\\cdot\\left(1+\\frac{\\text{Zinssatz}}{100}\\right)^\\text{Jahre}\\]\n\n\n\nSchreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: \\[\\text{Volumen}=\\pi\\cdot\\text{Radius}^2\\cdot\\text{Hoehe}\\]\n\n\n\nSchreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.\n\n\n\n\n\n\nGanzzahldivision\n\n\n\nPython nutzt /als Divison. //ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.\n7//3 ergibt 2, denn: \\(7/3=2 \\text{ Rest } 1\\)\n\n\n\n\n\nSchreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.\n\n\n\n\n\n\nModulo\n\n\n\n% ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.\n7%3, gelesen 7 modulo 3, ergibt 1, denn \\(7/3=2 \\text{ Rest } 1\\).\n\n\n\n\n\nSchreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.\n\n\n\nSchreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.",
+    "text": "Übungen\n\nÜbungsaufgabe 1 (Fläche eines Rechtecks) Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.\n\n\nÜbungsaufgabe 2 (Durchschnitt zweier Zahlen) Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.\n\n\nÜbungsaufgabe 3 (Summe und Produkt von drei Zahlen) Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.\n\n\nÜbungsaufgabe 4 (Quadratzahlen) Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.\n\n\n\n\n\n\nPotenzen\n\n\n\nPotenzen werden in Python mit **angeschrieben:\n\\(x^2 \\longrightarrow\\) x**2.\nAndere Computersprachen (z.B. LaTeX) benutzen stattdessen ^, dann wird es x^2 geschrieben.\n\n\n\n\nÜbungsaufgabe 5 (Kreisumfang berechnen) Schreiben Sie ein Programm, das den Radius eines Kreises als Eingabe nimmt und den Umfang des Kreises ausgibt.\n\n\n\n\n\n\nLibraries\n\n\n\nDamit Sie \\(\\pi\\) erhalten müssen Sie mit import math, z.B. in der ersten Zeile des Programms, die math library importieren und können danach math.pi nutzen.\nimport math\nprint(math.pi)\n\n\n\n\nÜbungsaufgabe 6 (Hypotenuse eines rechtwinkligen Dreiecks) Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet.\n\n\nÜbungsaufgabe 7 (Temperaturumrechnung) Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel:\n\\[\\text{Fahrenheit}=\\text{Celsius}\\cdot \\frac{9}{5}+32\\]\nVertiefung: Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.\n\n\nÜbungsaufgabe 8 (Zinsrechnung) Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel:\n\\[ \\text{Endkapital}=\\text{Anfangskapital}\\cdot\\left(1+\\frac{\\text{Zinssatz}}{100}\\right)^\\text{Jahre}\\]\n\n\nÜbungsaufgabe 9 (Volumen eines Zylinders) Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: \\[\\text{Volumen}=\\pi\\cdot\\text{Radius}^2\\cdot\\text{Hoehe}\\]\n\n\nÜbungsaufgabe 10 (Minuten) Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.\n\n\n\n\n\n\nGanzzahldivision\n\n\n\nPython nutzt /als Divison. //ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.\n7//3 ergibt 2, denn: \\(7/3=2 \\text{ Rest } 1\\)\n\n\n\n\nÜbungsaufgabe 11 (Anzahl der vollen Dutzend) Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.\n\n\n\n\n\n\nModulo\n\n\n\n% ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.\n7%3, gelesen 7 modulo 3, ergibt 1, denn \\(7/3=2 \\text{ Rest } 1\\).\n\n\n\n\nÜbungsaufgabe 12 (Wochen und Tage) Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.\n\n\nÜbungsaufgabe 13 (Packungsgrösse und Restmenge) Schreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, July 18). Übungen mit Typecasting.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
     "crumbs": [
       "Übungsblätter",
       "Übungen mit Typecasting"
@@ -1337,7 +1337,7 @@
     "href": "lerngelegenheiten/LG_math-python/woche_04.html",
     "title": "Übungen zu Listen",
     "section": "",
-    "text": "Schreiben Sie ein Programm, das eine Liste der Quadratzahlen von 1 bis n erstellt.",
+    "text": "Übungsaufgabe 1 (Quadratzahlen erstellen) Schreiben Sie ein Programm, das eine Liste der Quadratzahlen von 1 bis n erstellt.\n\n\nÜbungsaufgabe 2 (Mittelwert berechnen) Schreiben Sie ein Programm, das den Mittelwert einer Liste von Zahlen berechnet.\n\n\nÜbungsaufgabe 3 (Maximum und Minimum finden) Schreiben Sie ein Programm, das das Maximum und Minimum in einer Liste von Zahlen findet.\n\n\nÜbungsaufgabe 4 (Primzahlen in einer Liste) Schreiben Sie ein Programm, das alle Primzahlen in einer gegebenen Liste findet.\n\n\nÜbungsaufgabe 5 (Sortieren einer Liste) Schreiben Sie ein Programm, das eine Liste von Zahlen in aufsteigender Reihenfolge sortiert (ohne eingebaute Sortierfunktionen).\n\n\nÜbungsaufgabe 6 (Teiler einer Zahl finden) Schreiben Sie ein Programm, das alle Teiler einer gegebenen Zahl in einer Liste speichert.\n\n\nÜbungsaufgabe 7 (Liste von Zufallszahlen) Schreiben Sie ein Programm, das eine Liste von n zufälligen Zahlen zwischen 1 und 100 generiert.\n\n\nÜbungsaufgabe 8 (Gleichheit zweier Listen prüfen) Schreiben Sie ein Programm, das prüft, ob zwei Listen die gleichen Elemente enthalten (unabhängig von der Reihenfolge).\n\n\nÜbungsaufgabe 9 (Palindromzahlen finden) Schreiben Sie ein Programm, das alle Palindromzahlen in einer gegebenen Liste findet.\n\n\nÜbungsaufgabe 10 (Vorkommen von Elementen zählen) Schreiben Sie ein Programm, das zählt, wie oft jedes Element in einer Liste vorkommt.\n\n\nÜbungsaufgabe 11 (Pythagoreische Tripel) Schreiben Sie ein Programm, das alle Pythagoreischen Tripel \\((a, b, c)\\) mit \\(a, b, c \\leq n\\) findet.\n\n\nÜbungsaufgabe 12 (Elementweise Addition zweier Listen) Schreiben Sie ein Programm, das zwei Listen gleicher Länge elementweise addiert.\n\n\nÜbungsaufgabe 13 (Kleinste und größte Differenz) Schreiben Sie ein Programm, das die kleinste und größte Differenz zwischen zwei aufeinanderfolgenden Elementen in einer Liste berechnet.\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Übungen zu Listen. University\nof Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
     "crumbs": [
       "Übungsblätter",
       "Übungen zu Listen"
@@ -1794,49 +1794,77 @@
     "href": "lerngelegenheiten/LG_math-python/woche_06.html",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.\n\n\n\nSchreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.\n\n\n\nSchreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.\n\n\n\nSchreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.\n\n\n\nSchreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.\n\n\n\nSchreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (\\(ax + by = c\\) und \\(dx + ey = f\\)) löst."
+    "text": "Übungen\n\nÜbungsaufgabe 1 (Numerische Ableitung) Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.\n\n\nÜbungsaufgabe 2 (Numerische Integration) Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.\n\n\nÜbungsaufgabe 3 (Berechnung der Summe einer geometrischen Reihe) Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.\n\n\nÜbungsaufgabe 4 (Erzeugen von Pascal’schem Dreieck) Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.\n\n\nÜbungsaufgabe 5 (Brüche addieren) Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.\n\n\nÜbungsaufgabe 6 (Lösen von linearen Gleichungssystemen mit zwei Variablen) Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (\\(ax + by = c\\) und \\(dx + ey = f\\)) löst.\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Erweiterte Übungen in Python.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#numerische-ableitung",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#numerische-ableitung",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet."
+    "text": "Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#numerische-integration",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#numerische-integration",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet."
+    "text": "Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#berechnung-der-summe-einer-geometrischen-reihe",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#berechnung-der-summe-einer-geometrischen-reihe",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten."
+    "text": "Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#erzeugen-von-pascalschem-dreieck",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#erzeugen-von-pascalschem-dreieck",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt."
+    "text": "Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#brüche-addieren",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#brüche-addieren",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt."
+    "text": "Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-python/woche_06.html#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen",
     "href": "lerngelegenheiten/LG_math-python/woche_06.html#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen",
     "title": "Erweiterte Übungen in Python",
     "section": "",
-    "text": "Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (\\(ax + by = c\\) und \\(dx + ey = f\\)) löst."
+    "text": "Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (\\(ax + by = c\\) und \\(dx + ey = f\\)) löst.",
+    "crumbs": [
+      "Übungsblätter",
+      "Erweiterte Übungen in Python"
+    ]
   },
   {
     "objectID": "lerngelegenheiten/LG_math-standtest/LM_standtestmath_01.html",
@@ -2897,5 +2925,342 @@
     "title": "Inhalte effizient onlinebringen",
     "section": "PHBern",
     "text": "PHBern\n\nAn der PHBern entscheiden gemäss Art. 8 Abs. 1 Bst. o des PH-Statuts (PHSt; abrufbar unter www.phbern.ch/rechtssammlung &gt; Ziff. 1.0) grundsätzlich die Institutsleiterinnen und Institutsleiter über die Nutzung immaterieller Arbeitsergebnisse […]\n\nGeistiges Eigentum Merkblatt"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Lerngelegenheiten",
+    "section": "",
+    "text": "LerngelegenheitenLernmoduleKonferenzen\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\nChancen und Risiken standardisierter Testverfahren und Leistungsmessung\n\n\nTeil Mathematik\n\n\n\n\nDigitale Zusammenarbeit und Kommunikation\n\n\nTools und Technologien kennenlernen\n\n\n\n\nDigitalität und Datenschutz\n\n\n \n\n\n\n\nGrundlagen der Beurteilung\n\n\nFallbasiert diskutiert, SOL mit Coaching-Angebot\n\n\n\n\nMikroplanung Mathematik\n\n\nLernumgebungen entwickeln\n\n\n\n\nSummative Beurteilung im Mathematikunterricht\n\n\nGrundlagen für den Unterricht\n\n\n\n\nVerstehensorientiert prüfen in Zeiten von KI\n\n\nProgrammieren im Mathematikunterricht\n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\nDatenschutz\n\n\nDigitalität und Datenschutz\n\n\n\n\nThematische Einführung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nTheoretische Grundlagen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nGesetzliche Grundlagen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nNoten und Beurteilungsberichte\n\n\nGrundlagen der Beurteilung\n\n\n\n\nFörderorientierung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nLernbegleitung und Lerncoaching\n\n\nGrundlagen der Beurteilung\n\n\n\n\nKompetenzorientierung\n\n\nGrundlagen der Beurteilung\n\n\n\n\nGesamturteil und Persönliche und Schlüsselkompetenzen\n\n\nGrundlagen der Beurteilung\n\n\n\n\nNiveaus und Schulmodelle\n\n\nGrundlagen der Beurteilung\n\n\n\n\nForschungsethik\n\n\nLearning Analytics\n\n\n\n\nOpen Science\n\n\nLearning Analytics\n\n\n\n\nErgebnisse reproduzierbar publizieren\n\n\nLearning Analytics\n\n\n\n\nLehrmittel\n\n\n \n\n\n\n\nLernumgebungen\n\n\n \n\n\n\n\nVariablen Datentypen und Typecasting\n\n\nPython - Lernmodul 1\n\n\n\n\nConditionals\n\n\nPython - Lernmodul 2\n\n\n\n\nLoops\n\n\nPython - Lernmodul 3\n\n\n\n\nListen\n\n\nPython - Lernmodul 4\n\n\n\n\nFunktionen\n\n\nPython - Lernmodul 5\n\n\n\n\nStandardisierte Testverfahren in der Mathematik\n\n\n \n\n\n\n\nInstallationsanleitung IDE\n\n\nKurzanleitung wie man RStudio oder VSCode für Python und Quarto nutzt\n\n\n\n\nNachteilsausgleich und individuelle Lernziele\n\n\nGrundlagen der Beurteilung\n\n\n\n\nUrheberrecht\n\n\nMediendidaktik\n\n\n\n\nSprachkompetenz und Sprachkompetenzförderung im Mathematikunterricht\n\n\n \n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n   \n     \n     \n       Sortieren nach\n       Voreinstellung\n         \n          Datum - Datum (aufsteigend)\n        \n         \n          Datum - Neueste\n        \n         \n          Titel\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDatum\n\n\nTitel\n\n\nUntertitel\n\n\n\n\n\n\n05.06.2024\n\n\nEmpirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen\n\n\nNachwuchskolloquium PH Heidelberg\n\n\n\n\n07.05.2024\n\n\nMathematik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n07.05.2024\n\n\nMedien und Informatik\n\n\nCAS Berufspraxis kompetent begleiten\n\n\n\n\n02.05.2024\n\n\nKI im Mathematikunterricht\n\n\nThink Tank Medien und Informatik\n\n\n\n\n20.03.2024\n\n\nWie gelingt Beziehungsgestaltung?\n\n\nPraxislehrpersonen-Tagung\n\n\n\n\n18.03.2024\n\n\nInhalte effizient onlinebringen\n\n\nTreffpunkt Hochschuldidaktik\n\n\n\n\n04.03.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nKolloquium Fachdidaktik\n\n\n\n\n12.02.2024\n\n\nInhalte effizient onlinebringen\n\n\nBarcamp PHBern\n\n\n\n\n30.01.2024\n\n\nHow to flip the right way? Fail, flip, fix and feed in practice.\n\n\nLiterature Club Besprechung\n\n\n\n\n19.01.2024\n\n\nMathematikverständnis stärken in Zeiten von KI\n\n\nWorkshop Gesellschaft für Didaktik der Mathematik Schweiz\n\n\n\n\n\nKeine Treffer\n\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Lerngelegenheiten. University\nof Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind.\n\n\n\n\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.\n\nMan kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.\n\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.\n\n\n\nLösungsvorschlag\n\nDieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter CC BY-SA 4.0 Lizenz.\n# Lösung von Leandro Lüthi unter CC BY-SA 4.0 Lizenz\ndef istSumVonQuadr(zahl, anz_quadrnr):\n  # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.\n  if anz_quadrnr == 2:\n    for i in range(1, int(zahl**0.5)+1):\n    # for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe\n    # Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist\n      for j in range(i, int(zahl**0.5)+1):\n        if i**2 + j**2 == zahl:\n          return True\n          # Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück\n    return False\n  else:\n    # Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen\n    for i in range(1, int(zahl**0.5) + 1):\n      # Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe\n      if istSumVonQuadr(zahl - i**2, anz_quadrnr - 1):\n        return True\n        \"\"\"\n        Von der 'zahl' wird das Quadrat von i subdrahiert\n        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz\n        zwischen i**2 und zahl ergeben\n        \"\"\"\n    return False\n\n# Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können\nsumme_quadraten_zahlen = []\nprint(\"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:\",flush=True)\nrangeOfQuadrNr = int(input(\"Zahl: \"))\nquadrnr = int(input(\"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: \"))\n# Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr\nfor zahl in range(1, rangeOfQuadrNr):\n  if istSumVonQuadr(zahl, quadrnr):\n    \"\"\"\n    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben\n    \"\"\"\n    summe_quadraten_zahlen.append(zahl)\n# Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht\n\n# Ausgabe der gefundenen Zahlen\nprint(\"Natürliche Zahlen kleiner als \"+str(rangeOfQuadrNr)+\", die Summe von \"+str(quadrnr)+\" Quadraten sind: \")\nfor zahl in summe_quadraten_zahlen:\n  print(zahl)\n  # Alle Elemente unserer Liste, werden geprinted\n\n\n\n\nMA.1.B.3.e\nDie SuS erkennen, dass jede natürliche Zahl \\(n\\) als Summe von vier Quadratzahlen dargestellt werden kann.\nNun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl \\(n\\) für alle \\(s\\leq n\\), \\(s\\in\\mathbb{N}\\), das kleinste \\(k\\) mit \\(s=\\sum_{i=1}^kx_i^3\\) zu bestimmen.\nSuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen.\n\n\n\nJeder Bruch \\(0&lt;\\frac{p}{q}&lt;1\\) kann als Summe verschiedener Stammbrüche dargestellt werden, zum Beispiel \\(\\frac{4}{17}=\\frac{1}{5}+\\frac{1}{30}+\\frac{1}{510}\\).\nSchreiben Sie ein Programm, das bei Eingabe eines Bruchs \\(\\frac{p}{q}\\) eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.\nMan kann noch verlangen, dass die Eingabe \\(\\frac{p}{q}\\) auf die Bedingung \\(0&lt;\\frac{p}{q}&lt;1\\) getestet wird.\n\n\n\nMA.1.B.2.h\nDie Vermutung von Collatz:\nFür jede Startzahl \\(n\\) erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv \\[a_0=n,\\quad a_{n+1}=\\begin{cases}\\frac{a_n}{2} & a_n\\text{ gerade }\\\\3a_n+1&a_n \\text{ ungerade}\\end{cases}\\]\ndefiniert.\nProgrammieren Sie die Funktion collatz(n)welche die Anzahl Schritte bis \\(a_n=1\\) ausgibt.\n\n\n\nMA.1.B.1.l MA.1.A.1.h\nDas Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.\nDie Eingabe ist eine natürliche Zahl \\(n\\), die Ausgabe die Liste aller Primzahlen kleiner gleich \\(n\\).\nBestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen \\(a\\) und \\(b\\) (mit \\(a&gt;b\\)) bestimmt werden, indem für die Elemente der Liste der Teiler von \\(b\\) beginnend mit dem gr?ssten Element getestet wird, ob sie \\(a\\) teilen.\n\n\nLösungsvorschlag\n\ndef primzahlen_bis_100():\n  liste_2_bis_100 = list(range(2, 101))\n  primzahlen = []\n  \n  while liste_2_bis_100:\n    # Erste Zahl aus der Liste wird den Primzahlen hinzugefügt\n      prime = liste_2_bis_100[0]\n      primzahlen.append(prime)\n    # Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:\n      for i in range(1,100):\n    # Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:\n        if i*prime in liste_2_bis_100:\n          liste_2_bis_100.remove(i*prime)\n\n  print(primzahlen)\n\nprimzahlen_bis_100()\n\n\n\n\nMA.1.C.2.k MA.3.A.1.n\nVergleich des Wachstums von Potenz- und Exponentialfunktionen.\nZiel: Zur Eingabe zweier Zahlen \\(a\\) und \\(b\\), \\(a&gt;1\\), \\(b\\in\\mathbb{N}\\), die kleinste natürliche Zahl \\(n\\) bestimmen, für die \\(n^b&lt;a^n\\) gilt.\nDie SuS erkennen, dass jede Exponentialfunktion (auch für \\(a=1.0001\\)) schneller wächst als jede Potenzfunktion.\n\n\nLösungsvorschlag\n\ndef vergleich(potenz,basis):\n  def f(x):\n    return x**potenz\n  def g(x):\n    return basis**x\n  n=2\n  while f(n)&gt;g(n):\n    n=n+1\n  print (n)\n  \n\npotenz = float(input(\"Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: \"))\nbasis = float(input(\"Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: \"))    \nvergleich(potenz,basis)  \n\n\n\n\nMA.1.B.1.k\nDas Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl \\(n\\)\nEine Zahl heisst \\(k=a_{n-1}a_{n-2}\\ldots a_1a_0\\) narzistisch, wenn \\(k=\\sum_{i=0}^{n-1}a_i^n\\) gilt.\nBeispiele narzistischer Zahlen sind 153 und 371 (\\(153=1^3+5^3+3^3\\), \\(371=3^3+7^3+1^3\\))\n\n\n\nMA.1.A.4.h\nEine natürliche Zahl \\(n\\) wird perfekte Zahl genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.\nBeispiel:\n\\(28\\) hat als Teiler \\(1,2,4,7,14,28\\) und \\(28=1+2+4+7+14\\).\nFinden Sie alle perfekten Zahlen kleiner als \\(n\\).\n\n\nLösungsvorschlag\n\n# eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.\ndef teiler(n):\n  liste_teiler = []\n  # Wir müssen nur alle Zahlen bis die Hälfte probieren\n  for zahl in range(1,int(n//2+1)): \n     # Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.\n     if n % zahl==0:\n       liste_teiler.append(zahl)\n  return liste_teiler\n\n# die Liste mit perfekten Zahlen startet als leere Liste\nperfNr = []\n\neingegebene_Nummer = int(input(\"Nummer: \"))\nfor zahl in range (1, eingegebene_Nummer+1):\n# falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.\n  if sum(teiler(zahl))==zahl:\n    perfNr.append(zahl)\n      \n  \nprint(\"Alle perfekten Zahlen bis \"+ str(eingegebene_Nummer)+\" sind: \" + str(perfNr))\n\n\n\n\nProgrammieren Sie eine Funktion befreundet(zahl1,zahl2) welche überprüft ob zwei gegebene Zahlen befreundete Zahlen sind.\nFinden Sie alle befreundete Zahlen kleiner als \\(n\\).",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#teilbarkeit",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#teilbarkeit",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "Bestimme alle natürlichen Zahlen kleiner als 100, die entweder durch 5 oder 7 teilbar sind.",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#vierquadratesatz-von-lagrange",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#vierquadratesatz-von-lagrange",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "Bestimme alle natürlichen Zahlen kleiner als 100, die Summe von zwei Quadraten sind.\n\nMan kann dann fragen, wie sich die Primzahlen, die Summe von zwei Quadraten sind, von den Primzahlen unterscheiden, die diese Eigenschaft nicht besitzen.\n\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von drei Quadraten sind.\nBestimme alle natürlichen Zahlen kleiner als 100, die Summe von vier Quadraten sind.\n\n\n\nLösungsvorschlag\n\nDieser Lösungsvorschlag stammt von Leandro Lüthi, lizenziert unter CC BY-SA 4.0 Lizenz.\n# Lösung von Leandro Lüthi unter CC BY-SA 4.0 Lizenz\ndef istSumVonQuadr(zahl, anz_quadrnr):\n  # Diese Funktion überprüft, ob eine Zahl als Summe von zwei Quadraten dargestellt werden kann.\n  if anz_quadrnr == 2:\n    for i in range(1, int(zahl**0.5)+1):\n    # for-Schleife läuft von 1-zur Wurzel unserer Zahl und testet immer die Summe\n    # Von i- Wurzel unserer Zahl, ob die Summe gleich unserer Zahl ist\n      for j in range(i, int(zahl**0.5)+1):\n        if i**2 + j**2 == zahl:\n          return True\n          # Wird eine Kombination gefunden, die unsere Zahl ergibt, gibt die Funnktion true zurück\n    return False\n  else:\n    # Rekursive Funktion, um alle möglichen Kombinationen zu überprüfen\n    for i in range(1, int(zahl**0.5) + 1):\n      # Reduzieren der Anzahl an Quadraten um 1 und Überprüfen der verbleibenden Summe\n      if istSumVonQuadr(zahl - i**2, anz_quadrnr - 1):\n        return True\n        \"\"\"\n        Von der 'zahl' wird das Quadrat von i subdrahiert\n        Anschliessend wird die Funkt. rekursiv mit dem Ergebniss und anz_quadrnr-1 als Parameter wieder aufgerufen, um zu überprüfen, ob es eine Quadratzahlenkombination gibt mit anz_quadrnr-1 Summanden, die als Resultat die Differenz\n        zwischen i**2 und zahl ergeben\n        \"\"\"\n    return False\n\n# Liste zum Speichern der Zahlen, die als Summe von zwei Quadraten dargestellt werden können\nsumme_quadraten_zahlen = []\nprint(\"Geben Sie eine Zahl ein, bis wohin alle natürlichen Zahlen bestimmt werden sollen, die Summe von Quadratzahlen sind:\",flush=True)\nrangeOfQuadrNr = int(input(\"Zahl: \"))\nquadrnr = int(input(\"Geben Sie die Anzahl an Summanden von Quadratzahlen ein: \"))\n# Durchlaufe alle Zahlen von 1 bis rangeOfQuadrNr\nfor zahl in range(1, rangeOfQuadrNr):\n  if istSumVonQuadr(zahl, quadrnr):\n    \"\"\"\n    Der 2. Parameter der Funktion gibt an, wie viele Summanden von Quadratzahlen zusammen die 'zahl' ergeben sollen für alle Zahlen von 1-99 wird überprüft, ob es Quadratzahlen gibt, die in Summe die zahl ergeben\n    \"\"\"\n    summe_quadraten_zahlen.append(zahl)\n# Gibt die Funktion ein 'true' zurück, wird das if-Statement ausgeführt und die Zahl in unsere Liste gepusht\n\n# Ausgabe der gefundenen Zahlen\nprint(\"Natürliche Zahlen kleiner als \"+str(rangeOfQuadrNr)+\", die Summe von \"+str(quadrnr)+\" Quadraten sind: \")\nfor zahl in summe_quadraten_zahlen:\n  print(zahl)\n  # Alle Elemente unserer Liste, werden geprinted",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#quadratzahlen",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#quadratzahlen",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.B.3.e\nDie SuS erkennen, dass jede natürliche Zahl \\(n\\) als Summe von vier Quadratzahlen dargestellt werden kann.\nNun könnte man die SuS auffordern, dasselbe Problem für Kubikzahlen zu untersuchen; also zu einer gegebenen Zahl \\(n\\) für alle \\(s\\leq n\\), \\(s\\in\\mathbb{N}\\), das kleinste \\(k\\) mit \\(s=\\sum_{i=1}^kx_i^3\\) zu bestimmen.\nSuS, die schnell vorankommen, können die Frage der Darstellbarkeit natürlicher Zahlen als Summe vierter Potenzen untersuchen.",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#stammbrüche",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#stammbrüche",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "Jeder Bruch \\(0&lt;\\frac{p}{q}&lt;1\\) kann als Summe verschiedener Stammbrüche dargestellt werden, zum Beispiel \\(\\frac{4}{17}=\\frac{1}{5}+\\frac{1}{30}+\\frac{1}{510}\\).\nSchreiben Sie ein Programm, das bei Eingabe eines Bruchs \\(\\frac{p}{q}\\) eine Darstellung der Eingabe als Summe verschiedener (Folge streng fallender) Stammbrüche ausgibt.\nMan kann noch verlangen, dass die Eingabe \\(\\frac{p}{q}\\) auf die Bedingung \\(0&lt;\\frac{p}{q}&lt;1\\) getestet wird.",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#collatz-problem",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#collatz-problem",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.B.2.h\nDie Vermutung von Collatz:\nFür jede Startzahl \\(n\\) erreicht man nach endlich vielen Schritten die Zahl 1, wenn man rekursiv \\[a_0=n,\\quad a_{n+1}=\\begin{cases}\\frac{a_n}{2} & a_n\\text{ gerade }\\\\3a_n+1&a_n \\text{ ungerade}\\end{cases}\\]\ndefiniert.\nProgrammieren Sie die Funktion collatz(n)welche die Anzahl Schritte bis \\(a_n=1\\) ausgibt.",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#sieb-des-eratosthenes",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#sieb-des-eratosthenes",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.B.1.l MA.1.A.1.h\nDas Sieb des Eratosthenes zur Bestimmung aller Primzahlen in einem vorgegebenen Anfangsabschnitt der natürlichen Zahlen.\nDie Eingabe ist eine natürliche Zahl \\(n\\), die Ausgabe die Liste aller Primzahlen kleiner gleich \\(n\\).\nBestimmung aller Teiler (in einer Liste) einer natürlichen Zahl. Damit kann auch der grösste gemeinsame Teiler zweier Zahlen \\(a\\) und \\(b\\) (mit \\(a&gt;b\\)) bestimmt werden, indem für die Elemente der Liste der Teiler von \\(b\\) beginnend mit dem gr?ssten Element getestet wird, ob sie \\(a\\) teilen.\n\n\nLösungsvorschlag\n\ndef primzahlen_bis_100():\n  liste_2_bis_100 = list(range(2, 101))\n  primzahlen = []\n  \n  while liste_2_bis_100:\n    # Erste Zahl aus der Liste wird den Primzahlen hinzugefügt\n      prime = liste_2_bis_100[0]\n      primzahlen.append(prime)\n    # Vielfaches der Zahl werden aus der ursprünglichen Liste gestrichen:\n      for i in range(1,100):\n    # Falls das Vielfache (1 bis 100 mal die Zahl) in der Liste ist, entferne sie:\n        if i*prime in liste_2_bis_100:\n          liste_2_bis_100.remove(i*prime)\n\n  print(primzahlen)\n\nprimzahlen_bis_100()",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#potenz--exponentialfunktion",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#potenz--exponentialfunktion",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.C.2.k MA.3.A.1.n\nVergleich des Wachstums von Potenz- und Exponentialfunktionen.\nZiel: Zur Eingabe zweier Zahlen \\(a\\) und \\(b\\), \\(a&gt;1\\), \\(b\\in\\mathbb{N}\\), die kleinste natürliche Zahl \\(n\\) bestimmen, für die \\(n^b&lt;a^n\\) gilt.\nDie SuS erkennen, dass jede Exponentialfunktion (auch für \\(a=1.0001\\)) schneller wächst als jede Potenzfunktion.\n\n\nLösungsvorschlag\n\ndef vergleich(potenz,basis):\n  def f(x):\n    return x**potenz\n  def g(x):\n    return basis**x\n  n=2\n  while f(n)&gt;g(n):\n    n=n+1\n  print (n)\n  \n\npotenz = float(input(\"Gib einen natürliche Zahl für die Potenz der Potenzfunktion an, z.B. 20: \"))\nbasis = float(input(\"Gib eine reelle Zahl für die Basis der Exponentialfunktion an, z.B. 1.1: \"))    \nvergleich(potenz,basis)",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#narzistische-zahlen",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#narzistische-zahlen",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.B.1.k\nDas Bestimmen aller narzistischer Zahlen kleiner einer gegebenen Zahl \\(n\\)\nEine Zahl heisst \\(k=a_{n-1}a_{n-2}\\ldots a_1a_0\\) narzistisch, wenn \\(k=\\sum_{i=0}^{n-1}a_i^n\\) gilt.\nBeispiele narzistischer Zahlen sind 153 und 371 (\\(153=1^3+5^3+3^3\\), \\(371=3^3+7^3+1^3\\))",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#perfekte-zahlen",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#perfekte-zahlen",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "MA.1.A.4.h\nEine natürliche Zahl \\(n\\) wird perfekte Zahl genannt, falls sie gleich der Summe aller ihrer Teiler ausser sich selbst ist.\nBeispiel:\n\\(28\\) hat als Teiler \\(1,2,4,7,14,28\\) und \\(28=1+2+4+7+14\\).\nFinden Sie alle perfekten Zahlen kleiner als \\(n\\).\n\n\nLösungsvorschlag\n\n# eine Funktion welche eine natürlich Zahl nimmt, und eine Liste ihrer Teiler inklusive 1, exklusive die Zahl selbst, herausgibt.\ndef teiler(n):\n  liste_teiler = []\n  # Wir müssen nur alle Zahlen bis die Hälfte probieren\n  for zahl in range(1,int(n//2+1)): \n     # Falls der Rest bei Division mit Rest 0 ergibt, ist die Zahl ein Teiler.\n     if n % zahl==0:\n       liste_teiler.append(zahl)\n  return liste_teiler\n\n# die Liste mit perfekten Zahlen startet als leere Liste\nperfNr = []\n\neingegebene_Nummer = int(input(\"Nummer: \"))\nfor zahl in range (1, eingegebene_Nummer+1):\n# falls die Summe der Liste der Teiler (siehe Funktion oben) einer Zahl die Zahl selbst ist, dann ist die perfekt und wir der Liste der Teiler hinzugefügt.\n  if sum(teiler(zahl))==zahl:\n    perfNr.append(zahl)\n      \n  \nprint(\"Alle perfekten Zahlen bis \"+ str(eingegebene_Nummer)+\" sind: \" + str(perfNr))",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#befreundete-zahlen",
+    "href": "lerngelegenheiten/LG_math-python/aufgabensammlung.html#befreundete-zahlen",
+    "title": "Aufgabensammlung",
+    "section": "",
+    "text": "Programmieren Sie eine Funktion befreundet(zahl1,zahl2) welche überprüft ob zwei gegebene Zahlen befreundete Zahlen sind.\nFinden Sie alle befreundete Zahlen kleiner als \\(n\\).",
+    "crumbs": [
+      "Übungsblätter",
+      "Aufgabensammlung"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html",
+    "href": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html",
+    "title": "Variablen Datentypen und Typecasting",
+    "section": "",
+    "text": "Wichtig: Verbringen Sie nicht zu viel Zeit mit der Theorie. Stundenlang Videos schauen oder Texte lesen wird Sie nicht weiterbringen. Beim Programmieren geht es um das “Können” und nicht um das “Wissen”. Deshalb empfehle ich Ihnen, selbst zu experimentieren und viel zu üben (z. B. mit den Aufträgen oder eigenen Ideen/Projekten).\nAuf Youtube finden Sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen Variablen, Datentypen, Input Funktion und Type Casting.\nDie Plattform W3Schools bietet sich als Nachschlagewerk an (in Englisch). Hier sind die Links zu den Themen Variablen, Datentypen und Type Casting.\n\n\n\n\nNennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel dazu.\n\n\n\n\nWas ist der Output von diesem Programm?\nx = int(2.6)\ny = 2\nprint(x * 2)\n\n\n\n\nWas ist der Output von diesem Programm?\nx = \"Hello \"\ny = \"World\"\nprint(x + y)\n\n\n\n\nWas ist der Output von diesem Programm?\na = 6\nb = 1.5\nc = a + b + (a / b)\nprint(\"Output: \" + str(c))\n\n\n\n\nWas macht dieses Programm?\nx = float(input(\"Geben sie eine Zahl ein: \"))\nprint(x * x)\n\n\n\n\nErstellen sie ein Programm, welches ihren BMI (Body-Mass-Index) berechnet. Der BMI ist denifiert als: \\(BMI=Gewicht(kg)/Grösse(m)^2\\)\n\n\nLösungsvorschlag\n\ngewicht = input(\"Gib dein Gewicht in kg ein: \")\ngroesse = input(\"Gib deine Grösse in m ein: \")\n\nbmi = int(gewicht) / (float(groesse) * float(groesse)) # or float(height) ** 2\nprint(\"Dein BMI ist: \" + str(bmi))\n\n\n\n\n\nAuf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (2, 3, 4, 6, 12) und die Lösungen 2, 3, 4, 6, 12 zum Thema Variablen.",
+    "crumbs": [
+      "Lernmodule",
+      "Variablen Datentypen und Typecasting"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html#vorbereitungsaufträge",
+    "href": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html#vorbereitungsaufträge",
+    "title": "Variablen Datentypen und Typecasting",
+    "section": "",
+    "text": "Nennen sie die vier wichtigsten Datentypen und geben sie je ein Beispiel dazu.\n\n\n\n\nWas ist der Output von diesem Programm?\nx = int(2.6)\ny = 2\nprint(x * 2)\n\n\n\n\nWas ist der Output von diesem Programm?\nx = \"Hello \"\ny = \"World\"\nprint(x + y)\n\n\n\n\nWas ist der Output von diesem Programm?\na = 6\nb = 1.5\nc = a + b + (a / b)\nprint(\"Output: \" + str(c))\n\n\n\n\nWas macht dieses Programm?\nx = float(input(\"Geben sie eine Zahl ein: \"))\nprint(x * x)\n\n\n\n\nErstellen sie ein Programm, welches ihren BMI (Body-Mass-Index) berechnet. Der BMI ist denifiert als: \\(BMI=Gewicht(kg)/Grösse(m)^2\\)\n\n\nLösungsvorschlag\n\ngewicht = input(\"Gib dein Gewicht in kg ein: \")\ngroesse = input(\"Gib deine Grösse in m ein: \")\n\nbmi = int(gewicht) / (float(groesse) * float(groesse)) # or float(height) ** 2\nprint(\"Dein BMI ist: \" + str(bmi))",
+    "crumbs": [
+      "Lernmodule",
+      "Variablen Datentypen und Typecasting"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html#optionale-vertiefung",
+    "href": "lerngelegenheiten/LG_math-python/LM_mathpython_01.html#optionale-vertiefung",
+    "title": "Variablen Datentypen und Typecasting",
+    "section": "",
+    "text": "Auf der Website von Sylvia Lange finden Sie noch weitere (gute) Übungsaufgaben. Hier sind die Aufgaben (2, 3, 4, 6, 12) und die Lösungen 2, 3, 4, 6, 12 zum Thema Variablen.",
+    "crumbs": [
+      "Lernmodule",
+      "Variablen Datentypen und Typecasting"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html",
+    "title": "Übungen mit Conditionals",
+    "section": "",
+    "text": "Übungsaufgabe 1 (Gerade oder ungerade Zahl) Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl gerade oder ungerade ist.\n\n\nÜbungsaufgabe 2 (Positiv, negativ oder null) Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl positiv, negativ oder null ist.\n\n\nÜbungsaufgabe 3 (Zahlenmengen) Schreiben Sie ein Programm, welches prüft, ob eine Zahl in \\(\\mathbb{N}\\), \\(\\mathbb{Z}\\) oder \\(\\mathbb{Q}\\) ist.\n\n\nÜbungsaufgabe 4 (Mehrfache von drei und fünf) Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl sowohl ein Vielfaches von 3 als auch von 5 ist.\n\n\nÜbungsaufgabe 5 (Schaltjahr oder nicht) Schreibe ein Programm, das ein Jahr als Eingabe nimmt und überprüft, ob es sich um ein Schaltjahr handelt.\n\nDie gregorianische Schalttagsregelung besteht aus folgenden drei einzelnen Regeln: 1. Die durch 4 ganzzahlig teilbaren Jahre sind, abgesehen von den folgenden Ausnahmen, Schaltjahre. 2. Säkularjahre, also die Jahre, die ein Jahrhundert abschließen (z.B. 1800, 1900, 2100 und 2200), sind, abgesehen von der folgenden Ausnahme, keine Schaltjahre. 3. Die durch 400 ganzzahlig teilbaren Säkularjahre, zum Beispiel das Jahr 2000, sind jedoch Schaltjahre.\nQuelle: https://de.wikipedia.org/wiki/Schaltjahr\n\n\n\nÜbungsaufgabe 6 (Abweichung) Schreiben Sie ein Programm, welche zwei Zahlen nimmt und augibt um wieviel Prozent die grössere Zahl grösser ist als die kleinere Zahl.\n\n\nÜbungsaufgabe 7 (Eintritspreis basierend auf dem Alter) Schreiben Sie ein Programm, das das Alter einer Person als Eingabe nimmt und den Eintrittspreis basierend auf dem Alter berechnet: unter 18: 5Chf, 18-64: 10Chf, 65 und älter: 7Chf.\n\n\nÜbungsaufgabe 8 (Maximalwert) Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und den größten Wert ausgibt.\n\n\n\n\n\n\nMaximalfunktion\n\n\n\nDie Maximalfunktion gibt sofort den grössten Wert aus: max()\n\n\n\n\nÜbungsaufgabe 9 (Berechnung der Quadratwurzel) Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurzel dieser Zahl berechnet. Überprüfen Sie dabei, ob die Zahl positiv ist.\n\n\nÜbungsaufgabe 10 (Dreieckstyp) Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt.\n\n\nÜbungsaufgabe 11 (Addition mit Überprüfung) Schreibe ein Programm, das zwei Zahlen als Eingabe nimmt, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.\n\n\nÜbungsaufgabe 12 (Zufällige Addition mit Überprüfung) Schreibe ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.\n\n\n\n\n\n\nRandom-Package\n\n\n\nDas Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben. Jedes Mal wenn das Programm laufen gelassen werden neue zufällige Zahlen mit Hilfe der aktuellen Uhrzeit produziert.\nimport random\nzahl1 = random.randint(1, 100)\nzahl2 = random.random()\nzahl3 = choice(-1,1)\nprint(zahl1,zahl2,zahl3)\n\n\n\n\nÜbungsaufgabe 13 (Zufällige Multiplikation mit Bewertung) Schreiben Sie ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihr Produkt berechnet und überprüft, um wieviel das vom Benutzer eingegebene Resultat vom echten Resultat abweicht. Bei einer Eingabe von weniger als 2% soll “sehr gut” ausgegeben werden, bei einer Abweichung ovn weniger als 7% soll “gut” augegeben werden und bei einer Abweichung von mehr als 20% soll “schwach” ausgegeben werden. In allen anderen Fällen soll “gut genug” ausgegeben werden.\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, July 18). Übungen mit Conditionals.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#gerade-oder-ungerade-zahl",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#gerade-oder-ungerade-zahl",
+    "title": "Übungen mit Conditionals",
+    "section": "",
+    "text": "Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl gerade oder ungerade ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#positiv-negativ-oder-null",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#positiv-negativ-oder-null",
+    "title": "Übungen mit Conditionals",
+    "section": "Positiv, negativ oder null",
+    "text": "Positiv, negativ oder null\nSchreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl positiv, negativ oder null ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#zahlenmengen",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#zahlenmengen",
+    "title": "Übungen mit Conditionals",
+    "section": "Zahlenmengen",
+    "text": "Zahlenmengen\nSchreiben Sie ein Programm, welches prüft, ob eine Zahl in \\(\\mathbb{N}\\), \\(\\mathbb{Z}\\) oder \\(\\mathbb{Q}\\) ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#mehrfache-von-drei-und-fünf",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#mehrfache-von-drei-und-fünf",
+    "title": "Übungen mit Conditionals",
+    "section": "Mehrfache von drei und fünf",
+    "text": "Mehrfache von drei und fünf\nSchreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl sowohl ein Vielfaches von 3 als auch von 5 ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#schaltjahr-oder-nicht",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#schaltjahr-oder-nicht",
+    "title": "Übungen mit Conditionals",
+    "section": "Schaltjahr oder nicht",
+    "text": "Schaltjahr oder nicht\nSchreibe ein Programm, das ein Jahr als Eingabe nimmt und überprüft, ob es sich um ein Schaltjahr handelt.\n\nDie gregorianische Schalttagsregelung besteht aus folgenden drei einzelnen Regeln: 1. Die durch 4 ganzzahlig teilbaren Jahre sind, abgesehen von den folgenden Ausnahmen, Schaltjahre. 2. Säkularjahre, also die Jahre, die ein Jahrhundert abschließen (z.B. 1800, 1900, 2100 und 2200), sind, abgesehen von der folgenden Ausnahme, keine Schaltjahre. 3. Die durch 400 ganzzahlig teilbaren Säkularjahre, zum Beispiel das Jahr 2000, sind jedoch Schaltjahre.\nQuelle: https://de.wikipedia.org/wiki/Schaltjahr",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#abweichung",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#abweichung",
+    "title": "Übungen mit Conditionals",
+    "section": "Abweichung",
+    "text": "Abweichung\nSchreiben Sie ein Programm, welche zwei Zahlen nimmt und augibt um wieviel Prozent die grössere Zahl grösser ist als die kleinere Zahl.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#eintritspreis-basierend-auf-dem-alter",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#eintritspreis-basierend-auf-dem-alter",
+    "title": "Übungen mit Conditionals",
+    "section": "Eintritspreis basierend auf dem Alter",
+    "text": "Eintritspreis basierend auf dem Alter\nSchreiben Sie ein Programm, das das Alter einer Person als Eingabe nimmt und den Eintrittspreis basierend auf dem Alter berechnet: unter 18: 5Chf, 18-64: 10Chf, 65 und älter: 7Chf.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#maximalwert",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#maximalwert",
+    "title": "Übungen mit Conditionals",
+    "section": "Maximalwert",
+    "text": "Maximalwert\nSchreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und den größten Wert ausgibt.\n\n\n\n\n\n\nMaximalfunktion\n\n\n\nDie Maximalfunktion gibt sofort den grössten Wert aus: max()",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#berechnung-der-quadratwurzel",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#berechnung-der-quadratwurzel",
+    "title": "Übungen mit Conditionals",
+    "section": "Berechnung der Quadratwurzel",
+    "text": "Berechnung der Quadratwurzel\nSchreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurzel dieser Zahl berechnet. Überprüfen Sie dabei, ob die Zahl positiv ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#dreieckstyp",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#dreieckstyp",
+    "title": "Übungen mit Conditionals",
+    "section": "Dreieckstyp",
+    "text": "Dreieckstyp\nSchreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#addition-mit-überprüfung",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#addition-mit-überprüfung",
+    "title": "Übungen mit Conditionals",
+    "section": "Addition mit Überprüfung",
+    "text": "Addition mit Überprüfung\nSchreibe ein Programm, das zwei Zahlen als Eingabe nimmt, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#zufällige-addition-mit-überprüfung",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#zufällige-addition-mit-überprüfung",
+    "title": "Übungen mit Conditionals",
+    "section": "Zufällige Addition mit Überprüfung",
+    "text": "Zufällige Addition mit Überprüfung\nSchreibe ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.\n\n\n\n\n\n\nRandom-Package\n\n\n\nDas Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben. Jedes Mal wenn das Programm laufen gelassen werden neue zufällige Zahlen mit Hilfe der aktuellen Uhrzeit produziert.\nimport random\nzahl1 = random.randint(1, 100)\nzahl2 = random.random()\nzahl3 = choice(-1,1)\nprint(zahl1,zahl2,zahl3)",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_02.html#zufällige-multiplikation-mit-bewertung",
+    "href": "lerngelegenheiten/LG_math-python/woche_02.html#zufällige-multiplikation-mit-bewertung",
+    "title": "Übungen mit Conditionals",
+    "section": "Zufällige Multiplikation mit Bewertung",
+    "text": "Zufällige Multiplikation mit Bewertung\nSchreiben Sie ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihr Produkt berechnet und überprüft, um wieviel das vom Benutzer eingegebene Resultat vom echten Resultat abweicht. Bei einer Eingabe von weniger als 2% soll “sehr gut” ausgegeben werden, bei einer Abweichung ovn weniger als 7% soll “gut” augegeben werden und bei einer Abweichung von mehr als 20% soll “schwach” ausgegeben werden. In allen anderen Fällen soll “gut genug” ausgegeben werden.",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Conditionals"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/woche_03.html",
+    "href": "lerngelegenheiten/LG_math-python/woche_03.html",
+    "title": "Übungen mit Loops",
+    "section": "",
+    "text": "Übungen\n\nÜbungsaufgabe 1 (Summation von natürlichen Zahlen) Schreiben Sie ein Programm, das die Summe der ersten n natürlichen Zahlen berechnet.\nHinweis: Für die Berechnung gibt es ebenfalls eine Formel.\n\n\nÜbungsaufgabe 2 (Berechnung von Fakultäten) Schreiben Sie ein Programm, das die Fakultät einer gegebenen Zahl \\(n\\) berechnet.\n\n\nÜbungsaufgabe 3 (Fibonacci-Folge) Schreiben Sie ein Programm, das die ersten n Zahlen der Fibonacci-Folge generiert.\n\n\nÜbungsaufgabe 4 (Primzahlen fvinden) Schreiben Sie ein Programm, das alle Primzahlen zwischen 1 und n findet.\n\n\nÜbungsaufgabe 5 (Summe von geraden und ungeraden Zahlen) Schreiben Sie ein Programm, das die Summe der geraden und ungeraden Zahlen in einer gegebenen Liste berechnet.\nHinweis: Die Formel für Summe aller natürlichen Zahlen bis \\(n\\) lässt sich anpassen, um auch diese Aufgabe lösen.\n\n\nÜbungsaufgabe 6 (Berechnung von Pi mit Monte-Carlo-Methode) Schreiben Sie ein Programm, das den Wert von Pi mit der Monte-Carlo-Methode approximiert.\n\n\n\n\n\n\nMonte-Carlo-Methode\n\n\n\nGenerieren Sie viele zufällige Punkte in einem Quadrat. Der Anteil der Punkte, welche sich im eingeschriebenen Kreis befinden, entspricht in etwa dem Anteil des Flächeninhalts eines Kreises relativ zur Gesamtfläche.\n\n\n\n\nÜbungsaufgabe 7 (Binomialkoeffizienten) Schreiben Sie ein Programm, das die Binomialkoeffizienten (Pascal’sches Dreieck) bis zu einer gegebenen Zeile berechnet.\n\n\nÜbungsaufgabe 8 (Heron-Verfahren zur Quadratwurzelberechnung) Schreiben Sie ein Programm, das die Quadratwurzel einer Zahl mithilfe des Heron-Verfahrens approximiert.\n\n\nÜbungsaufgabe 9 (Zahlenraten-Spiel) Schreiben Sie ein Programm, bei dem der Computer eine zufällige Zahl wählt und der Benutzer raten muss, welche es ist. Der Computer gibt Hinweise, ob die Zahl höher oder niedriger ist.\n\n\nÜbungsaufgabe 10 (Euler’sche Zahl (e) approximieren) Schreiben Sie ein Programm, das die eulersche Zahl (e) durch die Summation einer Reihe approximiert.\n\n\nÜbungsaufgabe 11 (Berechnung der Harmonischen Reihe) Schreiben Sie ein Programm, das die Summe der ersten n Terme der harmonischen Reihe berechnet.\n\n\nÜbungsaufgabe 12 (Collatz-Vermutung) Schreiben Sie ein Programm, das die Collatz-Sequenz für eine gegebene Zahl berechnet.\n\n\nÜbungsaufgabe 13 (Primfaktorzerlegung) Schreiben Sie ein Programm, das die Primfaktorzerlegung einer gegebenen Zahl findet.\n\n\nÜbungsaufgabe 14 (Numerisches Lösungsverfahren) Schreiben Sie ein Programm, welche für die Polynomfunktion \\(f(x)=x^3 - 5.5 x^2 - 27.18 x + 137.088\\) eine positive einfache Nullstelle findet.\n\n\n\n\n\n\nHilfestellung - Numerische Verfahren\n\n\n\n\n\nAngenommen wird, dass es eine positive einfache Nullstelle gibt. Die Nullstelle ist somit grösser als \\(0\\) und bei der Nullstelle findet ein Vorzeichenwechsel statt.\nEin Algorithmus kann somit bei \\(x=0\\) starten und jeweils einen Schritt (\\(x=1\\), \\(x=2\\), …) weitergehen. Falls bei einem Schritt ein Vorzeichenwechsel stattfindet, dann wird der Schritt verkleinert, damit man die Nullstelle ja nicht überspringt. Somit kann man sich der nächsten Nullstelle beliebig nahe annähern.\nSolche Verfahren nähern Lösungen numerisch an. Verschiedene Verfahren nähern die Lösung unterschiedlich schnell an.\n\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, July 18). Übungen mit Loops. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "crumbs": [
+      "Übungsblätter",
+      "Übungen mit Loops"
+    ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-python/LM_IDE_install.html",
+    "href": "lerngelegenheiten/LG_math-python/LM_IDE_install.html",
+    "title": "Installationsanleitung IDE",
+    "section": "",
+    "text": "RStudio\nRStudio ist ein freies (Open Source) Programm. Es ist ursprünglich für die Programmiersprache R gedacht, kann aber auch für andere Programmiersprachen genutzt werden.\n\nWindows 🪟MacOS 🍎GNU/Linux 🐧\n\n\nGrobe Installationsanleitung unter Windows:\n\nInstallieren Sie R, Webseite.\nInstallieren Sie RStudio, Webseite.\nInstallieren Sie RTools, Webseite.\nIn der Console in Rstudio: install.packages(\"reticulate\").\nIn der Console in Rstudio: reticulate::install_miniconda().\n\n\n\nGrobe Installationsanleitung unter MacOS:\nÖffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:\n\nHomebrew im Terminal installieren: /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nRStudio (+R) im Terminal installieren: brew install --cask rstudio\nIn der Console in Rstudio: install.packages(\"reticulate\").\nIn der Console in Rstudio: reticulate::install_miniconda().\n\nEmpfehlung: Installieren Sie Software grundsätzlich über Homebrew (Paketmanager für MacOS).\nAlle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: brew update && brew upgrade && brew upgrade --cask && brew cleanup\n\n\nKomm vorbei für einen gratis ☕️.\nInstallation hängt von der Distro ab.\n\n\n\n\n\n\n\n\n\nHinweis\n\n\n\nBei technischen Schwierigkeiten dürfen Sie sich gerne an Dozierende wenden. LLMs (Chatbots/KI) liefern ebenfalls wertvolle Hilfestellungen zu Softwareproblemen.\n\n\nÜberprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.\nprint(\"Hello, World!\")\n\n\nVisual Studio Code (VSCode)\nVisual Studio Code ist die Gratisversion von Visual Studio. Ein Teil von VSCode ist Open Source und es gibt einige Open Source Varianten welche ähnlich funktionieren und aussehen, namentlich VSCodium und Positron.\n\nWindows 🪟MacOS 🍎GNU/Linux 🐧\n\n\nGrobe Installationsanleitung unter Windows:\n\nInstallieren Sie VSCode über ihre Webseite.\nInstallieren Sie Python über ihre Webseite.\nInstallieren Sie in VSCode die Extension für Python.\n\n\n\nGrobe Installationsanleitung unter MacOS:\nÖffnen Sie ein Terminal (Befehlszeile). Geben Sie folgende befehle ein:\n\nHomebrew im Terminal installieren: /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\nVisual Studio Code im Terminal installieren: brew install --cask visual-studio-code\nPython3 im Terminal installieren: brew install boost-python3\nInstallieren Sie in VSCode die Extension für Python.\n\nEmpfehlung: Installieren Sie Software grundsätzlich über Homebrew (Paketmanager für MacOS).\nAlle mit Homebrew installierten Programme können mit folgendem Terminalbefehl geupgradet werden: brew update && brew upgrade && brew upgrade --cask && brew cleanup\n\n\nKomm vorbei für einen gratis ☕️.\nInstallation hängt von der Distro ab.\n\n\n\nÜberprüfen Sie Ihre Installation in dem Sie ein beliebiges Pythonprogramm ausführen, z.B.\nprint(\"Hello, World!\")\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, July 19). Installationsanleitung IDE.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "crumbs": [
+      "Lernmodule",
+      "Installationsanleitung IDE"
+    ]
   }
 ]

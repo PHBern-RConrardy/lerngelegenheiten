@@ -1,7 +1,8 @@
 ---
 title: "Verstehensorientiert prüfen in Zeiten von KI"
 subtitle: "Programmieren im Mathematikunterricht"
-format: html
+format: 
+  html: default
 categories:
   - Modul - Formative Beurteilung
   - Modul - Summative und prognostische Beurteilung
@@ -47,9 +48,27 @@ abstract: >
 |   5   | Funktionen                            |                [Lernmodul](LM_mathpython_05.qmd)                 | [Übungen](woche_05.qmd) |               |
 |   6   |                                       |                                                                  | [Übungen](woche_05.qmd) |   Projekt 2   |
 
-: {.striped .hover .table-sm}
+: Aufwand: 12h Vorbereitung, 12h Präsenz {.striped .hover .table-sm #tbl-letters}
 
 <hr>
+
+:::: {.callout-tip collapse="true"}
+### Flipped Classroom
+
+Diese Lerngelegenheit folgt dem *flipped classroom* Ansatz [vgl. @bergmann_flipped_2011], im Hochschulkontext auch *inverted classroom* genannt [vgl. @handke_inverted_2017].
+
+Diverse Autoren legen das Modell unterschiedlich aus. @abeysekera_motivation_2015 hält die Schnittmenge der meisten Definitionen wie folgt fest:
+
+> 1.  move most information-transmission teaching out of class
+> 2.  use class time for learning activities that are active and social and
+> 3.  require students to complete pre- and/or post-class activities to fully benefit from in-class work.
+>
+> :::quelle
+> [@abeysekera_motivation_2015, S.3]
+> :::
+
+Wichtig ist somit, dasss Sie sich auf den Präsenzunterricht vorbereiten. Falls Sie Schwierigkeiten bei der Vorbereitung haben, wird erwartet, dass Sie dies mit den Dozierenden **vor** dem Präsenzunterricht klären, z.B. per Mail. 
+::::
 
 ## Packages installieren (numpy)
 

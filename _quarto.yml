@@ -70,6 +70,7 @@ website:  # Menüs für die Webseite
           text: Semesterübersicht
         - text: "Lernmodule"
           contents: 
+          - href: lerngelegenheiten/LG_math-python/LM_IDE_install.qmd
           - href: lerngelegenheiten/LG_math-python/LM_mathpython_01.qmd
           - href: lerngelegenheiten/LG_math-python/LM_mathpython_02.qmd
           - href: lerngelegenheiten/LG_math-python/LM_mathpython_03.qmd
@@ -82,8 +83,8 @@ website:  # Menüs für die Webseite
           - href: lerngelegenheiten/LG_math-python/woche_03.qmd
           - href: lerngelegenheiten/LG_math-python/woche_04.qmd
           - href: lerngelegenheiten/LG_math-python/woche_05.qmd
-        - href: lerngelegenheiten/LG_math-python/LM_IDE_install.qmd
-        - href: lerngelegenheiten/LG_math-python/aufgabensammlung.qmd
+          - href: lerngelegenheiten/LG_math-python/woche_06.qmd
+          - href: lerngelegenheiten/LG_math-python/aufgabensammlung.qmd
         
         
         

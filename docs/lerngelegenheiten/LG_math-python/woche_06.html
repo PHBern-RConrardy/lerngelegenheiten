@@ -101,7 +101,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -119,32 +119,147 @@ window.Quarto = {
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungsblätter</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_06.html">Erweiterte Übungen in Python</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Installationsanleitung IDE</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Funktionen</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Übungsblätter</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Typecasting</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Conditionals</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen mit Loops</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Listen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Übungen zu Funktionen</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Erweiterte Übungen in Python</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Aufgabensammlung</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a>
-  <ul class="collapse">
-  <li><a href="#numerische-ableitung" id="toc-numerische-ableitung" class="nav-link" data-scroll-target="#numerische-ableitung">Numerische Ableitung</a></li>
-  <li><a href="#numerische-integration" id="toc-numerische-integration" class="nav-link" data-scroll-target="#numerische-integration">Numerische Integration</a></li>
-  <li><a href="#berechnung-der-summe-einer-geometrischen-reihe" id="toc-berechnung-der-summe-einer-geometrischen-reihe" class="nav-link" data-scroll-target="#berechnung-der-summe-einer-geometrischen-reihe">Berechnung der Summe einer geometrischen Reihe</a></li>
-  <li><a href="#erzeugen-von-pascalschem-dreieck" id="toc-erzeugen-von-pascalschem-dreieck" class="nav-link" data-scroll-target="#erzeugen-von-pascalschem-dreieck">Erzeugen von Pascal’schem Dreieck</a></li>
-  <li><a href="#brüche-addieren" id="toc-brüche-addieren" class="nav-link" data-scroll-target="#brüche-addieren">Brüche addieren</a></li>
-  <li><a href="#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" id="toc-lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" class="nav-link" data-scroll-target="#lösen-von-linearen-gleichungssystemen-mit-zwei-variablen">Lösen von linearen Gleichungssystemen mit zwei Variablen</a></li>
-  </ul></li>
+  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a></li>
   </ul>
 <div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_06.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="woche_06.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungsblätter</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_06.html">Erweiterte Übungen in Python</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Erweiterte Übungen in Python</h1>
 </div>
@@ -186,32 +301,26 @@ window.Quarto = {
 
 <section id="übungen" class="level1">
 <h1>Übungen</h1>
-<section id="numerische-ableitung" class="level2">
-<h2 class="anchored" data-anchor-id="numerische-ableitung">Numerische Ableitung</h2>
-<p>Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.</p>
-</section>
-<section id="numerische-integration" class="level2">
-<h2 class="anchored" data-anchor-id="numerische-integration">Numerische Integration</h2>
-<p>Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.</p>
-</section>
-<section id="berechnung-der-summe-einer-geometrischen-reihe" class="level2">
-<h2 class="anchored" data-anchor-id="berechnung-der-summe-einer-geometrischen-reihe">Berechnung der Summe einer geometrischen Reihe</h2>
-<p>Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.</p>
-</section>
-<section id="erzeugen-von-pascalschem-dreieck" class="level2">
-<h2 class="anchored" data-anchor-id="erzeugen-von-pascalschem-dreieck">Erzeugen von Pascal’schem Dreieck</h2>
-<p>Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.</p>
-</section>
-<section id="brüche-addieren" class="level2">
-<h2 class="anchored" data-anchor-id="brüche-addieren">Brüche addieren</h2>
-<p>Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.</p>
-</section>
-<section id="lösen-von-linearen-gleichungssystemen-mit-zwei-variablen" class="level2">
-<h2 class="anchored" data-anchor-id="lösen-von-linearen-gleichungssystemen-mit-zwei-variablen">Lösen von linearen Gleichungssystemen mit zwei Variablen</h2>
-<p>Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (<span class="math inline">\(ax + by = c\)</span> und <span class="math inline">\(dx + ey = f\)</span>) löst.</p>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 1 (Numerische Ableitung)</strong></span> Schreiben Sie eine Funktion welche die numerische Ableitung einer Funktion an einem Punkt berechnet.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 2 (Numerische Integration)</strong></span> Schreiben Sie eine Funktion, die die numerische Integration einer gegebenen Funktion über ein Intervall [a, b] berechnet.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 3 (Berechnung der Summe einer geometrischen Reihe)</strong></span> Schreiben Sie eine Funktion, die die Summe der ersten n Terme einer geometrischen Reihe berechnet, gegeben das erste Element und den Quotienten.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 4 (Erzeugen von Pascal’schem Dreieck)</strong></span> Schreiben Sie eine Funktion, die Pascal’sches Dreieck bis zu einer bestimmten Zeile erzeugt und als Liste von Listen zurückgibt.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 5 (Brüche addieren)</strong></span> Schreiben Sie eine Funktion, welche eine Liste von Listen mit jeweils zwei ganzen Zahlen annimmt (Zähler und Nenner) und die Summe aller Brüche als eine Liste von 2 Elementen ausgibt.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 6 (Lösen von linearen Gleichungssystemen mit zwei Variablen)</strong></span> Schreiben Sie eine Funktion, die ein lineares Gleichungssystem mit zwei Variablen (<span class="math inline">\(ax + by = c\)</span> und <span class="math inline">\(dx + ey = f\)</span>) löst.</p>
+</div>
 
 
-</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">

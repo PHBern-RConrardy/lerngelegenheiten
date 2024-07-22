@@ -55,7 +55,27 @@ div.sourceCode
 @media screen {
 pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -158,6 +178,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Installationsanleitung IDE</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
   </div>
@@ -227,20 +253,20 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="menu-text">Übungen zu Funktionen</span></a>
   </div>
 </li>
-      </ul>
-  </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Installationsanleitung IDE</span></a>
+  <a href="../../lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Erweiterte Übungen in Python</span></a>
   </div>
 </li>
-        <li class="sidebar-item">
+          <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aufgabensammlung</span></a>
   </div>
 </li>
+      </ul>
+  </li>
     </ul>
     </div>
 </nav>
@@ -333,6 +359,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="wochenüberblick" class="level1">
 <h1>Wochenüberblick</h1>
 <table class="table-striped table-hover table-sm small table">
+<caption>Aufwand: 12h Vorbereitung, 12h Präsenz</caption>
 <thead>
 <tr class="header">
 <th style="text-align: center;">Woche</th>
@@ -388,6 +415,34 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </tbody>
 </table>
 <hr>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Flipped Classroom
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Diese Lerngelegenheit folgt dem <em>flipped classroom</em> Ansatz <span class="citation" data-cites="bergmann_flipped_2011">(vgl. <a href="#ref-bergmann_flipped_2011" role="doc-biblioref">Bergmann et al., 2011</a>)</span>, im Hochschulkontext auch <em>inverted classroom</em> genannt <span class="citation" data-cites="handke_inverted_2017">(vgl. <a href="#ref-handke_inverted_2017" role="doc-biblioref">Handke &amp; Sperl, 2017</a>)</span>.</p>
+<p>Diverse Autoren legen das Modell unterschiedlich aus. <span class="citation" data-cites="abeysekera_motivation_2015">Abeysekera &amp; Dawson (<a href="#ref-abeysekera_motivation_2015" role="doc-biblioref">2015</a>)</span> hält die Schnittmenge der meisten Definitionen wie folgt fest:</p>
+<blockquote class="blockquote">
+<ol type="1">
+<li>move most information-transmission teaching out of class</li>
+<li>use class time for learning activities that are active and social and</li>
+<li>require students to complete pre- and/or post-class activities to fully benefit from in-class work.</li>
+</ol>
+<div class="quelle">
+<p><span class="citation" data-cites="abeysekera_motivation_2015">(<a href="#ref-abeysekera_motivation_2015" role="doc-biblioref">Abeysekera &amp; Dawson, 2015, S. 3</a>)</span></p>
+</div>
+</blockquote>
+<p>Wichtig ist somit, dasss Sie sich auf den Präsenzunterricht vorbereiten. Falls Sie Schwierigkeiten bei der Vorbereitung haben, wird erwartet, dass Sie dies mit den Dozierenden <strong>vor</strong> dem Präsenzunterricht klären, z.B. per Mail.</p>
+</div>
+</div>
+</div>
 <section id="packages-installieren-numpy" class="level2">
 <h2 class="anchored" data-anchor-id="packages-installieren-numpy">Packages installieren (numpy)</h2>
 <p>Im <code>Terminal</code>folgenden Befehl eingeben: <code>pip install numpy</code>. Falls Fehler gemeldet werden folgendes beachten:</p>
@@ -486,10 +541,21 @@ Leistungsnachweis: Formative Beurteilung
 <hr>
 
 
+
 </section>
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-giger2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-abeysekera_motivation_2015" class="csl-entry" role="listitem">
+Abeysekera, L., &amp; Dawson, P. (2015). Motivation and cognitive load in the flipped classroom: definition, rationale and a call for research. <em>Higher Education Research &amp; Development</em>, <em>34</em>(1), 1–14. <a href="https://doi.org/10.1080/07294360.2014.934336">https://doi.org/10.1080/07294360.2014.934336</a>
+</div>
+<div id="ref-bergmann_flipped_2011" class="csl-entry" role="listitem">
+Bergmann, J., Overmyer, J., &amp; Wilie, B. (2011, Juni 21). <em>The Flipped Class: Myths vs. Reality - <span>THE</span> <span>DAILY</span> <span>RIFF</span> - Be Smarter. About Education.</em> <a href="http://web.archive.org/web/20160305005240/http://www.thedailyriff.com/articles/the-flipped-class-conversation-689.php">http://web.archive.org/web/20160305005240/http://www.thedailyriff.com/articles/the-flipped-class-conversation-689.php</a>
+</div>
+<div id="ref-handke_inverted_2017" class="csl-entry" role="listitem">
+Handke, J., &amp; Sperl, A. (Hrsg.). (2017). <em>Das Inverted Classroom Model: Begleitband zur ersten deutschen <span>ICM</span>-Konferenz</em>. De Gruyter. <a href="https://doi.org/10.1515/9783486716641">https://doi.org/10.1515/9783486716641</a>
+</div>
+</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-giger2024" class="csl-entry quarto-appendix-citeas" role="listitem">
 Giger, P., Conrardy, R., &amp; Adler, J. (2024, January 1).
 <em>Verstehensorientiert prüfen in Zeiten von KI</em>. University of
 Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
