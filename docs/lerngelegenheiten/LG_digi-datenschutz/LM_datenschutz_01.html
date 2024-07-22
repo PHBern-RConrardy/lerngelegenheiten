@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,10 +90,50 @@ ul.task-list li input[type="checkbox"] {
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html">Datenschutz</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
 </header>
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_digi-datenschutz/LG_datenschutz.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Semesterübersicht</span></a>
+  </div>
+</li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true">
+ <span class="menu-text">Lernmodule</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#" aria-expanded="true" aria-label="Abschnitt umschalten">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Datenschutz</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
@@ -105,14 +145,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#datenschutz-als-soziologischer-begriff" id="toc-datenschutz-als-soziologischer-begriff" class="nav-link" data-scroll-target="#datenschutz-als-soziologischer-begriff">Datenschutz als soziologischer Begriff</a></li>
   <li><a href="#datenschutzrecht" id="toc-datenschutzrecht" class="nav-link" data-scroll-target="#datenschutzrecht">Datenschutzrecht</a></li>
   <li><a href="#datensicherheit" id="toc-datensicherheit" class="nav-link" data-scroll-target="#datensicherheit">Datensicherheit</a></li>
-  <li><a href="#fallbeispiele" id="toc-fallbeispiele" class="nav-link" data-scroll-target="#fallbeispiele">Fallbeispiele</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html">Datenschutz</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Datenschutz</h1>
 <p class="subtitle lead">Digitalität und Datenschutz</p>
@@ -198,37 +237,50 @@ Ziele des Lernmoduls
 <section id="datenschutzrecht" class="level1">
 <h1>Datenschutzrecht</h1>
 <p>In der Schweiz regelt das <a href="https://www.fedlex.admin.ch/eli/cc/2022/491/de">Datenschutzgesetz (DSG)</a>, bzw. das <a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04">kantonale Datenschutzgesetzt (KDSG)</a> die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane <a href="https://www.fedlex.admin.ch/eli/cc/2022/491/de">Art. 2 Abs. 1 DSG</a>. Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden <a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7">vgl. Art. 4 Abs. 1 KDSG</a>. Die <a href="https://dsgvo-gesetz.de/">Datenschutzgrundverordnung (DSGVO)</a> ist das europäische Pendant.</p>
-<ul>
-<li>Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzten gleich definiert?</li>
-<li>Welche solcher Daten bearbeiten Lehrpersonen?</li>
-<li>Welche dieser Daten sind gemäss KDSG “besonders schützenswert”?</li>
-</ul>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 1 (Geltungsbereich)</strong></span> Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzen gleich definiert?</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 2 (Bearbeitung durch Lehrpersonen)</strong></span> Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen?</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 3 (Besonders schützenswerte Daten)</strong></span> Welche dieser Daten sind gemäss KDSG “besonders schützenswert”? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?</p>
+</div>
 <section id="unternehmensinterne-bestimmungen" class="level3">
 <h3 class="anchored" data-anchor-id="unternehmensinterne-bestimmungen">Unternehmensinterne Bestimmungen</h3>
-<p>Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber. Die PHBern kennt beispielsweise</p>
+<p>Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.</p>
 </section>
 </section>
 <section id="datensicherheit" class="level1">
 <h1>Datensicherheit</h1>
-<p>Datensicherheit (IT Security) hat drei übergeordnete Ziele.</p>
+<p>Datensicherheit (IT Security) hat drei übergeordnete Ziele <span class="citation" data-cites="wegener_informationssicherheit_2016">(vgl. z.B. <a href="#ref-wegener_informationssicherheit_2016" role="doc-biblioref"><strong>wegener_informationssicherheit_2016?</strong></a>)</span>.</p>
 <ul>
 <li>Integrität</li>
 <li>Vertraulichkeit</li>
 <li>Verfügbarkeit</li>
 </ul>
-<p>Integrität beschreibt, dass die Daten nicht von Fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.</p>
+<p>Integrität beschreibt, dass die Daten nicht von fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.</p>
 <p>Vertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.</p>
 <p>Verfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.</p>
-<ul>
-<li>Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?</li>
-<li>Welche Sicherheitsvorkehrungen nehmen Sie beruflich?</li>
-<li>Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?</li>
-<li>Zeigen Sie, dass es meist Zielkonflikte gibt.</li>
-</ul>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 4 (Private Massnahmen)</strong></span> Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 5 (Berufliche Massnahmen)</strong></span> Welche Sicherheitsvorkehrungen nehmen Sie beruflich?</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 6 (Pflicht zur Sicherheit)</strong></span> Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 7 (Zielkonflikte)</strong></span> Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.</p>
+</div>
 <p>Es gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen “digital unterschrieben” wurde.</p>
-</section>
-<section id="fallbeispiele" class="level1">
-<h1>Fallbeispiele</h1>
+<p>Der Datenschutz wird von drei Säulen getragen <span class="citation" data-cites="wegener_informationssicherheit_2016">(<a href="#ref-wegener_informationssicherheit_2016" role="doc-biblioref"><strong>wegener_informationssicherheit_2016?</strong></a>)</span></p>
+<ul>
+<li>Personen</li>
+<li>Prozesse</li>
+<li>Technik</li>
+</ul>
 
 
 </section>

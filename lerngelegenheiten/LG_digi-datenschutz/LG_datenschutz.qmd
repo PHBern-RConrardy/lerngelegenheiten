@@ -16,9 +16,9 @@ Bitte klären Sie Ihre Verfügbarkeit für dieses Datum möglichst früh ab.
 
 ## Organisatorisches
 
-| Teil | Thema       | Vorbereitung | Slides |
-|:----:|:------------|:------------:|:------:|
-|  1   | Datenschutz |  Lernmodul   | Slides |
+| Teil | Thema       |            Vorbereitung            |            Slides            |
+|:----:|:------------|:----------------------------------:|:----------------------------:|
+|  1   | Datenschutz | [Lernmodul](LM_datenschutz_01.qmd) | [Slides](slides_datenschutz) |
 
 : {.striped .hover .table-sm}
 

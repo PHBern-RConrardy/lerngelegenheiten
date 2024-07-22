@@ -97,9 +97,12 @@ website:  # Menüs für die Webseite
           text: Auftrag
     - title: "Datenschutz"
       contents:
-        - href: lerngelegenheiten/LG_datenschutz.qmd
+        - href: lerngelegenheiten/LG_digi-datenschutz/LG_datenschutz.qmd
           text: Semesterübersicht
-        - auto: "/lernmodule/LM_datenschutz*"
+        - text: "Lernmodule"
+          contents: 
+          - href: lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.qmd
+
     - title: "Chancen und Risiken von standardisierten Testverfahren"
       contents:
         - href: lerngelegenheiten/LG_standtest.qmd

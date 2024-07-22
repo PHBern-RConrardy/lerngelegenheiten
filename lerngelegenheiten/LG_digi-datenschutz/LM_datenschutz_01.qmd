@@ -30,6 +30,7 @@ Notieren Sie sich ihre Antworten auf folgende Fragen:
 
 # Begriffsabgrenzung
 
+
 Schauen Sie [Was schützt eigentlich der Datenschutz?](https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz)
 
 - Notieren Sie sich welche Teilbereiche von Datenschutz berührt werden.
@@ -42,34 +43,64 @@ Haben Sie ihre Meinung
 
 In der Schweiz regelt das [Datenschutzgesetz (DSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/de), bzw. das [kantonale Datenschutzgesetzt (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane [Art. 2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de). Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden [vgl. Art. 4 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7). Die [Datenschutzgrundverordnung (DSGVO)](https://dsgvo-gesetz.de/) ist das europäische Pendant. 
 
-* Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzten gleich definiert?
-* Welche solcher Daten bearbeiten Lehrpersonen? 
-* Welche dieser Daten sind gemäss KDSG "besonders schützenswert"?
+::: {#exr-line}
+## Geltungsbereich
 
+Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzen gleich definiert?
+:::
+::: {#exr-line}
+## Bearbeitung durch Lehrpersonen
+
+Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen? 
+:::
+
+::: {#exr-line}
+## Besonders schützenswerte Daten
+
+Welche dieser Daten sind gemäss KDSG "besonders schützenswert"? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?
+:::
 ### Unternehmensinterne Bestimmungen
 
-Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber. Die PHBern kennt beispielsweise 
+Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.
 
 # Datensicherheit
 
-Datensicherheit (IT Security) hat drei übergeordnete Ziele.
+Datensicherheit (IT Security) hat drei übergeordnete Ziele [vgl. z.B. @wegener_informationssicherheit_2016 S.3].
 
 * Integrität
 * Vertraulichkeit
 * Verfügbarkeit
 
-Integrität beschreibt, dass die Daten nicht von Fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.
+Integrität beschreibt, dass die Daten nicht von fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.
 
 Vertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.
 
 Verfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.
 
-* Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?
-* Welche Sicherheitsvorkehrungen nehmen Sie beruflich?
-* Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?
-* Zeigen Sie, dass es meist Zielkonflikte gibt.
+::: {#exr-line}
+## Private Massnahmen
+Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?
+:::
+::: {#exr-line}
+## Berufliche Massnahmen
+Welche Sicherheitsvorkehrungen nehmen Sie beruflich?
+:::
+::: {#exr-line}
+## Pflicht zur Sicherheit
+Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?
+:::
+::: {#exr-line}
+## Zielkonflikte
+
+Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.
+:::
 
 Es gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen "digital unterschrieben" wurde.
 
-# Fallbeispiele
+Der Datenschutz wird von drei Säulen getragen [@wegener_informationssicherheit_2016 S.5]
+
+* Personen
+* Prozesse
+* Technik
+
 
