@@ -19863,36 +19863,6 @@
             "type": "webpage"
         },
         {
-            "URL": "https://be.lehrplan.ch/102DWtDbmuAvrr6c4hsW4y7hEfghvP",
-            "accessed": {
-                "date-parts": [
-                    [
-                        2024,
-                        1,
-                        8
-                    ]
-                ]
-            },
-            "author": [
-                {
-                    "literal": "Bildungs- und Kulturdirektion des Kantons Bern"
-                }
-            ],
-            "id": "bildungs-_und_kulturdirektion_des_kantons_bern_lehrplan_2016-1",
-            "issued": {
-                "date-parts": [
-                    [
-                        2016,
-                        6,
-                        23
-                    ]
-                ]
-            },
-            "title": "Lehrplan 21 für die volksschule des kantons bern. AHB 5. unterrichtsentwicklung",
-            "title-short": "Lehrplan 21 für die volksschule des kantons bern",
-            "type": "webpage"
-        },
-        {
             "URL": "https://www.lch.ch/fileadmin/user_upload_lch/Orientierung/Leitfaeden/Leitfaden_Datensicherheit_Web_DEF.pdf",
             "author": [
                 {
@@ -27040,7 +27010,7 @@
                     "literal": "Bundesamt für Statistik"
                 }
             ],
-            "id": "bundesamt_fur_statistik_bfs_statistik_2020",
+            "id": "bundesamt_fur_statistik_statistik_2020",
             "issued": {
                 "date-parts": [
                     [
@@ -27048,7 +27018,7 @@
                     ]
                 ]
             },
-            "publisher": "Bundesamt für Statistik (BFS)",
+            "publisher": "Bundesamt für Statistik",
             "title": "Statistik der sonderpädagogik",
             "type": ""
         },
@@ -27070,6 +27040,564 @@
             "note": "2019.ERZ.6716 / 39996",
             "title": "Information abweichen aus «wichtigen gründen» von den vorschriften",
             "type": ""
+        },
+        {
+            "URL": "https://www.eb.bkd.be.ch/content/dam/akvb-unterricht_bkd/dokumente/de/startseite/sonderpaedagogische-massnahmen/einfache-sonderpaedagogische-massnahmen/mr-leitfaden-v202401.pdf",
+            "author": [
+                {
+                    "literal": "Bildungs und Kulturdirektion des Kantons Bern"
+                }
+            ],
+            "id": "bildungs_und_kulturdirektion_des_kantons_bern_leitfaden_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024
+                    ]
+                ]
+            },
+            "title": "Leitfaden massnahmen in der regelschule (MR)",
+            "type": ""
+        },
+        {
+            "abstract": "Previous studies which attempted to analyze psychometric qualities of The Scales for Rating Behavioral Characteristics of Superior Students (SRBCSS) resulted in inconclusive outcomes, especially about their factorial structure. This study proposes a version of SRBCSS used for self-assessment by gifted children. A sample of 180 students, 96 Olympics and 84 non-Olympics, 76 boys and 104 girls, have completed the Romanian version of SRBCSS (Renzulli, Smith, White, Callahan & Hartman, 1976) for self-assessment and Needs Assessment Questionnaire (NAQ, Heckert, 1999). The results showed that the scales SRBCSS for self-assessment have a good validity and fidelity on the Romanian sample.",
+            "author": [
+                {
+                    "family": "Labăr",
+                    "given": "Adrian"
+                },
+                {
+                    "family": "Frumos",
+                    "given": "Florin"
+                }
+            ],
+            "container-title": "Analele Ştiinţifice ale Universităţii \"Alexandru Ioan Cuza\" din Iaşi - Secţ. Ştiinţele Educaţiei",
+            "container-title-short": "Analele Ştiinţifice ale Universităţii \"Alexandru Ioan Cuza\" din Iaşi - Secţ. Ştiinţele Educaţiei",
+            "id": "labar_adaptation_2013",
+            "issued": {
+                "date-parts": [
+                    [
+                        2013,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "title": "ADAPTATION AND VALIDATION OF THE SCALES FOR RATING THE BEHAVIORAL CHARACTERISTICS OF SUPERIOR STUDENTS (SRBCSS) FOR SELF-ASSESSMENT ON a ROMANIAN SAMPLE",
+            "type": "article-journal",
+            "volume": "XVII"
+        },
+        {
+            "ISSN": "{ISBN}-0-936386-90-8",
+            "abstract": "This manual describes development and use of the revised \"Scales for Rating the Behavioral Characteristics of Superior Students\" (SRBCSS-R), a teacher judgment instrument appropriate for use as one measure in the identification of gifted students. Part 1 explains the judgmental and empirical procedures used to revise the items on the original SRBCSS-R and the methods for conducting two field test administrations of the revised scales. It also presents the results from the analyses and the reliability and validity evidence. Two tables summarize the construct validity data and the criterion-related data on teacher judgment measures. Part 2 provides instructions for administering and interpreting the SRBCSS-R and describes purposes for using the scales, guidelines for using the scales correctly, a teacher training exercise, and how to establish local norms. Five appendices include: the second field test version of the SRBCSS-R, a brief scale for rating student performance in a gifted program, a sample SRBCSS-R, the full teacher-training exercise for using the SRBCSS-R, guidelines for calculating local percentile rank norms, and an article, \"A Practical System for Identifying Gifted and Talented Students\" by Joseph S. Renzulli. (DB)",
+            "author": [
+                {
+                    "family": "Renzulli",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Smith",
+                    "given": "Linda"
+                },
+                {
+                    "family": "White",
+                    "given": "Alan"
+                },
+                {
+                    "family": "Callahan",
+                    "given": "Carolyn"
+                },
+                {
+                    "family": "Hartman",
+                    "given": "Robert"
+                },
+                {
+                    "family": "Westberg",
+                    "given": "Karen"
+                }
+            ],
+            "id": "renzulli_scales_2002",
+            "issued": {
+                "date-parts": [
+                    [
+                        2002,
+                        1,
+                        1
+                    ]
+                ]
+            },
+            "title": "Scales for rating the behavioral characteristics of superior students. Technical and administration manual. Revised edition.",
+            "type": "article-journal"
+        },
+        {
+            "DOI": "10.4324/9781003237808",
+            "ISBN": "978-1-00-323780-8",
+            "URL": "https://www.taylorfrancis.com/books/9781003237808",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        7,
+                        16
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Renzulli",
+                    "given": "Joseph S."
+                },
+                {
+                    "family": "Smith",
+                    "given": "Linda H."
+                },
+                {
+                    "family": "White",
+                    "given": "Alan J."
+                },
+                {
+                    "family": "Callahan",
+                    "given": "Carolyn M."
+                },
+                {
+                    "family": "Hartman",
+                    "given": "Robert K."
+                },
+                {
+                    "family": "Westberg",
+                    "given": "Karen L."
+                },
+                {
+                    "family": "Gavin",
+                    "given": "M. Katherine"
+                },
+                {
+                    "family": "Reis",
+                    "given": "Sally M."
+                },
+                {
+                    "family": "Siegle",
+                    "given": "Del"
+                },
+                {
+                    "family": "Reed",
+                    "given": "Rachael E. Sytsma"
+                }
+            ],
+            "edition": "3",
+            "id": "renzulli_scales_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021,
+                        9,
+                        1
+                    ]
+                ]
+            },
+            "language": "en-US",
+            "publisher": "Routledge",
+            "publisher-place": "New York",
+            "title": "Scales for rating the behavioral characteristics of superior students: Renzulli scales: Technical and administration manual",
+            "title-short": "Scales for rating the behavioral characteristics of superior students",
+            "type": "book"
+        },
+        {
+            "DOI": "10.18296/set.1437",
+            "URL": "https://www.researchgate.net/publication/343142572_Scale_for_rating_behavioral_characteristics_of_superior_students#fullTextFileContent",
+            "author": [
+                {
+                    "family": "Renzulli",
+                    "given": "Joseph"
+                },
+                {
+                    "family": "Hartman",
+                    "given": "Robert"
+                }
+            ],
+            "container-title": "Set: Research Information for Teachers",
+            "container-title-short": "Set: Research Information for Teachers",
+            "id": "renzulli_scale_1976",
+            "issued": {
+                "date-parts": [
+                    [
+                        1976,
+                        6,
+                        1
+                    ]
+                ]
+            },
+            "title": "Scale for rating behavioral characteristics of superior students",
+            "type": "article-journal"
+        },
+        {
+            "author": [
+                {
+                    "literal": "Bundesamt für Justiz BJ"
+                }
+            ],
+            "id": "bundesamt_fur_justiz_bj_totalrevision_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        2
+                    ]
+                ]
+            },
+            "title": "Totalrevision des datenschutzgesetzes: Häufig gestellte fragen",
+            "title-short": "212.9-754/50/4",
+            "type": ""
+        },
+        {
+            "DOI": "10.1007/978-3-662-49167-6",
+            "ISBN": "978-3-662-49166-9 978-3-662-49167-6",
+            "URL": "http://link.springer.com/10.1007/978-3-662-49167-6",
+            "accessed": {
+                "date-parts": [
+                    [
+                        2024,
+                        7,
+                        22
+                    ]
+                ]
+            },
+            "author": [
+                {
+                    "family": "Wegener",
+                    "given": "Christoph"
+                },
+                {
+                    "family": "Milde",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Dolle",
+                    "given": "Wilhelm"
+                }
+            ],
+            "collection-title": "Xpert.press",
+            "id": "wegener_informationssicherheits-management_2016",
+            "issued": {
+                "date-parts": [
+                    [
+                        2016
+                    ]
+                ]
+            },
+            "language": "de-DE",
+            "publisher": "Springer Berlin Heidelberg",
+            "publisher-place": "Berlin, Heidelberg",
+            "title": "Informationssicherheits-Management: Leitfaden für Praktiker und Begleitbuch zur CISM-Zertifizierung",
+            "title-short": "Informationssicherheits-Management",
+            "type": "book"
+        },
+        {
+            "URL": "https://www.ilz.ch/sites/default/files/inline-files/levanto-3.0-Kriterien.pdf",
+            "author": [
+                {
+                    "literal": "Interkantonale Lehrmittelzentral"
+                }
+            ],
+            "id": "interkantonale_lehrmittelzentral_beurteilungskriterien_2020",
+            "issued": {
+                "date-parts": [
+                    [
+                        2020
+                    ]
+                ]
+            },
+            "title": "Beurteilungskriterien levanto 3.0",
+            "type": ""
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/allgemeine-informationen/lehrmittelverzeichnis/evaluation-von-lehrmittel.pdf",
+            "author": [
+                {
+                    "literal": "Lehrplan- und Lehrmittelkommission"
+                }
+            ],
+            "id": "lehrplan-_und_lehrmittelkommission_hinweise_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023,
+                        10
+                    ]
+                ]
+            },
+            "title": "Hinweise für evaluationen",
+            "type": ""
+        },
+        {
+            "URL": "https://www.bvsa.bkd.be.ch/content/dam/bvsa_bkd/dokumente/de/angebote/integratives-besonderes-volksschulangebot/umsetzungshilfe-bvsa-integrativ-d.pdf",
+            "author": [
+                {
+                    "literal": "Bildungs- und Kulturdirektion"
+                }
+            ],
+            "id": "bildungs-_und_kulturdirektion_umsetzungshilfe_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        6
+                    ]
+                ]
+            },
+            "publisher": "Bildungs- und Kulturdirektion des Kantons Bern Amt für Kindergarten, Volksschule und Beratung",
+            "title": "Umsetzungshilfe für das integrativ umgesetzte besondere volksschulangebot (bVSA int.)",
+            "type": ""
+        },
+        {
+            "URL": "https://www.bvsa.bkd.be.ch/content/dam/bvsa_bkd/dokumente/de/angebote/integratives-besonderes-volksschulangebot/ivbsa-helpout-umgebung.pdf",
+            "author": [
+                {
+                    "literal": "Kanton Bern"
+                }
+            ],
+            "id": "kanton_bern_help-out_nodate",
+            "title": "Help-out umgebung anpassen",
+            "type": ""
+        },
+        {
+            "URL": "https://www.bvsa.bkd.be.ch/content/dam/bvsa_bkd/dokumente/de/angebote/integratives-besonderes-volksschulangebot/ivbsa-helpout-lehrpersonensprache.pdf",
+            "author": [
+                {
+                    "literal": "Kanton Bern"
+                }
+            ],
+            "id": "kanton_bern_help-out_nodate-1",
+            "title": "Help-out lehrpersonensprache anpassen",
+            "type": ""
+        },
+        {
+            "author": [
+                {
+                    "family": "Moser Opitz",
+                    "given": "Elisabeth"
+                },
+                {
+                    "family": "Kuratli Geeler",
+                    "given": "Susanne"
+                },
+                {
+                    "family": "Meier-Wyder",
+                    "given": "Anuschka"
+                },
+                {
+                    "family": "Reusser",
+                    "given": "Lis"
+                }
+            ],
+            "id": "moser_opitz_rechensschwache_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        5
+                    ]
+                ]
+            },
+            "title": "Rechensschwäche (dyskalkulie)",
+            "type": ""
+        },
+        {
+            "URL": "https://www.bvl-legasthenie.de/images/static/pdfs/Leitlinien/S3-Leitlinie_Rechenstrung_Langfassung.pdf",
+            "author": [
+                {
+                    "literal": "Deutsche Gesellschaft für Kinder- und Jugendpsychiatrie, Psychosomatik und Psychotherapie e. V."
+                }
+            ],
+            "id": "deutsche_gesellschaft_fur_kinder-_und_jugendpsychiatrie_psychosomatik_und_psychotherapie_e_v_s3-leitlinie_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018,
+                        2
+                    ]
+                ]
+            },
+            "title": "S3-leitlinie: Diagnostik und behandlung der rechenstörung",
+            "title-short": "S3-leitlinie",
+            "type": ""
+        },
+        {
+            "URL": "https://www.faechernet.bkd.be.ch/content/dam/faechernet_bkd/dokumente-bilder/de/startseite/allgemeine-informationen/lehrmittelverzeichnis/lehrmittelverzeichnis.pdf",
+            "author": [
+                {
+                    "literal": "Bildungs- und Kulturdirektion Amt für Kindergarten, Volksschulen und Beratung"
+                }
+            ],
+            "id": "bildungs-_und_kulturdirektion_amt_fur_kindergarten_volksschulen_und_beratung_lehrmittelverzeichnis_2023",
+            "issued": {
+                "date-parts": [
+                    [
+                        2023
+                    ]
+                ]
+            },
+            "title": "Lehrmittelverzeichnis für das schuljahr 2024/2025",
+            "type": ""
+        },
+        {
+            "URL": "https://research.activision.com/content/dam/atvi/activision/atvi-touchui/research/publications/docs/Call-of-Duty-Matchmaking-Series-PING.pdf",
+            "author": [
+                {
+                    "literal": "Activision Publishing, Inc."
+                }
+            ],
+            "id": "activision_publishing_inc_matchmaking_2024",
+            "issued": {
+                "date-parts": [
+                    [
+                        2024,
+                        4,
+                        4
+                    ]
+                ]
+            },
+            "title": "MATCHMAKING SERIES: PING",
+            "title-short": "MATCHMAKING SERIES",
+            "type": ""
+        },
+        {
+            "ISBN": "978-3-17-042135-6 978-3-17-042134-9",
+            "abstract": "Wie entstehen Unterrichtsstörungen und wie können diese wirksam bewältigt werden? Lehrpersonen handeln unter Druck und oft weniger rational, als gemeinhin angenommen wird. Dies kann dazu führen, dass Probleme durch ungünstige Bewältigungsversuche nicht gelöst, sondern weiter verschärft werden. Unterrichtsstörungen wirken sich ungünstig auf die Lehrergesundheit, die Unterrichtsqualität sowie die Motivation und Leistung der Schülerinnen und Schüler aus. Das Buch zeigt, wie Lehrpersonen Störungen im Unterricht durch diagnostische Kompetenz, eine gute Lehrer-Schüler-Beziehung, eine adaptive Klassenführung und durch einen guten Unterricht wirksam vorbeugen können",
+            "author": [
+                {
+                    "family": "Wettstein",
+                    "given": "Alexander"
+                },
+                {
+                    "family": "Scherzinger",
+                    "given": "Marion"
+                }
+            ],
+            "collection-title": "Brennpunkt schule",
+            "edition": "2. Auflage",
+            "id": "wettstein_unterrichtsstorungen_2022",
+            "issued": {
+                "date-parts": [
+                    [
+                        2022
+                    ]
+                ]
+            },
+            "number-of-pages": "176",
+            "publisher": "Verlag W. Kohlhammer",
+            "publisher-place": "Stuttgart",
+            "title": "Unterrichtsstörungen verstehen und wirksam vorbeugen",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-17-032634-7 978-3-17-032633-0",
+            "abstract": "Dritte überarbeitete und aktualisierte Auflage (hier zuletzt ID-A 49/07) des Lehrbuchs des bekannten Professors für Entwicklungspsychologie und Klinische Psychologie zu Symptomatik, Epidemiologie und Ursachen der wichtigsten Verhaltensauffälligkeiten bei Kindern und Jugendlichen. Behandelt werden spezifische Formen von Verhaltensauffälligkeiten wie Depressionen, Ängste, Essstörungen, Gewalt/Delinquenz, ADHS, Störungen der Persönlichkeitsentwicklung, Sucht und Posttraumatische Belastungsstörungen. Neu hinzugekommen ist das Thema \"Internet- und Computermissbrauch\". Zudem werden unterschiedliche Unterstützungs- und Hilfesysteme wie Frühförderung, Jugendhilfe, Psychotherapie u.a. vorgestellt. Im Anschluss an jedes Kapitel Wiederholungsfragen zur Selbstüberprüfung und annotierte Literaturlisten. Das Lehrbuch wendet sich v.a. an (angehende) Kinder- und Jugendpsychotherapeuten, Psychologen und Fachkräfte im Bereich Sozialer Arbeit, Sozial- und Heilpädagogik, Jugendhilfe und Wissenschaft. Ein Austausch der Vorauflage erscheint nicht zwingend notwendig. (3)",
+            "author": [
+                {
+                    "family": "Fröhlich-Gildhoff",
+                    "given": "Klaus"
+                },
+                {
+                    "family": "Hensel",
+                    "given": "Thomas"
+                },
+                {
+                    "family": "Sättele",
+                    "given": "Eva-Maria"
+                },
+                {
+                    "family": "Fröhlich-Gildhoff",
+                    "given": "Michel"
+                }
+            ],
+            "edition": "3., erweiterte und aktualisierte Auflage",
+            "id": "frohlich-gildhoff_verhaltensauffalligkeiten_2018",
+            "issued": {
+                "date-parts": [
+                    [
+                        2018
+                    ]
+                ]
+            },
+            "number-of-pages": "335",
+            "publisher": "Verlag W. Kohlhammer",
+            "publisher-place": "Stuttgart",
+            "title": "Verhaltensauffälligkeiten bei kindern und jugendlichen: Ursachen, erscheinungsformen und antworten",
+            "title-short": "Verhaltensauffälligkeiten bei kindern und jugendlichen",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-3-7639-5759-0",
+            "author": [
+                {
+                    "family": "Spielmann",
+                    "given": "Daniel"
+                }
+            ],
+            "collection-number": "2",
+            "collection-title": "Theorie und praxis der schreibwissenschaft",
+            "id": "spielmann_e-portfolio_2017",
+            "issued": {
+                "date-parts": [
+                    [
+                        2017
+                    ]
+                ]
+            },
+            "number-of-pages": "246",
+            "publisher": "W. Bertelsmann Verlag GmbH & Co. KG",
+            "publisher-place": "Bielefeld",
+            "title": "E-portfolio in der schreibberatungsausbildung: Cognitive apprenticeship und reflexive praxis",
+            "title-short": "E-portfolio in der schreibberatungsausbildung",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-1-4419-1427-9 978-1-4419-1428-6 978-1-4419-5503-6",
+            "collection-title": "Springer reference",
+            "editor": [
+                {
+                    "family": "Seel",
+                    "given": "Norbert M."
+                }
+            ],
+            "id": "seel_encyclopedia_2012-1",
+            "issued": {
+                "date-parts": [
+                    [
+                        2012
+                    ]
+                ]
+            },
+            "keyword": "Learning, Encyclopedias",
+            "number-of-pages": "7",
+            "publisher": "Springer",
+            "publisher-place": "New York",
+            "title": "Encyclopedia of the sciences of learning",
+            "type": "book"
+        },
+        {
+            "ISBN": "978-1-914351-03-7",
+            "abstract": "The 1991 paper ’Cognitive Apprenticeship: Making Thinking Visible’ greatly influenced the teaching of John Tomsett, headteacher at Huntington School in York. In this book, a number of teachers at Huntington School discuss what they consider to be the expert thought processes specific to their individual subject domains",
+            "author": [
+                {
+                    "family": "Tomsett",
+                    "given": "John"
+                }
+            ],
+            "id": "tomsett_collins_2021",
+            "issued": {
+                "date-parts": [
+                    [
+                        2021
+                    ]
+                ]
+            },
+            "note": "OCLC: 1246575905",
+            "publisher": "John Catt Educational, Limited",
+            "publisher-place": "Melton, Suffolk",
+            "title": "Collins et al’s cognitive apprenticeship in action",
+            "type": "book"
         }
     ],
     "project_biblios": [
