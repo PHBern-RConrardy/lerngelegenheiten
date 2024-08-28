@@ -5,4 +5,5 @@ format:
   docx: default
 title: Ergebnisse reproduzierbar publizieren
 subtitle: Learning Analytics
+draft: true
 ---

@@ -18,7 +18,7 @@ categories:
 
 |                    | Vorbereitung | Präsenz                           |
 |--------------------|--------------|-----------------------------------|
-| Block - Mathematik | Lernmodul    | [Slides](LG_standtest/slides.qmd) |
+| Block - Mathematik | Lernmodul    | [Slides](slides.qmd) |
 
 : Aufwand: 4h Vorbereitung, 2h Präsenz {#tbl-letters}
 

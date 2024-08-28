@@ -5,6 +5,7 @@ format:
   docx: default
 title: Open Science
 subtitle: Learning Analytics
+draft: true
 ---
 
 # 

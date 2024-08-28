@@ -121,7 +121,7 @@ Das Gesamturteil stellt ein professioneller Ermessensentscheid dar und basiert n
 
 ## Professioneller Ermessensentscheid
 
-Gemäss Birri, Monn & Nänny (2021, S. 4) ist ein Ermessensentscheid dann professionell, wenn ...
+Gemäss @birri_gesamtbeurteilung_2021 (S.4) ist ein Ermessensentscheid dann professionell, wenn ...
 
 -   die Einschätzungen lehrplankonform, gültig, vergleichbar und für alle Beteiligten nachvollziehbar sind. → **Qualität**
 -   sich Lehrpersonen um eine chancengerechte und faire Beurteilung bemühen. → **Fairness**
@@ -138,12 +138,12 @@ Wenn also neu das Gesamturteil nicht mehr mit dem arithmetischen Mittel berechne
 
 ## Beispiel eines Phasenmodells für die Gesamteinschätzung am Ende des Schuljahres
 
-Birri, Monn & Nänny (2021, S. 10-13) schlagen für die Gesamteinschätzung ein Phasenmodell vor. Lehrpersonen sammeln also im Jahresverlauf summative Beurteilungsanlässe, die sie ...
+@birri_gesamtbeurteilung_2021 (S. 10-13) schlagen für die Gesamteinschätzung ein Phasenmodell vor. Lehrpersonen sammeln also im Jahresverlauf summative Beurteilungsanlässe, die sie ...
 
 1.  sichten
 2.  gewichten
 3.  kategorisieren
-4.  und schliesslich bilanzieren.
+4.  bilanzieren.
 
 Im Falle des oben abgebildeten Musterbeispiels einer Dokumentation summativer Beurteilungsanlässe im Fach «Bewegung und Sport» würde das exemplarisch wie folgt aussehen. Entnehmen Sie den vier folgenden Phasen, das entsprechende Vorgehen in Anlehnung an Birri, Monn & Nänny (2021).
 
