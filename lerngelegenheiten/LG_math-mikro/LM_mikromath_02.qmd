@@ -114,17 +114,7 @@ Lesen Sie die Ausführungen zu den Leitideen im Originalartikel aufmerksam durch
 
 ## Unterrichtszentrum
 
-Falls Sie den Behaviourismus, Kognitivistismus und Konstruktivismus noch nicht kennen, lesen Sie @krapp_unterrichten_2010, ab S.617. Die beiden ersten Positionen werden als "technologische Position" zusammengefasst. Diese perspektiven können ebenfalls durch ihren Fokus unterschieden werden: Learner centered, Knowledge centered, Assessment centered, Community centered [@krapp_unterrichten_2010, S. 618]
+Falls Sie den Behaviourismus, Kognitivistismus und Konstruktivismus noch nicht kennen, lesen Sie @krapp_unterrichten_2010, ab S.617. Die beiden ersten Positionen werden als "technologische Position" zusammengefasst. Diese Perspektiven können ebenfalls durch ihren Fokus unterschieden werden: Learner centered, Knowledge centered, Assessment centered, Community centered [@krapp_unterrichten_2010, S. 618]
 
-::: callout-tip
 
-### Vertiefungsaufgabe 
-
-Welche Position haben folgende Lehrmaterialien vermutlich? 
-
-* Lehrmaterialien von Blöchliger, z.B. 
-* Mathbuch
-* Mathematik von @keller_mathematik_2021 ?
-
-:::
 
