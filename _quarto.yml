@@ -106,7 +106,7 @@ website:  # Menüs für die Webseite
 
     - title: "Chancen und Risiken von standardisierten Testverfahren"
       contents:
-        - href: lerngelegenheiten/LG_standtest.qmd
+        - href: lerngelegenheiten/LG_math-standtest/LG_standtest.qmd
           text: Semesterübersicht
         - auto: "/lernmodule/LM_standtest*"
         
