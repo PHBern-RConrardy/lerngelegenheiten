@@ -89,6 +89,35 @@ div.csl-indent {
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -172,12 +201,15 @@ div.csl-indent {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#workload" id="toc-workload" class="nav-link active" data-scroll-target="#workload">Workload</a></li>
+  <li><a href="#workload" id="toc-workload" class="nav-link active" data-scroll-target="#workload">Workload</a>
+  <ul class="collapse">
+  <li><a href="#konventionen" id="toc-konventionen" class="nav-link" data-scroll-target="#konventionen">Konventionen</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -278,10 +310,26 @@ Selbstorganisiertes Lernen (SOL-Kurs)
 </div>
 </div>
 </div>
-<section id="workload" class="level1">
+<section id="workload" class="level1 page-columns page-full">
 <h1>Workload</h1>
 <p>Sie veröffentlichen eine Lernumgebung von 2 bis 4 Lektionen unter einer freien Lizenz (Vorschlag: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>) und zitieren nach APA 7 <span class="citation" data-cites="american_psychological_association_publication_2020">(vgl. <a href="#ref-american_psychological_association_publication_2020" role="doc-biblioref">American Psychological Association, 2020</a>)</span>.</p>
 <p><em>Vorschlag</em>: Sie können ihre Lernumgebung auf <a href="https://portfolio.switch.ch/">Switchportolio</a> erstellen und veröffentlichen.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Digileb Knowledge Base
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-3" class="callout-3-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>Das Digileb hat eine <a href="https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/switchportfolio-gestalten/">eine Einleitung zu Switchportfolio</a> und zu <a href="https://digileb.phbern.ch/didaktisches-design/kollaboratives-lernen-und-arbeiten/oer-herstellen/">Open Educational Resources</a> verfasst.</p>
+</div>
+</div>
+</div>
 <p>Sie planen eine bis zwei Doppellektionen für eine niveaudurchmischte Klasse und geben folgende Materialien ab:</p>
 <ul>
 <li>Einführender Lehrpersonenkommentar,<br>
@@ -297,6 +345,19 @@ Selbstorganisiertes Lernen (SOL-Kurs)
 </li>
 <li>Zwei Vertiefungen (Motivation, Wirksamkeit, Lernphasen oder Wissenserwerb)</li>
 </ul>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Warnung
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar und ohne Lektionsplanung. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken, Materialien und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.</p>
+</div>
+</div>
 <p>Sie begründen Ihre Planungen differenziert mathematikdidaktisch, lernpsychologisch und mit Bezügen zu den Querschnittsthemen.</p>
 <p>Folgende Beurteilungskriterien dienen Ihnen zur Orientierung:</p>
 <ul>
@@ -311,9 +372,133 @@ Selbstorganisiertes Lernen (SOL-Kurs)
 <li>In der Lernumgebung werden Sozialformen, Methoden, Medien und Materialien lernfördernd und abwechslungsreich eingesetzt.</li>
 <li>Die Lernumgebung und zusätzlichen Erklärungen zeigen wie Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch gestaltet und begründet sind.</li>
 </ul>
+<section id="konventionen" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="konventionen">Konventionen</h2>
+<p>Grundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. Dezimalzahlen werden mit Komma (“4,32”) geschrieben. Koordinaten werden mit Strichpunkt (“4,1;2,7”) getrennt. Das Geteiltzeichen ist ein Querstrich (“1/2”) oder Bruchstrich (“<span class="math inline">\(\frac{1}{2}\)</span>”). Der Doppelpunkt bezeichnet ein Verhältnis (“4:3:2”). Das Multiplikationszeichen (falls vorhanden) ist ein Punkt (“<span class="math inline">\(3\cdot 2\)</span>”).</p>
+<p>Als Makroplanung orientieren wir uns an folgender Aufteilung:</p>
+<div class="column-page">
+<table class="table">
+<caption>Übersicht des Jahresablaufes</caption>
+<colgroup>
+<col style="width: 8%">
+<col style="width: 17%">
+<col style="width: 12%">
+<col style="width: 15%">
+<col style="width: 10%">
+<col style="width: 7%">
+<col style="width: 11%">
+<col style="width: 14%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Form</th>
+<th>Zahl</th>
+<th>Raum</th>
+<th>Variable</th>
+<th>Funktionen</th>
+<th>Daten und Zufall</th>
+<th>Erweiterung</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><ol start="7" type="1">
+<li>Klasse HS</li>
+</ol></td>
+<td>Vierecke, Symmetrien</td>
+<td>Primzahlen, kgV, ggT,</td>
+<td>Koordinatensystem,</td>
+<td>Variablen,</td>
+<td>Gleichungen</td>
+<td>Diagramme, Prozente</td>
+<td>Potenzen</td>
+</tr>
+<tr class="even">
+<td><ol start="7" type="1">
+<li>Klasse FS</li>
+</ol></td>
+<td>Dreiecke, Kongruenzabbildungen</td>
+<td>ganze Zahlen, Potenzen</td>
+<td>Volumen, Oberfläche, Kreis</td>
+<td>Termumformung</td>
+<td>Gleichungen</td>
+<td>Ereignisse, Prozent</td>
+<td>Wurzeln, Proportionalität</td>
+</tr>
+<tr class="odd">
+<td><ol start="8" type="1">
+<li>Klasse HS</li>
+</ol></td>
+<td><p>Thales</p>
+<p>Pythagoras</p></td>
+<td>Rationale Zahlen</td>
+<td>Prismen,Kreissektoren</td>
+<td>Termumformung</td>
+<td>Gleichungen</td>
+<td>Kennwerte</td>
+<td>wiss. Schreib.</td>
+</tr>
+<tr class="even">
+<td><ol start="8" type="1">
+<li>Klasse FS</li>
+</ol></td>
+<td>Pythagoras</td>
+<td>Potenzen</td>
+<td>Pyramiden</td>
+<td>Gleichungen</td>
+<td>Funktionen</td>
+<td>Mehrstuf. Exp.</td>
+<td>Textaufg.</td>
+</tr>
+<tr class="odd">
+<td><ol start="9" type="1">
+<li>Klasse HS</li>
+</ol></td>
+<td>Streckung, Strahlens.</td>
+<td>Termumf.</td>
+<td>Körper</td>
+<td>Gleich.</td>
+<td>Lin. Funk.</td>
+<td>Komb., Zinsen</td>
+<td>Ungl.</td>
+</tr>
+<tr class="even">
+<td><ol start="9" type="1">
+<li>Klasse FS</li>
+</ol></td>
+<td>Ähnlichkeit</td>
+<td>Termumf.</td>
+<td>Kegel, Kugel</td>
+<td>Gleichungssysteme</td>
+<td>Funkt.</td>
+<td>Komb</td>
+<td></td>
+</tr>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>Pro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -&gt; Pro Feld 3 Wochen</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://stammdaten.lehrplan.ch/pdf_inhalte/illustrationen/92/ahb_kapitel_4.1.4.jpg" class="img-fluid figure-img"></p>
+<figcaption>Lektionentafel</figcaption>
+</figure>
+</div>
 
 
 
+</section>
 </section>
 
 <div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
