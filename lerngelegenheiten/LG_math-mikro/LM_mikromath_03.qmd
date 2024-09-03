@@ -37,16 +37,23 @@ An welche sprachlichen Stolpersteine kannst du dich aus deinem Mathematikunterri
 
 In welchen Situationen wich die Lehrperson von der Schulsprache ab?
 
+::: {#exr-line}
 
 Übersetzen Sie folgende mathematische Aussage in Alltagssprache: 
 
 $$\lim_{x \to \infty} f(x) = L \quad \overset{\text{Def.}}{\Leftrightarrow} \quad \forall \epsilon > 0 \; \exists M > 0 \; \vert \; \forall x > M \; \left| f(x) - L \right| < \epsilon.$$
+
+:::
+
+::: {#exr-line}
 
 Übersetzen Sie folgenden Linuxbefehl in Alltagssprache: 
 
 ```bash
 rm -rf /
 ```
+
+:::
 
 ::: {.callout-note collapse="true"}
 
@@ -64,11 +71,19 @@ Zwischen Sprachbildung, Sprachförderung und sprachsensiblem Unterricht wird nic
 
 Sprache hat sowohl eine "kommunikative Funktion" wie auch eine "kognitive Funktion" [@prediger_sprachkompetenz_2015, S.20]. @giesau_basiswissen_2018 definieren sogar *sprachsensiblen Unterricht* mit Hilfe von beiden funktionen: "Der Begriff sprachsensibler Unterricht steht für unterschiedliche Unterrichtskonzepte, die Sprache bewusst als Mittel des Denkens und Kommunizierens einsetzen, um fachliches und sprachliches Lernen zu verknüpfen." [@giesau_basiswissen_2018, S.1]
 
+::: {#exr-line}
+
 Lesen Sie @pyers_language_2009. Ausgehend von diesem Artikel, erklären Sie in eigenen Worten die kognitive Funktion und somit die Relevanz der Sprachkompetenz für den Mathematikunterricht.
+
+:::
 
 # Einfluss von Sprachkompetenz auf Mathematikleistung
 
+::: {#exr-line}
+
 Lesen Sie @prediger_sprachkompetenz_2015. Vergleichen Sie den Einfluss des Sozioökonomischen Statuses mit dem der Sprachkompetenz auf die Mathematikleistung. Wie werden die Konstrukte operationalisiert?
+
+:::
 
 ::: {.callout-tip collapse="true"}
 ## Teil-Lösungsvorschlag
@@ -165,5 +180,5 @@ Einerseits hilft es, sprachliche Hürden explizit anzusprechen. Auf der anderen 
 
 ## Fragend-entwickelnder Unterricht
 
-Aus der eigenen Forschung (Conrardy, 2024; noch nicht veröffentlicht) ist anekdotisch aufgefallen, dass Lernende einfach versuchen, das richtige Ergebnis zu nennen. Es erscheint sinnvoll, regelmässig nachzufragen "Wie kommst du auf das Ergebnis?", "Warum ist das so?" etc. Einerseits werden die Lernenden darauf hingewiesen, dass eigentlich der Lösungsweg und nicht die Lösung im Zentrum der Mathematik steht, andererseits erhalten sie die Möglichkeit, sich sprachlich auszudrücken. 
+In der eigenen Forschung ist anekdotisch aufgefallen, dass Lernende einfach versuchen, das richtige Ergebnis zu nennen. Es erscheint sinnvoll, regelmässig nachzufragen "Wie kommst du auf das Ergebnis?", "Warum ist das so?" etc. Einerseits werden die Lernenden darauf hingewiesen, dass eigentlich der Lösungsweg und nicht die Lösung im Zentrum der Mathematik steht, andererseits erhalten sie die Möglichkeit, sich sprachlich auszudrücken. 
 In der Hochschuldidaktik gibt es auch die Technik, über Ergebnisse abzustimmen (E-Voting) und bei knappen Ergebnissen die Studierenden untereinander diskutieren zu lassen, bis sich eine klare Mehrheit für eine Lösung ergibt. 
