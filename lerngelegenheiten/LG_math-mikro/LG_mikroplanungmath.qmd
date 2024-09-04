@@ -59,7 +59,9 @@ inhaltlich, organisatorisch oder anderer Art.
 
 Sie veröffentlichen eine Lernumgebung von 2 bis 4 Lektionen unter einer freien Lizenz (Vorschlag: [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/)) und zitieren nach APA 7 [vgl. @american_psychological_association_publication_2020].
 
-*Vorschlag*: Sie können ihre Lernumgebung auf [Switchportolio](https://portfolio.switch.ch/) erstellen und veröffentlichen. 
+Tragen Sie sich für bei der Themenauswahl in die [Themenliste](https://phbern365.sharepoint.com/:x:/r/sites/IS1_Z_FachteamMathematik/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B6d7b7b77-e701-495c-a734-95aa8c684020%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1725374697781&web=1&CID=2f77316a-b428-4c26-ed85-c19100b5eb17) ein. 
+
+Erstellen und veröffentlichen Sie ihre Lernumgebung auf [Switchportolio](https://portfolio.switch.ch/). 
 
 ::: {.callout-tip collapse="false"}
 ## Digileb Knowledge Base
