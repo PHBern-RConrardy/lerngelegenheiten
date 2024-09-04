@@ -78,7 +78,7 @@ Sie planen eine bis zwei Doppellektionen für eine niveaudurchmischte Klasse und
 * Zwei Vertiefungen (Motivation, Wirksamkeit, Lernphasen oder Wissenserwerb) 
 
 :::{.callout-warning}
-Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar und ohne Lektionsplanung. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken, Materialien und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.
+Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.
 :::
 
 Sie begründen Ihre Planungen differenziert mathematikdidaktisch, lernpsychologisch und mit Bezügen zu den Querschnittsthemen. 
