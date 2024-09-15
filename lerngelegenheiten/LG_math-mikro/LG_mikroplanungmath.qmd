@@ -99,7 +99,7 @@ Folgende Beurteilungskriterien dienen Ihnen zur Orientierung:
 
 ## Konventionen
 
-Grundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. Dezimalzahlen werden mit Komma ("4,32") geschrieben. Koordinaten werden mit Strichpunkt ("4,1;2,7") getrennt. Das Geteiltzeichen ist ein Querstrich ("1/2") oder Bruchstrich ("$\frac{1}{2}$"). Der Doppelpunkt bezeichnet ein Verhältnis ("4:3:2"). Das Multiplikationszeichen (falls vorhanden) ist ein Punkt ("$3\cdot 2$").
+Grundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. Dezimalzahlen werden mit Komma ("4,32") geschrieben. Koordinaten werden mit Strichpunkt ("4,1;2,7") getrennt. Das Geteiltzeichen ist ein Querstrich ("1/2") oder Bruchstrich ("$\frac{1}{2}$"). Der Doppelpunkt bezeichnet ein Verhältnis ("4:3:2"). Das Multiplikationszeichen (falls vorhanden) ist ein Punkt ("$3\cdot 2$"). Geogebrabefehle und Tabellenkalkulationsprogrammbefehle sind auf Englisch. 
 
 Als Makroplanung orientieren wir uns an folgender Aufteilung:
 

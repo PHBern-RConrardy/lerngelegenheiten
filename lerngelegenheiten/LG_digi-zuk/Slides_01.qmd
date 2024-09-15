@@ -1,32 +1,52 @@
 ---
 format: revealjs
 title: Digitale Zusammenarbeit und Kommunikation
-subtitle: Tag 1 - 
+subtitle: Tag 1
 ---
 
 # Erfahrungsaustausch
 
 ## Unterscheidung digitale Tools und Technologien
 
-
-
 ## Wie arbeiten Sie digital zusammen
 
 - mit der Schulleitung?
+- mit der Schuladministration?
 - mit Erziehungsberechtigten?
 - mit internen Lehrerkollegen?
 - mit externen Fachpersonen?
 
-# Kategorienbildung
+# Tools
 
-## Auftrag
+## Typische Tools im Kanton Bern
 
-Teilen Sie alle genannten Tools und Technologien in Kategorien ein.
+* Klapp
+* Lehreroffice
+* Outlook
 
-# Tools Kennenlernen
+# Technologien
 
-## Klapp
+## In der Kommunikation eingesetzte Technologien
 
-## Lehreroffice
+* Asymmetrische Verschlüsselung
+* E2E-Encryption
+* SMTP
 
-## Vorschläge?
+# Gesetzliche Einschränkungen
+
+## Datenschutzgesetze
+
+### DSG 
+
+* Personendaten
+* Besonders schützenswerte Personendaten
+
+### KDSG (Bern)
+
+* Personendaten
+* Besonders schützenswerte Personendaten
+
+## Meldepflichten und Rechte
+
+* Berufsgeheimnis
+* Amtsgeheimnis

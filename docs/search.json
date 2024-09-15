@@ -2412,7 +2412,7 @@
     "href": "lerngelegenheiten/LG_digi-zuk/LG_digitale_zusammenarbeit.html",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "",
-    "text": "Porta-QT-Digitalität\n\n\n\n\n\n\n\nZiele der Lerngelegenheit\n\n\n\nWir\n\nbenennen und erläutern sinnvolle Fragen zur Evaluation von digitalen Zusammenarbeit- und Kommunikationstools\nbeantworten diese Fragen für typische Kollaborationssoftware\nreflektieren unsere Kommunikation in Bezug auf Situation und Zielgruppe.\nwählen für die Arbeit mit Schulklassen geeignete Kommunikationsformen, -kanäle und medien.\n\n\n\n\n\n\nTermin\nThema\nSlides\n\n\n\n\n1\nDigitale Zusammenarbeit mit Lernenden\nSlides\n\n\n2\nDigitale Zusammenarbeit mit anderen Akteuren\nSlides\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Digitale Zusammenarbeit und\nKommunikation. University of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
+    "text": "Porta-QT-Digitalität\n\n\n\n\n\n\n\nZiele der Lerngelegenheit\n\n\n\nWir\n\nbenennen und erläutern sinnvolle Fragen zur Evaluation von digitalen Zusammenarbeit- und Kommunikationstools\nbeantworten diese Fragen für typische Kollaborationssoftware\nreflektieren unsere Kommunikation in Bezug auf Situation und Zielgruppe.\nwählen für die Arbeit geeignete Kommunikationsformen, -kanäle und medien.\n\n\n\n\n\n\nTermin\nThema\nSlides\n\n\n\n\n1\nDigitale Zusammenarbeit mit Lernenden\nSlides\n\n\n2\nDigitale Zusammenarbeit mit anderen Akteuren\nSlides\n\n\n\n\nWorkload\n\nÜbungsaufgabe 1 Verschicken Sie über die Klapp-App eine Nachricht an alle Eltern einer Klasse. Sie erhalten in der Lerngelegenheit Zugriff auf einen Test-Server.\n\n\nÜbungsaufgabe 2 Verschicken Sie einen personalisierten Serienbrief mit einem Mail-Client.\n\n\nÜbungsaufgabe 3 Verschicken Sie einen personalisierten Serienbrief mit einer Programmiersprache Ihrer Wahl.\nHinweise: Python wird empfohlen. Sie dürfen Chatbots uneingeschränkt nutzen. Sie sollen jedoch den benutzen Programmcode in groben Zügen erklären können.\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Digitale Zusammenarbeit und\nKommunikation. University of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html",
@@ -2425,8 +2425,8 @@
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#wie-arbeiten-sie-digital-zusammen",
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#wie-arbeiten-sie-digital-zusammen",
     "title": "Digitale Zusammenarbeit und Kommunikation",
-    "section": "",
-    "text": "mit der Schulleitung?\nmit Erziehungsberechtigten?\nmit internen Lehrerkollegen?\nmit externen Fachpersonen?"
+    "section": "Wie arbeiten Sie digital zusammen",
+    "text": "Wie arbeiten Sie digital zusammen\n\nmit der Schulleitung?\nmit der Schuladministration?\nmit Erziehungsberechtigten?\nmit internen Lehrerkollegen?\nmit externen Fachpersonen?"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#auftrag",
@@ -3391,9 +3391,86 @@
     "href": "lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.html#konventionen",
     "title": "Mikroplanung Mathematik",
     "section": "Konventionen",
-    "text": "Konventionen\nGrundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. Dezimalzahlen werden mit Komma (“4,32”) geschrieben. Koordinaten werden mit Strichpunkt (“4,1;2,7”) getrennt. Das Geteiltzeichen ist ein Querstrich (“1/2”) oder Bruchstrich (“\\(\\frac{1}{2}\\)”). Der Doppelpunkt bezeichnet ein Verhältnis (“4:3:2”). Das Multiplikationszeichen (falls vorhanden) ist ein Punkt (“\\(3\\cdot 2\\)”).\nAls Makroplanung orientieren wir uns an folgender Aufteilung:\n\n\nÜbersicht des Jahresablaufes\n\n\n\n\n\n\n\n\n\n\n\n\n\nForm\nZahl\nRaum\nVariable\nFunktionen\nDaten und Zufall\nErweiterung\n\n\n\n\n\nKlasse HS\n\nVierecke, Symmetrien\nPrimzahlen, kgV, ggT,\nKoordinatensystem,\nVariablen,\nGleichungen\nDiagramme, Prozente\nPotenzen\n\n\n\nKlasse FS\n\nDreiecke, Kongruenzabbildungen\nganze Zahlen, Potenzen\nVolumen, Oberfläche, Kreis\nTermumformung\nGleichungen\nEreignisse, Prozent\nWurzeln, Proportionalität\n\n\n\nKlasse HS\n\nThales\nPythagoras\nRationale Zahlen\nPrismen,Kreissektoren\nTermumformung\nGleichungen\nKennwerte\nwiss. Schreib.\n\n\n\nKlasse FS\n\nPythagoras\nPotenzen\nPyramiden\nGleichungen\nFunktionen\nMehrstuf. Exp.\nTextaufg.\n\n\n\nKlasse HS\n\nStreckung, Strahlens.\nTermumf.\nKörper\nGleich.\nLin. Funk.\nKomb., Zinsen\nUngl.\n\n\n\nKlasse FS\n\nÄhnlichkeit\nTermumf.\nKegel, Kugel\nGleichungssysteme\nFunkt.\nKomb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -&gt; Pro Feld 3 Wochen\n\n\n\nLektionentafel",
+    "text": "Konventionen\nGrundsätzlich werden Notationen und Symbole nach ISO 80000-2:2009 übernommen. Dezimalzahlen werden mit Komma (“4,32”) geschrieben. Koordinaten werden mit Strichpunkt (“4,1;2,7”) getrennt. Das Geteiltzeichen ist ein Querstrich (“1/2”) oder Bruchstrich (“\\(\\frac{1}{2}\\)”). Der Doppelpunkt bezeichnet ein Verhältnis (“4:3:2”). Das Multiplikationszeichen (falls vorhanden) ist ein Punkt (“\\(3\\cdot 2\\)”). Geogebrabefehle und Tabellenkalkulationsprogrammbefehle sind auf Englisch.\nAls Makroplanung orientieren wir uns an folgender Aufteilung:\n\n\nÜbersicht des Jahresablaufes\n\n\n\n\n\n\n\n\n\n\n\n\n\nForm\nZahl\nRaum\nVariable\nFunktionen\nDaten und Zufall\nErweiterung\n\n\n\n\n\nKlasse HS\n\nVierecke, Symmetrien\nPrimzahlen, kgV, ggT,\nKoordinatensystem,\nVariablen,\nGleichungen\nDiagramme, Prozente\nPotenzen\n\n\n\nKlasse FS\n\nDreiecke, Kongruenzabbildungen\nganze Zahlen, Potenzen\nVolumen, Oberfläche, Kreis\nTermumformung\nGleichungen\nEreignisse, Prozent\nWurzeln, Proportionalität\n\n\n\nKlasse HS\n\nThales\nPythagoras\nRationale Zahlen\nPrismen,Kreissektoren\nTermumformung\nGleichungen\nKennwerte\nwiss. Schreib.\n\n\n\nKlasse FS\n\nPythagoras\nPotenzen\nPyramiden\nGleichungen\nFunktionen\nMehrstuf. Exp.\nTextaufg.\n\n\n\nKlasse HS\n\nStreckung, Strahlens.\nTermumf.\nKörper\nGleich.\nLin. Funk.\nKomb., Zinsen\nUngl.\n\n\n\nKlasse FS\n\nÄhnlichkeit\nTermumf.\nKegel, Kugel\nGleichungssysteme\nFunkt.\nKomb\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPro Jahr 39 (19+20) Schulwochen. Planung mit 36 (18+18) Wochen -&gt; Pro Feld 3 Wochen\n\n\n\nLektionentafel",
     "crumbs": [
       "Semesterübersicht"
     ]
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#unterscheidung-digitale-tools-und-technologien",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#unterscheidung-digitale-tools-und-technologien",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Unterscheidung digitale Tools und Technologien",
+    "text": "Unterscheidung digitale Tools und Technologien"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#section",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#section",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "",
+    "text": "PHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#tools-kennenlernen",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#tools-kennenlernen",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Tools kennenlernen",
+    "text": "Tools kennenlernen\n\nKlapp\nLehreroffice\nOutlook"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#technologien",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#technologien",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Technologien",
+    "text": "Technologien\n\nAsymmetrische Verschlüsselung\nE2E-Encryption\nSMTP"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#datenschutz",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#datenschutz",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Datenschutz",
+    "text": "Datenschutz\nDSG\n\nPersonendaten\nBesonders schützenswerte Personendaten\n\nKDSG (Bern)\n\nPersonendaten\nBesonders schützenswerte Personendaten\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#typische-tools-im-kanton-bern",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#typische-tools-im-kanton-bern",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Typische Tools im Kanton Bern",
+    "text": "Typische Tools im Kanton Bern\n\nKlapp\nLehreroffice\nOutlook"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#in-der-kommunikation-eingesetzte-technologien",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#in-der-kommunikation-eingesetzte-technologien",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "In der Kommunikation eingesetzte Technologien",
+    "text": "In der Kommunikation eingesetzte Technologien\n\nAsymmetrische Verschlüsselung\nE2E-Encryption\nSMTP"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#datenschutzgesetze",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#datenschutzgesetze",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Datenschutzgesetze",
+    "text": "Datenschutzgesetze\nDSG\n\nPersonendaten\nBesonders schützenswerte Personendaten\n\nKDSG (Bern)\n\nPersonendaten\nBesonders schützenswerte Personendaten"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#geheimnisse",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#geheimnisse",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Geheimnisse",
+    "text": "Geheimnisse\n\nBerufsgeheimnis\nAmtsgeheimnis\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#meldepflichten-und-recht",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#meldepflichten-und-recht",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Meldepflichten und Recht",
+    "text": "Meldepflichten und Recht\n\nBerufsgeheimnis\nAmtsgeheimnis\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#meldepflichten-und-rechte",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_01.html#meldepflichten-und-rechte",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Meldepflichten und Rechte",
+    "text": "Meldepflichten und Rechte\n\nBerufsgeheimnis\nAmtsgeheimnis\n\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   }
 ]

@@ -21,7 +21,7 @@ Wir
 * benennen und erläutern sinnvolle Fragen zur Evaluation von digitalen Zusammenarbeit- und Kommunikationstools
 * beantworten diese Fragen für typische Kollaborationssoftware
 * reflektieren unsere Kommunikation in Bezug auf Situation und Zielgruppe.
-* wählen für die Arbeit mit Schulklassen geeignete Kommunikationsformen, -kanäle und medien.
+* wählen für die Arbeit geeignete Kommunikationsformen, -kanäle und medien.
 :::
 
 
@@ -33,3 +33,18 @@ Wir
 
 : {.striped .hover .table-sm}
 
+# Workload
+
+::: {#exr-1}
+Verschicken Sie über die Klapp-App eine Nachricht an alle Eltern einer Klasse. Sie erhalten in der Lerngelegenheit Zugriff auf einen Test-Server.
+:::
+
+::: {#exr-1}
+Verschicken Sie einen personalisierten Serienbrief mit einem Mail-Client.
+:::
+
+::: {#exr-1}
+Verschicken Sie einen personalisierten Serienbrief mit einer Programmiersprache Ihrer Wahl. 
+
+*Hinweise:* Python wird empfohlen. Sie dürfen Chatbots uneingeschränkt nutzen. Sie sollen jedoch den benutzen Programmcode in groben Zügen erklären können.
+:::
