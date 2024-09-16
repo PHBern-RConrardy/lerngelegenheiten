@@ -416,6 +416,8 @@
 <li>Klapp</li>
 <li>Lehreroffice</li>
 <li>Outlook</li>
+<li>Teams</li>
+<li></li>
 </ul>
 </section></section>
 <section>
@@ -444,9 +446,14 @@
 <section id="in-der-kommunikation-eingesetzte-technologien" class="slide level2">
 <h2>In der Kommunikation eingesetzte Technologien</h2>
 <ul>
+<li>Symmetrische Verschlüsselung</li>
 <li>Asymmetrische Verschlüsselung</li>
 <li>E2E-Encryption</li>
-<li>SMTP</li>
+<li>Mail (SMTP/IMAP)
+<ul>
+<li>HTML / Plaintext</li>
+<li>PGP</li>
+</ul></li>
 </ul>
 </section></section>
 <section>
@@ -524,7 +531,7 @@
       // Full list of configuration options available at:
       // https://revealjs.com/config/
       Reveal.initialize({
-'controlsAuto': true,
+'controlsAuto': false,
 'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
@@ -535,7 +542,7 @@
 'smaller': false,
  
         // Display controls in the bottom right corner
-        controls: false,
+        controls: true,
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide

@@ -23,14 +23,19 @@ subtitle: Tag 1
 * Klapp
 * Lehreroffice
 * Outlook
+* Teams
+* 
 
 # Technologien
 
 ## In der Kommunikation eingesetzte Technologien
 
+* Symmetrische Verschlüsselung
 * Asymmetrische Verschlüsselung
 * E2E-Encryption
-* SMTP
+* Mail (SMTP/IMAP)
+  * HTML / Plaintext
+  * PGP
 
 # Gesetzliche Einschränkungen
 

@@ -26,10 +26,14 @@ listing:
 :::: {.panel-tabset}
 # Lerngelegenheiten
 
+Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows.
+
 :::{#lerngelegenheiten}
 :::
 
 # Lernmodule
+
+Auflistung aller Lernmodule welche eine thematische Lerneinheit bilden.
 
 :::{#lernmodule}
 :::
@@ -38,7 +42,13 @@ listing:
 
 # Konferenzen
 
+Auflistung von Slideshows für Konferenzen, Tagungen und Austauschgefässen.
+
 :::{#tagungsunterlagen}
 :::
+
+# Projekte
+
+Auflistung von getrennten Projekten welche in keine andere Kategorie passen.
 
 ::::

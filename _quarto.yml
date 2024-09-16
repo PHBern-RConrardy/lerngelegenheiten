@@ -163,6 +163,7 @@ format:
     scrollable: true
     logo: images/penguin.png
     hide-inactive-cursor: true
+    controls: true
   phheidelberg-revealjs:
     scrollable: true
     hide-inactive-cursor: true

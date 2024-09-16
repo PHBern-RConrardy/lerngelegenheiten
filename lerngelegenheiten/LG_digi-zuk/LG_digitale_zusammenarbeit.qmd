@@ -7,6 +7,7 @@ categories:
   - Modul - Klassenführung
   - Label - Digitalität
 draft: false
+date: 09/15/2024
 ---
 
 ::: {style="text-align: center;"}
@@ -28,8 +29,8 @@ Wir
 
 | Termin | Thema                                        |       Slides        |
 |:-----------:|:------------|:-----------:|
-|   1    | Digitale Zusammenarbeit mit Lernenden        | [Slides](Slides_01.qmd) |
-|   2    | Digitale Zusammenarbeit mit anderen Akteuren | [Slides](Slides_02.qmd) |
+|   1    | Tools und Technologien      | [Slides](Slides_01.qmd) |
+|   2    | Social Media | [Slides](Slides_02.qmd) |
 
 : {.striped .hover .table-sm}
 
