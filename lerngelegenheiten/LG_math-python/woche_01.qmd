@@ -67,6 +67,8 @@ print(math.pi)
 ## Hypotenuse eines rechtwinkligen Dreiecks
 
 Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet. 
+
+
 :::
 
 ::: {#exr-line}
@@ -138,5 +140,5 @@ Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und bere
 ::: {#exr-line}
 ## Packungsgrösse und Restmenge
 
-Schreibene Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.
+Schreiben Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.
 :::

@@ -10,11 +10,19 @@ subtitle: Tag 1
 
 ## Wie arbeiten Sie digital zusammen
 
+- mit der Schulkommission?
 - mit der Schulleitung?
-- mit der Schuladministration?
-- mit Erziehungsberechtigten?
-- mit internen Lehrerkollegen?
-- mit externen Fachpersonen?
+- mit der Lehrerschaft?
+- mit den Eltern (Erziehungsberechtigten)? 
+
+- mit externen Fachpersonen, bzw. Behörden?
+- mit Schülerinnen und Schülern?
+
+> Schulkommission, Schulleitung, Lehrerschaft und Eltern sind gegenseitig zur Zusammenarbeit verpflichtet.
+>
+:::quelle
+[Art. 31 Abs. 2 VSG](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210/art/73)
+:::
 
 # Tools
 
@@ -24,7 +32,7 @@ subtitle: Tag 1
 * Lehreroffice
 * Outlook
 * Teams
-* 
+* ...?
 
 # Technologien
 
@@ -32,26 +40,36 @@ subtitle: Tag 1
 
 * Symmetrische Verschlüsselung
 * Asymmetrische Verschlüsselung
+* Transportverschlüsselung
 * E2E-Encryption
 * Mail (SMTP/IMAP)
   * HTML / Plaintext
-  * PGP
+  * PGP / S/MIME
+* 2FactorAuthentification
 
-# Gesetzliche Einschränkungen
 
-## Datenschutzgesetze
+# Gesetze
 
-### DSG 
+## Datenschutzgesetz (DSG)
 
-* Personendaten
-* Besonders schützenswerte Personendaten
+* Personendaten - [(Art. 5 lit. a DSG)](https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5)
+* Besonders schützenswerte Personendaten - [(Art. 5 lit. c DSG)](https://www.fedlex.admin.ch/eli/oc/2022/491/de#art_5)
 
-### KDSG (Bern)
 
-* Personendaten
-* Besonders schützenswerte Personendaten
+## Datenschutzgesetz (KDSG) (Bern)
+
+* Personendaten - [(Art. 2 Abs. 1 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+* Besonders schützenswerte Personendaten - [(Art. 3 Abs. 1 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+
+>Wer Personendaten bearbeitet, sorgt für ihre Sicherung. 
+>
+:::quelle
+[(Art. 17 KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04)
+:::
 
 ## Meldepflichten und Rechte
 
 * Berufsgeheimnis
 * Amtsgeheimnis
+  * Anzeigepflicht - [Art. 48 EG ZSJ](https://www.belex.sites.be.ch/app/de/texts_of_law/271.1)
+  * Befreiung - [Art. 61a VSG](https://www.belex.sites.be.ch/app/de/texts_of_law/432.210)

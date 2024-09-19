@@ -22,6 +22,7 @@ authors:
           - ref: phbern
           
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.
+date: 17 09 2024
 citation: 
   author:
     - Peter Giger
