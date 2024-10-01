@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
 
-<meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.551">
+<head>
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.4.551" />
 
-<meta name="author" content="Richard Conrardy">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
 
-<title>Übungen mit Typecasting</title>
+<meta name="author" content="Richard Conrardy" />
+
+<title>Übungen mit Conditionals</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -57,24 +59,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
-
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/penguin.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<!-- htmldependencies:E3FAD763 -->
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -135,31 +120,36 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-sidebar docked nav-fixed">
+<body>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    <a href="/index.html" class="navbar-brand navbar-brand-logo">
+    <img src="/images/penguin.png" alt="" class="navbar-logo" />
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
-    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
 </div>
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn"
+      data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
+      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
+      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungsblätter</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungen mit Typecasting</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
+        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
+        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -172,7 +162,7 @@ window.Quarto = {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semesterübersicht</span></a>
   </div>
 </li>
@@ -187,37 +177,37 @@ window.Quarto = {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Installationsanleitung IDE</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Loops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funktionen</span></a>
   </div>
 </li>
@@ -234,43 +224,43 @@ window.Quarto = {
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link active">
+  <a href="/lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen mit Typecasting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Übungen mit Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen mit Loops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen zu Listen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen zu Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Erweiterte Übungen in Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+  <a href="/lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aufgabensammlung</span></a>
   </div>
 </li>
@@ -279,23 +269,17 @@ window.Quarto = {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul class="collapse">
-  <li><a href="#übungen" id="toc-übungen" class="nav-link active" data-scroll-target="#übungen">Übungen</a></li>
-  </ul>
-<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="woche_01.pdf"><i class="bi bi-file-pdf"></i>PDF</a></li><li><a href="woche_01.docx"><i class="bi bi-file-word"></i>MS Word</a></li></ul></div></nav>
+        <div id="quarto-toc-target"></div>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungsblätter</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/woche_01.html">Übungen mit Typecasting</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Übungen mit Typecasting</h1>
+<h1 class="title">Übungen mit Conditionals</h1>
 </div>
 
 
@@ -333,117 +317,104 @@ window.Quarto = {
 </header>
 
 
-<section id="übungen" class="level1">
-<h1>Übungen</h1>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 1 (Fläche eines Rechtecks)</strong></span> Schreiben Sie ein Programm, das die Länge und Breite eines Rechtecks als Eingabe nimmt und die Fläche berechnet.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 1 (Gerade oder ungerade Zahl)</strong></span> Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl gerade oder ungerade ist.</p>
 </div>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 2 (Durchschnitt zweier Zahlen)</strong></span> Schreiben Sie ein Programm, das zwei Zahlen als Eingabe nimmt und den Durchschnitt dieser beiden Zahlen berechnet.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 2 (Positiv, negativ oder null)</strong></span> Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl positiv, negativ oder null ist.</p>
 </div>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 3 (Summe und Produkt von drei Zahlen)</strong></span> Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und die Summe sowie das Produkt dieser drei Zahlen berechnet.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 3 (Zahlenmengen)</strong></span> Schreiben Sie ein Programm, welches prüft, ob eine Zahl in <span class="math inline">\(\mathbb{N}\)</span>, <span class="math inline">\(\mathbb{Z}\)</span> oder <span class="math inline">\(\mathbb{Q}\)</span> ist.</p>
 </div>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 4 (Quadratzahlen)</strong></span> Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratzahl dieser Zahl berechnet.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 4 (Mehrfache von drei und fünf)</strong></span> Schreibe ein Programm, das eine ganze Zahl als Eingabe nimmt und überprüft, ob die Zahl sowohl ein Vielfaches von 3 als auch von 5 ist.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 5 (Schaltjahr oder nicht)</strong></span> Schreibe ein Programm, das ein Jahr als Eingabe nimmt und überprüft, ob es sich um ein Schaltjahr handelt.</p>
+<blockquote>
+<p>Die gregorianische Schalttagsregelung besteht aus folgenden drei einzelnen Regeln: 1. Die durch 4 ganzzahlig teilbaren Jahre sind, abgesehen von den folgenden Ausnahmen, Schaltjahre. 2. Säkularjahre, also die Jahre, die ein Jahrhundert abschließen (z.B. 1800, 1900, 2100 und 2200), sind, abgesehen von der folgenden Ausnahme, keine Schaltjahre. 3. Die durch 400 ganzzahlig teilbaren Säkularjahre, zum Beispiel das Jahr 2000, sind jedoch Schaltjahre.</p>
+<p>Quelle: https://de.wikipedia.org/wiki/Schaltjahr</p>
+</blockquote>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 6 (Abweichung)</strong></span> Schreiben Sie ein Programm, welche zwei Zahlen nimmt und augibt um wieviel Prozent die grössere Zahl grösser ist als die kleinere Zahl.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 7 (Eintritspreis basierend auf dem Alter)</strong></span> Schreiben Sie ein Programm, das das Alter einer Person als Eingabe nimmt und den Eintrittspreis basierend auf dem Alter berechnet: unter 18: 5Chf, 18-64: 10Chf, 65 und älter: 7Chf.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 8 (Maximalwert)</strong></span> Schreiben Sie ein Programm, das drei Zahlen als Eingabe nimmt und den größten Wert ausgibt.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class='callout-icon'></i>
 </div>
 <div class="callout-title-container flex-fill">
-Potenzen
+Maximalfunktion
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Potenzen werden in Python mit <code>**</code>angeschrieben:</p>
-<p><span class="math inline">\(x^2 \longrightarrow\)</span> <code>x**2</code>.</p>
-<p>Andere Computersprachen (z.B. LaTeX) benutzen stattdessen <code>^</code>, dann wird es <code>x^2</code> geschrieben.</p>
+<p>Die Maximalfunktion gibt sofort den grössten Wert aus: <code>max()</code></p>
 </div>
 </div>
 </div>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 5 (Kreisumfang berechnen)</strong></span> Schreiben Sie ein Programm, das den Radius eines Kreises als <em>Eingabe</em> nimmt und den Umfang des Kreises ausgibt.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 9 (Berechnung der Quadratwurzel)</strong></span> Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurzel dieser Zahl berechnet. Überprüfen Sie dabei, ob die Zahl positiv ist.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 10 (Dreieckstyp)</strong></span> Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein Dreieck handeln kann und falls ja, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 11 (Addition mit Überprüfung)</strong></span> Schreibe ein Programm, das zwei Zahlen als Eingabe nimmt, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.</p>
+</div>
+<div id="exr-line" class="theorem exercise">
+<p><span class="theorem-title"><strong>Übungsaufgabe 12 (Zufällige Addition mit Überprüfung)</strong></span> Schreibe ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihre Summe berechnet und überprüft, ob das vom Benutzer eingegebene Ergebnis korrekt ist.</p>
 <div class="callout callout-style-default callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon"></i>
+<i class='callout-icon'></i>
 </div>
 <div class="callout-title-container flex-fill">
-Libraries
+Random-Package
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Damit Sie <span class="math inline">\(\pi\)</span> erhalten müssen Sie mit <code>import math</code>, z.B. in der ersten Zeile des Programms, die <em>math library</em> importieren und können danach <code>math.pi</code> nutzen.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> math</span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="bu">print</span>(math.pi)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Das Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben. Jedes Mal wenn das Programm laufen gelassen werden neue zufällige Zahlen mit Hilfe der aktuellen Uhrzeit produziert.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> random</span>
+<span id="cb1-2"><a href="#cb1-2"></a>zahl1 <span class="op">=</span> random.randint(<span class="dv">1</span>, <span class="dv">100</span>)</span>
+<span id="cb1-3"><a href="#cb1-3"></a>zahl2 <span class="op">=</span> random.random()</span>
+<span id="cb1-4"><a href="#cb1-4"></a>zahl3 <span class="op">=</span> random.choice(<span class="op">-</span><span class="dv">1</span>,<span class="dv">1</span>)</span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="bu">print</span>(zahl1,zahl2,zahl3)</span></code></pre></div>
 </div>
 </div>
 </div>
 <div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 6 (Hypotenuse eines rechtwinkligen Dreiecks)</strong></span> Schreiben Sie ein Programm, das die beiden Katheten eines rechtwinkligen Dreiecks als Eingabe nimmt und die Länge der Hypotenuse berechnet.</p>
+<p><span class="theorem-title"><strong>Übungsaufgabe 13 (Zufällige Multiplikation mit Bewertung)</strong></span> Schreiben Sie ein Programm, das zwei zufällige Zahlen zwischen 1 und 100 generiert, ihr Produkt berechnet und überprüft, um wieviel das vom Benutzer eingegebene Resultat vom echten Resultat abweicht. Bei einer Eingabe von weniger als 2% soll “sehr gut” ausgegeben werden, bei einer Abweichung ovn weniger als 7% soll “gut” augegeben werden und bei einer Abweichung von mehr als 20% soll “schwach” ausgegeben werden. In allen anderen Fällen soll “gut genug” ausgegeben werden.</p>
 </div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 7 (Temperaturumrechnung)</strong></span> Schreiben Sie ein Programm, das eine Temperatur in Celsius als Eingabe nimmt und diese in Fahrenheit umrechnet. Verwenden Sie folgende Formel:</p>
-<p><span class="math display">\[\text{Fahrenheit}=\text{Celsius}\cdot \frac{9}{5}+32\]</span></p>
-<p><strong>Vertiefung:</strong> Schreiben Sie ein Programm, welches von Celsius zurückrechnet in Frahrenheit. Testen Sie ihr Programm.</p>
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-int-next">Übungen mit Loops</span> <span class="hidden" data-render-id="quarto-int-prev">Übungen mit Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LG_mathpython.htmlSemesterübersicht">Semesterübersicht</span> <span class="hidden" data-render-id="quarto-int-sidebar:undefinedLernmodule">Lernmodule</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_IDE_install.htmlInstallationsanleitung-IDE">Installationsanleitung IDE</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_01.htmlVariablen-Datentypen-und-Typecasting">Variablen Datentypen und Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_02.htmlConditionals">Conditionals</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_03.htmlLoops">Loops</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_04.htmlListen">Listen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_05.htmlFunktionen">Funktionen</span> <span class="hidden" data-render-id="quarto-int-sidebar:undefinedÜbungsblätter">Übungsblätter</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_01.htmlÜbungen-mit-Typecasting">Übungen mit Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_02.htmlÜbungen-mit-Conditionals">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_03.htmlÜbungen-mit-Loops">Übungen mit Loops</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_04.htmlÜbungen-zu-Listen">Übungen zu Listen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_05.htmlÜbungen-zu-Funktionen">Übungen zu Funktionen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_06.htmlErweiterte-Übungen-in-Python">Erweiterte Übungen in Python</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/aufgabensammlung.htmlAufgabensammlung">Aufgabensammlung</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://github.com/PHBern-RConrardy/lerngelegenheiten">https://github.com/PHBern-RConrardy/lerngelegenheiten</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://www.zotero.org/groups/5512202/literatur_phbern_conrardy">https://www.zotero.org/groups/5512202/literatur_phbern_conrardy</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Übungsblätter">Übungsblätter</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Übungen-mit-Conditionals">Übungen mit Conditionals</span></p>
+<div class="hidden" data-render-id="footer-left-https://www.phbern.ch/">
+<p>PHBern</p>
 </div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 8 (Zinsrechnung)</strong></span> Schreiben Sie ein Programm, das das Anfangskapital, den Zinssatz und die Anzahl der Jahre als Eingabe nimmt und das Endkapital berechnet. Verwenden Sie die Formel:</p>
-<p><span class="math display">\[ \text{Endkapital}=\text{Anfangskapital}\cdot\left(1+\frac{\text{Zinssatz}}{100}\right)^\text{Jahre}\]</span></p>
+<div class="hidden" data-render-id="footer-center-/footer/impressum.html">
+<p>Impressum</p>
 </div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 9 (Volumen eines Zylinders)</strong></span> Schreiben Sie ein Programm, das den Radius und die Höhe eines Zylinders als Eingabe nimmt und das Volumen des Zylinders berechnet. Verwenden Sie folgende Formel: <span class="math display">\[\text{Volumen}=\pi\cdot\text{Radius}^2\cdot\text{Hoehe}\]</span></p>
+<div class="hidden" data-render-id="footer-center-/footer/disclaimer.html">
+<p>Disclaimer</p>
 </div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 10 (Minuten)</strong></span> Schreiben Sie ein Programm, das eine Anzahl von Sekunden als Eingabe nimmt und die Anzahl abgelaufener ganze Minuten zählt.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
+<div class="hidden" data-render-id="footer-center-https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
+<p>Kontakt</p>
 </div>
-<div class="callout-title-container flex-fill">
-Ganzzahldivision
+<div class="hidden" data-render-id="footer-right-&lt;small&gt;Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.&lt;/small&gt;">
+<p><small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small></p>
 </div>
 </div>
-<div class="callout-body-container callout-body">
-<p>Python nutzt <code>/</code>als Divison. <code>//</code>ist hingegen die Ganzzahldivision, es entspricht dem Resultat der Division mit Rest, bzw. es ist das abgerundete Resultat der Division.</p>
-<p><code>7//3</code> ergibt 2, denn: <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span></p>
-</div>
-</div>
-</div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 11 (Anzahl der vollen Dutzend)</strong></span> Schreiben Sie ein Programm, das eine Anzahl von Eiern als Eingabe nimmt und berechnet, wie viele volle Dutzend (12 Eier) und wie viele Eier übrig sind.</p>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Modulo
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p><code>%</code> ist in Python der Modulo-Operator. Er entspricht dem Rest bei der (Ganzzahl)Division mit Rest.</p>
-<p><code>7%3</code>, gelesen <em>7 modulo 3</em>, ergibt 1, denn <span class="math inline">\(7/3=2 \text{ Rest } 1\)</span>.</p>
-</div>
-</div>
-</div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 12 (Wochen und Tage)</strong></span> Schreiben Sie ein Programm, das eine Anzahl von Tagen als Eingabe nimmt und berechnet, wie viele Wochen und Tage das sind.</p>
-</div>
-<div id="exr-line" class="theorem exercise">
-<p><span class="theorem-title"><strong>Übungsaufgabe 13 (Packungsgrösse und Restmenge)</strong></span> Schreiben Sie ein Programm, das die Gesamtzahl von Artikeln und die Grösse einer Packung als Eingabe nimmt und berechnet, wie viele volle Packungen und wie viele einzelne Artikel übrig bleiben.</p>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-metatitle">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-twittercarddesc"></span> <span class="hidden" data-render-id="quarto-ogcardddesc"></span></p>
 </div>
 
-
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, July 18). <em>Übungen mit Typecasting</em>.
-University of Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
-</div></div></section></div></main> <!-- /main -->
-<script id="quarto-html-after-body" type="application/javascript">
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -864,27 +835,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/">
-<p>PHBern</p>
-</a>
+ PHBern
+    </a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/impressum.html">
-<p>Impressum</p>
-</a>
+    <a class="nav-link" href="/footer/impressum.html">
+ Impressum
+    </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/disclaimer.html">
-<p>Disclaimer</p>
-</a>
+    <a class="nav-link" href="/footer/disclaimer.html">
+ Disclaimer
+    </a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
-<p>Kontakt</p>
-</a>
+ Kontakt
+    </a>
   </li>  
 </ul>
     </div>
@@ -898,7 +869,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
+</body>
 
-
-
-</body></html>
+</html>

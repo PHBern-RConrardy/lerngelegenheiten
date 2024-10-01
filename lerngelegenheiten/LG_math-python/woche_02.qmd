@@ -74,7 +74,7 @@ Schreiben Sie ein Programm, das eine Zahl als Eingabe nimmt und die Quadratwurze
 ::: {#exr-line}
 ## Dreieckstyp
 
-Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt.
+Schreiben Sie ein Programm, das die Längen der drei Seiten eines Dreiecks als Eingabe nimmt und überprüft, ob es sich um ein Dreieck handeln kann und falls ja, ob es sich um ein gleichseitiges, gleichschenkliges oder unregelmäßiges Dreieck handelt. 
 :::
 ::: {#exr-line}
 ## Addition mit Überprüfung
@@ -96,7 +96,7 @@ Das Python-Package random wird genutzt um (pseudo-)zufällige Zahlen auszugeben.
 import random
 zahl1 = random.randint(1, 100)
 zahl2 = random.random()
-zahl3 = choice(-1,1)
+zahl3 = random.choice(-1,1)
 print(zahl1,zahl2,zahl3)
 ```
 

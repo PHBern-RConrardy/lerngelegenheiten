@@ -40,17 +40,6 @@ PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reus
 SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: [@eckhart_reichhaltige_2020; @nydegger_reichhaltige_2019]
 :::
 
-## Eigene Forschungsschwerpunkte
-
-- Flipped Classroom Methode
-- Phasenmodell
-- Aufgaben mit mehreren *representations and solution methods*
-- Empirische Forschung
-
-:::quelle
-representations and solution methods: [vgl. @kapur_productive_2014, S.49]
-:::
-
 # 4F-Modell
 
 ## Empirische Forschung
@@ -113,18 +102,22 @@ $$n=173$$
 * Phase 1: *learn basic content online and prior to class*
 * Phase 2: *in-class time to clarify students’ understandings [...] enable students to engage deeply [...]*
 
+## Engagement
+
+## Mental Load
+
 ::: quelle
 [@kapur_fail_2022, S.1]
 :::
 
 # Leitfrage & Forschungsdesign
 
-## Leitfrage
+## Forschungsfrage
 
-<br>
-<br>
-
-Is the 4F-model flipped the right way?
+1. Die aktive Teilnahme ist bei beiden Varianten am höchsten während Präsenzaktivitäten.
+2. Beide Modelle unterscheiden sich nicht im Leistungstest.
+3. Aktive Teilnahme ist ein Prädiktor für Leistung. 
+4. Mentale Anstrengung ist kein Prädiktor für Leistung.
 
 ## Untersuchungsdesign
 
