@@ -63,7 +63,7 @@ Aber wo stehen Sie? Wie sehen Sie das? Wie positionieren Sie sich z.B. in Bezug 
 
 # Gütekriterien
 
-Wenn in der Schule Leistungen und Kompetenzen überprüft, gemessen und evaluiert werden, dann ist die Beachtung von Testprinzipien oder Testgütekriterien bei der Erstellung, Druchführung und Bewertung von Beurteilungsanlässen unerlässlich. Im [folgenden Screencast](https://tube.switch.ch/embed/Je0H4VW3sh?title=hide) werden die wichtigsten Gütekriterien erläutert.
+Wenn in der Schule Leistungen und Kompetenzen überprüft, gemessen und evaluiert werden, dann ist die Beachtung von Testprinzipien oder Testgütekriterien bei der Erstellung, Druchführung und Bewertung von Beurteilungsanlässen unerlässlich. Im [folgenden Screencast](https://tube.switch.ch/embed/Je0H4VW3sh?title=hide) ([Slides](screencast_slides/Guetekriterien.pdf)) werden die wichtigsten Gütekriterien erläutert.
 
 # Überblick über die AHB
 

@@ -53,9 +53,9 @@ Sollten Sie Fragen zum Thema haben, das Bedürfnis verspüren bestimmte Aspekte 
 Bevor wir uns mit der Kompetenzorientierung ansich beschäftigen, sollten wir uns fragen, worin denn das Problem für Lehrpersonen mit diesem Thema besteht und was die Einführung des Lehrplan 21 mit seiner ausgeprägten kompetenzorientierten Ausprägung bei den Lehrpersonen ausgelöst hat.
 
 :::{#fig-problemstellung}
-<iframe src="https://tube.switch.ch/embed/vcZBrB67qY?title=hide" frameborder="0" allow="fullscreen"></iframe>
+<iframe src="https://tube.switch.ch/embed/vcZBrB67qY?title=hide" frameborder="0" allow="fullscreen"></iframe> 
 
-Screencast - Problemstellung
+Screencast - Problemstellung ([Slides](screencast_slides/LM_07_01_Kompetenzorientierung_Problemstellung.pdf))
 :::
 
 # 2 Begriffsklärung
@@ -65,7 +65,7 @@ Ausgehend von der Definition und von einem neuen Verständnis des Begriffs «Kom
 :::{#fig-begriff}
 <iframe src="https://tube.switch.ch/embed/3WFJH1zBMK?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
-Screencast - Begriffsklärung
+Screencast - Begriffsklärung ([Slides](screencast_slides/LM_07_02_Kompetenzorientierung_Begriffsklaerung.pdf))
 :::
 
 # 3 Kompetenzorientierter Unterricht
@@ -78,7 +78,7 @@ Im neuen Lehrplan 21 ist diese Offizialisierung und Legitimierung innovativer Un
 :::{#fig-kompetenzorientiert}
 <iframe src="https://tube.switch.ch/embed/1MHBWhla3N?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
-Screencast - Kompetenzorientierter Unterricht
+Screencast - Kompetenzorientierter Unterricht ([Slides](screencast_slides/LM_07_03_Kompetenzorientierung_Kompetenzorientierter_Unterricht.pdf))
 :::
 
 # 4 Kompetenzorientierte Beurteilung
@@ -89,7 +89,7 @@ Hier beantworten diese Frage noch sehr allgemein. In anderen Lernmodulen (z.B. F
 :::{#fig-beurteilung}
 <iframe src="https://tube.switch.ch/embed/dLWAAvKWcV?title=hide" frameborder="0" allow="fullscreen"></iframe>
 
-Screencast - Kompetenzorientierte Beurteilung
+Screencast - Kompetenzorientierte Beurteilung ([Slides](screencast_slides/LM_07_04_Kompetenzorientierung_Kompetenzorientierte_Beurteilung.pdf))
 :::
 
 # Verarbeitungsauftrag

@@ -154,6 +154,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-lehrmaterialien .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-authors',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-lehrmaterialien'] = new List('listing-lehrmaterialien', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
@@ -213,7 +241,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(40)</span></div><div class="category" data-category="Fach - Mathematik">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Label - Digitalität">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Formative Beurteilung">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Klassenführung">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Mikroplanung">Modul - Mikroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Summative und prognostische Beurteilung">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Zusammenarbeit und Kommunikation">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(42)</span></div><div class="category" data-category="7. Klasse">7. Klasse <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Fach - Mathematik">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Label - Digitalität">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="MA.1.A.1.i">MA.1.A.1.i <span class="quarto-category-count">(2)</span></div><div class="category" data-category="MA.1.B.1.i">MA.1.B.1.i <span class="quarto-category-count">(2)</span></div><div class="category" data-category="MA.1.B.1.k">MA.1.B.1.k <span class="quarto-category-count">(2)</span></div><div class="category" data-category="MA.1.C.2.i.">MA.1.C.2.i. <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Formative Beurteilung">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Klassenführung">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Mikroplanung">Modul - Mikroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Summative und prognostische Beurteilung">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Zusammenarbeit und Kommunikation">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -259,7 +287,7 @@ window.Quarto = {
 
 
 <div class="tabset-margin-container"></div><div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Projekte</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Lerngelegenheiten</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Lernmodule</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">Konferenzen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false">Lernumgebungen</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false">Projekte</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows.</p>
@@ -394,7 +422,7 @@ Untertitel
 <span class="listing-subtitle">Digitalität und Datenschutz</span>
 </td>
 </tr>
-<tr data-index="1" data-listing-file-modified-sort="1722513681344" data-listing-reading-time-sort="2" data-listing-word-count-sort="216" data-listing-title-sort="Thematische Einführung" data-listing-filename-sort="LM_01.qmd">
+<tr data-index="1" data-listing-file-modified-sort="1728380458093" data-listing-reading-time-sort="2" data-listing-word-count-sort="216" data-listing-title-sort="Thematische Einführung" data-listing-filename-sort="LM_01.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_01.html" class="title listing-title">Thematische Einführung</a>
 </td>
@@ -402,7 +430,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="2" data-listing-file-modified-sort="1722514289933" data-listing-reading-time-sort="4" data-listing-word-count-sort="674" data-listing-title-sort="Theoretische Grundlagen" data-listing-filename-sort="LM_02.qmd">
+<tr data-index="2" data-listing-file-modified-sort="1728381181039" data-listing-reading-time-sort="4" data-listing-word-count-sort="678" data-listing-title-sort="Theoretische Grundlagen" data-listing-filename-sort="LM_02.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_02.html" class="title listing-title">Theoretische Grundlagen</a>
 </td>
@@ -410,7 +438,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="3" data-listing-file-modified-sort="1720708658830" data-listing-reading-time-sort="7" data-listing-word-count-sort="1210" data-listing-title-sort="Gesetzliche Grundlagen" data-listing-filename-sort="LM_03.qmd">
+<tr data-index="3" data-listing-file-modified-sort="1728381231114" data-listing-reading-time-sort="7" data-listing-word-count-sort="1211" data-listing-title-sort="Gesetzliche Grundlagen" data-listing-filename-sort="LM_03.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_03.html" class="title listing-title">Gesetzliche Grundlagen</a>
 </td>
@@ -418,7 +446,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="4" data-listing-file-modified-sort="1720708786769" data-listing-reading-time-sort="3" data-listing-word-count-sort="564" data-listing-title-sort="Noten und Beurteilungsberichte" data-listing-filename-sort="LM_04.qmd">
+<tr data-index="4" data-listing-file-modified-sort="1728381277471" data-listing-reading-time-sort="3" data-listing-word-count-sort="565" data-listing-title-sort="Noten und Beurteilungsberichte" data-listing-filename-sort="LM_04.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_04.html" class="title listing-title">Noten und Beurteilungsberichte</a>
 </td>
@@ -426,7 +454,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="5" data-listing-file-modified-sort="1720769403159" data-listing-reading-time-sort="2" data-listing-word-count-sort="207" data-listing-title-sort="Förderorientierung" data-listing-filename-sort="LM_05.qmd">
+<tr data-index="5" data-listing-file-modified-sort="1728381658402" data-listing-reading-time-sort="2" data-listing-word-count-sort="211" data-listing-title-sort="Förderorientierung" data-listing-filename-sort="LM_05.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_05.html" class="title listing-title">Förderorientierung</a>
 </td>
@@ -434,7 +462,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="6" data-listing-file-modified-sort="1723710938780" data-listing-reading-time-sort="4" data-listing-word-count-sort="771" data-listing-title-sort="Lernbegleitung und Lerncoaching" data-listing-filename-sort="LM_06.qmd">
+<tr data-index="6" data-listing-file-modified-sort="1728382189380" data-listing-reading-time-sort="4" data-listing-word-count-sort="773" data-listing-title-sort="Lernbegleitung und Lerncoaching" data-listing-filename-sort="LM_06.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_06.html" class="title listing-title">Lernbegleitung und Lerncoaching</a>
 </td>
@@ -442,7 +470,7 @@ Untertitel
 <span class="listing-subtitle">Grundlagen der Beurteilung</span>
 </td>
 </tr>
-<tr data-index="7" data-listing-file-modified-sort="1720618251238" data-listing-reading-time-sort="4" data-listing-word-count-sort="669" data-listing-title-sort="Kompetenzorientierung" data-listing-filename-sort="LM_07.qmd">
+<tr data-index="7" data-listing-file-modified-sort="1728382390003" data-listing-reading-time-sort="4" data-listing-word-count-sort="674" data-listing-title-sort="Kompetenzorientierung" data-listing-filename-sort="LM_07.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_esw-beurteilung/LM_07.html" class="title listing-title">Kompetenzorientierung</a>
 </td>
@@ -609,7 +637,7 @@ Untertitel
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-date-sort="1732143600000" data-listing-file-modified-sort="1726822246096" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="590" data-listing-title-sort="<small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>" data-listing-filename-sort="2024_11_21_Zukunftsforum.qmd">
+<tr data-index="0" data-listing-date-sort="1732143600000" data-listing-file-modified-sort="1728333517921" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="590" data-listing-title-sort="<small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</small>" data-listing-filename-sort="2024_11_21_Zukunftsforum.qmd">
 <td>
 <span class="listing-date">21.11.2024</span>
 </td>
@@ -738,6 +766,69 @@ Keine Treffer
 </div>
 </div>
 <div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p>Auflistung von Lernumgebungen welche von Studierenden erstellt wurden.</p>
+<div id="listing-lehrmaterialien" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-lehrmaterialien-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-lehrmaterialien'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+<th>
+authors
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="7. Klasse,MA.1.A.1.i,MA.1.B.1.i,MA.1.B.1.k,MA.1.C.2.i." data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1728396612749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="14" data-listing-word-count-sort="2649" data-listing-title-sort="Negative Zahlen" data-listing-filename-sort="math_02_negative_zahlen.qmd">
+<td>
+<a href="./lehrmaterialien/math_02_negative_zahlen.html" class="title listing-title">Negative Zahlen</a>
+</td>
+<td>
+<span class="listing-subtitle">Teil 1/2, Addition und Subtraktion</span>
+</td>
+<td>
+<span class="listing-authors">Manon Brunner</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="7. Klasse,MA.1.A.1.i,MA.1.B.1.i,MA.1.B.1.k,MA.1.C.2.i." data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1728396610715" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="419" data-listing-title-sort="Negative Zahlen" data-listing-filename-sort="math_03_negative_zahlen.qmd">
+<td>
+<a href="./lehrmaterialien/math_03_negative_zahlen.html" class="title listing-title">Negative Zahlen</a>
+</td>
+<td>
+<span class="listing-subtitle">Teil 2/2, Multiplikation und Division</span>
+</td>
+<td>
+<span class="listing-authors">Manon Brunner</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
 <p>Auflistung von getrennten Projekten welche in keine andere Kategorie passen.</p>
 </div>
 </div>

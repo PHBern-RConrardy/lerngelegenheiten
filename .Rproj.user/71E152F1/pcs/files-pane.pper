@@ -2,7 +2,7 @@
     "sortOrder": [
         {
             "columnIndex": 2,
-            "ascending": false
+            "ascending": true
         },
         {
             "columnIndex": 3,
@@ -13,5 +13,5 @@
             "ascending": false
         }
     ],
-    "path": "~/Quarto/Quarto_Kurse/lerngelegenheiten/LG_math-standtest"
+    "path": "~/Quarto/Quarto_Kurse"
 }

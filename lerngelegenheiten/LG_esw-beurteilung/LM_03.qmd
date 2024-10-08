@@ -38,7 +38,7 @@ Die Studierenden ...
 
 # Input als Screencast
 
-Mit [diesem Screencast](https://tube.switch.ch/embed/xTav3e1any?title=hide) stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
+Mit [diesem Screencast](https://tube.switch.ch/embed/xTav3e1any?title=hide) ([Slides](screencast_slides/Gesetzliche_Grundlagen_Input.pdf)) stellen wir Ihnen die Grundlagendokumente zu den rechtlichen Grundlagen vor und weisen explizit auf einige bernische Regelungen und Vorgaben in Bezug auf Beurteilung & Förderung hin.
 
 # Verarbeitungsauftrag
 
