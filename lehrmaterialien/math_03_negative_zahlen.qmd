@@ -19,7 +19,7 @@ citation:
 
 copyright: Diese Lernumgebung beruht auf einer Lernumgebung welche von Manon Brunner erstellt wurde und unter https://portfolio.switch.ch/view/view.php?id=876799 veröffentlicht wurde. Richard Conrardy hat es einheitlich umformatiert.
 licence: CC-BY-SA
-draft: false
+draft: true
 
 abstract: >
   

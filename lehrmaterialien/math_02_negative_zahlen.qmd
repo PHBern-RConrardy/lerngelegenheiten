@@ -1,15 +1,13 @@
 ---
 format: 
   html: default
+  pdf: default
 title: Negative Zahlen
 subtitle: Teil 1/2, Addition und Subtraktion
-categories:
-  - 7. Klasse
-  - MA.1.A.1.i
-  - MA.1.B.1.i
-  - MA.1.B.1.k
-  - MA.1.C.2.i.
-  
+
+toc: true
+toc-expand: 1
+
 date: 09/22/2024
 
 authors: "Manon Brunner"
@@ -23,40 +21,26 @@ licence: CC-BY-SA
 draft: false
 
 abstract: >
+  Zwei Doppellektionen zum Rechnen mit negativen Zahlen (Addition, Subtraktion, Multiplikation und Division) mit einer Mischung aus LP-Erklärungen und Gruppenaufgaben sowie einem unterrichtsbegleitenden Skript.
   
 ---
 
-::: {.callout-tip collapse="true"}
 
-## Lernvoraussetzungen der Schüler*Innen
+# Organisatorisches 
 
-* Natürliche Zahlen (1, 2, 3, ...) sind bekannt
-* Grundrechenarten (Addition, Subtraktion, Multiplikation und Division) sind bei den natürlichen Zahlen vertraut (werden beherrscht)
-* Die Zahlengeraden (mindestens der Zahlenstrahl) wurde schon min. einmal gesehen--> Zahlen sind in einer bestimmten Reihenfolge angeordnet
-* Zahlen Vergleichen (>, <, =) können die SuS
-* Schüler haben möglicherweise (mit ziemlicher Wahrscheinlichkeit) Erfahrungen mit Alltagssituationen gemacht, die negative Konzepte beinhalten
 
-→ Temperaturen können negativ sein --> sehr kalt
-
-→ Punkte verlieren
-
-→ Lift fahren
-
-→ Etc.
-
-:::
 
 :::{.callout-note collapse="true"}
 
 ## Kompetenzstufen
 
-MA.1.A.1.i Die Schülerinnen und Schüler verstehen und verwenden die Begriffe Vorzeichen, positive Zahlen, negative Zahlen.
+[MA.1.A.1.i](https://be.lehrplan.ch/1012ASpUwBy3Avq8Fh6pLaSX6qJA4E9aP){.knopf .stufe}  Die Schülerinnen und Schüler verstehen und verwenden die Begriffe Vorzeichen, positive Zahlen, negative Zahlen.
 
-MA.1.B.1.i Die Schülerinnen und Schüler können heuristische Strategien verwenden: durch Fragen die Problemstellung klären, systematisch variieren, mit vertrauten Aufgaben vergleichen, Annahmen treffen, Lösungsansätze austauschen.
+[MA.1.B.1.i](https://be.lehrplan.ch/101PMehfhGfDTwS57PhXq7U6StXKA6WR8){.knopf .stufe .zyklus2}  Die Schülerinnen und Schüler können heuristische Strategien verwenden: durch Fragen die Problemstellung klären, systematisch variieren, mit vertrauten Aufgaben vergleichen, Annahmen treffen, Lösungsansätze austauschen.
 
-MA.1.B.1.k Die Schülerinnen und Schüler können arithmetische und algebraische Zusammenhänge erforschen, Strukturen auf andere Zahlbeispiele übertragen und Beobachtungen festhalten
+[MA.1.B.1.k](https://be.lehrplan.ch/101TrS9Y3WNTDAYebE4WFSETV7vcRMUZ7){.knopf .stufe}  Die Schülerinnen und Schüler können arithmetische und algebraische Zusammenhänge erforschen, Strukturen auf andere Zahlbeispiele übertragen und Beobachtungen festhalten
 
-MA.1.C.2.i. Die Schülerinnen und Schüler können Alltagssituationen (z.B. Flächeninhalt eines Zimmers; Geschwindigkeit eines Autos; Benzinverbrauch) in mathematische Sprache übersetzen, die richtigen Grössen identifizieren und geeignete Masseinheiten wählen.
+[MA.3.C.2.f](https://be.lehrplan.ch/101wG7NVzBtst6UTvh4Tm5TGEAym3RtyL){.knopf .stufe}  Die Schülerinnen und Schüler können Alltagssituationen (z.B. Flächeninhalt eines Zimmers; Geschwindigkeit eines Autos; Benzinverbrauch) in mathematische Sprache übersetzen, die richtigen Grössen identifizieren und geeignete Masseinheiten wählen.
 
 :::
 
@@ -65,12 +49,13 @@ MA.1.C.2.i. Die Schülerinnen und Schüler können Alltagssituationen (z.B. Flä
 ## Lernziele
 
 Die Schülerinnen und Schüler...
+
 1. wenden die negativen Zahlen in einem realen Kontext an, z.B. bei Temperaturangaben auf dem Thermometer ablesen.
 2. vergleichen negative Zahlen mit positiven Zahlen und tragen sie auf der Zahlengerade richtig ein.
 3. führen die Grundoperationen (Addition, Subtraktion, Multiplikation und Division) mit negativen Zahlen korrekt aus
 :::
 
-#  Einstiegsaufgaben an der Wandtafel (20 Min.)
+#  Einstieg (20 Min.)
 
 ::: {.callout-note collapse="true"}
 ## Instructions
@@ -79,6 +64,12 @@ Um in das Thema der negativen Zahlen etwas spielerisch Einzusteigen, befassen si
 :::
 
 ::: {#exr-line}
+
+
+
+## Thermometer
+
+[MA.1.A.1.i](){.knopf .stufe} 
 
 * Die Temperatur beträgt am frühen Morgen -3°C. Im Laufe des Tages steigt die Temperatur um 6°C.
   * Frage: Welche Temperatur herrscht am Abend?
@@ -203,30 +194,96 @@ Das Übungs-Programm eignet sich dafür das Kopfrechnen zu trainieren und zu aut
 
 Man findet es unter diesem [Link](Übungs-Programm )
 
+----
+
+# Einstieg (20 Min.)
+
+## Entwicklung eigener Textaufgaben: 
+
+Die SuS bilden Vierergruppen und setzen sich gemeinsam an einen Tisch. Nun muss jeder für sich eine eigene Textaufgabe zum Thema der negativen Zahlen entwickeln. (Vorgabe: Es darf sich nicht um eine Aufgabe handeln, die sich mit Temperatur / Thermometer befasst → Appell an die Kreativität der SuS)
+
+Sobald die alle SuS der Gruppe min. eine Aufgabe kreiert und eine Lösung erstellt haben. Können die Aufgaben unter den Gruppenmitgliedern ausgetauscht werden. So dass jeder SuS eine Aufgabe einer Mitschülerin oder eines Mitschülers löst. 
+
+Je nach dem, wie selbstständig die SuS arbeiten, kann den SuS vorgegeben werden, dass sie die selbstkreierten Aufgaben vor dem Austausch mit der LP besprechen müssen.   
+
+Bei Unklarheiten oder nicht übereinstimmenden Ergebnissen kann eine Beispielaufgabe anschliessend auch mit der gesamten Klasse besprochen werden. 
+
+⇒ Es ist das Ziel, dass sich die SuS etwas stärker mit dem Alltagsbezug der negativen Zahlen auseinandersetzten und sich selbst eine Situation überlegen, in der negative Zahlen eine Rolle spielen. Hierbei soll zudem ihre Sprachkenntnisse verwendet und gefördert werden.
+
+Für das Ausführen dieser Aufgabe, wird den SuS genügend Zeit gelassen, damit die SuS ihrer Kreativität freien lauf lassen können (oder etwas länger über geeignete Beispiele nachdenken). 
+
+# Hauptteil (10+15 Min.)
 
 
-::: {.callout-tip collapse="true"}
+## Einführung in die Multiplikation (7 Min.)
 
-## Stolpersteine und mögliche Hilfestellungen
-Allgemein zum Operieren mit negativen Zahlen und nicht nur zu dieser Doppellektion (diese Stolpersteine gelten für den gesamten Themenblock «Negative Zahlen»)
+$-5 \cdot 4$
 
-* Schüler verwechseln das Minuszeichen als Teil einer Zahl (z.B. -3) mit dem Minuszeichen als Subtraktionsoperator (z.B. 7 - 3).
-  * Von Beginn an konsequent klare Bezeichnungen verwenden: «negativ» für das Vorzeichen und «minus» für die Subtraktion. Evtl. können farbliche Markierungen helfen die Unterscheidung deutlicher
-hervorzuheben.
-* Schwierigkeiten zu verstehen, dass das Subtrahieren einer negativen Zahl das Gleiche ist wie das Addieren der positiven Zahl (z.B. 5−(−3) = 5+3)
-  * Einführung des Merksatzes: «Minus und Minus gibt Plus». Zu Beginn ist es sicherlich sinnvoll Aufgaben mit Hilfe des Zahlenstrahls zu lösen, um sich die Merkregel zu verinnerlichen. Hierbei ist
-wichtig, dass die SuS auch wirklich verstehen, wieso es sich so verhält und sich nicht nur das Vorgehen einprägen.
-* Vorzeichenwechsel bei Multiplikation und Division --> (−2)×(−3) = 6 oder (−4)÷(−2) = 2
-  * Den genauen Sachverhalt, kann den SuS durch konkrete Beispiele vor Augen geführt werden. Das Prinzip muss mit den SuS umfassend aufarbeitet werden, sodass sie sich darauf einlassen können
-und anschliessend selbstständig Übungen dazu lösen können.
-* Schüler neigen dazu, größere negative Zahlen als „größer“ im positiven Sinne zu betrachten (z.B. denken, dass -5 größer ist als -2)
-  * Wiederholtes Üben: Aufgaben mit dem Zahlenstrahl lösen, um das Verständnis visuell zu verstärken. Zudem kann das Arbeiten mit bekannten Konzepten helfen ein tieferes Verständnis aufzubauen:
-Temperatur: -2 °C wärmer ist als -10°C.
-* Einige Schüler haben eine Angst vor negativen Zahlen oder glauben, dass sie schwer zu verstehen sind, was ihr Lernen blockiert.
-  * Die SuS können durch kleine Erfolgserlebnisse ermutigt werden. Zudem kann der spielerische Zugang an das Konzept den ersten Zugang wesentlich erleichtern und das Interesse an der Thematik
-wecken.
+$-8 \cdot 3$
+
+$7 \cdot (-7)$
+
+$-4 \cdot (-2)$
+
+## Einführung in die Division (8 Min.)
+
+$12 \div (-9)$
+
+$-3 \div 5$
+
+$-5 \div (-4)$
+
+::: {#exr-line}
+
+## Übungsaufgaben Multiplikation und Division (15 Min.)
+
+Berechne!
+
+1. $-5 \cdot 3 =$
+2. $-18 \div 3 =$
+3. $28 \div (-7) =$
+4. $-7 \cdot (-4) =$
+5. $-36 \div (-6) =$
+6. $6 \cdot (-8) =$
+7. $-9 \cdot 5 =$
+8. $-45 \cdot 5 =$
+9. $-3 \cdot (-2) =$
+10. $56 \div (-8) =$
+11. $-72 \div 9 =$
+12. $10 \cdot (-7) =$
+13. $-50 \div (-10) =$
+14. $-4 \cdot 6 =$
+15. $-11 \cdot (-3) =$
+16. $48 \cdot (-6) =$
+17. $-30 \div (-5) =$
+18. $12 \cdot (-5) =$
+19. $-8 \cdot 9 =$
+20. $15 \cdot (-2) =$
+21. $42 \div (-7) =$
+22. $-6 \cdot (-6) =$
+23. $14 \cdot (-3) =$
+24. $-24 \div 6 =$
+25. $36 \div (-12) =$
+26. $-10 \cdot 4 =$
+27. $7 \cdot (-7) =$
+28. $-81 \div (-9) =$
 
 :::
+
+-------
+
+## Üben (25 Min.)
+Arbeiten Sie weiter an den Aufgaben oben oder am Skript unten.
+
+# Abschluss / Ergebnissicherung (20 Min.)
+
+Auftrag: Erstelle auf einem leeren A4-Blatt ein Lernplakat, welches das Gelernte zum Thema negative Zahlen zusammenfasst. Enthalten muss es wichtige Regeln, Begriffe und dazugehörige Definitionen, Darstellungen und Beispiele. Des Weiteren solltest du mit verschiedenen Farben arbeiten, in gut leserlicher Schrift schreiben und den zur Verfügung gestellten Platz des Papieres ausnützen.
+
+So könnte ein solches Mini-Plakat aussehen: 
+![Beispielplakat](math_03_negative_zahlen/Mini-Lernplakat.jpg){height=300px}
+
+
+
 
 # Skript
 
@@ -636,4 +693,51 @@ Ein Unternehmen macht im ersten Quartal des Jahres einen Verlust von 15.000 Fran
 Im zweiten Quartal wird ein Gewinn von 22.000 Franken erzielt. Im dritten Quartal verliert das Unternehmen wieder 8.000 Franken, und im vierten Quartal gibt es einen Gewinn von 12.000 Franken.
 
 Wie hoch ist der Gesamtgewinn oder -verlust am Ende des Jahres?
+:::
+
+
+# Kommentar für Lehrpersonen
+
+::: {.callout-tip collapse="true"}
+
+## Stolpersteine und mögliche Hilfestellungen
+Allgemein zum Operieren mit negativen Zahlen und nicht nur zu dieser Doppellektion (diese Stolpersteine gelten für den gesamten Themenblock «Negative Zahlen»)
+
+* Schüler verwechseln das Minuszeichen als Teil einer Zahl (z.B. -3) mit dem Minuszeichen als Subtraktionsoperator (z.B. 7 - 3).
+  * Von Beginn an konsequent klare Bezeichnungen verwenden: «negativ» für das Vorzeichen und «minus» für die Subtraktion. Evtl. können farbliche Markierungen helfen die Unterscheidung deutlicher
+hervorzuheben.
+* Schwierigkeiten zu verstehen, dass das Subtrahieren einer negativen Zahl das Gleiche ist wie das Addieren der positiven Zahl (z.B. 5−(−3) = 5+3)
+  * Einführung des Merksatzes: «Minus und Minus gibt Plus». Zu Beginn ist es sicherlich sinnvoll Aufgaben mit Hilfe des Zahlenstrahls zu lösen, um sich die Merkregel zu verinnerlichen. Hierbei ist
+wichtig, dass die SuS auch wirklich verstehen, wieso es sich so verhält und sich nicht nur das Vorgehen einprägen.
+* Vorzeichenwechsel bei Multiplikation und Division --> (−2)×(−3) = 6 oder (−4)÷(−2) = 2
+  * Den genauen Sachverhalt, kann den SuS durch konkrete Beispiele vor Augen geführt werden. Das Prinzip muss mit den SuS umfassend aufarbeitet werden, sodass sie sich darauf einlassen können
+und anschliessend selbstständig Übungen dazu lösen können.
+* Schüler neigen dazu, größere negative Zahlen als „größer“ im positiven Sinne zu betrachten (z.B. denken, dass -5 größer ist als -2)
+  * Wiederholtes Üben: Aufgaben mit dem Zahlenstrahl lösen, um das Verständnis visuell zu verstärken. Zudem kann das Arbeiten mit bekannten Konzepten helfen ein tieferes Verständnis aufzubauen:
+Temperatur: -2 °C wärmer ist als -10°C.
+* Einige Schüler haben eine Angst vor negativen Zahlen oder glauben, dass sie schwer zu verstehen sind, was ihr Lernen blockiert.
+  * Die SuS können durch kleine Erfolgserlebnisse ermutigt werden. Zudem kann der spielerische Zugang an das Konzept den ersten Zugang wesentlich erleichtern und das Interesse an der Thematik
+wecken.
+
+:::
+
+
+::: {.callout-tip collapse="true"}
+
+## Lernvoraussetzungen der Schüler*Innen
+
+* Natürliche Zahlen (1, 2, 3, ...) sind bekannt
+* Grundrechenarten (Addition, Subtraktion, Multiplikation und Division) sind bei den natürlichen Zahlen vertraut (werden beherrscht)
+* Die Zahlengeraden (mindestens der Zahlenstrahl) wurde schon min. einmal gesehen--> Zahlen sind in einer bestimmten Reihenfolge angeordnet
+* Zahlen Vergleichen (>, <, =) können die SuS
+* Schüler haben möglicherweise (mit ziemlicher Wahrscheinlichkeit) Erfahrungen mit Alltagssituationen gemacht, die negative Konzepte beinhalten
+
+→ Temperaturen können negativ sein --> sehr kalt
+
+→ Punkte verlieren
+
+→ Lift fahren
+
+→ Etc.
+
 :::
