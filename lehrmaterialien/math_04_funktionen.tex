@@ -1,0 +1,915 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  10pt,
+  a4paper,
+  DIV=11]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+  \setmainfont[]{Arial}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=30mm,left=20mm,heightrounded]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{3}
+% Make \paragraph and \subparagraph free-standing
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+%% load packages
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{scrlayer-scrpage}
+\usepackage{fontspec}
+
+% Define title formatting
+
+%% Set font sizes for sections and subsections
+\sectionfont{\fontsize{11}{16}\selectfont\bfseries} % Arial 14pt bold
+\subsectionfont{\fontsize{10}{14}\selectfont} % Arial 12pt
+
+\lehead[test1]{\pagemark}
+\cehead[]{}
+\rehead[test 2]{\leftmark}
+\lohead[{\fontsize{8}{10}\selectfont\upshape\textbf{Institut Sekundarstufe I}} \\
+\fontsize{8}{10}\selectfont\upshape Fabrikstrasse 8, CH-3012 Bern \\
+\fontsize{8}{10}\selectfont\upshape T +41 31 309 21 15, contactdesk@phbern.ch, www.phbern.ch
+]{\rightmark}
+\rohead[PHBern]{}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{tcolorbox}{}{\usepackage[skins,breakable]{tcolorbox}}
+\@ifpackageloaded{fontawesome5}{}{\usepackage{fontawesome5}}
+\definecolor{quarto-callout-color}{HTML}{909090}
+\definecolor{quarto-callout-note-color}{HTML}{0758E5}
+\definecolor{quarto-callout-important-color}{HTML}{CC1914}
+\definecolor{quarto-callout-warning-color}{HTML}{EB9113}
+\definecolor{quarto-callout-tip-color}{HTML}{00A047}
+\definecolor{quarto-callout-caution-color}{HTML}{FC5300}
+\definecolor{quarto-callout-color-frame}{HTML}{acacac}
+\definecolor{quarto-callout-note-color-frame}{HTML}{4582ec}
+\definecolor{quarto-callout-important-color-frame}{HTML}{d9534f}
+\definecolor{quarto-callout-warning-color-frame}{HTML}{f0ad4e}
+\definecolor{quarto-callout-tip-color-frame}{HTML}{02b875}
+\definecolor{quarto-callout-caution-color-frame}{HTML}{fd7e14}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Inhaltsverzeichnis}
+\else
+  \newcommand\contentsname{Inhaltsverzeichnis}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Abbildungsverzeichnis}
+\else
+  \newcommand\listfigurename{Abbildungsverzeichnis}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Tabellenverzeichnis}
+\else
+  \newcommand\listtablename{Tabellenverzeichnis}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Abbildung}
+\else
+  \newcommand\figurename{Abbildung}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabelle}
+\else
+  \newcommand\tablename{Tabelle}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Listingverzeichnis}}
+\usepackage{amsthm}
+\theoremstyle{definition}
+\newtheorem{exercise}{Übungsaufgabe}[section]
+\theoremstyle{remark}
+\AtBeginDocument{\renewcommand*{\proofname}{Beweis}}
+\newtheorem*{remark}{Anmerkung}
+\newtheorem*{solution}{Lösung}
+\newtheorem{refremark}{Anmerkung}[section]
+\newtheorem{refsolution}{Lösung}[section]
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{ngerman}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Arial}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Funktionen},
+  pdfauthor={Richard Conrardy},
+  pdflang={de},
+  colorlinks=true,
+  linkcolor={(3,1.5)},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Funktionen}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Einführung ins Konzept}
+\author{Lynn Gurtner}
+\date{21.09.2024}
+
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Inhaltsverzeichnis}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+\section{Lektion 1}\label{lektion-1}
+
+\subsection{Organisation}\label{organisation}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0385}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2500}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3205}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0609}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3301}}@{}}
+\caption{Lektionsplan Lektion 1}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Zeitangabe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe SuS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe LP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+LUKAS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Methode
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Zeitangabe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe SuS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe LP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+LUKAS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Methode
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+5 min & Materialien bereitlegen & Begrüssung, Ankündigung neues Thema &
+Ankommen & Frontalunterricht \\
+15 min & Aufmerksam zuhören, Fragen stellen bei Unklarheiten. Beispiele
+notieren und gemeinsam lösen. & Einführung Funktionen Teil 1 mit Skript
+als Orientierung. Mehrere Beispiele werden an der Wandtafel gezeigt,
+Begriffe werden erklärt. Zugriff zum Skript erst am Ende der Erklärung.
+& Konfrontation & An der Wandtafel und Beamer, Frontalunterricht \\
+10 min & Durchlesen des Skripts. Teil 1. Unklarheiten mit LP klären,
+Wichtige Begriffe markieren & Zugriff zum Skript erteilen. Fragen der
+SuS klären. & Erarbeitungsaufgabe & Skript online hochladen, SuS machen
+Einzelarbeit beim Durchlesen, Fragen mit LP oder mit Nachbar*in
+klären. \\
+15 min & Aufgaben 1-4 lösen & Bereit für Fragen, allenfalls erneute
+Erklärungen an der Wandtafel. & Übungsaufgabe & Aufgaben können in
+Einzel- oder Partnerarbeit gelöst werden. Entweder direktes Lösen auf
+dem Tablet oder Übersetzen auf Papier. \\
+\end{longtable}
+
+\subsection{Skript}\label{skript}
+
+Skript Einführung Funktionen Teil 1 Was ist eine Funktion?
+
+Die Funktion ist eines der wichtigsten «Objekte» der Mathematik. In der
+Biologie oder im Physik werden sie oftmals auch als \textbf{Regeln,
+Gesetze oder Formeln} bezeichnet. Wir stellen uns Funktionen in der
+Mathematik als \textbf{kleine Maschinen} vor. In diese Maschine wird ein
+\textbf{Input} gegeben, dieser wird dann nach einer genauen Regel
+verarbeitet und als neuer \textbf{Output} wieder aus der Maschine
+gegeben.
+\href{https://v-fe.lehrplan.ch/101DeKLWBVL4Rk2n6hmVf3GLKffyRqX4Y}{MA.3.A.1.m}
+
+Eine Funktion wird üblicherweise mit dem Symbol f bezeichnet. Wobei der
+Input mit einem x und der Output mit einem y
+
+gekennzeichnet wird. Sind aber mehrere verschiedene Funktionen
+vorhanden, werden diese mit weiteren Buchstaben bezeichnet.
+
+Hängen wir diese Informationen nun zusammen, erhalten wir eine Maschine:
+
+\$ \text{Input } x \$
+
+\[
+\downarrow
+\]
+
+\[
+\boxed{f} \quad \text{Regel: } f(x) = x + 3
+\]
+
+\[
+\downarrow
+\]
+
+\$ \text{Output } y \$
+
+Der Input wird also in die Maschine gegeben, wird dann in der Maschine
+verändert und kommt als neuer Output wieder heraus. Die Regel dieser
+Funktion lautet x+3 . Das heisst, addiere den Input mit 3. Wenn also der
+Input 2 ist, so ist der Output 2+3=5.
+
+Hier ist eine Maschine \(g\),
+
+die mit einer anderen Regel funktioniert.
+
+\$ \text{Input } x \$
+
+\[
+\downarrow
+\]
+
+\[
+\boxed{g} \quad \text{Regel: } g(x) = x^2
+\]
+
+\[
+\downarrow
+\]
+
+\$ \text{Output } y \$
+
+Bei dieser Funktion wird der Inhalt quadriert. Wenn also \(x = 4\), so
+ist \(y\), oder der Output, \(4 \cdot 4 = 16\).
+
+Nun gibt es verschiedene \textbf{Notationen}, wie man eine Funktion ohne
+die Maschine beschreiben kann. Wir werden uns mit der meistgebrauchten
+Notation beschäftigen.
+
+Diese sieht folgendermassen aus: \(ƒ(x)\) \textbf{= Regel der Funktion}.
+
+Damit die Funktion berechnet werden kann, wird das \(x\) definiert,
+sodass man den \(y\)-Wert finden kann. Andererseits kann man auch den
+\textbf{\(y\)-Wert} definieren und so mit Hilfe der Funktionsregel auf
+den \textbf{\(x\)-Wert} schliessen.
+
+Wenn wir nun unsere Maschinen von oben betrachten, sehen diese mit der
+Notation so aus:
+
+\[ f(x) = x + 3 \]
+
+\[ g(x) = x^2 \]
+
+\textbf{Löse Aufgaben 1 \& 2 (Grundanforderung)}
+
+\textbf{Aufgabe 3:} obligatorisch für Sek und Spez-Sek, freiwillig für
+Real
+
+\textbf{Aufgabe 4:} obligatorisch für Spez-Sek, freiwillig für Sek und
+Real
+
+\subsection{Teil 2 Eigenschaften von Funktionen: Welche Gleichung ist
+keine
+Funktion?}\label{teil-2-eigenschaften-von-funktionen-welche-gleichung-ist-keine-funktion}
+
+Für eine Funktion kann nicht einfach eine willkürliche Gleichung gewählt
+werden. Es gibt gewisse Regeln, die beachtet werden müssen. Um diese
+etwas anschaulicher zu gestalten, benutzen wir dazu die \textbf{Mengen}.
+
+Jede Funktion besteht aus 2 Mengen. Diese Mengen werden als
+\textbf{Definitionsbereich} und als \textbf{Wertebereich} bezeichnet.
+
+Der Definitionsbereich einer Funktion gibt an welche Werte man in die
+Funktion einsetzen darf. Er beschreibt also alle Inputs oder x-Werte.
+
+Der Wertebereich beschreibt alle möglichen Ergebnisse, die aus der
+Maschine ausgespuckt werden können. Es sind also die Outputs oder
+y-Werte einer Funktion. Die Zahlen des Wertebereichs entstehen also
+durch die Zahlen des Definitionsbereichs.
+
+Damit eine Funktion nun gültig ist, kann \textbf{jeder Input nur einen
+einzigen Output} besitzen. Das bedeutet jedem Element im
+Definitionsbereich wird genau 1 Element im Wertebereich zugeteilt.
+Sobald die Gleichung mehrere Lösungen hat, ist es keine
+Funktionsgleichung.
+
+Lasst uns das in einem Bild veranschaulichen:
+
+\includegraphics{.pdf}
+
+Wie man sehen kann, verändern sich die Formen oder auch Zahlen durch die
+Funktionsregeln, jedoch wird jedem Input genau 1 Output zugestellt.
+Somit sind die Funktionen gültig.
+
+\subsubsection{Ist die folgende Gleichung eine Funktionsgleichung?
+Begründe:}\label{ist-die-folgende-gleichung-eine-funktionsgleichung-begruxfcnde}
+
+\[ f(2) = x^2 - 4 \]
+
+Ebenso wird die Gleichung nicht als gültig anerkannt, wenn sie kein
+Ergebnis ausspuckt.
+
+Ein Beispiel für eine Gleichung mit ungültigem Output ist:
+
+\[ f(3) = \frac{1}{x - 3} \]
+
+Diese Gleichung ist ungültig, da die Division durch Null nicht erlaubt
+ist. Die Gleichung hat also keinen gültigen Output.
+
+\subsubsection{MA.3.B.1.i}\label{ma.3.b.1.i}
+
+Löse Aufgaben 5-9. Aufgabe 9 = freiwillige Erweiterung.
+
+\subsubsection{Wichtige Erkenntnisse und
+Begriffe:}\label{wichtige-erkenntnisse-und-begriffe}
+
+\begin{itemize}
+\tightlist
+\item
+  Eine Funktion kann als kleine Maschine betrachtet werden.
+\item
+  Eine Funktion wird mit dem Symbol ƒ bezeichnet.
+\item
+  \textbf{Input} = x-Wert der Funktion.
+\item
+  \textbf{Output} = y-Wert der Funktion.
+\item
+  Jede Funktion besitzt eine Regel, nach der der Output berechnet wird.
+\item
+  \[ ƒ(x) \] = Regel der Funktion ist die Notation einer Funktion.
+\item
+  Der \textbf{Definitionsbereich} beschreibt die Inputs.
+\item
+  Der \textbf{Wertebereich} beschreibt die Outputs.
+\end{itemize}
+
+Wenn du noch eine zusätzliche Erklärung zum Thema Funktionen brauchst,
+kannst du gerne noch das Video unter folgendem Link anschauen:
+
+\href{https://youtu.be/myLx0d5wmHw?si=vB-aI0zptBWo8Rt4}{Video zur
+Erklärung der Funktionen}
+
+\textbf{Achtung:} Hier werden bereits die Funktionsgraphen erklärt,
+welche wir uns in einem nächsten Schritt anschauen. Du darfst dich aber
+gerne schon darüber informieren.
+
+\section{Lektion 2}\label{lektion-2}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0241}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3320}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3843}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0523}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2072}}@{}}
+\caption{Lektionsplan Lektion 2}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Zeitangabe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe SuS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe LP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+LUKAS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Methode
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Zeitangabe
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe SuS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Aufgabe LP
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+LUKAS
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Methode
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+15 min & Zuhören, Fragen stellen bei Unklarheiten & Einführung des 2.
+Teils (Mengen). Unklarheiten wiederholen, Begriffe erklären mit
+Beispielen (Erklärung mit Menge = Beispiel 1 bei Beispielen einer
+Funktion von Serlo als Hilfe) & Konfrontation und Reflexion &
+Frontalunterricht, Wandtafel und Beamer \\
+20 min & Aufgaben 5-9 lösen. Bei Unklarheiten LP fragen oder verlinkte
+Videos anschauen. & SuS unterstützen beim Lösen der Aufgaben. Allenfalls
+Aufgaben im Plenum erklären. Einige schwierigere Aufgaben im
+Frontalunterricht lösen, falls erwünscht von den SuS. & Übungs- und
+Vertiefungsaufgaben & Einzel- oder Partnerarbeit. SuS arbeiten am Platz
+mit Tablets. \\
+10 min & Letzter Teil: Wichtige Begriffe und Erkenntnisse durchlesen.
+Unklarheiten melden. & Wiederholung der wichtigen Begriffe und
+Erkenntnisse. Schwierige Aufgaben besprechen und gemeinsam lösen.
+Allenfalls von SuS erklären lassen. & Reflexion und Synthese & Zuerst
+Einzelarbeit beim Lesen, danach Besprechung und Klärung im
+Frontalunterricht \\
+\end{longtable}
+
+\section{Übungen
+Funktionsgleichungen}\label{uxfcbungen-funktionsgleichungen}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Finde den y-Wert
+
+\begin{flalign*}
+&\text{a.} \quad &f(2)  &=  \ 3x + 2 \\
+&\text{b.} \quad &g(7)  &=  \ 2x - 1 \\
+&\text{c.} \quad &h(8)  &=  \ 12x + 3 \\
+&\text{d.} \quad &i(1)  &=  \ 12x \cdot 3 - 9 \\
+&\text{e.} \quad &k(2)  &=  \ 2x
+\end{flalign*}
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Erstelle eine Funktionsgleichung mit
+
+\begin{enumerate}
+\def\labelenumi{\alph{enumi}.}
+\tightlist
+\item
+  \(x = 2\)
+\item
+  \(x = −2\)
+\item
+  \(x = 16\)
+\item
+  \(x = 1.5\)
+\item
+  \(x = 12\)
+\item
+  \(x = 7 − 4 / 2\)
+\end{enumerate}
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Betrachte die folgenden, mit Worten beschriebenen Funktionen. Zeichne
+für jede Funktion die Maschinen-Darstellung und schreibe auch die
+Funktionsgleichung auf. (MA.1.A.4.j)
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Der Input wird durch 2 geteilt, und das Ergebnis wird um 1 erhöht.
+\item
+  Der Input wird um 2.5 vermindert, und das Ergebnis wird mit 10
+  multipliziert.
+\item
+  Der Input wird hoch drei gerechnet, und das Ergebnis wird mit 2
+  multipliziert.
+\item
+  Der Input wird mit 3 multipliziert, das Ergebnis wird hoch drei
+  gerechnet.
+\end{enumerate}
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Bestimme den Input für den gegebenen Output
+
+\subsubsection{1.}\label{section}
+
+x = ?
+
+↓ ⌈ƒ⌋\\
+Regel: f(x) = 3x − 1\\
+↓\\
+y = 0
+
+\subsubsection{2.}\label{section-1}
+
+x = ?
+
+↓ ⌈ƒ⌋\\
+Regel: f(x) = 2x\\
+↓\\
+y = 36
+
+\subsubsection{3.}\label{section-2}
+
+x = ?
+
+↓ ⌈ƒ⌋\\
+Regel: f(x) = (x − 1)²\\
+↓\\
+y = 16
+
+\subsubsection{4.}\label{section-3}
+
+x = ?
+
+↓ ⌈ƒ⌋ Regel: f(x) = 1x\\
+↓\\
+y = 0
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+f ist die Funktion, die jeder Frucht in der Menge die richtige Farbe
+zuordnet.
+
+Zeichne die Mengen des Definitionsbereichs und des Wertebereichs.
+Verbinde die Elemente durch Pfeile (wie im Skript) und notiere die
+Funktionsgleichungen für:
+
+\begin{itemize}
+\tightlist
+\item
+  Apfel\\
+\item
+  Banane\\
+\item
+  Birne\\
+\item
+  Mango\\
+\item
+  Pflaume\\
+\item
+  Tomate
+\end{itemize}
+
+Funktionsgleichungen können auch im Alltag nützlich sein. Schauen wir
+uns eine solche Situation etwas genauer an. (MA.3.C.3.g)
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Die Fahrzeit berechnen mit Hilfe einer Funktionsgleichung
+
+Für die Berechnung der Fahrzeit benötigen wir 2 verschiedene Angaben:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Die Strecke\\
+\item
+  Die Geschwindigkeit
+\end{enumerate}
+
+Für die Strecke benutzen wir den Buchstaben \textbf{d} (distance) mit
+der Maßeinheit km und für die Geschwindigkeit den Buchstaben \textbf{v}
+(velocity) mit der Maßeinheit km/h.\\
+Wenn wir nun die Fahrzeit berechnen wollen, benötigen wir die folgende
+Gleichung:
+
+\textbf{f(t) = d / v}
+
+Die Strecke geteilt durch die Geschwindigkeit ergibt also die Fahrzeit.
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Berechne die Fahrzeit. Gib in Minuten an
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  t = 120, v = 60
+\item
+  t = 30, v = 60
+\item
+  t = 100, v = 80
+\item
+  t = 70, v = 40
+\end{enumerate}
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Berechne die Fahrzeit von der Schule zu deinem Zuhause und an deinen
+Lieblings-Ferienort mit
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  v = 80
+\item
+  v = 120
+\end{enumerate}
+
+\end{exercise}
+
+\begin{exercise}[]\protect\hypertarget{exr-line}{}\label{exr-line}
+
+Berechne die Fahrzeit für die Strecke zum Ferienort, wenn du 1/3 der
+Strecke 30 km/h fährst, 1/3 der Strecke 80 km/h fährst und 1/3 der
+Strecke 100 km/h fährst.
+
+\end{exercise}
+
+\subsection{Lehrpersonenkommentar}\label{lehrpersonenkommentar}
+
+\begin{tcolorbox}[enhanced jigsaw, left=2mm, colbacktitle=quarto-callout-note-color!10!white, bottomtitle=1mm, leftrule=.75mm, coltitle=black, breakable, opacitybacktitle=0.6, opacityback=0, arc=.35mm, toptitle=1mm, rightrule=.15mm, colback=white, title=\textcolor{quarto-callout-note-color}{\faInfo}\hspace{0.5em}{Hinweis}, colframe=quarto-callout-note-color-frame, titlerule=0mm, bottomrule=.15mm, toprule=.15mm]
+
+Die Funktionen spielen eine sehr wichtige Rolle in der Mathematik.
+Deshalb möchte ich für die Einführung in dieses neue Thema zwei
+Lektionen beanspruchen. Mein Skript, das die Basis für diese Lektionen
+bildet, beschäftigt sich vorwiegend mit Funktionsgleichungen und
+Begriffserklärungen. Die SuS lernen einen neuen mathematischen Begriff,
+die Funktion, sowie eine neue Notation kennen. Damit das Thema
+verständlicher wird, rate ich den SuS im ersten Teil des Skripts, sich
+Funktionen als kleine Maschinen vorzustellen. Dabei lernen sie bildlich,
+was eine Funktion ist und wie diese funktioniert.
+
+Im zweiten Teil des Skripts werden Funktionen anhand von Mengen
+veranschaulicht. Die SuS lernen dadurch zwei verschiedene Varianten
+kennen, wie man Funktionen darstellen kann. Diese Vergleiche sollen
+ihnen helfen, die folgende mathematische Gleichungen besser zu
+verstehen. Der Fokus dieses Skripts liegt ausführlich auf den
+Funktionsgleichungen. Alternativ könnte man auch mit dem Graphen einer
+Funktion beginnen und anhand dessen auf die Gleichung schliessen. Ich
+halte es jedoch für sinnvoller, zuerst zu verstehen, was eine Funktion
+ist und wie man sie korrekt notiert, bevor man sich mit den Arten von
+Funktionen und somit ihren Graphen beschäftigt. Ich fokussiere mich
+deshalb auf die Gleichungen und würde dann in einer nächsten Lektion mit
+dem Graph einer Funktion fortfahren.
+
+Nach dem ersten Teil des Skripts habe ich einige Übungen eingebaut.
+Diese sind darauf ausgelegt, die SuS so intensiv wie möglich mit den
+Gleichungen zu konfrontieren. Es gibt Aufgaben, bei denen sie die
+Gleichung lösen müssen, und andere, bei denen sie die Funktionsgleichung
+selbst formulieren sollen. Dadurch erhalten sie einen differenzierten
+Überblick über das neue Thema.
+
+Auch nach dem zweiten Teil gibt es verschiedene Aufgaben. Die erste ist
+auf die Anwendung der Mengentheorie ausgelegt und beim Rest liegt der
+Fokus dann wieder beim Lösen von Funktionsgleichungen. Auch habe ich ein
+alltagsnahes Beispiel eingefügt, um das Thema den SuS etwas näher zu
+bringen.
+
+In diesen Lektionen liegt der Fokus auf dem neuen Thema der Funktion.
+Deshalb sollten der erste und zweite Teil des Skripts zu Beginn der
+Lektionen frontal eingeführt werden. So haben alle SuS die neuen
+Informationen einmal gehört und es können bereits einige Beispiele
+gemeinsam bearbeitet werden. Das Skript wird den SuS aber auch nach der
+Einführung zugänglich sein, damit sie die Informationen zur
+Ergebnissicherung noch einmal nachlesen können. Erst danach sollten sie
+mit den Übungen beginnen. Als kleine ``Auszeit'' oder zusätzliche Hilfe
+habe ich auch Videos eingebaut, um eine alternative Lernstrategie
+anzubieten. Mir ist bewusst, dass dieser Lektionsablauf eher altmodisch
+ist und man heute einen interaktiveren Unterricht planen sollte. Dennoch
+bin ich überzeugt, dass es sich gerade bei der Einführung von neune
+Themen sehr lohnt, wenn man sie bewusst im Frontalunterricht behandelt.
+
+\subsubsection{Unterrichtsmethoden}\label{unterrichtsmethoden}
+
+Um das Thema der Funktionen verständlicher zu machen, setze ich auf eine
+Kombination von Unterrichtsmethoden. Zu Beginn der beiden Lektionen
+führe ich das Thema frontal ein. Dabei wird den SuS das neue Thema der
+Funktionen erklärt. Im ersten Teil gehe ich vor allem auf die Notation
+und den Aufbau einer Funktion ein. In der zweiten Lektion wird das Thema
+gewissermassen wiederholt, allerdings werden die Funktionen nun auf eine
+andere Art und Weise dargestellt. Durch den Frontalunterricht erkenne
+ich in der zweiten Lektion direkt, was die SuS noch nicht verstanden
+haben. Die klare Einführung stellt sicher, dass alle SuS mit den neuen
+Grundbegriffen arbeiten können. Gerade bei neuen Themen ist es sinnvoll,
+den Frontalunterricht anzuwenden, da so alle SuS gleichzeitig auf
+denselben Wissensstand gebracht werden. Anschließend kann in einer
+weiteren Unterrichtssequenz auf lernschwächere oder sehr leistungsstarke
+SuS individuell eingegangen werden.
+
+Nach dem Einstieg folgt eine Phase der Einzelarbeit. Die SuS sollen das
+gerade Gelernte noch einmal durchlesen, um die Informationen besser zu
+verinnerlichen. Sobald dies geschehen ist, können sie beim Lösen der
+Aufgaben zwischen Einzel- und Partnerarbeit wählen.
+
+Durch die Partnerarbeit haben die SuS die Möglichkeit, sich gegenseitig
+zu unterstützen. Das kooperative Lernen fördert sowohl das Verständnis
+des Themas als auch ihre sozialen Kompetenzen. Außerdem haben sie durch
+diese Methode die Gelegenheit, Fragen an die Lehrperson oder ihre Peers
+zu stellen.
+
+Das Austeilen des Skripts ermöglicht es den SuS, individuell an den
+Aufgaben zu arbeiten. Sie können dies in ihrem eigenen Tempo tun und
+dabei jederzeit die Regeln der Funktionen nachlesen, falls etwas unklar
+ist. In diesen Phasen kann ich die SuS individuell unterstützen.
+
+\subsubsection{Unterrichtstechniken Einführung
+Funktionen}\label{unterrichtstechniken-einfuxfchrung-funktionen}
+
+Bei jedem neuen Thema in der Mathematik fragt man sich, wie es für die
+Schülerinnen und Schüler am besten verständlich wird. Bei den Funktionen
+habe ich mich deshalb für eine visuelle Darstellung und den Einsatz von
+Metaphern entschieden. Das Konzept der Funktionsgleichung vergleiche ich
+mit einer kleinen Maschine, die einen Input und einen Output
+verarbeitet. Diese bildhafte Beschreibung hilft den Lernenden, eine
+Verbindung zwischen dem abstrakten Thema der Funktion und der Realität
+herzustellen. Zudem führe ich die mathematische Notation schrittweise
+ein. Zunächst arbeite ich mit der visuellen Metapher der Maschine, bevor
+ich zur mathematischen Notation übergehe. Ebenso wie die Maschine helfen
+auch Mengen, das Thema zu visualisieren. Da die Schülerinnen und Schüler
+bereits mit Mengen vertraut sind, lassen sich einfache Alltagsbeispiele
+nutzen, um das Thema verständlicher zu machen. Hier arbeite ich mit
+Symbolen oder in den Übungen dann auch mit Früchten. Ich verpacke also
+die symbolische Sprache der Mathematik in greifbare Beispiele. Ein
+weiterer wesentlicher Bestandteil meiner Lernumgebung sind die
+anschließenden Übungen, die ich nach jedem Theorieteil einfüge. Diese
+Aufgaben basieren direkt auf den Beispielen aus dem Skript, sodass die
+Lernenden das neue Wissen sofort anwenden können. Ich habe die Aufgaben
+in Grundanforderungen und Erweiterungen unterteilt, damit alle ein
+grundlegendes Verständnis erwerben, aber auch die Möglichkeit haben,
+selbstständig weiterzuarbeiten und ihr Verständnis zu überprüfen. Im
+Allgemeinen folgt meine Lernumgebung einer klaren und verständlichen
+Struktur. Sie beginnt mit dem theoretischen Teil, gefolgt von darauf
+aufbauenden Aufgaben. Was den Schülerinnen und Schülern hilft, ihr
+Wissen systematisch zu vertiefen.
+
+\subsubsection{Vertiefung 1: Lernphasen}\label{vertiefung-1-lernphasen}
+
+Mit dem LUKAS Lernprozessmodell wird diese Lernumgebung in 5 Phasen
+unterteilt.
+
+Zu Beginn der Lektion wird der Klasse der Lernauftrag klar vermittelt.
+Durch den Frontalunterricht erkläre ich das neue Thema der Funktionen.
+Die SuS haben somit eine erste Vorstellung der Funktion, deren
+mathematischen Notation und sie lernen eine neue Gleichungsart kennen.
+Ich biete der Klasse also eine klare Orientierung, was sie lernen sollen
+und warum das Thema wichtig ist. Folglich wissen die Schülerinnen und
+Schüler von Anfang an, welche Lernziele sie erreichen sollen.
+
+In der darauffolgenden Phase befinden wir uns im Bereich der
+Erarbeitung. Die Klasse setzt sich also nach dem theoretischen Input mit
+dem eben gelernten Stoff auseinander. Sie werden zunächst aufgefordert,
+das Gelernte noch einmal zu vertiefen, indem sie es in Einzelarbeit
+durchlesen. Danach können sie selbst entscheiden, ob sie die Übungen
+alleine oder zu zweit erarbeiten wollen.
+
+Die Dritte Phase, das Können, wird durch das Lösen der Übungen gestärkt.
+Die SuS wenden die neuen Erkenntnisse an, indem sie die
+Funktionsgleichungen lösen und auch selbständig aufstellen. Die Aufgaben
+helfen den SuS ihr Verständnis über das Thema zu stärken und
+gleichzeitig werden sie routinierter im Umgang mit Funktionsgleichungen.
+Hierbei haben sie die Möglichkeit in ihrem eigenen Tempo zu arbeiten,
+was eine individuelle Differenzierung fördert.
+
+Die Anwendungsphase ist in dieser Lernumgebung in den letzten Aufgaben
+zu finden. Mit Hilfe des Alltagsbeispiels lernen die SuS, die neuen
+Informationen auf lebensnahe Kontexte zu übertragen. Dabei vertiefen sie
+ihr Verständnis und kennen zugleich ein Beispiel für die Relevanz der
+mathematischen Funktion im Alltag.
+
+In der letzten Phase findet die Sicherung des Gelernten statt. Dafür
+fasse ich die wichtigsten Begriffe des Themas am Ende des Skripts noch
+einmal zusammen. Diese Aufzählung dient als Checkliste für die
+Schülerinnen und Schüler, falls sie eine Begriff nicht mehr definieren
+können. Auch dient sie als Anhaltspunkt für die Lehrperson beim
+Überprüfen, welche Konzepte noch nicht erfasst werden konnten.
+
+\subsubsection{Vertiefung 2: Motivation}\label{vertiefung-2-motivation}
+
+Die Motivation der Schülerinnen und Schüler spielt in jeder Lernumgebung
+eine zentrale Rolle. In den Mathematikunterricht der Oberstufe kommen
+viele SuS leider bereits mit negativen Erfahrungen oder sogar Ängsten
+daher. Deshalb ist es umso wichtiger, ihre Motivation anzuzapfen und
+stetig aufzubauen.
+
+In dieser Lernumgebung setze ich deshalb auf eine klare Struktur und
+verständliche Aufgabenstellungen, um die Ängste der SuS zu minimieren.
+Die frontale Einführung gibt ihnen eine solide Grundlage, auf der sie im
+weiteren Verlauf der Lektion aufbauen können. Falls der Einstieg für
+manche zu schnell war oder sich einzelne SuS nicht genug konzentrieren
+konnten, stellt das Skript einen weiteren Meilenstein dar. Es bietet
+ihnen die Möglichkeit, immer wieder auf die Theorie zurückzugreifen,
+falls sie auf Schwierigkeiten stossen. Zusätzlich steht ihnen ein
+unterstützendes Video zur Verfügung. Dieses Video ist nicht offizieller
+Teil der Lernumgebung, dient jedoch als zusätzliche differenzierte
+Hilfe. Sobald die SuS das neue Thema verstanden haben, steigt auch ihre
+Motivation. Denn am wenigsten motiviert ist man, wenn man einen
+Themenbereich nicht nachvollziehen kann. Durch verschiedene
+Unterrichtsmethoden und gezielt eingesetzte Techniken wird die
+Motivation der SuS weiter gestärkt. Sie haben die Freiheit, ihr
+Lerntempo selbst zu gestalten und können zwischen Einzelarbeit und
+kooperativem Lernen wählen. Bildhafte Darstellungen und Metaphern helfen
+ebenfalls, mögliche Hemmungen abzubauen und das Thema zugänglicher zu
+machen. Ein weiterer wichtiger Punkt ist das Einbeziehen von
+Alltagsbeispielen. Diese helfen den SuS, die Relevanz komplexer
+mathematischer Themen in ihrem täglichen Leben zu erkennen, sodass das
+Thema nicht als „unnötig`` wahrgenommen wird. Zusammenfassend tragen
+alle diese Faktoren dazu bei, dass die Schülerinnen und Schüler
+Interesse am Thema entwickeln, ihre Aufgaben motiviert angehen und das
+Gelernte langfristig festigen.
+
+\end{tcolorbox}
+
+
+
+\end{document}
