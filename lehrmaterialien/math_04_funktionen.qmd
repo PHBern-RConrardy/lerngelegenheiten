@@ -22,6 +22,7 @@ licence: CC-BY-SA
 draft: false
 
 abstract: >
+  Zwei Doppellektionen für die Einführung und Übung von Funktionen als Input-Output-Modell wobei entweder Input oder Output bekannt ist.
 ---
 # Lektion 1
 
