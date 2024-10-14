@@ -1,0 +1,598 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  10pt,
+  a4paper,
+  DIV=11]{scrartcl}
+
+\usepackage{amsmath,amssymb}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage[]{libertine}
+\ifPDFTeX\else  
+    % xetex/luatex font selection
+    \setmainfont[]{Arial}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[top=30mm,left=20mm,heightrounded]{geometry}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\setcounter{secnumdepth}{3}
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+%% load packages
+\usepackage{sectsty}
+\usepackage{fontspec}
+\usepackage{scrlayer-scrpage}
+\usepackage{fontspec}
+
+% Define title formatting
+
+%% Set font sizes for sections and subsections
+\sectionfont{\fontsize{11}{16}\selectfont\bfseries} % Arial 14pt bold
+\subsectionfont{\fontsize{10}{14}\selectfont} % Arial 12pt
+
+\lehead[test1]{\pagemark}
+\cehead[]{}
+\rehead[test 2]{\leftmark}
+\lohead[{\fontsize{8}{10}\selectfont\upshape\textbf{Institut Sekundarstufe I}} \\
+\fontsize{8}{10}\selectfont\upshape Fabrikstrasse 8, CH-3012 Bern \\
+\fontsize{8}{10}\selectfont\upshape T +41 31 309 21 15, contactdesk@phbern.ch, www.phbern.ch
+]{\rightmark}
+\rohead[PHBern]{}
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Inhaltsverzeichnis}
+\else
+  \newcommand\contentsname{Inhaltsverzeichnis}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{Abbildungsverzeichnis}
+\else
+  \newcommand\listfigurename{Abbildungsverzeichnis}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{Tabellenverzeichnis}
+\else
+  \newcommand\listtablename{Tabellenverzeichnis}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Abbildung}
+\else
+  \newcommand\figurename{Abbildung}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Tabelle}
+\else
+  \newcommand\tablename{Tabelle}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{Listingverzeichnis}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+
+\ifLuaTeX
+\usepackage[bidi=basic]{babel}
+\else
+\usepackage[bidi=default]{babel}
+\fi
+\babelprovide[main,import]{ngerman}
+\ifPDFTeX
+\else
+\babelfont{rm}[]{Arial}
+\fi
+% get rid of language-specific shorthands (see #6817):
+\let\LanguageShortHands\languageshorthands
+\def\languageshorthands#1{}
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage{bookmark}
+
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Gleichungen},
+  pdfauthor={Richard Conrardy},
+  pdflang={de},
+  colorlinks=true,
+  linkcolor={(3,1.5)},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Gleichungen}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Einführung und Theorie}
+\author{David Grossenbacher}
+\date{22.09.2024}
+
+\begin{document}
+\maketitle
+\begin{abstract}
+Eine Doppellektion zur Einführung in Gleichungen
+\end{abstract}
+
+\renewcommand*\contentsname{Inhaltsverzeichnis}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{3}
+\tableofcontents
+}
+
+\section{}\label{section}
+
+\section{Lehrerkommentar}\label{lehrerkommentar}
+
+\href{https://be.lehrplan.ch/101E8xmhHHgram3LHqgCx2Gwdg3vJ6cPY}{MA.1.A.4.i}
+können ein Produkt mit gleichen Faktoren als Potenz schreiben und
+umgekehrt (z.B. \(15 \cdot 15 \cdot 15 = 15^3\) ;
+\(a \cdot a \cdot a \cdot a = a^4\) ).
+
+\href{https://be.lehrplan.ch/101AJt2yMqVxRygKJ2xZqrbaqzAhfYnDL}{MA.1.A.4.j}
+Erweiterung: können lineare Gleichungen mit einer Variablen mit
+Äquivalenzumformungen lösen (z.B. \(5x + 3 = 7\))
+\href{https://be.lehrplan.ch/101eyUHN5UTpNM7eNmb25PVMKdrYH99AJ}{MA.3.c.3.g}
+Erweiterung: können Buchstabenterme, Formeln und lineare
+Funktionsgleichungen mit Sachsituationen konkretisieren (z.B. die
+Funktionsgleichung y = 2x + 3 mit Preis = 2 · Anzahl + 3).
+
+\section{Lehrpersonenkommentar}\label{lehrpersonenkommentar}
+
+Die vorliegende Lernumgebung dient als Einführung und erste Annäherung
+an das Thema «Gleichungen» für 7. Klässler im ersten Semester. Die
+beigelegte Lektionsplanung ist für etwa 3-4 Lektionen ausgelegt.
+
+\subsection{Vorangehende Kompetenzen}\label{vorangehende-kompetenzen}
+
+Folgende \textbf{vorangehende Kompetenzen} sollten die SuS behandelt
+haben:
+
+\begin{itemize}
+\tightlist
+\item
+  Die SuS wissen, was eine Variable ist und sie kennen die einfachen
+  Term-Vereinfachungsregeln (Bspw.: \(x + 2x = 3x\)).
+\item
+  Die SuS beherrschen die Grundoperationen.
+\end{itemize}
+
+\subsection{Grundlegende
+Stolpersteine}\label{grundlegende-stolpersteine}
+
+Weiter sind die folgenden grundlegenden \textbf{Stolpersteine} zu
+beachten:
+
+\begin{itemize}
+\tightlist
+\item
+  Die SuS kennen die Rechenregeln von ganzen und rationalen Zahlen noch
+  nicht. Die Lösungen und die in den Aufgaben gebrauchten Zahlen sind
+  also immer rein natürliche Zahlen. Folgendes Beispiel ist
+  dementsprechend nicht Inhalt der LU:
+\end{itemize}
+
+\begin{figure}[H]
+
+{\centering \includegraphics{.pdf}
+
+}
+
+\caption{Bild}
+
+\end{figure}%
+
+\begin{itemize}
+\tightlist
+\item
+  Die SuS können Gleichungen noch nicht umstellen. Die Variable \(x\)
+  wird durch reines Einsetzen und Kopfrechnen ermittelt.
+\item
+  Die SuS haben noch kein oder ein falsches Verständnis dafür, was das
+  Gleichheitszeichen bedeutet. In der Primarstufe wird oftmals gesagt
+  ``eins und eins gibt zwei''. Daraus könnte sich das Fehlkonzept
+  entwickeln, dass \(1 + 1\) irgendwie zu \(2\) führt. Das Verständnis
+  dafür, dass beide Terme auf der linken und rechten Seite des
+  Gleichheitszeichens ausgewertet gleich groß sein müssen, wäre
+  dementsprechend nicht vorhanden.
+\item
+  Termumformungen sind in dieser LU kein Thema.
+\end{itemize}
+
+\subsection{Lernziele}\label{lernziele}
+
+In dieser Lernumgebung werden folgende Lernziele angepeilt:
+
+\begin{itemize}
+\item
+  Die SuS können einfache Gleichungen mit einer Variable durch reines
+  Einsetzen und Kopfrechnen ermitteln.
+\item
+  Die SuS können Gleichungen ausgehend von Texten aufschreiben.
+\item
+  Die SuS füllen Wertetabellen für Gleichungen mit 2 Variablen korrekt
+  aus.
+\item
+  Die Schüler erstellen keine ``Gleichheitsketten'' und verwenden das
+  Äquivalenzzeichen korrekt. Bsp:
+
+  \(3x + 1 = 10 \leftrightarrow x = 3\)
+
+  und nicht
+
+  \(3x + 1 = 10 = x = 3\)
+\end{itemize}
+
+\subsection{Arbeitsunterlagen für
+SuS}\label{arbeitsunterlagen-fuxfcr-sus}
+
+\begin{itemize}
+\tightlist
+\item
+  Da das Thema ``Gleichungen'' erst eingeführt wird, haben die Übungen
+  nicht sehr viel Anwendungscharakter.
+\item
+  Die Aufgabenstellungen sind nicht sehr differenziert, sie sollten aber
+  in allen Klassen für die Erarbeitung der Grundlagen hilfreich sein.
+  Bei sehr heterogenen Klassen müssen allenfalls zusätzliche
+  Arbeitsunterlagen den Bedürfnissen entsprechend angeschafft werden.
+\item
+  Das AB1 ist relativ repetitiv. Es muss nicht das gesamte AB gelöst
+  werden, bevor die SuS zu Übung 2 übergehen.
+\item
+  Die Übung 3 ist grundsätzlich nach der Einführung zu den Wertetabellen
+  zu bearbeiten. Nach eigenem Ermessen dürfen die SuS auch noch an den
+  vorherigen Aufträgen weitermachen.
+\item
+  Die unten aufgeführten .html Dateien orientieren sich an der
+  Aufgabenstellung des AB1 (\(x\) herausfinden) und an den ersten 5
+  Wertetabellen-Aufgaben (Wertetabellen\_Generator).
+\end{itemize}
+
+\subsubsection{Zusatzaufgaben für schnelle
+SuS:}\label{zusatzaufgaben-fuxfcr-schnelle-sus}
+
+\begin{itemize}
+\tightlist
+\item
+  Erstelle eigene Textaufgaben (siehe Übung 2).
+\item
+  Erstelle einen Merkhefteintrag, wo die wichtigsten theoretischen
+  Inhalte festgehalten werden.
+\item
+  Übe weiter in den Rechenprogrammen.
+\end{itemize}
+
+\subsubsection{Weitere Übungsmöglichkeiten, sollte die gesamte Klasse
+sehr schnell
+arbeiten:}\label{weitere-uxfcbungsmuxf6glichkeiten-sollte-die-gesamte-klasse-sehr-schnell-arbeiten}
+
+\begin{itemize}
+\tightlist
+\item
+  Die von den SuS erstellten Textaufgabenbeispiele können im Plenum
+  zusammen gelöst werden.
+\end{itemize}
+
+\subsection{Unterrichtsmaterialien}\label{unterrichtsmaterialien}
+
+Die LP benötigt eine Visualisierungshilfe (Visualiser, Tafel, o.ä.). Die
+Arbeitsaufgaben für die SuS können in dieser Form weiterverwendet und
+ausgedruckt werden. Weiter sollen A5-Blätter für die Zusatzaufgabe in
+Übung 2 bereitgehalten werden.
+
+\subsection{Ergebnissicherung}\label{ergebnissicherung}
+
+Es ist keine konkrete Art der Ergebnissicherung eingeplant. Es ist
+Auftrag der LP, während der individuellen Lernphasen Erkenntnisse über
+den Lernstand der individuellen SuS zu sammeln. Für die Lernprozess- /
+formative Beurteilung kann ein Merkhefteintrag eingefordert werden.
+
+\subsection{Unterrichtsmethoden}\label{unterrichtsmethoden}
+
+Makromethodisch findet der Unterricht in einem fremdgesteuerten Setting
+statt. Die LP instruiert und die SuS führen vorbereitete
+Aufgaben/Übungen aus.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Direkte Instruktionen:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Es sind zwei Frontalunterrichts-Sequenzen eingeplant. Hier werden
+    hauptsächlich theoretische Inhalte vermittelt und auch kurze
+    Einstiegsbeispiele gezeigt.
+  \item
+    Es wird versucht, am Vorverständnis der SuS anzuknüpfen.
+  \item
+    Die Bedeutung des Gleichheitszeichens und Äquivalenzpfeils werden im
+    Plenum vermittelt.
+  \end{itemize}
+\item
+  \textbf{Partnerarbeiten:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Während den Frontalunterrichtssequenzen werden kurze Murmelphasen
+    eingeplant, um die Anteilnahme der SuS zu fördern. Hier dürfen sich
+    die SuS kurz miteinander austauschen.
+  \item
+    Während den Arbeitsphasen können sich die SuS zusammensetzen und
+    Probleme gegebenenfalls miteinander betrachten.
+  \end{itemize}
+\item
+  \textbf{Individuelles Lernen (Offener Lernunterricht):}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Die SuS arbeiten selbstständig an den Übungsaufgaben. Hier können
+    sie sich im eigenen Tempo in das Gehörte vertiefen.
+  \item
+    Die LP agiert als Coach und hilft wo nötig.
+  \end{itemize}
+\item
+  \textbf{Digitale Medien:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Die Aufgaben können den SuS digital gezeigt werden.
+  \item
+    Es gibt zwei verschiedene Rechenprogramme, mit Hilfe von welchen SuS
+    weiterüben können.
+  \end{itemize}
+\item
+  \textbf{Deduktive Vorgehensweise:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Es werden zuerst theoretische Inhalte vermittelt. In den
+    Übungsaufgaben werden dann eher konkrete Fälle betrachtet.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Unterrichtstechniken}\label{unterrichtstechniken}
+
+In der vorliegenden Unterrichtsplanung werden verschiedene
+Unterrichtstechniken eingesetzt.
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Visualisierungshilfen:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Um das Erzählte zu unterstützen, zeigt die LP an der Wandtafel (oder
+    am Visualiser, o.ä.) die Rechnungen und Skizzen auf.
+  \end{itemize}
+\item
+  \textbf{Fragetechniken:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Während den Einführungen werden verschiedene Fragen gestellt:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{Rhetorische Fragen:} Es werden Fragen aufgeworfen, welche
+      noch keine Antwort von den SuS verlangen. Bsp.: ``Was bedeutet das
+      Gleichheitszeichen?'' Eine konkrete Antwort wird erst nach dem
+      Betrachten der Waage angeschaut.
+    \item
+      \emph{Konkrete Fragen:} Es werden im Plenum Fragen gestellt,
+      welche dann im Plenum besprochen werden.
+    \end{itemize}
+  \end{itemize}
+\item
+  \textbf{Aktivierungstechniken:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Um Antworten bei den jeweiligen Fragen zu generieren, werden
+    hauptsächlich Murmelgruppen verwendet. Hier besprechen die SuS mit
+    ihrem Pultnachbar die Fragen, um den Einstieg zu erleichtern.
+  \end{itemize}
+\item
+  \textbf{Reflexionstechniken:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Es besteht die Möglichkeit, dass die SuS einen Merkhefteintrag
+    erstellen, in welchem sie das Gelernte nochmals festhalten.
+  \end{itemize}
+\item
+  \textbf{Schritt-für-Schritt Erklärungen:}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Die SuS werden in verschiedenen Aufgaben angeleitet, damit sie das
+    Lösungsvorgehen bei Gleichungen verstehen lernen.
+  \end{itemize}
+\end{itemize}
+
+\subsection{Didaktische Prinzipien
+(Mathematik)}\label{didaktische-prinzipien-mathematik}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Anknüpfen an Vorwissen + Einführung in neue Konzepte}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Die Lernphase (LP) beginnt mit der Wiederholung des bereits
+    bekannten Themas „Variablen``.
+  \item
+    Dies stellt sicher, dass das Vorwissen aktiviert wird und die
+    Schülerinnen und Schüler (SuS) die Möglichkeit haben, auf bereits
+    Gelerntes zurückzugreifen.
+  \item
+    Danach wird schrittweise das neue Konzept „Gleichungen`` eingeführt.
+  \end{itemize}
+\item
+  \textbf{Verständnis von Begriffen und Symbolen (Variable, Term,
+  Gleichheitszeichen, etc.)}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Bezüglich der Sprachsensibilität im Mathematikunterricht müssen
+    diese Begriffe im Unterricht explizit verwendet werden.
+  \item
+    Dies fördert ein klares Verständnis und eine präzise Verwendung von
+    mathematischen Begriffen.
+  \end{itemize}
+\item
+  \textbf{Förderung des funktionalen Denkens}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Die LP zeigt beispielsweise lineare Beziehungen auf.
+  \item
+    Es wird erklärt, wie sich die Werte in der Zweierreihe durch
+    Multiplikation von (x) mit 2 ergeben.
+  \item
+    Dieses Verständnis legt die Basis für weiterführende Themen wie
+    lineare Funktionen und Graphen.
+  \end{itemize}
+\item
+  \textbf{Veranschaulichung der algebraischen Strukturen}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Durch das Hinzufügen weiterer Summanden zu einer Gleichung (von
+    (y=2x) zu (y=2x+3)) wird den SuS verdeutlicht, wie sich die
+    mathematische Struktur verändert.
+  \item
+    Dies zeigt auf, was diese Veränderung für die Lösungsmenge bedeutet.
+  \item
+    Dies ist ein wichtiger Aspekt der algebraischen Denkweise, die es
+    den SuS ermöglicht, allgemeine Strukturen in Gleichungen zu erkennen
+    und zu analysieren.
+  \end{itemize}
+\item
+  \textbf{Exploratives Arbeiten}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Um der rein deduktiven Vorgehensweise entgegenzuwirken, können die
+    SuS eigene Textaufgabenbeispiele erstellen.
+  \item
+    Hier geht es darum, Alltagsbeispiele zu mathematisieren.
+  \end{itemize}
+\end{itemize}
+
+
+
+
+\end{document}

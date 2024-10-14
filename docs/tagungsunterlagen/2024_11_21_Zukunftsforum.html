@@ -10,7 +10,7 @@
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Richard Conrardy">
   <title>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Schweizer Sekundarklassen</title>
@@ -445,8 +445,7 @@
 <li><span><strong>Fix</strong></span></li>
 <li><span><strong>Feed</strong></span></li>
 </ol>
-</div>
-</div>
+</div></div>
 <p>(&gt;1500 berücksichtigt, 173 eingeschlossen)</p>
 <div class="quelle">
 <p><span class="citation" data-cites="kapur_fail_2022">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Kapur et al., 2022, S. 14</a>)</span></p>
@@ -540,8 +539,7 @@
 <li><span style="color: #1c87ce"><strong>Fix</strong></span></li>
 <li><span style="color: #1c87ce"><strong>Feed</strong></span></li>
 </ol>
-</div>
-</div>
+</div></div>
 <p><span style="color: #1c87ce">synchron</span>; <span style="text-decoration: underline;color: #9478b6">asynchron</span></p>
 </section>
 <section id="forschungsfragen" class="slide level2 scrollable">
@@ -555,7 +553,7 @@
 <h2>Untersuchungsdesign</h2>
 <h3 id="pretest">Pretest</h3>
 <p>Eine Woche vor dem ersten Tag der Untersuchung</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Min.</th>
@@ -575,7 +573,7 @@
 <p><br></p>
 <h3 id="erster-tag-der-untersuchung">Erster Tag der Untersuchung</h3>
 <p>Klasse wird in 2 Gruppen räumlich getrennt.</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Min.</th>
@@ -614,7 +612,7 @@
 <p><br></p>
 <h3 id="zweiter-tag-der-untersuchung">Zweiter Tag der Untersuchung</h3>
 <p>Klasse wird zusammen unterrichtet.</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Min.</th>
@@ -937,18 +935,7 @@ Städeli, C., &amp; Maurer, M. (2020). <em>The <span>AVIVA</span> model A compet
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -980,7 +967,29 @@ Städeli, C., &amp; Maurer, M. (2020). <em>The <span>AVIVA</span> model A compet
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -988,7 +997,7 @@ Städeli, C., &amp; Maurer, M. (2020). <em>The <span>AVIVA</span> model A compet
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {

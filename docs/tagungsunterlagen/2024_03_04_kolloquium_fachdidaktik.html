@@ -10,7 +10,7 @@
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.4.551">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Richard Conrardy">
   <title>How to flip the right way? Fail, flip, fix and feed in practice.</title>
@@ -550,8 +550,7 @@
 <li>conceptual understanding</li>
 <li>transfer</li>
 </ul>
-</div>
-</div>
+</div></div>
 <div class="quelle">
 <p>vgl. <span class="citation" data-cites="kapur_preparatory_2015">Kapur (<a href="#/bibliographie" role="doc-biblioref" onclick="">2015</a>)</span></p>
 </div>
@@ -572,7 +571,7 @@
 <p><span class="citation" data-cites="kapur_preparatory_2015">Kapur (<a href="#/bibliographie" role="doc-biblioref" onclick="">2015</a>)</span></p>
 </div>
 <div class="quelle">
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Effektstärken</th>
@@ -848,7 +847,7 @@
 </section>
 <section id="eine-woche-vor-dem-ersten-tag-der-untersuchung" class="slide level2">
 <h2>Eine Woche vor dem ersten Tag der Untersuchung</h2>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Min.</th>
@@ -869,7 +868,7 @@
 <section id="erster-tag-der-untersuchung" class="slide level2">
 <h2>Erster Tag der Untersuchung</h2>
 <p>Klasse wird in 2 Gruppen räumlich getrennt.</p>
-<table>
+<table class="caption-top">
 <colgroup>
 <col style="width: 23%">
 <col style="width: 38%">
@@ -918,7 +917,7 @@
 <section id="zweiter-tag-der-untersuchung" class="slide level2">
 <h2>Zweiter Tag der Untersuchung</h2>
 <p>Klasse wird zusammen unterrichtet.</p>
-<table>
+<table class="caption-top">
 <thead>
 <tr class="header">
 <th>Min.</th>
@@ -1400,18 +1399,7 @@ Tucker, B. (2012). The flipped classroom. <em>Education next</em>, <em>1</em>, 8
         }
         return false;
       }
-      const clipboard = new window.ClipboardJS('.code-copy-button', {
-        text: function(trigger) {
-          const codeEl = trigger.previousElementSibling.cloneNode(true);
-          for (const childEl of codeEl.children) {
-            if (isCodeAnnotation(childEl)) {
-              childEl.remove();
-            }
-          }
-          return codeEl.innerText;
-        }
-      });
-      clipboard.on('success', function(e) {
+      const onCopySuccess = function(e) {
         // button target
         const button = e.trigger;
         // don't keep focus
@@ -1443,7 +1431,29 @@ Tucker, B. (2012). The flipped classroom. <em>Education next</em>, <em>1</em>, 8
         }, 1000);
         // clear code selection
         e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
       });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        // For code content inside modals, clipBoardJS needs to be initialized with a container option
+        // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
         var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
         var mailtoRegex = new RegExp(/^mailto:/);
           var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -1451,7 +1461,7 @@ Tucker, B. (2012). The flipped classroom. <em>Education next</em>, <em>1</em>, 8
             return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
         }
         // Inspect non-navigation links and adorn them if external
-     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
         for (var i=0; i<links.length; i++) {
           const link = links[i];
           if (!isInternal(link.href)) {

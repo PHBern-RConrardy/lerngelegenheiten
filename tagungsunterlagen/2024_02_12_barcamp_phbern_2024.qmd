@@ -56,6 +56,11 @@ author:
 </iframe>
 
 ## Workshop
+```{r}
+if (!requireNamespace("countdown", quietly = TRUE)) {
+    install.packages("countdown")
+}
+
 
 ```{r}
 #| echo: true
