@@ -113,7 +113,7 @@ Damit eine Funktion nun gültig ist, kann **jeder Input nur einen einzigen Outpu
 
 Lasst uns das in einem Bild veranschaulichen:
 
-![]()
+![Bild erstellt von Lynn Gurtner](Mengen.jpg)
 
 Wie man sehen kann, verändern sich die Formen oder auch Zahlen durch die Funktionsregeln, jedoch wird jedem Input genau 1 Output zugestellt. Somit sind die Funktionen gültig.
 
@@ -316,7 +316,7 @@ Berechne die Fahrzeit für die Strecke zum Ferienort, wenn du 1/3 der Strecke 30
 
 
 
-## Lehrpersonenkommentar
+# Lehrpersonenkommentar
 
 :::{.callout-note collapse="true"}
 

@@ -65,7 +65,7 @@ Um in das Thema der negativen Zahlen etwas spielerisch Einzusteigen, befassen si
 
 :::
   
-![Selbstgebastelter Thermometer, [Druckvorlage](math_02_negative_zahlen/Thermometer.docx)](math_02_negative_zahlen/Thermometer.jpg){height=300px}
+![Selbstgebastelter Thermometer, [Druckvorlage](Thermometer.docx)](Thermometer.jpg){height=300px}
 
 
 ## Kärtchenaufgabe (20 Min.) 
@@ -261,7 +261,7 @@ Arbeiten Sie weiter an den Aufgaben oben oder am Skript unten.
 Auftrag: Erstelle auf einem leeren A4-Blatt ein Lernplakat, welches das Gelernte zum Thema negative Zahlen zusammenfasst. Enthalten muss es wichtige Regeln, Begriffe und dazugehörige Definitionen, Darstellungen und Beispiele. Des Weiteren solltest du mit verschiedenen Farben arbeiten, in gut leserlicher Schrift schreiben und den zur Verfügung gestellten Platz des Papieres ausnützen.
 
 So könnte ein solches Mini-Plakat aussehen: 
-![Beispielplakat](math_02_negative_zahlen/Mini-Lernplakat.jpg){height=300px}
+![Beispielplakat](Mini-Lernplakat.jpg){height=300px}
 
 
 
@@ -302,7 +302,7 @@ Was bedeutet es, wenn die Temperatur unter 0 °C liegt ?
 Zeichne zusätzlich in die unten abgebildeten Zahlengerade deine Zwischenresultate ein.
 :::
 
-![Zahlenstrahl von -15 bis 15](math_02_negative_zahlen/skript_-15.png)
+![Zahlenstrahl von -15 bis 15](skript_-15.png)
 
 :::{.callout-note}
 
@@ -335,7 +335,7 @@ Um diese Verwechslung zu verhindern verwenden wir die Bezeichnungen «negativ» 
 Um uns die Position der negativen Zahlen auf der Zahlengerade besser einprägen zu kön-
 nen. Arbeiten wir zunächst mit unterschiedlichen Farben. **Rot** für die **positiven Zahlen** und **blau** für die **negativen Zahlen**.
 
-![Gegenzahlen](math_02_negative_zahlen/skript_gegenzahl.png)
+![Gegenzahlen](skript_gegenzahl.png)
 
 :::{.callout-tip}
 
@@ -356,9 +356,9 @@ Stelle ein:
 a) -1, 5, -17, -9, -25
 b) -7.5, -28.75, -20.3, -32.6
 
-![Zahlenstrahl von -14 bis 6](math_02_negative_zahlen/skript_-14.png)
+![Zahlenstrahl von -14 bis 6](skript_-14.png)
 
-![Zahlenstrahl von -34 bis -16](math_02_negative_zahlen/skript_-34.png)
+![Zahlenstrahl von -34 bis -16](skript_-34.png)
 :::
 
 :::{.callout-tip}
@@ -616,14 +616,14 @@ $-6 \div (-3) = 2$
 Trage die folgenden Zahlen auf der Zahlengerade ein:
 -80, -200, -215, -115
 
-![Zahlenstrahl](math_02_negative_zahlen/skript_-150.png)
+![Zahlenstrahl](skript_-150.png)
 
 :::
 
 ::: {#exr-line}
 Benenne die grün markierten Zahlen
 
-![Zahlenstrahl](math_02_negative_zahlen/skript_-55.png)
+![Zahlenstrahl](skript_-55.png)
 :::
 
 ::: {#exr-line}
