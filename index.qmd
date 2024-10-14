@@ -32,7 +32,7 @@ listing:
 :::: {.panel-tabset}
 # Lerngelegenheiten
 
-Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows. .
+Auflistung von Lerngelegenheiten (Seminaren, bzw. Vorlesungen) mit integrierten Lernmodulen, Workloads und Slideshows. test
 
 :::{#lerngelegenheiten}
 :::
