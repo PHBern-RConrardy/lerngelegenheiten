@@ -21,7 +21,7 @@ listing:
     fields: [title,subtitle]
     id: lernmodule
     page-size: 100
-  - contents: "lehrmaterialien/*.qmd"
+  - contents: "lehrmaterialien/*/*.qmd"
     sort: "date desc"
     type: table
     fields: [title,subtitle,authors]
