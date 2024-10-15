@@ -21,7 +21,7 @@ listing:
     fields: [title,subtitle]
     id: lernmodule
     page-size: 100
-  - contents: "lehrmaterialien/*/*.qmd"
+  - contents: "lehrmaterialien/*/math_*.qmd"
     sort: "date desc"
     type: table
     fields: [title,subtitle,authors]
@@ -55,7 +55,7 @@ Auflistung von Slideshows für Konferenzen, Tagungen und Austauschgefässen.
 
 # Lernumgebungen
 
-Auflistung von Lernumgebungen welche von Studierenden erstellt wurden.
+Auflistung von Lernumgebungen welche von Studierenden erstellt wurden. 
 
 :::{#lehrmaterialien}
 :::
