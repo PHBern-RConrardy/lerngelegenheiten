@@ -29,7 +29,7 @@ Schreiben Sie ein Programm, das die ersten n Zahlen der Fibonacci-Folge generier
 :::
 
 ::: {#exr-line}
-## Primzahlen fvinden
+## Primzahlen finden
 
 Schreiben Sie ein Programm, das alle Primzahlen zwischen 1 und n findet.
 :::
@@ -37,7 +37,7 @@ Schreiben Sie ein Programm, das alle Primzahlen zwischen 1 und n findet.
 ::: {#exr-line}
 ## Summe von geraden und ungeraden Zahlen
 
-Schreiben Sie ein Programm, das die Summe der geraden und ungeraden Zahlen in einer gegebenen Liste berechnet.
+Schreiben Sie ein Programm, das die Summe der geraden und ungeraden Zahlen bis zu einer bestimmten Zahl berechnet.
 
 **Hinweis:** Die Formel für Summe aller natürlichen Zahlen bis $n$ lässt sich anpassen, um auch diese Aufgabe lösen.
 :::
