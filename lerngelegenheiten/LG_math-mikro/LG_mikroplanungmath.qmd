@@ -69,18 +69,21 @@ Erstellen und veröffentlichen Sie ihre Lernumgebung auf [Switchportolio](https:
 Das Digileb hat eine [eine Einleitung zu Switchportfolio](https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/switchportfolio-gestalten/) und zu [Open Educational Resources](https://digileb.phbern.ch/didaktisches-design/kollaboratives-lernen-und-arbeiten/oer-herstellen/) verfasst.
 :::
 
+
+
 Sie planen eine bis zwei Doppellektionen für eine niveaudurchmischte Klasse und geben folgende Materialien ab: 
 
-* Einführender Lehrpersonenkommentar,  
-* Lektionsplanung, 
-* Unterrichtsmethoden,  
-* Unterrichtstechniken,  
-* Lernmaterialien,  
-* Medien  
-* Zwei Vertiefungen (Motivation, Wirksamkeit, Lernphasen oder Wissenserwerb) 
+* Einführender Lehrpersonenkommentar inkl. zwei Vertiefungen (Motivation, Wirksamkeit, Lernphasen oder Wissenserwerb) 
+* Lernmaterialien, inkl Lektionsplanung
 
 :::{.callout-warning}
-Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.
+Die Lerngelegenheit kann abgeschlossen werden ohne Lehrpersonenkommentar und Vertiefung. Der Fokus liegt auf den Lernmaterialien und den dazugehörigen Methoden, Techniken und Medien. Die Auflistung ist als Hinweis für den Leistungsnachweis zu verstehen. Informieren Sie sich auf Bios über die offiziellen Kriterien und Inhalte.
+:::
+
+::: {.callout-tip collapse="false"}
+## Schreibberatung
+
+Die Institut Sekundarstufe 1 bietet Ihnen eine Schreibberatung an. Falls Sie wissenschaftlichen Schreiben, inkl. korrektes zitieren noch nicht beherrschen, können Sie sich an **schreibberatung-is1@phbern.ch** wenden.
 :::
 
 Sie begründen Ihre Planungen differenziert mathematikdidaktisch, lernpsychologisch und mit Bezügen zu den Querschnittsthemen. 

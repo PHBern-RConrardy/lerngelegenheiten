@@ -27,6 +27,12 @@ listing:
     fields: [title,subtitle,authors]
     id: lehrmaterialien
     page-size: 100
+  - contents: "projekte/*.qmd"
+    sort: "date desc"
+    type: table
+    fields: [title,subtitle]
+    id: projekte
+    page-size: 100
 ---
 
 :::: {.panel-tabset}
@@ -63,5 +69,8 @@ Auflistung von Lernumgebungen welche von Studierenden erstellt wurden.
 # Projekte
 
 Auflistung von getrennten Projekten welche in keine andere Kategorie passen.
+
+:::{#projekte}
+:::
 
 ::::
