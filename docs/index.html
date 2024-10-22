@@ -182,6 +182,34 @@ ul.task-list li input[type="checkbox"] {
       window['quarto-listing-loaded']();
     }
   })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-projekte .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-projekte'] = new List('listing-projekte', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
   </script>
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
@@ -241,7 +269,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(46)</span></div><div class="category" data-category="Fach - Mathematik">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Label - Digitalität">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Formative Beurteilung">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Klassenführung">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Mikroplanung">Modul - Mikroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Summative und prognostische Beurteilung">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Zusammenarbeit und Kommunikation">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Kategorien</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">alle <span class="quarto-category-count">(48)</span></div><div class="category" data-category="Fach - Mathematik">Fach - Mathematik <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Label - Digitalität">Label - Digitalität <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Formative Beurteilung">Modul - Formative Beurteilung <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Modul - Klassenführung">Modul - Klassenführung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Mikroplanung">Modul - Mikroplanung <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Modul - Summative und prognostische Beurteilung">Modul - Summative und prognostische Beurteilung <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Modul - Zusammenarbeit und Kommunikation">Modul - Zusammenarbeit und Kommunikation <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -352,7 +380,7 @@ Untertitel
 <span class="listing-subtitle">Fallbasiert diskutiert, SOL mit Coaching-Angebot</span>
 </td>
 </tr>
-<tr data-index="4" data-categories="Modul - Mikroplanung,Fach - Mathematik" data-listing-file-modified-sort="1729519321101" data-listing-reading-time-sort="9" data-listing-word-count-sort="1641" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="LG_mikroplanungmath.qmd">
+<tr data-index="4" data-categories="Modul - Mikroplanung,Fach - Mathematik" data-listing-file-modified-sort="1729519597577" data-listing-reading-time-sort="9" data-listing-word-count-sort="1631" data-listing-title-sort="Mikroplanung Mathematik" data-listing-filename-sort="LG_mikroplanungmath.qmd">
 <td>
 <a href="./lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.html" class="title listing-title">Mikroplanung Mathematik</a>
 </td>
@@ -799,15 +827,15 @@ authors
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-listing-file-modified-sort="1729514867210" data-listing-filename-sort="math_07_pythagoras_erweitert.qmd">
+<tr data-index="0" data-listing-date-sort="1727042400000" data-listing-file-modified-sort="1729579484829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2496" data-listing-title-sort="Satzgruppe des Pythagoras" data-listing-filename-sort="math_07_pythagoras_erweitert.qmd">
 <td>
-<a href="./lehrmaterialien/math_07_pythagoras_erweitert/math_07_pythagoras_erweitert.html" class="title listing-title">&nbsp;</a>
+<a href="./lehrmaterialien/math_07_pythagoras_erweitert/math_07_pythagoras_erweitert.html" class="title listing-title">Satzgruppe des Pythagoras</a>
 </td>
 <td>
-<span class="listing-subtitle">&nbsp;</span>
+<span class="listing-subtitle">Vertiefung Satz des Pythagoras</span>
 </td>
 <td>
-<span class="listing-authors">&nbsp;</span>
+<span class="listing-authors">Nino Rosset</span>
 </td>
 </tr>
 <tr data-index="1" data-listing-date-sort="1726956000000" data-listing-file-modified-sort="1728997884511" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3079" data-listing-title-sort="Negative Zahlen" data-listing-filename-sort="math_02_negative_zahlen.qmd">
@@ -874,6 +902,57 @@ Keine Treffer
 </div>
 <div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
 <p>Auflistung von getrennten Projekten welche in keine andere Kategorie passen.</p>
+<div id="listing-projekte" class="quarto-listing quarto-listing-container-table">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-projekte-sort" class="form-select" aria-label="Sortieren nach" onchange="window['quarto-listings']['listing-projekte'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Sortieren nach</option>
+       <option value="index" data-direction="asc">Voreinstellung</option>
+         <option value="listing-title-sort" data-direction="asc">
+          Titel
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Titel</a>
+</th>
+<th>
+Untertitel
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-listing-file-modified-sort="1728895889850" data-listing-reading-time-sort="4" data-listing-word-count-sort="711" data-listing-title-sort="Inhaltliche Zusammenhänge" data-listing-filename-sort="zusammenhaenge.qmd">
+<td>
+<a href="./projekte/zusammenhaenge.html" class="title listing-title">Inhaltliche Zusammenhänge</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+<tr data-index="1" data-listing-date-sort="1728684000000" data-listing-file-modified-sort="1728892303210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="91" data-listing-title-sort="mögliche Masterarbeitsthemen" data-listing-filename-sort="Masterarbeitsthemen.qmd">
+<td>
+<a href="./projekte/Masterarbeitsthemen.html" class="title listing-title">mögliche Masterarbeitsthemen</a>
+</td>
+<td>
+<span class="listing-subtitle">&nbsp;</span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+Keine Treffer
+</div>
+</div>
 </div>
 </div>
 </div>
