@@ -1,0 +1,25 @@
+---
+title: "<small>How to flip the right way: Fail, flip, fix and feed in practice</small>"
+subtitle: "12. GEBF-Tagung"
+format: phheidelberg-revealjs
+date: 27 01 2025
+toc-depth: 1
+author:
+      - id: cori
+        name: Richard Conrardy
+        orcid: 0009-0004-2063-6898
+        url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
+        affiliation:
+          - ref: phheidelberg
+          - ref: phbern
+      - id: cori
+        name: Christian Spannagel
+        orcid: 0
+        url: https://www.ph-heidelberg.de/mathematik/personen/
+        affiliation:
+          - ref: phheidelberg
+title-slide-attributes: 
+      data-background-image: "https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg"
+      data-background-size: 16%
+      data-background-position: 98% 5%
+---

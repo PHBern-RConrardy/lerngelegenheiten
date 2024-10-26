@@ -8,8 +8,14 @@ author:
       - id: cori
         name: Richard Conrardy
         orcid: 0009-0004-2063-6898
-        email: richard.conrardy@phbern.ch
         url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
+        affiliation:
+          - ref: phheidelberg
+          - ref: phbern
+      - id: cori
+        name: Christian Spannagel
+        orcid: 0
+        url: https://www.ph-heidelberg.de/mathematik/personen/
         affiliation:
           - ref: phheidelberg
 title-slide-attributes: 
@@ -40,7 +46,7 @@ PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reus
 SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: [@eckhart_reichhaltige_2020; @nydegger_reichhaltige_2019]
 :::
 
-# 4F-Modell
+# 4F-Modell und Theorie
 
 ## Empirische Forschung
 
@@ -73,9 +79,9 @@ $$n=173$$
 [@kapur_fail_2022, S.14]
 :::
 
-## Productive Failure
+## Productive **Fail**ure (PF)
 
-> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts prior to instruction. 
+> Productive Failure is an instructional approach in which students engage in **problemsolving** attempts **prior to instruction**. 
 
 :::quelle
 [@hartmann_productive_2022, S.1219]
@@ -90,9 +96,52 @@ $$n=173$$
 [@kapur_designing_2012, S.49]
 :::
 
-## Flipped Classroom
+## Four core interdependant mechanisms
 
-> set of pedagogical approaches that: (1) move most information-transmission teaching **out of class**; (2) use class time for learning activities that are **active and social** and; (3) require students to complete **pre-** and/or post-**class activities** to fully benefit from in-class work.
+a) activation and differentiation of prior knowledge in relation to the targeted concepts, 
+b) attention to critical conceptual features of the targeted concepts, 
+c) explanation and elaboration of these features, and 
+d) organization and assembly of the critical conceptual features into the targeted concepts
+
+:::quelle
+[@kapur_designing_2012]
+:::
+
+## Metastudie PF 
+
+:::{ style="font-size: 0.5em;" }
+
+| Moderating variables  | n   | g    | SE   |
+|-----------------------|-----|------|------|
+| **Fixed-effects**      | 23  | 0.28 | 0.06 |
+| **Random-effects**     | 23  | 0.43 | 0.12 |
+| **Education**          |     |      |      |
+| Junior high            | 11  | 0.65 | 0.16 |
+| High school            | 9   | 0.38 | 0.17 |
+| College                | 3   | 0.06 | 0.40 |
+| **Domain**             |     |      |      |
+| Science/math           | 20  | 0.50 | 0.13 |
+| Other                  | 3   | 0.06 | 0.40 |
+| **Reported means**     |     |      |      |
+| Pre/post test          | 12  | 0.19 | 0.15 |
+| Adjusted post test     | 11  | 0.72 | 0.12 |
+| **Duration**           |     |      |      |
+| ≤ 1 week               | 16  | 0.43 | 0.16 |
+| > 1 week               | 7   | 0.45 | 0.13 |
+| **Researcher**         |     |      |      |
+| Kapur                  | 13  | 0.85 | 0.11 |
+| Others                 | 10  | 0.02 | 0.11 |
+
+:::
+
+:::quelle
+[@darabi_learning_2018]
+:::
+
+
+## Flipped Classroom Method
+
+> set of pedagogical approaches that: [...] (2) use **class time** for learning activities that are **active and social**  [...]
 >
 > ::: quelle
 > [@abeysekera_motivation_2015, S.3]
@@ -100,24 +149,62 @@ $$n=173$$
 
 #### Design in 2 Phasen:
 * Phase 1: *learn basic content online and prior to class*
-* Phase 2: *in-class time to clarify students’ understandings [...] enable students to engage deeply [...]*
+* Phase 2: *in-class time to clarify students’ understandings [...] enable students to **engage** deeply [...]*
 
 ## Engagement
 
-## Mental Load
+### Productive Failure
 
-::: quelle
-[@kapur_fail_2022, S.1]
+"Designing the participation structures: enhancing engagement."
+
+:::quelle
+[@kapur_designing_2012, p.53]
 :::
 
-# Leitfrage & Forschungsdesign
+### FCM
+
+
+
+## Mental Load & Engagement {.smaller}
+
+|                          | Max | Productive Failure (M) | Productive Failure (SD) | Direct Instruction (M) | Direct Instruction (SD) |
+|--------------------------|-----|------------------------|-------------------------|------------------------|-------------------------|
+| **Mental effort (PS)**    | 9   | 7.65                   | 0.86                    | 6.18                   | 0.87                    |
+| **Mental effort (I)**     | 9   | 7.38                   | 0.76                    | 6.00                   | 0.90                    |
+| **Engagement (PS)**       | 5   | 4.46                   | 0.41                    | 4.39                   | 0.48                    |
+| **Engagement (I)**        | 5   | 4.48                   | 0.44                    | 4.48                   | 0.49                    |
+
+*I = instruction phase; PS = problem-solving phase.*
+
+:::quelle
+[@kapur_productive_2014, p.1013]
+:::
+
+### PF
+
+"Productive failure students reported significantly greater mental effort than DI students during the problem-solving phase (F[1, 71] = 53.98, p < .001, d = 1.70) as well as the instruction phase (F[1, 71] = 52.09, p < .001, d = 1.66)."
+
+:::quelle
+[@kapur_productive_2014, p.1013]
+:::
+
+### FCM
+
+“the flipped classroom approach [...] may allow better management of cognitive load”
+
+:::quelle
+[@abeysekera_motivation_2015, S.9]
+:::
+
+# Forschungsfrage & -design
 
 ## Forschungsfrage
 
-1. Die aktive Teilnahme ist bei beiden Varianten am höchsten während Präsenzaktivitäten.
-2. Beide Modelle unterscheiden sich nicht im Leistungstest.
-3. Aktive Teilnahme ist ein Prädiktor für Leistung. 
-4. Mentale Anstrengung ist kein Prädiktor für Leistung.
+(1) Engagement is highest during in-class activities, irrespective of variant. 
+(2) Engagement predicts performance.
+(3) The 4F model does not outperform the ALT model. 
+(4) Mental load does not predict performance.
+
 
 ## Untersuchungsdesign
 
@@ -192,6 +279,6 @@ Klasse wird zusammen unterrichtet.
 | 5    | mental effort | mental effort |
 | 15   | Posttest      | Posttest      |
 
-
+# Resultate
 
 ## Bibliographie {.unlisted .scrollable}
