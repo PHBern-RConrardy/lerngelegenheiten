@@ -200,10 +200,11 @@ d) organization and assembly of the critical conceptual features into the target
 
 ## Forschungsfrage
 
-1. Die aktive Teilnahme ist bei beiden Varianten am höchsten während Präsenzaktivitäten.
-2. Beide Modelle unterscheiden sich nicht im Leistungstest.
-3. Aktive Teilnahme ist ein Prädiktor für Leistung. 
-4. Mentale Anstrengung ist kein Prädiktor für Leistung.
+(1) Engagement is highest during in-class activities, irrespective of variant. 
+(2) Engagement predicts performance.
+(3) The 4F model does not outperform the ALT model. 
+(4) Mental load does not predict performance.
+
 
 ## Untersuchungsdesign
 
