@@ -1,0 +1,10 @@
+---
+format: 
+    html: default
+    pdf: default
+title: Hochschuldidaktik in House
+subtitle: Strukturierte Vorschlagssammlung
+
+draft: true
+---
+ 
