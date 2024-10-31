@@ -66,3 +66,18 @@ main a:not(.knopf):not(.nav-link):not(header a):not(.listing-title):not(.page-li
     text-decoration: underline !important;
     font-weight: inherit !important;
 }
+
+.date {
+    font-size: 0.7em; /* Adjust size as needed */
+    color: $phhd-gelb;   /* You can also use a hex code like #d3d3d3 for more control */
+}
+
+.quarto-title-affiliation{
+    font-size: 0.4em !important;
+    text-align: left;
+}   
+
+.progress{
+    color: $phhd-blau !important;
+    height: 8px !important;
+}
