@@ -1,8 +1,6 @@
 ---
 format: 
   html: default
-  pdf: default
-  docx: default
 title: Conditionals
 subtitle: Python - Lernmodul 2
 copyright: Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.

@@ -1,14 +1,12 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
-<head>
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.551">
 
-<meta charset="utf-8" />
-<meta name="generator" content="quarto-1.4.551" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-
-<meta name="author" content="Richard Conrardy" />
+<meta name="author" content="Richard Conrardy">
 
 <title>Loops</title>
 <style>
@@ -59,7 +57,24 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 }
 </style>
 
-<!-- htmldependencies:E3FAD763 -->
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../images/penguin.png" rel="icon" type="image/png">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -87,44 +102,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Suchen"
   }
 }</script>
-<meta name="mermaid-theme" content="neutral"/>
-<script  src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
-<script  src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
-<link  href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet" />
+<meta name="mermaid-theme" content="neutral">
+<script src="../../site_libs/quarto-diagram/mermaid.min.js"></script>
+<script src="../../site_libs/quarto-diagram/mermaid-init.js"></script>
+<link href="../../site_libs/quarto-diagram/mermaid.css" rel="stylesheet">
 
 
 </head>
 
-<body>
+<body class="nav-sidebar docked nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="/index.html" class="navbar-brand navbar-brand-logo">
-    <img src="/images/penguin.png" alt="" class="navbar-logo" />
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
-    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
-    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy"  title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
+    <a href="https://github.com/PHBern-RConrardy/lerngelegenheiten" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+    <a href="https://www.zotero.org/groups/5512202/literatur_phbern_conrardy" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-book-fill"></i></a>
 </div>
           <div id="quarto-search" class="" title="Suchen"></div>
       </div> <!-- /container-fluid -->
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn"
-      data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-      aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-      onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <h1 class="quarto-secondary-nav-title no-breadcrumbs"></h1>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" 
-        aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten"
-        onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html">Loops</a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -137,7 +147,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LG_mathpython.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semesterübersicht</span></a>
   </div>
 </li>
@@ -152,37 +162,37 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Installationsanleitung IDE</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Variablen Datentypen und Typecasting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Loops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Listen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Funktionen</span></a>
   </div>
 </li>
@@ -199,43 +209,43 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <ul id="" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_01.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen mit Typecasting</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_02.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen mit Conditionals</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_03.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen mit Loops</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_04.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen zu Listen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_05.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Übungen zu Funktionen</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/woche_06.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Erweiterte Übungen in Python</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="/lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
+  <a href="../../lerngelegenheiten/LG_math-python/aufgabensammlung.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Aufgabensammlung</span></a>
   </div>
 </li>
@@ -244,15 +254,25 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" ></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <div id="quarto-toc-target"></div>
+        <nav id="TOC" role="doc-toc" class="toc-active" data-toc-expanded="99">
+    <h2 id="toc-title">Auf dieser Seite</h2>
+   
+  <ul class="collapse">
+  <li><a href="#loops-while-for-und-flussdiagramme" id="toc-loops-while-for-und-flussdiagramme" class="nav-link active" data-scroll-target="#loops-while-for-und-flussdiagramme">Loops (while, for) und Flussdiagramme</a>
+  <ul class="collapse">
+  <li><a href="#lehr-lernmaterialien" id="toc-lehr-lernmaterialien" class="nav-link" data-scroll-target="#lehr-lernmaterialien">Lehr-Lernmaterialien</a></li>
+  <li><a href="#prüfungsvorbereitung-2" id="toc-prüfungsvorbereitung-2" class="nav-link" data-scroll-target="#prüfungsvorbereitung-2">Prüfungsvorbereitung</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_IDE_install.html">Lernmodule</a></li><li class="breadcrumb-item"><a href="../../lerngelegenheiten/LG_math-python/LM_mathpython_03.html">Loops</a></li></ol></nav>
 <div class="quarto-title">
 <h1 class="title">Loops</h1>
 <p class="subtitle lead">Python - Lernmodul 3</p>
@@ -292,40 +312,30 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<nav id="TOC" role="doc-toc">
-    <h2 id="toc-title">Auf dieser Seite</h2>
-   
-  <ul>
-  <li><a href="#loops-while-for-und-flussdiagramme" id="toc-loops-while-for-und-flussdiagramme">Loops (while, for) und Flussdiagramme</a>
-  <ul>
-  <li><a href="#lehr-lernmaterialien" id="toc-lehr-lernmaterialien">Lehr-Lernmaterialien</a></li>
-  <li><a href="#prüfungsvorbereitung-2" id="toc-prüfungsvorbereitung-2">Prüfungsvorbereitung</a></li>
-  </ul></li>
-  </ul>
-</nav>
+
 <section id="loops-while-for-und-flussdiagramme" class="level1">
 <h1>Loops (while, for) und Flussdiagramme</h1>
 <section id="lehr-lernmaterialien" class="level2">
-<h2>Lehr-Lernmaterialien</h2>
+<h2 class="anchored" data-anchor-id="lehr-lernmaterialien">Lehr-Lernmaterialien</h2>
 <p>Auf Wikipedia finden sie eine gute Zusammenfassung zum Thema <a href="https://de.wikipedia.org/wiki/Programmablaufplan">Flussdiagramm</a>. Auch hier gilt: “Versuchen sie es einfach”. Erstellen sie doch einfach einmal ein Diagramm und fragen mich (oder MitschülerInnen), was ich davon halte. Wenn sie das Flussdiagramm digital erstellen wollen, empfehle ich Ihnen <a href="https://app.diagrams.net">draw.io</a> (siehe “Flowchart”).</p>
 <p>Auf <strong>Youtube</strong> finden sie (teilweise) gute Erklärvideos zum Thema Python. Hier sind einige Beispiellinks zu den Themen <a href="https://www.youtube.com/watch?v=sXLicTuJzB4&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=13">While-Schleife</a> und <a href="https://www.youtube.com/watch?v=pQh5Idw2sKM&amp;list=PL_pqkvxZ6ho3u8PJAsUU-rOAQ74D0TqZB&amp;index=17">For-Schleife</a>.</p>
 <p>Die Plattform <strong>W3Schools</strong> bietet sich als Nachschlagewerk an (in Englisch). Hier ist der Link zum Thema <a href="https://www.w3schools.com/python/python_while_loops.asp">While-Loop</a> und <a href="https://www.w3schools.com/python/python_for_loops.asp">For-Loop</a>.</p>
 <p>Auf der Website von <strong>Sylvia Lange</strong> finden sie noch weitere (gute) Übungsaufgaben. Hier sind die <a href="https://sylvialange.de/python/Programmieraufgaben.pdf">Aufgaben</a> (17, 18, 19, 20) und die Lösungen <a href="https://sylvialange.de/python/python3/schleifen/Potenz.py">17</a> <a href="https://sylvialange.de/python/python3/schleifen/Fakultaet.py">18</a> <a href="https://sylvialange.de/python/python3/schleifen/Zweierpotenz.py">19</a> <a href="https://sylvialange.de/python/python3/schleifen/SterneRechteck.py">20</a> zum Thema Loops/Schleifen.</p>
 </section>
 <section id="prüfungsvorbereitung-2" class="level2">
-<h2>Prüfungsvorbereitung</h2>
+<h2 class="anchored" data-anchor-id="prüfungsvorbereitung-2">Prüfungsvorbereitung</h2>
 <section id="auftrag-1" class="level3">
-<h3>Auftrag 1</h3>
+<h3 class="anchored" data-anchor-id="auftrag-1">Auftrag 1</h3>
 <p>Was ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>i <span class="op">=</span> <span class="dv">2</span></span>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a>i <span class="op">=</span> <span class="dv">2</span></span>
 <span id="cb1-2"><a href="#cb1-2"></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">5</span>:</span>
 <span id="cb1-3"><a href="#cb1-3"></a>  <span class="bu">print</span>(i)</span>
 <span id="cb1-4"><a href="#cb1-4"></a>  i <span class="op">=</span> i <span class="op">+</span> <span class="dv">1</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a>  <span class="bu">print</span>(i)</span></code></pre></div>
+<span id="cb1-5"><a href="#cb1-5"></a>  <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
-<p><figure class=''></p>
+<p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart TD
     A((Start)) --&gt; B[i = 2]
@@ -337,39 +347,39 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     id9 --&gt; id4
 </pre>
 </div>
-<p></figure></p>
+<p></p></figure><p></p>
 </div>
 </div>
 </div>
 </section>
 <section id="auftrag-2" class="level3">
-<h3>Auftrag 2</h3>
+<h3 class="anchored" data-anchor-id="auftrag-2">Auftrag 2</h3>
 <p>Was ist der Output von diesem Programm? Übersetzen sie es in eine For-Schleife (wenn möglich) und erstellen sie ein Flussdiagramm dazu.</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a>i <span class="op">=</span> <span class="dv">5</span></span>
 <span id="cb2-2"><a href="#cb2-2"></a><span class="cf">while</span> i <span class="op">&lt;</span> <span class="dv">10</span>:</span>
 <span id="cb2-3"><a href="#cb2-3"></a>  i <span class="op">+=</span> <span class="dv">1</span>  <span class="co"># Kurzform von i = i + 1</span></span>
 <span id="cb2-4"><a href="#cb2-4"></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">8</span>:</span>
-<span id="cb2-5"><a href="#cb2-5"></a>    <span class="bu">print</span>(<span class="st">&quot;Katze&quot;</span>)</span>
+<span id="cb2-5"><a href="#cb2-5"></a>    <span class="bu">print</span>(<span class="st">"Katze"</span>)</span>
 <span id="cb2-6"><a href="#cb2-6"></a>  <span class="cf">else</span>:</span>
-<span id="cb2-7"><a href="#cb2-7"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<span id="cb2-7"><a href="#cb2-7"></a>    <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Lösungsvorschlag</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># i = 5</span></span>
+<div class="sourceCode" id="cb3"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1"></a><span class="co"># i = 5</span></span>
 <span id="cb3-2"><a href="#cb3-2"></a><span class="co"># while i &lt; 10:</span></span>
 <span id="cb3-3"><a href="#cb3-3"></a><span class="co">#   i += 1 # Kurzform von i = i + 1</span></span>
 <span id="cb3-4"><a href="#cb3-4"></a><span class="co">#   if i == 8:</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="co">#     print(&quot;Katze&quot;)</span></span>
+<span id="cb3-5"><a href="#cb3-5"></a><span class="co">#     print("Katze")</span></span>
 <span id="cb3-6"><a href="#cb3-6"></a><span class="co">#   else:</span></span>
 <span id="cb3-7"><a href="#cb3-7"></a><span class="co">#     print(i)</span></span>
 <span id="cb3-8"><a href="#cb3-8"></a></span>
 <span id="cb3-9"><a href="#cb3-9"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">6</span>, <span class="dv">11</span>):</span>
 <span id="cb3-10"><a href="#cb3-10"></a>  <span class="cf">if</span> i <span class="op">==</span> <span class="dv">8</span>:</span>
-<span id="cb3-11"><a href="#cb3-11"></a>    <span class="bu">print</span>(<span class="st">&quot;Katze&quot;</span>)</span>
+<span id="cb3-11"><a href="#cb3-11"></a>    <span class="bu">print</span>(<span class="st">"Katze"</span>)</span>
 <span id="cb3-12"><a href="#cb3-12"></a>  <span class="cf">else</span>:</span>
-<span id="cb3-13"><a href="#cb3-13"></a>    <span class="bu">print</span>(i)</span></code></pre></div>
+<span id="cb3-13"><a href="#cb3-13"></a>    <span class="bu">print</span>(i)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
-<p><figure class=''></p>
+<p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart TD
     A((Start)) --&gt; B[i = 5]
@@ -382,65 +392,65 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     id9 &amp; id11--&gt; id4
 </pre>
 </div>
-<p></figure></p>
+<p></p></figure><p></p>
 </div>
 </div>
 </div>
 </section>
 <section id="auftrag-3" class="level3">
-<h3>Auftrag 3</h3>
+<h3 class="anchored" data-anchor-id="auftrag-3">Auftrag 3</h3>
 <p>Erstellen sie ein Programm, welches eine Zahl quadriert. Dabei soll das Programm so lange ausgeführt werden, bis der Benutzer ‘quit’ eingibt.</p>
 <p>Lösungsvorschlag</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
-<span id="cb4-2"><a href="#cb4-2"></a>    zahl <span class="op">=</span> <span class="bu">input</span>(<span class="st">&quot;Geben sie eine Zahl oder &#39;quit&#39; ein: &quot;</span>)</span>
-<span id="cb4-3"><a href="#cb4-3"></a>    <span class="cf">if</span> zahl <span class="op">==</span> <span class="st">&quot;quit&quot;</span>:</span>
+<div class="sourceCode" id="cb4"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1"></a><span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb4-2"><a href="#cb4-2"></a>    zahl <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Geben sie eine Zahl oder 'quit' ein: "</span>)</span>
+<span id="cb4-3"><a href="#cb4-3"></a>    <span class="cf">if</span> zahl <span class="op">==</span> <span class="st">"quit"</span>:</span>
 <span id="cb4-4"><a href="#cb4-4"></a>        <span class="cf">break</span></span>
 <span id="cb4-5"><a href="#cb4-5"></a>    <span class="cf">else</span>:</span>
 <span id="cb4-6"><a href="#cb4-6"></a>        quadrat <span class="op">=</span> <span class="bu">int</span>(zahl)<span class="op">*</span><span class="bu">int</span>(zahl)</span>
-<span id="cb4-7"><a href="#cb4-7"></a>        <span class="bu">print</span>(quadrat)</span></code></pre></div>
+<span id="cb4-7"><a href="#cb4-7"></a>        <span class="bu">print</span>(quadrat)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-4" class="level3">
-<h3>Auftrag 4</h3>
+<h3 class="anchored" data-anchor-id="auftrag-4">Auftrag 4</h3>
 <p>Erweitern sie das Login aus dem Auftrag “Conditionals”, sodass das Konto nach 3 Fehlversuchen gesperrt wird.</p>
 <p>Lösungsvorschlag</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">3</span>):</span>
-<span id="cb5-2"><a href="#cb5-2"></a>    benutzer <span class="op">=</span> <span class="bu">input</span>(<span class="st">&quot;Benutzername eingeben: &quot;</span>)</span>
-<span id="cb5-3"><a href="#cb5-3"></a>    passwort <span class="op">=</span> <span class="bu">input</span>(<span class="st">&quot;Passwort eingeben: &quot;</span>)</span>
+<div class="sourceCode" id="cb5"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, <span class="dv">3</span>):</span>
+<span id="cb5-2"><a href="#cb5-2"></a>    benutzer <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Benutzername eingeben: "</span>)</span>
+<span id="cb5-3"><a href="#cb5-3"></a>    passwort <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Passwort eingeben: "</span>)</span>
 <span id="cb5-4"><a href="#cb5-4"></a></span>
-<span id="cb5-5"><a href="#cb5-5"></a>    <span class="cf">if</span> benutzer <span class="op">==</span> <span class="st">&quot;tom&quot;</span>:</span>
-<span id="cb5-6"><a href="#cb5-6"></a>        <span class="cf">if</span> passwort <span class="op">==</span> <span class="st">&quot;strudel123&quot;</span>:</span>
-<span id="cb5-7"><a href="#cb5-7"></a>            <span class="bu">print</span>(<span class="st">&quot;Herzlich Willkommen&quot;</span>)</span>
+<span id="cb5-5"><a href="#cb5-5"></a>    <span class="cf">if</span> benutzer <span class="op">==</span> <span class="st">"tom"</span>:</span>
+<span id="cb5-6"><a href="#cb5-6"></a>        <span class="cf">if</span> passwort <span class="op">==</span> <span class="st">"strudel123"</span>:</span>
+<span id="cb5-7"><a href="#cb5-7"></a>            <span class="bu">print</span>(<span class="st">"Herzlich Willkommen"</span>)</span>
 <span id="cb5-8"><a href="#cb5-8"></a>            <span class="cf">break</span></span>
 <span id="cb5-9"><a href="#cb5-9"></a>        <span class="cf">else</span>:</span>
-<span id="cb5-10"><a href="#cb5-10"></a>            <span class="bu">print</span>(<span class="st">&quot;Passwort nicht korrekt! Verbleibende Versuche: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
+<span id="cb5-10"><a href="#cb5-10"></a>            <span class="bu">print</span>(<span class="st">"Passwort nicht korrekt! Verbleibende Versuche: "</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
 <span id="cb5-11"><a href="#cb5-11"></a>    <span class="cf">else</span>:</span>
-<span id="cb5-12"><a href="#cb5-12"></a>        <span class="bu">print</span>(<span class="st">&quot;Benutzer nicht gefunden! Verbleibende Versuche: &quot;</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
+<span id="cb5-12"><a href="#cb5-12"></a>        <span class="bu">print</span>(<span class="st">"Benutzer nicht gefunden! Verbleibende Versuche: "</span> <span class="op">+</span> <span class="bu">str</span>(<span class="dv">2</span> <span class="op">-</span> i))</span>
 <span id="cb5-13"><a href="#cb5-13"></a></span>
 <span id="cb5-14"><a href="#cb5-14"></a>    <span class="cf">if</span> i <span class="op">==</span> <span class="dv">2</span>:</span>
-<span id="cb5-15"><a href="#cb5-15"></a>        <span class="bu">print</span>(<span class="st">&quot;Zu viele Login-Versuche. Ihr Konto wurde aus Sicherheitsgründen gesperrt.&quot;</span>)</span></code></pre></div>
+<span id="cb5-15"><a href="#cb5-15"></a>        <span class="bu">print</span>(<span class="st">"Zu viele Login-Versuche. Ihr Konto wurde aus Sicherheitsgründen gesperrt."</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="auftrag-5" class="level3">
-<h3>Auftrag 5</h3>
+<h3 class="anchored" data-anchor-id="auftrag-5">Auftrag 5</h3>
 <p>Erstellen sie ein Programm, welches als Input eine Zahl nimmt und daraus die Fibonacci-Folge berechnet. Erstellen sie zusätzlich ein Flussdiagramm dazu. Was ist die Fibonacci-Folge? Hier Klicken (SimpleClub)</p>
 <p>Lösungsvorschlag Code</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>n <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">&quot;Geben sie eine Zahl n ein: &quot;</span>))</span>
+<div class="sourceCode" id="cb6"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1"></a>n <span class="op">=</span> <span class="bu">int</span>(<span class="bu">input</span>(<span class="st">"Geben sie eine Zahl n ein: "</span>))</span>
 <span id="cb6-2"><a href="#cb6-2"></a></span>
 <span id="cb6-3"><a href="#cb6-3"></a>vorvorgaenger <span class="op">=</span> <span class="dv">1</span></span>
 <span id="cb6-4"><a href="#cb6-4"></a>vorgaenger <span class="op">=</span> <span class="dv">1</span></span>
 <span id="cb6-5"><a href="#cb6-5"></a></span>
 <span id="cb6-6"><a href="#cb6-6"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>, n):</span>
 <span id="cb6-7"><a href="#cb6-7"></a>    <span class="cf">if</span> i <span class="op">&lt;=</span> <span class="dv">1</span>:</span>
-<span id="cb6-8"><a href="#cb6-8"></a>        <span class="bu">print</span>(<span class="st">&quot;1&quot;</span>)</span>
+<span id="cb6-8"><a href="#cb6-8"></a>        <span class="bu">print</span>(<span class="st">"1"</span>)</span>
 <span id="cb6-9"><a href="#cb6-9"></a>    <span class="cf">else</span>:</span>
 <span id="cb6-10"><a href="#cb6-10"></a>        fib <span class="op">=</span> vorgaenger <span class="op">+</span> vorvorgaenger</span>
 <span id="cb6-11"><a href="#cb6-11"></a>        vorvorgaenger <span class="op">=</span> vorgaenger</span>
 <span id="cb6-12"><a href="#cb6-12"></a>        vorgaenger <span class="op">=</span> fib</span>
-<span id="cb6-13"><a href="#cb6-13"></a>        <span class="bu">print</span>(fib)</span></code></pre></div>
+<span id="cb6-13"><a href="#cb6-13"></a>        <span class="bu">print</span>(fib)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Lösungsvorschlag Flussdiagramm</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div>
-<p><figure class=''></p>
+<p></p><figure class="figure"><p></p>
 <div>
 <pre class="mermaid mermaid-js">flowchart TD
     A((Start)) --&gt; id1[/Eingabe n/]
@@ -459,37 +469,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     id13 --&gt; id5
 </pre>
 </div>
-<p></figure></p>
+<p></p></figure><p></p>
 </div>
 </div>
 </div>
-<div id="quarto-navigation-envelope" class="hidden">
-<p><span class="hidden" data-render-id="quarto-int-sidebar-title">Verstehensorientiert prüfen in Zeiten von KI</span> <span class="hidden" data-render-id="quarto-int-navbar-title">Loops</span> <span class="hidden" data-render-id="quarto-int-next">Listen</span> <span class="hidden" data-render-id="quarto-int-prev">Conditionals</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LG_mathpython.htmlSemesterübersicht">Semesterübersicht</span> <span class="hidden" data-render-id="quarto-int-sidebar:undefinedLernmodule">Lernmodule</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_IDE_install.htmlInstallationsanleitung-IDE">Installationsanleitung IDE</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_01.htmlVariablen-Datentypen-und-Typecasting">Variablen Datentypen und Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_02.htmlConditionals">Conditionals</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_03.htmlLoops">Loops</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_04.htmlListen">Listen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/LM_mathpython_05.htmlFunktionen">Funktionen</span> <span class="hidden" data-render-id="quarto-int-sidebar:undefinedÜbungsblätter">Übungsblätter</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_01.htmlÜbungen-mit-Typecasting">Übungen mit Typecasting</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_02.htmlÜbungen-mit-Conditionals">Übungen mit Conditionals</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_03.htmlÜbungen-mit-Loops">Übungen mit Loops</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_04.htmlÜbungen-zu-Listen">Übungen zu Listen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_05.htmlÜbungen-zu-Funktionen">Übungen zu Funktionen</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/woche_06.htmlErweiterte-Übungen-in-Python">Erweiterte Übungen in Python</span> <span class="hidden" data-render-id="quarto-int-sidebar:/lerngelegenheiten/LG_math-python/aufgabensammlung.htmlAufgabensammlung">Aufgabensammlung</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://github.com/PHBern-RConrardy/lerngelegenheiten">https://github.com/PHBern-RConrardy/lerngelegenheiten</span> <span class="hidden" data-render-id="quarto-navbar-tools:https://www.zotero.org/groups/5512202/literatur_phbern_conrardy">https://www.zotero.org/groups/5512202/literatur_phbern_conrardy</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Lernmodule">Lernmodule</span> <span class="hidden" data-render-id="quarto-breadcrumbs-Loops">Loops</span></p>
-<div class="hidden" data-render-id="footer-left-https://www.phbern.ch/">
-<p>PHBern</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/impressum.html">
-<p>Impressum</p>
-</div>
-<div class="hidden" data-render-id="footer-center-/footer/disclaimer.html">
-<p>Disclaimer</p>
-</div>
-<div class="hidden" data-render-id="footer-center-https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
-<p>Kontakt</p>
-</div>
-<div class="hidden" data-render-id="footer-right-&lt;small&gt;Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.&lt;/small&gt;">
-<p><small>Dieses Produkt ist in einem Kontext des Lernens an der PHBern entstanden.</small></p>
-</div>
-</div>
-<div id="quarto-meta-markdown" class="hidden">
-<p><span class="hidden" data-render-id="quarto-metatitle">Loops</span> <span class="hidden" data-render-id="quarto-twittercardtitle">Loops</span> <span class="hidden" data-render-id="quarto-ogcardtitle">Loops</span> <span class="hidden" data-render-id="quarto-twittercarddesc">Python - Lernmodul 3</span> <span class="hidden" data-render-id="quarto-ogcardddesc">Python - Lernmodul 3</span></p>
-</div>
+
+
 </section>
 </section>
 </section>
 
-</main> <!-- /main -->
-<script id = "quarto-html-after-body" type="application/javascript">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-copyright"><h2 class="anchored quarto-appendix-heading">Urheberrechte</h2><div class="quarto-appendix-contents"><div>Dieser Kurs basiert auf dem Kurs von Peter Giger (https://pgigeruzh.github.io/informatik/) welcher unter einer  Creative Commons Attribution 4.0 International license (https://creativecommons.org/licenses/by/4.0/) steht.</div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R. (2024, January 1). <em>Loops</em>. University of Teacher
+Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -910,27 +904,27 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/">
- PHBern
-    </a>
+<p>PHBern</p>
+</a>
   </li>  
 </ul>
     </div>   
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="/footer/impressum.html">
- Impressum
-    </a>
+    <a class="nav-link" href="../../footer/impressum.html">
+<p>Impressum</p>
+</a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="/footer/disclaimer.html">
- Disclaimer
-    </a>
+    <a class="nav-link" href="../../footer/disclaimer.html">
+<p>Disclaimer</p>
+</a>
   </li>  
     <li class="nav-item">
     <a class="nav-link" href="https://www.phbern.ch/ueber-die-phbern/personen/richard-conrardy">
- Kontakt
-    </a>
+<p>Kontakt</p>
+</a>
   </li>  
 </ul>
     </div>
@@ -944,6 +938,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </footer>
 
-</body>
 
-</html>
+
+
+</body></html>
