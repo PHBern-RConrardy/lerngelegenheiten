@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 lang: de #Sprache für die Webseite
-theme: [default,styles/phbern_ci.scss] # alle Stylesheets
+theme: [default,styles/phbern_ci.scss]
   
 date-format: "DD.MM.YYYY" # übliche Daten in der Schweiz
 
@@ -149,6 +149,7 @@ format:
     fig-align: center
     linkcolor: "#AC0101"
     date: 01/01/2024
+
       
   revealjs: # Einträge nur für Präsentationen
     toc: false
@@ -164,6 +165,7 @@ format:
     logo: images/penguin.png
     hide-inactive-cursor: true
     controls: true
+    
   phheidelberg-revealjs:
     scrollable: true
     hide-inactive-cursor: true
@@ -172,9 +174,8 @@ format:
       data-background-size: 12%
       data-background-position: 94% 99%
     footer: "[PH Heidelberg,](https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/)  Richard Conrardy"
-    
 
-    
+
   pdf:
     documentclass: scrartcl
     include-in-header: 
