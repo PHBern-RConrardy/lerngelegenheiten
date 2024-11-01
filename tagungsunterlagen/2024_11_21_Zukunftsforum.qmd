@@ -23,6 +23,7 @@ title-slide-attributes:
       data-background-image: "https://www.ph-heidelberg.de/typo3conf/ext/sitepackage/Resources/Public/Images/Paedagogische_Hochschule_Heidelberg_logo.svg"
       data-background-size: 16%
       data-background-position: 98% 5%
+code-fold: true
 ---
 
 # Ausgangslage
@@ -205,7 +206,7 @@ $$n=173$$
 ## Untersuchungsdesign
 
 :::: {.columns}
-::: {.column width="40%"}
+::: {.column width="50%"}
 ### 4F-Modell
 
 1.  [**Fail**]{style="color: #1c87ce"}
@@ -214,7 +215,7 @@ $$n=173$$
 4.  [**Feed**]{style="color: #1c87ce"}
 :::
 
-::: {.column width="60%"}
+::: {.column width="50%"}
 
 :::{.fragment .fade-in}
 
@@ -247,13 +248,45 @@ $$n=173$$
 
 ## 1. Engagement is highest during in-class activities, irrespective of variant. 
 
-Verworfen
+text
+
+<details>
+  <summary>Show R Code</summary>
+```r
+1+2
+```
+</details>
+
+
+
+:::{.fragment .fade-up}
+::: {style="color: #cc3333; font-size: 1.5em; font-weight: bold; text-align: center;"}
+Verworfen 😿
+:::
+:::
 
 ## 2. Engagement predicts performance.
 
+:::{.fragment .fade-up}
+::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+Bestätigt 😸
+:::
+:::
 
 ## 3. The 4F model does not outperform the ALT model. 
 
+:::{.fragment .fade-up}
+::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+Bestätigt 😺
+:::
+:::
+
 ## 4. Mental load does not predict performance.
+
+:::{.fragment .fade-up}
+::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+Bestätigt 😽
+:::
+:::
 
 ## Bibliographie {.unlisted .scrollable}
