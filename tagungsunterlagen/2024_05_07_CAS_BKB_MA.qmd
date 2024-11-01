@@ -1,5 +1,5 @@
 ---
-format: phbern-revealjs
+format: revealjs
 title: Mathematik
 subtitle: CAS Berufspraxis kompetent begleiten
 date: 07 05 2024
