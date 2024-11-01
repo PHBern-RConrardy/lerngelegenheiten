@@ -144,7 +144,6 @@ graph LR
 ````
 
 ```{mermaid}
-%%| mermaid-format: png
 
 graph LR
   Start --> Stop--> Weiter

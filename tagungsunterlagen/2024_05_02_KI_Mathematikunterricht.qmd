@@ -31,7 +31,6 @@ authors:
 ::: {#fig-uebersicht}
 
 ```{mermaid}
-%%| mermaid-format: svg
 flowchart TD
   A[Architektur];
   TD[Training Data];
