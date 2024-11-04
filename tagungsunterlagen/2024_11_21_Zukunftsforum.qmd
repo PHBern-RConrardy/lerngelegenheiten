@@ -12,7 +12,6 @@ author:
         url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
         affiliation:
           - ref: phheidelberg
-          - ref: phbern
       - id: cori
         name: Christian Spannagel
         orcid: 0
