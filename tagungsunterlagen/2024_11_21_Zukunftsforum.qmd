@@ -14,7 +14,7 @@ author:
           - ref: phheidelberg
       - id: cori
         name: Christian Spannagel
-        orcid: 0
+        orcid: 0000-0002-7299-4943
         url: https://www.ph-heidelberg.de/mathematik/personen/
         affiliation:
           - ref: phheidelberg
