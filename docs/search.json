@@ -192,15 +192,15 @@
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "title": "Inhalte effizient onlinebringen",
-    "section": "Expectation management",
-    "text": "Expectation management\n\n\nbesser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
+    "section": "",
+    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "title": "Inhalte effizient onlinebringen",
-    "section": "Learning Outcomes",
-    "text": "Learning Outcomes\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+    "section": "",
+    "text": "Wir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
@@ -221,14 +221,14 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markdown",
     "title": "Inhalte effizient onlinebringen",
     "section": "2. Markdown",
-    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\nLogo der PHBern"
+    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\n\n\nLogo der PHBern"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "title": "Inhalte effizient onlinebringen",
     "section": "3. HTML",
-    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
@@ -249,7 +249,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
     "title": "Inhalte effizient onlinebringen",
     "section": "6. R (oder Python, oder OJS)",
-    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```"
+    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```\n\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",
@@ -263,7 +263,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibtex",
     "title": "Inhalte effizient onlinebringen",
     "section": "8. BibTeX",
-    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
+    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slideshow",
@@ -312,7 +312,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
     "title": "Inhalte effizient onlinebringen",
     "section": "Diskussion",
-    "text": "Diskussion\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
+    "text": "Diskussion\n\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\n\n\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
@@ -604,7 +604,7 @@
     "href": "lerngelegenheiten/LG_digi-datenschutz/LM_datenschutz_01.html",
     "title": "Datenschutz",
     "section": "",
-    "text": "Ziele des Lernmoduls\n\n\n\nDie Studierenden …\n\nunterscheiden zwischen Datenschutz (als soziologischer Begriff), Datenschutzrecht und Datensicherheit\nargumentieren die Gesellschaftsrelevanz von Datenschutz\nentscheiden inwiefern Daten von Datenschutzrecht betroffen sind.\nkennen die drei Schutzziele von Datensicherheit.\nsetzen good practices von Datensicherheit um.\n\n\n\n\nEinstiegsfragen\nNotieren Sie sich ihre Antworten auf folgende Fragen:\n\nWas bedeutet für Sie Datenschutz?\nEine Person sagt “Datenschutz ist mir egal, Google hat ja eh schon all meine Daten.” Was antworten Sie?.\n\n\n\nBegriffsabgrenzung\nSchauen Sie Was schützt eigentlich der Datenschutz?\n\nNotieren Sie sich welche Teilbereiche von Datenschutz berührt werden.\n\n\n\nDatenschutz als soziologischer Begriff\nHaben Sie ihre Meinung\n\n\nDatenschutzrecht\nIn der Schweiz regelt das Datenschutzgesetz (DSG), bzw. das kantonale Datenschutzgesetzt (KDSG) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane Art. 2 Abs. 1 DSG. Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden vgl. Art. 4 Abs. 1 KDSG. Die Datenschutzgrundverordnung (DSGVO) ist das europäische Pendant.\n\nÜbungsaufgabe 1 (Geltungsbereich) Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzen gleich definiert?\n\n\nÜbungsaufgabe 2 (Bearbeitung durch Lehrpersonen) Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen?\n\n\nÜbungsaufgabe 3 (Besonders schützenswerte Daten) Welche dieser Daten sind gemäss KDSG “besonders schützenswert”? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?\n\n\nUnternehmensinterne Bestimmungen\nZusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.\n\n\n\nDatensicherheit\nDatensicherheit (IT Security) hat drei übergeordnete Ziele (vgl. z.B. wegener_informationssicherheit_2016?).\n\nIntegrität\nVertraulichkeit\nVerfügbarkeit\n\nIntegrität beschreibt, dass die Daten nicht von fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.\nVertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.\nVerfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.\n\nÜbungsaufgabe 4 (Private Massnahmen) Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?\n\n\nÜbungsaufgabe 5 (Berufliche Massnahmen) Welche Sicherheitsvorkehrungen nehmen Sie beruflich?\n\n\nÜbungsaufgabe 6 (Pflicht zur Sicherheit) Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?\n\n\nÜbungsaufgabe 7 (Zielkonflikte) Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.\n\nEs gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen “digital unterschrieben” wurde.\nDer Datenschutz wird von drei Säulen getragen (wegener_informationssicherheit_2016?)\n\nPersonen\nProzesse\nTechnik\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Datenschutz. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
+    "text": "Ziele des Lernmoduls\n\n\n\nDie Studierenden …\n\nunterscheiden zwischen Datenschutz (als soziologischer Begriff), Datenschutzrecht und Datensicherheit\nargumentieren die Gesellschaftsrelevanz von Datenschutz\nentscheiden inwiefern Daten von Datenschutzrecht betroffen sind.\nkennen die drei Schutzziele von Datensicherheit.\nsetzen good practices von Datensicherheit um.\n\n\n\n\nBegriffsabgrenzung\nSchauen Sie Rehak (2018).\n\nNotieren Sie sich welche Teilbereiche von Datenschutz berührt werden.\n\n\n\nDatenschutz als soziologischer Begriff\n\nÜbungsaufgabe 1 (Weshalb Daten schützen?) Eine Schülerin sagt, dass ihr Datenschutz egal ist, denn die grossen Tech-Unternehmen haben eh seine Daten. Wie reagieren Sie?\n\n\nÜbungsaufgabe 2 (“Aber Datenschutz!”) Gesetzliche Vertreter (Eltern) sagen Ihnen, dass etwas nicht erlaubt ist, auf Grund von Datenschutz. Wie reagieren Sie?\n\n\n\nDatenschutzrecht\nIn der Schweiz regelt das Datenschutzgesetz (DSG), bzw. das kantonale Datenschutzgesetzt (KDSG) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane Art. 2 Abs. 1 DSG. Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden vgl. Art. 4 Abs. 1 KDSG. Die Datenschutzgrundverordnung (DSGVO) ist das europäische Pendant.\n\nÜbungsaufgabe 3 (Geltungsbereich) Für welche Daten gelten DSG und KDSG? Ist der gleiche Begriff bei beiden Gesetzen gleich definiert?\n\n\nÜbungsaufgabe 4 (Bearbeitung durch Lehrpersonen) Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen?\n\n\nÜbungsaufgabe 5 (Besonders schützenswerte Daten) Welche dieser Daten sind gemäss KDSG “besonders schützenswert”? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?\n\n\nÜbungsaufgabe 6 (Bussen) Welche Bussen kennt das KDSG, das DSG und die DSGVO?\n\n\nUnternehmensinterne Bestimmungen\nZusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf oder Industriespionage. Diese berechtigten Interessen haben Sie in guten Treuen zu wahren (Art. 321a Abs. 1 OR). Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.\n\n\nHaftung\n“Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.” (Art. 321e Abs. 1 OR)\n\n\n\nDatensicherheit\nDatensicherheit (IT Security) hat drei übergeordnete Ziele (vgl. z.B. Wegener et al., 2016, S. 3).\n\nIntegrität\nVertraulichkeit\nVerfügbarkeit\n\nIntegrität beschreibt, dass die Daten nicht von fremden Personen abgeändert werden können. Kann ein Angreifer Ihr Passwort zwar nicht lesen, es jedoch zurücksetzen lassen und durch ein eigenes ersetzen, ist die Integrität des Passworts (und die gesamte Sicherheit der dahinterliegenden Daten) verletzt.\nVertraulichkeit bedeutet, dass nur eine ausgewählte Gruppe die Daten lesen kann. Ruft eine Lehrperson die Noten durch die Klasse ist die Vertraulichkeit der Noten nicht mehr gewährleistet.\nVerfügbarkeit bedeutet, dass die Personen, welche die Daten lesen können dürfen, auch tatsächlich Zugriff darauf behalten. Sind die Noten eines Lernenden nur auf dem Laptop der Lehrperson gespeichert und geht dieser kaputt, ist die Verfügbarkeit nicht gewährleistet worden.\n\nÜbungsaufgabe 7 (Private Massnahmen) Welche Sicherheitsvorkehrungen nehmen Sie privat um diesen drei Schutzzielen nachzukommen?\n\n\nÜbungsaufgabe 8 (Berufliche Massnahmen) Welche Sicherheitsvorkehrungen nehmen Sie beruflich?\n\n\nÜbungsaufgabe 9 (Pflicht zur Sicherheit) Falls Sie bereits in einer Schule arbeiten, zu welchen Sicherheitsmassnahmen sind sie dort verpflichtet?\n\n\nÜbungsaufgabe 10 (Zielkonflikte) Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.\n\nEs gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen “digital unterschrieben” wurde.\nDer Datenschutz wird von drei Säulen getragen (Wegener et al., 2016, S. 5)\n\nPersonen\nProzesse\nTechnik\n\n\n\n\n\n\nLiteratur\n\nRehak, R. (2018). Was schützt eigentlich der Datenschutz? https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz\n\n\nWegener, C., Milde, T., & Dolle, W. (2016). Informationssicherheits-Management: Leitfaden für Praktiker und Begleitbuch zur CISM-Zertifizierung. Springer Berlin Heidelberg. https://doi.org/10.1007/978-3-662-49167-6\n\nWiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Datenschutz. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/",
     "crumbs": [
       "Lernmodule",
       "Datenschutz"
@@ -2643,29 +2643,29 @@
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#teilgebiete-der-mathematik",
     "href": "lerngelegenheiten/LG_math-summ/woche_03.html#teilgebiete-der-mathematik",
     "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Teilgebiete der Mathematik",
-    "text": "Teilgebiete der Mathematik\n\nArithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)\n\n\nMengenlehre\nLogik"
+    "section": "",
+    "text": "Arithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)\n\n\nMengenlehre\nLogik"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#leitideen",
     "href": "lerngelegenheiten/LG_math-summ/woche_03.html#leitideen",
     "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Leitideen",
-    "text": "Leitideen\n\nZahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)"
+    "section": "",
+    "text": "Zahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#kompetenzbereiche-nach-lehrplan21",
     "href": "lerngelegenheiten/LG_math-summ/woche_03.html#kompetenzbereiche-nach-lehrplan21",
     "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Kompetenzbereiche nach Lehrplan21",
-    "text": "Kompetenzbereiche nach Lehrplan21\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
+    "section": "",
+    "text": "Zahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#zusammenhänge",
     "href": "lerngelegenheiten/LG_math-summ/woche_03.html#zusammenhänge",
     "title": "Summative Beurteilung im Mathematikunterricht",
-    "section": "Zusammenhänge",
-    "text": "Zusammenhänge\n\n\n\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  b4[Algebra];\n  b5[Analysis];\n  b6[Mengenlehre];\n  b7[Logik];\n  \n  i1[Symbol und Formalisierung];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  i5[Zahl];\n  \n  k1[Zahl und Variable];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  \n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  b6--&gt;i2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht Fachinhalte und Fachkompetenzbereiche\n\n\n\n\nTeilgebiete und Leitideen nach Bruder et al. (2014)\nKompetenzbereiche nach EDK (2011)\nKompetenzbereiche LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+    "section": "",
+    "text": "graph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  b4[Algebra];\n  b5[Analysis];\n  b6[Mengenlehre];\n  b7[Logik];\n  \n  i1[Symbol und Formalisierung];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  i5[Zahl];\n  \n  k1[Zahl und Variable];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  \n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  b6--&gt;i2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht Fachinhalte und Fachkompetenzbereiche\n\n\n\n\nTeilgebiete und Leitideen nach Bruder et al. (2014)\nKompetenzbereiche nach EDK (2011)\nKompetenzbereiche LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html#axiomatische-theorie",
@@ -3157,8 +3157,8 @@
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#machine-learning-ml",
     "title": "KI im Mathematikunterricht",
-    "section": "Machine Learning (ML)",
-    "text": "Machine Learning (ML)\n\n\n\n\n\n\n\n\nflowchart TD\n  A[Architektur];\n  TD[Training Data];\n  T[Tags];\n  F[Feedback];\n  App[Applikation];\n  P[Prompt]\n  K[Context]\n  O[Output]\n  Pa[Parameter]\n  R[Regeln]\n  I[Instruktionen]\n  SM[Modell]\n  UI[User Interface]\n  Temp[Temperatur]\n    \n    \n    Training--&gt;Pa;\n    A--&gt;SM;\n    Pa--&gt;SM;\n    SM--&gt;App;\n    Anbieter--&gt;App;\n    Benutzer--&gt;UI;\n    App--&gt;UI;\n    UI--&gt;O;\n    \n  subgraph Anbieter\n    R;\n    I;\n    Temp;\n  end\n  subgraph Hersteller\n    A;\n    TD;\n    T;\n    F;\n    Pa;\n    subgraph Training\n    TD;\n    T;\n    F;\n    end\n  end\n  subgraph Benutzer\n    P;\n    K;\n  end\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht über Machine Learning (eigene Darstellung)"
+    "section": "",
+    "text": "flowchart TD\n  A[Architektur];\n  TD[Training Data];\n  T[Tags];\n  F[Feedback];\n  App[Applikation];\n  P[Prompt]\n  K[Context]\n  O[Output]\n  Pa[Parameter]\n  R[Regeln]\n  I[Instruktionen]\n  SM[Modell]\n  UI[User Interface]\n  Temp[Temperatur]\n    \n    \n    Training--&gt;Pa;\n    A--&gt;SM;\n    Pa--&gt;SM;\n    SM--&gt;App;\n    Anbieter--&gt;App;\n    Benutzer--&gt;UI;\n    App--&gt;UI;\n    UI--&gt;O;\n    \n  subgraph Anbieter\n    R;\n    I;\n    Temp;\n  end\n  subgraph Hersteller\n    A;\n    TD;\n    T;\n    F;\n    Pa;\n    subgraph Training\n    TD;\n    T;\n    F;\n    end\n  end\n  subgraph Benutzer\n    P;\n    K;\n  end\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht über Machine Learning (eigene Darstellung)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html#summative-beurteilung",
@@ -3558,5 +3558,33 @@
     "title": "Inhalte effizient onlinebringen",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nEidgenössisches Institut für Geistiges Eigentum. (o. J.). Zitieren aus Werken - Eidgenössisches Institut für Geistiges Eigentum. https://www.ige.ch/de/etwas-schuetzen/urheberrecht/ein-werk-nutzen/erlaubte-nutzungen/zitieren-aus-werken\n\n\nThurlbeck, W. M. (1989). Perestroika, Fashion, and the Universal Glue. American Review of Respiratory Disease, 139(5), 1280–1281. https://doi.org/10.1164/ajrccm/139.5.1280"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-summ/woche_03.html",
+    "href": "lerngelegenheiten/LG_math-summ/woche_03.html",
+    "title": "Summative Beurteilung im Mathematikunterricht",
+    "section": "",
+    "text": "Arithmetik\nAlgebra\nAnalysis\nGeometrie\nStochastik\n\n\nBruder et al. (2014)\n\n\nMengenlehre\nLogik\n\n\n\n\n\nZahl \\(\\longrightarrow\\) Arithmetik\nSymbol und Formalisierung \\(\\longrightarrow\\) Algebra\nZuordnung und Veränderung \\(\\longrightarrow\\) Analysis\nRaum und Form \\(\\longrightarrow\\) Geometrie\nDaten und Zufall \\(\\longrightarrow\\) Stochastik\n\n\nBruder et al. (2014)\n\n\n\n\n\nZahl und Variable\nForm und Raum\nGrössen, Funktionen, Daten und Zufall\n\n\nBildungs- und Kulturdirektion des Kantons Bern (2016)\n\n\n\n\n\n\n\n\n\n\n\n\ngraph LR;\n  b1[Arithmetik];\n  b2[Stochastik];\n  b3[Geometrie];\n  b4[Algebra];\n  b5[Analysis];\n  b6[Mengenlehre];\n  b7[Logik];\n  \n  i1[Symbol und Formalisierung];\n  i2[Zuordnung und Veränderung];\n  i3[Daten und Zufall];\n  i4[Form und Raum];\n  i5[Zahl];\n  \n  k1[Zahl und Variable];\n  k2[Grössen, Funktionen, Daten und Zufall];\n  k3[Form und Raum];\n  \n  edk1[Zahl und Variable];\n  edk2[Form und Raum];\n  edk3[Grösse und Masse];\n  edk4[Funktionale Zusammenhänge];\n  edk5[Daten und Zufall];\n  b1--&gt;i5--&gt;edk1--&gt;k1;\n  b4--&gt;i1--&gt;edk1;\n  b5--&gt;i2--&gt;edk4--&gt;k2;\n  b2--&gt;i3--&gt;edk5--&gt;k2;\n  b3--&gt;i4--&gt;edk2--&gt;k3;\n  edk3--&gt;k2;\n  b6--&gt;i2;\n  subgraph Teilgebiete\n    b1;\n    b2;\n    b3;\n    b4;\n    b5;\n  end\n  subgraph B[Kompetenzbereiche EDK]\n    edk1;\n    edk2;\n    edk3;\n    edk4;\n    edk5;\n  end\n  subgraph Leitideen\n    i1;\n    i2;\n    i3;\n    i4;\n    i5;\n  end\n  subgraph K[Kompetenzbereiche LP21]\n    k1;\n    k2;\n    k3;\n  end\n  \nclassDef title font-size:14px\nclassDef padding stroke:none,fill:none\n\nclass main title\nclass padding padding\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht Fachinhalte und Fachkompetenzbereiche\n\n\n\n\nTeilgebiete und Leitideen nach Bruder et al. (2014)\nKompetenzbereiche nach EDK (2011)\nKompetenzbereiche LP21 nach Bildungs- und Kulturdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!\n\n\n\n\n\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html",
+    "href": "tagungsunterlagen/2024_05_02_KI_Mathematikunterricht.html",
+    "title": "KI im Mathematikunterricht",
+    "section": "",
+    "text": "flowchart TD\n  A[Architektur];\n  TD[Training Data];\n  T[Tags];\n  F[Feedback];\n  App[Applikation];\n  P[Prompt]\n  K[Context]\n  O[Output]\n  Pa[Parameter]\n  R[Regeln]\n  I[Instruktionen]\n  SM[Modell]\n  UI[User Interface]\n  Temp[Temperatur]\n    \n    \n    Training--&gt;Pa;\n    A--&gt;SM;\n    Pa--&gt;SM;\n    SM--&gt;App;\n    Anbieter--&gt;App;\n    Benutzer--&gt;UI;\n    App--&gt;UI;\n    UI--&gt;O;\n    \n  subgraph Anbieter\n    R;\n    I;\n    Temp;\n  end\n  subgraph Hersteller\n    A;\n    TD;\n    T;\n    F;\n    Pa;\n    subgraph Training\n    TD;\n    T;\n    F;\n    end\n  end\n  subgraph Benutzer\n    P;\n    K;\n  end\n\n\n\n\n\n\n\n\nAbbildung 1: Übersicht über Machine Learning (eigene Darstellung)"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_03_20_PLP_Tagung.html",
+    "href": "tagungsunterlagen/2024_03_20_PLP_Tagung.html",
+    "title": "Wie gelingt Beziehungsgestaltung?",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R., & Conrardy, R. (2024, March 20). Wie gelingt\n&lt;span\nstyle=white-space:nowrap&gt;Beziehungsgestaltung?&lt;/span&gt;.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
   }
 ]

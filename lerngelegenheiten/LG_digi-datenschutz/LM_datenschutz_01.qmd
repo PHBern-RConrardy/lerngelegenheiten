@@ -21,27 +21,32 @@ Die Studierenden ...
 - setzen good practices von Datensicherheit um.
 :::
 
-# Einstiegsfragen
-
-Notieren Sie sich ihre Antworten auf folgende Fragen:
-
-- Was bedeutet für Sie Datenschutz?
-- Eine Person sagt "Datenschutz ist mir egal, Google hat ja eh schon all meine Daten." Was antworten Sie?.
 
 # Begriffsabgrenzung
 
 
-Schauen Sie [Was schützt eigentlich der Datenschutz?](https://media.ccc.de/v/35c3-9733-was_schutzt_eigentlich_der_datenschutz)
+Schauen Sie @rehak_was_2018.
 
 - Notieren Sie sich welche Teilbereiche von Datenschutz berührt werden.
 
 # Datenschutz als soziologischer Begriff
 
-Haben Sie ihre Meinung 
+::: {#exr-line}
+## Weshalb Daten schützen?
+
+Eine Schülerin sagt, dass ihr Datenschutz egal ist, denn die grossen Tech-Unternehmen haben eh seine Daten. Wie reagieren Sie?
+:::
+
+::: {#exr-line}
+## "Aber Datenschutz!"
+
+Gesetzliche Vertreter (Eltern) sagen Ihnen, dass etwas nicht erlaubt ist, auf Grund von *Datenschutz*. Wie reagieren Sie?
+:::
+
 
 # Datenschutzrecht
 
-In der Schweiz regelt das [Datenschutzgesetz (DSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/de), bzw. das [kantonale Datenschutzgesetzt (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane [Art. 2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de). Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden [vgl. Art. 4 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7). Die [Datenschutzgrundverordnung (DSGVO)](https://dsgvo-gesetz.de/) ist das europäische Pendant. 
+In der Schweiz regelt das [Datenschutzgesetz (DSG)](https://www.fedlex.admin.ch/eli/cc/2022/491/de), bzw. das [kantonale Datenschutzgesetzt (KDSG)](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04) die rechtskonforme Bearbeitung von Daten. Das DSG gilt nur die Bearbeitung von gewissen Daten durch private Personen (inkl. Firmen) und durch Bundesorgane [Art. 2 Abs. 1 DSG](https://www.fedlex.admin.ch/eli/cc/2022/491/de). Das KDSG gilt für jede Bearbeitung gewisser Daten durch Behörden [vgl. Art. 4 Abs. 1 KDSG](https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7). Die [Datenschutzgrundverordnung (DSGVO)](https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32016R0679) ist das europäische Pendant. 
 
 ::: {#exr-line}
 ## Geltungsbereich
@@ -59,13 +64,24 @@ Welche Daten, welche unter das KDSG fallen, bearbeiten Lehrpersonen?
 
 Welche dieser Daten sind gemäss KDSG "besonders schützenswert"? Welche Unterschiede gibt es hier zwischen KDSG und DSG? Wie heissen diese Daten in der DSGVO und wie sind sie dort definiert?
 :::
+
+::: {#exr-line}
+## Bussen
+
+Welche Bussen kennt das KDSG, das DSG und die DSGVO?
+:::
+
 ### Unternehmensinterne Bestimmungen
 
-Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf. Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.
+Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf oder Industriespionage. Diese *berechtigten Interessen* haben Sie *in guten Treuen zu wahren* ([Art. 321a Abs. 1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_a)). Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.
+
+### Haftung
+
+"Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt." ([Art. 321e Abs. 1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_a))
 
 # Datensicherheit
 
-Datensicherheit (IT Security) hat drei übergeordnete Ziele [vgl. z.B. @wegener_informationssicherheit_2016 S.3].
+Datensicherheit (IT Security) hat drei übergeordnete Ziele [vgl. z.B. @wegener_informationssicherheits-management_2016 S.3].
 
 * Integrität
 * Vertraulichkeit
@@ -97,7 +113,7 @@ Zeigen Sie, dass es zwischen den drei Schutzzielen Zielkonflikte gibt.
 
 Es gibt nehben diesen drei Zielen noch andere, situativiere Ziele. Als Beispiel sei hier die Nichtabstreitbarkeit bei Verträgen genannt. Hier ist es wünschenswert, dass eine Partei nicht abstreiten kann, dass das Dokument von ihnen "digital unterschrieben" wurde.
 
-Der Datenschutz wird von drei Säulen getragen [@wegener_informationssicherheit_2016 S.5]
+Der Datenschutz wird von drei Säulen getragen [@wegener_informationssicherheits-management_2016 S.5]
 
 * Personen
 * Prozesse
