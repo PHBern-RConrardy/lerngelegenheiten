@@ -71,6 +71,29 @@ Welche dieser Daten sind gemäss KDSG "besonders schützenswert"? Welche Untersc
 Welche Bussen kennt das KDSG, das DSG und die DSGVO?
 :::
 
+### Leistungsbeurteilung und besonders schützenswerte Daten
+
+> Aus unserer Sicht kann eine Leistungsbeurteilung über einen längeren Zeitraum hinweg sensible Informationen über die betroffene Person offenlegen oder Rückschlüsse auf persönliche Aspekte dieser Person zulassen. Daher ordnen wir solche Leistungsbeurteilungen grundsätzlich dem persönlichen Geheimbereich nach [Art. 3 Bst. b KDSG](https://www.belex.sites.be.ch/data/152.04/de/art3) zu. Soweit unsere örtliche Zuständigkeit betroffen ist, erachten wir derartige Angaben über eine bestimmte oder bestimmbare Person demnach als «besonders schützenswerte» Personendaten. Mit der gleichen Überlegung können sozialpädagogische Massnahmen, aber auch im Einzelfall, je nach Inhalt, Selbsteinschätzungen von Schülerinnen und Schüler, grundsätzlich den «besonders schützenswerten» Personendaten zugeordnet werden. Es kommt somit nicht auf die Art der Beurteilung an (Beurteilungsanlass oder Beurteilungsbericht bzw. formative oder summative Beurteilung), sondern nur der Inhalt des Berichts ist entscheidend.
+>
+> Verantwortlich für den Datenschutz ist jene Behörde, die die Personendaten zur Erfüllung ihrer gesetzlichen Aufgaben bearbeitet oder bearbeiten lässt ([Art. 8 KDSG](https://www.belex.sites.be.ch/data/152.04/de/art8)). Sie sorgt für deren Sicherung ([Art. 17 KDSG](https://www.belex.sites.be.ch/data/152.04/de/art17)). Es ist Aufgabe der Behörde, zu prüfen, ob die gesetzlichen Voraussetzungen für die beabsichtigten Personendatenbearbeitungen erfüllt sind und ob die Schutzziele der Informationssicherheit (insb. Vertraulichkeit, Verfügbarkeit, Integrität) gewährleistet werden. Es liegt somit an der verantwortlichen Behörde, zu bestimmen, welche Informationen mit welchem Tool bearbeitet werden dürfen und welche nicht. 
+>
+:::quelle
+Mailverkehr vom 29.08.2024 mit der  [Datenschutzaufsichtsstelle des Kantons Bern (DSA)](https://www.be.ch/de/start/ueber-uns/datenschutzaufsichtsstelle.html)
+:::
+
+#### Zusatz für Hochschuldaten
+
+> Die DSA (Datenschutzaufsichtsstelle) des Kantons Bern definiert für die Hochschulen zwei ganz bestimmte Attribute als «besonders schützenswerte» Personendaten:
+>
+> * Leistungsnachweise (genauer, eine Serie von Leistungsnachweisen einer Person)
+> * Portrait-Bild einer Person
+>
+> Die beiden Attribute werden damit begründet, dass sich bspw. in einer Serie schwächer werdender Leistungen ggf. ein sich verändernder Gesundheitszustand ablesen liesse. Das gleiche gilt auch für das Portrait-Bild einer Person.
+>
+:::quelle
+Mailverkehr vom 03.09.2024 mit der PHBern Information Security Group
+:::
+
 ### Unternehmensinterne Bestimmungen
 
 Zusätzlich zu den gesetzlichen Vorgaben definieren Arbeitgeber weitere Kategorien von Daten. Diese dienen meist dem Schutz des Arbeitgebers, z.B. vor einem schlechten Ruf oder Industriespionage. Diese *berechtigten Interessen* haben Sie *in guten Treuen zu wahren* ([Art. 321a Abs. 1 OR](https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_a)). Im Rahmen ihres Anstellungsvertrags erhalten Sie dazu weitere Informationen von ihrem Arbeitgeber.
