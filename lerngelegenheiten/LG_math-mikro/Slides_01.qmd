@@ -1,0 +1,139 @@
+---
+format: revealjs
+title: Mikroplanung Mathematik
+subtitle: Phasenmodelle und Kernprozesse
+---
+
+# Lernziele
+
+## Studienplan 22
+
+:::{.callout-note}
+### Indikatoren Mikroplanung
+
+Die Studierenden
+
+* gliedern Lernprozesse in Lernphasen.
+* [...]
+* gestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.
+
+:::quelle
+
+@phbern_studienplan_2022
+
+:::
+
+:::
+
+##
+
+:::{.callout-warning}
+
+## Lerngelegenheit mit Schwerpunkt Phasenmodelle
+
+### Planungsarbeit im Fokus 
+
+Dr. Daniel Ingrisani
+
+:::
+
+# Modelle
+
+## Modelle und Prozesse {.smaller}
+
+:::::: {.columns}
+
+::: {.column width="35%"}
+### PADUA
+
+1. **P**roblemlösendes **A**ufbauen
+2. **D**urcharbeiten
+3. **Ü**ben und Wiederholen
+4. **A**nwenden
+
+:::quelle
+
+@aebli_zwolf_1983
+:::
+
+
+:::
+::: {.column width="35%"}
+### AVIVA
+
+1. **A**nkommen
+2. **V**orwissen aktivieren
+3. **I**nformieren
+4. **V**ertiefen
+5. **A**uswerten
+
+
+:::quelle
+
+@stadeli_aviva_2020
+:::
+
+:::
+::: {.column width="20%"}
+### Kernprozesse
+
+* Erkunden
+* Ordnen
+* Vertiefen
+
+:::quelle
+
+@barzel_kontexte_2011
+:::
+
+:::
+::::::
+
+
+## Weitere Phasenmodelle {.smaller}
+
+:::::: {.columns}
+
+
+::: {.column width="33%"}
+##### Productive Failure
+
+
+1. *generation and exploration phase*
+2. *consolidation phase*
+
+::: quelle
+[@kapur_designing_2012, S.49]
+:::
+
+
+:::
+::: {.column width="33%"}
+##### Flipped Classroom
+
+1. *learn basic content online and prior to class*
+2. *in-class time to clarify students’ understandings [...] enable students to **engage** deeply [...]*
+
+:::quelle
+[@kapur_fail_2022]
+:::
+
+:::
+::: {.column width="33%"}
+##### 4F
+
+1.  Fail
+2.  Flip
+3.  Fix
+4.  Feed
+
+:::quelle
+[@kapur_fail_2022]
+:::
+
+:::
+::::::
+
+
+
+## Literatur
