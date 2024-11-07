@@ -1,0 +1,8 @@
+---
+format: revealjs
+title: Mediendidaktik
+subtitle: Termin 1
+citation: 
+  author:
+    - Richard Conrardy
+---

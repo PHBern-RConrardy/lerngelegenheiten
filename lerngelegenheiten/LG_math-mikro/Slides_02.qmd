@@ -114,7 +114,7 @@ Sie ermöglichen den Schülerinnen und Schülern individuelle Zugangsweisen. Sie
 
 :::quelle
 
-@hirt2018, S.1
+@hirt_checkliste_2018, S.1
 
 :::
 
@@ -137,7 +137,7 @@ Reichhaltige Aufgaben beziehen sich auf mehrere Handlungsaspekte der Matrix LP 2
 
 :::quelle
 
-@eckhart2020, S.50
+@eckhart_reichhaltige_2020, S.50
 :::
 
 ### Fazit?
@@ -151,73 +151,12 @@ Reichhaltige Aufgaben beziehen sich auf mehrere Handlungsaspekte der Matrix LP 2
 
 :::
 
-## Beispiel? {.smaller}
+## Beispiel
 
-#### Mathematikaufgabe: Umsatz und Gewinn eines Obstbauern
-
-Ein Obstbauer verkauft Äpfel auf einem Markt. Der Preis pro Kilo hängt von der Menge ab, die er anbietet. Die Preis-Mengen-Beziehung wird durch die Funktion $p(x) = 10 - 0.5x$ beschrieben, wobei $p(x)$ der Preis pro Kilo in Franken ist und $x$ die angebotene Menge in Kilogramm.
-
-#### a) Umsatzfunktion
-
-Bestimme die Umsatzfunktion $U(x)$, die den Umsatz in Abhängigkeit von der angebotenen Menge beschreibt.
-
-#### b) Umsatz berechnen
-
-Berechne den Umsatz, wenn der Obstbauer:
-- 5 Kilogramm Äpfel verkauft,
-- 10 Kilogramm Äpfel verkauft,
-- 15 Kilogramm Äpfel verkauft.
-
-#### c) Maximaler Umsatz
-
-Finde die Menge $x_{\text{max}}$, bei der der Umsatz maximal ist, und berechne den maximalen Umsatz.
-
-#### d) Gewinnfunktion
-
-Die Produktionskosten des Obstbauers für $x$ Kilogramm Äpfel werden durch die Funktion $K(x) = 2x + 20$ beschrieben. Bestimme die Gewinnfunktion $G(x)$, die den Gewinn des Obstbauers in Abhängigkeit von der Menge der verkauften Äpfel darstellt.
-
-#### e) Gewinnmaximierung
-
-Berechne die Menge $x_{\text{optim}}$, bei der der Gewinn maximiert wird, und bestimme den maximalen Gewinn.
-
+> Wie oft mal blinzelt ein Mensch in seinem Leben?
 
 :::quelle
-
-ChatGPT 3.5 (6.11.24)
-"formuliere eine reichhaltige Mathematikaufgabe wie sie im Mathbuch vorkommt und in Bern auf der Sekundarstufe angemessen ist"
-:::
-
-## Besseres Beispiel? {.smaller}
-
-Die Schule plant, eine neue Sporthalle zu bauen, und möchte dabei sowohl die Fläche des Gebäudes als auch die Kosten für die Bauarbeiten optimieren. Der Plan sieht vor, dass das Gebäude rechteckig ist, mit einer festen Länge und einer variablen Breite.
-
-1. Gegeben:
-
-* Die Länge der Sporthalle soll 30 Meter betragen.
-* Die Breite der Sporthalle $b$ (in Metern) kann je nach Bedarf angepasst werden.
-* Der Baukostenpreis pro Quadratmeter beträgt 1500 Franken.
-
-2. Aufgabenstellung:
-a) Bestimme die Fläche $A(b)$ der Sporthalle in Abhängigkeit von der Breite bb.
-b) Berechne die Baukosten $C(b)$ der Sporthalle als Funktion der Breite bb.
-c) Die Schule möchte die Breite der Sporthalle so wählen, dass die Baukosten mindestens 1.5 Millionen Franken betragen. Bestimme alle möglichen Werte für $b$, bei denen diese Bedingung erfüllt ist.
-d) Überlege, welche Breite $b$ du für die Sporthalle empfehlen würdest, wenn das Ziel darin besteht, sowohl eine große Fläche als auch möglichst niedrige Baukosten zu haben.
-e) (Offen) Entwirf eine eigene Lösung: Stelle dir vor, die Schule möchte eine zusätzliche Funktion in den Bauplan aufnehmen, z.B. eine Tribüne oder eine spezielle Ausstattung, die zusätzliche Kosten verursacht. Wie könnte sich dies auf die Form der Funktion auswirken? Erläutere deine Überlegungen und entwerfe eine angepasste Kostenfunktion.
-
-**Hinweise zur Aufgabe:**
-
-* Die Aufgabe fordert die Schülerinnen und Schüler auf, mit Funktionen umzugehen und diese im Kontext einer realen Entscheidungssituation zu nutzen.
-* Sie bietet sowohl konkrete mathematische Berechnungen als auch offene Überlegungen zu einer praktischen Fragestellung.
-* Es wird Raum für eigene Ideen gelassen, was die Kreativität anregt und die Aufgabe zu einem ansprechenden Problem macht, das auch in Diskussionen eingebaut werden kann.
-
-Diese Aufgabe eignet sich für die Sekundarstufe und deckt mehrere wichtige mathematische Konzepte ab, wie lineare Funktionen, Optimierung und Anwendung in praktischen Kontexten.
-
-:::quelle
-
-ChatGPT 3.5 (6.11.24)
-"formuliere eine reichhaltige, offene Mathematikaufgabe wie sie im Mathbuch vorkommt und in Bern auf der Sekundarstufe angemessen ist"
-
-Die Hinweise wurden ohne weitere Aufforderung mitgeneriert.
+[@nydegger_reichhaltige_2019-1, S.2]
 :::
 
 ## Fermi-Aufgaben {.smaller}
@@ -282,5 +221,39 @@ h) Der Lehrer teilt den Satz einfach mit. Eine experimentelle Verifikation erfol
 :::quelle
 @van_dormolen_didaktik_1978, S.76
 :::
+
+# Was wirkt?
+
+## Keine Tests
+
+Die Wirkung von reichhaltigen Aufgaben scheint nicht erprobt worden zu sein.
+
+"Selbstentdecktes Lernen" hat erst schwache Evidenz. Ähnlich verhält es sich mit Fermi-Aufgaben.
+
+## Productive Failure
+
+
+:::{ style="font-size: 0.7em;" }
+
+| Moderating variables  | n   | g    | SE   |
+|-----------------------|-----|------|------|
+| **Education**          |     |      |      |
+| Junior high            | 11  | 0.65 | 0.16 |
+| High school            | 9   | 0.38 | 0.17 |
+| College                | 3   | 0.06 | 0.40 |
+| **Domain**             |     |      |      |
+| Science/math           | 20  | 0.50 | 0.13 |
+| Other                  | 3   | 0.06 | 0.40 |
+| **Duration**           |     |      |      |
+| ≤ 1 week               | 16  | 0.43 | 0.16 |
+| > 1 week               | 7   | 0.45 | 0.13 |
+
+:::
+
+:::quelle
+[@darabi_learning_2018]
+:::
+
+
 
 ## Quellen
