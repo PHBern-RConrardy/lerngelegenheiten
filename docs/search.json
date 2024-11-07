@@ -615,7 +615,7 @@
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#diskussion",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Diskussion",
-    "text": "Diskussion"
+    "text": "Diskussion\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#empfehlungen",
@@ -3845,5 +3845,117 @@
     "title": "Mikroplanung Mathematik",
     "section": "Productive Failure",
     "text": "Productive Failure\n\n\n\n\nModerating variables\nn\ng\nSE\n\n\n\n\nEducation\n\n\n\n\n\nJunior high\n11\n0.65\n0.16\n\n\nHigh school\n9\n0.38\n0.17\n\n\nCollege\n3\n0.06\n0.40\n\n\nDomain\n\n\n\n\n\nScience/math\n20\n0.50\n0.13\n\n\nOther\n3\n0.06\n0.40\n\n\nDuration\n\n\n\n\n\n≤ 1 week\n16\n0.43\n0.16\n\n\n&gt; 1 week\n7\n0.45\n0.13\n\n\n\n\n\n(Darabi et al., 2018)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#think-pair-share",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#think-pair-share",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Think-Pair-Share",
+    "text": "Think-Pair-Share"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#programmvorschlag",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#programmvorschlag",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Programmvorschlag",
+    "text": "Programmvorschlag\nimport yagmail\n\nsmtp_server = \"smtp-mail.outlook.com\"  \nsmtp_port = 587  \nsender_email = \"richard.conrardy@phbern.ch\"\nsender_password = input(\"Passwort\")\n\nyag = yagmail.SMTP(sender_email, sender_password)\n\nrecipients = {\n    \"recipient1@example.com\": \"Liebe Alice,\\n\\nJakob arbeitet gut mit!\",\n    \"recipient2@example.com\": \"Liebe Frau und Herr Mustermann,\\n\\nMax hat schon wieder Kreide geworfen.\",\n    \"recipient3@example.com\": \"Liebe Eltern, \\n Ihr Kind ist toll!\"\n}\nsubject = \"Elternabend\"\n\nfor recipient, content in recipients.items():\n    yag.send(to=recipient, subject=subject, contents=content)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#technologien-tools",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#technologien-tools",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Technologien > Tools",
+    "text": "Technologien &gt; Tools\n\n\n\n\n\n\nHinweis\n\n\nRelevant für digitale Kommunikation sind vor allem Technologien, umgesetzt in Tools."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kategorisierung",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kategorisierung",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Kategorisierung",
+    "text": "Kategorisierung\n\nE-Mail\nChat\nVideokonferenz\nForen\nSoziale Medien\nBlogs\nWiki\nRSS\n…"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#lehrplan21",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#lehrplan21",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Lehrplan21",
+    "text": "Lehrplan21\nMI.1.4.f können kooperative Werkzeuge anpassen und für gemeinsames Arbeiten, Meinungsaustausch, Kommunikation sowie zum Publizieren einsetzen (z.B. Blog, Wiki).\nAnwendungskompetenz Recherche und Lernunterstützung:\nkönnen Medien für den eigenen Lernprozess selbstständig auswählen und einsetzen (z.B. Sachbuch, Zeitschrift, RSS-Feed, soziale Netzwerke, E-Book, fachbezogene Software)."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#use-cases",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#use-cases",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Use-Cases",
+    "text": "Use-Cases\n\nEbene SchuleEbene KlasseEbene Kind\n\n\n\nInformationsanlässe\nBesuchstage\nFeiern\nAufführungen\nMärkte\nSporttag\nEltern-Lehrpersonen-Stammtische\nWebseite\nSchulbroschüre\nSchulzeitung\nDolmetscherdienst\nWeiterbildungen\nFlyer für schulnahe Angebote sowie für Support und Beratung\nMentorat für Eltern\nAngebote für Beratung und Elternbildung\nElternrat\nElternforum oder Elterncafé\nEigenständige Elternvereine\nMitwirkung in lokalen oder kantonalen Behörden (Schulpolitik)\nEinbezug von unabhängigen Eltern- und Kulturvereinen\nMitgestaltung von Anlässen\nVernehmlassungen und Befragungen\nFeedbackanlässe\nEltern-Lehrpersonen-Stammtische\nElterntraining\n\n\n\n\nInformationsanlässe\nBesuche in der Klasse\nFeste und Feiern\nAufführungen\nElternabende\nGemeinsame Feste und Ausflüge\nInformationsmappe\nNewsletter\nElternnewsletter\nInformationen am Elternabend\nKollektive Elternbriefe\nMitwirkungsmöglichkeiten im Unterricht\nMitwirkung an Anlässen und Exkursionen\nBefragungen\nFeedbackanlässe\nElternrat\nEinholen von Elternfeedback\n\n\n\n\nWillkommensgespräche\nElterngespräche\nHausbesuche\nTelefonanrufe\nElternbüchlein\nMitteilungsheft\nDigitale Kommunikation\nEinblick in Eintragungen auf dem Schulserver\nElterngespräche, evtl. Hausbesuche\nBeurteilungs- und Standortgespräche\nSchüler-Eltern-Lehrpersonengespräche\nElternsprechtage\nSprechstunde\nLernentwicklungsgespräch\nTelefongespräche\nE-Mails\nBeratungsgespräche\nBegleitung von Hausaufgaben und beim Berufswahlprozess\nTeilnahme an Besuchstagen\nBeratungsgespräche\nHinweise auf Fachstellen und Support\nElternunterstützung im Unterricht\nLesepate\n\n\n\n\n\nkürzt aus https://ilias.phbern.ch/goto_phbern_copa_2393509.html"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#bibliographie",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#bibliographie",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#einfacher",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#einfacher",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Einfacher",
+    "text": "Einfacher\n\nsynchrone Kommunikation -&gt; zeitgleich\n\nTelefon, Videochat: synchrone mediale Kommunikation\n\nasynchrone Kommunikation ➔ zeitversetzt\n\nMessenger, SMS, Brief, E-Mail, Blogs, Foren, Social Media\n\n\nDie Grenzen verschwimmen auch häufig… (Chat/Messenger)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kommunikationstheorien",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kommunikationstheorien",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Kommunikationstheorien",
+    "text": "Kommunikationstheorien"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#sender-empfänger-modell",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#sender-empfänger-modell",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Sender-Empfänger-Modell",
+    "text": "Sender-Empfänger-Modell\n\nBild von Abby M."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#modell-der-drei-wirklichkeiten",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#modell-der-drei-wirklichkeiten",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Modell der drei Wirklichkeiten",
+    "text": "Modell der drei Wirklichkeiten"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#vier-seiten-modell",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#vier-seiten-modell",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Vier-Seiten-Modell",
+    "text": "Vier-Seiten-Modell\n\nModell von Schulz von Thun"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#noviolent-communication",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#noviolent-communication",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Noviolent Communication",
+    "text": "Noviolent Communication\n\nMarshall Rosenberg"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#aktivität",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#aktivität",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Aktivität",
+    "text": "Aktivität\nUmgang mit der Informationsflut:\n\nWie schnell reagierst du als LP auf (welche) digitalen Nachrichten? (Eltern, LP-Team, SL etc.)\nWie vermeidest du Missverständnisse in deiner (online) Kommunikation?\nWie stellst du sicher, dass du wichtige Informationen/Nachrichten nicht verpasst?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kommunikationskonzepte",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kommunikationskonzepte",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Kommunikationskonzepte",
+    "text": "Kommunikationskonzepte\nLesen Sie das Kommunikationszept der Schule und schauen Sie, ob alle Aktivitäten welche für Sie relevant sind, abgedeckt sind."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#anders",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#anders",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "Anders",
+    "text": "Anders\n\nöffentliche Kommunikation\n\nBlog, Wiki Foren, Youtube\n\ngeschlossene Kommunikation\n\nSMS, Brief, E-Mail, Zoom"
   }
 ]

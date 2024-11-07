@@ -7,9 +7,10 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.32">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Richard Conrardy">
   <title>Digitale Zusammenarbeit und Kommunikation</title>
@@ -30,8 +31,73 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-9a95b489cb4dafd41372e45bf7cbf1ad.css">
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -330,8 +396,8 @@
     <div class="slides">
 
 <section id="title-slide" data-background-image="../../images/logo cc-by-sa.svg" data-background-position="94% 99%" data-background-size="12%" class="quarto-title-block center">
-  <h1 class="title">Digitale Zusammenarbeit und Kommunikation</h1>
-  <p class="subtitle">Tag 2</p>
+  <h1 class="title"><small>Digitale Zusammenarbeit und Kommunikation</small></h1>
+  <p class="subtitle">Tag 2 <br> Kommunikationskonzepte</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -351,62 +417,307 @@
 
 </section>
 <section>
-<section id="social-media" class="title-slide slide level1 agenda-slide center scrollable">
-<h1>Social Media</h1>
+<section id="aufträge" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Aufträge</h1>
 <div class="agenda-heading">
 <p>Inhalt</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-active">
-<p>Social Media</p>
+<p>Aufträge</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Serienbrief</p>
+<p>Worum geht es?</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Kommunikationstheorien</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Kommunikationszonzepte</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="diskussion" class="slide level2">
-<h2>Diskussion</h2>
+<section id="think-pair-share" class="slide level2">
+<h2>Think-Pair-Share</h2>
 </section>
-<section id="empfehlungen" class="slide level2">
-<h2>Empfehlungen</h2>
-<ul>
-<li>Strikte Trennung von privaten und beruflichen Accounts</li>
-<li>Schriftlich informieren</li>
-<li>CC BY-SA 4.0 Lizenzen</li>
-</ul>
+<section id="programmvorschlag" class="slide level2">
+<h2>Programmvorschlag</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a></a><span class="im">import</span> yagmail</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a>smtp_server <span class="op">=</span> <span class="st">"smtp-mail.outlook.com"</span>  </span>
+<span id="cb1-4"><a></a>smtp_port <span class="op">=</span> <span class="dv">587</span>  </span>
+<span id="cb1-5"><a></a>sender_email <span class="op">=</span> <span class="st">"richard.conrardy@phbern.ch"</span></span>
+<span id="cb1-6"><a></a>sender_password <span class="op">=</span> <span class="bu">input</span>(<span class="st">"Passwort"</span>)</span>
+<span id="cb1-7"><a></a></span>
+<span id="cb1-8"><a></a>yag <span class="op">=</span> yagmail.SMTP(sender_email, sender_password)</span>
+<span id="cb1-9"><a></a></span>
+<span id="cb1-10"><a></a>recipients <span class="op">=</span> {</span>
+<span id="cb1-11"><a></a>    <span class="st">"recipient1@example.com"</span>: <span class="st">"Liebe Alice,</span><span class="ch">\n\n</span><span class="st">Jakob arbeitet gut mit!"</span>,</span>
+<span id="cb1-12"><a></a>    <span class="st">"recipient2@example.com"</span>: <span class="st">"Liebe Frau und Herr Mustermann,</span><span class="ch">\n\n</span><span class="st">Max hat schon wieder Kreide geworfen."</span>,</span>
+<span id="cb1-13"><a></a>    <span class="st">"recipient3@example.com"</span>: <span class="st">"Liebe Eltern, </span><span class="ch">\n</span><span class="st"> Ihr Kind ist toll!"</span></span>
+<span id="cb1-14"><a></a>}</span>
+<span id="cb1-15"><a></a>subject <span class="op">=</span> <span class="st">"Elternabend"</span></span>
+<span id="cb1-16"><a></a></span>
+<span id="cb1-17"><a></a><span class="cf">for</span> recipient, content <span class="kw">in</span> recipients.items():</span>
+<span id="cb1-18"><a></a>    yag.send(to<span class="op">=</span>recipient, subject<span class="op">=</span>subject, contents<span class="op">=</span>content)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section></section>
 <section>
-<section id="serienbrief" class="title-slide slide level1 agenda-slide center scrollable">
-<h1>Serienbrief</h1>
+<section id="worum-geht-es" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Worum geht es?</h1>
 <div class="agenda-heading">
 <p>Inhalt</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Social Media</p>
+<p>Aufträge</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Serienbrief</p>
+<p>Worum geht es?</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Kommunikationstheorien</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Kommunikationszonzepte</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="diskussion-1" class="slide level2">
-<h2>Diskussion</h2>
-
-
+<section id="technologien-tools" class="slide level2">
+<h2>Technologien &gt; Tools</h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Hinweis</strong></p>
+</div>
+<div class="callout-content">
+<p>Relevant für digitale Kommunikation sind vor allem Technologien, umgesetzt in Tools.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="kategorisierung" class="slide level2">
+<h2>Kategorisierung</h2>
+<ul>
+<li>E-Mail</li>
+<li>Chat</li>
+<li>Videokonferenz</li>
+<li>Foren</li>
+<li>Soziale Medien</li>
+<li>Blogs</li>
+<li>Wiki</li>
+<li>RSS</li>
+<li>…</li>
+</ul>
+</section>
+<section id="einfacher" class="slide level2">
+<h2>Einfacher</h2>
+<ul>
+<li>synchrone Kommunikation -&gt; zeitgleich
+<ul>
+<li>Telefon, Videochat: synchrone mediale Kommunikation</li>
+</ul></li>
+<li>asynchrone Kommunikation ➔ zeitversetzt
+<ul>
+<li>Messenger, SMS, Brief, E-Mail, Blogs, Foren, Social Media</li>
+</ul></li>
+</ul>
+<p>Die Grenzen verschwimmen auch häufig… (Chat/Messenger)</p>
+</section>
+<section id="anders" class="slide level2">
+<h2>Anders</h2>
+<ul>
+<li>öffentliche Kommunikation
+<ul>
+<li>Blog, Wiki Foren, Youtube</li>
+</ul></li>
+<li>geschlossene Kommunikation
+<ul>
+<li>SMS, Brief, E-Mail, Zoom</li>
+</ul></li>
+</ul>
+</section>
+<section id="aktivität" class="slide level2">
+<h2>Aktivität</h2>
+<p>Umgang mit der Informationsflut:</p>
+<ul>
+<li>Wie schnell reagierst du als LP auf (welche) digitalen Nachrichten? (Eltern, LP-Team, SL etc.)</li>
+<li>Wie vermeidest du Missverständnisse in deiner (online) Kommunikation?</li>
+<li>Wie stellst du sicher, dass du wichtige Informationen/Nachrichten nicht verpasst?</li>
+</ul>
 </section></section>
-    </div>
-  <div class="quarto-auto-generated-content" style="display: none;">
+<section>
+<section id="kommunikationstheorien" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Kommunikationstheorien</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Aufträge</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Worum geht es?</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Kommunikationstheorien</p>
+</div></li>
+<li><div class="agenda-inactive agenda-post-active">
+<p>Kommunikationszonzepte</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="sender-empfänger-modell" class="slide level2">
+<h2>Sender-Empfänger-Modell</h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/3/30/Sender-Empf%C3%A4nger-Modell_nach_Shannon_und_Weaver.jpg" class="r-stretch quarto-figure-center"><p class="caption">Bild von <a href="https://commons.wikimedia.org/wiki/File:Sender-Empf%C3%A4nger-Modell_nach_Shannon_und_Weaver.jpg">Abby M.</a></p></section>
+<section id="modell-der-drei-wirklichkeiten" class="slide level2">
+<h2>Modell der drei Wirklichkeiten</h2>
+
+<img data-src="https://digibasics.ch/wp-content/uploads/2024/04/A2_Wirklichkeiten-1024x724.png" class="r-stretch"></section>
+<section id="vier-seiten-modell" class="slide level2">
+<h2>Vier-Seiten-Modell</h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/9/99/Vier-Seiten-Modell_de_2.svg" class="r-stretch quarto-figure-center"><p class="caption">Modell von Schulz von Thun</p></section>
+<section id="noviolent-communication" class="slide level2">
+<h2>Noviolent Communication</h2>
+
+<img data-src="https://upload.wikimedia.org/wikipedia/commons/1/17/MarshallRosenberg1990.jpg" class="r-stretch quarto-figure-center"><p class="caption">Marshall Rosenberg</p></section></section>
+<section>
+<section id="kommunikationszonzepte" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Kommunikationszonzepte</h1>
+<div class="agenda-heading">
+<p>Inhalt</p>
+</div>
+<div class="agenda">
+<ol>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Aufträge</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Worum geht es?</p>
+</div></li>
+<li><div class="agenda-inactive agenda-pre-active">
+<p>Kommunikationstheorien</p>
+</div></li>
+<li><div class="agenda-active">
+<p>Kommunikationszonzepte</p>
+</div></li>
+</ol>
+</div>
+</section>
+<section id="use-cases" class="slide level2 smaller">
+<h2>Use-Cases</h2>
+<div class="panel-tabset">
+<ul id="tabset-1" class="panel-tabset-tabby"><li><a data-tabby-default="" href="#tabset-1-1">Ebene Schule</a></li><li><a href="#tabset-1-2">Ebene Klasse</a></li><li><a href="#tabset-1-3">Ebene Kind</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1">
+<ul>
+<li>Informationsanlässe</li>
+<li>Besuchstage</li>
+<li>Feiern</li>
+<li>Aufführungen</li>
+<li>Märkte</li>
+<li>Sporttag</li>
+<li>Eltern-Lehrpersonen-Stammtische</li>
+<li>Webseite</li>
+<li>Schulbroschüre</li>
+<li>Schulzeitung</li>
+<li>Dolmetscherdienst</li>
+<li>Weiterbildungen</li>
+<li>Flyer für schulnahe Angebote sowie für Support und Beratung</li>
+<li>Mentorat für Eltern</li>
+<li>Angebote für Beratung und Elternbildung</li>
+<li>Elternrat</li>
+<li>Elternforum oder Elterncafé</li>
+<li>Eigenständige Elternvereine</li>
+<li>Mitwirkung in lokalen oder kantonalen Behörden (Schulpolitik)</li>
+<li>Einbezug von unabhängigen Eltern- und Kulturvereinen</li>
+<li>Mitgestaltung von Anlässen</li>
+<li>Vernehmlassungen und Befragungen</li>
+<li>Feedbackanlässe</li>
+<li>Eltern-Lehrpersonen-Stammtische</li>
+<li>Elterntraining</li>
+</ul>
+</div>
+<div id="tabset-1-2">
+<ul>
+<li>Informationsanlässe</li>
+<li>Besuche in der Klasse</li>
+<li>Feste und Feiern</li>
+<li>Aufführungen</li>
+<li>Elternabende</li>
+<li>Gemeinsame Feste und Ausflüge</li>
+<li>Informationsmappe</li>
+<li>Newsletter</li>
+<li>Elternnewsletter</li>
+<li>Informationen am Elternabend</li>
+<li>Kollektive Elternbriefe</li>
+<li>Mitwirkungsmöglichkeiten im Unterricht</li>
+<li>Mitwirkung an Anlässen und Exkursionen</li>
+<li>Befragungen</li>
+<li>Feedbackanlässe</li>
+<li>Elternrat</li>
+<li>Einholen von Elternfeedback</li>
+</ul>
+</div>
+<div id="tabset-1-3">
+<ul>
+<li>Willkommensgespräche</li>
+<li>Elterngespräche</li>
+<li>Hausbesuche</li>
+<li>Telefonanrufe</li>
+<li>Elternbüchlein</li>
+<li>Mitteilungsheft</li>
+<li>Digitale Kommunikation</li>
+<li>Einblick in Eintragungen auf dem Schulserver</li>
+<li>Elterngespräche, evtl. Hausbesuche</li>
+<li>Beurteilungs- und Standortgespräche</li>
+<li>Schüler-Eltern-Lehrpersonengespräche</li>
+<li>Elternsprechtage</li>
+<li>Sprechstunde</li>
+<li>Lernentwicklungsgespräch</li>
+<li>Telefongespräche</li>
+<li>E-Mails</li>
+<li>Beratungsgespräche</li>
+<li>Begleitung von Hausaufgaben und beim Berufswahlprozess</li>
+<li>Teilnahme an Besuchstagen</li>
+<li>Beratungsgespräche</li>
+<li>Hinweise auf Fachstellen und Support</li>
+<li>Elternunterstützung im Unterricht</li>
+<li>Lesepate</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="quelle">
+<p>kürzt aus https://ilias.phbern.ch/goto_phbern_copa_2393509.html</p>
+</div>
+</section>
+<section id="kommunikationskonzepte" class="slide level2">
+<h2>Kommunikationskonzepte</h2>
+<p>Lesen Sie das Kommunikationszept der Schule und schauen Sie, ob alle Aktivitäten welche für Sie relevant sind, abgedeckt sind.</p>
+</section>
+<section id="bibliographie" class="slide level2">
+<h2>Bibliographie</h2>
+
+<div class="quarto-auto-generated-content">
 <p><img src="../../images/penguin.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
 </div>
-</div></div>
+</div>
+</section></section>
+    </div>
+  </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="../../site_libs/revealjs/dist/reveal.js"></script>
@@ -436,8 +747,7 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
 'smaller': false,
  
@@ -592,7 +902,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
