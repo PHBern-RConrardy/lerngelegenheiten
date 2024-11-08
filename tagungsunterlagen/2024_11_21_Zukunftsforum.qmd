@@ -51,6 +51,26 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 # 4F-Modell und Theorie
 
+## Flipped Classroom Method
+
+> set of pedagogical approaches that: [...] (2) use **class time** for learning activities that are **active and social**  [...]
+>
+> ::: quelle
+> [@abeysekera_motivation_2015, S.3]
+> :::
+
+::: {.fragment .fade-in}
+#### Design in 2 Phasen:
+* Phase 1: *learn basic content online and prior to class*
+* Phase 2: *in-class time to clarify students’ understandings [...] enable students to **engage** deeply [...]*
+
+:::quelle
+[@kapur_fail_2022]
+:::
+
+:::
+
+
 ## Empirische Forschung{.smaller}
 
 :::::: {.columns}
@@ -149,24 +169,6 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 [@brand_students_2023]
 :::
 
-## Flipped Classroom Method
-
-> set of pedagogical approaches that: [...] (2) use **class time** for learning activities that are **active and social**  [...]
->
-> ::: quelle
-> [@abeysekera_motivation_2015, S.3]
-> :::
-
-::: {.fragment .fade-in}
-#### Design in 2 Phasen:
-* Phase 1: *learn basic content online and prior to class*
-* Phase 2: *in-class time to clarify students’ understandings [...] enable students to **engage** deeply [...]*
-
-:::quelle
-[@kapur_fail_2022]
-:::
-
-:::
 
 ## Variablen
 
