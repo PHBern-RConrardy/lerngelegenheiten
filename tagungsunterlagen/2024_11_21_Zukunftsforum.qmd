@@ -78,15 +78,17 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 ### Metastudie
 
+::: {.fragment .fade-out fragment-index=2}
+
 |                        | g | SE    | N |
 |------------------------|-----------|-------|---------|
 | Math                   | 0.26      | 0.067 |  65       |
-| All Developed          | 0.33      | 0.13  |    487     |
+| All Developed countries          | 0.33      | 0.13  |    487     |
 | **Pre-class activities** |           |       |         |
 | Video                  |   0.22 (M)        |   0.09    |    N     |
 | **Post-class activities** |           |       |         |
 | Lectures |     0.38      |  0.04     |     532    |
-
+:::
 
 :::::
 
@@ -204,14 +206,24 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 # Hypothesen & Untersuchungsdesign
 
+## Forschungsfrage
 
-## Hypothesen 
+::: {.fragment .fade-out fragment-index=2}
+Wie flexibel anpassbar ist das 4F-Modell an die Gegebenheiten des Stundenplans?
+:::
+
+<br>
+
+::: {.fragment .fade-out fragment-index=2}
+::: {.fragment .fade-in fragment-index=1}
+**Was bedeutet das konkret?**
+:::
+:::
 
 
-(1) Engagement is highest during in-class activities, irrespective of variant. 
-(2) Engagement predicts performance.
-(3) The 4F model does not outperform the ALT model. 
-(4) Mental load does not predict performance.
+::: {.fragment .fade-in fragment-index=2}
+Funktionieren die Mechanismen noch, falls die erste Phase als Kursvorbereitung genommen wird anstelle der zweiten Phase?
+:::
 
 ## Untersuchungsdesign
 
@@ -228,6 +240,7 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 ::: {.column width="50%"}
 
 :::{.fragment .fade-in}
+
 
 ### Alternativmodell
 
@@ -246,6 +259,14 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 [out of class]{style="text-decoration: underline;color: #9478b6"}
 
+
+## Hypothesen 
+
+
+(1) Engagement is highest during in-class activities, irrespective of variant. 
+(2) Engagement predicts performance.
+(3) The 4F model does not outperform the ALT model. 
+(4) Mental load does not predict performance.
 
 # Resultate & Diskussion
 
