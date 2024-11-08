@@ -159,7 +159,7 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 [@darabi_learning_2018]
 :::
 
-## Collaboration
+## Kollaboration innerhalb von PF
 
 <br>
 
@@ -202,9 +202,16 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 :::
 :::
 
-# Forschungsfrage & -design
+# Hypothesen & Untersuchungsdesign
 
 
+## Hypothesen 
+
+
+(1) Engagement is highest during in-class activities, irrespective of variant. 
+(2) Engagement predicts performance.
+(3) The 4F model does not outperform the ALT model. 
+(4) Mental load does not predict performance.
 
 ## Untersuchungsdesign
 
@@ -239,13 +246,6 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 [out of class]{style="text-decoration: underline;color: #9478b6"}
 
-## Forschungsfragen 
-
-
-(1) Engagement is highest during in-class activities, irrespective of variant. 
-(2) Engagement predicts performance.
-(3) The 4F model does not outperform the ALT model. 
-(4) Mental load does not predict performance.
 
 # Resultate & Diskussion
 
