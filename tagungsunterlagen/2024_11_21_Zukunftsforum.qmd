@@ -51,27 +51,31 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 
 # 4F-Modell und Theorie
 
-## Empirische Forschung
+## Empirische Forschung{.smaller}
 
 :::::: {.columns}
-::::: {.column width="50%"}
+::::: {.column width="65%"}
 
 ### Metastudie
 
-* *flipped classrooms*
-
-$$n=173$$
-
+|                        | g | SE    | N |
+|------------------------|-----------|-------|---------|
+| Math                   | 0.26      | 0.067 |  65       |
+| All Developed          | 0.33      | 0.13  |    487     |
+| **Pre-class activities** |           |       |         |
+| Video                  |   0.22 (M)        |   0.09    |    N     |
+| **Post-class activities** |           |       |         |
+| Lectures |     0.38      |  0.04     |     532    |
 
 
 :::::
 
 
-::::: {.column width="50%"}
+::::: {.column width="35%"}
 
 :::: {.fragment .fade-right fragment-index=1}
 
-### 4F, ein Phasenmodell
+### 4F Modell
 
 ::: {.fragment .grow fragment-index=2}
 1.  [**Fail**]{}
@@ -87,8 +91,6 @@ $$n=173$$
 
 :::::
 ::::::
-
-(>1500 berücksichtigt, 173 eingeschlossen)
 
 ::: quelle
 [@kapur_fail_2022, S.14]
