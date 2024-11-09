@@ -204,7 +204,7 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 :::
 :::
 
-# Hypothesen & Untersuchungsdesign
+# Forschungsfrage & -design
 
 ## Forschungsfrage
 
@@ -270,47 +270,340 @@ Funktionieren die Mechanismen noch, falls die erste Phase als Kursvorbereitung g
 
 # Resultate & Diskussion
 
-## 1. Engagement is highest during in-class activities, irrespective of variant. 
+## 1. Engagement is highest during in-class activities, irrespective of variant.{style="font-size:0.6em;"} 
 
+:::{.panel-tabset}
+#### Resultat 
 text
 
-<details>
-  <summary>Show R Code</summary>
+#### Test
 ```r
 1+2
+3+4
+7+8
 ```
-</details>
+#### Instrument
+
+5 Fragen mit einer 5-Punkte Likert Skala. Übernommen aus @kapur_productive_2014, $\alpha = 0.79$.
+
+1. Diese Lektion hat mich dazu gebracht, dass ich mich aktiv beteiligen möchte.  
+2. Ich war während der Lektion fokussiert.  
+3. Ich war aufmerksam während der Lektion.  
+4. Ich habe an den Aktivitäten der Lektion teilgenommen.  
+5. Ich habe mich während der Lektion konzentriert.
+
+- [ ] stimme überhaupt nicht zu  
+- [ ] stimme nicht zu  
+- [ ] neutral  
+- [ ] stimme zu  
+- [ ] stimme voll und ganz zu  
 
 
+:::
 
 :::{.fragment .fade-up}
-::: {style="color: #cc3333; font-size: 1.5em; font-weight: bold; text-align: center;"}
+::: {style="color: #cc3333; font-size: 2em; font-weight: bold; text-align: center;"}
 Verworfen 😿
 :::
 :::
 
-## 2. Engagement predicts performance.
+## 2. Engagement predicts performance.{style="font-size:0.6em;"}
+
+
+:::{.panel-tabset}
+#### Resultat 
+text
+
+#### Test
+```r
+1+2
+```
+#### Instrument
+
+Aufgaben von @kapur_productive_2014, gleichmässig aufgeteilt nach *procedural knowledge*, *conceptual knowledge* und *transfert knowledge*.
+
+**Aufgabe 1**
+
+Berechne die mittlere absolute Abweichung der folgenden Noten in einer Statistikprüfung:
+
+- 30, 60, 50, 40, 70
+- 10, 12, 20, 22
+
+Ein anderer Schüler, Schüler A, verwendet die folgende Methode, um Teilaufgabe a. dieser Frage zu beantworten:
+
+$|30 - 70| + |60 - 70| + |50 - 70| + |40 - 70| + |70 - 70| = 100$  
+
+$100 \div 5 = 20$ Die Lösung ist 20.
+
+Wie unterscheidet sich die Methode von Schüler A von der Berechnung der mittleren absoluten Abweichung? Welche Methode ist besser? Begründe deine Antwort.
+
+**Aufgabe 2**
+
+Beachte die folgenden sechs Datensätze (ein Datensatz pro Zeile):
+
+- **A:** 1, 5, 6, 10
+- **B:** 4, 4, 4, 4
+- **C:** 101, 102, 103, 104
+- **D:** 7, 8, 9, 10
+- **E:** 1, 2, 9, 10
+- **F:** 1, 2, 3, 4
+
+Welcher der Datensätze hat die kleinste mittlere absolute Abweichung?
+
+- [ ] Datensatz A
+- [ ] Datensatz B
+- [ ] Datensatz C
+- [ ] Datensatz D
+- [ ] Datensatz E
+- [ ] Datensatz F
+
+Welcher der Datensätze hat die grösste mittlere absolute Abweichung?
+
+- [ ] Datensatz A
+- [ ] Datensatz B
+- [ ] Datensatz C
+- [ ] Datensatz D
+- [ ] Datensatz E
+- [ ] Datensatz F
+
+**Aufgabe 3**
+
+Ein aus fünf Zahlen bestehender Datensatz hat den Mittelwert \( M = 7 \) und die mittlere absolute Abweichung = 4.
+
+Verwende diese Informationen, um die Fragen a. und b. zu beantworten.
+
+a. Wie verändern sich Mittelwert und mittlere absolute Abweichung, wenn die Zahlen 1 und 13 zu dem Datensatz hinzugefügt werden, sodass ein Datensatz mit sieben Zahlen entsteht?
+
+- **Mittelwert (kreuze eine Antwort an):**
+  - [ ] unverändert
+  - [ ] nimmt zu
+  - [ ] nimmt ab
+
+- **Mittlere absolute Abweichung (kreuze eine Antwort an):**
+  - [ ] unverändert
+  - [ ] nimmt zu
+  - [ ] nimmt ab
+
+b. Wie verändern sich Mittelwert und mittlere absolute Abweichung, wenn die Zahlen 3 und 13 zu dem Datensatz hinzugefügt werden, sodass ein Datensatz mit sieben Zahlen entsteht?
+
+- **Mittelwert (kreuze eine Antwort an):**
+  - [ ] unverändert
+  - [ ] nimmt zu
+  - [ ] nimmt ab
+
+- **Mittlere absolute Abweichung (kreuze eine Antwort an):**
+  - [ ] unverändert
+  - [ ] nimmt zu
+  - [ ] nimmt ab
+
+**Aufgabe 4**
+
+Eine gleiche Anzahl von Schülern nahm am Finale eines Sportwettbewerbs über 100 m Sprint und 100 m Schwimmen teil. Die Zeiten (in Sekunden) der Sieger des 100m Sprints und des 100m Schwimmens sind unten aufgeführt, ebenso wie die Durchschnittszeiten und die Standardabweichung der Finalisten der beiden Wettbewerbe.
+
+|            | 100m Sprint | 100m Schwimmen |
+|------------|-------------|----------------|
+| Gewinner   | 11s         | 40s            |
+| Mittelwert der Finalisten, \( M \) | 12s         | 45s            |
+| Mittlere absolute Abweichung der Finalisten | 1s          | 10s            |
+
+Unter der Annahme, dass alles andere gleich ist, wer von den beiden Gewinnern ist der bessere Sportler?
+
+- [ ] Der Sprint-Gewinner
+- [ ] Der Schwimm-Gewinner
+- [ ] Beide
+- [ ] Es gibt nicht genügend Informationen, um dies zu entscheiden
+
+**Aufgabe 1**
+
+- **Bei der Berechnung der mittleren absoluten Abweichung, erkläre, warum es wichtig ist, den Absolutbetrag der Differenzen zum Mittelwert zu rechnen.**
+
+- **Bei der Berechnung der mittleren absoluten Abweichung, erkläre, warum es wichtig ist, die Summe durch die Anzahl der Werte zu teilen.**
+
+**Aufgabe 2**
+
+Die Eigentümer von zwei Kinos, A und B, argumentieren, dass ihr jeweiliges Kino eine gleichmäßigere Besucherzahl aufweist. Sie erfassten die täglichen Besucherzahlen ihrer Kinos an 11 zufälligen Tagen. Die Ergebnisse ihrer Datenerhebung sind im Folgenden dargestellt:
+
+| Kino A      | Kino B      |
+|-------------|-------------|
+| Mittelwert, M               | 72          | 75          |
+| Mittlere absolute Abweichung | 10          | 14          |
+
+**Welches Kino hat Ihrer Meinung nach eine gleichmäßigere Anwesenheit?**
+
+- Kino A
+- Kino B
+- Beide hatten eine ähnlich gleichmäßige Besucheranzahl
+- Keine der oben genannten Lösungen
+
+**Aufgabe 3**
+
+Beachte die folgenden sechs Datensätze (ein Datensatz pro Zeile):
+
+| A   | 1  | 5  | 6  | 10 |
+| --- | -- | -- | -- | --- |
+| B   | 4  | 4  | 4  | 4  |
+| C   | 101 | 102 | 103 | 104 |
+| D   | 7  | 8  | 9  | 10 |
+| E   | 1  | 2  | 9  | 10 |
+| F   | 1  | 2  | 3  | 4  |
+
+**Welche Datensätze haben die gleiche mittlere absolute Abweichung? (1 Antwort)**
+
+- Datensätze A, E, F
+- Datensätze C, D, F
+- Datensätze A, B
+- Datensätze C, F
+- Datensätze B, D, F
+- Datensätze B, E, F
+
+**Aufgabe 4**
+
+Ein aus fünf Zahlen bestehender Datensatz hat den Mittelwert M = 7 und die mittlere absolute Abweichung = 4. Verwende diese Informationen, um die Fragen a. bis c. zu beantworten.
+
+- **Wenn jede der fünf Zahlen um 2 erhöht wird, wie lauten der neue Mittelwert M und die neue mittlere absolute Abweichung?**
+
+    - M = 7, Mittlere absolute Abweichung = 4
+    - M = 9, Mittlere absolute Abweichung = 4
+    - M = 7, Mittlere absolute Abweichung = 6
+    - M = 9, Mittlere absolute Abweichung = 6
+
+- **Wenn jede der fünf Zahlen mit 5 multipliziert wird, wie lauten der neue Mittelwert und die neue mittlere absolute Abweichung?**
+
+    - M = 7, Mittlere absolute Abweichung = 4
+    - M = 35, Mittlere absolute Abweichung = 4
+    - M = 7, Mittlere absolute Abweichung = 20
+    - M = 35, Mittlere absolute Abweichung = 20
+
+- **Wie verändern sich Mittelwert und mittlere absolute Abweichung, wenn die Zahlen 5 und 9 zu dem Datensatz hinzugefügt werden, sodass ein Datensatz mit sieben Zahlen entsteht?**
+
+Mittelwert (kreuze eine Antwort an):
+
+- unverändert
+- nimmt zu
+- nimmt ab
+
+Mittlere absolute Abweichung (kreuze eine Antwort an):
+
+- unverändert
+- nimmt zu
+- nimmt ab
+
+**Aufgabe 5**
+
+Davids Ergebnisse für Mathematik, Physik und Chemie in den Abschlussprüfungen sind unten aufgeführt. Die Leistungen seiner Klasse in diesen drei Fächern sind ebenfalls unten aufgeführt:
+
+| Fach              | Mathematik | Physik | Chemie |
+|-------------------|------------|--------|--------|
+| Davids Punkte     | 95         | 90     | 85     |
+| Klassenmittelwert | 80         | 80     | 80     |
+| Mittlere absolute Abweichung der Klasse | 15 | 5 | 4 |
+
+- **In welchem Fach hat David im Vergleich zu seiner Klasse am besten abgeschnitten?**
+
+    - Mathematik
+    - Physik
+    - Chemie
+
+- **In welchem Fach hat David im Vergleich zu seiner Klasse am schlechtesten abgeschnitten?**
+
+    - Mathematik
+    - Physik
+    - Chemie
+
+
+
+:::
+
 
 :::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
 Bestätigt 😸
 :::
 :::
 
-## 3. The 4F model does not outperform the ALT model. 
+## 3. The 4F model does not outperform the ALT model. {style="font-size:0.6em;"}
+
+
+:::{.panel-tabset}
+#### Resultat 
+text
+
+#### Test
+```r
+1+2
+```
+
+:::
+
 
 :::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
 Bestätigt 😺
 :::
 :::
 
-## 4. Mental load does not predict performance.
+## 4. Mental load does not predict performance.{style="font-size:0.6em;"}
+
+
+:::{.panel-tabset}
+#### Resultat 
+text
+
+#### Test
+```r
+1+2
+```
+#### Instrument
+
+9-Punkte Likert Skala genutzt von @kapur_productive_2014 aus @paas_training_1992.
+
+>[...] nine-point rating scale that is commonly used in the cognitive load literature as a measure of cognitive load (Paas, 1992).
+
+::::quelle
+@kapur_productive_2014
+::::
+
+In dieser Lektion hatte ich eine:
+
+- [ ] sehr, sehr geringe mentale Anstrengung  
+- [ ] sehr geringe mentale Anstrengung  
+- [ ] geringe mentale Anstrengung  
+- [ ] eher geringe mentale Anstrengung  
+- [ ] weder hohe noch niedrige mentale Anstrengung  
+- [ ] eher hohe mentale Anstrengung  
+- [ ] hohe mentale Anstrengung  
+- [ ] sehr hohe mentale Anstrengung  
+- [ ] sehr, sehr hohe mentale Anstrengung  
+
+
+:::
+
 
 :::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 1.5em; font-weight: bold; text-align: center;"}
+::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
 Bestätigt 😽
 :::
+:::
+
+## Diskussion {.incremental}
+
+### Limitationen
+
+::: {.incremental}
+* out-of-class im Schulgebäude
+* "fremde" Lehrperson
+* Erhebungsinstrumente
+:::
+
+
+
+### Ausblick
+
+::: {.incremental}
+* andere Phasen flippen
+* andere Schulstufe
+* anderes Fachgebiet
+
 :::
 
 ## Bibliographie {.unlisted .scrollable}

@@ -254,6 +254,14 @@ Die Wirkung von reichhaltigen Aufgaben scheint nicht erprobt worden zu sein.
 [@darabi_learning_2018]
 :::
 
+# Weiteres
 
+## Falsifizierbarkeit
+
+@popper_logic_2008
+
+## Richtig/Falsch
+
+@bossart_roland_2024
 
 ## Quellen
