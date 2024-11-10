@@ -256,12 +256,26 @@ Die Wirkung von reichhaltigen Aufgaben scheint nicht erprobt worden zu sein.
 
 # Weiteres
 
-## Falsifizierbarkeit
+## Falsifizierbarkeitskriterium
 
-@popper_logic_2008
+> Ein empirisch-wissenschaftliches System muß an der Erfahrung scheitern konnen.
+>
+:::quelle
+[@popper_logik_1935, S.13]
+:::
 
-## Richtig/Falsch
+## Objektivität
 
-@bossart_roland_2024
+> Die Schulfächer sind interessanterweise sehr stark an wissenschaftlichen Disziplinen orientiert
+> 
+> Die haben aber auch eine bestimmte Objektivität, das ist demokratietheoretisch sehr wichtig.
+> 
+2 und 2 ist 4, da kommt es nicht auf deine Meinung drauf an und die Lehrperson kann nicht sagen 2 und 2 gibt 5 weil ich bin hier die Autorität.
+>
+> Das ist eine inherenter Mechanismus gegen Indoktrination.
+>
+:::quelle
+[@bossart_roland_2024, ab 38. min]
+:::
 
 ## Quellen
