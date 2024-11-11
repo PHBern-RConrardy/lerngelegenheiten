@@ -23,7 +23,17 @@ title-slide-attributes:
       data-background-size: 16%
       data-background-position: 98% 5%
 code-fold: true
+slide-number: c
 ---
+## Exploration und Instruktion 
+
+::: {style="text-align: center;"}
+![](2024_11_21_Zukunftsforum/zukunftsforum.webp)
+:::
+
+:::quelle
+@openai_chatgpt_2024 "generiere mir ein Bild im Schulkontext welche Exploration und Instruktion kontrastiert"
+:::
 
 # Ausgangslage
 
@@ -31,7 +41,7 @@ code-fold: true
 
 **Schweiz**, geprägt vom *Kantönligeist* und von ...
 
-Phasenmodellen: PADUA, AVIVA, KAKFA und SAMBA, ...
+Phasenmodellen: PADUA, AVIVA, KAFKA und SAMBA, ...
 
 :::quelle
 PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reusser 1999  nach  @leuchter_rolle_2009]
@@ -49,7 +59,7 @@ PADUA: [@aebli_zwolf_1983], AVIVA: [@stadeli_aviva_2020], KAFKA und SAMBA: [Reus
 SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: [@eckhart_reichhaltige_2020; @nydegger_reichhaltige_2019]
 :::
 
-# 4F-Modell und Theorie
+# 4F-Modell und Theorien
 
 ## Flipped Classroom Method
 
@@ -71,23 +81,24 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 :::
 
 
-## Empirische Forschung{.smaller}
+## Empirische Forschung
 
 :::::: {.columns}
 ::::: {.column width="65%"}
 
+::: {.fragment .fade-out fragment-index=2}
 ### Metastudie
 
-::: {.fragment .fade-out fragment-index=2}
 
-|                        | g | SE    | N |
-|------------------------|-----------|-------|---------|
-| Math                   | 0.26      | 0.067 |  65       |
-| All Developed countries          | 0.33      | 0.13  |    487     |
-| **Pre-class activities** |           |       |         |
-| Video                  |   0.22 (M)        |   0.09    |    N     |
-| **Post-class activities** |           |       |         |
-| Lectures |     0.38      |  0.04     |     532    |
+
+|                        | g    | SE    |
+|------------------------|------|-------|
+| Overall effect         | 0.37 | 0.025 |
+| School-age children    | 0.68 | 0.025 |
+| Math                   | 0.26 | 0.067 |
+
+$$n=173$$
+
 :::
 
 :::::
@@ -109,11 +120,15 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 4.  [**Feed**]{}
 :::
 
+
+
+::::
+
+
+
 ::: quelle
 [@kapur_fail_2022, S.14]
 :::
-
-::::
 
 :::::
 ::::::
@@ -163,111 +178,46 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 [@darabi_learning_2018]
 :::
 
-## Kollaboration innerhalb von PF
-
-<br>
-
-> Contrary to our expectations, **collaborative** and individual problem-solving students did **not significantly** differ in the conceptual knowledge post-test 
->
-:::quelle
-[@brand_students_2023]
-:::
-
-
-## Variablen
-
-### Engagement
-"PF process depends on students’ **engagement** [...]"
-
-:::quelle
-[@kapur_prior_2023]
-:::
-
-“in-class time to encourage students to be **active** participants,”
-
-:::quelle
-[@abeysekera_motivation_2015]
-:::
-
-:::{.fragment .fade-in}
-
-### Mental Load
-
-"flipped classroom [...] may allow better management of cognitive load” 
-
-:::quelle
-[@abeysekera_motivation_2015, S.9]
-:::
-
-"Productive failure students reported significantly greater cognitive load than VF and DI students."
-
-:::quelle
-[@kapur_productive_2014, p.1019]
-:::
-:::
-
 # Forschungsfrage & -design
 
-## Forschungsfrage
+## Forschungsfragen
 
-::: {.fragment .fade-out fragment-index=2}
-Wie flexibel anpassbar ist das 4F-Modell an die Gegebenheiten des Stundenplans?
+1. Welche Phasen im 4F Modell sollen besser *in class*, welche *out of class* durchgeführt werden?
+
+. . .
+
+2. Welche Rollen spielen *engagement*, *collaboration* und *mental load* in dem Zusammenhang?
+
+
+## Untersuchungsdesign 
+
+:::{.columns}
+::: {.column width="40%"}
+* Mathematikunterricht auf der Sekundarstufe 1
+* Thema: Mittlere absolute Abweichung
+* Experimentelles Forschungsdesign
+* $n=220$
 :::
 
-<br>
-
-::: {.fragment .fade-out fragment-index=2}
-::: {.fragment .fade-in fragment-index=1}
-**Was bedeutet das konkret?**
-:::
-:::
-
-
-::: {.fragment .fade-in fragment-index=2}
-Funktionieren die Mechanismen noch, falls die erste Phase als Kursvorbereitung genommen wird anstelle der zweiten Phase?
-:::
-
-## Untersuchungsdesign
-
-:::: {.columns}
-::: {.column width="50%"}
-### 4F-Modell
-
-1.  [**Fail**]{style="color: #1c87ce"}
-2.  [**Flip**]{style="text-decoration: underline;color: #9478b6"}
-3.  [**Fix**]{style="color: #1c87ce"}
-4.  [**Feed**]{style="color: #1c87ce"}
-:::
 
 ::: {.column width="50%"}
-
-:::{.fragment .fade-in}
-
-
-### Alternativmodell
-
-1.  [**Fail (Flipped)**]{style="text-decoration: underline;color: #9478b6"}
-2.  [**Instruct**]{style="color: #1c87ce"}
-3.  [**Fix**]{style="color: #1c87ce"}
-4.  [**Feed**]{style="color: #1c87ce"}
-
+::: {.fragment .fade-in}
+|       | 4F | ALT      |
+|-----------------------|---------------------------|--------------|
+| **Fail**              | in class       | out of class     |
+| **Flip**              | out of class              | in class |
+| **Fix**               | in class                  | in class     |
+| **Feed**              | in class                  | in class     |
 :::
 :::
-::::
-
-
-
-[in class (collaborative)]{style="color: #1c87ce"}
-
-[out of class]{style="text-decoration: underline;color: #9478b6"}
-
+:::
 
 ## Hypothesen 
 
 
 (1) Engagement is highest during in-class activities, irrespective of variant. 
 (2) Engagement predicts performance.
-(3) The 4F model does not outperform the ALT model. 
+(3) The ALT model outperforms the 4F model.
 (4) Mental load does not predict performance.
 
 # Resultate & Diskussion
@@ -278,6 +228,8 @@ Funktionieren die Mechanismen noch, falls die erste Phase als Kursvorbereitung g
 #### Resultat 
 
 ![](2024_11_21_Zukunftsforum/hypothesis1_plot.png){ align="center" }
+
+Wilcoxon: $\quad p=0.405 \quad p=0.691 \quad p=0.605 \quad p=0.812$
 
 #### Test
 ```r
@@ -381,7 +333,7 @@ alternative hypothesis: true location shift is not equal to 0
 
 :::{.fragment .fade-up}
 ::: {style="color: #cc3333; font-size: 2em; font-weight: bold; text-align: center;"}
-Verworfen 😿
+Verworfen
 :::
 :::
 
@@ -392,6 +344,8 @@ Verworfen 😿
 #### Resultat 
 
 ![](2024_11_21_Zukunftsforum/hypothese2_plot.png)
+
+Lineare Regression: $\quad R^2_{adj.}=0.297 \quad p=2.2\cdot 10^{-16}$
 
 #### Test
 ```r
@@ -709,11 +663,11 @@ Davids Ergebnisse für Mathematik, Physik und Chemie in den Abschlussprüfungen 
 
 :::{.fragment .fade-up}
 ::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
-Bestätigt 😸
+Bestätigt
 :::
 :::
 
-## 3. The 4F model does not outperform the ALT model. {style="font-size:0.6em;"}
+## 3. The Alt model outperforms the 4F model. {style="font-size:0.6em;"}
 
 
 :::{.panel-tabset}
@@ -721,7 +675,7 @@ Bestätigt 😸
 
 ![](2024_11_21_Zukunftsforum/hypothese3_plot.png)
 
-TOST-Äquivalenztest [vgl. @walker_understanding_2010] - Statistically equivalent *and* not different.
+T-Test: $p=$
 
 #### Test
 ```r
@@ -790,10 +744,16 @@ TOST: reject null equivalence hypothesis
 
 
 :::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
-Bestätigt 😺
+::: {style="color: #cc3333; font-size: 2em; font-weight: bold; text-align: center;"}
+Verworfen und ...
 :::
 :::
+
+
+:::{.fragment .fade-up}
+TOST-Äquivalenztest [vgl. @walker_understanding_2010] - Statistically equivalent *and* not different.
+:::
+
 
 ## 4. Mental load does not predict performance.{style="font-size:0.6em;"}
 
@@ -803,7 +763,7 @@ Bestätigt 😺
 
 ![](2024_11_21_Zukunftsforum/hypothese4_plot.png)
 
-ANOVA, $p=0.6256$
+ANOVA: $\quad p=0.626$
 
 #### Test
 ```r
@@ -1006,7 +966,7 @@ In dieser Lektion hatte ich eine:
 
 :::{.fragment .fade-up}
 ::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
-Bestätigt 😽
+Bestätigt
 :::
 :::
 
@@ -1016,25 +976,23 @@ Bestätigt 😽
 2. Beide Modelle funktionieren gleich gut.
 3. Die Rolle des Engagements ist noch unklar.
 
-## Diskussion {.incremental}
+. . .
 
 ### Limitationen
 
-::: {.incremental}
+
 * out-of-class im Schulgebäude
 * "fremde" Lehrperson
 * Erhebungsinstrumente
-:::
 
-
-
-### Ausblick
-
-::: {.incremental}
-* andere Phasen flippen
-* andere Schulstufe
-* anderes Fachgebiet
-
-:::
 
 ## Bibliographie {.unlisted .scrollable}
+
+::: {#refs}
+:::
+
+## Danke für Ihre Aufmerksamkeit
+
+. . .
+
+![](2024_11_21_Zukunftsforum/aufbau.jpg)

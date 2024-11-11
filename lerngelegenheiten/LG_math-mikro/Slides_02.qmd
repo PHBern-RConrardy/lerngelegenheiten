@@ -258,7 +258,7 @@ Die Wirkung von reichhaltigen Aufgaben scheint nicht erprobt worden zu sein.
 
 ## Falsifizierbarkeitskriterium
 
-> Ein empirisch-wissenschaftliches System muß an der Erfahrung scheitern konnen.
+> Ein empirisch-wissenschaftliches System muß an der Erfahrung scheitern können.
 >
 :::quelle
 [@popper_logik_1935, S.13]
