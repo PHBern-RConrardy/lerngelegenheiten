@@ -9,6 +9,8 @@ editor:
   markdown: 
     wrap: 72
 draft: false
+
+date: 07 06 2024
 ---
 
 ::: {style="text-align: center;"}
@@ -20,6 +22,12 @@ draft: false
 
 ::: panel-tabset
 # Blockkurs
+
+::: {.callout-note collapse="false"}
+## Zielgruppe
+
+Dieser Kurs ist konzipiert für Studierende mit etwas Vorwissen im Bereich der Entwicklung einer Lernumgebung und dem Wunsch mit Kommilitonen dran zu arbeiten und dem Wunsch während der Entwicklung Feedback von Kommilitonen oder Dozierenden zu erhalten.
+:::
 
 ::: {.callout-tip collapse="false"}
 ## Flipped Classroom (Blockkurs)
@@ -37,7 +45,15 @@ Diese Lerngelegenheit ist mit Flipped Classroom Methode konzipiert.
 
 # SOL
 
-::: {.callout-tip collapse="false"}
+::: {.callout-note collapse="true"}
+## Zielgruppe
+
+Dieser Kurs ist konzipiert für Studierende mit *individuellen* Bedürfnissen, damit sie sich in einer Sprechstunde eine massgeschneiderte Unterstützung einer Fachperson abholen können. 
+
+SOL eignet sich somit besonders gut für Personen mit viel Vorwissen und engem Terminkalender welche entweder kein Peerfeedback von Kommilitonen brauchen oder es sich selbst organisieren.
+:::
+
+::: {.callout-tip collapse="true"}
 ## Selbstorganisiertes Lernen (SOL-Kurs)
 
 Dies ist eine selbstorganisierte Lerngelegenheit. Das heisst, die
@@ -53,6 +69,18 @@ unterstützen." [@hilbe_selbst_2011, S.8]
 Kurz bedeutet dies, dass Sie stets Hilfe abholen können, sei es
 inhaltlich, organisatorisch oder anderer Art.
 :::
+
+# Präsenzkurs
+
+::: {.callout-note collapse="true"}
+## Zielgruppe
+
+Dieser Kurs arbeitet mit ihnen gemeinsam die Schritte der Entwicklung einer Lernumgebung auf und eignet sich für Personen ohne Vorerfahrung mit dem Bedürfnis nach mehr Theoriewissen.
+
+Die Lernumgebung kann parallel in Hausarbeit erstellt werden.
+:::
+
+
 :::
 
 # Workload

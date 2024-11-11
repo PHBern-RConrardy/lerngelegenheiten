@@ -3689,29 +3689,29 @@
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html#studienplan-22",
     "href": "lerngelegenheiten/LG_math-mikro/Slides_01.html#studienplan-22",
     "title": "Mikroplanung Mathematik",
-    "section": "Studienplan 22",
-    "text": "Studienplan 22\n\n\n\n\n\n\nIndikatoren Mikroplanung\n\n\nDie Studierenden\n\ngliedern Lernprozesse in Lernphasen.\n[…]\ngestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.\n\n\nPHBern (2022)"
+    "section": "",
+    "text": "Indikatoren Mikroplanung\n\n\n\nDie Studierenden\n\ngliedern Lernprozesse in Lernphasen.\n[…]\ngestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.\n\n\nPHBern (2022)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html#section",
     "href": "lerngelegenheiten/LG_math-mikro/Slides_01.html#section",
     "title": "Mikroplanung Mathematik",
     "section": "",
-    "text": "Lerngelegenheit mit Schwerpunkt Phasenmodelle\n\n\nPlanungsarbeit im Fokus\nDr. Daniel Ingrisani"
+    "text": "Lerngelegenheit mit Schwerpunkt Phasenmodelle\n\n\n\n\nDr. Daniel Ingrisani"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html#modelle-und-prozesse",
     "href": "lerngelegenheiten/LG_math-mikro/Slides_01.html#modelle-und-prozesse",
     "title": "Mikroplanung Mathematik",
     "section": "Modelle und Prozesse",
-    "text": "Modelle und Prozesse\n\n\nPADUA\n\nProblemlösendes Aufbauen\nDurcharbeiten\nÜben und Wiederholen\nAnwenden\n\n\nAebli (1983)\n\n\nAVIVA\n\nAnkommen\nVorwissen aktivieren\nInformieren\nVertiefen\nAuswerten\n\n\nStädeli & Maurer (2020)\n\n\nKernprozesse\n\nErkunden\nOrdnen\nVertiefen\n\n\nBarzel et al. (2011)"
+    "text": "Modelle und Prozesse\n\n\n\nPADUA\n\nProblemlösendes Aufbauen\nDurcharbeiten\nÜben und Wiederholen\nAnwenden\n\n\nAebli (1983)\n\n\n\n\nAVIVA\n\nAnkommen\nVorwissen aktivieren\nInformieren\nVertiefen\nAuswerten\n\n\nStädeli & Maurer (2020)\n\n\n\n\nKernprozesse\n\nErkunden\nOrdnen\nVertiefen\n\n\nBarzel et al. (2011)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html#weitere-phasenmodelle",
     "href": "lerngelegenheiten/LG_math-mikro/Slides_01.html#weitere-phasenmodelle",
     "title": "Mikroplanung Mathematik",
     "section": "Weitere Phasenmodelle",
-    "text": "Weitere Phasenmodelle\n\n\nProductive Failure\n\ngeneration and exploration phase\nconsolidation phase\n\n\n(Kapur & Bielaczyc, 2012, S. 49)\n\n\nFlipped Classroom\n\nlearn basic content online and prior to class\nin-class time to clarify students’ understandings […] enable students to engage deeply […]\n\n\n(Kapur et al., 2022)\n\n\n4F\n\nFail\nFlip\nFix\nFeed\n\n\n(Kapur et al., 2022)"
+    "text": "Weitere Phasenmodelle\n\n\n\nProductive Failure\n\ngeneration and exploration phase\nconsolidation phase\n\n\n(Kapur & Bielaczyc, 2012, S. 49)\n\n\n\n\nFlipped Classroom\n\nlearn basic content online and prior to class\nin-class time to clarify students’ understandings […] enable students to engage deeply […]\n\n\n(Kapur et al., 2022)\n\n\n\n\n4F\n\nFail\nFlip\nFix\nFeed\n\n\n(Kapur et al., 2022)"
   },
   {
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html#productive-failure",
@@ -3857,15 +3857,15 @@
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#programmvorschlag",
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#programmvorschlag",
     "title": "Digitale Zusammenarbeit und Kommunikation",
-    "section": "Programmvorschlag",
-    "text": "Programmvorschlag\nimport yagmail\n\nsmtp_server = \"smtp-mail.outlook.com\"  \nsmtp_port = 587  \nsender_email = \"richard.conrardy@phbern.ch\"\nsender_password = input(\"Passwort\")\n\nyag = yagmail.SMTP(sender_email, sender_password)\n\nrecipients = {\n    \"recipient1@example.com\": \"Liebe Alice,\\n\\nJakob arbeitet gut mit!\",\n    \"recipient2@example.com\": \"Liebe Frau und Herr Mustermann,\\n\\nMax hat schon wieder Kreide geworfen.\",\n    \"recipient3@example.com\": \"Liebe Eltern, \\n Ihr Kind ist toll!\"\n}\nsubject = \"Elternabend\"\n\nfor recipient, content in recipients.items():\n    yag.send(to=recipient, subject=subject, contents=content)"
+    "section": "",
+    "text": "import yagmail\n\nsmtp_server = \"smtp-mail.outlook.com\"  \nsmtp_port = 587  \nsender_email = \"richard.conrardy@phbern.ch\"\nsender_password = input(\"Passwort\")\n\nyag = yagmail.SMTP(sender_email, sender_password)\n\nrecipients = {\n    \"recipient1@example.com\": \"Liebe Alice,\\n\\nJakob arbeitet gut mit!\",\n    \"recipient2@example.com\": \"Liebe Frau und Herr Mustermann,\\n\\nMax hat schon wieder Kreide geworfen.\",\n    \"recipient3@example.com\": \"Liebe Eltern, \\n Ihr Kind ist toll!\"\n}\nsubject = \"Elternabend\"\n\nfor recipient, content in recipients.items():\n    yag.send(to=recipient, subject=subject, contents=content)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#technologien-tools",
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#technologien-tools",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Technologien > Tools",
-    "text": "Technologien &gt; Tools\n\n\n\n\n\n\nHinweis\n\n\nRelevant für digitale Kommunikation sind vor allem Technologien, umgesetzt in Tools."
+    "text": "Technologien &gt; Tools\n\n\n\n\n\n\nHinweis\n\n\n\nRelevant für digitale Kommunikation sind vor allem Technologien, umgesetzt in Tools."
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#kategorisierung",
@@ -3893,7 +3893,7 @@
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#bibliographie",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Bibliographie",
-    "text": "Bibliographie\n\n\n\n\nPHBern, Institut Sekundarstufe 1, Richard Conrardy, Dozent"
+    "text": "Bibliographie"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#einfacher",
@@ -3914,7 +3914,7 @@
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#sender-empfänger-modell",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Sender-Empfänger-Modell",
-    "text": "Sender-Empfänger-Modell\n\nBild von Abby M."
+    "text": "Sender-Empfänger-Modell\n\n\n\nBild von Abby M."
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#modell-der-drei-wirklichkeiten",
@@ -3928,14 +3928,14 @@
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#vier-seiten-modell",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Vier-Seiten-Modell",
-    "text": "Vier-Seiten-Modell\n\nModell von Schulz von Thun"
+    "text": "Vier-Seiten-Modell\n\n\n\nModell von Schulz von Thun"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#noviolent-communication",
     "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#noviolent-communication",
     "title": "Digitale Zusammenarbeit und Kommunikation",
     "section": "Noviolent Communication",
-    "text": "Noviolent Communication\n\nMarshall Rosenberg"
+    "text": "Noviolent Communication\n\n\n\nMarshall Rosenberg"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html#aktivität",
@@ -4048,5 +4048,19 @@
     "title": "Mikroplanung Mathematik",
     "section": "Falsifizierbarkeitskriterium",
     "text": "Falsifizierbarkeitskriterium\n\nEin empirisch-wissenschaftliches System muß an der Erfahrung scheitern konnen.\n\n(Popper, 1935, S. 13)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_math-mikro/Slides_01.html",
+    "href": "lerngelegenheiten/LG_math-mikro/Slides_01.html",
+    "title": "Mikroplanung Mathematik",
+    "section": "",
+    "text": "Indikatoren Mikroplanung\n\n\n\nDie Studierenden\n\ngliedern Lernprozesse in Lernphasen.\n[…]\ngestalten und begründen Lernprozesse fachwissenschaftlich, fachdidaktisch, allgemeindidaktisch, mediendidaktisch und lernpsychologisch.\n\n\nPHBern (2022)\n\n\n\n\n\n\n\n\n\n\n\n\nLerngelegenheit mit Schwerpunkt Phasenmodelle\n\n\n\n\nDr. Daniel Ingrisani"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-zuk/Slides_02.html",
+    "href": "lerngelegenheiten/LG_digi-zuk/Slides_02.html",
+    "title": "Digitale Zusammenarbeit und Kommunikation",
+    "section": "",
+    "text": "import yagmail\n\nsmtp_server = \"smtp-mail.outlook.com\"  \nsmtp_port = 587  \nsender_email = \"richard.conrardy@phbern.ch\"\nsender_password = input(\"Passwort\")\n\nyag = yagmail.SMTP(sender_email, sender_password)\n\nrecipients = {\n    \"recipient1@example.com\": \"Liebe Alice,\\n\\nJakob arbeitet gut mit!\",\n    \"recipient2@example.com\": \"Liebe Frau und Herr Mustermann,\\n\\nMax hat schon wieder Kreide geworfen.\",\n    \"recipient3@example.com\": \"Liebe Eltern, \\n Ihr Kind ist toll!\"\n}\nsubject = \"Elternabend\"\n\nfor recipient, content in recipients.items():\n    yag.send(to=recipient, subject=subject, contents=content)"
   }
 ]
