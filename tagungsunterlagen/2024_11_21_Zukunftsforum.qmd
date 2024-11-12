@@ -97,7 +97,7 @@ SOL: [@hilbe_selbst_2016; @ammann-tinguely_selbst_2020]; reichhaltige Aufgaben: 
 | School-age children    | 0.68 | 0.025 |
 | Math                   | 0.26 | 0.067 |
 
-$$n=173$$
+n=173
 
 :::
 
@@ -192,15 +192,16 @@ $$n=173$$
 ## Untersuchungsdesign 
 
 :::{.columns}
-::: {.column width="40%"}
-* Mathematikunterricht auf der Sekundarstufe 1
+::: {.column width="43%"}
+* Mathematikunterricht in der Sekundarstufe 1
 * Thema: Mittlere absolute Abweichung
-* Experimentelles Forschungsdesign
-* $n=220$
+* Experimentelles Forschungsdesign (randomisiert innerhalb der Klassen)
+* 220 Lernende aus 12 Klassen
+:::
+::: {.column width="4%"}
 :::
 
-
-::: {.column width="50%"}
+::: {.column width="43%"}
 ::: {.fragment .fade-in}
 |       | 4F | ALT      |
 |-----------------------|---------------------------|--------------|
@@ -343,11 +344,7 @@ alternative hypothesis: true location shift is not equal to 0
 
 :::
 
-:::{.fragment .fade-up}
-::: {style="color: #cc3333; font-size: 2em; font-weight: bold; text-align: center;"}
-Verworfen
-:::
-:::
+
 
 ## 2. Engagement predicts performance.{style="font-size:0.6em;"}
 
@@ -673,11 +670,7 @@ Davids Ergebnisse für Mathematik, Physik und Chemie in den Abschlussprüfungen 
 :::
 
 
-:::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
-Bestätigt
-:::
-:::
+
 
 ## 3. The Alt model outperforms the 4F model. {style="font-size:0.6em;"}
 
@@ -755,11 +748,7 @@ TOST: reject null equivalence hypothesis
 :::
 
 
-:::{.fragment .fade-up}
-::: {style="color: #cc3333; font-size: 2em; font-weight: bold; text-align: center;"}
-Verworfen und ...
-:::
-:::
+
 
 
 :::{.fragment .fade-up}
@@ -976,11 +965,7 @@ In dieser Lektion hatte ich eine:
 :::
 
 
-:::{.fragment .fade-up}
-::: {style="color: #0c710b; font-size: 2em; font-weight: bold; text-align: center;"}
-Bestätigt
-:::
-:::
+
 
 ## Zentrale Erkenntnisse
 
@@ -1006,5 +991,14 @@ Bestätigt
 ## Danke für Ihre Aufmerksamkeit
 
 . . .
+
+|       | 4F | ALT      |
+|-----------------------|---------------------------|--------------|
+| **Fail**              | in class       | out of class     |
+| **Flip**              | out of class              | in class |
+| **Fix**               | in class                  | in class     |
+| **Feed**              | in class                  | in class     |
+
+## Untersuchungsdesign
 
 ![](2024_11_21_Zukunftsforum/aufbau.jpg)
