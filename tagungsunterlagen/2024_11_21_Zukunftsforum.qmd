@@ -3,7 +3,7 @@ title: <small>Empirische Untersuchung eines Vier-Phasen-Unterrichtsmodells in Sc
 subtitle: "Zukunftsforum Bildungsforschung"
 format: phheidelberg-revealjs
 menu: false
-date: 21 11 2024
+date: 15 11 2024
 toc-depth: 1
 author:
       - id: cori
@@ -227,9 +227,21 @@ $$n=173$$
 :::{.panel-tabset}
 #### Resultat 
 
-![](2024_11_21_Zukunftsforum/hypothesis1_plot.png){ align="center" }
+:::{.columns}
 
-Wilcoxon: $\quad p=0.405 \quad p=0.691 \quad p=0.605 \quad p=0.812$
+::: {.column width="70%"}
+![](2024_11_21_Zukunftsforum/hypothesis1_plot.png){ align="center" }
+:::
+
+::: {.column width="30%"}
+| Wilcoxon      | p      |
+|---------------|--------|
+| eng_1         | 0.405  |
+| eng_2         | 0.691  |
+| 4F            | 0.605  |
+| Alt           | 0.812  |
+:::
+:::
 
 #### Test
 ```r
@@ -345,7 +357,7 @@ Verworfen
 
 ![](2024_11_21_Zukunftsforum/hypothese2_plot.png)
 
-Lineare Regression: $\quad R^2_{adj.}=0.297 \quad p=2.2\cdot 10^{-16}$
+Lineare Regression: $\quad R^2=0.297 \quad p=2.2\cdot 10^{-16}$
 
 #### Test
 ```r
@@ -675,7 +687,7 @@ Bestätigt
 
 ![](2024_11_21_Zukunftsforum/hypothese3_plot.png)
 
-T-Test: $p=$
+Wilcoxon: $\quad p=0.804$
 
 #### Test
 ```r
