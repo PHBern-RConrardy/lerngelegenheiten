@@ -7,9 +7,10 @@
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../../site_libs/quarto-html/light-border.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-2486e1f0a3ee9ee1fc393803a1361cdb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <link href="../../site_libs/quarto-contrib/reveal-auto-agenda-0.0.3/reveal-auto-agenda.css" rel="stylesheet"><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.6.32">
+  <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Richard Conrardy">
   <title>Digitalität und Datenschutz</title>
@@ -30,8 +31,28 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
-  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto-9a95b489cb4dafd41372e45bf7cbf1ad.css">
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
+  <link rel="stylesheet" href="../../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -349,52 +370,44 @@
 </div>
 
 </section>
-<section id="section" class="title-slide slide level1 agenda-slide center scrollable">
-<h1></h1>
-<div class="agenda-heading">
-<p>Inhalt</p>
+<section id="section" class="slide level2">
+<h2></h2>
+<div class="callout callout-note callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="agenda">
-<ol>
-<li><div class="agenda-active">
-
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Die üblichen Argumente zuerst</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Datenschutz als Arbeitnehmer</p>
-</div></li>
-<li><div class="agenda-inactive agenda-post-active">
-<p>Datenschutz als Lerngegenstand</p>
-</div></li>
-</ol>
+<p><strong>Lernziele</strong></p>
 </div>
-<blockquote>
-<p>“Datenschutz ist kein lästiges Anhängsel, er ist keine überflüssige Bürokratie, er ist Voraussetzung dafür, dass auch in der Informationsgesellschaft das Recht auf informationelle Selbstbestimmung durchgesetzt werden kann.”</p>
-<p>Jörg Tauss, Rede vor dem Deutschen Bundestag, 29. März 20</p>
-</blockquote>
+<div class="callout-content">
+<p>Wir</p>
+<ul>
+<li>erklären den Wert von Datenschutz im soziologischen Sinne.</li>
+<li>benutzen die Schweizer Datenschutzgesetze um gesetzeskonform zu handeln und sachkundig zu lehren.</li>
+<li>lehren <em>good practice</em> in Datensicherheit.</li>
+<li>leben <em>good practice</em> in Datensicherheit vor.</li>
+</ul>
+</div>
+</div>
+</div>
 </section>
-
 <section>
-<section id="die-üblichen-argumente-zuerst" class="title-slide slide level1 agenda-slide center scrollable">
-<h1>Die üblichen Argumente zuerst</h1>
+<section id="datenschutz" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Datenschutz</h1>
 <div class="agenda-heading">
 <p>Inhalt</p>
 </div>
 <div class="agenda">
 <ol>
-<li><div class="agenda-inactive agenda-pre-active">
-
-</div></li>
 <li><div class="agenda-active">
-<p>Die üblichen Argumente zuerst</p>
+<p>Datenschutz</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Datenschutz als Arbeitnehmer</p>
+<p>Datenschutzrecht</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Datenschutz als Lerngegenstand</p>
+<p>Datensicherheit</p>
 </div></li>
 </ol>
 </div>
@@ -411,13 +424,13 @@
 <h2>End to end encryption</h2>
 <blockquote>
 <p>“Es bestehen keine Bestrebungen, die Verschlüsselung in irgendeiner Form zu schwächen oder zu verbieten”</p>
-<div class="{quelle}">
+</blockquote>
+<div class="quelle">
 <p><a href="https://www.srf.ch/news/panorama/verschluesselte-kommunikation-will-die-eu-verschluesselte-kommunikation-bei-whatsapp-verbieten">Sprecher des Dienstes für die Überwachung des Post- und Fernmeldeverkehrs ÜPF</a></p>
 </div>
-</blockquote>
 <blockquote>
 <p>“Bund und Kantone wollten deshalb ein vereinfachtes System, um die Verschlüsselung auszuhebeln.”</p>
-<div class="{quelle}">
+<div class="quelle">
 <p><a href="https://www.nzz.ch/technologie/chat-kontrolle-behoerden-wollten-die-verschluesselung-knacken-ld.1691401?reduced=true">NZZ</a></p>
 </div>
 </blockquote>
@@ -426,90 +439,109 @@
 <li>Murmelgruppe – 3 Minuten</li>
 </ul>
 </section>
-<section id="die-3-seiten" class="slide level2">
-<h2>Die 3 Seiten</h2>
+<section id="csam" class="slide level2">
+<h2>CSAM</h2>
+<div class="fragment">
+<p><img data-src="james_01.png"></p>
+<div class="quelle">
+<p><span class="citation" data-cites="kulling_james_2022">(<a href="#/bibliographie" role="doc-biblioref" onclick="">Külling et al., 2022, S. 65</a>)</span></p>
+</div>
+</div>
+</section>
+<section id="datenschutz-als-lerngegenstand" class="slide level2">
+<h2>Datenschutz als Lerngegenstand</h2>
 <ul>
-<li>Datenschutz</li>
-<li>Datenschutzrecht</li>
-<li>Datensicherheit</li>
+<li>Wo im Lehrplan21 kommt Datenschutz vor?</li>
+<li>Wie stark vertiefen Sie welche Themen?</li>
 </ul>
 </section></section>
 <section>
-<section id="datenschutz-als-arbeitnehmer" class="title-slide slide level1 agenda-slide center scrollable">
-<h1>Datenschutz als Arbeitnehmer</h1>
+<section id="datenschutzrecht" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Datenschutzrecht</h1>
 <div class="agenda-heading">
 <p>Inhalt</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Die üblichen Argumente zuerst</p>
+<p>Datenschutz</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Datenschutz als Arbeitnehmer</p>
+<p>Datenschutzrecht</p>
 </div></li>
 <li><div class="agenda-inactive agenda-post-active">
-<p>Datenschutz als Lerngegenstand</p>
+<p>Datensicherheit</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="datenschutzrecht" class="slide level2">
+<section id="datenschutzrecht-1" class="slide level2">
+<h2>Datenschutzrecht</h2>
+<ul>
+<li><a href="https://www.belex.sites.be.ch/app/de/texts_of_law/152.04/versions/7">KDSG</a>
+<ul>
+<li><a href="https://www.edoeb.admin.ch/edoeb/de/home.html">EDÖB</a></li>
+</ul></li>
+<li><a href="https://www.fedlex.admin.ch/eli/cc/2022/491/de">DSG</a>
+<ul>
+<li><a href="https://www.be.ch/de/start/ueber-uns/datenschutzaufsichtsstelle.html">Datenschutzaufsichtsstelle Bern</a>
+<ul>
+<li>Aufsichtsstellen</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
+<section id="datenschutzrecht-2" class="slide level2 scrollable">
 <h2>Datenschutzrecht</h2>
 <blockquote>
 <p>“Der Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.”</p>
-<div class="{quelle}">
+<div class="quelle">
 <p><a href="https://www.fedlex.admin.ch/eli/cc/27/317_321_377/de#art_321_e">Art. 321e Abs.1 OR</a></p>
 </div>
 </blockquote>
-<ul>
+<ol type="1">
 <li>Halten Sie Arbeitssituationen fest in welchen Lehrpersonen mit Datenschutz(recht) konfrontiert werden.</li>
-<li>Teilen und diskutieren Sie die Liste mit ihren Sitznachbarn.</li>
+<li>Diskutieren Sie die Situation mit dem Sitznachbarn.</li>
+</ol>
+</section>
+<section id="datenschutzrecht-als-lerngegenstand" class="slide level2">
+<h2>Datenschutzrecht als Lerngegenstand</h2>
+<ul>
+<li>Wo im Lehrplan21 kommt Datenschutzrecht vor?</li>
+<li>Wie stark vertiefen Sie welche Themen?</li>
 </ul>
 </section></section>
 <section>
-<section id="datenschutz-als-lerngegenstand" class="title-slide slide level1 agenda-slide center scrollable">
-<h1>Datenschutz als Lerngegenstand</h1>
+<section id="datensicherheit" class="title-slide slide level1 agenda-slide center scrollable">
+<h1>Datensicherheit</h1>
 <div class="agenda-heading">
 <p>Inhalt</p>
 </div>
 <div class="agenda">
 <ol>
 <li><div class="agenda-inactive agenda-pre-active">
-
+<p>Datenschutz</p>
 </div></li>
 <li><div class="agenda-inactive agenda-pre-active">
-<p>Die üblichen Argumente zuerst</p>
-</div></li>
-<li><div class="agenda-inactive agenda-pre-active">
-<p>Datenschutz als Arbeitnehmer</p>
+<p>Datenschutzrecht</p>
 </div></li>
 <li><div class="agenda-active">
-<p>Datenschutz als Lerngegenstand</p>
+<p>Datensicherheit</p>
 </div></li>
 </ol>
 </div>
 </section>
-<section id="gruppenarbeit" class="slide level2">
-<h2>Gruppenarbeit</h2>
-<ul>
-<li>Halten Sie fest wie und wo Sie Datenschutz in einer Unterrichtssituation mit Lernenden besprechen würden.</li>
-<li>Teilen und diskutieren Sie die Liste mit ihren Sitznachbarn.</li>
-</ul>
-</section>
-<section id="datensicherheit-it-schutzziele" class="slide level2">
-<h2>Datensicherheit (IT Schutzziele)</h2>
+<section id="it-schutzziele" class="slide level2">
+<h2>IT Schutzziele</h2>
 <ul>
 <li>Vertraulichkeit</li>
 <li>Integrität</li>
 <li>Verfügbarkeit</li>
 </ul>
 </section>
-<section id="empfehlungen" class="slide level2">
-<h2>Empfehlungen</h2>
+<section id="good-practice" class="slide level2">
+<h2>Good Practice</h2>
+<div class="fragment">
 <ul>
 <li>Laptop sperren!</li>
 <li>Passwortmanager</li>
@@ -518,16 +550,32 @@
 <li>Cloud-Synchronisation</li>
 <li>… ?</li>
 </ul>
+</div>
+</section>
+<section id="datenschutzrecht-als-lerngegenstand-1" class="slide level2">
+<h2>Datenschutzrecht als Lerngegenstand</h2>
+<ul>
+<li>Wo im Lehrplan21 kommt Datensicherheit vor?</li>
+<li>Wie stark vertiefen Sie welche Themen?</li>
+</ul>
+</section>
+<section id="bibliographie" class="slide level2 smaller scrollable">
+<h2>Bibliographie</h2>
 
-
-</section></section>
-    </div>
-  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="quarto-auto-generated-content">
 <p><img src="../../images/penguin.png" class="slide-logo"></p>
 <div class="footer footer-default">
 <p><a href="https://www.phbern.ch/studium/sekundarstufe-i">PHBern, Institut Sekundarstufe 1,</a> Richard Conrardy, Dozent</p>
 </div>
-</div></div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-kulling_james_2022" class="csl-entry" role="listitem">
+Külling, C., Waller, G., Suter, L., Bernath, J., Skirgaila, P., Streule, P., &amp; Süss, D. (2022). <em><span>JAMES</span> – Jugend, Aktivitäten, Medien – Erhebung Schweiz</em>. Zürich: Zürcher Hochschule für Angewandte Wissenschaften.
+</div>
+</div>
+</section></section>
+    </div>
+  </div>
 
   <script>window.backupDefine = window.define; window.define = undefined;</script>
   <script src="../../site_libs/revealjs/dist/reveal.js"></script>
@@ -557,8 +605,7 @@
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'jumpToSlide': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
 'smaller': false,
  
@@ -713,7 +760,7 @@
         margin: 0.1,
 
         math: {
-          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
           config: 'TeX-AMS_HTML-full',
           tex2jax: {
             inlineMath: [['\\(','\\)']],
