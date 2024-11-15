@@ -1,7 +1,8 @@
 ---
 title: Mikroplanung Mathematik
 subtitle: Lernumgebungen entwickeln
-format: html
+format: 
+  html: default
 categories:
   - Modul - Mikroplanung
   - Fach - Mathematik
@@ -23,7 +24,7 @@ date: 07 06 2024
 ::: panel-tabset
 # Blockkurs
 
-::: {.callout-note collapse="false"}
+::: {.callout-note collapse="true"}
 ## Zielgruppe
 
 Dieser Kurs ist konzipiert für Studierende mit etwas Vorwissen im Bereich der Entwicklung einer Lernumgebung und dem Wunsch mit Kommilitonen dran zu arbeiten und dem Wunsch während der Entwicklung Feedback von Kommilitonen oder Dozierenden zu erhalten.
@@ -72,6 +73,7 @@ inhaltlich, organisatorisch oder anderer Art.
 
 # Präsenzkurs
 
+
 ::: {.callout-note collapse="true"}
 ## Zielgruppe
 
@@ -80,6 +82,21 @@ Dieser Kurs arbeitet mit ihnen gemeinsam die Schritte der Entwicklung einer Lern
 Die Lernumgebung kann parallel in Hausarbeit erstellt werden.
 :::
 
+| Teil | Thema       |            Vorbereitung            |            Slides            |
+|:----:|:------------|:----------------------------------:|:----------------------------:|
+|  1   | Lernziele | [Lernmodul]() | [Slides](Slides_01.qmd) |
+|  2   | Vorwissen | [Lernmodul]() | [Slides](Slides_02.qmd) |
+|  3   | Stoffauswahl | [Lernmodul]() | [Slides]() |
+|  4   | Sozialformen und Phasen | [Lernmodul]() | [Slides]() |
+|  5   | Aufgaben |  | [Slides]() |
+|  6   | Überleitung |  | [Slides]() |
+
+: {.striped .hover .table-sm}
+
+::: {.callout-tip collapse="true"}
+## Lehrerzentrierter Unterricht
+
+Diese Durchführung ist mehrheitlich Lehrerzentriert und orentiert sich nach am Frontalunterricht. Sie erhalten im Präsenzteil wichtige Konzepte und Hilfestellungen für die Mikroplanung. Sie erhalten ebenfalls etwas Zeit an der Lernumgebung zu arbeiten, werden dies jedoch mehrheitlich als Nachbereitung tun.
 
 :::
 
