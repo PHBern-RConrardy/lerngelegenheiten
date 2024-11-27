@@ -1,0 +1,7 @@
+---
+format: 
+  html: default
+title: Workload
+subtitle: Exemplarische Mikro- Makroplanung
+date: 27 11 24
+---
