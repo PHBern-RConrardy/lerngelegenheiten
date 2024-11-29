@@ -99,6 +99,7 @@ Die Lernumgebung kann parallel in Hausarbeit erstellt werden.
 Diese Durchführung ist mehrheitlich Lehrerzentriert und orentiert sich nach am Frontalunterricht. Sie erhalten im Präsenzteil wichtige Konzepte und Hilfestellungen für die Mikroplanung. Sie erhalten ebenfalls etwas Zeit an der Lernumgebung zu arbeiten, werden dies jedoch mehrheitlich als Nachbereitung tun.
 
 :::
+:::
 
 # Workload
 

@@ -40,21 +40,6 @@ author:
 2.  Webseite auf Ilias stellen
 3.  Webseite auf dem Internet publizieren
 
-```{r}
-#| echo: false
-#| code-fold: true
-#| code-summary: "Quellcode für den Countdown"
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "1.5em",
-  margin = "0%",
-  minutes = 5, 
-  seconds = 0
-)
-```
-
 # Inhalte erstellen
 
  In der `about.qmd` Datei:
