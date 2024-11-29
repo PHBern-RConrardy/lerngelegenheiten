@@ -207,7 +207,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
     "title": "Inhalte effizient onlinebringen",
     "section": "3 step plan",
-    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren\n\n\n\n\n−+\n05:00"
+    "text": "3 step plan\n\nWebseite erstellen\nWebseite auf Ilias stellen\nWebseite auf dem Internet publizieren"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#yaml",
@@ -249,7 +249,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#r-oder-python-oder-ojs",
     "title": "Inhalte effizient onlinebringen",
     "section": "6. R (oder Python, oder OJS)",
-    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```\n\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")"
+    "text": "6. R (oder Python, oder OJS)\n{r} damit es ausgeführt wird\n```r\n# Create data\nlabels &lt;- c(\"40%\", \"60%\")\nsizes &lt;- c(40, 60)\ncolors &lt;- c(\"#FF9999\", \"#66B2FF\")  # You can change colors as per your preference\n# Create pie chart\npie(sizes, labels = labels, col = colors, main = \"Pie Chart: 40% - 60% Distribution\")\n```"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#css-in-styles.css",
@@ -3473,7 +3473,7 @@
     "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#rstudio",
     "title": "Inhalte effizient onlinebringen",
     "section": "RStudio",
-    "text": "RStudio\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
+    "text": "RStudio\n\n\n\nHomebrew:\nbrew install --cask r\nbrew install --cask rstudio\n\n\n\nOld fashioned:\nhttps://posit.co/download/rstudio-desktop/"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#quartopub",
@@ -3522,7 +3522,7 @@
     "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#section-2",
     "title": "Inhalte effizient onlinebringen",
     "section": "🧠 + 🤖 = 🦾",
-    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n\n\nThis text will sparkle!\n\n\n\n\n\nThis text will jiggle!\n\n\n\n\n\nWordArt is back!"
+    "text": "🧠 + 🤖 = 🦾\n\nHello, Rainbow Text!\n\n. . .\n\nThis text will sparkle!\n\n\n. . .\n\nThis text will jiggle!\n\n\n. . .\n\nWordArt is back!"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#about",
@@ -3543,7 +3543,7 @@
     "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#urheberrecht",
     "title": "Inhalte effizient onlinebringen",
     "section": "Urheberrecht",
-    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\nEidgenössisches Institut für Geistiges Eigentum (o. J.)"
+    "text": "Urheberrecht\n\nDer Arbeitnehmer ist für den Schaden verantwortlich, den er absichtlich oder fahrlässig dem Arbeitgeber zufügt.\n\nArt.321e Abs.1 OR\n\n\n\nDas Zitat muss der Erläuterung, der Veranschaulichung oder als Hinweis dienen und darf nicht länger als nötig sein. Zudem müssen Sie das Zitat als solches bezeichnen und die Quelle angeben. Nennt die Quelle den Urheber, müssen Sie auch diesen erwähnen.\n\n(eidgenössischesinstitutfürgeistigeseigentum?)"
   },
   {
     "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html#phbern",
@@ -4412,5 +4412,12 @@
     "title": "How to flip the right way: Fail, flip, fix and feed in practice",
     "section": "Untersuchungsdesign",
     "text": "Untersuchungsdesign"
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
+    "href": "tagungsunterlagen/2024_02_12_barcamp_phbern_2024.html",
+    "title": "Inhalte effizient onlinebringen",
+    "section": "",
+    "text": "a fool with a tool is still a fool\n\nGrady Booch?\nRonald S. Weinstein gemäss Thurlbeck (1989)"
   }
 ]
