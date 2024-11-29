@@ -1,5 +1,5 @@
 ---
-title: "<small>How to flip the right way: Fail, flip, fix and feed in practice</small>"
+title: "<small>How to flip the right way: <br>Fail, flip, fix and feed in practice</small>"
 subtitle: "12. GEBF-Tagung"
 format: phheidelberg-revealjs
 date: 27 01 2025
@@ -12,6 +12,7 @@ author:
         url: https://www.ph-heidelberg.de/mathematik/personen/promovierende/richard-conrardy/
         affiliation:
           - ref: phheidelberg
+          - ref: phbern
       - id: cori
         name: Christian Spannagel
         orcid: 0000-0002-7299-4943
@@ -1003,4 +1004,3 @@ In dieser Lektion hatte ich eine:
 
 ![](2024_11_21_Zukunftsforum/aufbau.jpg)
 
----
