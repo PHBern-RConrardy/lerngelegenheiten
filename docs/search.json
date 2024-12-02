@@ -192,15 +192,15 @@
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#expectation-management",
     "title": "Inhalte effizient onlinebringen",
-    "section": "",
-    "text": "besser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
+    "section": "Expectation management",
+    "text": "Expectation management\n\n\nbesser als Powerpoint, Word, Ilias, SWITCHportfolio etc.\nschlechter\nerfrischend anders!"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#learning-outcomes-1",
     "title": "Inhalte effizient onlinebringen",
-    "section": "",
-    "text": "Wir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
+    "section": "Learning Outcomes",
+    "text": "Learning Outcomes\n\nWir erstellen eine Webseite in 5 Minuten.\nWir schreiben in 7 Sprachen."
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#step-plan",
@@ -221,14 +221,14 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#markdown",
     "title": "Inhalte effizient onlinebringen",
     "section": "2. Markdown",
-    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\n\n\nLogo der PHBern"
+    "text": "2. Markdown\n# Überschrift 1\n\n## Überschrift 2\n\n*kursiv*\n\n**fett**\n\n[Link zur PHBERN](https://www.phbern.ch/)\n\n![Logo der PHBern](https://www.phbern.ch/themes/custom/phbern/logo.svg)\nkursiv\nfett\nLink zur PHBERN\n\nLogo der PHBern"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#html",
     "title": "Inhalte effizient onlinebringen",
     "section": "3. HTML",
-    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
+    "text": "3. HTML\n&lt;details&gt;\n&lt;summary&gt;Lösungsvorschlag&lt;/summary&gt;\n3x+2\n&lt;/details&gt;\n\n\nLösungsvorschlag\n\n3x+2\n\nVideos:\n&lt;iframe width=\"420\" height=\"345\" src=\"https://www.youtube.com/embed/fkudzVU_Vec\"&gt;\n&lt;/iframe&gt;"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#latex",
@@ -263,7 +263,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibtex",
     "title": "Inhalte effizient onlinebringen",
     "section": "8. BibTeX",
-    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
+    "text": "8. BibTeX\n@ryan_self-determination_2000\n\n[vgl. @ryan_self-determination_2000,S.43]\nRyan & Deci (2000)\n(vgl. Ryan & Deci, 2000, S. 43)\n\n\n\n\n\n\nWarnung\n\n\nDies bedarf jedoch gewisser Einstellungen in _quarto.yml!\n\n\n\n::: {.callout-warning}\nDies bedarf jedoch gewisser Einstellungen in `_quarto.yml`!\n:::"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#extra-slideshow",
@@ -312,7 +312,7 @@
     "href": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#diskussion",
     "title": "Inhalte effizient onlinebringen",
     "section": "Diskussion",
-    "text": "Diskussion\n\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\n\n\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
+    "text": "Diskussion\nZiel - Innovationspoolprojekt 24/25\nAnleitung für Studierende und Dozierende zum Erstellen, Publizieren und Verwalten einer statischen Webseite für den Unterricht\nOffene Fragen\n\nPotential für Studierende?\nPotential für Dozierende?\nWelche Features sind wichtig?\nPotential für Mitarbeiter?\nWelche Lizenz ist die richtige?"
   },
   {
     "objectID": "tagungsunterlagen/2024_03_18_Treffpunkt_Hochschuldidaktik.html#bibliographie",
