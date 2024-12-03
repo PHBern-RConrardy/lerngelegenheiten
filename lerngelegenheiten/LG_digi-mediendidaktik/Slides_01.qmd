@@ -5,4 +5,147 @@ subtitle: Rahmenbedingungen
 citation: 
   author:
     - Richard Conrardy
+
 ---
+
+# Begriffsdefinitionen 
+
+## 
+
+::: {#fig-merz}
+![](slides_01/merz.png)
+
+[@merz_unterricht_2012, S.6]
+:::
+
+## 
+
+::: {#fig-ammann}
+![](slides_01/ammann.png)
+
+[@ammann_mit_2009, S.9]
+:::
+
+## Was ist Informatik?
+
+::: {#fig-doebeli}
+![](slides_01/doebeli.png)
+
+[@dobeli_honegger_mehr_2017, CC BY-SA 4.0]
+:::
+
+## Definition
+
+::: {#def-inf}
+
+Informatik ist die Wissenschaft der strukturierten und automatischen Informationsverarbeitung.
+
+::: quelle
+[@dobeli_honegger_mehr_2017, S.85]
+:::
+
+:::
+
+
+## Themen der Informatik
+
+* Angewandte Informatik
+* Technische Informatik
+* Praktische Informatik
+* Theoretische Informatik
+
+## Medien bildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
+
+* Informatik
+  * Auto bauen & entwickeln
+* Anwendungskompetenzen
+  * Auto bedienen
+* Medienbildung
+  * verkehrsgerecht fahren
+
+# Medienderfahrung von Jugendlichen
+
+## James Studie
+
+[@kulling-knecht_ergebnisbericht_2024]
+
+# Organisation der ICT an Schulen
+
+## Wunschausstattung
+
+* Welche Ausstattung (Hard-/ Software) würde Ihre Arbeit als Lehrperson optimal unterstützen?
+* Welche Unterstützung wünschen Sie sich von der Schule?
+
+## Zuständigkeit
+
+> Daraus ergibt sich auch die Zuständigkeit der Gemeinden für die Einrichtung der Schulen mit Netzwerken, Servern und Geräten für die Schülerinnen und Schüler, sowie für die Lehrpersonen. Das gleiche gilt für die Lehrmittel."
+>
+> 
+::: quelle
+@amt_fur_kindergarten_volksschule_und_beratung_akvb_infrastruktur_nodate
+:::
+
+
+## Empfehlungen
+
+"Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
+Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert. "
+
+"Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
+Überprüfung eines ICT-Konzeptes, [...]"
+
+:::quelle
+@erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+## Weitere Empfehlungen
+
+* Arbeitsgeräte der Schülerinnen und Schüler
+* Arbeitsgeräte für Lehrpersonen
+* Vernetzung innerhalb der Schule und Bandbreiten ins Internet
+* Datenablage
+* Peripheriegeräte
+* Lizenzen und Nutzungsverträge
+
+:::quelle
+@erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+## Spezialistin/Spezialist Medien und Informatik (SMI)
+
+::: {#fig-smi}
+
+![](slides_01/smi.png)
+
+[@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
+
+:::
+
+## Kosten {.smaller}
+
+| **Kategorie**              | **Element**                                       | **Anzahl** | **Kosten (CHF)**    |
+|----------------------------|---------------------------------------------------|------------|---------------------|
+| **Schülergeräte**          | Chromebooks                                      | 275        | 123'750.00         |
+|                            | MacBook Air                                      | 30         | 33'870.00          |
+|                            | Kopfhörer, Drucker, Chromecast (div.)            | -          | 6'080.00           |
+| **Software/Lizenzen**      | Chrome OS EDU Lizenzen (Chromebooks)             | -          | -                  |
+|                            | G Suite Enterprise for EDU Lizenzen (Lehrpersonen)| -          | -                  |
+|                            | MS Office 365 Lizenzen (Unterrichtsvorbereitung) | -          | 11'100.00          |
+| **Totalkosten Sekundarstufe I** | -                                                | -          | **174'800.00**     |
+
+::: quelle
+[@grosser_gemeinderat_zollikofen_auszug_2020, S.3f]
+:::
+
+## Diskussion
+
+# ICT-Konzepte
+
+## 
+
+::: {#exr-1}
+1. Lesen Sie 2 ICT Konzepte durch. 
+2. Diskutieren Sie miteinander was Sie feststellen.
+:::
+
+## Bibliographie

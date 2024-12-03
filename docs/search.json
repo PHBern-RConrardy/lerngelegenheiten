@@ -4417,8 +4417,8 @@
     "objectID": "projekte/test_praesi.html#image",
     "href": "projekte/test_praesi.html#image",
     "title": "test",
-    "section": "image",
-    "text": "image\n\n\n\n\nAbbildung 1: test"
+    "section": "",
+    "text": "Abbildung 1: test"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html#mikroplanung",
@@ -4449,10 +4449,143 @@
     "text": "WiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Mediendidaktik. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
   },
   {
+    "objectID": "projekte/test_praesi.html",
+    "href": "projekte/test_praesi.html",
+    "title": "test",
+    "section": "",
+    "text": "Abbildung 1: test"
+  },
+  {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
     "title": "Mediendidaktik",
     "section": "",
     "text": "Termin\nThema\nSlides\nVorbereitung\n\n\n\n\n1\nRahmenbedingungen\nSlides\nRahmenbedingungen\n\n\n2\nLernverständnis\nSlides\nLernverständnis\n\n\n3\nUnterricht gestalten\nSlides\nUnterricht gestalten\n\n\n4\nLernorganisation\nSlides\nLernorganisation\n\n\n5\nAusblick und Trends\nSlides\nAusblick und Trends\n\n\n6\nSocial Media\nSlides\n\n\n\n7\nSocial Media\nSlides\n\n\n\n8\nSocial Media\nSlides\n\n\n\n9\nSocial Media\nSlides\n\n\n\n10\nSocial Media\nSlides\n\n\n\n11\nSocial Media\nSlides\n\n\n\n12\nSocial Media\nSlides\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0UrheberrechteDieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard ConrardyZitatBitte zitieren Sie diese Arbeit als:\nNotari, M., & Conrardy, R. (2024, May 5). Mediendidaktik.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Abbildung 1: (Merz et al., 2012, S. 6)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-1",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-1",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Abbildung 2: (Ammann, 2009, S. 9)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#was-ist-informatik",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#was-ist-informatik",
+    "title": "Mediendidaktik",
+    "section": "Was ist Informatik?",
+    "text": "Was ist Informatik?\n\n\nAbbildung 3: (Döbeli Honegger, 2017, CC BY-SA 4.0)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#definition",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#definition",
+    "title": "Mediendidaktik",
+    "section": "Definition",
+    "text": "Definition\n\nDefinition 1 Informatik ist die Wissenschaft der strukturierten und automatischen Informationsverarbeitung.\n\n(Döbeli Honegger, 2017, S. 85)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#themen-der-informatik",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#themen-der-informatik",
+    "title": "Mediendidaktik",
+    "section": "Themen der Informatik",
+    "text": "Themen der Informatik\n\nAngewandte Informatik\nTechnische Informatik\nPraktische Informatik\nTheoretische Informatik"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#medien-bildung-informatik-und-anwendungskompetenzen-sind-nicht-dasselbe",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#medien-bildung-informatik-und-anwendungskompetenzen-sind-nicht-dasselbe",
+    "title": "Mediendidaktik",
+    "section": "Medien bildung, Informatik und Anwendungskompetenzen sind nicht dasselbe",
+    "text": "Medien bildung, Informatik und Anwendungskompetenzen sind nicht dasselbe\n\nInformatik\n\nAuto bauen & entwickeln\n\nAnwendungskompetenzen\n\nAuto bedienen\n\nMedienbildung\n\nverkehrsgerecht fahren"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#james-studie",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#james-studie",
+    "title": "Mediendidaktik",
+    "section": "James Studie",
+    "text": "James Studie\n(Külling-Knecht et al., 2024)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#wunschausstattung",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#wunschausstattung",
+    "title": "Mediendidaktik",
+    "section": "Wunschausstattung",
+    "text": "Wunschausstattung\n\nWelche Ausstattung (Hard-/ Software) würde Ihre Arbeit als Lehrperson optimal unterstützen?\nWelche Unterstützung wünschen Sie sich von der Schule?"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#zuständigkeit",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#zuständigkeit",
+    "title": "Mediendidaktik",
+    "section": "Zuständigkeit",
+    "text": "Zuständigkeit\n\nDaraus ergibt sich auch die Zuständigkeit der Gemeinden für die Einrichtung der Schulen mit Netzwerken, Servern und Geräten für die Schülerinnen und Schüler, sowie für die Lehrpersonen. Das gleiche gilt für die Lehrmittel.”\n\nAmt für Kindergarten, Volksschule und Beratung (AKVB) (o. J.)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#empfehlungen",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#empfehlungen",
+    "title": "Mediendidaktik",
+    "section": "Empfehlungen",
+    "text": "Empfehlungen\n“Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen, Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.”\n“Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische Überprüfung eines ICT-Konzeptes, […]”\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#bibliographie",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#bibliographie",
+    "title": "Mediendidaktik",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nAmmann, D. (2009). Mit Medien unterwegs – Medienkompetenz als Unterrichtsziel. https://www.danielammann.ch/texte/medienkompetenz09-4.pdf\n\n\nAmt für Kindergarten, Volksschule und Beratung (AKVB). (o. J.). Infrastruktur. Kanton Bern. Abgerufen 3. Dezember 2024, von https://www.lp-sl.bkd.be.ch/de/start/themen/medien-und-informatik/infrastruktur.html\n\n\nDöbeli Honegger, B. (2017). Mehr als 0 und 1: Schule in einer digitalisierten Welt (2., durchgesehene Auflage). hep verlag.\n\n\nErziehungsdirektion des Kantons Bern. (2016). Medien und Informatik in der Volksschule Empfehlungen an die Gemeinden und an die Schulleitungen. https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/themen/medien-und-informatik/medien-informatik-empfehlungen-d.pdf\n\n\nErziehungsdirektion des Kantons Bern. (2018). Pflichtenheft Spezialistin/Spezialist Medien und Informatik (SMI) an den Volksschulen des Kantons Bern Empfehlungen an die Gemeinden und an die Schulleitungen. https://www.lp-sl.bkd.be.ch/content/dam/lp-sl_bkd/dokumente/de/startseite/themen/medien-und-informatik/spezialist-medien-und-informatik/sl-lp-medien-informatik-pflichtenheft-smi-d.pdf\n\n\nGrosser Gemeinderat Zollikofen. (2020). Auszug aus dem Protokoll. https://www.zollikofen.ch/_docn/2831737/Protokollauszug_Ersatzbeschaffung_ICT-Infrastruktur_Schulen_Verpflichtungskredit.pdf\n\n\nKülling-Knecht, C., Waller, G., Willemse, I., Deda-Bröching, S., Suter, L., Settegrana, N., Jochim, M., Bernath, J., & Süss, D. (2024). Ergebnisbericht zur JAMES-Studie 2024. ZHAW Zürcher Hochschule für Angewandte Wissenschaften.\n\n\nMerz, T., Moser, H., Scheuble, W., Senn, F., & Tilemann, F. (2012). Unterricht planen in der Mediengesellschaft - lehre-phzh.ch. yumpu.com. https://www.yumpu.com/de/document/read/37074087/unterricht-planen-in-der-mediengesellschaft-lehre-phzhch"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-2",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#section-2",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Übungsaufgabe 1  \n\nLesen Sie 2 ICT Konzepte durch.\nDiskutieren Sie miteinander was Sie feststellen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#s",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#s",
+    "title": "Mediendidaktik",
+    "section": "S",
+    "text": "S"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#spezialistinspezialist-medien-und-informatik-smi",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#spezialistinspezialist-medien-und-informatik-smi",
+    "title": "Mediendidaktik",
+    "section": "Spezialistin/Spezialist Medien und Informatik (SMI)",
+    "text": "Spezialistin/Spezialist Medien und Informatik (SMI)\n\n\nAbbildung 4: (Erziehungsdirektion des Kantons Bern, 2018, S. 3)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#kosten",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#kosten",
+    "title": "Mediendidaktik",
+    "section": "Kosten",
+    "text": "Kosten\n\n\n\n\n\n\n\n\n\nKategorie\nElement\nAnzahl\nKosten (CHF)\n\n\n\n\nSchülergeräte\nChromebooks\n275\n123’750.00\n\n\n\nMacBook Air\n30\n33’870.00\n\n\n\nKopfhörer, Drucker, Chromecast (div.)\n-\n6’080.00\n\n\nSoftware/Lizenzen\nChrome OS EDU Lizenzen (Chromebooks)\n-\n-\n\n\n\nG Suite Enterprise for EDU Lizenzen (Lehrpersonen)\n-\n-\n\n\n\nMS Office 365 Lizenzen (Unterrichtsvorbereitung)\n-\n11’100.00\n\n\nTotalkosten Sekundarstufe I\n-\n-\n174’800.00\n\n\n\n\n(Grosser Gemeinderat Zollikofen, 2020, S. 3f)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#diskussion",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#diskussion",
+    "title": "Mediendidaktik",
+    "section": "Diskussion",
+    "text": "Diskussion"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#weitere-empfehlungen",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#weitere-empfehlungen",
+    "title": "Mediendidaktik",
+    "section": "Weitere Empfehlungen",
+    "text": "Weitere Empfehlungen\n\nArbeitsgeräte der Schülerinnen und Schüler\nArbeitsgeräte für Lehrpersonen\nVernetzung innerhalb der Schule und Bandbreiten ins Internet\nDatenablage\nPeripheriegeräte\nLizenzen und Nutzungsverträge\n\n\nErziehungsdirektion des Kantons Bern (2016)"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#auftrag",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html#auftrag",
+    "title": "Mediendidaktik",
+    "section": "Auftrag",
+    "text": "Auftrag\n\nÜbungsaufgabe 1  \n\nLesen Sie 2 ICT Konzepte durch.\nDiskutieren Sie miteinander was Sie feststellen."
   }
 ]
