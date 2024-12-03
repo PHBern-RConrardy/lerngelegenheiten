@@ -320,6 +320,12 @@ color: $titelfarbe!important;
 .quarto-title-author{
   font-size: 0.8em ;
   text-align: left;
+  color: $schwarz3
+}
+
+.date{
+  color: $schwarz3;
+  font-size: 0.8em;
 }
 
 .progress{
@@ -329,3 +335,4 @@ color: $titelfarbe!important;
 .subtitle{
   margin-bottom: 4rem !important;
 }
+

@@ -1,4 +1,100 @@
 ---
 format: revealjs
 title: Mediendidaktik
+subtitle: Lernverständnis
 ---
+
+#  Mediendidaktik als erziehungswissenschaftliche Disziplin 
+
+## TPACK-Modell
+
+::: {#fig-2}
+
+![](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png)
+
+@koehler_what_2013
+:::
+
+## Lerntheorien
+
+* Behavourismus
+* Kognitivismus
+* Konstruktivismus
+* Sozialkonstruktivistische Ansätze
+
+[vgl, @kerres_mediendidaktik_2018, S.165]
+
+## Medien im didaktischen Dreieck
+
+[@petko_einfuhrung_2020, S.120]
+
+## SAMR - Modell
+
+@puentedura
+
+## Lernen mit Text, Bild und Ton
+
+* Linearer Text 
+* Hyptertext
+* Statische Bilder
+* Videos und Animationen
+
+::: quelle
+[@petko_einfuhrung_2020, S.57f]
+
+:::
+
+## Choose your own adventure
+
+::: {#fig-1}
+![](https://upload.wikimedia.org/wikipedia/en/f/f0/Cave_of_time.jpg)
+
+Choose your own Adventure [Quelle](https://en.wikipedia.org/wiki/File:Cave_of_time.jpg)
+:::
+
+# Etwas Websprachen
+
+## Einführung in HTML und CSS
+
+### Was sind HTML und CSS?
+
+- **HTML**: HyperText Markup Language  
+  - Struktur einer Webseite
+  - Beschreibt Inhalte: Texte, Bilder, Links, Tabellen
+- **CSS**: Cascading Style Sheets  
+  - Gestaltung einer Webseite
+  - Farben, Schriften, Layouts
+
+---
+
+### Warum HTML und CSS lernen?
+
+- **Verständnis der digitalen Welt**:  
+  - Viele Anwendungen basieren auf Web-Technologien.
+- **Kreativität und Gestaltung**:  
+  - Eigene Webseiten erstellen und gestalten.
+- **Kompetenzvermittlung**:  
+  - Schüler:innen können einfache Webprojekte entwickeln.
+
+---
+
+## HTML im Detail
+
+### Wichtige HTML-Elemente
+
+- **Grundstruktur**:  
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meine Webseite</title>
+  </head>
+  <body>
+    <h1>Willkommen!</h1>
+    <p>Dies ist meine erste Webseite.</p>
+  </body>
+</html>
+```
+
+
+## Bibliographie
