@@ -458,8 +458,8 @@
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#ziele-1",
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#ziele-1",
     "title": "Medien und Informatik",
-    "section": "Ziele",
-    "text": "Ziele\n\nSich Kennenlernen"
+    "section": "",
+    "text": "Sich Kennenlernen"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#querschnittsthemen",
@@ -515,7 +515,7 @@
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#smi",
     "title": "Medien und Informatik",
     "section": "SMI",
-    "text": "SMI\n\nAufgaben der/des SMI - Erziehungsdirektion des Kantons Bern (2018)"
+    "text": "SMI\n\n\n\nAufgaben der/des SMI - Erziehungsdirektion des Kantons Bern (2018)"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#praktikas-mit-mi",
@@ -536,7 +536,7 @@
     "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#dagstuhldreieck",
     "title": "Medien und Informatik",
     "section": "Dagstuhldreieck",
-    "text": "Dagstuhldreieck\n\n\nAbbildung 1: Dagstuhldreieck\n\nQuelle: CC-BY-SA Beat Döbeli Honegger und Renate Salzmann"
+    "text": "Dagstuhldreieck\n\n\n\n\n\n\nAbbildung 1: Dagstuhldreieck\n\n\n\n\nQuelle: CC-BY-SA Beat Döbeli Honegger und Renate Salzmann"
   },
   {
     "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html#tpack",
@@ -4281,18 +4281,11 @@
     "text": "WiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Mediendidaktik. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
   },
   {
-    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
-    "href": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
-    "title": "Mediendidaktik",
-    "section": "",
-    "text": "Termin\nThema\nSlides\nVorbereitung\n\n\n\n\n1\nRahmenbedingungen\nSlides\nRahmenbedingungen\n\n\n2\nLernverständnis\nSlides\nLernverständnis\n\n\n3\nUnterricht gestalten\nSlides\nUnterricht gestalten\n\n\n4\nLernorganisation\nSlides\nLernorganisation\n\n\n5\nAusblick und Trends\nSlides\nAusblick und Trends\n\n\n6\nSocial Media\nSlides\n\n\n\n7\nSocial Media\nSlides\n\n\n\n8\nSocial Media\nSlides\n\n\n\n9\nSocial Media\nSlides\n\n\n\n10\nSocial Media\nSlides\n\n\n\n11\nSocial Media\nSlides\n\n\n\n12\nSocial Media\nSlides\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0UrheberrechteDieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard ConrardyZitatBitte zitieren Sie diese Arbeit als:\nNotari, M., & Conrardy, R. (2024, May 5). Mediendidaktik.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
-  },
-  {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html",
     "title": "Workload",
     "section": "",
-    "text": "WiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, November 27). Workload. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
+    "text": "Entwickeln Sie in Gruppen von vier Personen eine digitale Lernumgebungen. Die Lernumgebung muss folgendes beinhalten:\n\nein Lehr-Lernvideo.\neine digital unterstütze Gruppenarbeit.\neine Anwedungskompetenz.\n\n\n\n\nVeröffentlichen Sie diese Lernumgebung in eine digital verwaltete Makroplanung / Kursverwaltung. Bilden Sie weitere Themenbereiche im gewählten Tool ab, die einzelnen Inhalte müssen nicht gefüllt sein.\nSie können die Kursverwaltungssoftware frei wählen, sie sollte grundsätzlich in Ihrer nächsten Schule technisch und rechtlich möglich sein."
   },
   {
     "objectID": "tagungsunterlagen/2025_01_27_Gebf.html#exploration-und-instruktion",
@@ -4426,5 +4419,40 @@
     "title": "test",
     "section": "image",
     "text": "image\n\n\n\n\nAbbildung 1: test"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html#mikroplanung",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html#mikroplanung",
+    "title": "Workload",
+    "section": "",
+    "text": "Entwickeln Sie in Gruppen von vier Personen eine digitale Lernumgebungen. Die Lernumgebung muss folgendes beinhalten:\n\nein Lehr-Lernvideo.\neine digital unterstütze Gruppenarbeit.\neine Anwedungskompetenz."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html#makroplanung",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Worload.html#makroplanung",
+    "title": "Workload",
+    "section": "",
+    "text": "Veröffentlichen Sie diese Lernumgebung in eine digital verwaltete Makroplanung / Kursverwaltung. Bilden Sie weitere Themenbereiche im gewählten Tool ab, die einzelnen Inhalte müssen nicht gefüllt sein.\nSie können die Kursverwaltungssoftware frei wählen, sie sollte grundsätzlich in Ihrer nächsten Schule technisch und rechtlich möglich sein."
+  },
+  {
+    "objectID": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html",
+    "href": "tagungsunterlagen/2024_05_07_CAS_BKB_MI.html",
+    "title": "Medien und Informatik",
+    "section": "",
+    "text": "Sich Kennenlernen"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_01.html",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "WiederverwendungCC BY-SA 4.0ZitatBitte zitieren Sie diese Arbeit als:\nConrardy, R. (2024, January 1). Mediendidaktik. University of\nTeacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/LG_Mediendidaktik.html",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Termin\nThema\nSlides\nVorbereitung\n\n\n\n\n1\nRahmenbedingungen\nSlides\nRahmenbedingungen\n\n\n2\nLernverständnis\nSlides\nLernverständnis\n\n\n3\nUnterricht gestalten\nSlides\nUnterricht gestalten\n\n\n4\nLernorganisation\nSlides\nLernorganisation\n\n\n5\nAusblick und Trends\nSlides\nAusblick und Trends\n\n\n6\nSocial Media\nSlides\n\n\n\n7\nSocial Media\nSlides\n\n\n\n8\nSocial Media\nSlides\n\n\n\n9\nSocial Media\nSlides\n\n\n\n10\nSocial Media\nSlides\n\n\n\n11\nSocial Media\nSlides\n\n\n\n12\nSocial Media\nSlides\n\n\n\n\n\n\n\nWiederverwendungCC BY-SA 4.0UrheberrechteDieser Kurs  basiert auf einer Lerngelegenheit von Prof. Dr. Michele Notari und Richard ConrardyZitatBitte zitieren Sie diese Arbeit als:\nNotari, M., & Conrardy, R. (2024, May 5). Mediendidaktik.\nUniversity of Teacher Education Bern. https://phbern-rconrardy.github.io/lerngelegenheiten/"
   }
 ]

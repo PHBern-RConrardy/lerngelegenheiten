@@ -1,7 +1,7 @@
 ---
 format: revealjs
 title: Mediendidaktik
-subtitle: Rahmenbedingungen <br> Termin 1
+subtitle: Rahmenbedingungen
 citation: 
   author:
     - Richard Conrardy
