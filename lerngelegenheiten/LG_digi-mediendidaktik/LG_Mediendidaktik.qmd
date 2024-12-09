@@ -11,7 +11,7 @@ date: "5/05/2024"
 categories:
   - Modul - Makroplanung
   - Modul - Mikroplanung
-draft: true
+draft: false
 ---
 
 | Termin | Thema                    |       Slides        | Vorbereitung                                      |
