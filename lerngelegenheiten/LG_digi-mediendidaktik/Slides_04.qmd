@@ -1,4 +1,34 @@
 ---
 format: revealjs
 title: Mediendidaktik
+subtitle: Lernorganisation
 ---
+
+# Learning Management Systeme
+
+## Anforderungen
+
+@schulmeister_lernplattformen_2005
+
+## Klassische Open-Source LMS
+
+* Moodle
+* Ilias
+
+## LearningView
+
+## MS-Teams
+
+## MS-OneNote Classnotebooks
+
+## Google Classrooms
+
+## Lernpfad
+
+https://lernpfad.ch/team
+
+## KI-generated
+
+## Franken-LMS
+
+Monolyth vs Microservices
