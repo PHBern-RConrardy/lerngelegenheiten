@@ -8,7 +8,7 @@
 
 <meta name="author" content="Richard Conrardy">
 
-<title>Mediendidaktik</title>
+<title>Webscraping</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,46 +21,60 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-  margin-bottom: 0em;
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
 }
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../">
-<link href="../../images/penguin.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-b369a032191e511e325009fbbd0fe142.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../images/penguin.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-07ba0ad10f5680c660e360ac31d2f3b6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-b369a032191e511e325009fbbd0fe142.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -99,8 +113,8 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../images/penguin.png" alt="" class="navbar-logo">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../images/penguin.png" alt="" class="navbar-logo">
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -120,28 +134,18 @@ div.csl-indent {
     <h2 id="toc-title">Auf dieser Seite</h2>
    
   <ul class="collapse">
-  <li><a href="#learning-management-systeme" id="toc-learning-management-systeme" class="nav-link active" data-scroll-target="#learning-management-systeme">Learning Management Systeme</a>
-  <ul class="collapse">
-  <li><a href="#anforderungen" id="toc-anforderungen" class="nav-link" data-scroll-target="#anforderungen">Anforderungen</a></li>
-  <li><a href="#klassische-open-source-lms" id="toc-klassische-open-source-lms" class="nav-link" data-scroll-target="#klassische-open-source-lms">Klassische Open-Source LMS</a></li>
-  <li><a href="#learningview" id="toc-learningview" class="nav-link" data-scroll-target="#learningview">LearningView</a></li>
-  <li><a href="#ms-teams" id="toc-ms-teams" class="nav-link" data-scroll-target="#ms-teams">MS-Teams</a></li>
-  <li><a href="#ms-onenote-classnotebooks" id="toc-ms-onenote-classnotebooks" class="nav-link" data-scroll-target="#ms-onenote-classnotebooks">MS-OneNote Classnotebooks</a></li>
-  <li><a href="#google-classrooms" id="toc-google-classrooms" class="nav-link" data-scroll-target="#google-classrooms">Google Classrooms</a></li>
-  <li><a href="#lernpfad" id="toc-lernpfad" class="nav-link" data-scroll-target="#lernpfad">Lernpfad</a></li>
-  <li><a href="#ki-generated" id="toc-ki-generated" class="nav-link" data-scroll-target="#ki-generated">KI-generated</a></li>
-  <li><a href="#franken-lms" id="toc-franken-lms" class="nav-link" data-scroll-target="#franken-lms">Franken-LMS</a></li>
-  </ul></li>
+  <li><a href="#vorgehen" id="toc-vorgehen" class="nav-link active" data-scroll-target="#vorgehen">Vorgehen</a></li>
+  <li><a href="#programmcode" id="toc-programmcode" class="nav-link" data-scroll-target="#programmcode">Programmcode:</a></li>
   </ul>
-<div class="quarto-alternate-formats"><h2>Andere Formate</h2><ul><li><a href="Slides_04.html"><i class="bi bi-file-slides"></i>RevealJS</a></li></ul></div></nav>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Mediendidaktik</h1>
-<p class="subtitle lead">Lernorganisation</p>
+<h1 class="title">Webscraping</h1>
+<p class="subtitle lead">Profile mit Photos der Mitarbeitenden IS1</p>
 </div>
 
 
@@ -174,58 +178,126 @@ div.csl-indent {
     
   </div>
   
+<div>
+  <div class="abstract">
+    <div class="block-title">Zusammenfassung</div>
+    <p>Hier wird kurz beschrieben wie man die Liste aller Dozierenden der PHBern (Institut Sekundarstufe 1) im Lernkartendeck Anki importieren kann.</p>
+  </div>
+</div>
 
 
 </header>
 
 
-<section id="learning-management-systeme" class="level1">
-<h1>Learning Management Systeme</h1>
-<section id="anforderungen" class="level2">
-<h2 class="anchored" data-anchor-id="anforderungen">Anforderungen</h2>
-<p><span class="citation" data-cites="schulmeister_lernplattformen_2005">Schulmeister (<a href="#ref-schulmeister_lernplattformen_2005" role="doc-biblioref">2005</a>)</span></p>
-</section>
-<section id="klassische-open-source-lms" class="level2">
-<h2 class="anchored" data-anchor-id="klassische-open-source-lms">Klassische Open-Source LMS</h2>
-<ul>
-<li>Moodle</li>
-<li>Ilias</li>
-</ul>
-</section>
-<section id="learningview" class="level2">
-<h2 class="anchored" data-anchor-id="learningview">LearningView</h2>
-</section>
-<section id="ms-teams" class="level2">
-<h2 class="anchored" data-anchor-id="ms-teams">MS-Teams</h2>
-</section>
-<section id="ms-onenote-classnotebooks" class="level2">
-<h2 class="anchored" data-anchor-id="ms-onenote-classnotebooks">MS-OneNote Classnotebooks</h2>
-</section>
-<section id="google-classrooms" class="level2">
-<h2 class="anchored" data-anchor-id="google-classrooms">Google Classrooms</h2>
-</section>
-<section id="lernpfad" class="level2">
-<h2 class="anchored" data-anchor-id="lernpfad">Lernpfad</h2>
-<p>https://lernpfad.ch/team</p>
-</section>
-<section id="ki-generated" class="level2">
-<h2 class="anchored" data-anchor-id="ki-generated">KI-generated</h2>
-</section>
-<section id="franken-lms" class="level2">
-<h2 class="anchored" data-anchor-id="franken-lms">Franken-LMS</h2>
-<p>Monolyth vs Microservices</p>
-
-
-
-</section>
-</section>
-
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
-<div id="ref-schulmeister_lernplattformen_2005" class="csl-entry" role="listitem">
-Schulmeister, R. (2005). <em>Lernplattformen für das virtuelle Lernen: Evaluation und Didaktik</em> (2. Auflage). Oldenbourg Verlag.
+<section id="vorgehen" class="level2">
+<h2 class="anchored" data-anchor-id="vorgehen">Vorgehen</h2>
+<ol type="1">
+<li>Downloade <a href="anki_webscraping.py">anki_webscraping.py</a></li>
+<li>Lasse es lokal laufen, z.B. mit VS-Code</li>
+<li>Du hast nun eine <a href="https://en.wikipedia.org/wiki/Comma-separated_values">CSV-Datei</a> mit allen Dozierenden PHBern IS1 welche ein Photo auf der PHBern haben. In der ersten Spalte sind die URLs der Photos (mit <code>img src="</code>), in der zweiten sind die Namen wie sie auf der Webseite auftauchen.</li>
+<li>Importiere nun über <a href="https://apps.ankiweb.net/">Anki Desktop</a> diese CSV Datei. Achte darauf <code>Allow HTML in fields=True</code> zu setzen, damit die Bilder angezeigt werden. Die Felder sind bereits in korrekter Reihenfolge.</li>
+</ol>
+<div class="callout callout-style-default callout-warning callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-</div></section><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
-Conrardy, R. (2024, January 1). <em>Mediendidaktik</em>. University of
+<div class="callout-title-container flex-fill">
+Lernstand wird überschrieben
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Leider updated dies nicht die bestehende Datenbank, sondern kann sie lediglich überschreiben. Der bestehende Lernstand (welche Personen man sich besser/schlechter merken kann) wird damit gelöscht.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Andere Institute
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Die <code>START_URL</code> enthält hinten eine Institutsnummer, diese kann auch an andere “Institute” angepasst werden. Es handelt sich hierbei um Organisationseinheiten, klickt man auf diejenige auf der <a href="https://www.phbern.ch/ueber-die-phbern/personen">PHBern-Webseite</a>, kann man den Code in der URL ablesen.</p>
+</div>
+</div>
+</section>
+<section id="programmcode" class="level2">
+<h2 class="anchored" data-anchor-id="programmcode">Programmcode:</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1"></a><span class="im">import</span> requests</span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="im">from</span> bs4 <span class="im">import</span> BeautifulSoup</span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="im">import</span> csv</span>
+<span id="cb1-4"><a href="#cb1-4"></a></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="co"># Base URL</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a>BASE_URL <span class="op">=</span> <span class="st">"https://www.phbern.ch"</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a>START_URL <span class="op">=</span> <span class="st">"https://www.phbern.ch/ueber-die-phbern/personen?f%5B0%5D=institut%3A895"</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="kw">def</span> scrape_phbern_profiles():</span>
+<span id="cb1-10"><a href="#cb1-10"></a>    page <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a>    results <span class="op">=</span> []</span>
+<span id="cb1-12"><a href="#cb1-12"></a>    visited_urls <span class="op">=</span> <span class="bu">set</span>()</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a>    <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb1-15"><a href="#cb1-15"></a>        <span class="bu">print</span>(<span class="ss">f"Scraping page </span><span class="sc">{</span>page <span class="op">+</span> <span class="dv">1</span><span class="sc">}</span><span class="ss">..."</span>)</span>
+<span id="cb1-16"><a href="#cb1-16"></a>        url <span class="op">=</span> <span class="ss">f"</span><span class="sc">{</span>START_URL<span class="sc">}</span><span class="ss">&amp;page=</span><span class="sc">{</span>page<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a>        response <span class="op">=</span> requests.get(url)</span>
+<span id="cb1-18"><a href="#cb1-18"></a></span>
+<span id="cb1-19"><a href="#cb1-19"></a>        <span class="cf">if</span> response.status_code <span class="op">!=</span> <span class="dv">200</span>:</span>
+<span id="cb1-20"><a href="#cb1-20"></a>            <span class="bu">print</span>(<span class="st">"Error fetching page"</span>, response.status_code)</span>
+<span id="cb1-21"><a href="#cb1-21"></a>            <span class="cf">break</span></span>
+<span id="cb1-22"><a href="#cb1-22"></a></span>
+<span id="cb1-23"><a href="#cb1-23"></a>        soup <span class="op">=</span> BeautifulSoup(response.text, <span class="st">'html.parser'</span>)</span>
+<span id="cb1-24"><a href="#cb1-24"></a></span>
+<span id="cb1-25"><a href="#cb1-25"></a>        <span class="co"># Find profile links and names</span></span>
+<span id="cb1-26"><a href="#cb1-26"></a>        profiles <span class="op">=</span> soup.select(<span class="st">'a[href^="/ueber-die-phbern/personen/"]'</span>)</span>
+<span id="cb1-27"><a href="#cb1-27"></a>        <span class="cf">if</span> <span class="kw">not</span> profiles:</span>
+<span id="cb1-28"><a href="#cb1-28"></a>            <span class="bu">print</span>(<span class="st">"No more profiles found. Exiting."</span>)</span>
+<span id="cb1-29"><a href="#cb1-29"></a>            <span class="cf">break</span></span>
+<span id="cb1-30"><a href="#cb1-30"></a></span>
+<span id="cb1-31"><a href="#cb1-31"></a>        <span class="cf">for</span> profile <span class="kw">in</span> profiles:</span>
+<span id="cb1-32"><a href="#cb1-32"></a>            <span class="co"># Clean up the name to remove excessive spaces</span></span>
+<span id="cb1-33"><a href="#cb1-33"></a>            name <span class="op">=</span> <span class="st">" "</span>.join(profile.text.strip().split()).strip()</span>
+<span id="cb1-34"><a href="#cb1-34"></a>            href <span class="op">=</span> profile.get(<span class="st">'href'</span>)</span>
+<span id="cb1-35"><a href="#cb1-35"></a>            <span class="cf">if</span> href <span class="kw">and</span> name:</span>
+<span id="cb1-36"><a href="#cb1-36"></a>                full_url <span class="op">=</span> <span class="ss">f"</span><span class="sc">{</span>BASE_URL<span class="sc">}{</span>href<span class="sc">}</span><span class="ss">"</span></span>
+<span id="cb1-37"><a href="#cb1-37"></a>                <span class="cf">if</span> full_url <span class="kw">not</span> <span class="kw">in</span> visited_urls:</span>
+<span id="cb1-38"><a href="#cb1-38"></a>                    visited_urls.add(full_url)</span>
+<span id="cb1-39"><a href="#cb1-39"></a></span>
+<span id="cb1-40"><a href="#cb1-40"></a>                    <span class="co"># Check for an image on the profile page</span></span>
+<span id="cb1-41"><a href="#cb1-41"></a>                    image_url <span class="op">=</span> <span class="va">None</span></span>
+<span id="cb1-42"><a href="#cb1-42"></a>                    profile_response <span class="op">=</span> requests.get(full_url)</span>
+<span id="cb1-43"><a href="#cb1-43"></a>                    <span class="cf">if</span> profile_response.status_code <span class="op">==</span> <span class="dv">200</span>:</span>
+<span id="cb1-44"><a href="#cb1-44"></a>                        profile_soup <span class="op">=</span> BeautifulSoup(profile_response.text, <span class="st">'html.parser'</span>)</span>
+<span id="cb1-45"><a href="#cb1-45"></a>                        image <span class="op">=</span> profile_soup.select_one(<span class="st">'img[src^="/sites/default/files/"]'</span>)</span>
+<span id="cb1-46"><a href="#cb1-46"></a>                        <span class="cf">if</span> image:</span>
+<span id="cb1-47"><a href="#cb1-47"></a>                            image_url <span class="op">=</span> <span class="ss">f"&lt;img src=</span><span class="ch">\"</span><span class="sc">{</span>BASE_URL<span class="sc">}{</span>image[<span class="st">'src'</span>]<span class="sc">}</span><span class="ch">\"</span><span class="ss">&gt;"</span></span>
+<span id="cb1-48"><a href="#cb1-48"></a></span>
+<span id="cb1-49"><a href="#cb1-49"></a>                    <span class="co"># Only add profiles that have an image</span></span>
+<span id="cb1-50"><a href="#cb1-50"></a>                    <span class="cf">if</span> image_url:</span>
+<span id="cb1-51"><a href="#cb1-51"></a>                        results.append({<span class="st">"name"</span>: name, <span class="st">"image_url"</span>: image_url})</span>
+<span id="cb1-52"><a href="#cb1-52"></a></span>
+<span id="cb1-53"><a href="#cb1-53"></a>        page <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb1-54"><a href="#cb1-54"></a></span>
+<span id="cb1-55"><a href="#cb1-55"></a>    <span class="cf">return</span> results</span>
+<span id="cb1-56"><a href="#cb1-56"></a></span>
+<span id="cb1-57"><a href="#cb1-57"></a><span class="cf">if</span> <span class="va">__name__</span> <span class="op">==</span> <span class="st">"__main__"</span>:</span>
+<span id="cb1-58"><a href="#cb1-58"></a>    profiles <span class="op">=</span> scrape_phbern_profiles()</span>
+<span id="cb1-59"><a href="#cb1-59"></a></span>
+<span id="cb1-60"><a href="#cb1-60"></a>    <span class="co"># Save or print the results</span></span>
+<span id="cb1-61"><a href="#cb1-61"></a>    <span class="cf">with</span> <span class="bu">open</span>(<span class="st">"phbern_profiles.csv"</span>, <span class="st">"w"</span>, encoding<span class="op">=</span><span class="st">"utf-8"</span>, newline<span class="op">=</span><span class="st">""</span>) <span class="im">as</span> csvfile:</span>
+<span id="cb1-62"><a href="#cb1-62"></a>        csvwriter <span class="op">=</span> csv.writer(csvfile)</span>
+<span id="cb1-63"><a href="#cb1-63"></a>        <span class="cf">for</span> profile <span class="kw">in</span> profiles:</span>
+<span id="cb1-64"><a href="#cb1-64"></a>            csvwriter.writerow([profile[<span class="st">'image_url'</span>], profile[<span class="st">'name'</span>]])</span>
+<span id="cb1-65"><a href="#cb1-65"></a></span>
+<span id="cb1-66"><a href="#cb1-66"></a>    <span class="bu">print</span>(<span class="ss">f"Scraped </span><span class="sc">{</span><span class="bu">len</span>(profiles)<span class="sc">}</span><span class="ss"> profiles with images and saved to phbern_profiles.csv."</span>)</span></code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-reuse"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">CC BY-SA 4.0</a></div></div></section><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-conrardy2024" class="csl-entry quarto-appendix-citeas" role="listitem">
+Conrardy, R. (2024, January 1). <em>Webscraping</em>. University of
 Teacher Education Bern. <a href="https://phbern-rconrardy.github.io/lerngelegenheiten/">https://phbern-rconrardy.github.io/lerngelegenheiten/</a>
 </div></div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -668,12 +740,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-center">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/impressum.html">
+    <a class="nav-link" href="../footer/impressum.html">
 <p>Impressum</p>
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="../../footer/disclaimer.html">
+    <a class="nav-link" href="../footer/disclaimer.html">
 <p>Disclaimer</p>
 </a>
   </li>  
