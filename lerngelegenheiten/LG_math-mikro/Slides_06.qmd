@@ -1,5 +1,5 @@
 ---
 format: revealjs
 title: Mikroplanung Mathematik
-subtitle: Lehrmaterialien und -mittel
+subtitle: Beispiel einer Lernumgebung
 ---
