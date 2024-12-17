@@ -5,7 +5,6 @@ subtitle: Rahmenbedingungen
 citation: 
   author:
     - Richard Conrardy
-date: 12 3  2024
 ---
 
 # Begriffsdefinitionen 

@@ -5187,15 +5187,15 @@
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#innovationstypen",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#innovationstypen",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Abbildung 1: (Döbeli Honegger, 2017, CC BY-SA 4.0)"
+    "section": "Innovationstypen",
+    "text": "Innovationstypen\n\n\nAbbildung 1: (Döbeli Honegger, 2017, CC BY-SA 4.0)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#hype-cycle",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#hype-cycle",
     "title": "Mediendidaktik",
     "section": "Hype-cycle",
-    "text": "Hype-cycle\n\n\n\n\n\n\nAbbildung 2: (Döbeli Honegger, 2017, CC BY-SA 4.0)"
+    "text": "Hype-cycle\n\n\nAbbildung 2: (Döbeli Honegger, 2017, CC BY-SA 4.0)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#vr-ar",
@@ -5231,5 +5231,12 @@
     "title": "Webscraping",
     "section": "",
     "text": "Downloade anki_webscraping.py\nLasse es lokal laufen, z.B. mit VS-Code\nDu hast nun eine CSV-Datei mit allen Dozierenden PHBern IS1 welche ein Photo auf der PHBern haben. In der ersten Spalte sind die URLs der Photos (mit img src=\"), in der zweiten sind die Namen wie sie auf der Webseite auftauchen.\nImportiere nun über Anki Desktop diese CSV Datei. Achte darauf Allow HTML in fields=True zu setzen, damit die Bilder angezeigt werden. Die Felder sind bereits in korrekter Reihenfolge.\n\n\n\n\n\n\n\nLernstand wird überschrieben\n\n\n\nLeider updated dies nicht die bestehende Datenbank, sondern kann sie lediglich überschreiben. Der bestehende Lernstand (welche Personen man sich besser/schlechter merken kann) wird damit gelöscht.\n\n\n\n\n\n\n\n\nAndere Institute\n\n\n\nDie START_URL enthält hinten eine Institutsnummer, diese kann auch an andere “Institute” angepasst werden. Es handelt sich hierbei um Organisationseinheiten, klickt man auf diejenige auf der PHBern-Webseite, kann man den Code in der URL ablesen."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#bibliographie",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_05.html#bibliographie",
+    "title": "Mediendidaktik",
+    "section": "Bibliographie",
+    "text": "Bibliographie\n\n\n\n\nDöbeli Honegger, B. (2017). Mehr als 0 und 1: Schule in einer digitalisierten Welt (2., durchgesehene Auflage). hep verlag."
   }
 ]
