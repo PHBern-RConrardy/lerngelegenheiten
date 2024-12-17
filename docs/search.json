@@ -4585,43 +4585,43 @@
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#tpack-modell",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#tpack-modell",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Abbildung 1: Koehler et al. (2013)"
+    "section": "TPACK-Modell",
+    "text": "TPACK-Modell\n\n\nAbbildung 1: Koehler et al. (2013)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lerntheorien",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lerntheorien",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Behavourismus\nKognitivismus\nKonstruktivismus\nSozialkonstruktivistische Ansätze\n\n(vgl, Kerres, 2018, S. 165)"
+    "section": "Lerntheorien",
+    "text": "Lerntheorien\n\nBehavourismus\nKognitivismus\nKonstruktivismus\nSozialkonstruktivistische Ansätze\n\n(vgl, Kerres, 2018, S. 165)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#medien-im-didaktischen-dreieck",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#medien-im-didaktischen-dreieck",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "(Petko, 2020, S. 120)"
+    "section": "Medien im didaktischen Dreieck",
+    "text": "Medien im didaktischen Dreieck\n(Petko, 2020, S. 120)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#samr---modell",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#samr---modell",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "(puentedura?)"
+    "section": "SAMR - Modell",
+    "text": "SAMR - Modell\n(puentedura?)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lernen-mit-text-bild-und-ton",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#lernen-mit-text-bild-und-ton",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Linearer Text\nHyptertext\nStatische Bilder\nVideos und Animationen\n\n\n(Petko, 2020, S. 57f)"
+    "section": "Lernen mit Text, Bild und Ton",
+    "text": "Lernen mit Text, Bild und Ton\n\nLinearer Text\nHyptertext\nStatische Bilder\nVideos und Animationen\n\n\n(Petko, 2020, S. 57f)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#choose-your-own-adventure",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#choose-your-own-adventure",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Abbildung 2: Choose your own Adventure Quelle"
+    "section": "Choose your own adventure",
+    "text": "Choose your own adventure\n\n\nAbbildung 2: Choose your own Adventure Quelle"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#bibliographie",
@@ -4635,7 +4635,7 @@
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#einführung-in-html-und-css",
     "title": "Mediendidaktik",
     "section": "Einführung in HTML und CSS",
-    "text": "Einführung in HTML und CSS\n\nWas sind HTML und CSS?\n\nHTML: HyperText Markup Language\n\nStruktur einer Webseite\nBeschreibt Inhalte: Texte, Bilder, Links, Tabellen\n\nCSS: Cascading Style Sheets\n\nGestaltung einer Webseite\nFarben, Schriften, Layouts\n\n\n\n\n\nWarum HTML und CSS lernen?\n\nVerständnis der digitalen Welt:\n\nViele Anwendungen basieren auf Web-Technologien.\n\nKreativität und Gestaltung:\n\nEigene Webseiten erstellen und gestalten.\n\nKompetenzvermittlung:\n\nSchüler:innen können einfache Webprojekte entwickeln."
+    "text": "Einführung in HTML und CSS\nWas sind HTML und CSS?\n\nHTML: HyperText Markup Language\n\nStruktur einer Webseite\nBeschreibt Inhalte: Texte, Bilder, Links, Tabellen\n\nCSS: Cascading Style Sheets\n\nGestaltung einer Webseite\nFarben, Schriften, Layouts"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_02.html#html-im-detail",
@@ -4767,29 +4767,29 @@
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#anforderungen",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#anforderungen",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Schulmeister (2005)"
+    "section": "Anforderungen",
+    "text": "Anforderungen\nSchulmeister (2005)"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#klassische-open-source-lms",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#klassische-open-source-lms",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Moodle\nIlias"
+    "section": "Klassische Open-Source LMS",
+    "text": "Klassische Open-Source LMS\n\nMoodle\nIlias"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#lernpfad",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#lernpfad",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "https://lernpfad.ch/team"
+    "section": "Lernpfad",
+    "text": "Lernpfad\nhttps://lernpfad.ch/team"
   },
   {
     "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#franken-lms",
     "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#franken-lms",
     "title": "Mediendidaktik",
-    "section": "",
-    "text": "Monolyth vs Microservices"
+    "section": "Franken-LMS",
+    "text": "Franken-LMS\nMonolyth vs Microservices\n\n\n\n\nSchulmeister, R. (2005). Lernplattformen für das virtuelle Lernen: Evaluation und Didaktik (2. Auflage). Oldenbourg Verlag."
   },
   {
     "objectID": "lerngelegenheiten/LG_math-mikro/Slides_05.html",
@@ -5238,5 +5238,47 @@
     "title": "Mediendidaktik",
     "section": "Bibliographie",
     "text": "Bibliographie\n\n\n\n\nDöbeli Honegger, B. (2017). Mehr als 0 und 1: Schule in einer digitalisierten Welt (2., durchgesehene Auflage). hep verlag."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-3",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_03.html#section-3",
+    "title": "Mediendidaktik",
+    "section": "",
+    "text": "Hasselhorn, M., & Gold, A. (2013). Pädagogische Psychologie: erfolgreiches Lernen und Lehren (3., vollständig überarbeitete und erweiterte Auflage). Verlag W. Kohlhammer."
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#learningview",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#learningview",
+    "title": "Mediendidaktik",
+    "section": "LearningView",
+    "text": "LearningView"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ms-teams",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ms-teams",
+    "title": "Mediendidaktik",
+    "section": "MS-Teams",
+    "text": "MS-Teams"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ms-onenote-classnotebooks",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ms-onenote-classnotebooks",
+    "title": "Mediendidaktik",
+    "section": "MS-OneNote Classnotebooks",
+    "text": "MS-OneNote Classnotebooks"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#google-classrooms",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#google-classrooms",
+    "title": "Mediendidaktik",
+    "section": "Google Classrooms",
+    "text": "Google Classrooms"
+  },
+  {
+    "objectID": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ki-generated",
+    "href": "lerngelegenheiten/LG_digi-mediendidaktik/Slides_04.html#ki-generated",
+    "title": "Mediendidaktik",
+    "section": "KI-generated",
+    "text": "KI-generated"
   }
 ]
