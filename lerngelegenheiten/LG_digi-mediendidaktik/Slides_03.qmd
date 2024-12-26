@@ -14,25 +14,34 @@ subtitle:  Unterricht mit Medien gestalten
 
 ##
 
-::: {#def-1}
+:::{#def-1}
+
 ### Kollaboration 
 
 > Collaboration is a coordinated, synchronous activity that is the result of a continued attempt to construct and maintain a shared conception ofa problem.
 >
+
 ::: quelle
+
 [@roschelle_construction_1995, S.70]
+
 :::
 
 :::
 
 ::: {#def-1}
+
 ### Kooperatives Lernen
 
 > Beim kooperativen (kollaborativen) Lernen arbeiten Schülerinnen und Schüler gemeinsam in kleinen Gruppen, um sich beim Aufbau von Kenntnissen und beim Erwerb von Fertigkeiten gegenseitig zu unterstützen. Das kooperative ist ein aktives, selbständiges und soziales Lernen. Kooperative Lehrformen sind lernerzentriert, denn während des Lernprozesses tritt die Lehrperson im Allgemeinen in den Hintergrund. Mindestens zwei, meist aber drei bis fünf Lernende konstituieren eine Lerngruppe.
 >
+
 ::: quelle
+
 [@hasselhorn_padagogische_2013, S.308]
+
 :::
+
 :::
 
 [vgl, @schulz_diklusive_2021]

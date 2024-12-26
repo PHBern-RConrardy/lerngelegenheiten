@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Noten und Beurteilungsberichte
 subtitle: Grundlagen der Beurteilung
 

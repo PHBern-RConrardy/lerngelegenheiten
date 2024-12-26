@@ -17,6 +17,46 @@ citation:
 [@merz_unterricht_2012, S.6]
 :::
 
+
+##
+
+::: {#def-1}
+##  Medium
+
+#### Medium als stofflicher Vermittler
+
+Weil Stoffe Impuls und Energie übertragen, können sie auch Information übermitteln. Die Übertragung von Schall benötigt z. B. einen vermittelnden Stoff wie Luft.
+
+#### Medium als Kommunikationsmittel
+
+Von der stofflich vermittelten Informationsübertragung wurde der Begriff Medium auf Kommunikationsmittel beliebiger Art zwischen Sendern und Empfängern übertragen. Auch die ältere magische Bedeutung blieb in dieser Vorstellung erhalten.
+
+::: quelle
+[Wikipedia](https://de.wikipedia.org/wiki/Medium_(Kommunikation))
+:::
+:::
+
+##
+
+::: {#exr-1}
+Lesen Sie in Merz et al. [-@merz_unterricht_2012, S.7] die Beschreibung der Handlungsfelder.
+
+Halten Sie schriftlich Ihre Lernbedürfnisse fest, welche Sie in den gegebenen Handlungsfeldern haben.
+:::
+
+## Medium: Text
+
+::: {#exr-1}
+Wir
+
+* benutzen einen Texteditor.
+* schreiben eine .txt Datei.
+* schreiben eine .html Datei.
+* unterscheiden *Markup* von *Style*.
+
+:::
+
+
 ## 
 
 ::: {#fig-ammann}
@@ -24,6 +64,15 @@ citation:
 
 [@ammann_mit_2009, S.9]
 :::
+
+##
+
+::: {#exr-1}
+Lesen Sie in Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@klieme ]
+
+
+:::
+
 
 ## Was ist Informatik?
 

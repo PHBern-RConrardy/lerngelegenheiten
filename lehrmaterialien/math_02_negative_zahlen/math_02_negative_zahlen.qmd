@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Negative Zahlen
 subtitle: Addition, Subtraktion, Multiplikation und Division
 

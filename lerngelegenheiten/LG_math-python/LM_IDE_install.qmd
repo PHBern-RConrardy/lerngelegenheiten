@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Installationsanleitung IDE
 subtitle: Kurzanleitung wie man RStudio oder VSCode für Python und Quarto nutzt
 abstract: >

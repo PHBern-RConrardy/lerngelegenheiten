@@ -21,18 +21,7 @@ draft: true
 
 ## Hintergrund
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 7, 
-  seconds = 0
-)
-```
+(7min)
 
 -   Wer betreibt den Stellwerktest? Gibt es Interessenskonflikte? Wieviel kostet es den Steuerzahler?
 -   Wird er im Kanton Bern durchgeführt? Wie oft? Zu welchem Zweck?

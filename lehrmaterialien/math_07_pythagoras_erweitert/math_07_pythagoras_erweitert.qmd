@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Satzgruppe des Pythagoras
 subtitle: Vertiefung Satz des Pythagoras
 

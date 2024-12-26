@@ -1,10 +1,7 @@
 ---
 title: Urheberrecht
 subtitle: Mediendidaktik
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 categories:
   - Label - Digitalität
 editor: 

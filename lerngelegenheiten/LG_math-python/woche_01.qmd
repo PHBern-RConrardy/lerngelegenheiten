@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Übungen mit Typecasting
 date: 07/18/2024
 ---

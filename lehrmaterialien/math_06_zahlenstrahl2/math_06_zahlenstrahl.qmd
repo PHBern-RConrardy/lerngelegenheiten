@@ -1,8 +1,5 @@
 ---
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
 title: Rationale Zahlen
 subtitle: Brüche kürzen und erweitern, sowie addieren und subtrahieren
 

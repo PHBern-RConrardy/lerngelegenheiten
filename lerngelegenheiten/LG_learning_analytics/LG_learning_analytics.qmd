@@ -1,9 +1,6 @@
 ---
 title: "Learning Analytics"
-format: 
-  html: default
-  pdf: default
-  docx: default
+format: html
   
 categories:
   - Modul - Formative Beurteilung
