@@ -1,0 +1,8 @@
+---
+format: html
+title: subdomains:
+---
+
+* https://ssk.site.phbern.ch
+* https://kompetenzabbildung.phbern.ch/
+* https://arbeitenportal.phbern.ch/
