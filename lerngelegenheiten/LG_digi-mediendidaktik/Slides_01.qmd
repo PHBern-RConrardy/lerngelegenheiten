@@ -1,7 +1,8 @@
 ---
-format: revealjs
+format:
+  revealjs:
+    multiplex: true
 title: "Mediendidaktik"
-
 subtitle: "Rahmenbedingungen"
 
 ---
@@ -163,7 +164,9 @@ Medienbildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
 Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang.
 :::
 
-## 
+## Übung 
+
+{{< countdown "5:00" top=2% right=2% padding="5px 5px" >}}
 
 ::: {#exr-1}
 ## Doppelgänger
@@ -196,10 +199,43 @@ Weshalb könnte in der James Studie 2024 (S.37) der Mittelwert der Internetnutzu
 
 ## Jungendschutz
 
-::: {#exr-1}
-## Crypto Wars
+### Crypto Wars
 
-Informieren Sie sich in einer kurzen Webrecherche über den jetzigen Stand der *Crypto Wars*. Soll der Staat die Möglichkeit erhalten in private Kommunikationskanäle mitzulesen um insb. Pädokriminalität zu bekämpfen?
+Soll der Staat die Möglichkeit erhalten in private Kommunikationskanäle mitzulesen um insb. Pädokriminalität zu bekämpfen?
+
+### Alterssperren
+
+Sollen Platformen sicherstellen müssen, dass Kinder keine gefährdenden Inhalte zu sehen bekommen (vgl. Australien)?
+
+## Hash-Functions
+
+#### Problemstellung
+
+Anbieter muss Passwort vergleichen können ohne das Passwort zu besitzen. Wie geht das?
+
+. . .
+
+#### Gesucht
+
+- One-way-function
+- collision resistance
+
+#### Beispiele
+
+MD5, SHA-256, ... 
+
+## Reality Check
+
+1. Passwort
+2. Salt
+3. 100'000 Hash-Iterationen -> Hash
+4. Speichere *Salt* und *Hash*
+5. Beim Login wird das Passwort mit dem Salt verbunden, gehasht und der Hash verglichen.
+
+::: {.callout-note}
+## Cryptographic Hash Function
+
+CHF haben noch viele andere praktische Anwendungen!
 :::
 
 # Organisation der ICT an Schulen
@@ -221,14 +257,22 @@ Informieren Sie sich in einer kurzen Webrecherche über den jetzigen Stand der *
 
 ## Empfehlungen
 
-"Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
-Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert. "
-
-"Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
-Überprüfung eines ICT-Konzeptes, [...]"
+> Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
+Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.
+>
+> Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
+Überprüfung eines ICT-Konzeptes, [...]
 
 :::quelle
 @erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+## 
+
+::: {#exr-1}
+## Kantonale Empfehlungen
+
+Lesen die kantonalen Empfehlungen.[@erziehungsdirektion_des_kantons_bern_medien_2016]
 :::
 
 ## Weitere Empfehlungen

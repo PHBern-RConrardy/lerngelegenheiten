@@ -1,6 +1,6 @@
 ---
 format: html
-title: subdomains:
+title: subdomains
 ---
 
 * https://ssk.site.phbern.ch
