@@ -164,9 +164,8 @@ Medienbildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
 Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang.
 :::
 
-## Übung 
-
-{{< countdown "5:00" top=2% right=2% padding="5px 5px" >}}
+##  
+{{< countdown "5:00" right=2% padding="5px 5px" >}}
 
 ::: {#exr-1}
 ## Doppelgänger
@@ -268,6 +267,8 @@ Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.
 :::
 
 ## 
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
+
 
 ::: {#exr-1}
 ## Kantonale Empfehlungen
@@ -288,13 +289,13 @@ Lesen die kantonalen Empfehlungen.[@erziehungsdirektion_des_kantons_bern_medien_
 @erziehungsdirektion_des_kantons_bern_medien_2016
 :::
 
-## Spezialistin/Spezialist Medien und Informatik (SMI)
+##
 
 ::: {#fig-smi}
 
 ![](slides_01/smi.png)
 
-[@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
+Spezialistin/Spezialist Medien und Informatik (SMI) [@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
 
 :::
 
@@ -314,15 +315,32 @@ Lesen die kantonalen Empfehlungen.[@erziehungsdirektion_des_kantons_bern_medien_
 [@grosser_gemeinderat_zollikofen_auszug_2020, S.3f]
 :::
 
-## Diskussion
+##
+
+:::{#def-1}
+
+## Prozessorarchitektur
+Die Prozessorarchitektur bezieht sich auf die spezifische Struktur und Organisation eines Prozessors, der ein wesentlicher Bestandteil von Computern und anderen elektronischen Geräten ist
+:::
+
+::: quelle
+[Wikipedia](https://de.wikipedia.org/wiki/Prozessorarchitektur)
+:::
+
+Beispiele: 
+
+x64, ARM, RISV-V
+
 
 # ICT-Konzepte
 
 ## 
-
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
 ::: {#exr-1}
+## ICT-Konzepte
+
 1. Lesen Sie 2 ICT Konzepte durch. 
-2. Diskutieren Sie miteinander was Sie feststellen.
+2. Was stellen Sie fest?
 :::
 
 ## Bibliographie

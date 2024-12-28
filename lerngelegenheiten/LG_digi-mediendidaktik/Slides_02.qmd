@@ -6,27 +6,62 @@ subtitle: Lernverständnis
 
 #  Mediendidaktik als erziehungswissenschaftliche Disziplin 
 
-## TPACK-Modell
+## 
 
 ::: {#fig-2}
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e8/TPACK-new.png)
 
-@koehler_what_2013
+TPACK-Modell [@koehler_what_2013]
 :::
 
-## Lerntheorien
+##
 
-* Behavourismus
-* Kognitivismus
-* Konstruktivismus
-* Sozialkonstruktivistische Ansätze
+Wie verändert Ihr technisches Wissen ihren Unterricht?
 
-[vgl, @kerres_mediendidaktik_2018, S.165]
+##
+{{< countdown "10:00" bottom=2% right=2% padding="5px 5px" >}}
+:::{#exr-1}
+## Lerntheoretische Positionen
+Lesen Sie Kerres [-@kerres_mediendidaktik_2018] ab Seite 146 die Lerntheoretischen Positionen
+:::
+
+:::{#exr-2}
+
+Lösen Sie die Übungen 1 und 2 in Kerres [-@kerres_mediendidaktik_2018] ab Seite 166 
+
+:::
+
+## Künstlich-intelligente Tutorsysteme
+
+:::quelle
+[vgl @kerres_mediendidaktik_2018, S.156]
+:::
+Wie ist künstliche Intelligenz definiert?
+
+[Lösung](https://gmls.phsz.ch/GMLS/WarumWirDenBegriffKIVermeiden)
+
+## 
+
+Wie funktionieren Chatbots?
+
+. . .
+
+[![](https://www.soekia.ch/soekiaGPT.png)](https://www.soekia.ch/gpt.html)
+
+
+## 
+{{< countdown "6:00" bottom=2% right=2% padding="5px 5px" >}}
+
+:::{#exr-1}
 
 ## Medien im didaktischen Dreieck
 
-[@petko_einfuhrung_2020, S.120]
+Lesen Sie in Petko [-@petko_einfuhrung_2020] Seite 120.
+
+Halten Sie jeweils fest welche Medien Sie dazu kennen und zu nutzen wissen und welche sie kennen aber noch nicht zu nutzen wissen.
+:::
+
 
 ## SAMR - Modell
 
