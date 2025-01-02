@@ -7,8 +7,17 @@ subtitle:  Unterricht mit Medien gestalten
 #  Erklär- und Lernvideos 
 
 ## 
+::: {#exr-1}
+## Lehr-Lernfilm
 
-[Digileb](https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/lehr-lernfilm/)
+Informieren Sie sich über [Lehr-Lernfilme auf Digileb](https://digileb.phbern.ch/medien-gestalten-und-nutzen/medien-gestalten/lehr-lernfilm/).
+:::
+
+::: {#exr-1}
+## Lehr-Lernfilm
+
+Nehmen Sie ein Lernvideo für nächstes Mal auf und halten Sie fest, wie Sie es mit einer Klasse teilen.
+:::
 
 #  Kollaboration und Kooperation 
 
@@ -29,6 +38,8 @@ subtitle:  Unterricht mit Medien gestalten
 
 :::
 
+## 
+
 ::: {#def-1}
 
 ### Kooperatives Lernen
@@ -47,6 +58,10 @@ subtitle:  Unterricht mit Medien gestalten
 [vgl, @schulz_diklusive_2021]
 
 ## Werkzeuge
+
+:::{#exr-1}
+Halten Sie fest in welchen digitalen Werkzeug Sie 
+:::
 
 #  Webseiten im Unterricht 
 

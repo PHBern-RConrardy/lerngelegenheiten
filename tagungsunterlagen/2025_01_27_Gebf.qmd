@@ -25,10 +25,55 @@ title-slide-attributes:
       data-background-position: 98% 5%
 code-fold: true
 slide-number: c
+header-includes:
+  - |
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Initialize countdown time (20 minutes in seconds)
+        let countdownTime = 19 * 60; 
+        let countdownElement = document.createElement('div');
+        
+        // Style the countdown element
+        countdownElement.style.position = 'fixed';
+        countdownElement.style.bottom = '10px';
+        countdownElement.style.left = '0%';
+        countdownElement.style.fontSize = '18px';
+        countdownElement.style.fontWeight = 'bold';
+        countdownElement.style.color = 'lightgrey';
+        countdownElement.style.zIndex = '1000';
+        countdownElement.style.backgroundColor = 'white';
+        countdownElement.style.padding = '5px 10px';
+        
+        // Insert countdown into the body
+        countdownElement.innerHTML = formatTime(countdownTime);
+        document.body.appendChild(countdownElement);
+
+        // Timer to update countdown every second
+        let timer = setInterval(function() {
+          countdownTime--;
+          countdownElement.innerHTML = formatTime(countdownTime);
+
+          if (countdownTime <= 0) {
+            clearInterval(timer);
+          }
+        }, 1000);
+
+        // Format time function (show minutes and rounded half-minutes)
+        function formatTime(seconds) {
+          const minutes = Math.floor(seconds / 60);
+          const remainingSeconds = seconds % 60;
+          
+          // Round seconds to nearest half-minute
+          const roundedSeconds = (remainingSeconds < 30) ? 0 : 30;
+          
+          return `${minutes}:${roundedSeconds === 0 ? '00' : '30'}`;  // Show minutes and rounded seconds (00 or 30)
+        }
+      });
+    </script>
 ---
 ## Exploration und Instruktion 
 
-::: {style="text-align: center;"}
+::: {style="text-align: center; width: 90%; margin: 0 auto"}
 ![](2024_11_21_Zukunftsforum/zukunftsforum.webp)
 :::
 
@@ -214,13 +259,26 @@ n=173
 :::
 :::
 
-## Hypothesen 
 
+## 
+
+![](2024_11_21_Zukunftsforum/aufbau.svg)
+
+::: quelle
+
+<span style="background-color: #ffc50b; color: black;  border: 2px solid #ffc50b; padding: 2px;">In class</span>
+<span style="background-color: #094372; color: white;  border: 2px solid #094372; padding: 2px;">Out of class</span>
+
+:::
+
+## Hypothesen 
 
 (1) Engagement is highest during in-class activities, irrespective of variant. 
 (2) Engagement predicts performance.
 (3) The ALT model outperforms the 4F model.
 (4) Mental load does not predict performance.
+
+
 
 # Resultate & Diskussion
 
@@ -993,14 +1051,11 @@ In dieser Lektion hatte ich eine:
 
 . . .
 
-|       | 4F | ALT      |
-|-----------------------|---------------------------|--------------|
-| **Fail**              | in class       | out of class     |
-| **Flip**              | out of class              | in class |
-| **Fix**               | in class                  | in class     |
-| **Feed**              | in class                  | in class     |
+![](2024_11_21_Zukunftsforum/aufbau.svg){width=90%}
 
-## Untersuchungsdesign
+::: quelle
 
-![](2024_11_21_Zukunftsforum/aufbau.jpg)
+<span style="background-color: #ffc50b; color: black;  border: 2px solid #ffc50b; padding: 2px;">In class</span>
+<span style="background-color: #094372; color: white;  border: 2px solid #094372; padding: 2px;">Out of class</span>
 
+:::
