@@ -1,7 +1,17 @@
 ---
 title: "<small>How to flip the right way: <br>Fail, flip, fix and feed in practice</small>"
 subtitle: "12. GEBF-Tagung"
-format: phheidelberg-revealjs
+format: 
+  phheidelberg-revealjs:
+    gongtimer:
+      - allottedTime: 19 # time in minutes
+      - barColor: rgb(255, 197, 11)
+revealjs-plugins: 
+  - gongtimer
+
+
+
+
 date: 27 01 2025
 menu: false
 toc-depth: 1
@@ -1051,6 +1061,8 @@ In dieser Lektion hatte ich eine:
 
 . . .
 
+::: {.columns}
+:::{.column width=80%}
 ![](2024_11_21_Zukunftsforum/aufbau.svg){width=90%}
 
 ::: quelle
@@ -1058,4 +1070,11 @@ In dieser Lektion hatte ich eine:
 <span style="background-color: #ffc50b; color: black;  border: 2px solid #ffc50b; padding: 2px;">In class</span>
 <span style="background-color: #094372; color: white;  border: 2px solid #094372; padding: 2px;">Out of class</span>
 
+:::
+:::
+:::{.column width=20%}
+{{< qrcode https://phbern-rconrardy.github.io/lerngelegenheiten/tagungsunterlagen/2025_01_27_Gebf.html >}}
+
+Slides
+:::
 :::

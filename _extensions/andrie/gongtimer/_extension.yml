@@ -13,10 +13,10 @@ contributes:
       config:
         gongtimer:
           # // - (required) your allotted time for presentation
-          allottedTime: 5
+          allottedTime: 19
           # // - (optional) height of page/time progress bar
-          progressBarHeight: 3
+          progressBarHeight: 4
           # // - (optional) bar color
-          barColor: 'rgb(200,0,0)'
+          barColor: 'rgb(255, 197, 11)'
           # // - (optional) bar color when timer is paused
           pausedBarColor: 'rgba(200,0,0,.6)'
