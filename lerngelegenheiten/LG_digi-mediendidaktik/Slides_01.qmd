@@ -1,9 +1,10 @@
 ---
 format: revealjs
-title: "Mediendidaktik"
-
-subtitle: "Rahmenbedingungen"
-
+title: Mediendidaktik
+subtitle: Rahmenbedingungen
+citation: 
+  author:
+    - Richard Conrardy
 ---
 
 # Begriffsdefinitionen 
@@ -43,10 +44,9 @@ Lesen Sie in Merz et al. [-@merz_unterricht_2012, S.7] die Beschreibung der Hand
 Halten Sie schriftlich Ihre Lernbedürfnisse fest, welche Sie in den gegebenen Handlungsfeldern haben.
 :::
 
-##
+## Medium: Text
 
 ::: {#exr-1}
-## Plaintext
 Wir
 
 * benutzen einen Texteditor.
@@ -68,19 +68,10 @@ Wir
 ##
 
 ::: {#exr-1}
-## Medienkompetenz
+Lesen Sie in Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@klieme ]
 
-Lesen Sie in Ammann [-@ammann_mit_2009]. Ist die beschriebene Medienkompetenz eine Kompetenz gemäss dem Begriff von Weinert [-@weinert_leistungsmessungen_2014]?
 
 :::
-
-::: {#exr-1}
-## Spiegel Artikel
-
-Lesen Sie den Artikel auf [spiegel.de](https://www.spiegel.ltd/ausland/Die-Ampel-bringt-die-deutsche-Wirtschaft-um-a-59c26d99-301d-4205-91f7-20a467543d66.html) über die *deutsche Wirtschaft*. Schreiben Sie in einem Abschnitt welche Informationen Sie aus dem Artikel ziehen.
-*(Hinweis: falls der Artikel nicht mehr verfügbar ist, finden Sie ihn auch auf meinem Zotero)*
-:::
-
 
 
 ## Was ist Informatik?
@@ -94,7 +85,6 @@ Lesen Sie den Artikel auf [spiegel.de](https://www.spiegel.ltd/ausland/Die-Ampel
 ## Definition
 
 ::: {#def-inf}
-## Informatik
 
 Informatik ist die Wissenschaft der strukturierten und automatischen Informationsverarbeitung.
 
@@ -104,103 +94,28 @@ Informatik ist die Wissenschaft der strukturierten und automatischen Information
 
 :::
 
-## 
-
-::: {#exr-1}
-## Terminal / Konsole
-
-Schreiben Sie alle Dateien in einem Ordner in eine Liste.
-
-CMD (Windows):
-
-`dir /b >list.txt`
-
-Bash (Linux, MacOS):
-
-`ls -1 >list.txt`
-
-:::
-
-::: {#exr-1}
-## CSV
-
-Benennen Sie die Datei um als CSV. Mit welchem Programm werden bei Ihnen `.csv` Dateien geöffnet?
-:::
 
 ## Themen der Informatik
 
-. . .
-
-* Theoretische Informatik
+* Angewandte Informatik
 * Technische Informatik
 * Praktische Informatik
-* Angewandte Informatik
+* Theoretische Informatik
 
-::: quelle
-
-[vgl. Wikipedia](https://de.wikipedia.org/wiki/Informatik#K%C3%BCnstliche_Intelligenz)
-:::
-
-## 
-
-::: {.callout-important}
-Medienbildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
-:::
-
-. . .
+## Medien bildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
 
 * Informatik
   * Auto bauen & entwickeln
 * Anwendungskompetenzen
   * Auto bedienen
 * Medienbildung
-  * Verkehrsgerecht fahren
+  * verkehrsgerecht fahren
 
-##
-
-::: {#exr-1}
-
-Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang.
-:::
-
-## 
-
-::: {#exr-1}
-## Doppelgänger
-
-Lesen Sie sich in die Doppelgänger Kampagne ein [@bayerisches_landesamt_fur_verfassungsschutz_doppelganger_2024].
-
-Lesen Sie insbesondere S.16.
-:::
-
-# Medienerfahrung von Jugendlichen
+# Medienderfahrung von Jugendlichen
 
 ## James Studie
 
-::: {#exr-1}
-## Deskriptive Statistik
-
-Nimmt der Konsum digitaler Medien bei Jugendlichen in den letzten Jahren zu oder ab?
-
-:::
-
-::: {#exr-1}
-## Lageparemeter
-
-Weshalb könnte in der James Studie 2024 (S.37) der Mittelwert der Internetnutzungsdauer sich vom Median unterscheiden?
-:::
-
-::: quelle
 [@kulling-knecht_ergebnisbericht_2024]
-:::
-
-## Jungendschutz
-
-::: {#exr-1}
-## Crypto Wars
-
-Informieren Sie sich in einer kurzen Webrecherche über den jetzigen Stand der *Crypto Wars*. Soll der Staat die Möglichkeit erhalten in private Kommunikationskanäle mitzulesen um insb. Pädokriminalität zu bekämpfen?
-:::
 
 # Organisation der ICT an Schulen
 
