@@ -76,18 +76,6 @@ Erstellen wir eine Concept Map am Beispiel von "linearen Gleichungssystemen", vg
 
 ### Auftrag
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 10, 
-  seconds = 0
-)
-```
 
 Verschaffen Sie sich einen Überblick über die Anforderungen der Aufnahmeprüfungen Sek I - Sek II.
 

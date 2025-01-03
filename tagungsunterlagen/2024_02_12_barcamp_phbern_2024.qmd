@@ -62,7 +62,6 @@ if (!requireNamespace("countdown", quietly = TRUE)) {
 }
 
 
-```{r}
 #| echo: true
 #| code-fold: true
 #| code-summary: "Quellcode für den Countdown"

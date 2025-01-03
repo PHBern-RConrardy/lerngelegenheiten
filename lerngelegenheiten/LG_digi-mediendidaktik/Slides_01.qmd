@@ -1,10 +1,10 @@
 ---
-format: revealjs
-title: Mediendidaktik
-subtitle: Rahmenbedingungen
-citation: 
-  author:
-    - Richard Conrardy
+format:
+  revealjs:
+    multiplex: true
+title: "Mediendidaktik"
+subtitle: "Rahmenbedingungen"
+
 ---
 
 # Begriffsdefinitionen 
@@ -109,13 +109,73 @@ Informatik ist die Wissenschaft der strukturierten und automatischen Information
 * Anwendungskompetenzen
   * Auto bedienen
 * Medienbildung
-  * verkehrsgerecht fahren
+  * Verkehrsgerecht fahren
+
+##
+
+::: {#exr-1}
+
+Erklären Sie ihrem Sitznachbarn das gesetzeskonforme (verkehrsgerechte) parkieren im Hang.
+:::
+
+##  
+{{< countdown "5:00" right=2% padding="5px 5px" >}}
+
+::: {#exr-1}
+## Doppelgänger
+
+Lesen Sie sich in die Doppelgänger Kampagne ein [@bayerisches_landesamt_fur_verfassungsschutz_doppelganger_2024].
+
+Lesen Sie insbesondere S.16.
+:::
 
 # Medienderfahrung von Jugendlichen
 
 ## James Studie
 
 [@kulling-knecht_ergebnisbericht_2024]
+:::
+
+## Jungendschutz
+
+### Crypto Wars
+
+Soll der Staat die Möglichkeit erhalten in private Kommunikationskanäle mitzulesen um insb. Pädokriminalität zu bekämpfen?
+
+### Alterssperren
+
+Sollen Platformen sicherstellen müssen, dass Kinder keine gefährdenden Inhalte zu sehen bekommen (vgl. Australien)?
+
+## Hash-Functions
+
+#### Problemstellung
+
+Anbieter muss Passwort vergleichen können ohne das Passwort zu besitzen. Wie geht das?
+
+. . .
+
+#### Gesucht
+
+- One-way-function
+- collision resistance
+
+#### Beispiele
+
+MD5, SHA-256, ... 
+
+## Reality Check
+
+1. Passwort
+2. Salt
+3. 100'000 Hash-Iterationen -> Hash
+4. Speichere *Salt* und *Hash*
+5. Beim Login wird das Passwort mit dem Salt verbunden, gehasht und der Hash verglichen.
+
+::: {.callout-note}
+## Cryptographic Hash Function
+
+CHF haben noch viele andere praktische Anwendungen!
+:::
 
 # Organisation der ICT an Schulen
 
@@ -136,14 +196,24 @@ Informatik ist die Wissenschaft der strukturierten und automatischen Information
 
 ## Empfehlungen
 
-"Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
-Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert. "
-
-"Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
-Überprüfung eines ICT-Konzeptes, [...]"
+> Die Nutzung von digitalen Informations- und Kommunikationstechnologien hat sich neben Lesen,
+Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert.
+>
+> Gemeindebehörden fordern von den Schulen das Erarbeiten und die periodische
+Überprüfung eines ICT-Konzeptes, [...]
 
 :::quelle
 @erziehungsdirektion_des_kantons_bern_medien_2016
+:::
+
+## 
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
+
+
+::: {#exr-1}
+## Kantonale Empfehlungen
+
+Lesen die kantonalen Empfehlungen.[@erziehungsdirektion_des_kantons_bern_medien_2016]
 :::
 
 ## Weitere Empfehlungen
@@ -159,13 +229,13 @@ Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert. "
 @erziehungsdirektion_des_kantons_bern_medien_2016
 :::
 
-## Spezialistin/Spezialist Medien und Informatik (SMI)
+##
 
 ::: {#fig-smi}
 
 ![](slides_01/smi.png)
 
-[@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
+Spezialistin/Spezialist Medien und Informatik (SMI) [@erziehungsdirektion_des_kantons_bern_pflichtenheft_2018, S.3]
 
 :::
 
@@ -185,15 +255,32 @@ Schreiben und Rechnen als Grundkompetenz in der Gesellschaft etabliert. "
 [@grosser_gemeinderat_zollikofen_auszug_2020, S.3f]
 :::
 
-## Diskussion
+##
+
+:::{#def-1}
+
+## Prozessorarchitektur
+Die Prozessorarchitektur bezieht sich auf die spezifische Struktur und Organisation eines Prozessors, der ein wesentlicher Bestandteil von Computern und anderen elektronischen Geräten ist
+:::
+
+::: quelle
+[Wikipedia](https://de.wikipedia.org/wiki/Prozessorarchitektur)
+:::
+
+Beispiele: 
+
+x64, ARM, RISV-V
+
 
 # ICT-Konzepte
 
 ## 
-
+{{< countdown "5:00" bottom=2% right=2% padding="5px 5px" >}}
 ::: {#exr-1}
+## ICT-Konzepte
+
 1. Lesen Sie 2 ICT Konzepte durch. 
-2. Diskutieren Sie miteinander was Sie feststellen.
+2. Was stellen Sie fest?
 :::
 
 ## Bibliographie

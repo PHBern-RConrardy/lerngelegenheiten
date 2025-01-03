@@ -83,18 +83,7 @@ Stellwerk-Profil(Muster)
 
 ## Testen wir es
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 15, 
-  seconds = 0
-)
-```
+
 
 [Beispielaufgaben Mathematik](https://stellwerk.ch/anwendung/#1501167220043-003a5347-edd4)
 
@@ -108,18 +97,6 @@ Achten Sie auf mögliche Messfehler.
 
 ## Bericht
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 15, 
-  seconds = 0
-)
-```
 
 -   Wieviele Lernende der 9. Klasse erreichten die Grundkompetenzen in Mathematik im Kanton Bern?
 -   Ordnen Sie dieses Ergebnis in der Bildungslandschaft ein.
@@ -137,18 +114,6 @@ countdown(
 
 ## Auftrag {.unnumbered .unlisted}
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 15, 
-  seconds = 0
-)
-```
 
 -   Teilen Sie sich in 4 Gruppen ein, je nach Interessenschwerpunkt.
 -   Sichten Sie die auf Ilias zur Verfügung gestellten Materialien.
