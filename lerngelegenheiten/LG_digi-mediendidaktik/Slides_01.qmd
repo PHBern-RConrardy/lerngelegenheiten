@@ -1,7 +1,5 @@
 ---
-format:
-  revealjs:
-    multiplex: true
+format: revealjs
 title: "Mediendidaktik"
 subtitle: "Rahmenbedingungen"
 
