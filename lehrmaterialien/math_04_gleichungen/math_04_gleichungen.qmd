@@ -1,5 +1,5 @@
 ---
-format: pdf
+format: html
 
 title: Gleichungen
 subtitle: Einführung und Theorie
