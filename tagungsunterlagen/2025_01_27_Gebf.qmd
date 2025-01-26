@@ -1,13 +1,7 @@
 ---
 title: "<small>How to flip the right way: <br>Fail, flip, fix and feed in practice</small>"
 subtitle: "12. GEBF-Tagung"
-format: 
-  phheidelberg-revealjs:
-    gongtimer:
-      - allottedTime: 19 # time in minutes
-      - barColor: rgb(255, 197, 11)
-revealjs-plugins: 
-  - gongtimer
+format: phheidelberg-revealjs
 
 
 
@@ -835,6 +829,10 @@ TOST-Äquivalenztest [vgl. @walker_understanding_2010] - Statistically equivalen
 
 ANOVA: $\quad p=0.626$
 
+:::{.fragment .fade-up}
+TOST-Äquivalenztest [vgl. @walker_understanding_2010] - Statistically **not** equivalent *and* not different.
+:::
+
 #### Test
 ```r
 
@@ -1006,6 +1004,33 @@ Model 2: Lernkontrolle_tot ~ 1
 [1] 780.4426
 > AIC(model2_tot)
 [1] 778.6848
+
+TOST results:
+t-value lower bound: -0.79   p-value lower bound: 0.785
+t-value upper bound: -12.79   p-value upper bound: 0.00000000000000000000000009
+degrees of freedom : 143
+
+Equivalence bounds (Cohen's d):
+low eqbound: -0.5 
+high eqbound: 0.5
+
+Equivalence bounds (raw scores):
+low eqbound: -0.0335 
+high eqbound: 0.0335
+
+TOST confidence interval:
+lower bound 90% CI: -0.047
+upper bound 90% CI:  -0.029
+
+NHST confidence interval:
+lower bound 95% CI: -0.049
+upper bound 95% CI:  -0.027
+
+Equivalence Test Result:
+The equivalence test was non-significant, t(143) = -0.790, p = 0.785, given equivalence bounds of -0.0335 and 0.0335 (on a raw scale) and an alpha of 0.05.
+
+Null Hypothesis Test Result:
+The null hypothesis test was significant, t(143) = -6.790, p = 0.000000000278, given an alpha of 0.05.
 ```
 
 #### Instrument
