@@ -15,6 +15,20 @@ subtitle: "Rahmenbedingungen"
 [@merz_unterricht_2012, S.6]
 :::
 
+## Austausch
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+::: {#exr-1}
+Lesen Sie in Merz et al. [-@merz_unterricht_2012, S.7] die Beschreibung der Handlungsfelder.
+
+:::
+
+### Pair 
+
+1. Besprechen Sie mit Ihrer Sitznachbarin in wiefern ihr Fachunterricht (nicht M\&I) **über** Medien ist.
+2. Suchen und besprechen Sie ein Beispiel von gutem Medieneinsatz im (eigenen) Unterricht.
+
+### Share
 
 ##
 
@@ -34,13 +48,46 @@ Von der stofflich vermittelten Informationsübertragung wurde der Begriff Medium
 :::
 :::
 
-##
 
-::: {#exr-1}
-Lesen Sie in Merz et al. [-@merz_unterricht_2012, S.7] die Beschreibung der Handlungsfelder.
+## Digital
 
-Halten Sie schriftlich Ihre Lernbedürfnisse fest, welche Sie in den gegebenen Handlungsfeldern haben.
+
+
+::: {#def-2}
+## Binär
+Binär heisst, dass es nur zwei Zustände gibt. 
+
 :::
+. . . 
+
+::: {#prp-1}
+1 bit (0 xor 1) ist die kleinste Informationseinheit in der Informatik.
+
+(Herkömmliche) Computer speichern und verarbeiten binär.
+:::
+. . .
+
+::: {#def-1}
+## codiert
+
+Codiert heisst, dass es eine bijektive (eineindeutige) Abbildung zwischen zwei Mengen gibt.
+:::
+. . .
+
+::: {#def-1}
+## Digitale Medien
+
+Digital Medien sind Medien welche binär codiert sind.
+:::
+
+## 
+
+::: {#fig-merz}
+![](https://upload.wikimedia.org/wikipedia/commons/4/4c/USASCII_code_chart.svg)
+
+American Standard Code for Information Interchange (ASCII) - (CCO - [Quelle](https://commons.wikimedia.org/wiki/File:USASCII_code_chart.svg) )
+:::
+
 
 ## Medium: Text
 
@@ -48,11 +95,12 @@ Halten Sie schriftlich Ihre Lernbedürfnisse fest, welche Sie in den gegebenen H
 Wir
 
 * benutzen einen Texteditor.
-* schreiben eine .txt Datei.
-* schreiben eine .html Datei.
+* schreiben eine .txt Datei ("plain text").
+* schreiben eine .html Datei mit korrekter HTML-Syntax.
 * unterscheiden *Markup* von *Style*.
 
 :::
+
 
 
 ## 
@@ -64,12 +112,20 @@ Wir
 :::
 
 ##
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+### Think
 
 ::: {#exr-1}
-Lesen Sie in Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@klieme ]
-
+Lesen Sie  Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@klieme_kompetenzkonzepte_2008]
 
 :::
+
+### Pair
+
+Diskutieren mit der Sitznachbarin welche Medienkompetenz sie besitzen.
+
+Zeigen Sie in Lernmaterialien von ihrem Fach, wie Medienkompetenz gelehrt wird.
 
 
 ## Was ist Informatik?

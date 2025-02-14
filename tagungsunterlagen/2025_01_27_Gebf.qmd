@@ -6,7 +6,7 @@ format: phheidelberg-revealjs
 
 
 
-date: 27 01 2025
+date: 28 01 2025
 menu: false
 toc-depth: 1
 author:
@@ -279,7 +279,7 @@ n=173
 
 (1) Engagement is highest during in-class activities, irrespective of variant. 
 (2) Engagement predicts performance.
-(3) The ALT model outperforms the 4F model.
+(3) The 4F model does not outperform the ALT model.
 (4) Mental load does not predict performance.
 
 
@@ -735,7 +735,7 @@ Davids Ergebnisse für Mathematik, Physik und Chemie in den Abschlussprüfungen 
 
 
 
-## 3. The Alt model outperforms the 4F model. {style="font-size:0.6em;"}
+## 3. The 4F model does not outperform the ALT model. {style="font-size:0.6em;"}
 
 
 :::{.panel-tabset}

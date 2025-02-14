@@ -3,3 +3,69 @@ format: revealjs
 title: Mikroplanung Mathematik
 subtitle: Lehrmaterialien und -mittel
 ---
+
+# Kantonale Vorgaben
+
+##
+
+> In der Mathematik und in den Fremdsprachen sind die aufgeführten Lehrmittel obligatorisch und unterrichtsleitend.
+
+::: quelle
+
+[@lehrplan-_und_lehrmittelkommission_hinweise_2025, S.1]
+:::
+
+. . .
+
+::: {callout-tip title=Einschränkung}
+
+Dies bezieht sich ausschliesslich auf öffentliche Schulen im Kanton Bern.
+
+:::
+
+##
+
+-   **«mathbuch 1»** (7. Schuljahr, Ausgabe 2013): Schulbuch 1, Arbeitsheft 1 bzw. 1+ 
+    oder **«Mathbuch 1»** (7. Schuljahr, Neuausgabe 2025): Themenbuch, Arbeitshefte 1G und 1E, Denkspuren\
+-   **«mathbuch 2»** (8. Schuljahr): Schulbuch 2, Arbeitsheft 2 bzw. 2+\
+-   **«mathbuch 3»** (9. Schuljahr): Schulbuch 3 bzw. 3+, Arbeitsheft 3 bzw. 3+
+
+:::quelle
+[@lehrplan-_und_lehrmittelkommission_hinweise_2025, S.2]
+:::
+
+
+
+# Mathbuch
+
+##
+
+::: {.callout-caution title="Transparenzhinweis"}
+
+
+Zwei Arbeitskollegen sind (privat) am Mathbuch beteiligt. 
+
+:::
+
+::: {.callout-tip title= "Hinweis"}
+
+Im FS25 beschränken wir uns noch auf die Ausgabe 2013.
+:::
+
+## Teile
+
+* mathbuch 1
+    * Schulbuch
+    * Arbeitsheft
+* mathbuch 2
+    * Schulbuch
+    * Arbeitsheft
+* mathbuch 3
+    * Schulbuch
+    * Arbeitsheft
+    * Schulbuch+
+    * Arbeitsheft+
+
+# Mathematik
+
+##
