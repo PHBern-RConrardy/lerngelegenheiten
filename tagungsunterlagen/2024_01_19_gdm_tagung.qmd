@@ -126,18 +126,7 @@ Wir benutzen heute folgende Webseiten:
 
 **Probiert eigene Ideen aus.**
 
-```{r}
-#| echo: false
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "2em",
-  margin = "0%",
-  minutes = 10, 
-  seconds = 0
-)
-```
+
 
 # Mathematikverständnis stärken
 

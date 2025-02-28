@@ -8,7 +8,7 @@ theme: [default,styles/phbern_ci.scss]
 date-format: "DD.MM.YYYY" # übliche Daten in der Schweiz
 
 bibliography:     # Liste mite allen Bibliographiedatei
-  - bibliographien/bib_conrardy_full.bib
+  - bibliographien/bibConrardyFull.bib
 csl: bibliographien/apa7.csl          # Zitierstil, wird automatisch angewandt
 
 link-external-newwindow: true  # damit Präsentationen in neuem Tab geöffnet werden.
@@ -58,6 +58,8 @@ website:  # Menüs für die Webseite
       contents:
         - href: lerngelegenheiten/LG_math-mikro/LG_mikroplanungmath.qmd
           text: Semesterübersicht
+        - href: lerngelegenheiten/LG_math-mikro/WL_workload.qmd
+          text: Workload
         - text: "Lernmodule"
           contents: 
           - href: lerngelegenheiten/LG_math-mikro/LM_mikromath_01.qmd
@@ -147,13 +149,12 @@ format:
     code-line-numbers: true
     fig-align: center
     linkcolor: "#AC0101"
-    date: 01/01/2024
 
       
   revealjs: # Einträge nur für Präsentationen
     toc: false
     slide-number: false
-    chalkboard: true
+    chalkboard: false
     toc-title: "Inhalt"
     footer: "[PHBern, Institut Sekundarstufe 1,](https://www.phbern.ch/studium/sekundarstufe-i)  Richard Conrardy, Dozent"
     title-slide-attributes: 
@@ -161,9 +162,40 @@ format:
       data-background-size: 12%
       data-background-position: 94% 99%
     scrollable: true
-    logo: images/penguin.png
     hide-inactive-cursor: true
-    controls: true
+    header-includes:
+      - |
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            let timeElement = document.createElement('div');
+            
+            // Style the time element
+            timeElement.style.position = 'fixed';
+            timeElement.style.bottom = '10px';
+            timeElement.style.left = '0%';
+            timeElement.style.fontSize = '24px';
+            timeElement.style.fontWeight = 'bold';
+            timeElement.style.color = 'lightgrey';
+            timeElement.style.zIndex = '1000';
+            timeElement.style.backgroundColor = 'white';
+            timeElement.style.padding = '5px 10px';
+            
+            // Insert time element into the body
+            document.body.appendChild(timeElement);
+
+            // Function to update the time
+            function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            timeElement.innerHTML = `${hours}:${minutes}`;
+            }
+
+            // Update the time every second
+            updateTime();
+            setInterval(updateTime, 1000);
+        });
+        </script>
     
   phheidelberg-revealjs:
     scrollable: true

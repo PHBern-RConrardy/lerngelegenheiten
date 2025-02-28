@@ -111,13 +111,31 @@ Wir
 [@ammann_mit_2009, S.9]
 :::
 
+## Medienkompetenz
+
+{{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
+
+:::{#fig-1 .center}
+<center>
+{{< qrcode https://www.spiegel.ltd/ausland/Die-Ampel-bringt-die-deutsche-Wirtschaft-um-a-59c26d99-301d-4205-91f7-20a467543d66.html width=400 height=400 >}}
+</center>
+
+ [Spiegel](https://www.spiegel.ltd/ausland/Die-Ampel-bringt-die-deutsche-Wirtschaft-um-a-59c26d99-301d-4205-91f7-20a467543d66.html)
+:::
+
+::: {#exr-1}
+Geben Sie die wichtigsten Punkte vom Artikel wieder.
+:::
+
+
+
 ##
 {{< countdown "6:00" right=2% top = 1% padding="5px 5px" update_every=30 >}}
 
 ### Think
 
 ::: {#exr-1}
-Lesen Sie  Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@klieme_kompetenzkonzepte_2008]
+Lesen Sie  Ammann [-@ammann_mit_2009]. Vergleichen Sei den Kompetenzbegriff mit den Begriffen von Weinert [-@weinert_leistungsmessungen_2014] aus der Sekundarstufe 1 und Klieme [-@prenzel_kompetenzkonzepte_2008]
 
 :::
 
@@ -156,7 +174,9 @@ Informatik ist die Wissenschaft der strukturierten und automatischen Information
 * Praktische Informatik
 * Theoretische Informatik
 
-## Medien bildung, Informatik und Anwendungskompetenzen sind nicht dasselbe
+## 
+
+**Medienbildung, Informatik und Anwendungskompetenzen sind nicht dasselbe**
 
 * Informatik
   * Auto bauen & entwickeln
@@ -187,8 +207,8 @@ Lesen Sie insbesondere S.16.
 
 ## James Studie
 
-[@kulling-knecht_ergebnisbericht_2024]
-:::
+Verschaffen Sie sich einen Überblick über die gesammelten Daten in der *James-Studie* 2024 [@kulling-knecht_ergebnisbericht_2024].
+
 
 ## Jungendschutz
 

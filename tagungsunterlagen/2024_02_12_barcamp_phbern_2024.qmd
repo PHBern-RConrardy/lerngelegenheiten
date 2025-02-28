@@ -56,25 +56,7 @@ author:
 </iframe>
 
 ## Workshop
-```{r}
-if (!requireNamespace("countdown", quietly = TRUE)) {
-    install.packages("countdown")
-}
 
-
-#| echo: true
-#| code-fold: true
-#| code-summary: "Quellcode für den Countdown"
-library (countdown)
-countdown(
-  right = 0,
-  top = 0,
-  font_size = "1.5em",
-  margin = "0%",
-  minutes = 20, 
-  seconds = 0
-)
-```
 
 
 ## Creative Coding - Sonja Schär{.unlisted}
